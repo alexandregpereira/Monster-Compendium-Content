@@ -7,7 +7,7 @@
         "challenge_rating": 10.0,
         "name": "Aboleth",
         "subtitle": "Large aberration, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/aboleth.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/aboleth.png",
         "background_color": {
             "light": "#77ecf0",
             "dark": "#0f858a"
@@ -136,6 +136,14 @@
                     {
                         "dice": "2d6+5",
                         "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "1d12",
+                        "damage": {
                             "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
@@ -182,7 +190,7 @@
         "challenge_rating": 14.0,
         "name": "Adult Black Dragon",
         "subtitle": "Huge dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-black-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-black-dragon.png",
         "background_color": {
             "light": "#f0cd75",
             "dark": "#8a670f"
@@ -408,7 +416,7 @@
         "challenge_rating": 16.0,
         "name": "Adult Blue Dragon",
         "subtitle": "Huge dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-blue-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-blue-dragon.png",
         "background_color": {
             "light": "#f0b675",
             "dark": "#8a500f"
@@ -630,7 +638,7 @@
         "challenge_rating": 13.0,
         "name": "Adult Brass Dragon",
         "subtitle": "Huge dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-brass-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-brass-dragon.png",
         "background_color": {
             "light": "#f08275",
             "dark": "#4d0f09"
@@ -846,7 +854,7 @@
         "challenge_rating": 15.0,
         "name": "Adult Bronze Dragon",
         "subtitle": "Huge dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-bronze-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-bronze-dragon.png",
         "background_color": {
             "light": "#f0c975",
             "dark": "#8a630f"
@@ -1061,7 +1069,7 @@
         "challenge_rating": 14.0,
         "name": "Adult Copper Dragon",
         "subtitle": "Huge dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-copper-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-copper-dragon.png",
         "background_color": {
             "light": "#f08b75",
             "dark": "#80220e"
@@ -1272,7 +1280,7 @@
         "challenge_rating": 17.0,
         "name": "Adult Gold Dragon",
         "subtitle": "Huge dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-gold-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-gold-dragon.png",
         "background_color": {
             "light": "#faad6b",
             "dark": "#944705"
@@ -1492,7 +1500,7 @@
         "challenge_rating": 15.0,
         "name": "Adult Green Dragon",
         "subtitle": "Huge dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-green-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-green-dragon.png",
         "background_color": {
             "light": "#cbf075",
             "dark": "#52700c"
@@ -1738,7 +1746,7 @@
         "challenge_rating": 17.0,
         "name": "Adult Red Dragon",
         "subtitle": "Huge dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-red-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-red-dragon.png",
         "background_color": {
             "light": "#f08e75",
             "dark": "#8a280f"
@@ -1967,7 +1975,7 @@
         "challenge_rating": 16.0,
         "name": "Adult Silver Dragon",
         "subtitle": "Huge dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-silver-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-silver-dragon.png",
         "background_color": {
             "light": "#75dbf0",
             "dark": "#0f758a"
@@ -2177,7 +2185,7 @@
         "challenge_rating": 13.0,
         "name": "Adult White Dragon",
         "subtitle": "Huge dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/adult-white-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-white-dragon.png",
         "background_color": {
             "light": "#75f0c5",
             "dark": "#0f8a5f"
@@ -2409,7 +2417,7 @@
         "challenge_rating": 5.0,
         "name": "Air Elemental",
         "subtitle": "Large elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/air-elemental.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/air-elemental.png",
         "background_color": {
             "light": "#7595f0",
             "dark": "#0f2f8a"
@@ -2605,7 +2613,7 @@
         "challenge_rating": 21.0,
         "name": "Ancient Black Dragon",
         "subtitle": "Gargantuan dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-black-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-black-dragon.png",
         "background_color": {
             "light": "#f0cf75",
             "dark": "#8a690f"
@@ -2831,7 +2839,7 @@
         "challenge_rating": 23.0,
         "name": "Ancient Blue Dragon",
         "subtitle": "Gargantuan dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-blue-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-blue-dragon.png",
         "background_color": {
             "light": "#75c0f0",
             "dark": "#0f5a8a"
@@ -3022,6 +3030,14 @@
             },
             {
                 "damage_dices": [
+                    {
+                        "dice": "16d10",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
+                        }
+                    }
                 ],
                 "attack_bonus": null,
                 "description": "The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.",
@@ -3041,7 +3057,7 @@
         "challenge_rating": 20.0,
         "name": "Ancient Brass Dragon",
         "subtitle": "Gargantuan dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-brass-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-brass-dragon.png",
         "background_color": {
             "light": "#f0c575",
             "dark": "#432e07"
@@ -3264,7 +3280,7 @@
         "challenge_rating": 22.0,
         "name": "Ancient Bronze Dragon",
         "subtitle": "Gargantuan dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-bronze-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-bronze-dragon.png",
         "background_color": {
             "light": "#f0c675",
             "dark": "#8a600f"
@@ -3486,7 +3502,7 @@
         "challenge_rating": 21.0,
         "name": "Ancient Copper Dragon",
         "subtitle": "Gargantuan dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-copper-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-copper-dragon.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#8a3c0f"
@@ -3704,7 +3720,7 @@
         "challenge_rating": 24.0,
         "name": "Ancient Gold Dragon",
         "subtitle": "Gargantuan dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-gold-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-gold-dragon.png",
         "background_color": {
             "light": "#f9c06c",
             "dark": "#935a06"
@@ -3931,7 +3947,7 @@
         "challenge_rating": 22.0,
         "name": "Ancient Green Dragon",
         "subtitle": "Gargantuan dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-green-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-green-dragon.png",
         "background_color": {
             "light": "#cbf075",
             "dark": "#658a0f"
@@ -4177,7 +4193,7 @@
         "challenge_rating": 24.0,
         "name": "Ancient Red Dragon",
         "subtitle": "Gargantuan dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-red-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-red-dragon.png",
         "background_color": {
             "light": "#f08f75",
             "dark": "#8a290f"
@@ -4399,7 +4415,7 @@
         "challenge_rating": 23.0,
         "name": "Ancient Silver Dragon",
         "subtitle": "Gargantuan dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-silver-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-silver-dragon.png",
         "background_color": {
             "light": "#75dbf0",
             "dark": "#0f758a"
@@ -4616,7 +4632,7 @@
         "challenge_rating": 20.0,
         "name": "Ancient White Dragon",
         "subtitle": "Gargantuan dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ancient-white-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-white-dragon.png",
         "background_color": {
             "light": "#75f0c5",
             "dark": "#0f8a5f"
@@ -4848,7 +4864,7 @@
         "challenge_rating": 17.0,
         "name": "Androsphinx",
         "subtitle": "Large monstrosity, lawful neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/androsphinx.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/androsphinx.png",
         "background_color": {
             "light": "#f1b081",
             "dark": "#8a430f"
@@ -5053,7 +5069,7 @@
         "challenge_rating": 1.0,
         "name": "Animated Armor",
         "subtitle": "Medium construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/animated-armor.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/animated-armor.png",
         "background_color": {
             "light": "#f6b3ab",
             "dark": "#8a1b0f"
@@ -5221,7 +5237,7 @@
         "challenge_rating": 2.0,
         "name": "Ankheg",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ankheg.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ankheg.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#8a3c0f"
@@ -5354,7 +5370,7 @@
         "challenge_rating": 12.0,
         "name": "Archmage",
         "subtitle": "Medium humanoid(any race), any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/archmage.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/archmage.png",
         "background_color": {
             "light": "#f0be75",
             "dark": "#67420b"
@@ -5554,7 +5570,7 @@
         "challenge_rating": 8.0,
         "name": "Assassin",
         "subtitle": "Medium humanoid(any race), any non-good alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/assassin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/assassin.png",
         "background_color": {
             "light": "#b9f075",
             "dark": "#538a0f"
@@ -5741,7 +5757,7 @@
         "challenge_rating": 2.0,
         "name": "Azer",
         "subtitle": "Medium elemental, lawful neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/azer.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/azer.png",
         "background_color": {
             "light": "#f0b475",
             "dark": "#6f3f0c"
@@ -5883,7 +5899,7 @@
         "challenge_rating": 0.0,
         "name": "Badger",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/badger.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/badger.png",
         "background_color": {
             "light": "#75b3f0",
             "dark": "#072543"
@@ -5996,7 +6012,7 @@
         "challenge_rating": 19.0,
         "name": "Balor",
         "subtitle": "Huge fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/balor.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/balor.png",
         "background_color": {
             "light": "#f0a375",
             "dark": "#8a3d0f"
@@ -6238,7 +6254,7 @@
         "challenge_rating": 2.0,
         "name": "Bandit Captain",
         "subtitle": "Medium humanoid(any race), any non-lawful alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bandit-captain.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bandit-captain.png",
         "background_color": {
             "light": "#f0758d",
             "dark": "#870f26"
@@ -6387,7 +6403,7 @@
         "challenge_rating": 5.0,
         "name": "Barbed Devil",
         "subtitle": "Medium fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/barbed-devil.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/barbed-devil.png",
         "background_color": {
             "light": "#f0c875",
             "dark": "#8a620f"
@@ -6614,7 +6630,7 @@
         "challenge_rating": 3.0,
         "name": "Basilisk",
         "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/basilisk.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/basilisk.png",
         "background_color": {
             "light": "#75dff0",
             "dark": "#0f798a"
@@ -6729,7 +6745,7 @@
         "challenge_rating": 0.0,
         "name": "Bat",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bat.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bat.png",
         "background_color": {
             "light": "#f0be75",
             "dark": "#8a580f"
@@ -6846,7 +6862,7 @@
         "challenge_rating": 3.0,
         "name": "Bearded Devil",
         "subtitle": "Medium fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bearded-devil.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bearded-devil.png",
         "background_color": {
             "light": "#f0b475",
             "dark": "#8a4e0f"
@@ -7038,7 +7054,7 @@
         "challenge_rating": 11.0,
         "name": "Behir",
         "subtitle": "Huge monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/behir.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/behir.png",
         "background_color": {
             "light": "#75cff0",
             "dark": "#094054"
@@ -7222,7 +7238,7 @@
         "challenge_rating": 2.0,
         "name": "Black Dragon Wyrmling",
         "subtitle": "Medium dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/black-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/black-dragon-wyrmling.png",
         "background_color": {
             "light": "#9cf075",
             "dark": "#368a0f"
@@ -7400,7 +7416,7 @@
         "challenge_rating": 4.0,
         "name": "Black Pudding",
         "subtitle": "Large ooze, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/black-pudding.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/black-pudding.png",
         "background_color": {
             "light": "#f09e75",
             "dark": "#8a380f"
@@ -7579,7 +7595,7 @@
         "challenge_rating": 0.25,
         "name": "Blink Dog",
         "subtitle": "Medium fey, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/blink-dog.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/blink-dog.png",
         "background_color": {
             "light": "#f0bd75",
             "dark": "#8a570f"
@@ -7702,7 +7718,7 @@
         "challenge_rating": 3.0,
         "name": "Blue Dragon Wyrmling",
         "subtitle": "Medium dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/blue-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/blue-dragon-wyrmling.png",
         "background_color": {
             "light": "#75c0f0",
             "dark": "#0f5a8a"
@@ -7876,7 +7892,7 @@
         "challenge_rating": 12.0,
         "name": "Bone Devil",
         "subtitle": "Large fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bone-devil.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bone-devil.png",
         "background_color": {
             "light": "#f07d75",
             "dark": "#8a170f"
@@ -8088,7 +8104,7 @@
         "challenge_rating": 1.0,
         "name": "Brass Dragon Wyrmling",
         "subtitle": "Medium dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/brass-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/brass-dragon-wyrmling.png",
         "background_color": {
             "light": "#f0c575",
             "dark": "#432e07"
@@ -8246,7 +8262,7 @@
         "challenge_rating": 2.0,
         "name": "Bronze Dragon Wyrmling",
         "subtitle": "Medium dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bronze-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bronze-dragon-wyrmling.png",
         "background_color": {
             "light": "#f3b472",
             "dark": "#311b04"
@@ -8408,7 +8424,7 @@
         "challenge_rating": 1.0,
         "name": "Bugbear",
         "subtitle": "Medium humanoid(goblinoid), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bugbear.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bugbear.png",
         "background_color": {
             "light": "#f1a174",
             "dark": "#60290a"
@@ -8544,7 +8560,7 @@
         "challenge_rating": 5.0,
         "name": "Bulette",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/bulette.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bulette.png",
         "background_color": {
             "light": "#f0c175",
             "dark": "#8a5b0f"
@@ -8670,7 +8686,7 @@
         "challenge_rating": 2.0,
         "name": "Centaur",
         "subtitle": "Large monstrosity, neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/centaur.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/centaur.png",
         "background_color": {
             "light": "#f0c475",
             "dark": "#523809"
@@ -8821,186 +8837,6 @@
         }
     },
     {
-        "index": "chain-devil",
-        "type": "FIEND",
-        "subtype": "devil",
-        "group": "Devils",
-        "challenge_rating": 8.0,
-        "name": "Chain Devil",
-        "subtitle": "Medium fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/chain-devil.png",
-        "background_color": {
-            "light": "#f07585",
-            "dark": "#8a0f1f"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "lawful evil",
-        "armor_class": 16,
-        "hit_points": 85,
-        "hit_dice": "10d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 14,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 7
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 4
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 5
-            }
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-            {
-                "index": "cold",
-                "type": "COLD",
-                "name": "Cold"
-            },
-            {
-                "index": "bludgeoning*",
-                "type": "BLUDGEONING",
-                "name": "Bludgeoning*"
-            },
-            {
-                "index": "piercing*",
-                "type": "PIERCING",
-                "name": "Piercing*"
-            },
-            {
-                "index": "slashing*",
-                "type": "SLASHING",
-                "name": "Slashing*"
-            },
-            {
-                "index": "*bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
-                "type": "OTHER",
-                "name": "*bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-            }
-        ],
-        "damage_immunities": [
-            {
-                "index": "fire",
-                "type": "FIRE",
-                "name": "Fire"
-            },
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-            "darkvision 120 ft.",
-            "passive Perception 11"
-        ],
-        "languages": "Infernal, telepathy 120 ft.",
-        "special_abilities": [
-            {
-                "name": "Devil's Sight",
-                "desc": "Magical darkness doesn't impede the devil's darkvision."
-            },
-            {
-                "name": "Magic Resistance",
-                "desc": "The devil has advantage on saving throws against spells and other magical effects."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The devil makes two attacks with its chains.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+4",
-                        "damage": {
-                            "index": "slashing",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 8,
-                "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing damage. The target is grappled (escape DC 14) if the devil isn't already grappling a creature. Until this grapple ends, the target is restrained and takes 7 (2d6) piercing damage at the start of each of its turns.",
-                "name": "Chain"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried.\nEach animated chain is an object with AC 20, 20 hit points, resistance to piercing damage, and immunity to psychic and thunder damage. When the devil uses Multiattack on its turn, it can use each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies.",
-                "name": "Animate Chains"
-            }
-        ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
         "index": "chimera",
         "type": "MONSTROSITY",
         "subtype": null,
@@ -9008,7 +8844,7 @@
         "challenge_rating": 6.0,
         "name": "Chimera",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/chimera.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/chimera.png",
         "background_color": {
             "light": "#f4d0a0",
             "dark": "#8a560f"
@@ -9174,7 +9010,7 @@
         "challenge_rating": 4.0,
         "name": "Chuul",
         "subtitle": "Large aberration, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/chuul.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/chuul.png",
         "background_color": {
             "light": "#d8f49c",
             "dark": "#638a0f"
@@ -9320,7 +9156,7 @@
         "challenge_rating": 9.0,
         "name": "Clay Golem",
         "subtitle": "Large construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/clay-golem.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/clay-golem.png",
         "background_color": {
             "light": "#f0af75",
             "dark": "#7c420e"
@@ -9522,7 +9358,7 @@
         "challenge_rating": 8.0,
         "name": "Cloaker",
         "subtitle": "Large aberration, chaotic neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/cloaker.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cloaker.png",
         "background_color": {
             "light": "#f0b175",
             "dark": "#5f340a"
@@ -9684,7 +9520,7 @@
         "challenge_rating": 9.0,
         "name": "Cloud Giant",
         "subtitle": "Huge giant, neutral good (50%) or neutral evil (50%)",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/cloud-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cloud-giant.png",
         "background_color": {
             "light": "#75f0bb",
             "dark": "#0f8a55"
@@ -9841,7 +9677,7 @@
         "challenge_rating": 0.5,
         "name": "Cockatrice",
         "subtitle": "Small monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/cockatrice.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cockatrice.png",
         "background_color": {
             "light": "#f09375",
             "dark": "#812a0e"
@@ -9950,7 +9786,7 @@
         "challenge_rating": 1.0,
         "name": "Copper Dragon Wyrmling",
         "subtitle": "Medium dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/copper-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/copper-dragon-wyrmling.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#8a3c0f"
@@ -10108,7 +9944,7 @@
         "challenge_rating": 4.0,
         "name": "Couatl",
         "subtitle": "Medium celestial, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/couatl.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/couatl.png",
         "background_color": {
             "light": "#f09375",
             "dark": "#8a2d0f"
@@ -10296,7 +10132,7 @@
         "challenge_rating": 2.0,
         "name": "Cult Fanatic",
         "subtitle": "Medium humanoid(any race), any non-good alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/cult-fanatic.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cult-fanatic.png",
         "background_color": {
             "light": "#f08b75",
             "dark": "#8a250f"
@@ -10428,7 +10264,7 @@
         "challenge_rating": 0.125,
         "name": "Cultist",
         "subtitle": "Medium humanoid(any race), any non-good alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/cultist.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cultist.png",
         "background_color": {
             "light": "#f6d4b2",
             "dark": "#8a4d0f"
@@ -10544,7 +10380,7 @@
         "challenge_rating": 0.5,
         "name": "Darkmantle",
         "subtitle": "Small monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/darkmantle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/darkmantle.png",
         "background_color": {
             "light": "#f0c875",
             "dark": "#8a620f"
@@ -10673,7 +10509,7 @@
         "challenge_rating": 1.0,
         "name": "Death Dog",
         "subtitle": "Medium monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/death-dog.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/death-dog.png",
         "background_color": {
             "light": "#f09f75",
             "dark": "#8a390f"
@@ -10797,7 +10633,7 @@
         "challenge_rating": 0.5,
         "name": "Deep Gnome (Svirfneblin)",
         "subtitle": "Small humanoid(gnome), neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/deep-gnome-svirfneblin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/deep-gnome-svirfneblin.png",
         "background_color": {
             "light": "#f09c75",
             "dark": "#8a360f"
@@ -10942,7 +10778,7 @@
         "challenge_rating": 10.0,
         "name": "Deva",
         "subtitle": "Medium celestial, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/deva.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/deva.png",
         "background_color": {
             "light": "#f0c475",
             "dark": "#8a5e0f"
@@ -11152,7 +10988,7 @@
         "challenge_rating": 1.0,
         "name": "Dire Wolf",
         "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/dire-wolf.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dire-wolf.png",
         "background_color": {
             "light": "#f09a75",
             "dark": "#8a340f"
@@ -11272,7 +11108,7 @@
         "challenge_rating": 11.0,
         "name": "Djinni",
         "subtitle": "Large elemental, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/djinni.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/djinni.png",
         "background_color": {
             "light": "#f07a75",
             "dark": "#8a140f"
@@ -11432,7 +11268,7 @@
         "challenge_rating": 3.0,
         "name": "Doppelganger",
         "subtitle": "Medium monstrosity(shapechanger), unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/doppelganger.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/doppelganger.png",
         "background_color": {
             "light": "#f09275",
             "dark": "#832a0f"
@@ -11576,7 +11412,7 @@
         "challenge_rating": 17.0,
         "name": "Dragon Turtle",
         "subtitle": "Gargantuan dragon, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/dragon-turtle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dragon-turtle.png",
         "background_color": {
             "light": "#75e7f0",
             "dark": "#0f818a"
@@ -11761,7 +11597,7 @@
         "challenge_rating": 0.25,
         "name": "Dretch",
         "subtitle": "Small fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/dretch.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dretch.png",
         "background_color": {
             "light": "#b3f075",
             "dark": "#4d8a0f"
@@ -11918,7 +11754,7 @@
         "challenge_rating": 6.0,
         "name": "Drider",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/drider.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/drider.png",
         "background_color": {
             "light": "#f08275",
             "dark": "#8a1c0f"
@@ -12102,7 +11938,7 @@
         "challenge_rating": 0.25,
         "name": "Drow",
         "subtitle": "Medium humanoid(elf), neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/drow.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/drow.png",
         "background_color": {
             "light": "#9575f0",
             "dark": "#2f0f8a"
@@ -12242,7 +12078,7 @@
         "challenge_rating": 2.0,
         "name": "Druid",
         "subtitle": "Medium humanoid(any race), any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/druid.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/druid.png",
         "background_color": {
             "light": "#f0a875",
             "dark": "#8a420f"
@@ -12355,7 +12191,7 @@
         "challenge_rating": 1.0,
         "name": "Dryad",
         "subtitle": "Medium fey, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/dryad.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dryad.png",
         "background_color": {
             "light": "#f0d475",
             "dark": "#8a6e0f"
@@ -12491,7 +12327,7 @@
         "challenge_rating": 1.0,
         "name": "Duergar",
         "subtitle": "Medium humanoid(dwarf), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/duergar.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/duergar.png",
         "background_color": {
             "light": "#75b1f0",
             "dark": "#0f4b8a"
@@ -12636,7 +12472,7 @@
         "challenge_rating": 0.5,
         "name": "Dust Mephit",
         "subtitle": "Small elemental, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/dust-mephit.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dust-mephit.png",
         "background_color": {
             "light": "#f0c675",
             "dark": "#8a600f"
@@ -12792,7 +12628,7 @@
         "challenge_rating": 0.0,
         "name": "Eagle",
         "subtitle": "Small beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/eagle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/eagle.png",
         "background_color": {
             "light": "#f0b475",
             "dark": "#8a4e0f"
@@ -12909,7 +12745,7 @@
         "challenge_rating": 5.0,
         "name": "Earth Elemental",
         "subtitle": "Large elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/earth-elemental.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/earth-elemental.png",
         "background_color": {
             "light": "#f09c75",
             "dark": "#7d310e"
@@ -13089,7 +12925,7 @@
         "challenge_rating": 11.0,
         "name": "Efreeti",
         "subtitle": "Large elemental, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/efreeti.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/efreeti.png",
         "background_color": {
             "light": "#f0c475",
             "dark": "#593d0a"
@@ -13260,7 +13096,7 @@
         "challenge_rating": 12.0,
         "name": "Erinyes",
         "subtitle": "Medium fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/erinyes.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/erinyes.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#351706"
@@ -13474,7 +13310,7 @@
         "challenge_rating": 2.0,
         "name": "Ettercap",
         "subtitle": "Medium monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ettercap.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ettercap.png",
         "background_color": {
             "light": "#b575f0",
             "dark": "#4f0f8a"
@@ -13662,7 +13498,7 @@
         "challenge_rating": 4.0,
         "name": "Ettin",
         "subtitle": "Large giant, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ettin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ettin.png",
         "background_color": {
             "light": "#f08a75",
             "dark": "#8a240f"
@@ -13800,7 +13636,7 @@
         "challenge_rating": 5.0,
         "name": "Fire Elemental",
         "subtitle": "Large elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/fire-elemental.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/fire-elemental.png",
         "background_color": {
             "light": "#f19574",
             "dark": "#8b2f0e"
@@ -13992,7 +13828,7 @@
         "challenge_rating": 9.0,
         "name": "Fire Giant",
         "subtitle": "Huge giant, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/fire-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/fire-giant.png",
         "background_color": {
             "light": "#f28e91",
             "dark": "#8a0f13"
@@ -14146,7 +13982,7 @@
         "challenge_rating": 5.0,
         "name": "Flesh Golem",
         "subtitle": "Medium construct, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/flesh-golem.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/flesh-golem.png",
         "background_color": {
             "light": "#f0b275",
             "dark": "#8a4c0f"
@@ -14340,7 +14176,7 @@
         "challenge_rating": 0.125,
         "name": "Flying Snake",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/flying-snake.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/flying-snake.png",
         "background_color": {
             "light": "#f0ae75",
             "dark": "#783e0d"
@@ -14467,7 +14303,7 @@
         "challenge_rating": 0.25,
         "name": "Flying Sword",
         "subtitle": "Small construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/flying-sword.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/flying-sword.png",
         "background_color": {
             "light": "#75ddf0",
             "dark": "#0f778a"
@@ -14634,7 +14470,7 @@
         "challenge_rating": 0.0,
         "name": "Frog",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/frog.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/frog.png",
         "background_color": {
             "light": "#bef075",
             "dark": "#588a0f"
@@ -14746,7 +14582,7 @@
         "challenge_rating": 8.0,
         "name": "Frost Giant",
         "subtitle": "Huge giant, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/frost-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/frost-giant.png",
         "background_color": {
             "light": "#75f0f0",
             "dark": "#0f8a8a"
@@ -14900,7 +14736,7 @@
         "challenge_rating": 2.0,
         "name": "Gargoyle",
         "subtitle": "Medium elemental, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gargoyle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gargoyle.png",
         "background_color": {
             "light": "#f09175",
             "dark": "#8a2b0f"
@@ -15075,7 +14911,7 @@
         "challenge_rating": 2.0,
         "name": "Gelatinous Cube",
         "subtitle": "Large ooze, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gelatinous-cube.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gelatinous-cube.png",
         "background_color": {
             "light": "#8ed3f2",
             "dark": "#0f638a"
@@ -15231,7 +15067,7 @@
         "challenge_rating": 2.0,
         "name": "Ghast",
         "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ghast.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ghast.png",
         "background_color": {
             "light": "#f0b075",
             "dark": "#8a4a0f"
@@ -15292,12 +15128,17 @@
         "damage_vulnerabilities": [
         ],
         "damage_resistances": [
-        ],
-        "damage_immunities": [
             {
                 "index": "necrotic",
                 "type": "NECROTIC",
                 "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "posion",
+                "type": "OTHER",
+                "name": "Posion"
             }
         ],
         "condition_immunities": [
@@ -15305,6 +15146,16 @@
                 "index": "poisoned",
                 "type": "POISONED",
                 "name": "Poisoned"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
             }
         ],
         "senses": [
@@ -15367,7 +15218,7 @@
         "challenge_rating": 4.0,
         "name": "Ghost",
         "subtitle": "Medium undead, any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ghost.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ghost.png",
         "background_color": {
             "light": "#75daf0",
             "dark": "#0f748a"
@@ -15605,7 +15456,7 @@
         "challenge_rating": 1.0,
         "name": "Ghoul",
         "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ghoul.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ghoul.png",
         "background_color": {
             "light": "#75eaf0",
             "dark": "#0f848a"
@@ -15668,12 +15519,27 @@
         "damage_resistances": [
         ],
         "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
         ],
         "condition_immunities": [
             {
                 "index": "poisoned",
                 "type": "POISONED",
                 "name": "Poisoned"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
             }
         ],
         "senses": [
@@ -15728,7 +15594,7 @@
         "challenge_rating": 0.25,
         "name": "Giant Badger",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-badger.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-badger.png",
         "background_color": {
             "light": "#75b3f0",
             "dark": "#072543"
@@ -15863,7 +15729,7 @@
         "challenge_rating": 1.0,
         "name": "Giant Eagle",
         "subtitle": "Large beast, neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-eagle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-eagle.png",
         "background_color": {
             "light": "#f0b475",
             "dark": "#8a4e0f"
@@ -16002,7 +15868,7 @@
         "challenge_rating": 0.0,
         "name": "Giant Fire Beetle",
         "subtitle": "Small beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-fire-beetle.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-fire-beetle.png",
         "background_color": {
             "light": "#f0a675",
             "dark": "#8a400f"
@@ -16109,7 +15975,7 @@
         "challenge_rating": 0.25,
         "name": "Giant Frog",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-frog.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-frog.png",
         "background_color": {
             "light": "#bef075",
             "dark": "#588a0f"
@@ -16243,7 +16109,7 @@
         "challenge_rating": 1.0,
         "name": "Giant Octopus",
         "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-octopus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-octopus.png",
         "background_color": {
             "light": "#f075bc",
             "dark": "#4a082e"
@@ -16381,7 +16247,7 @@
         "challenge_rating": 0.25,
         "name": "Giant Owl",
         "subtitle": "Large beast, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-owl.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-owl.png",
         "background_color": {
             "light": "#f08575",
             "dark": "#791b0d"
@@ -16508,7 +16374,7 @@
         "challenge_rating": 0.125,
         "name": "Giant Rat",
         "subtitle": "Small beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-rat.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-rat.png",
         "background_color": {
             "light": "#f9d3c6",
             "dark": "#8a2f0f"
@@ -16619,7 +16485,7 @@
         "challenge_rating": 1.0,
         "name": "Giant Spider",
         "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/giant-spider.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/giant-spider.png",
         "background_color": {
             "light": "#f07579",
             "dark": "#8a0f13"
@@ -16753,7 +16619,7 @@
         "challenge_rating": 2.0,
         "name": "Gibbering Mouther",
         "subtitle": "Medium aberration, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gibbering-mouther.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gibbering-mouther.png",
         "background_color": {
             "light": "#f0a675",
             "dark": "#8a400f"
@@ -16889,7 +16755,7 @@
         "challenge_rating": 9.0,
         "name": "Glabrezu",
         "subtitle": "Large fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/glabrezu.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/glabrezu.png",
         "background_color": {
             "light": "#f09175",
             "dark": "#8a2b0f"
@@ -17094,7 +16960,7 @@
         "challenge_rating": 0.5,
         "name": "Gnoll",
         "subtitle": "Medium humanoid(gnoll), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gnoll.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gnoll.png",
         "background_color": {
             "light": "#f0c775",
             "dark": "#8a610f"
@@ -17223,7 +17089,7 @@
         "challenge_rating": 0.25,
         "name": "Goblin",
         "subtitle": "Small humanoid(goblinoid), neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/goblin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/goblin.png",
         "background_color": {
             "light": "#f0a875",
             "dark": "#5f2d0a"
@@ -17350,7 +17216,7 @@
         "challenge_rating": 3.0,
         "name": "Gold Dragon Wyrmling",
         "subtitle": "Medium dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gold-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gold-dragon-wyrmling.png",
         "background_color": {
             "light": "#f9c06c",
             "dark": "#935a06"
@@ -17512,7 +17378,7 @@
         "challenge_rating": 5.0,
         "name": "Gorgon",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gorgon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gorgon.png",
         "background_color": {
             "light": "#e3f075",
             "dark": "#7d8a0f"
@@ -17651,7 +17517,7 @@
         "challenge_rating": 2.0,
         "name": "Green Dragon Wyrmling",
         "subtitle": "Medium dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/green-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/green-dragon-wyrmling.png",
         "background_color": {
             "light": "#d1f075",
             "dark": "#6b8a0f"
@@ -17834,7 +17700,7 @@
         "challenge_rating": 3.0,
         "name": "Green Hag",
         "subtitle": "Medium fey, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/green-hag.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/green-hag.png",
         "background_color": {
             "light": "#f08075",
             "dark": "#8a1a0f"
@@ -17983,7 +17849,7 @@
         "challenge_rating": 2.0,
         "name": "Grick",
         "subtitle": "Medium monstrosity, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/grick.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/grick.png",
         "background_color": {
             "light": "#bbf075",
             "dark": "#558a0f"
@@ -18138,7 +18004,7 @@
         "challenge_rating": 2.0,
         "name": "Griffon",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/griffon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/griffon.png",
         "background_color": {
             "light": "#f0b175",
             "dark": "#8a4b0f"
@@ -18278,7 +18144,7 @@
         "challenge_rating": 0.25,
         "name": "Grimlock",
         "subtitle": "Medium humanoid(grimlock), neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/grimlock.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/grimlock.png",
         "background_color": {
             "light": "#f0bb75",
             "dark": "#8a550f"
@@ -18421,7 +18287,7 @@
         "challenge_rating": 10.0,
         "name": "Guardian Naga",
         "subtitle": "Large monstrosity, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/guardian-naga.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/guardian-naga.png",
         "background_color": {
             "light": "#d2f075",
             "dark": "#4c610b"
@@ -18579,7 +18445,7 @@
         "challenge_rating": 11.0,
         "name": "Gynosphinx",
         "subtitle": "Large monstrosity, lawful neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/gynosphinx.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/gynosphinx.png",
         "background_color": {
             "light": "#f4c19e",
             "dark": "#8a410f"
@@ -18762,7 +18628,7 @@
         "challenge_rating": 5.0,
         "name": "Half-Red Dragon Veteran",
         "subtitle": "Medium humanoid(human), any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/half-red-dragon-veteran.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/half-red-dragon-veteran.png",
         "background_color": {
             "light": "#f0be75",
             "dark": "#7a4e0e"
@@ -18915,7 +18781,7 @@
         "challenge_rating": 1.0,
         "name": "Harpy",
         "subtitle": "Medium monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/harpy.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/harpy.png",
         "background_color": {
             "light": "#f07588",
             "dark": "#8a0f22"
@@ -19052,7 +18918,7 @@
         "challenge_rating": 0.0,
         "name": "Hawk",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hawk.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hawk.png",
         "background_color": {
             "light": "#85e9f1",
             "dark": "#0f808a"
@@ -19169,7 +19035,7 @@
         "challenge_rating": 3.0,
         "name": "Hell Hound",
         "subtitle": "Medium fiend, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hell-hound.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hell-hound.png",
         "background_color": {
             "light": "#f28e93",
             "dark": "#8a0f15"
@@ -19313,7 +19179,7 @@
         "challenge_rating": 8.0,
         "name": "Hezrou",
         "subtitle": "Large fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hezrou.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hezrou.png",
         "background_color": {
             "light": "#f08a75",
             "dark": "#8a240f"
@@ -19513,7 +19379,7 @@
         "challenge_rating": 5.0,
         "name": "Hill Giant",
         "subtitle": "Huge giant, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hill-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hill-giant.png",
         "background_color": {
             "light": "#f0b675",
             "dark": "#8a500f"
@@ -19642,7 +19508,7 @@
         "challenge_rating": 1.0,
         "name": "Hippogriff",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hippogriff.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hippogriff.png",
         "background_color": {
             "light": "#f0ce75",
             "dark": "#8a680f"
@@ -19781,7 +19647,7 @@
         "challenge_rating": 0.5,
         "name": "Hobgoblin",
         "subtitle": "Medium humanoid(goblinoid), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hobgoblin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hobgoblin.png",
         "background_color": {
             "light": "#75a2f0",
             "dark": "#0f3c8a"
@@ -19895,7 +19761,7 @@
         "challenge_rating": 0.0,
         "name": "Homunculus",
         "subtitle": "Tiny construct, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/homunculus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/homunculus.png",
         "background_color": {
             "light": "#f1be83",
             "dark": "#8a510f"
@@ -20023,7 +19889,7 @@
         "challenge_rating": 11.0,
         "name": "Horned Devil",
         "subtitle": "Large fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/horned-devil.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/horned-devil.png",
         "background_color": {
             "light": "#f0ab75",
             "dark": "#8a450f"
@@ -20237,7 +20103,7 @@
         "challenge_rating": 8.0,
         "name": "Hydra",
         "subtitle": "Huge monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hydra.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hydra.png",
         "background_color": {
             "light": "#f0ca75",
             "dark": "#8a640f"
@@ -20374,7 +20240,7 @@
         "challenge_rating": 0.0,
         "name": "Hyena",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/hyena.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hyena.png",
         "background_color": {
             "light": "#75f0d2",
             "dark": "#0f8a6c"
@@ -20485,7 +20351,7 @@
         "challenge_rating": 14.0,
         "name": "Ice Devil",
         "subtitle": "Large fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ice-devil.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ice-devil.png",
         "background_color": {
             "light": "#bfd2f8",
             "dark": "#0f378a"
@@ -20720,7 +20586,7 @@
         "challenge_rating": 0.5,
         "name": "Ice Mephit",
         "subtitle": "Small elemental, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ice-mephit.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ice-mephit.png",
         "background_color": {
             "light": "#f07589",
             "dark": "#8a0f23"
@@ -20906,7 +20772,7 @@
         "challenge_rating": 1.0,
         "name": "Imp",
         "subtitle": "Tiny fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/imp.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/imp.png",
         "background_color": {
             "light": "#f08775",
             "dark": "#8a210f"
@@ -21098,7 +20964,7 @@
         "challenge_rating": 6.0,
         "name": "Invisible Stalker",
         "subtitle": "Medium elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/invisible-stalker.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/invisible-stalker.png",
         "background_color": {
             "light": "#75f0d6",
             "dark": "#0f8a70"
@@ -21297,7 +21163,7 @@
         "challenge_rating": 16.0,
         "name": "Iron Golem",
         "subtitle": "Large construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/iron-golem.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/iron-golem.png",
         "background_color": {
             "light": "#f08a75",
             "dark": "#5a170a"
@@ -21518,7 +21384,7 @@
         "challenge_rating": 0.125,
         "name": "Kobold",
         "subtitle": "Small humanoid(kobold), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/kobold.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/kobold.png",
         "background_color": {
             "light": "#f09575",
             "dark": "#8a2f0f"
@@ -21644,7 +21510,7 @@
         "challenge_rating": 23.0,
         "name": "Kraken",
         "subtitle": "Gargantuan monstrosity(titan), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/kraken.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/kraken.png",
         "background_color": {
             "light": "#f0b375",
             "dark": "#8a4d0f"
@@ -21869,7 +21735,7 @@
         "challenge_rating": 4.0,
         "name": "Lamia",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/lamia.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lamia.png",
         "background_color": {
             "light": "#f4c59f",
             "dark": "#8a460f"
@@ -22020,7 +21886,7 @@
         "challenge_rating": 0.0,
         "name": "Lemure",
         "subtitle": "Medium fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/lemure.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lemure.png",
         "background_color": {
             "light": "#f07975",
             "dark": "#8a130f"
@@ -22161,7 +22027,7 @@
         "challenge_rating": 21.0,
         "name": "Lich",
         "subtitle": "Medium undead, any evil alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/lich.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lich.png",
         "background_color": {
             "light": "#f0b375",
             "dark": "#8a4d0f"
@@ -22380,7 +22246,7 @@
         "challenge_rating": 0.5,
         "name": "Lizardfolk",
         "subtitle": "Medium humanoid(lizardfolk), neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/lizardfolk.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lizardfolk.png",
         "background_color": {
             "light": "#f0b175",
             "dark": "#5b310a"
@@ -22559,7 +22425,7 @@
         "challenge_rating": 0.5,
         "name": "Magma Mephit",
         "subtitle": "Small elemental, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/magma-mephit.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/magma-mephit.png",
         "background_color": {
             "light": "#f09f75",
             "dark": "#8a390f"
@@ -22735,7 +22601,7 @@
         "challenge_rating": 0.5,
         "name": "Magmin",
         "subtitle": "Small elemental, chaotic neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/magmin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/magmin.png",
         "background_color": {
             "light": "#f0a575",
             "dark": "#8a3f0f"
@@ -22871,7 +22737,7 @@
         "challenge_rating": 3.0,
         "name": "Manticore",
         "subtitle": "Large monstrosity, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/manticore.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/manticore.png",
         "background_color": {
             "light": "#f09b75",
             "dark": "#8a350f"
@@ -23021,7 +22887,7 @@
         "challenge_rating": 16.0,
         "name": "Marilith",
         "subtitle": "Large fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/marilith.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/marilith.png",
         "background_color": {
             "light": "#f0cf75",
             "dark": "#8a690f"
@@ -23237,7 +23103,7 @@
         "challenge_rating": 0.125,
         "name": "Mastiff",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/mastiff.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mastiff.png",
         "background_color": {
             "light": "#f07c75",
             "dark": "#8a160f"
@@ -23348,7 +23214,7 @@
         "challenge_rating": 6.0,
         "name": "Medusa",
         "subtitle": "Medium monstrosity, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/medusa.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/medusa.png",
         "background_color": {
             "light": "#f0ce75",
             "dark": "#8a680f"
@@ -23528,7 +23394,7 @@
         "challenge_rating": 0.125,
         "name": "Merfolk",
         "subtitle": "Medium humanoid(merfolk), neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/merfolk.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/merfolk.png",
         "background_color": {
             "light": "#75f0ec",
             "dark": "#0f8a86"
@@ -23637,7 +23503,7 @@
         "challenge_rating": 2.0,
         "name": "Merrow",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/merrow.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/merrow.png",
         "background_color": {
             "light": "#75a9f0",
             "dark": "#0f438a"
@@ -23787,7 +23653,7 @@
         "challenge_rating": 2.0,
         "name": "Mimic",
         "subtitle": "Medium monstrosity(shapechanger), neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/mimic.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mimic.png",
         "background_color": {
             "light": "#f0758e",
             "dark": "#8a0f28"
@@ -23944,7 +23810,7 @@
         "challenge_rating": 3.0,
         "name": "Minotaur",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/minotaur.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/minotaur.png",
         "background_color": {
             "light": "#f09475",
             "dark": "#8a2e0f"
@@ -24079,7 +23945,7 @@
         "challenge_rating": 2.0,
         "name": "Minotaur Skeleton",
         "subtitle": "Large undead, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/minotaur-skeleton.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/minotaur-skeleton.png",
         "background_color": {
             "light": "#f0757a",
             "dark": "#8a0f14"
@@ -24221,7 +24087,7 @@
         "challenge_rating": 3.0,
         "name": "Mummy",
         "subtitle": "Medium undead, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/mummy.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mummy.png",
         "background_color": {
             "light": "#8feef3",
             "dark": "#0f848a"
@@ -24411,7 +24277,7 @@
         "challenge_rating": 13.0,
         "name": "Nalfeshnee",
         "subtitle": "Large fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/nalfeshnee.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/nalfeshnee.png",
         "background_color": {
             "light": "#f0be75",
             "dark": "#5e3c0a"
@@ -24632,7 +24498,7 @@
         "challenge_rating": 5.0,
         "name": "Night Hag",
         "subtitle": "Medium fiend, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/night-hag.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/night-hag.png",
         "background_color": {
             "light": "#f09c75",
             "dark": "#532009"
@@ -24823,7 +24689,7 @@
         "challenge_rating": 3.0,
         "name": "Nightmare",
         "subtitle": "Large fiend, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/nightmare.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/nightmare.png",
         "background_color": {
             "light": "#f09875",
             "dark": "#8a320f"
@@ -24959,7 +24825,7 @@
         "challenge_rating": 0.125,
         "name": "Noble",
         "subtitle": "Medium humanoid(any race), any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/noble.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/noble.png",
         "background_color": {
             "light": "#75edf0",
             "dark": "#0f878a"
@@ -25076,7 +24942,7 @@
         "challenge_rating": 2.0,
         "name": "Ochre Jelly",
         "subtitle": "Large ooze, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ochre-jelly.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ochre-jelly.png",
         "background_color": {
             "light": "#f0b275",
             "dark": "#8a4c0f"
@@ -25246,7 +25112,7 @@
         "challenge_rating": 0.0,
         "name": "Octopus",
         "subtitle": "Small beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/octopus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/octopus.png",
         "background_color": {
             "light": "#f075bc",
             "dark": "#4a082e"
@@ -25384,7 +25250,7 @@
         "challenge_rating": 2.0,
         "name": "Ogre",
         "subtitle": "Large giant, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ogre.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ogre.png",
         "background_color": {
             "light": "#f0a475",
             "dark": "#8a3e0f"
@@ -25502,7 +25368,7 @@
         "challenge_rating": 2.0,
         "name": "Ogre Zombie",
         "subtitle": "Large undead, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/ogre-zombie.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ogre-zombie.png",
         "background_color": {
             "light": "#f07d75",
             "dark": "#8a170f"
@@ -25624,7 +25490,7 @@
         "challenge_rating": 7.0,
         "name": "Oni",
         "subtitle": "Large giant, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/oni.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/oni.png",
         "background_color": {
             "light": "#75dbf0",
             "dark": "#0f758a"
@@ -25809,7 +25675,7 @@
         "challenge_rating": 0.5,
         "name": "Orc",
         "subtitle": "Medium humanoid(orc), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/orc.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/orc.png",
         "background_color": {
             "light": "#f0c275",
             "dark": "#8a5c0f"
@@ -25936,7 +25802,7 @@
         "challenge_rating": 5.0,
         "name": "Otyugh",
         "subtitle": "Large aberration, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/otyugh.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/otyugh.png",
         "background_color": {
             "light": "#f0b475",
             "dark": "#8a4e0f"
@@ -26085,7 +25951,7 @@
         "challenge_rating": 0.0,
         "name": "Owl",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/owl.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/owl.png",
         "background_color": {
             "light": "#f08575",
             "dark": "#791b0d"
@@ -26212,7 +26078,7 @@
         "challenge_rating": 3.0,
         "name": "Owlbear",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/owlbear.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/owlbear.png",
         "background_color": {
             "light": "#f09a75",
             "dark": "#8a340f"
@@ -26346,7 +26212,7 @@
         "challenge_rating": 2.0,
         "name": "Pegasus",
         "subtitle": "Large celestial, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/pegasus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/pegasus.png",
         "background_color": {
             "light": "#90e9f3",
             "dark": "#0f7d8a"
@@ -26474,7 +26340,7 @@
         "challenge_rating": 3.0,
         "name": "Phase Spider",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/phase-spider.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/phase-spider.png",
         "background_color": {
             "light": "#75c0f0",
             "dark": "#0f5a8a"
@@ -26600,7 +26466,7 @@
         "challenge_rating": 20.0,
         "name": "Pit Fiend",
         "subtitle": "Large fiend(devil), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/pit-fiend.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/pit-fiend.png",
         "background_color": {
             "light": "#9575f0",
             "dark": "#1f0a5a"
@@ -26832,7 +26698,7 @@
         "challenge_rating": 16.0,
         "name": "Planetar",
         "subtitle": "Large celestial, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/planetar.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/planetar.png",
         "background_color": {
             "light": "#f09c75",
             "dark": "#8a360f"
@@ -27039,7 +26905,7 @@
         "challenge_rating": 2.0,
         "name": "Plesiosaurus",
         "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/plesiosaurus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/plesiosaurus.png",
         "background_color": {
             "light": "#8fcaf3",
             "dark": "#0f588a"
@@ -27161,7 +27027,7 @@
         "challenge_rating": 0.25,
         "name": "Pseudodragon",
         "subtitle": "Tiny dragon, neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/pseudodragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/pseudodragon.png",
         "background_color": {
             "light": "#f07590",
             "dark": "#8a0f2a"
@@ -27312,7 +27178,7 @@
         "challenge_rating": 15.0,
         "name": "Purple Worm",
         "subtitle": "Gargantuan monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/purple-worm.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/purple-worm.png",
         "background_color": {
             "light": "#f0af75",
             "dark": "#753e0d"
@@ -27458,7 +27324,7 @@
         "challenge_rating": 1.0,
         "name": "Quasit",
         "subtitle": "Tiny fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/quasit.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/quasit.png",
         "background_color": {
             "light": "#fd7c68",
             "dark": "#4b0b01"
@@ -27637,7 +27503,7 @@
         "challenge_rating": 0.0,
         "name": "Quipper",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/quipper.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/quipper.png",
         "background_color": {
             "light": "#75f0f0",
             "dark": "#0f8a8a"
@@ -27748,7 +27614,7 @@
         "challenge_rating": 13.0,
         "name": "Rakshasa",
         "subtitle": "Medium fiend, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/rakshasa.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/rakshasa.png",
         "background_color": {
             "light": "#75eef0",
             "dark": "#0f888a"
@@ -27906,7 +27772,7 @@
         "challenge_rating": 0.0,
         "name": "Rat",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/rat.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/rat.png",
         "background_color": {
             "light": "#f9d3c6",
             "dark": "#8a2f0f"
@@ -28013,7 +27879,7 @@
         "challenge_rating": 0.0,
         "name": "Raven",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/raven.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/raven.png",
         "background_color": {
             "light": "#75c8f0",
             "dark": "#0a435f"
@@ -28130,7 +27996,7 @@
         "challenge_rating": 4.0,
         "name": "Red Dragon Wyrmling",
         "subtitle": "Medium dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/red-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/red-dragon-wyrmling.png",
         "background_color": {
             "light": "#f08f75",
             "dark": "#8a290f"
@@ -28304,7 +28170,7 @@
         "challenge_rating": 11.0,
         "name": "Remorhaz",
         "subtitle": "Huge monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/remorhaz.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/remorhaz.png",
         "background_color": {
             "light": "#75bef0",
             "dark": "#0f588a"
@@ -28443,7 +28309,7 @@
         "challenge_rating": 0.25,
         "name": "Riding Horse",
         "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/riding-horse.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/riding-horse.png",
         "background_color": {
             "light": "#f0a375",
             "dark": "#7a360e"
@@ -28545,7 +28411,7 @@
         "challenge_rating": 11.0,
         "name": "Roc",
         "subtitle": "Gargantuan monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/roc.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/roc.png",
         "background_color": {
             "light": "#f07575",
             "dark": "#710d0d"
@@ -28704,7 +28570,7 @@
         "challenge_rating": 5.0,
         "name": "Roper",
         "subtitle": "Large monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/roper.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/roper.png",
         "background_color": {
             "light": "#f07d75",
             "dark": "#8a170f"
@@ -28856,7 +28722,7 @@
         "challenge_rating": 2.0,
         "name": "Rug of Smothering",
         "subtitle": "Large construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/rug-of-smothering.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/rug-of-smothering.png",
         "background_color": {
             "light": "#adf075",
             "dark": "#478a0f"
@@ -29008,7 +28874,7 @@
         "challenge_rating": 0.5,
         "name": "Rust Monster",
         "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/rust-monster.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/rust-monster.png",
         "background_color": {
             "light": "#f09275",
             "dark": "#8a2c0f"
@@ -29126,7 +28992,7 @@
         "challenge_rating": 0.5,
         "name": "Sahuagin",
         "subtitle": "Medium humanoid(sahuagin), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/sahuagin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/sahuagin.png",
         "background_color": {
             "light": "#95f075",
             "dark": "#2d820e"
@@ -29281,7 +29147,7 @@
         "challenge_rating": 5.0,
         "name": "Salamander",
         "subtitle": "Large elemental, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/salamander.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/salamander.png",
         "background_color": {
             "light": "#f08a75",
             "dark": "#8a240f"
@@ -29452,7 +29318,7 @@
         "challenge_rating": 0.5,
         "name": "Satyr",
         "subtitle": "Medium fey, chaotic neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/satyr.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/satyr.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#8a3b0f"
@@ -29610,7 +29476,7 @@
         "challenge_rating": 0.5,
         "name": "Scout",
         "subtitle": "Medium humanoid(any race), any alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/scout.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/scout.png",
         "background_color": {
             "light": "#f0cd75",
             "dark": "#8a670f"
@@ -29758,7 +29624,7 @@
         "challenge_rating": 2.0,
         "name": "Sea Hag",
         "subtitle": "Medium fey, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/sea-hag.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/sea-hag.png",
         "background_color": {
             "light": "#75daf0",
             "dark": "#0f748a"
@@ -29889,7 +29755,7 @@
         "challenge_rating": 0.5,
         "name": "Shadow",
         "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/shadow.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/shadow.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#8a3b0f"
@@ -30109,7 +29975,7 @@
         "challenge_rating": 5.0,
         "name": "Shambling Mound",
         "subtitle": "Large plant, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/shambling-mound.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/shambling-mound.png",
         "background_color": {
             "light": "#d9f075",
             "dark": "#738a0f"
@@ -30271,7 +30137,7 @@
         "challenge_rating": 7.0,
         "name": "Shield Guardian",
         "subtitle": "Large construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/shield-guardian.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/shield-guardian.png",
         "background_color": {
             "light": "#f09375",
             "dark": "#8a2d0f"
@@ -30424,7 +30290,7 @@
         "challenge_rating": 0.0,
         "name": "Shrieker",
         "subtitle": "Medium plant, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/shrieker.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/shrieker.png",
         "background_color": {
             "light": "#f4aa9e",
             "dark": "#8a200f"
@@ -30538,7 +30404,7 @@
         "challenge_rating": 2.0,
         "name": "Silver Dragon Wyrmling",
         "subtitle": "Medium dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/silver-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/silver-dragon-wyrmling.png",
         "background_color": {
             "light": "#75dbf0",
             "dark": "#0f758a"
@@ -30690,7 +30556,7 @@
         "challenge_rating": 0.25,
         "name": "Skeleton",
         "subtitle": "Medium undead, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/skeleton.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/skeleton.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#441e07"
@@ -30758,12 +30624,22 @@
         "damage_resistances": [
         ],
         "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
         ],
         "condition_immunities": [
             {
                 "index": "poisoned",
                 "type": "POISONED",
                 "name": "Poisoned"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
             }
         ],
         "senses": [
@@ -30818,7 +30694,7 @@
         "challenge_rating": 21.0,
         "name": "Solar",
         "subtitle": "Large celestial, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/solar.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/solar.png",
         "background_color": {
             "light": "#f08675",
             "dark": "#781c0d"
@@ -31070,7 +30946,7 @@
         "challenge_rating": 1.0,
         "name": "Specter",
         "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/specter.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/specter.png",
         "background_color": {
             "light": "#cf7df1",
             "dark": "#660f8a"
@@ -31287,7 +31163,7 @@
         "challenge_rating": 0.0,
         "name": "Spider",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/spider.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/spider.png",
         "background_color": {
             "light": "#f0ab75",
             "dark": "#562b0a"
@@ -31413,7 +31289,7 @@
         "challenge_rating": 8.0,
         "name": "Spirit Naga",
         "subtitle": "Large monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/spirit-naga.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/spirit-naga.png",
         "background_color": {
             "light": "#f09e75",
             "dark": "#8a380f"
@@ -31559,7 +31435,7 @@
         "challenge_rating": 0.25,
         "name": "Sprite",
         "subtitle": "Tiny fey, neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/sprite.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/sprite.png",
         "background_color": {
             "light": "#f08175",
             "dark": "#8a1b0f"
@@ -31706,7 +31582,7 @@
         "challenge_rating": 0.25,
         "name": "Steam Mephit",
         "subtitle": "Small elemental, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/steam-mephit.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/steam-mephit.png",
         "background_color": {
             "light": "#f49ca4",
             "dark": "#8a0f1a"
@@ -31868,7 +31744,7 @@
         "challenge_rating": 0.125,
         "name": "Stirge",
         "subtitle": "Tiny beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/stirge.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/stirge.png",
         "background_color": {
             "light": "#f08575",
             "dark": "#8a1f0f"
@@ -31977,7 +31853,7 @@
         "challenge_rating": 7.0,
         "name": "Stone Giant",
         "subtitle": "Huge giant, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/stone-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/stone-giant.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#8a3b0f"
@@ -32131,7 +32007,7 @@
         "challenge_rating": 10.0,
         "name": "Stone Golem",
         "subtitle": "Large construct, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/stone-golem.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/stone-golem.png",
         "background_color": {
             "light": "#75f0bb",
             "dark": "#0f8a55"
@@ -32320,7 +32196,7 @@
         "challenge_rating": 13.0,
         "name": "Storm Giant",
         "subtitle": "Huge giant, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/storm-giant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/storm-giant.png",
         "background_color": {
             "light": "#f09675",
             "dark": "#8a300f"
@@ -32528,7 +32404,7 @@
         "challenge_rating": 30.0,
         "name": "Tarrasque",
         "subtitle": "Gargantuan monstrosity(titan), unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/tarrasque.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/tarrasque.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#8a3c0f"
@@ -32778,7 +32654,7 @@
         "challenge_rating": 0.5,
         "name": "Thug",
         "subtitle": "Medium humanoid(any race), any non-good alignment",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/thug.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/thug.png",
         "background_color": {
             "light": "#f0b375",
             "dark": "#6a3b0c"
@@ -32911,7 +32787,7 @@
         "challenge_rating": 9.0,
         "name": "Treant",
         "subtitle": "Huge plant, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/treant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/treant.png",
         "background_color": {
             "light": "#f0d775",
             "dark": "#8a710f"
@@ -33065,7 +32941,7 @@
         "challenge_rating": 5.0,
         "name": "Troll",
         "subtitle": "Large giant, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/troll.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/troll.png",
         "background_color": {
             "light": "#a3f075",
             "dark": "#316f0c"
@@ -33207,7 +33083,7 @@
         "challenge_rating": 8.0,
         "name": "Tyrannosaurus Rex",
         "subtitle": "Huge beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/tyrannosaurus-rex.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/tyrannosaurus-rex.png",
         "background_color": {
             "light": "#f09575",
             "dark": "#8a2f0f"
@@ -33336,7 +33212,7 @@
         "challenge_rating": 5.0,
         "name": "Unicorn",
         "subtitle": "Large celestial, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/unicorn.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/unicorn.png",
         "background_color": {
             "light": "#f0c175",
             "dark": "#8a5b0f"
@@ -33511,7 +33387,7 @@
         "challenge_rating": 13.0,
         "name": "Vampire",
         "subtitle": "Medium undead(shapechanger), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/vampire.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vampire.png",
         "background_color": {
             "light": "#f07585",
             "dark": "#8a0f1f"
@@ -33732,7 +33608,7 @@
         "challenge_rating": 5.0,
         "name": "Vampire Spawn",
         "subtitle": "Medium undead, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/vampire-spawn.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vampire-spawn.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#8a3b0f"
@@ -33922,7 +33798,7 @@
         "challenge_rating": 0.25,
         "name": "Violet Fungus",
         "subtitle": "Medium plant, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/violet-fungus.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/violet-fungus.png",
         "background_color": {
             "light": "#f0bc75",
             "dark": "#8a560f"
@@ -34051,7 +33927,7 @@
         "challenge_rating": 6.0,
         "name": "Vrock",
         "subtitle": "Large fiend(demon), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/vrock.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vrock.png",
         "background_color": {
             "light": "#75f0bf",
             "dark": "#0f8a59"
@@ -34267,7 +34143,7 @@
         "challenge_rating": 5.0,
         "name": "Water Elemental",
         "subtitle": "Large elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/water-elemental.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/water-elemental.png",
         "background_color": {
             "light": "#75d6f0",
             "dark": "#0f708a"
@@ -34476,7 +34352,7 @@
         "challenge_rating": 2.0,
         "name": "White Dragon Wyrmling",
         "subtitle": "Medium dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/white-dragon-wyrmling.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/white-dragon-wyrmling.png",
         "background_color": {
             "light": "#75f0c5",
             "dark": "#0f8a5f"
@@ -34656,7 +34532,7 @@
         "challenge_rating": 3.0,
         "name": "Wight",
         "subtitle": "Medium undead, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/wight.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/wight.png",
         "background_color": {
             "light": "#75baf0",
             "dark": "#0f548a"
@@ -34842,7 +34718,7 @@
         "challenge_rating": 2.0,
         "name": "Will-o'-Wisp",
         "subtitle": "Tiny undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/will-o-wisp.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/will-o-wisp.png",
         "background_color": {
             "light": "#75f0be",
             "dark": "#0f8a58"
@@ -35064,7 +34940,7 @@
         "challenge_rating": 3.0,
         "name": "Winter Wolf",
         "subtitle": "Large monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/winter-wolf.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/winter-wolf.png",
         "background_color": {
             "light": "#75d1f0",
             "dark": "#0f6b8a"
@@ -35208,7 +35084,7 @@
         "challenge_rating": 0.25,
         "name": "Wolf",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/wolf.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/wolf.png",
         "background_color": {
             "light": "#f09a75",
             "dark": "#8a340f"
@@ -35328,7 +35204,7 @@
         "challenge_rating": 0.5,
         "name": "Worg",
         "subtitle": "Large monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/worg.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/worg.png",
         "background_color": {
             "light": "#f0a975",
             "dark": "#8a430f"
@@ -35440,7 +35316,7 @@
         "challenge_rating": 5.0,
         "name": "Wraith",
         "subtitle": "Medium undead, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/wraith.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/wraith.png",
         "background_color": {
             "light": "#75b3f0",
             "dark": "#082746"
@@ -35659,7 +35535,7 @@
         "challenge_rating": 6.0,
         "name": "Wyvern",
         "subtitle": "Large dragon, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/wyvern.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/wyvern.png",
         "background_color": {
             "light": "#f08f75",
             "dark": "#8a290f"
@@ -35810,7 +35686,7 @@
         "challenge_rating": 5.0,
         "name": "Xorn",
         "subtitle": "Medium elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/xorn.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/xorn.png",
         "background_color": {
             "light": "#f0759c",
             "dark": "#3b0717"
@@ -35979,7 +35855,7 @@
         "challenge_rating": 7.0,
         "name": "Young Black Dragon",
         "subtitle": "Large dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-black-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-black-dragon.png",
         "background_color": {
             "light": "#f0cf75",
             "dark": "#8a690f"
@@ -36179,7 +36055,7 @@
         "challenge_rating": 9.0,
         "name": "Young Blue Dragon",
         "subtitle": "Large dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-blue-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-blue-dragon.png",
         "background_color": {
             "light": "#75c0f0",
             "dark": "#0f5a8a"
@@ -36375,7 +36251,7 @@
         "challenge_rating": 6.0,
         "name": "Young Brass Dragon",
         "subtitle": "Large dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-brass-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-brass-dragon.png",
         "background_color": {
             "light": "#f0c575",
             "dark": "#432e07"
@@ -36560,7 +36436,7 @@
         "challenge_rating": 8.0,
         "name": "Young Bronze Dragon",
         "subtitle": "Large dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-bronze-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-bronze-dragon.png",
         "background_color": {
             "light": "#f0c675",
             "dark": "#8a600f"
@@ -36749,7 +36625,7 @@
         "challenge_rating": 7.0,
         "name": "Young Copper Dragon",
         "subtitle": "Large dragon, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-copper-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-copper-dragon.png",
         "background_color": {
             "light": "#f0a275",
             "dark": "#8a3c0f"
@@ -36934,7 +36810,7 @@
         "challenge_rating": 10.0,
         "name": "Young Gold Dragon",
         "subtitle": "Large dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-gold-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-gold-dragon.png",
         "background_color": {
             "light": "#f9c06c",
             "dark": "#935a06"
@@ -37128,7 +37004,7 @@
         "challenge_rating": 8.0,
         "name": "Young Green Dragon",
         "subtitle": "Large dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-green-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-green-dragon.png",
         "background_color": {
             "light": "#d1f075",
             "dark": "#6b8a0f"
@@ -37338,7 +37214,7 @@
         "challenge_rating": 10.0,
         "name": "Young Red Dragon",
         "subtitle": "Large dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-red-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-red-dragon.png",
         "background_color": {
             "light": "#f08f75",
             "dark": "#8a290f"
@@ -37534,7 +37410,7 @@
         "challenge_rating": 9.0,
         "name": "Young Silver Dragon",
         "subtitle": "Large dragon, lawful good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-silver-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-silver-dragon.png",
         "background_color": {
             "light": "#75dbf0",
             "dark": "#0f758a"
@@ -37718,7 +37594,7 @@
         "challenge_rating": 6.0,
         "name": "Young White Dragon",
         "subtitle": "Large dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/young-white-dragon.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-white-dragon.png",
         "background_color": {
             "light": "#75f0c5",
             "dark": "#0f8a5f"
@@ -37924,7 +37800,7 @@
         "challenge_rating": 0.25,
         "name": "Zombie",
         "subtitle": "Medium undead, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/zombie.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/zombie.png",
         "background_color": {
             "light": "#75f0d4",
             "dark": "#0f876c"
@@ -37992,6 +37868,11 @@
         "damage_resistances": [
         ],
         "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
         ],
         "condition_immunities": [
             {

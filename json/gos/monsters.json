@@ -3,11 +3,11 @@
         "index": "drowned-assassin",
         "type": "UNDEAD",
         "subtype": null,
-        "group": null,
+        "group": "Drows",
         "challenge_rating": 4.0,
         "name": "Drowned Assassin",
         "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/drowned-assassin.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/drowned-assassin.png",
         "background_color": {
             "light": "#7df1b9",
             "dark": "#0f8a4f"
@@ -196,7 +196,7 @@
         "challenge_rating": 14.0,
         "name": "Juvenile Kraken",
         "subtitle": "Huge monstrosity(titan), chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/juvenile-kraken.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/juvenile-kraken.png",
         "background_color": {
             "light": "#ffe9b7",
             "dark": "#996a00"
@@ -424,7 +424,7 @@
         "challenge_rating": 0.5,
         "name": "Koalinth",
         "subtitle": "Medium humanoid(goblinoid), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/koalinth.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/koalinth.png",
         "background_color": {
             "light": "#f0b175",
             "dark": "#62350b"
@@ -563,7 +563,7 @@
         "challenge_rating": 2.0,
         "name": "Koalinth Sergeant",
         "subtitle": "Medium humanoid(goblinoid), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/koalinth-sergeant.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/koalinth-sergeant.png",
         "background_color": {
             "light": "#75ddf0",
             "dark": "#062e35"
@@ -737,7 +737,7 @@
         "challenge_rating": 3.0,
         "name": "Lizardfolk Render",
         "subtitle": "Large humanoid(lizardfolk), neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/lizardfolk-render.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lizardfolk-render.png",
         "background_color": {
             "light": "#f0a175",
             "dark": "#8a3b0f"
@@ -896,7 +896,7 @@
         "challenge_rating": 0.5,
         "name": "Locathah",
         "subtitle": "Medium humanoid(locathah), neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/locathah.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/locathah.png",
         "background_color": {
             "light": "#f0c675",
             "dark": "#4c3408"
@@ -1041,7 +1041,7 @@
         "challenge_rating": 0.125,
         "name": "Sauriv",
         "subtitle": "Medium humanoid(lizardfolk), lawful neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/sauriv.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/sauriv.png",
         "background_color": {
             "light": "#f0aa75",
             "dark": "#3e1f07"
@@ -1163,7 +1163,7 @@
         "challenge_rating": 0.5,
         "name": "Skeletal Alchemist",
         "subtitle": "Medium undead, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/skeletal-alchemist.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/skeletal-alchemist.png",
         "background_color": {
             "light": "#75e7f0",
             "dark": "#0f818a"
@@ -1316,7 +1316,7 @@
         "challenge_rating": 5.0,
         "name": "Skum",
         "subtitle": "Medium aberration, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/skum.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/skum.png",
         "background_color": {
             "light": "#75c6f0",
             "dark": "#0f608a"
@@ -1472,7 +1472,7 @@
         "challenge_rating": 6.0,
         "name": "Thousand Teeth",
         "subtitle": "Large monstrosity, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter/main/images/thousand-teeth.png",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/thousand-teeth.png",
         "background_color": {
             "light": "#f0dd75",
             "dark": "#7f6d0e"
