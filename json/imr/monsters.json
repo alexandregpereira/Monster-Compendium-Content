@@ -170,6 +170,8 @@
                 "name": "Information Overload (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Infernal Machine Rebuild",
             "acronym": "IMR"
@@ -314,6 +316,8 @@
                 "description": "The neo-otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 16 Constitution saving throw or take 15 (3d6 + 5) bludgeoning damage and be stunned until the end of the neo-otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.",
                 "name": "Tentacle Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Infernal Machine Rebuild",
@@ -510,176 +514,7 @@
                 "name": "Insanity Gaze"
             }
         ],
-        "source": {
-            "name": "Infernal Machine Rebuild",
-            "acronym": "IMR"
-        }
-    },
-    {
-        "index": "thessalar",
-        "type": "HUMANOID",
-        "subtype": "human",
-        "group": null,
-        "challenge_rating": 12.0,
-        "name": "Thessalar",
-        "subtitle": "Medium humanoid(human), neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/thessalar.png",
-        "background_color": {
-            "light": "#f0c275",
-            "dark": "#8a5c0f"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "neutral evil",
-        "armor_class": 14,
-        "hit_points": 104,
-        "hit_dice": "7d10+14",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 19,
-                "modifier": 4
-            },
-            {
-                "type": "WISDOM",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "CHARISMA",
-                "value": 16,
-                "modifier": 3
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 5
-            },
-            {
-                "index": "saving-throw-int",
-                "type": "INTELLIGENCE",
-                "modifier": 8
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 7
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-animal-handling",
-                "modifier": 7,
-                "name": "Animal handling"
-            },
-            {
-                "index": "skill-arcana",
-                "modifier": 8,
-                "name": "Arcana"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 7,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-medicine",
-                "modifier": 7,
-                "name": "Medicine"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "acid",
-                "type": "ACID",
-                "name": "Acid"
-            },
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-        ],
-        "languages": "Common, Draconic, Elvish, Primordial",
-        "special_abilities": [
-            {
-                "name": "Spellcasting",
-                "desc": "Thessalar is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). He has the following artificer spells prepared:\n- Cantrips (at will): light, mending, message, shocking grasp\n- 1st level (4 slots): alarm, cure wounds, identify, ray of sickness\n- 2nd level (3 slots): invisibility, Melf's acid arrow, web\n- 3rd level (3 slots): dispel magic, haste, stinking cloud\n- 4th level (3 slots): blight, Mordenkainen's faithful hound, Otiluke's resilient sphere\n- 5th level (1 slot): cloudkill"
-            },
-            {
-                "name": "Special Equipment",
-                "desc": "Thessalar wields a +1 dagger coated with thessaltoxin poison (see appendix C)."
-            },
-            {
-                "name": "Alchemical Homunculus",
-                "desc": "Thessalar is accompanied by his thessalars homunculus. If the mending spell is cast on it, the homunculus regains 2d6 hit points."
-            },
-            {
-                "name": "Healing Toxicity",
-                "desc": "Any magic item that restores hit points and can be applied to a piercing or slashing weapon (a potion, an ointment, and so forth) causes a hit with that weapon to deal extra damage to Thessalar equal to the amount the item would normally heal."
-            },
-            {
-                "name": "Greater Restoration (1/Day)",
-                "desc": "Thessalar can cast greater restoration if he has access to alchemical supplies."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4+1",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack:,rw +5 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 15 Constitution saving throw. On a failed save, the target is affected as if by the polymorph spell, transforming into a random beast or a creature it has seen within the last 24 hours (as chosen by the DM). This effect lasts until the target finishes a long rest.",
-                "name": "Dagger"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Infernal Machine Rebuild",
@@ -807,6 +642,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 1 slashing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Infernal Machine Rebuild",
@@ -944,6 +781,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Infernal Machine Rebuild",

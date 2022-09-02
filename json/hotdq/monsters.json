@@ -119,6 +119,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -265,6 +267,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",
@@ -416,6 +420,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.",
                 "name": "Morningstar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",
@@ -578,6 +584,8 @@
                 "name": "Spear"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -712,6 +720,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
                 "name": "Scimitar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",
@@ -888,6 +898,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -1025,6 +1037,8 @@
                 "name": "Halberd"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -1158,6 +1172,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",
@@ -1327,6 +1343,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 9 (1d6 + 3) plus (1d6) piercing damage if the target is Medium or larger.",
                 "name": "Shortsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",
@@ -1506,6 +1524,8 @@
                 "name": "Lightning Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -1680,6 +1700,8 @@
                 "name": "Spear"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -1817,6 +1839,12 @@
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage.",
                 "name": "Quarterstaff"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Illusory Self (Recharges on a Short or Long Rest)",
+                "desc": "When a creature Rath can see makes an attack roll against him, he can interpose an illusory duplicate between the attacker and him. The attack automatically misses Rath, then the illusion dissipates."
             }
         ],
         "source": {
@@ -2011,6 +2039,8 @@
                 "name": "Acid Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
@@ -2158,6 +2188,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20/60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Hoard of the Dragon Queen",

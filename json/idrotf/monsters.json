@@ -145,6 +145,12 @@
                 "name": "Staff of Frost"
             }
         ],
+        "reactions": [
+            {
+                "name": "Banishing Rebuke (Recharges after a Long Rest)",
+                "desc": "When Avarice is damaged by a creature that she can see within 60 feet of her, she can banish that creature to a frigid extradimensional prison for 1 minute. While there, the creature is incapacitated and takes 5 (1d10) cold damage at the start of each of its turns. At the end of each of its turns, the creature can make a DC 14 Charisma saving throw, escaping the prison on a success and reappearing in the space it left or in the nearest unoccupied space if that space is occupied. A creature that dies in the prison is trapped there indefinitely."
+            }
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -275,6 +281,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 9 (2d4 + 4) bludgeoning damage.",
                 "name": "Hooves"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -441,6 +449,8 @@
                 "description": "Melee Weapon Attack:,rw +7 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 11 (2d10) cold damage if Bjornhild uses Auril's Blessing.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -612,6 +622,8 @@
                 "name": "Mind Blast (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -747,6 +759,8 @@
                 "description": "Melee Weapon Attack:,rw +5 to hit, reach 5 ft. or range 30/120 ft., one target. 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.",
                 "name": "Chardalyn Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -1006,6 +1020,8 @@
                 "name": "Radiant Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -1195,6 +1211,8 @@
                 "name": "Cold Ray"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -1360,6 +1378,8 @@
                 "name": "Light Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -1481,6 +1501,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. 1 piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -1673,6 +1695,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -1825,6 +1849,8 @@
                 "description": "The skeleton targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Constitution saving throw or take 35 (10d6) cold damage and be paralyzed until the end of its next turn.",
                 "name": "Freezing Stare"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -2002,6 +2028,8 @@
                 "name": "Static Discharge (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -2135,6 +2163,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. 16 (3d6 + 6) piercing damage.",
                 "name": "Tusks"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -2357,6 +2387,8 @@
                 "name": "Sickening Gaze (Hyena or Vampire Form Only)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -2537,6 +2569,8 @@
                 "name": "Mind Blast (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -2656,6 +2690,8 @@
                 "description": "The squidling magically emits psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 7 Intelligence saving throw or take 2 (1d4) psychic damage and be stunned until the end of its next turn.",
                 "name": "Mind Tickle (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -2806,6 +2842,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack:,rw +6 to hit, reach 5 ft. or range 30/120 ft., one target. 7 (1d6 + 4) piercing damage.",
                 "name": "Javelin"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+                "desc": "When the goliath takes damage, it reduces the damage taken by 9 (1d12 + 3)."
             }
         ],
         "source": {
@@ -2999,6 +3041,12 @@
                 "name": "Greataxe (Humanoid or Hybrid Form Only)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+                "desc": "When the werebear takes damage, it reduces the damage taken by 10 (1d12 + 4)."
+            }
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -3114,6 +3162,8 @@
                 "name": "Poison Spray (Cantrip)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -3219,6 +3269,8 @@
             }
         ],
         "actions": [
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -3369,6 +3421,8 @@
                 "description": "The magen casts the suggestion spell (save DC 12), requiring no material components. The target must be a creature that the magen can communicate with telepathically. If it succeeds on its saving throw, the target is immune to this magen's suggestion spell for the next 24 hours. The magen's spellcasting ability is Intelligence.",
                 "name": "Suggestion"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -3532,6 +3586,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -3688,6 +3744,8 @@
                 "name": "Javelin"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -3825,6 +3883,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -3936,6 +3996,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage.",
                 "name": "Beak"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -4063,6 +4125,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -4257,6 +4321,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -4437,6 +4503,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. 26 (4d12) force damage, unless the living spell rolled an 18 or higher on the d20 for the attack, in which case the attack is a critical hit that deals 78 (12d12) force damage instead.",
                 "name": "Force Blade"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Preemptive Strike",
+                "desc": "The living spell makes a melee attack against a creature that starts its turn within 5 feet of the living spell."
             }
         ],
         "source": {
@@ -4621,6 +4693,8 @@
             }
         ],
         "actions": [
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -4870,6 +4944,8 @@
                 "name": "Wail (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -4984,6 +5060,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage.",
                 "name": "Ram"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -5105,121 +5183,7 @@
                 "name": "Shocking Grasp (Cantrip)"
             }
         ],
-        "source": {
-            "name": "Icewind Dale: Rime of the Frostmaiden",
-            "acronym": "IDRotF"
-        }
-    },
-    {
-        "index": "seal",
-        "type": "BEAST",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 0.0,
-        "name": "Seal",
-        "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/seal.png",
-        "background_color": {
-            "light": "#75a4f0",
-            "dark": "#0f3e8a"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "unaligned",
-        "armor_class": 11,
-        "hit_points": 9,
-        "hit_dice": "2d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 20,
-                    "value_formatted": "20 ft."
-                },
-                {
-                    "type": "SWIM",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 3,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 5,
-                "modifier": -3
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Hold Breath",
-                "desc": "The seal can hold its breath for 15 minutes."
-            },
-            {
-                "name": "Keen Smell",
-                "desc": "The seal has advantage on Wisdom (Perception) checks that rely on smell."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 2,
-                "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 1 piercing damage.",
-                "name": "Bite"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -5396,6 +5360,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage plus 5 (2d4) cold damage.",
                 "name": "Ice Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -5610,6 +5576,8 @@
                 "name": "Snowball"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -5749,6 +5717,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -5876,6 +5846,8 @@
                 "description": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. 5 (1d10) fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
                 "name": "Fire Bolt (Cantrip)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -6026,6 +5998,8 @@
                 "description": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. 18 (3d6 + 8) bludgeoning damage, or 37 (6d6 + 16) bludgeoning damage if the target is an object.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -6200,6 +6174,8 @@
                 "description": "The mimic spits acid at one creature it can see within 30 feet of it. The target must make a DC 14 Dexterity saving throw, taking 32 (9d6 + 1) acid damage on failed save, or half as much damage on a successful one.",
                 "name": "Spit Acid (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
@@ -6384,6 +6360,8 @@
                 "name": "Sledgehammer"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -6551,6 +6529,8 @@
                 "name": "Wand of Magic Missiles"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
@@ -6695,6 +6675,8 @@
                 "description": "Melee Weapon Attack:,rw +6 to hit, reach 5 ft. or range 20/60 ft., one target. 14 (3d6 + 4) piercing damage, or 17 (3d8 + 4) piercing damage if used to make a ranged attack or used with two hands to make a melee attack.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",

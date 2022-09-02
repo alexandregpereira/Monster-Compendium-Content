@@ -158,6 +158,8 @@
                 "name": "Ram"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
@@ -358,6 +360,8 @@
                 "name": "Dreadful Glare"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
@@ -524,6 +528,8 @@
                 "name": "Javelin"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
@@ -646,6 +652,8 @@
                 "description": "Erky presents his holy Symbol and speaks a prayer censuring the Undead. Each Undead that can see or hear Erky within 30 feet of him must make a DC 12 Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\nA turned creature must spend its turns trying to move as far away from Erky as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
                 "name": "Channel Divinity: Turn Undead (1/Short Rest)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tales from the Yawning Portal",
@@ -775,150 +783,7 @@
                 "name": "Rock"
             }
         ],
-        "source": {
-            "name": "Tales from the Yawning Portal",
-            "acronym": "TftYP"
-        }
-    },
-    {
-        "index": "hill-giant-subchief",
-        "type": "GIANT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 7.0,
-        "name": "Hill Giant Subchief",
-        "subtitle": "Huge giant, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hill-giant-subchief.png",
-        "background_color": {
-            "light": "#f0b675",
-            "dark": "#8a500f"
-        },
-        "is_horizontal_image": false,
-        "size": "Huge",
-        "alignment": "neutral",
-        "armor_class": 17,
-        "hit_points": 126,
-        "hit_dice": "11d12+55",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 23,
-                "modifier": 6
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 20,
-                "modifier": 5
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 9,
-                "modifier": -1
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-dex",
-                "type": "DEXTERITY",
-                "modifier": 5
-            },
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 8
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 4
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-athletics",
-                "modifier": 12,
-                "name": "Athletics"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "Giant",
-        "special_abilities": [
-            {
-                "name": "Stone Camouflage",
-                "desc": "The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The giant makes two greatclub attacks.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "3d8+6",
-                        "damage": {
-                            "index": "BLUDGEONING",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 9,
-                "description": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.",
-                "name": "Greatclub"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": 9,
-                "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.",
-                "name": "Rock"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Tales from the Yawning Portal",
@@ -1085,6 +950,8 @@
                 "description": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tales from the Yawning Portal",
@@ -1272,6 +1139,8 @@
                 "name": "Light Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
@@ -1426,6 +1295,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tales from the Yawning Portal",
@@ -1648,6 +1519,8 @@
                 "name": "Benign Transposition"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
@@ -1761,6 +1634,8 @@
                 "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tales from the Yawning Portal",

@@ -134,6 +134,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -269,6 +271,12 @@
                 "attack_bonus": 4,
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Beldora carries ten crossbow bolts.",
                 "name": "Hand Crossbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Duck and Cover",
+                "desc": "Beldora adds 2 to her AC against one ranged attack that would hit her. To do so, Beldora must see the attacker and can't be grappled or restrained."
             }
         ],
         "source": {
@@ -414,254 +422,7 @@
                 "name": "Rock"
             }
         ],
-        "source": {
-            "name": "Storm King's Thunder",
-            "acronym": "SKT"
-        }
-    },
-    {
-        "index": "claugiyliamatar",
-        "type": "DRAGON",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 23.0,
-        "name": "Claugiyliamatar",
-        "subtitle": "Gargantuan dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/claugiyliamatar.png",
-        "background_color": {
-            "light": "#d1f075",
-            "dark": "#6b8a0f"
-        },
-        "is_horizontal_image": true,
-        "size": "Gargantuan",
-        "alignment": "lawful evil",
-        "armor_class": 21,
-        "hit_points": 385,
-        "hit_dice": "22d20+154",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 80,
-                    "value_formatted": "80 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                },
-                {
-                    "type": "SWIM",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 27,
-                "modifier": 8
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 25,
-                "modifier": 7
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 20,
-                "modifier": 5
-            },
-            {
-                "type": "WISDOM",
-                "value": 17,
-                "modifier": 3
-            },
-            {
-                "type": "CHARISMA",
-                "value": 19,
-                "modifier": 4
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-dex",
-                "type": "DEXTERITY",
-                "modifier": 8
-            },
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 14
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 10
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 11
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-deception",
-                "modifier": 11,
-                "name": "Deception"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 10,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 17,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-persuasion",
-                "modifier": 11,
-                "name": "Persuasion"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 8,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-            "blindsight 60 ft.",
-            "darkvision 120 ft."
-        ],
-        "languages": "Common, Draconic",
-        "special_abilities": [
-            {
-                "name": "Spellcasting",
-                "desc": "Claugiyliamatar is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). She has the following druid spells prepared:\n- Cantrips (at will): druidcraft, mending, produce flame\n- 1st level (4 slots): cure wounds, detect magic, entangle, speak with animals\n- 2nd level (3 slots): animal messenger, pass without trace\n- 3rd level (3 slots): dispel magic, plant growth\n- 4th level (2 slots): blight, locate creature, stoneskin"
-            },
-            {
-                "name": "Amphibious",
-                "desc": "The dragon can breathe air and water."
-            },
-            {
-                "name": "Legendary Resistance (3/Day)",
-                "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d10+8",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "3d6",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 15,
-                "description": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage.",
-                "name": "Bite"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "4d6+8",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 15,
-                "description": "Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (4d6 + 8) slashing damage.",
-                "name": "Claw"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+8",
-                        "damage": {
-                            "index": "BLUDGEONING",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 15,
-                "description": "Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.",
-                "name": "Tail"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
-                "name": "Frightful Presence"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "22d6",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.",
-                "name": "Poison Breath (Recharge 5-6)"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -841,6 +602,8 @@
                 "name": "Rock"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -979,6 +742,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -1128,6 +893,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -1258,6 +1025,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Darz carries twenty sling stones.",
                 "name": "Sling"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -1429,6 +1198,8 @@
                 "name": "Rock"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -1539,6 +1310,12 @@
                 "attack_bonus": 2,
                 "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage. Duvessa carries only one dagger.",
                 "name": "Dagger"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Duvessa adds 2 to her AC against one melee attack that would hit her. To do so, Duvessa must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -1689,6 +1466,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.",
                 "name": "Battleaxe"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -1918,6 +1697,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -2079,6 +1860,8 @@
                 "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -2298,6 +2081,8 @@
                 "name": "Thunderous Stomp (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -2428,6 +2213,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage.",
                 "name": "Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -2565,6 +2352,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage. Markham carries twenty crossbow bolts.",
                 "name": "Heavy Crossbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -2711,6 +2500,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -2847,6 +2638,8 @@
                 "name": "Hand Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -2973,6 +2766,8 @@
                 "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one creature. Hit: 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands.",
                 "name": "Staff"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -3103,6 +2898,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -3225,6 +3022,12 @@
                 "attack_bonus": 2,
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8) piercing damage.",
                 "name": "Rapier"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Othovir adds 2 to its AC against one melee attack that would hit him. To do so, Othovir must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -3355,6 +3158,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -3510,6 +3315,8 @@
                 "name": "Hand Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -3646,6 +3453,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -3771,6 +3580,12 @@
                 "attack_bonus": 5,
                 "description": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage. Sirac carries six darts.",
                 "name": "Dart"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Sirac adds 2 to his AC against on melee attack that would hit him. To do so, Sirac must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -3923,6 +3738,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
@@ -4055,6 +3872,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 1) piercing damage. Urgala carries a quiver of twenty arrows.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",
@@ -4199,6 +4018,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Storm King's Thunder",

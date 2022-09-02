@@ -147,129 +147,7 @@
                 "name": "Tentacles"
             }
         ],
-        "source": {
-            "name": "The Tortle Package",
-            "acronym": "TTP"
-        }
-    },
-    {
-        "index": "geonid",
-        "type": "ELEMENTAL",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 0.25,
-        "name": "Geonid",
-        "subtitle": "Small elemental, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/geonid.png",
-        "background_color": {
-            "light": "#f0c775",
-            "dark": "#8a610f"
-        },
-        "is_horizontal_image": true,
-        "size": "Small",
-        "alignment": "neutral",
-        "armor_class": 17,
-        "hit_points": 26,
-        "hit_dice": "4d6+12",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 9,
-                "modifier": -1
-            },
-            {
-                "type": "WISDOM",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "CHARISMA",
-                "value": 11,
-                "modifier": 0
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 2,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft.",
-            "tremorsense 30 ft."
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Boulder Guise",
-                "desc": "While fully withdrawn into its shell, the geonid can't see and is indistinguishable from a small boulder"
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4+1",
-                        "damage": {
-                            "index": "BLUDGEONING",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 3,
-                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage.",
-                "name": "Club"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The geonid touches a stone object or surface and knows what types of creatures have been within 10 feet of that stone in the past 24 hours. The geonid can also determine the number of creatures of each type, but not their identities.",
-                "name": "Stone Tell"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "The Tortle Package",
@@ -403,6 +281,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 4 (1d4 + 2) slashing damage plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn.",
                 "name": "Venomous Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "The Tortle Package",
