@@ -177,6 +177,8 @@
                 "name": "Enslave"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -403,227 +405,7 @@
                 "name": "Acid Breath"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "adult-blue-dragon",
-        "type": "DRAGON",
-        "subtype": null,
-        "group": "Dragons, Blue",
-        "challenge_rating": 16.0,
-        "name": "Adult Blue Dragon",
-        "subtitle": "Huge dragon, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-blue-dragon.png",
-        "background_color": {
-            "light": "#f0b675",
-            "dark": "#8a500f"
-        },
-        "is_horizontal_image": true,
-        "size": "Huge",
-        "alignment": "lawful evil",
-        "armor_class": 19,
-        "hit_points": 225,
-        "hit_dice": "18d12",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "BURROW",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                },
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 80,
-                    "value_formatted": "80 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 25,
-                "modifier": 7
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 23,
-                "modifier": 6
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "WISDOM",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CHARISMA",
-                "value": 19,
-                "modifier": 4
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-dex",
-                "type": "DEXTERITY",
-                "modifier": 5
-            },
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 11
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 7
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 9
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 12,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 5,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "lightning",
-                "type": "LIGHTNING",
-                "name": "Lightning"
-            }
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "blindsight 60 ft.",
-            "darkvision 120 ft.",
-            "passive Perception 22"
-        ],
-        "languages": "Common, Draconic",
-        "special_abilities": [
-            {
-                "name": "Legendary Resistance",
-                "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d10+7",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "1d10",
-                        "damage": {
-                            "index": "lightning",
-                            "type": "LIGHTNING",
-                            "name": "Lightning"
-                        }
-                    }
-                ],
-                "attack_bonus": 12,
-                "description": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage.",
-                "name": "Bite"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+7",
-                        "damage": {
-                            "index": "slashing",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 12,
-                "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.",
-                "name": "Claw"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+7",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 12,
-                "description": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
-                "name": "Tail"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "Each creature of the dragon's choice that is within 120 ft. of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
-                "name": "Frightful Presence"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "12d10",
-                        "damage": {
-                            "index": "lightning",
-                            "type": "LIGHTNING",
-                            "name": "Lightning"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The dragon exhales lightning in a 90-foot line that is 5 ft. wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.",
-                "name": "Lightning Breath"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -841,6 +623,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -1056,6 +840,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -1266,6 +1052,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nAcid Breath. The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.\nSlowing Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -1486,6 +1274,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 66 (12d10) fire damage on a failed save, or half as much damage on a successful one.\nWeakening Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 21 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -1733,6 +1523,8 @@
                 "name": "Poison Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -1962,6 +1754,8 @@
                 "name": "Lair Actions"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -2171,6 +1965,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nCold Breath. The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.\nParalyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -2404,6 +2200,8 @@
                 "name": "Cold Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -2599,6 +2397,8 @@
                 "description": "Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\nIf the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.",
                 "name": "Whirlwind"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -2826,6 +2626,8 @@
                 "name": "Acid Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -3043,6 +2845,8 @@
                 "description": "The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.",
                 "name": "Lightning Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -3267,6 +3071,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -3489,6 +3295,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -3706,6 +3514,8 @@
                 "description": "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).\nIn a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                 "name": "Change Shape"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -3933,6 +3743,8 @@
                 "description": "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).\nIn a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                 "name": "Change Shape"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -4180,6 +3992,8 @@
                 "name": "Poison Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -4402,6 +4216,8 @@
                 "name": "Fire Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -4619,237 +4435,7 @@
                 "name": "Change Shape"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "ancient-white-dragon",
-        "type": "DRAGON",
-        "subtype": null,
-        "group": "Dragons, White",
-        "challenge_rating": 20.0,
-        "name": "Ancient White Dragon",
-        "subtitle": "Gargantuan dragon, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-white-dragon.png",
-        "background_color": {
-            "light": "#75f0c5",
-            "dark": "#0f8a5f"
-        },
-        "is_horizontal_image": true,
-        "size": "Gargantuan",
-        "alignment": "chaotic evil",
-        "armor_class": 20,
-        "hit_points": 333,
-        "hit_dice": "18d20",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "BURROW",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                },
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 80,
-                    "value_formatted": "80 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                },
-                {
-                    "type": "SWIM",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 26,
-                "modifier": 8
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 26,
-                "modifier": 8
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 14,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-dex",
-                "type": "DEXTERITY",
-                "modifier": 6
-            },
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 14
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 7
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 8
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 13,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 6,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "cold",
-                "type": "COLD",
-                "name": "Cold"
-            }
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "blindsight 60 ft.",
-            "darkvision 120 ft.",
-            "passive Perception 23"
-        ],
-        "languages": "Common, Draconic",
-        "special_abilities": [
-            {
-                "name": "Ice Walk",
-                "desc": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment."
-            },
-            {
-                "name": "Legendary Resistance",
-                "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d10+8",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "2d8",
-                        "damage": {
-                            "index": "cold",
-                            "type": "COLD",
-                            "name": "Cold"
-                        }
-                    }
-                ],
-                "attack_bonus": 14,
-                "description": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 9 (2d8) cold damage.",
-                "name": "Bite"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+8",
-                        "damage": {
-                            "index": "slashing",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 14,
-                "description": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage.",
-                "name": "Claw"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+8",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 14,
-                "description": "Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.",
-                "name": "Tail"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours .",
-                "name": "Frightful Presence"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "16d8",
-                        "damage": {
-                            "index": "cold",
-                            "type": "COLD",
-                            "name": "Cold"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (l6d8) cold damage on a failed save, or half as much damage on a successful one.",
-                "name": "Cold Breath"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -5056,6 +4642,8 @@
                 "name": "Roar"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -5224,6 +4812,8 @@
                 "name": "Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -5356,6 +4946,8 @@
                 "description": "The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.",
                 "name": "Acid Spray (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -5557,6 +5149,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -5744,147 +5338,7 @@
                 "name": "Light Crossbow"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "azer",
-        "type": "ELEMENTAL",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 2.0,
-        "name": "Azer",
-        "subtitle": "Medium elemental, lawful neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/azer.png",
-        "background_color": {
-            "light": "#f0b475",
-            "dark": "#6f3f0c"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "lawful neutral",
-        "armor_class": 17,
-        "hit_points": 39,
-        "hit_dice": "6d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 17,
-                "modifier": 3
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 10,
-                "modifier": 0
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 4
-            }
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "fire",
-                "type": "FIRE",
-                "name": "Fire"
-            },
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-            "passive Perception 11"
-        ],
-        "languages": "Ignan",
-        "special_abilities": [
-            {
-                "name": "Heated Body",
-                "desc": "A creature that touches the azer or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage."
-            },
-            {
-                "name": "Heated Weapons",
-                "desc": "When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack)."
-            },
-            {
-                "name": "Illumination",
-                "desc": "The azer sheds bright light in a 10-foot radius and dim light for an additional 10 ft.."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d8+3",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    },
-                    {
-                        "dice": "1d6",
-                        "damage": {
-                            "index": "fire",
-                            "type": "FIRE",
-                            "name": "Fire"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.",
-                "name": "Warhammer"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -5998,6 +5452,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -6241,6 +5697,8 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -6388,6 +5846,12 @@
                 "attack_bonus": 5,
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Dagger"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -6617,6 +6081,8 @@
                 "name": "Hurl Flame"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -6731,6 +6197,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6) poison damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -6848,6 +6316,8 @@
                 "description": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -7041,6 +6511,8 @@
                 "name": "Glaive"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -7225,6 +6697,8 @@
                 "name": "Swallow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -7402,6 +6876,8 @@
                 "description": "The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (Sd8) acid damage on a failed save, or half as much damage on a successful one.",
                 "name": "Acid Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -7582,6 +7058,12 @@
                 "name": "Pseudopod"
             }
         ],
+        "reactions": [
+            {
+                "name": "Split",
+                "desc": "When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+            }
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -7704,6 +7186,8 @@
                 "description": "The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.",
                 "name": "Teleport"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -7878,6 +7362,8 @@
                 "description": "The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.",
                 "name": "Lightning Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -8091,6 +7577,8 @@
                 "name": "Sting"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -8248,6 +7736,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.\nSleep Breath. The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -8411,6 +7901,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -8547,6 +8039,8 @@
                 "name": "Javelin"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -8672,6 +8166,8 @@
                 "description": "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space.",
                 "name": "Deadly Leap"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -8829,6 +8325,194 @@
                 "attack_bonus": 4,
                 "description": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
                 "name": "Longbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "System Reference Document",
+            "acronym": "SRD"
+        }
+    },
+    {
+        "index": "chain-devil",
+        "type": "FIEND",
+        "subtype": "devil",
+        "group": "Devils",
+        "challenge_rating": 8.0,
+        "name": "Chain Devil",
+        "subtitle": "Medium fiend(devil), lawful evil",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/chain-devil.png",
+        "background_color": {
+            "light": "#f07585",
+            "dark": "#8a0f1f"
+        },
+        "is_horizontal_image": false,
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 16,
+        "hit_points": 85,
+        "hit_dice": "10d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "bludgeoning*",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning*"
+            },
+            {
+                "index": "piercing*",
+                "type": "PIERCING",
+                "name": "Piercing*"
+            },
+            {
+                "index": "slashing*",
+                "type": "SLASHING",
+                "name": "Slashing*"
+            },
+            {
+                "index": "*bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
+                "type": "OTHER",
+                "name": "*bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 120 ft.",
+            "passive Perception 11"
+        ],
+        "languages": "Infernal, telepathy 120 ft.",
+        "special_abilities": [
+            {
+                "name": "Devil's Sight",
+                "desc": "Magical darkness doesn't impede the devil's darkvision."
+            },
+            {
+                "name": "Magic Resistance",
+                "desc": "The devil has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The devil makes two attacks with its chains.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing damage. The target is grappled (escape DC 14) if the devil isn't already grappling a creature. Until this grapple ends, the target is restrained and takes 7 (2d6) piercing damage at the start of each of its turns.",
+                "name": "Chain"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Up to four chains the devil can see within 60 feet of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried.\nEach animated chain is an object with AC 20, 20 hit points, resistance to piercing damage, and immunity to psychic and thunder damage. When the devil uses Multiattack on its turn, it can use each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies.",
+                "name": "Animate Chains"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Unnerving Mask",
+                "desc": "When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn."
             }
         ],
         "source": {
@@ -8997,6 +8681,8 @@
                 "name": "Fire Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -9142,6 +8828,8 @@
                 "description": "One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Tentacles"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -9345,6 +9033,8 @@
                 "name": "Haste"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -9507,6 +9197,8 @@
                 "name": "Phantasms"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -9664,6 +9356,8 @@
                 "name": "Rock"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -9772,6 +9466,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -9930,6 +9626,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nAcid Breath. The dragon exhales acid in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one.\nSlowing Breath. The dragon exhales gas in a 1 5-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -10119,6 +9817,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -10251,6 +9951,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -10366,6 +10068,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.",
                 "name": "Scimitar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -10496,6 +10200,8 @@
                 "name": "Darkness Aura"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -10619,6 +10325,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -10764,6 +10472,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success",
                 "name": "Poisoned Dart"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -10975,6 +10685,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -11094,6 +10806,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -11255,6 +10969,8 @@
                 "name": "Create Whirlwind"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -11398,6 +11114,8 @@
                 "description": "The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.",
                 "name": "Read Thoughts"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -11584,6 +11302,8 @@
                 "name": "Steam Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -11740,6 +11460,8 @@
                 "description": "A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.",
                 "name": "Fetid Cloud"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -11925,6 +11647,8 @@
                 "name": "Longbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -12065,6 +11789,8 @@
                 "name": "Hand Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -12178,141 +11904,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "dryad",
-        "type": "FEY",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Dryad",
-        "subtitle": "Medium fey, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dryad.png",
-        "background_color": {
-            "light": "#f0d475",
-            "dark": "#8a6e0f"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "neutral",
-        "armor_class": 11,
-        "hit_points": 22,
-        "hit_dice": "5d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "WISDOM",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CHARISMA",
-                "value": 18,
-                "modifier": 4
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 5,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft.",
-            "passive Perception 14"
-        ],
-        "languages": "Elvish, Sylvan",
-        "special_abilities": [
-            {
-                "name": "Innate Spellcasting",
-                "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:\n\nAt will: druidcraft\n3/day each: entangle, goodberry\n1/day each: barkskin, pass without trace, shillelagh"
-            },
-            {
-                "name": "Magic Resistance",
-                "desc": "The dryad has advantage on saving throws against spells and other magical effects."
-            },
-            {
-                "name": "Speak with Beasts and Plants",
-                "desc": "The dryad can communicate with beasts and plants as if they shared a language."
-            },
-            {
-                "name": "Tree Stride",
-                "desc": "Once on her turn, the dryad can use 10 ft. of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 ft. of the first tree, appearing in an unoccupied space within 5 ft. of the second tree. Both trees must be large or bigger."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 2,
-                "description": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1 d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.",
-                "name": "Club"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.\nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.\nThe dryad can have no more than one humanoid and up to three beasts charmed at a time.",
-                "name": "Fey Charm"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -12458,6 +12050,8 @@
                 "description": "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .",
                 "name": "Invisibility"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -12615,122 +12209,7 @@
                 "name": "Variant: Summon Mephits"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "eagle",
-        "type": "BEAST",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 0.0,
-        "name": "Eagle",
-        "subtitle": "Small beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/eagle.png",
-        "background_color": {
-            "light": "#f0b475",
-            "dark": "#8a4e0f"
-        },
-        "is_horizontal_image": true,
-        "size": "Small",
-        "alignment": "unaligned",
-        "armor_class": 12,
-        "hit_points": 3,
-        "hit_dice": "1d6",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 60,
-                    "value_formatted": "60 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 10,
-                    "value_formatted": "10 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 6,
-                "modifier": -2
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 2,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "CHARISMA",
-                "value": 7,
-                "modifier": -2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 14"
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Keen Sight",
-                "desc": "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4+2",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
-                "name": "Talons"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -12912,6 +12391,8 @@
                 "name": "Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -13082,6 +12563,8 @@
                 "description": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage.",
                 "name": "Hurl Flame"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -13297,6 +12780,12 @@
                 "name": "Variant: Rope of Entanglement"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -13485,6 +12974,8 @@
                 "name": "Variant: Web Garrote"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -13622,6 +13113,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.",
                 "name": "Morningstar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -13815,6 +13308,8 @@
                 "name": "Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -13968,6 +13463,8 @@
                 "description": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -14163,6 +13660,8 @@
                 "name": "Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -14289,6 +13788,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -14457,6 +13958,8 @@
                 "name": "Longsword"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -14568,6 +14071,8 @@
             }
         ],
         "actions": [
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -14722,6 +14227,8 @@
                 "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -14898,6 +14405,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -15054,6 +14563,8 @@
                 "name": "Engulf"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -15204,6 +14715,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -15443,6 +14956,8 @@
                 "name": "Possession (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -15581,6 +15096,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -15715,6 +15232,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -15855,6 +15374,8 @@
                 "name": "Talons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -15961,6 +15482,8 @@
                 "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -16095,6 +15618,8 @@
                 "description": "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.",
                 "name": "Swallow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -16234,6 +15759,8 @@
                 "name": "Ink Cloud"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -16361,6 +15888,8 @@
                 "name": "Talons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -16471,6 +16000,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -16605,6 +16136,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
                 "name": "Web"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -16741,6 +16274,8 @@
                 "description": "The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.",
                 "name": "Blinding Spittle"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -16947,6 +16482,8 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -17076,6 +16613,8 @@
                 "name": "Longbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -17202,6 +16741,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -17365,6 +16906,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -17503,6 +17046,8 @@
                 "description": "The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.",
                 "name": "Petrifying Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -17687,6 +17232,8 @@
                 "name": "Poison Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -17835,6 +17382,8 @@
                 "description": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.",
                 "name": "Invisible Passage"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -17991,6 +17540,8 @@
                 "name": "Beak"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -18130,6 +17681,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -18273,6 +17826,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.",
                 "name": "Spiked Bone Club"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -18431,6 +17986,8 @@
                 "description": "Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.",
                 "name": "Spit Poison"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -18615,6 +18172,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -18768,6 +18327,8 @@
                 "name": "Fire Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -18905,6 +18466,8 @@
                 "name": "Luring Song"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -19021,6 +18584,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
                 "name": "Talons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -19165,6 +18730,8 @@
                 "description": "The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.",
                 "name": "Fire Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -19366,6 +18933,8 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -19494,6 +19063,8 @@
                 "description": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -19634,6 +19205,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -19747,6 +19320,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
                 "name": "Longbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -19875,6 +19450,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -20090,6 +19667,8 @@
                 "name": "Hurl Flame"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -20227,116 +19806,7 @@
                 "name": "Bite"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "hyena",
-        "type": "BEAST",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 0.0,
-        "name": "Hyena",
-        "subtitle": "Medium beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hyena.png",
-        "background_color": {
-            "light": "#75f0d2",
-            "dark": "#0f8a6c"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "unaligned",
-        "armor_class": 11,
-        "hit_points": 5,
-        "hit_dice": "1d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 50,
-                    "value_formatted": "50 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 2,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 5,
-                "modifier": -3
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 3,
-                "name": "Perception"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 13"
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Pack Tactics",
-                "desc": "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d6",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 2,
-                "description": "Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.",
-                "name": "Bite"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -20573,6 +20043,8 @@
                 "name": "Wall of Ice"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -20758,6 +20230,8 @@
                 "description": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
                 "name": "Variant: Summon Mephits"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -20950,6 +20424,8 @@
                 "description": "The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.",
                 "name": "Invisibility"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -21149,6 +20625,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
                 "name": "Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -21371,6 +20849,8 @@
                 "name": "Poison Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -21496,6 +20976,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
                 "name": "Sling"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -21722,6 +21204,8 @@
                 "name": "Lightning Storm"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -21873,6 +21357,8 @@
                 "name": "Intoxicating Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -22013,6 +21499,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
                 "name": "Fist"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -22233,6 +21721,8 @@
                 "name": "Paralyzing Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -22412,6 +21902,8 @@
                 "name": "Spiked Shield"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -22588,6 +22080,8 @@
                 "name": "Variant: Summon Mephits"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -22723,6 +22217,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a target takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.",
                 "name": "Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -22873,6 +22369,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
                 "name": "Tail Spike"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -23090,6 +22588,12 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -23201,185 +22705,7 @@
                 "name": "Bite"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "medusa",
-        "type": "MONSTROSITY",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 6.0,
-        "name": "Medusa",
-        "subtitle": "Medium monstrosity, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/medusa.png",
-        "background_color": {
-            "light": "#f0ce75",
-            "dark": "#8a680f"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "lawful evil",
-        "armor_class": 15,
-        "hit_points": 127,
-        "hit_dice": "17d8",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 15,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-deception",
-                "modifier": 5,
-                "name": "Deception"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 4,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 5,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft.",
-            "passive Perception 14"
-        ],
-        "languages": "Common",
-        "special_abilities": [
-            {
-                "name": "Petrifying Gaze",
-                "desc": "When a creature that can see the medusa's eyes starts its turn within 30 ft. of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.\nUnless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.\nIf the medusa sees itself reflected on a polished surface within 30 ft. of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The medusa makes either three melee attacks--one with its snake hair and two with its shortsword--or two ranged attacks with its longbow.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4+2",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "4d6",
-                        "damage": {
-                            "index": "poison",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.",
-                "name": "Snake Hair"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d6+2",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-                "name": "Shortsword"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d8+2",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "2d6",
-                        "damage": {
-                            "index": "poison",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.",
-                "name": "Longbow"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -23489,6 +22815,8 @@
                 "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -23639,6 +22967,8 @@
                 "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.",
                 "name": "Harpoon"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -23797,6 +23127,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -23931,6 +23263,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
                 "name": "Gore"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -24073,6 +23407,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
                 "name": "Gore"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -24263,6 +23599,8 @@
                 "description": "The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.",
                 "name": "Dreadful Glare"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -24485,6 +23823,8 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -24676,141 +24016,7 @@
                 "name": "Nightmare Haunting"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "nightmare",
-        "type": "FIEND",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 3.0,
-        "name": "Nightmare",
-        "subtitle": "Large fiend, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/nightmare.png",
-        "background_color": {
-            "light": "#f09875",
-            "dark": "#8a320f"
-        },
-        "is_horizontal_image": false,
-        "size": "Large",
-        "alignment": "neutral evil",
-        "armor_class": 13,
-        "hit_points": 68,
-        "hit_dice": "8d10",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 90,
-                    "value_formatted": "90 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 60,
-                    "value_formatted": "60 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 15,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "fire",
-                "type": "FIRE",
-                "name": "Fire"
-            }
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 11"
-        ],
-        "languages": "understands Abyssal, Common, and Infernal but can't speak",
-        "special_abilities": [
-            {
-                "name": "Confer Fire Resistance",
-                "desc": "The nightmare can grant resistance to fire damage to anyone riding it."
-            },
-            {
-                "name": "Illumination",
-                "desc": "The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+4",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    },
-                    {
-                        "dice": "2d6",
-                        "damage": {
-                            "index": "fire",
-                            "type": "FIRE",
-                            "name": "Fire"
-                        }
-                    }
-                ],
-                "attack_bonus": 6,
-                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage.",
-                "name": "Hooves"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.",
-                "name": "Ethereal Stride"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -24927,6 +24133,12 @@
                 "attack_bonus": 3,
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
                 "name": "Rapier"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -25099,6 +24311,12 @@
                 "name": "Pseudopod"
             }
         ],
+        "reactions": [
+            {
+                "name": "Split",
+                "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jellies are one size smaller than the original jelly."
+            }
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -25237,6 +24455,8 @@
                 "name": "Ink Cloud"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -25354,6 +24574,8 @@
                 "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -25476,6 +24698,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
                 "name": "Morningstar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -25662,6 +24886,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -25788,6 +25014,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -25938,6 +25166,8 @@
                 "name": "Tentacle Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -26064,6 +25294,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
                 "name": "Talons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -26199,6 +25431,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -26327,6 +25561,8 @@
                 "name": "Hooves"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -26452,6 +25688,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -26685,6 +25923,8 @@
                 "name": "Tail"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -26892,127 +26132,7 @@
                 "name": "Healing Touch"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "plesiosaurus",
-        "type": "BEAST",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 2.0,
-        "name": "Plesiosaurus",
-        "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/plesiosaurus.png",
-        "background_color": {
-            "light": "#8fcaf3",
-            "dark": "#0f588a"
-        },
-        "is_horizontal_image": false,
-        "size": "Large",
-        "alignment": "unaligned",
-        "armor_class": 13,
-        "hit_points": 68,
-        "hit_dice": "8d10",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 20,
-                    "value_formatted": "20 ft."
-                },
-                {
-                    "type": "SWIM",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 2,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 5,
-                "modifier": -3
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 3,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 4,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 13"
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Hold Breath",
-                "desc": "The plesiosaurus can hold its breath for 1 hour."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "3d6+4",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 6,
-                "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.",
-                "name": "Bite"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -27165,6 +26285,8 @@
                 "name": "Sting"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -27310,6 +26432,8 @@
                 "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 19 (3d6 + 9) piercing damage, and the target must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.",
                 "name": "Tail Stinger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -27490,6 +26614,8 @@
                 "name": "Invisibility"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -27600,6 +26726,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -27759,6 +26887,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -27865,6 +26995,8 @@
                 "description": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -27982,6 +27114,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
                 "name": "Beak"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -28157,6 +27291,8 @@
                 "name": "Fire Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -28296,107 +27432,7 @@
                 "name": "Swallow"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "riding-horse",
-        "type": "BEAST",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 0.25,
-        "name": "Riding Horse",
-        "subtitle": "Large beast, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/riding-horse.png",
-        "background_color": {
-            "light": "#f0a375",
-            "dark": "#7a360e"
-        },
-        "is_horizontal_image": true,
-        "size": "Large",
-        "alignment": "unaligned",
-        "armor_class": 10,
-        "hit_points": 13,
-        "hit_dice": "2d10",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 60,
-                    "value_formatted": "60 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 2,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "CHARISMA",
-                "value": 7,
-                "modifier": -2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 10"
-        ],
-        "languages": "",
-        "special_abilities": [
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d4+3",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
-                "name": "Hooves"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -28557,6 +27593,8 @@
                 "name": "Talons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -28708,6 +27746,8 @@
                 "description": "The roper pulls each creature grappled by it up to 25 ft. straight toward it.",
                 "name": "Reel"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -28861,6 +27901,8 @@
                 "name": "Smother"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -28978,6 +28020,8 @@
                 "description": "The rust monster corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature can make a DC 11 Dexterity saving throw to avoid the rust monster's touch.\nIf the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait.",
                 "name": "Antennae"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -29133,6 +28177,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -29305,6 +28351,8 @@
                 "name": "Tail"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -29463,6 +28511,8 @@
                 "name": "Variant: Panpipes"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -29611,6 +28661,8 @@
                 "name": "Longbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -29741,6 +28793,8 @@
                 "description": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.",
                 "name": "Illusory Appearance"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -29962,6 +29016,8 @@
                 "name": "Strength Drain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -30124,6 +29180,8 @@
                 "name": "Engulf"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -30277,6 +29335,12 @@
                 "name": "Fist"
             }
         ],
+        "reactions": [
+            {
+                "name": "Shield",
+                "desc": "When a creature makes an attack against the wearer of the guardian's amulet, the guardian grants a +2 bonus to the wearer's AC if the guardian is within 5 feet of the wearer."
+            }
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -30390,6 +29454,8 @@
                 "description": "When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward",
                 "name": "Shriek"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -30543,6 +29609,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -30680,6 +29748,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -30933,6 +30003,8 @@
                 "name": "Healing Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -31150,6 +30222,8 @@
                 "name": "Life Drain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -31275,6 +30349,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -31422,6 +30498,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -31568,6 +30646,8 @@
                 "description": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.",
                 "name": "Invisibility"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -31731,6 +30811,8 @@
                 "name": "Variant: Summon Mephits"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -31839,6 +30921,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.\nThe stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.",
                 "name": "Blood Drain"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -31992,6 +31076,12 @@
                 "attack_bonus": 9,
                 "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.",
                 "name": "Rock"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Rock Catching",
+                "desc": "If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
             }
         ],
         "source": {
@@ -32182,6 +31272,8 @@
                 "description": "The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Slow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -32390,6 +31482,8 @@
                 "description": "The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one.",
                 "name": "Lightning Strike"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -32641,6 +31735,8 @@
                 "name": "Swallow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -32774,159 +31870,7 @@
                 "name": "Heavy Crossbow"
             }
         ],
-        "source": {
-            "name": "System Reference Document",
-            "acronym": "SRD"
-        }
-    },
-    {
-        "index": "treant",
-        "type": "PLANT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 9.0,
-        "name": "Treant",
-        "subtitle": "Huge plant, chaotic good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/treant.png",
-        "background_color": {
-            "light": "#f0d775",
-            "dark": "#8a710f"
-        },
-        "is_horizontal_image": false,
-        "size": "Huge",
-        "alignment": "chaotic good",
-        "armor_class": 16,
-        "hit_points": 138,
-        "hit_dice": "12d12",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 23,
-                "modifier": 6
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 8,
-                "modifier": -1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 21,
-                "modifier": 5
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "WISDOM",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "CHARISMA",
-                "value": 12,
-                "modifier": 1
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-            {
-                "index": "fire",
-                "type": "FIRE",
-                "name": "Fire"
-            }
-        ],
-        "damage_resistances": [
-            {
-                "index": "bludgeoning",
-                "type": "BLUDGEONING",
-                "name": "Bludgeoning"
-            },
-            {
-                "index": "piercing",
-                "type": "PIERCING",
-                "name": "Piercing"
-            }
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "passive Perception 13"
-        ],
-        "languages": "Common, Druidic, Elvish, Sylvan",
-        "special_abilities": [
-            {
-                "name": "False Appearance",
-                "desc": "While the treant remains motionless, it is indistinguishable from a normal tree."
-            },
-            {
-                "name": "Siege Monster",
-                "desc": "The treant deals double damage to objects and structures."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The treant makes two slam attacks.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "3d6+6",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 10,
-                "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.",
-                "name": "Slam"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "4d10+6",
-                        "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 10,
-                "description": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
-                "name": "Rock"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.",
-                "name": "Animate Trees"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -33070,6 +32014,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -33198,6 +32144,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -33373,6 +32321,8 @@
                 "description": "The unicorn magically teleports itself and up to three willing creatures it can see within 5 ft. of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away.",
                 "name": "Teleport"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -33595,6 +32545,8 @@
                 "name": "Children of the Night"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -33785,6 +32737,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -33913,6 +32867,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.",
                 "name": "Rotting Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -34130,6 +33086,8 @@
                 "name": "Variant: Summon Demon"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -34339,6 +33297,8 @@
                 "name": "Whelm"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -34518,6 +33478,8 @@
                 "description": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one.",
                 "name": "Cold Breath"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -34704,6 +33666,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
                 "name": "Longbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -34927,6 +33891,8 @@
                 "name": "Invisibility"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -35071,6 +34037,8 @@
                 "name": "Cold Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -35191,6 +34159,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -35302,6 +34272,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -35522,6 +34494,8 @@
                 "name": "Create Specter"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -35672,6 +34646,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
                 "name": "Stinger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -35841,6 +34817,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -36042,6 +35020,8 @@
                 "name": "Acid Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -36238,6 +35218,8 @@
                 "name": "Lightning Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -36422,6 +35404,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.\nSleep Breath. The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -36612,6 +35596,8 @@
                 "name": "Breath Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -36796,6 +35782,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nAcid Breath. The dragon exhales acid in an 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one.\nSlowing Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -36990,6 +35978,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one.\nWeakening Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -37201,6 +36191,8 @@
                 "name": "Poison Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -37397,6 +36389,8 @@
                 "name": "Fire Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -37580,6 +36574,8 @@
                 "description": "The dragon uses one of the following breath weapons.\nCold Breath. The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.\nParalyzing Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
@@ -37787,6 +36783,8 @@
                 "name": "Cold Breath"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "System Reference Document",
             "acronym": "SRD"
@@ -37908,6 +36906,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.",
                 "name": "Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "System Reference Document",
