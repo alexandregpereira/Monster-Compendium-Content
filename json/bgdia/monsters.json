@@ -158,6 +158,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -296,6 +298,8 @@
                 "description": "Amrik hurls a smoke bomb up to 20 feet away. The bomb explodes on impact, creating a cloud of black smoke that fills a 10-foot-radius sphere. The area within the cloud is heavily obscured. A strong wind disperses the cloud, which otherwise remains until the end of Amrik's next turn.",
                 "name": "Smoke Bomb (1/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -575,6 +579,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -811,6 +817,8 @@
                 "name": "Javelin"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -1024,6 +1032,8 @@
                 "name": "Tail"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -1187,6 +1197,8 @@
                 "name": "Guiding Bolt (1st-Level Spell; Requires a Spell Slot)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -1306,6 +1318,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 4 (1d8) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -1449,6 +1463,12 @@
                 "attack_bonus": 5,
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 bludgeoning damage.",
                 "name": "Unarmed Strike"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Hellish Rebuke (1st-Level Spell; 2/Day)",
+                "desc": "When Thalamra is damaged by a creature within 60 feet of her that she can see, the creature that damaged her is engulfed in hellish flames and must make a DC 14 Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one."
             }
         ],
         "source": {
@@ -1654,6 +1674,8 @@
                 "name": "Withering Gaze"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -1815,6 +1837,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
                 "name": "Sword Talons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -2020,6 +2044,8 @@
                 "description": "Creatures in the cone must make a DC 14 Constitution saving throw, taking 22 (4d8 + 4) radiant damage on a failed save, or half as much damage on a successful one. Evil creatures have disadvantage on the saving throw. Good creatures in the cone take no damage.",
                 "name": "Trumpet of Sparkles"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -2254,6 +2280,8 @@
                 "name": "Matalotok (Warhammer)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -2426,6 +2454,8 @@
                 "description": "Krull withdraws into his shell. Until he emerges as a bonus action, he has a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in his shell, Krull is prone, his speed is 0 and can't increase, he has disadvantage on Dexterity saving throws, he can't take reactions, and the only action he can take is to emerge from his shell.",
                 "name": "Shell Defense"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -2611,6 +2641,8 @@
                 "name": "Summon Erinyes (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -2756,6 +2788,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -2881,6 +2915,8 @@
                 "description": "Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit: 8 (2d4 + 3) necrotic damage.",
                 "name": "Claws of the Grave"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -3051,6 +3087,12 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+            {
+                "name": "Uncanny Dodge",
+                "desc": "Nine-Fingers halves the damage that she takes from an attack that hits her. She must be able to see the attacker."
+            }
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -3190,6 +3232,8 @@
                 "description": "The reaper magically turns invisible until the start of its next turn. This invisibility ends if the reaper makes an attack roll, makes a damage roll, or casts a spell.",
                 "name": "Shroud Self"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -3366,6 +3410,8 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -3517,134 +3563,7 @@
                 "name": "+1 Shortsword"
             }
         ],
-        "source": {
-            "name": "Baldur's Gate: Descent Into Avernus",
-            "acronym": "BGDIA"
-        }
-    },
-    {
-        "index": "thurstwell-vanthampur",
-        "type": "HUMANOID",
-        "subtype": "human",
-        "group": null,
-        "challenge_rating": 0.125,
-        "name": "Thurstwell Vanthampur",
-        "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/thurstwell-vanthampur.png",
-        "background_color": {
-            "light": "#75e2f0",
-            "dark": "#0b5c67"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "lawful evil",
-        "armor_class": 9,
-        "hit_points": 5,
-        "hit_dice": "2d8-4",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 7,
-                "modifier": -2
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 8,
-                "modifier": -1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 6,
-                "modifier": -2
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "WISDOM",
-                "value": 17,
-                "modifier": 3
-            },
-            {
-                "type": "CHARISMA",
-                "value": 12,
-                "modifier": 1
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-deception",
-                "modifier": 3,
-                "name": "Deception"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 5,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 5,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-religion",
-                "modifier": 4,
-                "name": "Religion"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
-        "languages": "Common, Elvish, Infernal",
-        "special_abilities": [
-            {
-                "name": "Spellcasting",
-                "desc": "Thurstwell is a 2nd-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13). He has the following cleric spells prepared:\n- Cantrips (at will): guidance, sacred flame (see \"Actions\" below), thaumaturgy\n- 1st level (3 slots): command, detect evil and good, sanctuary"
-            },
-            {
-                "name": "Dark Devotion",
-                "desc": "Thurstwell has advantage on saving throws against being charmed or frightened."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d8",
-                        "damage": {
-                            "index": "RADIANT",
-                            "type": "RADIANT",
-                            "name": "Radiant"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "Flame-like radiance descends on one creature Thurstwell can see within 60 feet of him. The target must succeed on a DC 13 Dexterity saving throw or take 4 (1d8) radiant damage, gaining no benefit from cover.",
-                "name": "Sacred Flame (Cantrip)"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -3820,6 +3739,8 @@
                 "name": "Horns"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
@@ -3969,6 +3890,8 @@
                 "description": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Baldur's Gate: Descent Into Avernus",
@@ -4124,6 +4047,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d6 + 3) bludgeoning damage, and Ulder pushes the target 5 feet away from him. Ulder then enters the space vacated by the target. If the target is pushed to within 5 feet of a creature friendly to Ulder, the target provokes an opportunity attack from that creature.",
                 "name": "Shield"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Guardian Strike",
+                "desc": "If an enemy within 5 feet of Ulder attacks a target other than him, Ulder can make a melee attack against that enemy."
             }
         ],
         "source": {

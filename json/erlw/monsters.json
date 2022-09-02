@@ -257,6 +257,8 @@
                 "name": "4"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -427,6 +429,8 @@
                 "name": "Longbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -570,6 +574,8 @@
                 "description": "Each creature within 30 feet of the changeling must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Unsettling Visage (Recharges after a Short or Long Rest)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -738,6 +744,8 @@
                 "name": "Vitality Drain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -888,6 +896,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
                 "name": "Hand Crossbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -1055,6 +1065,12 @@
                 "attack_bonus": 7,
                 "description": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 18 (4d6 + 4) psychic damage. If the target is unconscious, it takes an extra 10 (3d6) psychic damage and is cursed until the hag dies or the curse is removed. The cursed creature's hit point maximum decreases by 5 (1d10) whenever it finishes a long rest.",
                 "name": "Nightmare Touch"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Dream Eater",
+                "desc": "When an unconscious creature the hag can see within 30 feet of her regains consciousness, the hag can force the creature to make a DC 15 Wisdom saving throw. Unless the save succeeds, the creature takes 11 (2d10) psychic damage, and the hag regains hit points equal to the amount of damage taken."
             }
         ],
         "source": {
@@ -1281,6 +1297,8 @@
                 "name": "Extract Brain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -1385,6 +1403,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -1554,6 +1574,12 @@
                 "name": "Possession (Recharge 6)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Empathic Feedback",
+                "desc": "When the quori takes damage from a creature it can see within 60 feet of it, the quori can force that creature to succeed on a DC 16 Intelligence saving throw or take 11 (2d10) psychic damage."
+            }
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -1721,140 +1747,7 @@
                 "name": "Vicious Mockery (Cantrip)"
             }
         ],
-        "source": {
-            "name": "Eberron: Rising from the Last War",
-            "acronym": "ERLW"
-        }
-    },
-    {
-        "index": "iron-defender",
-        "type": "CONSTRUCT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Iron Defender",
-        "subtitle": "Medium construct, neutral",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/iron-defender.png",
-        "background_color": {
-            "light": "#f07578",
-            "dark": "#8a0f12"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "neutral",
-        "armor_class": 17,
-        "hit_points": 30,
-        "hit_dice": "4d8+12",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 8,
-                "modifier": -1
-            },
-            {
-                "type": "WISDOM",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "CHARISMA",
-                "value": 7,
-                "modifier": -2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 3,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 4,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "exhaustion",
-                "type": "EXHAUSTION",
-                "name": "Exhaustion"
-            },
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "understands the languages of its creator but can't speak",
-        "special_abilities": [
-            {
-                "name": "Keen Senses",
-                "desc": "The defender has advantage on Wisdom (Perception) checks."
-            },
-            {
-                "name": "Telepathic Bond",
-                "desc": "While the defender is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d6",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or take an extra 3 (1d6) piercing damage and be grappled (escape DC 13). The defender can have only one creature grappled in this way at a time.",
-                "name": "Bite"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -2126,6 +2019,8 @@
                 "name": "Possession (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -2265,6 +2160,8 @@
                 "description": "The kalashtar targets a creature it can see within 30 feet of it. The target must succeed on a DC 12 Wisdom saving throw or take 11 (2d10) psychic damage.",
                 "name": "Mind Thrust"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -2439,6 +2336,12 @@
                 "attack_bonus": 4,
                 "description": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
                 "name": "Longbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The soldier adds 3 to its AC against one melee attack that would hit it. To do so, the soldier must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -2723,6 +2626,8 @@
                 "name": "Poison Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -2918,6 +2823,8 @@
                 "description": "The living spell unleashes a thin sheet of flames in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.",
                 "name": "Spell Mimicry (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -3122,6 +3029,8 @@
                 "name": "Spell Mimicry (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -3325,6 +3234,8 @@
                 "name": "Spell Mimicry (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -3430,6 +3341,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -3620,6 +3533,8 @@
                 "description": "Ranged Spell Attack: +10 to hit, range 120 ft., one creature. Hit: 13 (3d8) damage of a type chosen by Mordakhesh: acid, cold, fire, lightning, poison, or thunder.",
                 "name": "Chromatic Orb"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -3830,6 +3745,8 @@
                 "description": "The radiant idol chooses a point on the ground it can see within 60 feet of it. A 30-foot-radius, 40-foot-high cylinder of bright light appears there until the start of the radiant idol's next turn. Each creature in the cylinder when it appears or that ends its turn there must make a DC 17 Constitution saving throw, taking 36 (8d8) radiant damage on a failed save, or half as much damage on a successful one.",
                 "name": "Radiant Strike (1/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -4079,6 +3996,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -4219,6 +4138,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -4470,6 +4391,8 @@
                 "name": "Change Shape"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -4629,6 +4552,8 @@
                 "description": "Ranged Spell Attack: +4 to hit, range 90 ft., one creature. Hit: 18 (4d8) damage of a type chosen by the assassin: acid, cold, fire, lightning, poison, or thunder.",
                 "name": "Chromatic Orb (1/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -4853,6 +4778,8 @@
                 "name": "Fire Bolt (Cantrip)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -5033,6 +4960,8 @@
                 "description": "One humanoid that the quori can see within 5 feet of it must succeed on a DC 14 Charisma saving throw or be possessed by the quori; the quori then disappears, and the target is incapacitated and loses control of its body. The quori now controls the body but doesn't deprive the target of awareness. The quori can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.\nThe possession lasts until the body drops to 0 hit points, the quori ends it as a bonus action, or the quori is forced out by an effect like the dispel evil and good spell. When the possession ends, the quori reappears in an unoccupied space within 5 feet of the body. The target is immune to this quori's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
                 "name": "Possession (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -5232,6 +5161,8 @@
                 "name": "Spear"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
@@ -5337,6 +5268,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -5447,6 +5380,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
                 "name": "Hooves"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -5593,6 +5528,12 @@
                 "attack_bonus": 5,
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
                 "name": "Javelin"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Protection",
+                "desc": "When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
             }
         ],
         "source": {
@@ -5781,6 +5722,8 @@
                 "description": "The warforged titan makes a sweep with its axehand, and each creature within 10 feet of it must make a DC 17 Dexterity saving throw. A creature takes 19 (3d8 + 6) slashing damage on a failed save, or half as much damage on a successful one.",
                 "name": "Sweeping Axe (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",

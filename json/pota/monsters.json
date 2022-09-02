@@ -148,6 +148,8 @@
                 "name": "Windvane"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -264,6 +266,12 @@
                 "attack_bonus": 5,
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
                 "name": "Morningstar"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Unyielding",
+                "desc": "When the guard is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone."
             }
         ],
         "source": {
@@ -406,6 +414,12 @@
                 "name": "Spear"
             }
         ],
+        "reactions": [
+            {
+                "name": "Unyielding",
+                "desc": "When the burrowshark is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone."
+            }
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -539,6 +553,8 @@
                 "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -684,6 +700,12 @@
                 "name": "Leadership (Recharges after a Short or Long Rest)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Darathra adds 2 to its AC against one melee attack that would hit it. To do so, Darathra must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -802,6 +824,8 @@
                 "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Dagger +1"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -945,6 +969,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -1069,6 +1095,8 @@
                 "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -1205,6 +1233,8 @@
                 "name": "Dagger (Human Form Only)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -1328,6 +1358,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -1500,6 +1532,8 @@
                 "description": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 4 (1d8) cold damage.",
                 "name": "Drown"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -1692,6 +1726,8 @@
                 "name": "Garrote"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -1879,6 +1915,8 @@
                 "name": "Light Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -2024,6 +2062,8 @@
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -2274,6 +2314,8 @@
                 "name": "Summon Elementals (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -2450,6 +2492,8 @@
                 "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) thunder damage.",
                 "name": "Ironfang"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -2694,6 +2738,8 @@
                 "name": "Summon Elementals (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -2830,6 +2876,8 @@
                 "name": "Eye of Frost"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
@@ -2962,6 +3010,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -3109,6 +3159,8 @@
                 "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",
@@ -3258,6 +3310,8 @@
                 "description": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 7 (2d6) fire damage.",
                 "name": "Tinderstrike"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Princes of the Apocalypse",

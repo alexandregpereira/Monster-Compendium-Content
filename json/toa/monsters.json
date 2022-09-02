@@ -282,6 +282,8 @@
                 "name": "Invoke Curse"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -407,6 +409,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
                 "name": "Handaxe"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -534,6 +538,8 @@
                 "name": "Handaxe"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -653,6 +659,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Horn"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -823,6 +831,8 @@
                 "name": "Ring of Winter"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -979,6 +989,8 @@
                 "description": "The assassin vine can animate normal vines and roots on the ground in a 15-foot square within 30 feet of it. These plants turn the ground in that area into difficult terrain. A creature in that area when the effect begins must succeed on a DC 13 Strength saving throw or be restrained by entangling vines and roots. A creature restrained by the plants can use its action to make a DC 13 Strength (Athletics) check, freeing itself on a successful check. The effect ends after 1 minute or when the assassin vine dies or uses Entangling Vines again.",
                 "name": "Entangling Vines"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -1203,6 +1215,8 @@
                 "name": "Summon Wraith (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -1415,6 +1429,8 @@
                 "name": "Longbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -1550,6 +1566,8 @@
                 "description": "The chwinga magically takes shelter inside a rock, a living plant, or a natural source of fresh water in its space. The chwinga can't be targeted by any attack, spell, or other effect while inside this shelter, and the shelter doesn't impair the chwinga's blindsight. The chwinga can use it's action to emerge from a shelter. If its shelter is destroyed, the chwinga is forced out and appears in the shelter's space, but is otherwise unharmed.",
                 "name": "Natural Shelter"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -1710,6 +1728,8 @@
                 "name": "Sense Alignment"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -1828,6 +1848,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Beak"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -1949,6 +1971,8 @@
                 "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target Hit: 1 (1d4 - 1) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -2134,6 +2158,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -2282,6 +2308,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -2427,6 +2455,8 @@
                 "description": "The jaculi springs up to 30 feet in a straight line and makes a bite attack against a target within its reach. This attack has advantage if the jaculi springs at least 10 feet. If the attack hits, the bite deals an extra 7 (2d6) piercing damage.",
                 "name": "Spring"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -2599,6 +2629,8 @@
                 "name": "Sleep Breath (Recharges after a Short or Long Rest)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -2768,6 +2800,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -2934,6 +2968,8 @@
                 "name": "Hand Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -3092,167 +3128,7 @@
                 "name": "Javelin"
             }
         ],
-        "source": {
-            "name": "Tomb of Annihilation",
-            "acronym": "ToA"
-        }
-    },
-    {
-        "index": "su-monster",
-        "type": "MONSTROSITY",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Su-monster",
-        "subtitle": "Medium monstrosity, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/su-monster.png",
-        "background_color": {
-            "light": "#f0af75",
-            "dark": "#69380c"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "chaotic evil",
-        "armor_class": 12,
-        "hit_points": 27,
-        "hit_dice": "5d8+5",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "CLIMB",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 9,
-                "modifier": -1
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 9,
-                "modifier": -1
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-athletics",
-                "modifier": 6,
-                "name": "Athletics"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 3,
-                "name": "Perception"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
-        "languages": "",
-        "special_abilities": [
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The su-monster makes two attacks: one with its bite and one with its claws.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d4+2",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-                "name": "Bite"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d4+2",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "4d4+2",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, or 12 (4d4 + 2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
-                "name": "Claws"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "5d6",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Psychic Crush (Recharge 5-6)"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -3411,6 +3287,8 @@
                 "description": "Ranged Weapon Attack: +4 to hit, range 20/ 60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dart"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -3605,6 +3483,8 @@
                 "name": "Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
@@ -3771,6 +3651,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target takes 5 (2d4) poison damage at the start of each of its turns. The red blossom can grapple only one target at a time. Another creature within reach of the tri-flower frond can use its action to end the grapple on the target.",
                 "name": "Red Blossom"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",
@@ -3989,6 +3871,8 @@
                 "description": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Paralyzing Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Tomb of Annihilation",

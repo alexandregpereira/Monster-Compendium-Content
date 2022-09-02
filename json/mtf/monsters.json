@@ -143,6 +143,8 @@
                 "name": "Spike"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -331,6 +333,8 @@
                 "description": "The myrmidon makes one flail attack. On a hit, the target takes an extra 18 (4d8) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the myrmidon's next turn.",
                 "name": "Lightning Strike (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -531,6 +535,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 18 (4d6 + 4) acid damage.",
                 "name": "Tentacle"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -762,6 +768,12 @@
                 "name": "Forgetfulness (Recharge 6)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Instinctive Charm",
+                "desc": "When a creature within 60 feet of the amnizu makes an attack roll against it, and another creature is within the attack's range, the attacker must make a DC 19 Wisdom saving throw. On a failed save, the attacker must target the creature that is closest to it, not including the amnizu or itself. If multiple creatures are closest, the attacker chooses which one to target. If the saving throw is successful, the attacker is immune to the amnizu's Instinctive Charm for 24 hours."
+            }
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -948,6 +960,8 @@
                 "description": "The armanite looses a bolt of lightning in a line 60 feet long and 10 feet wide. Each creature in the line must make a DC 15 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one.",
                 "name": "Lightning Lance (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -1170,6 +1184,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -1359,6 +1375,12 @@
                 "attack_bonus": 7,
                 "description": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 18 (4d8) psychic damage.",
                 "name": "Longbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Foster Peace",
+                "desc": "If a creature charmed by the eladrin hits with an attack roll while within 60 feet of the eladrin, the eladrin magically causes the attack to miss, provided the eladrin can see the attacker."
             }
         ],
         "source": {
@@ -1602,6 +1624,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -1750,6 +1774,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15) and is moved up to 5 feet toward the balhannoth. Until this grapple ends, the target is restrained, and the balhannoth can't use this tentacle against other targets. The balhannoth has four tentacles.",
                 "name": "Tentacle"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -2006,6 +2032,8 @@
                 "name": "Frightful Presence"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -2174,6 +2202,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -2401,6 +2431,8 @@
                 "name": "Creeping Darkness (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -2623,6 +2655,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -2825,6 +2859,12 @@
                 "attack_bonus": null,
                 "description": "If the boneclaw is in dim light or darkness, each creature of the boneclaw's choice within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 34 (5d12 + 2) necrotic damage.\nThe boneclaw then magically teleports up to 60 feet to an unoccupied space it can see. It can bring one creature it's grappling, teleporting that creature to an unoccupied space it can see within 5 feet of its destination. The destination spaces of this teleportation must be in dim light or darkness.",
                 "name": "Shadow Jump"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Deadly Reach",
+                "desc": "In response to a visible enemy moving into its reach, the boneclaw makes one claw attack against that enemy. If the attack hits, the boneclaw can make a second claw attack against the target."
             }
         ],
         "source": {
@@ -3031,6 +3071,8 @@
                 "name": "Lightning Flare (Recharges after a Short or Long Rest)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -3171,6 +3213,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned until the disease ends. While poisoned in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 (1d8). The target dies if its hit point maximum is reduced to 0.",
                 "name": "Barbed Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -3368,6 +3412,8 @@
                 "description": "The cadaver collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful DC 18 Constitution saving throw or be paralyzed for 1 minute. A paralyzed creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success.",
                 "name": "Paralyzing Breath (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -3577,6 +3623,8 @@
                 "name": "Tongue"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -3702,6 +3750,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the choker can't use this tentacle on another target. The choker has two tentacles. If this attack is a critical hit, the target also can't breathe or speak until the grapple ends.",
                 "name": "Tentacle"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -3854,6 +3904,8 @@
                 "description": "The corpse flower grabs one unsecured dead humanoid within 10 feet of it and stuffs the corpse into itself, along with any equipment the corpse is wearing or carrying. The remains can be used with the Corpses trait.",
                 "name": "Harvest the Dead"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -4024,6 +4076,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) necrotic damage.",
                 "name": "Deathly Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -4199,6 +4253,8 @@
                 "name": "Grave Bolts"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -4373,6 +4429,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\nA humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.",
                 "name": "Life Drain"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -4594,6 +4652,8 @@
                 "name": "Gaze"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -4716,6 +4776,8 @@
                 "name": "Light Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -4834,6 +4896,8 @@
                 "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage.",
                 "name": "Quarterstaff"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -5029,6 +5093,8 @@
                 "description": "The dhergoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.",
                 "name": "Teleport"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -5229,6 +5295,8 @@
                 "description": "Each creature within 10 feet of the troll must make a DC 19 Dexterity saving throw, taking 44 (8d10) slashing damage on a failed save, or half as much damage on a successful one.",
                 "name": "Whirlwind of Claws (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -5456,6 +5524,8 @@
                 "name": "Web (Giant Spider Form Only Recharge 5–6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -5657,6 +5727,8 @@
                 "name": "Summon Servant (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -5823,6 +5895,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
                 "name": "Hammer"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -6007,6 +6081,8 @@
                 "name": "Reduce (Recharges after a Short or Long Rest)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -6170,6 +6246,8 @@
                 "description": "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it.",
                 "name": "Invisibility (Recharges after a Short or Long Rest)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -6400,6 +6478,8 @@
                 "name": "Possess Corpse (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -6572,6 +6652,8 @@
                 "description": "The myrmidon makes one maul attack. On a hit, the target takes an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.",
                 "name": "Thunderous Strike (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -6781,6 +6863,8 @@
                 "description": "The oblex targets one creature it can see within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or take 44 (8d10) psychic damage and become memory drained until it finishes a short or long rest or until it benefits from the greater restoration or heal spell. Constructs, oozes, plants, and undead succeed on the save automatically.\nWhile memory drained, the target must roll a d4 and subtract the number rolled from any ability check or attack roll it makes. Each time the target is memory drained beyond the first, the die size increases by one: the d4 becomes a d6, the d6 becomes a d8, and so on until the die becomes a d20, at which point the target becomes unconscious for 1 hour. The effect then ends.\nWhen an oblex causes a target to become memory drained, the oblex learns all the languages the target knows and gains all its proficiencies, except any saving throw proficiencies.",
                 "name": "Eat Memories"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -7017,6 +7101,8 @@
                 "name": "Lightning Storm (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -7157,6 +7243,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck to the steeder's leg and is grappled until it escapes (escape DC 12). The steeder can have only one creature grappled at a time.",
                 "name": "Sticky Leg"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -7343,6 +7431,8 @@
                 "description": "The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.",
                 "name": "Fiery Strikes (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -7532,6 +7622,8 @@
                 "description": "The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 44 (8d10) cold damage on a failed save, or half as much damage on a successful one.",
                 "name": "Freezing Breath (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -7792,6 +7884,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -7960,6 +8054,8 @@
                 "description": "The giff throws a grenade up to 60 feet. Each creature within 20 feet of the grenade's detonation must make a DC 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.",
                 "name": "Fragmentation Grenade (1/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -8131,6 +8227,8 @@
                 "name": "Longsword"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -8267,6 +8365,12 @@
                 "attack_bonus": 12,
                 "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical hit against a target in an astral body (as with the astral projection spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage.",
                 "name": "Silver Greatsword"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The githyanki adds 5 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -8429,6 +8533,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage plus 18 (4d8) psychic damage.",
                 "name": "Unarmed Strike"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -8600,6 +8706,8 @@
                 "name": "Temporal Strike (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -8770,6 +8878,12 @@
                 "name": "Shadow Spear"
             }
         ],
+        "reactions": [
+            {
+                "name": "Misty Escape (Recharges after a Short or Long Rest)",
+                "desc": "When the gloom weaver takes damage, it turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks or casts a spell."
+            }
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -8899,6 +9013,12 @@
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage. If the target is prone an additional 7 (2d6) bludgeoning damage is dealt to the target.",
                 "name": "Claws"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Bloody Rampage",
+                "desc": "When the gray render takes damage, it makes one attack with its claws against a random creature within its reach, other than its master."
             }
         ],
         "source": {
@@ -9121,6 +9241,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -9328,6 +9450,8 @@
                 "name": "Hellfire Weapons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -9484,6 +9608,8 @@
                 "description": "The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't deafened must succeed on a DC 16 Wisdom saving throw or be frightened until the end of the howler's next turn. While a creature is frightened in this way, its speed is halved, and it is incapacitated. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours.",
                 "name": "Mind-Breaking Howl (Recharge 6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -9752,6 +9878,12 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+            {
+                "name": "Fearful Voice (Recharge 5-6)",
+                "desc": "In response to taking damage, Hutijin utters a dreadful word of power. Each creature within 30 feet of him that isn't a devil must succeed on a DC 22 Wisdom saving throw or become frightened of him for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that saves against this effect is immune to Hutijin's Fearful Voice for 24 hours."
+            }
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -9985,6 +10117,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -10142,6 +10276,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:\n1. Poison Damage: The target takes 13 (3d8) poison damage.\n2. Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.\n3. Paralysis: The target is paralyzed until the end of its next turn.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -10400,6 +10536,8 @@
                 "name": "Eject Slime (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -10563,6 +10701,8 @@
                 "description": "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one.",
                 "name": "Acid Spray (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -10821,6 +10961,8 @@
                 "name": "Tidal Wave (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -11039,6 +11181,8 @@
                 "name": "Justify"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -11227,6 +11371,8 @@
                 "name": "Raise Ghoul (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -11380,6 +11526,8 @@
                 "description": "The meazel, any equipment it is wearing or carrying, and any creature it is grappling teleport to an unoccupied space within 500 feet of it, provided that the starting space and the destination are in dim light or darkness. The destination must be a place the meazel has seen before, but it need not be within line of sight. If the destination space is occupied, the teleportation leads to the nearest unoccupied space.\nAny other creature the meazel teleports becomes cursed by shadow for 1 hour. Until this curse ends, every undead and every creature native to the Shadowfell within 300 feet of the cursed creature can sense it, which prevents that creature from hiding from them.",
                 "name": "Shadow Teleport (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -11556,6 +11704,12 @@
                 "attack_bonus": 4,
                 "description": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
                 "name": "Heavy Crossbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Loyal Bodyguard",
+                "desc": "When another fiend within 5 feet of the merregon is hit by an attack, the merregon causes itself to be hit instead."
             }
         ],
         "source": {
@@ -11772,6 +11926,8 @@
                 "description": "The merrenoloth targets one creature it can see within 60 feet of it. The target must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Fear Gaze"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -12040,6 +12196,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -12253,6 +12411,8 @@
                 "name": "Soul-Stealing Gaze"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -12406,6 +12566,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage.",
                 "name": "Staff"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -12623,6 +12785,8 @@
                 "description": "The narzugon, or one creature it touches, regains up to 100 hit points.",
                 "name": "Healing (1/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -12862,6 +13026,8 @@
                 "name": "Finger of Doom (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -13036,6 +13202,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -13243,6 +13411,8 @@
                 "name": "Explosive Bolt (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -13396,6 +13566,8 @@
                 "name": "Pseudopod"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -13517,6 +13689,8 @@
                 "name": "Block the Path"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -13622,6 +13796,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
                 "name": "Mace"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -13848,6 +14024,8 @@
                 "description": "The oinoloth targets one creature it can see within 30 feet of it. The target must succeed on a DC 16 Wisdom saving throw against this magic or be charmed until the end of the oinoloth's next turn. While charmed in this way, the target is restrained. If the target's saving throw is successful, the target is immune to the oinoloth's gaze for the next 24 hours.",
                 "name": "Transfixing Gaze"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -14105,6 +14283,8 @@
                 "name": "Tail"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -14323,6 +14503,12 @@
                 "attack_bonus": 7,
                 "description": "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 14 (2d10 + 3) piercing damage, plus one of the following effects:\n1. Acid: The target must make a DC 17 Constitution saving throw, taking an additional 17 (5d6) acid damage on a failed save, or half as much damage on a successful one.\n2. Blindness (1/Day): The target takes 5 (1d10) radiant damage. In addition, the target and all other creatures within 20 feet of it must each make a successful DC 17 Dexterity saving throw or be blinded until the end of the orthon's next turn.\n3. Concussion: The target and each creature within 20 feet of it must make a DC 17 Constitution saving throw, taking 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.\n4. Entanglement: The target must make a successful DC 17 Dexterity saving throw or be restrained for 1 hour by strands of sticky webbing. A restrained creature can escape by using an action to make a successful DC 17 Dexterity or Strength check. Any creature other than an orthon that touches the restrained creature must make a successful DC 17 Dexterity saving throw or become similarly restrained.\n5. Paralysis (1/Day): The target takes 22 (4d10) lightning damage and must make a successful DC 17 Constitution saving throw or be paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n6. Tracking: For the next 24 hours, the orthon knows the direction and distance to the target, as long as it's on the same plane of existence. If the target is on a different plane, the orthon knows which one, but not the exact location there.",
                 "name": "Brass Crossbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Explosive Retribution",
+                "desc": "When it is reduced to 15 hit points or fewer, the orthon causes itself to explode. All other creatures within 30 feet of it must each make a DC 17 Dexterity saving throw, taking 9 (2d8) fire damage plus 9 (2d8) thunder damage on a failed save, or half as much damage on a successful one. This explosion destroys the orthon, its infernal dagger, and its brass crossbow."
             }
         ],
         "source": {
@@ -14558,6 +14744,8 @@
                 "description": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) fire damage.",
                 "name": "Fiery Talons"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -14810,6 +14998,8 @@
                 "name": "Power of the Dragon Queen"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -15029,6 +15219,8 @@
                 "name": "Paralyzing Beam (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -15183,6 +15375,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -15315,6 +15509,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned. At the end of each long rest, the poisoned target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while poisoned in this way, it dies and instantly transforms into a living abyssal wretch. The transformation of the body can be undone only by a wish spell. (See notes)",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -15537,6 +15733,8 @@
                 "name": "Rock"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -15683,6 +15881,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage, and the target must succeed on a DC 14 Dexterity saving throw or suffer one additional effect of the shadow dancer's choice:\nThe target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and the shadow dancer can't grapple another target.\nThe target is knocked prone.\nThe target takes 22 (4d10) necrotic damage.",
                 "name": "Spiked Chain"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -15926,6 +16126,8 @@
                 "name": "Warp Creature"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -16055,6 +16257,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage. If the skulk has advantage on the attack roll, the target also takes 7 (2d6) necrotic damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -16284,6 +16488,8 @@
                 "name": "Bone Staff"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -16484,6 +16690,8 @@
                 "description": "The soul monger emits weariness in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 45 (10d8) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes 22 (5d8) psychic damage.",
                 "name": "Wave of Weariness (Recharge 4-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -16702,6 +16910,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -16899,6 +17109,8 @@
                 "description": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) psychic damage.",
                 "name": "Longbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -17107,6 +17319,12 @@
                 "attack_bonus": null,
                 "description": "Each creature other than a star spawn within 10 feet of the larva mage must make a DC 19 Dexterity saving throw. On a failure the target takes 22 (5d8) necrotic damage and is blinded and restrained by masses of swarming worms. The affected creature takes 22 (5d8) necrotic damage at the start of each of the larva mage's turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Plague of Worms (Recharge 6)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Feed on Weakness",
+                "desc": "When a creature within 20 feet of the larva mage fails a saving throw, the larva mage gains 10 temporary hit points."
             }
         ],
         "source": {
@@ -17357,6 +17575,8 @@
                 "name": "Stunning Roar (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -17508,6 +17728,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours.",
                 "name": "Petrifying Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -17672,6 +17894,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it is knocked prone.",
                 "name": "Slam"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Intercept Attack",
+                "desc": "In response to another creature within 5 feet of it being hit by an attack roll, the stone defender gives that creature a +5 bonus to its AC against that attack, potentially causing a miss. To use this ability, the stone defender must be able to see the creature and the attacker."
             }
         ],
         "source": {
@@ -17870,6 +18098,12 @@
                 "attack_bonus": 9,
                 "description": "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 4 (1d8) fire damage.",
                 "name": "Longbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -18074,6 +18308,8 @@
                 "name": "Call to Honor (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -18215,6 +18451,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d12 + 3) piercing damage.",
                 "name": "Hook"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -18363,6 +18601,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16) and is restrained until the grapple ends. While grappling a creature, the Hungry can't attack with its claws.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -18515,6 +18755,8 @@
                 "description": "Each creature grappled by the Lonely must make a DC 15 Wisdom saving throw. A creature takes 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the Lonely pulls each creature grappled by it up to 30 feet straight toward it.",
                 "name": "Sorrowful Embrace"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -18673,6 +18915,12 @@
                 "name": "Embrace"
             }
         ],
+        "reactions": [
+            {
+                "name": "Tightening Embrace",
+                "desc": "If the Lost takes damage while it has a creature grappled, that creature takes 18 (4d8) psychic damage."
+            }
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -18806,6 +19054,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage, and the Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 (1d10 + 1) necrotic damage.\nThe attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach a Wretched.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
@@ -19090,6 +19340,8 @@
                 "name": "Twisting Words"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
@@ -19250,422 +19502,7 @@
                 "name": "Shell Defense"
             }
         ],
-        "source": {
-            "name": "Mordenkainen's Tome of Foes",
-            "acronym": "MTF"
-        }
-    },
-    {
-        "index": "vampiric-mist",
-        "type": "UNDEAD",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 3.0,
-        "name": "Vampiric Mist",
-        "subtitle": "Medium undead, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vampiric-mist.png",
-        "background_color": {
-            "light": "#f07577",
-            "dark": "#8a0f11"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "chaotic evil",
-        "armor_class": 13,
-        "hit_points": 30,
-        "hit_dice": "4d8+12",
-        "speed": {
-            "hover": true,
-            "value": [
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 0,
-                    "value_formatted": "0 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 6,
-                "modifier": -2
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 6,
-                "modifier": -2
-            },
-            {
-                "type": "WISDOM",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 7,
-                "modifier": -2
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 3
-            }
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-            {
-                "index": "acid",
-                "type": "ACID",
-                "name": "Acid"
-            },
-            {
-                "index": "cold",
-                "type": "COLD",
-                "name": "Cold"
-            },
-            {
-                "index": "lightning",
-                "type": "LIGHTNING",
-                "name": "Lightning"
-            },
-            {
-                "index": "necrotic",
-                "type": "NECROTIC",
-                "name": "Necrotic"
-            },
-            {
-                "index": "thunder",
-                "type": "THUNDER",
-                "name": "Thunder"
-            },
-            {
-                "index": "bludgeoning",
-                "type": "BLUDGEONING",
-                "name": "Bludgeoning*"
-            },
-            {
-                "index": "piercing",
-                "type": "PIERCING",
-                "name": "Piercing*"
-            },
-            {
-                "index": "slashing",
-                "type": "SLASHING",
-                "name": "Slashing*"
-            },
-            {
-                "index": "from nonmagical attacks",
-                "type": "OTHER",
-                "name": "*from nonmagical attacks"
-            }
-        ],
-        "damage_immunities": [
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "charmed",
-                "type": "CHARMED",
-                "name": "Charmed"
-            },
-            {
-                "index": "exhaustion",
-                "type": "EXHAUSTION",
-                "name": "Exhaustion"
-            },
-            {
-                "index": "grappled",
-                "type": "GRAPPLED",
-                "name": "Grappled"
-            },
-            {
-                "index": "paralyzed",
-                "type": "PARALYZED",
-                "name": "Paralyzed"
-            },
-            {
-                "index": "petrified",
-                "type": "PETRIFIED",
-                "name": "Petrified"
-            },
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            },
-            {
-                "index": "prone",
-                "type": "PRONE",
-                "name": "Prone"
-            },
-            {
-                "index": "restrained",
-                "type": "RESTRAINED",
-                "name": "Restrained"
-            }
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Life Sense",
-                "desc": "The mist can sense the location of any creature within 60 feet of it, unless that creature's type is construct or undead."
-            },
-            {
-                "name": "Forbiddance",
-                "desc": "The mist can't enter a residence without an invitation from one of the occupants."
-            },
-            {
-                "name": "Misty Form",
-                "desc": "The mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than 1 extra foot. The mist can't manipulate objects in any way that requires fingers or manual dexterity."
-            },
-            {
-                "name": "Sunlight Hypersensitivity",
-                "desc": "The mist takes 10 radiant damage whenever it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+3",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    },
-                    {
-                        "dice": "the",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The mist touches one creature in its space. The target must succeed on a DC 13 Constitution saving throw (undead and constructs automatically succeed), or it takes 10 (2d6 + 3) necrotic damage, the mist regains 10 hit points, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
-                "name": "Life Drain"
-            }
-        ],
-        "source": {
-            "name": "Mordenkainen's Tome of Foes",
-            "acronym": "MTF"
-        }
-    },
-    {
-        "index": "venom-troll",
-        "type": "GIANT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 7.0,
-        "name": "Venom Troll",
-        "subtitle": "Large giant, chaotic evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/venom-troll.png",
-        "background_color": {
-            "light": "#f075ca",
-            "dark": "#8a0f64"
-        },
-        "is_horizontal_image": false,
-        "size": "Large",
-        "alignment": "chaotic evil",
-        "armor_class": 15,
-        "hit_points": 94,
-        "hit_dice": "9d10+45",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 20,
-                "modifier": 5
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 7,
-                "modifier": -2
-            },
-            {
-                "type": "WISDOM",
-                "value": 9,
-                "modifier": -1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 7,
-                "modifier": -2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-perception",
-                "modifier": 2,
-                "name": "Perception"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            }
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "Giant",
-        "special_abilities": [
-            {
-                "name": "Keen Smell",
-                "desc": "The troll has advantage on Wisdom (Perception) checks that rely on smell."
-            },
-            {
-                "name": "Poison Splash",
-                "desc": "When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 (2d8) poison damage."
-            },
-            {
-                "name": "Regeneration",
-                "desc": "The troll regains 10 hit points at the start of each of its turns. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The troll makes three attacks: one with its bite and two with its claws.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d6+4",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "1d8",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 7,
-                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 4 (1d8) poison damage, and the creature is poisoned until the start of the troll's next turn.",
-                "name": "Bite"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+4",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "1d8",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 7,
-                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 4 (1d8) poison damage.",
-                "name": "Claws"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "4d8",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The troll slices itself with a claw, releasing a spray of poison in a 15-foot cube. The troll takes 7 (2d6) slashing damage (this damage can't be reduced in any way). Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 18 (4d8) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Venom Spray (Recharge 6)"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Mordenkainen's Tome of Foes",

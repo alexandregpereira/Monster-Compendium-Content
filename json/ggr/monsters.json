@@ -121,6 +121,8 @@
                 "name": "Spiked Club"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -304,6 +306,8 @@
                 "description": "Each creature of the archon's choice that the archon can see within 120 feet of it must succeed on a DC 18 Wisdom saving throw, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes charmed by the archon for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the archon's Pacifying Presence for the next 24 hours.",
                 "name": "Pacifying Presence"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -515,6 +519,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage, and lightning jumps from the target to one creature of the phoenix's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 18 Dexterity saving throw or take 27 (6d8) lightning damage.",
                 "name": "Arclight Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -762,6 +768,16 @@
                 "name": "Warleader's Helix (Recharge 5-6)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Aurelia adds 7 to her AC against one melee attack that would hit her. To do so, Aurelia must see the attacker and be wielding a melee weapon."
+            },
+            {
+                "name": "Unyielding",
+                "desc": "When Aurelia is subjected to an effect that would move her, knock her prone, or both, she can use her reaction to be neither moved nor knocked prone."
+            }
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -954,6 +970,8 @@
                 "name": "Battlefield Inspiration"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1086,6 +1104,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
                 "name": "Scimitar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -1310,6 +1330,8 @@
                 "name": "Slam"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1510,6 +1532,12 @@
                 "name": "Unarmed Strike"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The vampire adds 3 to its AC against one melee attack that would hit it. To do so, the vampire must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1677,6 +1705,8 @@
                 "name": "Shortsword"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1808,6 +1838,12 @@
                 "attack_bonus": 9,
                 "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.",
                 "name": "Rock"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Furious Defense",
+                "desc": "After a creature the giant can see is dealt damage by a foe within 20 feet of the giant, the giant makes a chain attack against that foe."
             }
         ],
         "source": {
@@ -2010,6 +2046,8 @@
                 "name": "Frightful Presence"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2195,6 +2233,8 @@
                 "name": "Spiked Chain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2322,6 +2362,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2448,6 +2490,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -2582,6 +2626,8 @@
                 "description": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 33 (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -2751,6 +2797,8 @@
                 "name": "Suppress Magic (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2876,227 +2924,7 @@
                 "name": "Rapier"
             }
         ],
-        "source": {
-            "name": "Guildmaster's Guide to Ravnica",
-            "acronym": "GGR"
-        }
-    },
-    {
-        "index": "deathpact-angel",
-        "type": "CELESTIAL",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 14.0,
-        "name": "Deathpact Angel",
-        "subtitle": "Medium celestial, lawful evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/deathpact-angel.png",
-        "background_color": {
-            "light": "#f0b375",
-            "dark": "#8a4d0f"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "lawful evil",
-        "armor_class": 18,
-        "hit_points": 175,
-        "hit_dice": "27d8+54",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "FLY",
-                    "measurement_unit": "FEET",
-                    "value": 90,
-                    "value_formatted": "90 ft."
-                },
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 19,
-                "modifier": 4
-            },
-            {
-                "type": "WISDOM",
-                "value": 20,
-                "modifier": 5
-            },
-            {
-                "type": "CHARISMA",
-                "value": 23,
-                "modifier": 6
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-int",
-                "type": "INTELLIGENCE",
-                "modifier": 9
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 10
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 11
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-insight",
-                "modifier": 10,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-intimidation",
-                "modifier": 11,
-                "name": "Intimidation"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 10,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-persuasion",
-                "modifier": 11,
-                "name": "Persuasion"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-            {
-                "index": "necrotic",
-                "type": "NECROTIC",
-                "name": "Necrotic"
-            },
-            {
-                "index": "radiant",
-                "type": "RADIANT",
-                "name": "Radiant"
-            },
-            {
-                "index": "bludgeoning",
-                "type": "BLUDGEONING",
-                "name": "Bludgeoning*"
-            },
-            {
-                "index": "piercing",
-                "type": "PIERCING",
-                "name": "Piercing*"
-            },
-            {
-                "index": "slashing",
-                "type": "SLASHING",
-                "name": "Slashing*"
-            },
-            {
-                "index": "from nonmagical attacks",
-                "type": "OTHER",
-                "name": "*from nonmagical attacks"
-            }
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-            {
-                "index": "charmed",
-                "type": "CHARMED",
-                "name": "Charmed"
-            },
-            {
-                "index": "exhaustion",
-                "type": "EXHAUSTION",
-                "name": "Exhaustion"
-            },
-            {
-                "index": "frightened",
-                "type": "FRIGHTENED",
-                "name": "Frightened"
-            }
-        ],
-        "senses": [
-            "truesight 120 ft."
-        ],
-        "languages": "all",
-        "special_abilities": [
-            {
-                "name": "Exploitation of the Debtors",
-                "desc": "As a bonus action, the angel targets a creature charmed by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt."
-            },
-            {
-                "name": "Flyby",
-                "desc": "The angel doesn't provoke an opportunity attack when it flies out of an enemy's reach."
-            },
-            {
-                "name": "Magic Resistance",
-                "desc": "The angel has advantage on saving throws against spells and other magical effects."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The angel makes two attacks with its scythe. It can substitute Chains of Obligation for one of these attacks.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d4+4",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "6d8",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    }
-                ],
-                "attack_bonus": 9,
-                "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 9 (2d4 + 4) slashing damage plus 27 (6d8) necrotic damage.",
-                "name": "Scythe"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The angel targets one creature charmed by it that it can see within 90 feet of it. The target must succeed on a DC 19 Charisma saving throw or become paralyzed for 1 minute or until it takes any damage.",
-                "name": "Chains of Obligation"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -3305,6 +3133,8 @@
                 "name": "Noxious Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3455,6 +3285,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.",
                 "name": "Quarterstaff"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -3617,6 +3449,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3747,6 +3581,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
                 "name": "Greatsword"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Guided Attack (Recharges after a Short or Long Rest)",
+                "desc": "When the firefist or one creature it can see within 30 feet of it makes an attack roll, the firefist grants a +10 bonus to that roll."
             }
         ],
         "source": {
@@ -3961,6 +3801,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands, plus 22 (5d8) fire or radiant damage (angel's choice).",
                 "name": "Longsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -4179,6 +4021,8 @@
                 "name": "Arc Lightning"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -4329,6 +4173,8 @@
                 "description": "The horror screeches. Each creature within 30 feet of it that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of it for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the horror's Frightening Screech for the next 24 hours.",
                 "name": "Frightening Screech (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -4510,6 +4356,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or lose the ability to use reactions until the start of the weird's next turn.",
                 "name": "Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -4723,6 +4571,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -4861,6 +4711,12 @@
                 "attack_bonus": 10,
                 "description": "Melee or Ranged Weapon Attack: +10 to hit, reach 10 ft. or range 60/240 ft., one target. Hit: 17 (3d6 + 7) piercing damage, or 20 (3d8 + 7) piercing damage if used with two hands to make a melee attack.",
                 "name": "Spear"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Protection",
+                "desc": "When an attacker the giant can see makes an attack roll against a creature within 10 feet of the giant, the giant can impose disadvantage on the attack roll."
             }
         ],
         "source": {
@@ -5005,6 +4861,8 @@
                 "name": "One with the Worldsoul"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5138,6 +4996,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 10 (4d4) acid damage.",
                 "name": "Spit Acid"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -5274,6 +5134,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit: The target is grappled (escape DC 11), and the hybrid pulls the target up to 15 feet straight toward it. Until this grapple ends, the target takes 5 (1d10) lightning damage at the start of each of its turns, and the hybrid shocker can't use its tentacles on another creature.",
                 "name": "Tentacles"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -5485,6 +5347,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10 (3d6) necrotic damage.",
                 "name": "Withering Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -5698,6 +5562,8 @@
                 "description": "Isperia chooses up to three creatures she can see within 90 feet of her. Each target must succeed on a DC 23 Intelligence saving throw or Isperia chooses an action for that target: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The affected target can't take that action for 1 minute. At the end of each of the target's turns, it can end the effect on itself with a successful DC 23 Intelligence saving throw. A target that succeeds on the saving throw becomes immune to Isperia's Supreme Legal Authority for 24 hours.",
                 "name": "Supreme Legal Authority"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -5952,6 +5818,8 @@
                 "name": "Staff of Svogthir"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6122,6 +5990,8 @@
                 "name": "Quarterstaff"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6249,6 +6119,8 @@
                 "description": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -6452,6 +6324,8 @@
                 "description": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage, and the target has disadvantage on the next attack roll it makes before Lazav's next turn.",
                 "name": "Shortsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -6682,6 +6556,8 @@
                 "name": "Captivating Presence (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6874,6 +6750,8 @@
                 "description": "The vampire targets a creature it can see within 30 feet of it. The target must make a DC 14 Intelligence saving throw, with disadvantage if the vampire has previously consumed the target's blood. On a failed save, the target takes 28 (8d6) psychic damage, and the vampire discerns the target's surface emotions and thoughts. On a successful save, the target takes half as much damage, and the vampire discerns the target's general emotional state but not its thoughts.",
                 "name": "Mind Siphon (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -7092,6 +6970,8 @@
                 "description": "The specter touches one incapacitated creature and chooses 1 hour from among the past 24. Unless the creature succeeds on a DC 15 Intelligence saving throw, the creature loses all memory of that hour. The creature regains the memory only if the specter dies within the next 24 hours.",
                 "name": "Reap Memory (3/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -7348,6 +7228,8 @@
                 "name": "Fire Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7509,6 +7391,12 @@
                 "attack_bonus": 10,
                 "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 23 (3d10 + 7) bludgeoning damage.",
                 "name": "Slam"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Spell Vitalization",
+                "desc": "Immediately after a creature casts a spell of 1st level or higher within 120 feet of the cyclops, the cyclops can move up to twice its speed without provoking opportunity attacks. It can then make one slam attack against a target of its choice."
             }
         ],
         "source": {
@@ -7757,6 +7645,8 @@
                 "name": "Convene the Ghost Council"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7891,6 +7781,8 @@
                 "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -8030,6 +7922,12 @@
                 "attack_bonus": null,
                 "description": "The mage targets one creature within 120 feet of it that it can see. The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14 Intelligence saving throw or be stunned until the end of its next turn.",
                 "name": "Glimpse the Temporal Flood (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Precognitive Insight (3/Day)",
+                "desc": "When the mage or a creature it can see makes an attack roll, a saving throw, or an ability check, the mage can cause the roll to be made with advantage or disadvantage."
             }
         ],
         "source": {
@@ -8280,6 +8178,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -8394,6 +8294,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
                 "name": "Club"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -8527,6 +8429,12 @@
                 "name": "Longsword"
             }
         ],
+        "reactions": [
+            {
+                "name": "Lightning Backlash (Recharge 5-6)",
+                "desc": "When a creature hits the reckoner with an attack, the attacker takes lightning damage equal to half the damage dealt by the attack."
+            }
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -8646,6 +8554,8 @@
                 "description": "The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.",
                 "name": "Scorchbringer (Recharge 4-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -8821,6 +8731,8 @@
                 "description": "Each creature within 60 feet of the horror, except other horrors, must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage.",
                 "name": "Lashing Shadows (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -9045,6 +8957,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9210,6 +9124,8 @@
                 "name": "Maddening Presence"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9358,6 +9274,8 @@
                 "name": "Talons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9500,6 +9418,8 @@
                 "description": "Melee Weapon Attack: +11 to hit, reach 30 ft., one target. Hit: 19 (2d12 + 6) bludgeoning damage.",
                 "name": "Slam"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -9653,6 +9573,8 @@
                 "description": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
@@ -9871,6 +9793,8 @@
                 "name": "Wrath of Mat'Selesnya (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -10014,6 +9938,8 @@
                 "description": "The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a DC 14 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a greater restoration spell or similar magic.",
                 "name": "Petrifying Gaze"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",

@@ -128,6 +128,12 @@
                 "name": "Shortsword"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Droki adds 3 to his AC against one melee attack that would hit him. To do so, Droki must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "Out of the Abyss",
             "acronym": "OotA"
@@ -234,6 +240,12 @@
                 "attack_bonus": 3,
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
                 "name": "Bite"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Barbed Tail",
+                "desc": "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.\nMelee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
             }
         ],
         "source": {
