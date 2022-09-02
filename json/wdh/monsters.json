@@ -164,6 +164,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -317,6 +319,8 @@
                 "name": "Quarterstaff"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -455,6 +459,8 @@
                 "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -626,6 +632,12 @@
                 "name": "Hand Crossbow"
             }
         ],
+        "reactions": [
+            {
+                "name": "Uncanny Dodge",
+                "desc": "The Black Viper halves the damage that she takes from an attack that hits her. She must be able to see the attacker."
+            }
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -770,6 +782,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -940,6 +954,8 @@
                 "name": "Poisonous Pistol"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -1095,6 +1111,8 @@
                 "name": "Double Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -1240,6 +1258,8 @@
                 "description": "The rider wears a magic ring with which it can cast the feather fall spell on itself once as a reaction to falling. After the spell is cast, the ring becomes nonmagical.",
                 "name": "Feather Fall"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -1434,6 +1454,16 @@
                 "name": "Wholeness of Body (Recharges after a Long Rest)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Deflect Missile",
+                "desc": "In response to being hit by a ranged weapon attack, Hlam deflects the missile. The damage he takes from the attack is reduced by 1d10 + 27. If the damage is reduced to 0, Hlam catches the missile if it's small enough to hold in one hand and he has a hand free."
+            },
+            {
+                "name": "Slow Fall",
+                "desc": "Hlam reduces the bludgeoning damage he takes from a fall by 100."
+            }
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -1579,6 +1609,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
                 "name": "Morningstar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -1728,6 +1760,8 @@
                 "description": "Istrid magically pinpoints precious metals and stones, such as coins and gems, within 60 feet of her.",
                 "name": "Treasure Sense (3/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -1886,6 +1920,12 @@
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Riposte",
+                "desc": "When a creature that Jalester can see misses him with a melee attack, he can use his reaction to make a melee weapon attack against that creature. On a hit, the target takes an extra 4 damage from the weapon."
             }
         ],
         "source": {
@@ -2083,6 +2123,8 @@
                 "description": "Ranged Weapon Attack: +11 to hit, range 20/60 ft., one target. Hit: 8 (1d4 + 6) piercing damage.",
                 "name": "Flying Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -2293,6 +2335,8 @@
                 "name": "Spellfire (Recharges after a Long Rest)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -2470,6 +2514,8 @@
                 "name": "Staff of Power"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -2610,6 +2656,8 @@
                 "description": "Melee Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage.",
                 "name": "Azuredge"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -2791,6 +2839,12 @@
                 "attack_bonus": 9,
                 "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) piercing damage. Or Ranged Weapon Attack: +9 to hit, range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
                 "name": "+1 Dagger"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Mirt adds 2 to his AC against one melee attack that would hit him. To do so, Mirt must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -2988,6 +3042,12 @@
                 "name": "Dagger"
             }
         ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The nimblewright adds 2 to its AC against one melee attack that would hit it. To do so, the nimblewright must see the attacker and be wielding a melee weapon."
+            }
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -3102,6 +3162,12 @@
                 "attack_bonus": 3,
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
                 "name": "Rapier"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Orond adds 2 to its AC against one melee attack that would hit it. To do so, Orond must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -3228,6 +3294,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.",
                 "name": "Scimitar"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -3390,6 +3458,8 @@
                 "name": "Heavy Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -3529,6 +3599,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
                 "name": "Dagger"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -3690,6 +3762,8 @@
                 "name": "Shortbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -3800,6 +3874,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
                 "name": "Club"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -3987,6 +4063,8 @@
                 "name": "Light Crossbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
@@ -4135,6 +4213,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning, magic damage, or 6 (1d8 + 2) bludgeoning, magic damage when used with two hands. Vajra can expend 1 of the staff's charges to deal an extra 3 (1d6) force damage on a hit.",
                 "name": "Blackstaff"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",
@@ -4314,6 +4394,8 @@
                 "description": "Victoro summons a barbed devil. The devil appears in an unoccupied space within 30 feet of Victoro, acts as Victoro's ally, and can't summon other devils. It remains for 1 minute, until it or Victoro dies, or until Victoro dismisses it as an action.",
                 "name": "Summon Devil (Recharges after 9 Days)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dragon Heist",

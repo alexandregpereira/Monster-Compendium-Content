@@ -183,6 +183,8 @@
                 "name": "Reveal (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -411,6 +413,8 @@
                 "name": "Lightning Strike"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -549,6 +553,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
                 "name": "Trident"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Ghosts of Saltmarsh",
@@ -724,6 +730,12 @@
                 "name": "Hooked Net"
             }
         ],
+        "reactions": [
+            {
+                "name": "Spear the Helpless (2/Day)",
+                "desc": "Whenever a creature within 30 feet of the sergeant becomes restrained, the sergeant can move its speed toward the restrained creature. If the sergeant ends its move within reach of the restrained creature, it can make a melee attack against it."
+            }
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -883,6 +895,8 @@
                 "name": "Rend the Field (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -1028,6 +1042,8 @@
                 "name": "Spear"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -1148,6 +1164,12 @@
                 "attack_bonus": 3,
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
                 "name": "Rapier"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Sauriv adds 2 to its AC against one melee attack that would hit it. To do so, Sauriv must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -1302,6 +1324,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 5 (1d8 + 1) acid damage.",
                 "name": "Lob Acid"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Ghosts of Saltmarsh",
@@ -1459,6 +1483,8 @@
                 "name": "Mind-Breaking Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
@@ -1607,6 +1633,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Ghosts of Saltmarsh",

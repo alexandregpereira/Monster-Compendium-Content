@@ -130,6 +130,8 @@
                 "name": "Tusk (Boar Form Only)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Dragon of Icespire Peak",
             "acronym": "DIP"
@@ -281,169 +283,7 @@
                 "name": "Sling"
             }
         ],
-        "source": {
-            "name": "Dragon of Icespire Peak",
-            "acronym": "DIP"
-        }
-    },
-    {
-        "index": "falcon-the-hunter",
-        "type": "HUMANOID",
-        "subtype": "human",
-        "group": null,
-        "challenge_rating": 4.0,
-        "name": "Falcon the Hunter",
-        "subtitle": "Medium humanoid(human), neutral good",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/falcon-the-hunter.png",
-        "background_color": {
-            "light": "#f0a875",
-            "dark": "#8a420f"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "neutral good",
-        "armor_class": 14,
-        "hit_points": 112,
-        "hit_dice": "15d8+45",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "WISDOM",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "CHARISMA",
-                "value": 15,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-dex",
-                "type": "DEXTERITY",
-                "modifier": 4
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 5
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-athletics",
-                "modifier": 4,
-                "name": "Athletics"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 7,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-survival",
-                "modifier": 5,
-                "name": "Survival"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
-        "languages": "Common",
-        "special_abilities": [
-            {
-                "name": "Archer",
-                "desc": "A longbow or shortbow deals one extra die of its damage when Falcon hits with it (included in his longbow attack)."
-            },
-            {
-                "name": "Sharpshooter",
-                "desc": "Falcon's ranged weapon attacks ignore half cover and three-quarters cover."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "Falcon makes three melee attacks or two ranged attacks.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d8+2",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "1d10+2",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.",
-                "name": "Longsword"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+2",
-                        "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    }
-                ],
-                "attack_bonus": 4,
-                "description": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
-                "name": "Longbow"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Dragon of Icespire Peak",
@@ -634,6 +474,8 @@
                 "name": "Lightning Bolt (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Dragon of Icespire Peak",
             "acronym": "DIP"
@@ -760,6 +602,8 @@
                 "description": "Ranged Spell Attack: +4 to hit, range 60 ft., one creature. Hit: 4 (1d8) cold damage, and the target's speed is reduced by 10 feet until the start of the gnome's next turn.",
                 "name": "Ray of Frost"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Dragon of Icespire Peak",

@@ -210,6 +210,8 @@
                 "name": "Paralyzing Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
             "acronym": "WDMM"
@@ -372,6 +374,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
@@ -575,6 +579,12 @@
                 "attack_bonus": null,
                 "description": "Dezmyr hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a DC 18 Dexterity saving throw. The sphere spreads around corners. A creature takes 35 (10d6) fire damage and 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one.",
                 "name": "Hellfire Orb (1/Day)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Dezmyr adds 6 to its AC against one melee attack that would hit it. To do so, Dezmyr must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -809,6 +819,8 @@
                 "name": "Invisibility (Recharges after a Short or Long Rest)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
             "acronym": "WDMM"
@@ -970,6 +982,8 @@
                 "description": "Halaster uses his blast scepter to cast thunderwave as a 4th-level spell. Each creature in a 15-foot cube originating from him must make a DC 16 Constitution saving throw. On a failed save, a creature takes 5d8 thunder damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn't pushed",
                 "name": "Blast Scepter"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
@@ -1140,6 +1154,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
             "acronym": "WDMM"
@@ -1309,6 +1325,8 @@
                 "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 9 (1d10 + 4) piercing damage. The target must make a DC 16 Constitution saving throw, taking 27 (6d8) poison damage on a failed save, or half as much damage on a successful one.",
                 "name": "Sting"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
@@ -1510,6 +1528,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 11 (2d10) lightning damage.",
                 "name": "Sting"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
@@ -1734,6 +1754,8 @@
                 "description": "Trobriand exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.",
                 "name": "Poison Breath (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",

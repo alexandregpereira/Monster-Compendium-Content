@@ -132,6 +132,8 @@
                 "name": "Summon Air Elemental"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -353,6 +355,8 @@
                 "description": "The arcanaloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see.",
                 "name": "Teleport"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -602,6 +606,8 @@
                 "name": "Wail (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -786,6 +792,8 @@
                 "name": "Fist"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -930,6 +938,8 @@
                 "name": "Eye Rays"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -1068,6 +1078,8 @@
                 "description": "The zombie uses a random magical eye ray, choosing a target that it can see within 60 feet of it.\n1. Paralyzing Ray. The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n2. Fear Ray. The targeted creature must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n3. Enervation Ray. The targeted creature must make a DC 14 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.\n4. Disintegration Ray. If the target is a creature, it must succeed on a DC 14 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.\nIf the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-foot cube of it.",
                 "name": "Eye Ray"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -1222,6 +1234,8 @@
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. If the target is a humanoid, it must succeed on a DC 15 Constitution saving throw or be infected with a disease called chaos phage. While infected, the target can't regain hit points, and its hit point maximum is reduced by 10 (3d6) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -1380,6 +1394,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
                 "name": "Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -1618,6 +1634,8 @@
                 "name": "Fiendish Charm"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -1795,6 +1813,8 @@
                 "name": "Proboscis"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -1927,6 +1947,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -2053,6 +2075,8 @@
                 "description": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
                 "name": "Rock"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -2213,6 +2237,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) bludgeoning damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Strength check or be knocked prone.",
                 "name": "Maul"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -2412,6 +2438,12 @@
                 "attack_bonus": null,
                 "description": "The death knight hurls a magical ball of fire that explodes at a point it can see within 120 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a DC 18 Dexterity saving throw. The sphere spreads around corners. A creature takes 35 (10d6) fire damage and 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one.",
                 "name": "Hellfire Orb (1/Day)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "The death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -2629,6 +2661,8 @@
                 "name": "Greatsword"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -2812,6 +2846,8 @@
                 "description": "The death tyrant shoots three of the following magical eye rays at random (reroll duplicates), choosing one to three targets it can see within 120 feet of it:\n1. Charm Ray. The targeted creature must succeed on a DC 17 Wisdom saving throw or be charmed by the death tyrant for 1 hour, or until the death tyrant harms the creature.\n2. Paralyzing Ray. The targeted creature must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n3. Fear Ray. The targeted creature must succeed on a DC 17 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n4. Slowing Ray. The targeted creature must succeed on a DC 17 Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n5. Enervation Ray. The targeted creature must make a DC 17 Constitution saving throw, taking 36 (8d8) necrotic damage on a failed save, or half as much damage on a successful one.\n6. Telekinetic Ray. If the target is a creature, it must succeed on a DC 17 Strength saving throw or the death tyrant moves it up to 30 feet in any direction. It is restrained by the ray's telekinetic grip until the start of the death tyrant's next turn or until the death tyrant is incapacitated.\nIf the target is an object weighing 300 pounds or less that isn't being worn or carried, it is moved up to 30 feet in any direction. The death tyrant can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container.\n7. Sleep Ray. The targeted creature must succeed on a DC 17 Wisdom saving throw or fall asleep and remain unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead.\n8. Petrification Ray. The targeted creature must make a DC 17 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the  greater restoration spell or other magic.\n9. Disintegration Ray. If the target is a creature, it must succeed on a DC 17 Dexterity saving throw or take 45 (10d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust.\nIf the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it.\n10. Death Ray. The targeted creature must succeed on a DC 17 Dexterity saving throw or take 55 (10d10) necrotic damage. The target dies if the ray reduces it to 0 hit points.",
                 "name": "Eye Rays"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -3060,6 +3096,8 @@
                 "name": "Life Drain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -3184,6 +3222,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.",
                 "name": "Tentacle"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -3342,6 +3382,8 @@
                 "name": "Summon Demon (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -3473,6 +3515,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -3649,6 +3693,8 @@
                 "name": "Bolt"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -3822,6 +3868,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage plus 3 (1d6) fire damage.",
                 "name": "Tail"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -4019,6 +4067,8 @@
                 "name": "Fire Ray"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -4190,6 +4240,8 @@
                 "name": "Stench Spray (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -4330,6 +4382,8 @@
                 "description": "With a stare, the fomorian uses Evil Eye, but on a failed save, the creature is also cursed with magical deformities. While deformed, the creature has its speed halved and has disadvantage on ability checks, saving throws, and attacks based on Strength or Dexterity.\nThe transformed creature can repeat the saving throw whenever it finishes a long rest, ending the effect on a success.",
                 "name": "Curse of the Evil Eye (Recharges after a Short or Long Rest)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -4494,6 +4548,8 @@
                 "name": "Animate Boulders (1/Day)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -4645,6 +4701,8 @@
                 "name": "Touch"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -4767,6 +4825,8 @@
                 "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 10 (3d6) psychic damage. This is a magic weapon attack. On a critical hit against a target in an astral body (as with the astral projection spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage.",
                 "name": "Silver Greatsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -4898,6 +4958,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage plus 7 (2d6) psychic damage.",
                 "name": "Greatsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -5040,6 +5102,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack.",
                 "name": "Unarmed Strike"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -5191,6 +5255,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -5409,6 +5475,8 @@
                 "name": "Gore"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -5599,6 +5667,8 @@
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
                 "name": "Greatsword"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -5794,6 +5864,8 @@
                 "name": "Hurl Flame"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -5948,6 +6020,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage.",
                 "name": "Beak"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -6160,6 +6234,8 @@
                 "name": "Longsword"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -6288,6 +6364,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
                 "name": "Hook"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -6450,6 +6528,8 @@
                 "description": "The intellect devourer initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it that isn't protected by protection from evil and good. If it wins the contest, the intellect devourer magically consumes the target's brain, teleports into the target's skull, and takes control of the target's body. While inside a creature, the intellect devourer has total cover against attacks and other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Deep Speech, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including spells and languages.\nIf the host body dies, the intellect devourer must leave it. A protection from evil and good spell cast on the body drives the intellect devourer out. The intellect devourer is also forced out if the target regains its devoured brain by means of a wish. By spending 5 feet of its movement, the intellect devourer can voluntarily leave the body, teleporting to the nearest unoccupied space within 5 feet of it. The body then dies, unless its brain is restored within 1 round.",
                 "name": "Body Thief"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -6621,6 +6701,8 @@
                 "name": "Sleep Gaze"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -6759,6 +6841,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -6925,6 +7009,12 @@
                 "attack_bonus": 3,
                 "description": "Ranged Weapon Attack: +3 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.",
                 "name": "Net"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Sticky Shield",
+                "desc": "When a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding."
             }
         ],
         "source": {
@@ -7095,6 +7185,8 @@
                 "name": "Unarmed Strike"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -7247,6 +7339,8 @@
                 "name": "Pincer Staff"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -7383,6 +7477,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -7574,6 +7670,8 @@
                 "description": "The marid magically shoots water in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw. On a failure, a target takes 21 (6d6) bludgeoning damage and, if it is Huge or smaller, is pushed up to 20 feet away from the marid and knocked prone. On a success, a target takes half the bludgeoning damage, but is neither pushed nor knocked prone.",
                 "name": "Water Jet"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -7778,6 +7876,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -7942,6 +8042,8 @@
                 "description": "The mind flayer magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Mind Blast (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -8112,6 +8214,8 @@
                 "name": "Mind Blast (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -8242,6 +8346,8 @@
                 "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -8387,6 +8493,8 @@
                 "name": "Mud Breath (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -8518,6 +8626,8 @@
                 "description": "A 20-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.",
                 "name": "Rapport Spores"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -8672,6 +8782,8 @@
                 "name": "Rapport Spores"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -8796,6 +8908,8 @@
                 "description": "A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour.",
                 "name": "Rapport Spores (3/Day)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -8923,6 +9037,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 8 (2d6 + 1) piercing damage.",
                 "name": "Needles"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -9078,6 +9194,8 @@
                 "description": "The nothic targets one creature it can see within 30 feet of it. The target must contest its Charisma (Deception) check against the nothic's Wisdom (Insight) check. If the nothic wins, it magically learns one fact or secret about the target. The target automatically wins if it is immune to being charmed.",
                 "name": "Weird Insight"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -9290,6 +9408,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -9428,6 +9548,8 @@
                 "name": "Javelin"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -9556,6 +9678,8 @@
                 "description": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Paralysis Gas (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -9723,6 +9847,8 @@
                 "name": "Talons"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -9845,6 +9971,8 @@
                 "name": "Drop"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -9957,6 +10085,8 @@
                 "description": "The pixie magically turns invisible until its concentration ends (as if concentrating on a spell). Any equipment the pixie wears or carries is invisible with it.",
                 "name": "Superior Invisibility"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -10101,6 +10231,8 @@
                 "name": "Shortbow"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -10235,6 +10367,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -10368,6 +10502,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -10522,6 +10658,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be infected with a disease—a minuscule slaad egg.\nA humanoid host can carry only one slaad egg to term at a time. Over three months, the egg moves to the chest cavity, gestates, and forms a slaad tadpole. In the 24-hour period before giving birth, the host starts to feel unwell, its speed is halved, and it has disadvantage on attack rolls, ability checks, and saving throws. At birth, the tadpole chews its way through vital organs and out of the host's chest in 1 round, killing the host in the process.\nIf the disease is cured before the tadpole's emergence, the unborn slaad is disintegrated.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -10711,6 +10849,8 @@
                 "description": "The revenant targets one creature it can see within 30 feet of it and against which it has sworn vengeance. The target must make a DC 15 Wisdom saving throw. On a failure, the target is paralyzed until the revenant deals damage to it, or until the end of the revenant's next turn. When the paralysis ends, the target is frightened of the revenant for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, with disadvantage if it can see the revenant, ending the frightened condition on itself on a success.",
                 "name": "Vengeful Glare"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -10902,6 +11042,8 @@
                 "name": "Trident"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -11073,6 +11215,8 @@
                 "description": "The scarecrow targets one creature it can see within 30 feet of it. If the target can see the scarecrow, the target must succeed on a DC 11 Wisdom saving throw or be magically frightened until the end of the scarecrow's next turn. The frightened target is paralyzed.",
                 "name": "Terrifying Glare"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -11312,6 +11456,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -11456,6 +11602,8 @@
                 "name": "Cinder Breath (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -11586,6 +11734,12 @@
                 "attack_bonus": null,
                 "description": "The spectator magically creates enough food and water to sustain itself for 24 hours.",
                 "name": "Create Food and Water"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Spell Reflection",
+                "desc": "If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 feet of it. The spell targets the chosen creature instead of the spectator. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature."
             }
         ],
         "source": {
@@ -11797,6 +11951,8 @@
                 "name": "Tail Spine"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -11944,6 +12100,8 @@
                 "name": "Claws"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -12075,6 +12233,8 @@
                 "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
                 "name": "Javelin"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -12217,6 +12377,8 @@
                 "name": "Claw"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -12342,6 +12504,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -12563,6 +12727,8 @@
                 "name": "Teleport"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -12702,6 +12868,8 @@
                 "name": "Mandibles"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -12829,6 +12997,8 @@
                 "description": "Grasping roots and vines sprout in a 15-foot radius centered on the blight, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each creature of the blight's choice in that area when the plants appear must succeed on a DC 12 Strength saving throw or become restrained. A creature can use its action to make a DC 12 Strength check, freeing it self or another entangled creature within reach on a success.",
                 "name": "Entangling Plants (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -13003,6 +13173,8 @@
                 "name": "Constrict"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -13167,6 +13339,8 @@
                 "description": "The yeti targets one creature it can see within 30 feet of it. If the target can see the yeti, the target must succeed on a DC 13 Constitution saving throw against this magic or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.",
                 "name": "Chilling Gaze"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -13381,6 +13555,8 @@
                 "name": "Mist Form"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -13593,6 +13769,8 @@
                 "name": "Shadow Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -13723,6 +13901,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) piercing damage plus 7 (2d6) fire damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",
@@ -13922,6 +14102,8 @@
                 "name": "Longbow (Abomination Form Only)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
@@ -14082,6 +14264,8 @@
                 "description": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Monster Manual",

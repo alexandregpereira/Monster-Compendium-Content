@@ -162,6 +162,8 @@
                 "name": "Chained Book"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -334,6 +336,8 @@
                 "description": "Quill hurls a string of insults laced with enchantments at a creature he can see within 60 feet of him. If the creature can hear Quill (though it need not understand him), it must succeed on a 17 Wisdom saving throw or take 66 (12d10) psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.",
                 "name": "Supreme Mockery"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -565,6 +569,12 @@
                 "name": "Heal Self (Recharges after a Long Rest)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Deflect Missile",
+                "desc": "In response to being hit by a ranged weapon attack, Bak Mei deflects the missile. The damage he takes from the attack is reduced by 1d10 + 12. If the damage is reduced to 0, Bak Mei catches the missile if it's small enough to hold in one hand and Bak Mei has a hand free."
+            }
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -739,6 +749,12 @@
                 "attack_bonus": 10,
                 "description": "Ranged Weapon Attack: +10 to hit, range 120 ft., one target. 14 (2d8 + 5) force damage.",
                 "name": "Crystal Dart"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Spell Deflection",
+                "desc": "In response to a spell attack missing the golem, it causes that spell to hit another creature within 120 feet of it that it can see."
             }
         ],
         "source": {
@@ -957,6 +973,8 @@
                 "name": "Wind Howl (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -1076,6 +1094,8 @@
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage.",
                 "name": "Club"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -1234,6 +1254,8 @@
                 "name": "Horn"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -1352,6 +1374,12 @@
                 "attack_bonus": 3,
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage.",
                 "name": "Rapier"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Faerl adds 2 to his AC against one melee attack that would hit it. To do so, he must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -1543,153 +1571,7 @@
                 "name": "Shortbow"
             }
         ],
-        "source": {
-            "name": "Candlekeep Mysteries",
-            "acronym": "CM"
-        }
-    },
-    {
-        "index": "hag-of-the-fetid-gaze",
-        "type": "FEY",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 5.0,
-        "name": "Hag of the Fetid Gaze",
-        "subtitle": "Medium fey, neutral evil",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hag-of-the-fetid-gaze.png",
-        "background_color": {
-            "light": "#f0c175",
-            "dark": "#8a5b0f"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "neutral evil",
-        "armor_class": 17,
-        "hit_points": 82,
-        "hit_dice": "11d8+33",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 18,
-                "modifier": 4
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "WISDOM",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "CHARISMA",
-                "value": 14,
-                "modifier": 2
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-            {
-                "index": "skill-arcana",
-                "modifier": 3,
-                "name": "Arcana"
-            },
-            {
-                "index": "skill-deception",
-                "modifier": 4,
-                "name": "Deception"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 4,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-stealth",
-                "modifier": 4,
-                "name": "Stealth"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "Common, Draconic, Sylvan",
-        "special_abilities": [
-            {
-                "name": "Shared Spellcasting",
-                "desc": "While all three members of the Fetid Gaze are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n- 1st level (4 slots): charm person, witch bolt\n- 2nd level (3 slots): alter self, suggestion\n- 3rd level (3 slots): dispel magic, glyph of warding, slow\n- 4th level (3 slots): blight, polymorph\n- 5th level (2 slots): dominate person, seeming\n- 6th level (1 slot): Otto's irresistible dance"
-            },
-            {
-                "name": "Amphibious",
-                "desc": "The hag can breathe air and water."
-            },
-            {
-                "name": "Mimicry",
-                "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful 14 Wisdom (Insight) check."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d8+4",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 6,
-                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. 13 (2d8 + 4) slashing damage.",
-                "name": "Claws"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a 20 Intelligence (Investigation) check to discern that the hag is disguised.",
-                "name": "Illusory Appearance"
-            },
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.",
-                "name": "Invisible Passage"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -1870,6 +1752,12 @@
                 "name": "Heal Self (Recharges after a Long Rest)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Deflect Missile",
+                "desc": "In response to being hit by a ranged weapon attack, Jade Tigress deflects the missile. The damage she takes from the attack is reduced by 1d10 + 9. If the damage is reduced to 0, Jade Tigress catches the missile if it's small enough to hold in one hand and Jade Tigress has a hand free."
+            }
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -2044,237 +1932,7 @@
                 "name": "Tail"
             }
         ],
-        "source": {
-            "name": "Candlekeep Mysteries",
-            "acronym": "CM"
-        }
-    },
-    {
-        "index": "lichen-lich",
-        "type": "UNDEAD",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 18.0,
-        "name": "Lichen Lich",
-        "subtitle": "Medium undead, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lichen-lich.png",
-        "background_color": {
-            "light": "#f0bb75",
-            "dark": "#2f1d05"
-        },
-        "is_horizontal_image": false,
-        "size": "Medium",
-        "alignment": "unaligned",
-        "armor_class": 20,
-        "hit_points": 225,
-        "hit_dice": "30d8+90",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 11,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "WISDOM",
-                "value": 20,
-                "modifier": 5
-            },
-            {
-                "type": "CHARISMA",
-                "value": 16,
-                "modifier": 3
-            }
-        ],
-        "saving_throws": [
-            {
-                "index": "saving-throw-con",
-                "type": "CONSTITUTION",
-                "modifier": 9
-            },
-            {
-                "index": "saving-throw-int",
-                "type": "INTELLIGENCE",
-                "modifier": 8
-            },
-            {
-                "index": "saving-throw-wis",
-                "type": "WISDOM",
-                "modifier": 11
-            },
-            {
-                "index": "saving-throw-cha",
-                "type": "CHARISMA",
-                "modifier": 9
-            }
-        ],
-        "skills": [
-            {
-                "index": "skill-medicine",
-                "modifier": 11,
-                "name": "Medicine"
-            },
-            {
-                "index": "skill-nature",
-                "modifier": 14,
-                "name": "Nature"
-            },
-            {
-                "index": "skill-perception",
-                "modifier": 11,
-                "name": "Perception"
-            },
-            {
-                "index": "skill-survival",
-                "modifier": 11,
-                "name": "Survival"
-            }
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-            {
-                "index": "cold",
-                "type": "COLD",
-                "name": "Cold"
-            },
-            {
-                "index": "necrotic",
-                "type": "NECROTIC",
-                "name": "Necrotic"
-            }
-        ],
-        "damage_immunities": [
-            {
-                "index": "poison",
-                "type": "POISON",
-                "name": "Poison"
-            }
-        ],
-        "condition_immunities": [
-            {
-                "index": "charmed",
-                "type": "CHARMED",
-                "name": "Charmed"
-            },
-            {
-                "index": "exhaustion",
-                "type": "EXHAUSTION",
-                "name": "Exhaustion"
-            },
-            {
-                "index": "frightened",
-                "type": "FRIGHTENED",
-                "name": "Frightened"
-            },
-            {
-                "index": "paralyzed",
-                "type": "PARALYZED",
-                "name": "Paralyzed"
-            },
-            {
-                "index": "poisoned",
-                "type": "POISONED",
-                "name": "Poisoned"
-            },
-            {
-                "index": "stunned",
-                "type": "STUNNED",
-                "name": "Stunned"
-            }
-        ],
-        "senses": [
-            "truesight 120 ft."
-        ],
-        "languages": "Common, Druidic, Sylvan",
-        "special_abilities": [
-            {
-                "name": "Legendary Resistance (3/Day)",
-                "desc": "If the lich fails a saving throw, it can choose to succeed instead."
-            },
-            {
-                "name": "Rejuvenation",
-                "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                ],
-                "attack_bonus": null,
-                "description": "The lich makes four attacks.",
-                "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "5d6",
-                        "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    }
-                ],
-                "attack_bonus": 9,
-                "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. 17 (5d6) poison damage, and the target must succeed on a 19 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Poisonous Touch"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "4d6",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    }
-                ],
-                "attack_bonus": 9,
-                "description": "Ranged Spell Attack: +9 to hit, range 60 ft., one target. 14 (4d6) necrotic damage.",
-                "name": "Wither"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "7d10",
-                        "damage": {
-                            "index": "FIRE",
-                            "type": "FIRE",
-                            "name": "Fire"
-                        }
-                    }
-                ],
-                "attack_bonus": null,
-                "description": "The lich fills up to ten 10-foot cubes with fire. Every cube must be within 150 feet of the lich and occupy a space the lich can see, and each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a 19 Dexterity saving throw, taking 38 (7d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried. If the lich chooses, plant life in the area is unaffected by the spell.",
-                "name": "Fire Storm (7th-Level Spell; 1/Day)"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -2425,6 +2083,12 @@
                 "attack_bonus": null,
                 "description": "The sage creates a fiery explosion centered on a point it can see within 150 feet of it. Each creature in a 20-foot-radius sphere centered on that point must make a 14 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried.",
                 "name": "Fireball (3rd-Level Spell; 3/Day)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Shield (1st-Level Spell; 3/Day)",
+                "desc": "When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
             }
         ],
         "source": {
@@ -2719,6 +2383,8 @@
                 "name": "Frightful Presence"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -2913,6 +2579,8 @@
                 "name": "Storm of Shattered Glass (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -3047,6 +2715,12 @@
                 "attack_bonus": 6,
                 "description": "Melee Spell Attack: +6 to hit (with advantage if the target is wearing armor made of metal), reach 5 ft., one creature. 9 (2d8) lightning damage, and the target can't take reactions until the start of its next turn.",
                 "name": "Shocking Grasp (Cantrip)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Shield (1st-Level Spell; 3/Day)",
+                "desc": "When the sage is hit by an attack or targeted by a magic missile spell, it calls forth an invisible barrier of magical force that protects it. Until the start of its next turn, the sage has a +5 bonus to AC, including against the triggering attack, and it takes no damage from magic missile."
             }
         ],
         "source": {
@@ -3243,6 +2917,8 @@
                 "description": "The sapphire has 3 charges. As an action, the golem can expend 1 charge to cast dispel magic (as a 9th-level spell) from the sapphire using Constitution as its spellcasting ability. The sapphire ceases to glow if all its charges are expended, but it regains 1d3 expended charges daily at dawn and glows again once it has 1 or more charges.",
                 "name": "Sapphire"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -3505,6 +3181,8 @@
                 "name": "Howling Babble (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -3683,6 +3361,12 @@
                 "name": "Tail"
             }
         ],
+        "reactions": [
+            {
+                "name": "Good Parent",
+                "desc": "The skitterwidget imposes disadvantage on one attack roll made against a kiddywidget it can see within 5 feet of it."
+            }
+        ],
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
@@ -3847,6 +3531,16 @@
                 "attack_bonus": null,
                 "description": "Steel Crane regains 2d8 + 4 hit points, and all levels of exhaustion end on him.",
                 "name": "Heal Self (Recharges after a Long Rest)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Deflect Missile",
+                "desc": "In response to being hit by a ranged weapon attack, Steel Crane deflects the missile. The damage he takes from the attack is reduced by 1d10 + 10. If the damage is reduced to 0, Steel Crane catches the missile if it's small enough to hold in one hand and Steel Crane has a hand free."
+            },
+            {
+                "name": "Slow Descent (3/Day)",
+                "desc": "When Steel Crane falls, he can slow his descent, taking no damage from the fall."
             }
         ],
         "source": {
@@ -4037,6 +3731,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. 6 (2d4 + 1) bludgeoning damage, or 3 (1d4 + 1) bludgeoning damage if the swarm has half its hit points or fewer.",
                 "name": "Book Club"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",
@@ -4255,6 +3951,8 @@
                 "description": "Valin targets one creature she can see within 60 feet of her. If the target can see Valin, it must succeed on a 16 Wisdom saving throw against this magic or become frightened until the end of Valin's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours.",
                 "name": "Dreadful Glare"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Candlekeep Mysteries",

@@ -177,6 +177,8 @@
                 "name": "Storm of Crows (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -322,6 +324,8 @@
                 "description": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) radiant damage.",
                 "name": "Radiant Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -485,6 +489,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
                 "name": "Beak"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -693,6 +699,8 @@
                 "description": "Aphemia intones a low, growling magical melody. Every undead within 300 feet of her must succeed on a 14 Wisdom saving throw or fall under her control until the song ends. Aphemia must take a bonus action on her subsequent turns to continue singing, and she can mentally command the undead under her control as part of the same bonus action. She can stop singing at any time. The song ends if Aphemia is incapacitated or dies.",
                 "name": "Grave Calling Song"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -948,6 +956,8 @@
                 "name": "Web of Hair (Recharge 4-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -1136,6 +1146,8 @@
                 "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) piercing damage plus 10 (3d6) radiant damage.",
                 "name": "Radiant Spear"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -1332,6 +1344,8 @@
                 "name": "Bolt of Ash"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -1473,6 +1487,8 @@
                 "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
                 "name": "Claws"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -1640,6 +1656,8 @@
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -1911,6 +1929,8 @@
                 "name": "Flames of Akros (Recharge 6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -2090,6 +2110,8 @@
                 "description": "The giant exhales a mighty gust that creates a blast of deadly mist in a 60-foot line that is 10 feet wide. Each creature in that line must make a 18 Constitution saving throw. On a failed save, the creature takes 36 (8d8) necrotic damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.",
                 "name": "Noxious Gust (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -2290,6 +2312,8 @@
                 "name": "Breath of Hopelessness (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -2448,6 +2472,8 @@
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
                 "name": "Claw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -2654,6 +2680,8 @@
                 "name": "Ghostblade"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -2832,6 +2860,8 @@
                 "name": "Fire Breath (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -2967,6 +2997,8 @@
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
                 "name": "Ram"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -3115,6 +3147,12 @@
                 "attack_bonus": 13,
                 "description": "Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage. If the target is a creature, it must succeed on a 21 Strength saving throw or be knocked prone.",
                 "name": "Rock"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Deflect Attack",
+                "desc": "The giant adds 5 to its AC against one weapon attack that would hit it. To do so, the giant must see the attacker and be wielding a melee weapon."
             }
         ],
         "source": {
@@ -3351,6 +3389,8 @@
                 "name": "Snaky Hair"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -3495,6 +3535,8 @@
                 "description": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
                 "name": "Bite"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -3661,6 +3703,8 @@
                 "description": "Ranged Spell Attack: +6 to hit, range 120 ft., one creature. Hit: 9 (2d8) necrotic damage, and the target can't regain hit points until the start of the lampad's next turn. If the target is undead, it has disadvantage on attack rolls against the lampad until the end of the lampad's next turn.",
                 "name": "Chill Touch (Cantrip)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -3829,6 +3873,8 @@
                 "name": "Dart"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -3989,6 +4035,8 @@
                 "description": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) psychic damage.",
                 "name": "Psychic Touch"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -4209,118 +4257,7 @@
                 "name": "Herd the Underworld (Recharges after a Short or Long Rest)"
             }
         ],
-        "source": {
-            "name": "Mythic Odysseys of Theros",
-            "acronym": "MOT"
-        }
-    },
-    {
-        "index": "nyx-fleece-ram",
-        "type": "MONSTROSITY",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Nyx-Fleece Ram",
-        "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/nyx-fleece-ram.png",
-        "background_color": {
-            "light": "#75a6f0",
-            "dark": "#0f408a"
-        },
-        "is_horizontal_image": true,
-        "size": "Medium",
-        "alignment": "unaligned",
-        "armor_class": 14,
-        "hit_points": 27,
-        "hit_dice": "5d8+5",
-        "speed": {
-            "hover": false,
-            "value": [
-                {
-                    "type": "WALK",
-                    "measurement_unit": "FEET",
-                    "value": 40,
-                    "value_formatted": "40 ft."
-                }
-            ]
-        },
-        "ability_scores": [
-            {
-                "type": "STRENGTH",
-                "value": 16,
-                "modifier": 3
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 14,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 12,
-                "modifier": 1
-            },
-            {
-                "type": "INTELLIGENCE",
-                "value": 3,
-                "modifier": -4
-            },
-            {
-                "type": "WISDOM",
-                "value": 13,
-                "modifier": 1
-            },
-            {
-                "type": "CHARISMA",
-                "value": 10,
-                "modifier": 0
-            }
-        ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
-        "languages": "",
-        "special_abilities": [
-            {
-                "name": "Charge",
-                "desc": "If the ram moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a 13 Strength saving throw or be knocked prone."
-            },
-            {
-                "name": "Magic Resistance",
-                "desc": "The ram has advantage on saving throws against spells and other magical effects."
-            },
-            {
-                "name": "Sure-Footed",
-                "desc": "The ram has advantage on Strength and Dexterity saving throws against effects that would knock it prone."
-            }
-        ],
-        "actions": [
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d4+3",
-                        "damage": {
-                            "index": "BLUDGEONING",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage plus 3 (1d6) force damage.",
-                "name": "Ram"
-            }
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -4442,6 +4379,12 @@
                 "attack_bonus": 5,
                 "description": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage.",
                 "name": "Eldritch Touch"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Divine Insight (3/Day)",
+                "desc": "When the oracle or a creature it can see makes an attack roll, a saving throw, or an ability check, the oracle can cause the roll to be made with advantage or disadvantage."
             }
         ],
         "source": {
@@ -4613,6 +4556,12 @@
                 "attack_bonus": 6,
                 "description": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit: 5 (1d10) fire damage.",
                 "name": "Fire Bolt (Cantrip)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Hellish Rebuke (2nd-Level Spell; 1/Day)",
+                "desc": "When the oread is damaged by a creature within 60 feet of the oread that it can see, the creature that damaged the oread must make a 14 Dexterity saving throw, taking 16 (3d10) fire damage on a failed save, or half as much damage on a successful one."
             }
         ],
         "source": {
@@ -4827,6 +4776,8 @@
                 "name": "Strength Drain"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -4976,6 +4927,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
                 "name": "Shortbow"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -5137,6 +5090,8 @@
                 "description": "The satyr fires an arrow that magically transforms into a flurry of missiles in a 30-foot cone. Each creature in that area must make a 14 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.",
                 "name": "Hail of Arrows (Recharges after a Short or Long Rest)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -5317,6 +5272,8 @@
                 "name": "Breath Weapon (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -5495,6 +5452,12 @@
                 "name": "Ray of Frost (Cantrip)"
             }
         ],
+        "reactions": [
+            {
+                "name": "Frigid Shield",
+                "desc": "When a creature the triton can see targets the triton with an attack, the triton gains 10 temporary hit points. If the attack hits and reduces the temporary hit points to 0, each creature within 5 feet of the triton takes 9 (2d8) cold damage."
+            }
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -5660,6 +5623,8 @@
                 "description": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage.",
                 "name": "Poisoned Spine"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -5923,6 +5888,8 @@
                 "name": "Bite"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -6125,6 +6092,8 @@
                 "name": "Breath Weapon (Recharge 5-6)"
             }
         ],
+        "reactions": [
+        ],
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
@@ -6302,6 +6271,8 @@
                 "description": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (3d12 + 7) piercing damage plus 19 (3d12) acid damage.",
                 "name": "Maw"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
@@ -6509,6 +6480,8 @@
                 "description": "The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a 15 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also restrained by the hardening rock. A creature can make a 15 Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage.",
                 "name": "Breath Weapon (Recharge 5-6)"
             }
+        ],
+        "reactions": [
         ],
         "source": {
             "name": "Mythic Odysseys of Theros",
