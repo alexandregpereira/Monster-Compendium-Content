@@ -342,7 +342,7 @@
             },
             {
                 "name": "Mãos Rápidas",
-                "desc": "Você pode usar uma ação bônus concedida por sua Ação Ardilosa para fazer um teste de Destreza (Roubar), use as ferramentas de ladrão para desarmar uma armadilha ou abrir uma fechadura, ou use uma Ação de usar um objeto."
+                "desc": "Você pode usar uma ação bônus concedida por sua Ação Ardilosa para fazer um teste de Destreza (Roubar), usar as ferramentas de ladrão para desarmar uma armadilha ou abrir uma fechadura, ou usar uma Ação de usar um objeto."
             },
             {
                 "name": "Ambidestro",
@@ -354,6 +354,21 @@
             }
         ],
         "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma de Combate à distância: +7 para acertar, alcance 80/320 ft., um alvo. Dano: 1d6 + 4 perfurante.",
+                "name": "Besta"
+            },
             {
                 "damage_dices": [
                     {
@@ -383,21 +398,6 @@
                 "attack_bonus": 7,
                 "description": "Arma de Combate Corpo a Corpo: +7 para acertar, alcance 5ft. ou alcance de 20/60 ft., um alvo. Dano: 1d4 + 4 perfurante.",
                 "name": "Adaga"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d6+4",
-                        "damage": {
-                            "index": "piercing",
-                            "type": "PIERCING",
-                            "name": "Perfurante"
-                        }
-                    }
-                ],
-                "attack_bonus": 7,
-                "description": "Arma de Combate à distância: +7 para acertar, alcance 5ft. ou alcance 80/320 ft., um alvo. Dano: 1d6 + 4 perfurante.",
-                "name": "Besta"
             }
         ],
         "reactions": [
