@@ -203,5 +203,212 @@
             "name": "Boka",
             "acronym": "boka"
         }
+    },
+    {
+        "index": "smoke",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": "Players",
+        "challenge_rating": 6,
+        "name": "Smoke",
+        "subtitle": "Medium humanoid(fuman), neutral",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/smoke.png",
+        "background_color": {
+            "light": "#fcfbf5",
+            "dark": "#00030a"
+        },
+        "is_horizontal_image": false,
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 16,
+        "hit_points": 45,
+        "hit_dice": "6d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 7,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 2,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 8,
+                "name": "Investigation"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 7,
+                "name": "Roubar"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 10,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Passive Perception 17"
+        ],
+        "languages": "Common, Halfling, thieves cant",
+        "special_abilities": [
+            {
+                "name": "Armas",
+                "desc": "Armas simples, bestas pequena, espadas longas, rapier, espadas curtas."
+            },
+            {
+                "name": "Armaduras",
+                "desc": "Armadura leve."
+            },
+            {
+                "name": "Ferramentas de Ladrão",
+                "desc": "+6 nas rolagens de dados."
+            },
+            {
+                "name": "Ataque Furtivo",
+                "desc": "Uma vez por turno, você pode adicionar 3d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância. Você não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 5ft. de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque."
+            },
+            {
+                "name": "Ação Ardilosa",
+                "desc": "Você pode usar uma ação bônus durante cada um de seus turnos em combate. Esta ação pode ser usada somente para Disparada, Desengajar ou Esconder"
+            },
+            {
+                "name": "Mãos Rápidas",
+                "desc": "Você pode usar uma ação bônus concedida por sua Ação Ardilosa para fazer um teste de Destreza (Roubar), use as ferramentas de ladrão para desarmar uma armadilha ou abrir uma fechadura, ou use uma Ação de usar um objeto."
+            },
+            {
+                "name": "Ambidestro",
+                "desc": "Quando você usa uma ação de ataque com uma espada curta em uma mão, você pode usar uma ação bônus para atacar com a adaga em outra mão. Você não adiciona seu modificador de habilidade para o dano do ataque bônus. Em vez disso, você pode jogar o punhal em vez de fazer um ataque corpo a corpo com ele."
+            },
+            {
+                "name": "Andarilho de Telhados",
+                "desc": "A escalada não custar-lhe movimento extra. Além disso, quando você faz um salto correndo, o distância que você cobre aumenta em um número de pés igual ao seu modificador de Destreza."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma de Combate Corpo a Corpo: +7 para acertar, alcance 5ft., um alvo. Dano: 1d6 + 4 perfurante.",
+                "name": "Espada Curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma de Combate Corpo a Corpo: +7 para acertar, alcance 5ft. ou alcance de 20/60 ft., um alvo. Dano: 1d4 + 4 perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma de Combate à distância: +7 para acertar, alcance 5ft. ou alcance 80/320 ft., um alvo. Dano: 1d6 + 4 perfurante.",
+                "name": "Besta"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Esquiva Sobrenatural",
+                "desc": "Quando um atacante que você pode ver te acerta com um ataque, você pode usar sua reação para reduzir pela metade o ataque do dano contra você."
+            }
+        ],
+        "source": {
+            "name": "Boka",
+            "acronym": "boka"
+        }
     }
 ]
