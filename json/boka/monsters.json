@@ -10,7 +10,7 @@
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/volmir-targaryen.png",
         "background_color": {
             "light": "#fcfbf5",
-            "dark": "#000326"
+            "dark": "#00030a"
         },
         "is_horizontal_image": false,
         "size": "Medium",
@@ -101,7 +101,7 @@
         "damage_immunities": [],
         "condition_immunities": [],
         "senses": [
-            "blindsight 30ft. (blind beyond this radius)"
+            "Passive Perception 13"
         ],
         "languages": "Common, Orc",
         "special_abilities": [
@@ -123,23 +123,8 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "You can attack twice when you take this action, using the following: ",
+                "description": "Você pode atacar duas vezes usando essa ação, usando o seguinte:",
                 "name": "Multiattack"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "1d8+5",
-                        "damage": {
-                            "index": "slashing",
-                            "type": "SLASHING",
-                            "name": "Cortante"
-                        }
-                    }
-                ],
-                "attack_bonus": 8,
-                "description": "Arma de Combate Corpo a Corpo: +8 para acertar, alcance 5ft., um alvo. Dano: 1d8 + 5 cortante ou 1d10 + 5 se usada com as duas mãos.",
-                "name": "Espada Longa"
             },
             {
                 "damage_dices": [
@@ -204,8 +189,8 @@
             {
                 "damage_dices": [],
                 "attack_bonus": null,
-                "description": "Você pode forçar o seu limite para além do normal por um momento. Durante o seu turno, você pode realizar uma ação adicional juntamente com sua ação e possível ação bônus",
-                "name": "Action Surge"
+                "description": "Você pode forçar o seu limite para além do normal por um momento. Durante o seu turno, você pode realizar uma ação adicional juntamente com sua ação e possível ação bônus. Uma vez que você use essa característica, você precisa terminar um descanso curto ou longo para usá-la de novo.",
+                "name": "Action Surge (Bonus Action)"
             }
         ],
         "reactions": [
