@@ -305,12 +305,96 @@
         "languages": "any two languages, Dwarvish",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Dagdra is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Dagdra has the following cleric spells prepared:\n- Cantrips (at will): light, sacred flame, thaumaturgy\n- 1st level (4 slots): cure wounds, guiding bolt, sanctuary\n- 2nd level (3 slots): lesser restoration, spiritual weapon\n- 3rd level (2 slots): dispel magic, spirit guardians"
-            },
-            {
                 "name": "Divine Eminence",
                 "desc": "As a bonus action, Dagdra can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Dagdra expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Dagdra is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Dagdra has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Guiding Bolt",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Spiritual Weapon",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Spirit Guardians",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -551,9 +635,59 @@
         ],
         "languages": "any one language (usually Common), Orc",
         "special_abilities": [
+        ],
+        "spellcasting": [
             {
-                "name": "Spellcasting",
-                "desc": "Gildha is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). Gildha has following cleric spells prepared:\n- Cantrips (at will): light, sacred flame, thaumaturgy\n- 1st level (3 slots): bless, cure wounds, sanctuary"
+                "desc": "Gildha is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). Gildha has following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

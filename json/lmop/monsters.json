@@ -312,10 +312,6 @@
         "languages": "Elvish, Undercommon",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the following spells prepared from the wizard's spell list:\n- Cantrips (at will): mage hand, ray of frost, shocking grasp\n- 1st level (4 slots): mage armor, magic missile, shield\n- 2nd level (3 slots): invisibility, suggestion"
-            },
-            {
                 "name": "Special Equipment",
                 "desc": "Nezznar has a spider staff."
             },
@@ -326,6 +322,105 @@
             {
                 "name": "Sunlight Sensitivity",
                 "desc": "Nezznar has disadvantage on attack rolls when he or his target is in sunlight."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Nezznar can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Nezznar is a 4th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13; +5 to hit with spell attacks). Nezznar has the following spells prepared from the wizard's spell list:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Suggestion",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

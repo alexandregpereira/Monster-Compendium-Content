@@ -624,9 +624,59 @@
         ],
         "languages": "Common, Draconic, Gnomish, Goblin",
         "special_abilities": [
+        ],
+        "spellcasting": [
             {
-                "name": "Spellcasting",
-                "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n- Cantrips (at will): light, sacred flame, thaumaturgy\n- 1st level (3 slots): bless, cure wounds, sanctuary"
+                "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -784,6 +834,157 @@
             }
         ],
         "reactions": [
+        ],
+        "source": {
+            "name": "Tales from the Yawning Portal",
+            "acronym": "TftYP"
+        }
+    },
+    {
+        "index": "hill-giant-subchief",
+        "type": "GIANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Hill Giant Subchief",
+        "subtitle": "Huge giant, neutral",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hill-giant-subchief.png",
+        "background_color": {
+            "light": "#f0b675",
+            "dark": "#8a500f"
+        },
+        "is_horizontal_image": false,
+        "size": "Huge",
+        "alignment": "neutral",
+        "armor_class": 17,
+        "hit_points": 126,
+        "hit_dice": "11d12+55",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 12,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Giant",
+        "special_abilities": [
+            {
+                "name": "Stone Camouflage",
+                "desc": "The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The giant makes two greatclub attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.",
+                "name": "Greatclub"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 9,
+                "description": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone.",
+                "name": "Rock"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Rock Catching",
+                "desc": "If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+            }
         ],
         "source": {
             "name": "Tales from the Yawning Portal",
@@ -1483,10 +1684,6 @@
         "languages": "Abyssal, Common, Infernal, Primordial, Thayan",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared: *Conjuration spell of 1st level or higher\n- Cantrips (at will): fire bolt, mage hand, minor illusion, prestidigitation, ray of frost\n- 1st level (4 slots): detect magic, magic missile, shield, unseen servant*\n- 2nd level (3 slots): detect thoughts, flaming sphere*, mirror image, scorching ray\n- 3rd level (3 slots): counterspell, dispel magic, fireball\n- 4th level (3 slots): dimension door*, Evard's black tentacles*\n- 5th level (3 slots): cloudkill*, scrying\n- 6th level (1 slot): circle of death"
-            },
-            {
                 "name": "Focused Conjuration",
                 "desc": "While Var is concentrating on a conjuration spell, his concentration can't be broken as a result of taking damage."
             },
@@ -1501,6 +1698,145 @@
             {
                 "name": "Turn Resistance",
                 "desc": "Var has advantage on saving throws against any effect that turns undead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Var is a 12th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "5th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "circle-of-death",
+                                "name": "Circle of Death",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1610,12 +1946,91 @@
         "languages": "Common, Thayan",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The apprentice is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:\n- Cantrips (at will): fire bolt, mage hand, prestidigitation, shocking grasp\n- 1st level (4 slots): burning hands, detect magic, mage armor, shield\n- 2nd level (3 slots): blur, scorching ray"
-            },
-            {
                 "name": "Doomvault Devotion",
                 "desc": "Within the Doomvault, the apprentice has advantage on saving throws against being charmed or frightened."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The apprentice is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blur",
+                                "name": "Blur",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

@@ -194,16 +194,215 @@
         "languages": "Deep Speech, Undercommon, telepathy 120 ft.",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:\n- Cantrips (at will): chill touch, dancing lights, mage hand, prestidigitation, shocking grasp\n- 1st level (4 slots): detect magic, disguise self, magic missile, shield\n- 2nd level (3 slots): invisibility, mirror image, scorching ray\n- 3rd level (3 slots): counterspell, fly, lightning bolt\n- 4th level (3 slots): confusion, Evard's black tentacles, phantasmal killer\n- 5th level (2 slots): modify memory, wall of force\n- 6th level (1 slot): disintegrate, globe of invulnerability"
-            },
-            {
                 "name": "Magic Resistance",
                 "desc": "The alhoon has advantage on saving throws against spells and other magical effects."
             },
             {
                 "name": "Turn Resistance",
                 "desc": "The alhoon has advantage on saving throws against any effect that turns undead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The alhoon's innate spellcasting ability is Intelligence (spell save DC 16). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "dominate-monster",
+                                "name": "Dominate Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disguise Self",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fly",
+                                "name": "Fly",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "phantasmal-killer",
+                                "name": "Phantasmal Killer",
+                                "school": "ILLUSION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "modify-memory",
+                                "name": "Modify Memory",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "wall-of-force",
+                                "name": "Wall of Force",
+                                "school": "EVOCATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "disintegrate",
+                                "name": "Disintegrate",
+                                "school": "TRANSMUTATION",
+                                "level": 6
+                            },
+                            {
+                                "index": "globe-of-invulnerability",
+                                "name": "Globe of Invulnerability",
+                                "school": "ABJURATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -236,6 +435,642 @@
                 "attack_bonus": null,
                 "description": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Mind Blast (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        }
+    },
+    {
+        "index": "annis-hag",
+        "type": "FEY",
+        "subtype": null,
+        "group": "Hags",
+        "challenge_rating": 6.0,
+        "name": "Annis Hag",
+        "subtitle": "Large fey, chaotic evil",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/annis-hag.png",
+        "background_color": {
+            "light": "#f08175",
+            "dark": "#8a1b0f"
+        },
+        "is_horizontal_image": false,
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 75,
+        "hit_dice": "10d10+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*from nonmagical attacks"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Giant, Sylvan",
+        "special_abilities": [
+            {
+                "name": "Hag Coven",
+                "desc": "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.\nA coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+            },
+            {
+                "name": "Hag Eye (Coven Only)",
+                "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "identify",
+                                "name": "Identify",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Hold Person",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "locate-object",
+                                "name": "Locate Object",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bestow-curse",
+                                "name": "Bestow Curse",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "phantasmal-killer",
+                                "name": "Phantasmal Killer",
+                                "school": "ILLUSION",
+                                "level": 4
+                            },
+                            {
+                                "index": "polymorph",
+                                "name": "Polymorph",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "contact-other-plane",
+                                "name": "Contact Other Plane",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "eyebite",
+                                "name": "Eyebite",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "false-life",
+                                "name": "False Life",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "inflict-wounds",
+                                "name": "Inflict Wounds",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gentle-repose",
+                                "name": "Gentle Repose",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            },
+                            {
+                                "index": "ray-of-enfeeblement",
+                                "name": "Ray of Enfeeblement",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "revivify",
+                                "name": "Revivify",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "speak-with-dead",
+                                "name": "Speak with Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "death-ward",
+                                "name": "Death Ward",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "contagion",
+                                "name": "Contagion",
+                                "school": "NECROMANCY",
+                                "level": 5
+                            },
+                            {
+                                "index": "raise-dead",
+                                "name": "Raise Dead",
+                                "school": "NECROMANCY",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "circle-of-death",
+                                "name": "Circle of Death",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "entangle",
+                                "name": "Entangle",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "speak-with-animals",
+                                "name": "Speak with Animals",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "flaming-sphere",
+                                "name": "Flaming Sphere",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "moonbeam",
+                                "name": "Moonbeam",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Spike Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "call-lightning",
+                                "name": "Call Lightning",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "plant-growth",
+                                "name": "Plant Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dominate-beast",
+                                "name": "Dominate Beast",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "insect-plague",
+                                "name": "Insect Plague",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "tree-stride",
+                                "name": "Tree Stride",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "wall-of-thorns",
+                                "name": "Wall of Thorns",
+                                "school": "CONJURATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augury",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "clairvoyance",
+                                "name": "Clairvoyance",
+                                "school": "DIVINATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "nondetection",
+                                "name": "Nondetection",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "arcane-eye",
+                                "name": "Arcane Eye",
+                                "school": "DIVINATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "locate-creature",
+                                "name": "Locate Creature",
+                                "school": "DIVINATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "geas",
+                                "name": "Geas",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "legend-lore",
+                                "name": "Legend Lore",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "true-seeing",
+                                "name": "True Seeing",
+                                "school": "DIVINATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The annis makes three attacks: one with her bite and two with her claws.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage.",
+                "name": "Claw"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "9d6+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "9d6+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36 (9d6 + 5) bludgeoning damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way.",
+                "name": "Crushing Hug"
             }
         ],
         "reactions": [
@@ -333,9 +1168,59 @@
         ],
         "languages": "any one language (usually Common)",
         "special_abilities": [
+        ],
+        "spellcasting": [
             {
-                "name": "Spellcasting",
-                "desc": "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:\n- Cantrips (at will): fire bolt, mending, prestidigitation\n- 1st level (2 slots): burning hands, disguise self, shield"
+                "desc": "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disguise Self",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -743,6 +1628,49 @@
         "languages": "Abyssal",
         "special_abilities": [
         ],
+        "spellcasting": [
+            {
+                "desc": "The babau's innate spellcasting ability is Wisdom (spell save DC 11). The babau can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fear",
+                                "name": "Fear",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "heat-metal",
+                                "name": "Heat Metal",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -982,6 +1910,234 @@
         }
     },
     {
+        "index": "bard",
+        "type": "HUMANOID",
+        "subtype": "any race",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Bard",
+        "subtitle": "Medium humanoid(any race), unaligned",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/bard.png",
+        "background_color": {
+            "light": "#f0da75",
+            "dark": "#8a740f"
+        },
+        "is_horizontal_image": false,
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 4,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 6,
+                "name": "Performance"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "any two languages",
+        "special_abilities": [
+            {
+                "name": "Song of Rest",
+                "desc": "The bard can perform a song while taking a short rest. Any ally who hears the song regains an extra 1d6 hit points if it spends any Hit Dice to regain hit points at the end of that rest. The bard can confer this benefit on itself as well."
+            },
+            {
+                "name": "Taunt (2/Day)",
+                "desc": "The bard can use a bonus action on its turn to target one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Vicious Mockery",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "healing-word",
+                                "name": "Healing Word",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "heroism",
+                                "name": "Heroism",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Shatter",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        }
+    },
+    {
         "index": "barghest",
         "type": "FIEND",
         "subtype": "shapechanger",
@@ -1148,6 +2304,60 @@
                 "desc": "A barghest can feed on the corpse of a humanoid that it killed that has been dead for less than 10 minutes, devouring both flesh and soul in doing so. This feeding takes at least 1 minute, and it destroys the victim's body. The victim's soul is trapped in the barghest for 24 hours, after which time it is digested. If the barghest dies before the soul is digested, the soul is released.\nWhile a humanoid's soul is trapped in a barghest, any form of revival that could work has only a 50 percent chance of doing so, freeing the soul from the barghest if it is successful. Once a creature's soul is digested, however, no mortal magic can return that humanoid to life."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The barghest's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Pass Without Trace",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "dimension-door",
+                                "name": "Dimension Door",
+                                "school": "CONJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Suggestion",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -1297,10 +2507,6 @@
         "languages": "Auran, Common, Giant",
         "special_abilities": [
             {
-                "name": "Shared Spellcasting (Coven Only)",
-                "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n- 1st level (4 slots): identify, ray of sickness\n- 2nd level (3 slots): hold person, locate object\n- 3rd level (3 slots): bestow curse, counterspell, lightning bolt\n- 4th level (3 slots): phantasmal killer, polymorph\n- 5th level (2 slots): contact other plane, scrying\n- 6th level (1 slot): eyebite"
-            },
-            {
                 "name": "Graystaff Magic",
                 "desc": "The hag carries a graystaff, a length of gray wood that is a focus for her inner power. She can ride the staff as if it were a broom of flying. While holding the staff, she can cast additional spells with her Innate Spellcasting trait (these spells are marked with an asterisk). If the staff is lost or destroyed, the hag must craft another, which takes a year and a day. Only a bheur hag can use a graystaff."
             },
@@ -1315,6 +2521,461 @@
             {
                 "name": "Hag Eye (Coven Only)",
                 "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "control-weather",
+                                "name": "Control Weather",
+                                "school": "TRANSMUTATION",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "identify",
+                                "name": "Identify",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Hold Person",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "locate-object",
+                                "name": "Locate Object",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bestow-curse",
+                                "name": "Bestow Curse",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "phantasmal-killer",
+                                "name": "Phantasmal Killer",
+                                "school": "ILLUSION",
+                                "level": 4
+                            },
+                            {
+                                "index": "polymorph",
+                                "name": "Polymorph",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "contact-other-plane",
+                                "name": "Contact Other Plane",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "eyebite",
+                                "name": "Eyebite",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a death coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "false-life",
+                                "name": "False Life",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "inflict-wounds",
+                                "name": "Inflict Wounds",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gentle-repose",
+                                "name": "Gentle Repose",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            },
+                            {
+                                "index": "ray-of-enfeeblement",
+                                "name": "Ray of Enfeeblement",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "revivify",
+                                "name": "Revivify",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "speak-with-dead",
+                                "name": "Speak with Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "death-ward",
+                                "name": "Death Ward",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "contagion",
+                                "name": "Contagion",
+                                "school": "NECROMANCY",
+                                "level": 5
+                            },
+                            {
+                                "index": "raise-dead",
+                                "name": "Raise Dead",
+                                "school": "NECROMANCY",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "circle-of-death",
+                                "name": "Circle of Death",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a nature coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "entangle",
+                                "name": "Entangle",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "speak-with-animals",
+                                "name": "Speak with Animals",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "flaming-sphere",
+                                "name": "Flaming Sphere",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "moonbeam",
+                                "name": "Moonbeam",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Spike Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "call-lightning",
+                                "name": "Call Lightning",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "plant-growth",
+                                "name": "Plant Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dominate-beast",
+                                "name": "Dominate Beast",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "insect-plague",
+                                "name": "Insect Plague",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "tree-stride",
+                                "name": "Tree Stride",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "wall-of-thorns",
+                                "name": "Wall of Thorns",
+                                "school": "CONJURATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "For a prophecy coven, replace the spell list of the hags' Shared Spellcasting trait with the following spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augury",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "clairvoyance",
+                                "name": "Clairvoyance",
+                                "school": "DIVINATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "nondetection",
+                                "name": "Nondetection",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "arcane-eye",
+                                "name": "Arcane Eye",
+                                "school": "DIVINATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "locate-creature",
+                                "name": "Locate Creature",
+                                "school": "DIVINATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "geas",
+                                "name": "Geas",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "legend-lore",
+                                "name": "Legend Lore",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "true-seeing",
+                                "name": "True Seeing",
+                                "school": "DIVINATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2670,10 +4331,6 @@
         "languages": "Undercommon",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:\n- Cantrips (at will): guidance, mending, resistance, thaumaturgy\n- 1st level (4 slots): bane, healing word, sanctuary, shield of faith\n- 2nd level (3 slots): hold person, spiritual weapon (dagger)"
-            },
-            {
                 "name": "Fey Ancestry",
                 "desc": "The choldrith has advantage on saving throws against being charmed, and magic can't put the choldrith to sleep."
             },
@@ -2692,6 +4349,83 @@
             {
                 "name": "Web Walker",
                 "desc": "The choldrith ignores movement restrictions caused by webbing."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "resistance",
+                                "name": "Resistance",
+                                "school": "ABJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "healing-word",
+                                "name": "Healing Word",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Shield of Faith",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Hold Person",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2847,12 +4581,171 @@
         "languages": "Common, Giant",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:\n- Cantrips (at will): minor illusion, prestidigitation, vicious mockery\n- 1st level (4 slots): cure wounds, disguise self, silent image, Tasha's hideous laughter\n- 2nd level (3 slots): invisibility, suggestion\n- 3rd level (2 slots): major image, tongues"
-            },
-            {
                 "name": "Keen Smell",
                 "desc": "The giant has advantage on Wisdom (Perception) checks that rely on smell."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The giant's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "feather-fall",
+                                "name": "Feather Fall",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fly",
+                                "name": "Fly",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "telekinesis",
+                                "name": "Telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "control-weather",
+                                "name": "Control Weather",
+                                "school": "TRANSMUTATION",
+                                "level": 8
+                            },
+                            {
+                                "index": "gaseous-form",
+                                "name": "Gaseous Form",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Vicious Mockery",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disguise Self",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "silent-image",
+                                "name": "Silent Image",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Suggestion",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "major-image",
+                                "name": "Major Image",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "tongues",
+                                "name": "Tongues",
+                                "school": "DIVINATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -3920,6 +5813,48 @@
                 "desc": "The draegloth has advantage on saving throws against being charmed, and magic can't put it to sleep."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The draegloth's innate spellcasting ability is Charisma (spell save DC 11). The draegloth can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "faerie-fire",
+                                "name": "Faerie Fire",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -4106,6 +6041,42 @@
             {
                 "name": "Telepathic Hub",
                 "desc": "The elder brain can use its telepathy to initiate and maintain telepathic conversations with up to ten creatures at a time. The elder brain can let those creatures telepathically hear each other while connected in this way."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The elder brain's innate spellcasting ability is Intelligence (spell save DC 18). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "dominate-monster",
+                                "name": "Dominate Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -6674,10 +8645,6 @@
         "languages": "Grung",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:\n- 1st level (4 slots): cure wounds, jump\n- 2nd level (3 slots): barkskin, spike growth\n- 3rd level (2 slots): plant growth"
-            },
-            {
                 "name": "Amphibious",
                 "desc": "The grung can breathe air and water."
             },
@@ -6688,6 +8655,59 @@
             {
                 "name": "Standing Leap",
                 "desc": "The grung's long jump is up to 25 feet and its high jump is up to 15 feet, with or without a running start."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "jump",
+                                "name": "Jump",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "barkskin",
+                                "name": "Barkskin",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Spike Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "plant-growth",
+                                "name": "Plant Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -6830,16 +8850,123 @@
         "languages": "Common, Goblin",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:\n- Cantrips (at will): acid splash, fire bolt, ray of frost, shocking grasp\n- 1st level (4 slots): fog cloud, magic missile, thunderwave\n- 2nd level (3 slots): gust of wind, Melf's acid arrow, scorching ray\n- 3rd level (3 slots): fireball, fly, lightning bolt\n- 4th level (1 slot): ice storm"
-            },
-            {
                 "name": "Arcane Advantage",
                 "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally of the hobgoblin and that ally isn't incapacitated."
             },
             {
                 "name": "Army Arcana",
                 "desc": "When the hobgoblin casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Acid Splash",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gust-of-wind",
+                                "name": "Gust of Wind",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fly",
+                                "name": "Fly",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "ice-storm",
+                                "name": "Ice Storm",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -6969,12 +9096,68 @@
         "languages": "Common, Goblin",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:\n- Cantrips (at will): minor illusion, prestidigitation, true strike\n- 1st level (3 slots): charm person, disguise self, expeditious retreat, silent image"
-            },
-            {
                 "name": "Unarmored Defense",
                 "desc": "While the hobgoblin is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "true-strike",
+                                "name": "True Strike",
+                                "school": "DIVINATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disguise Self",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "silent-image",
+                                "name": "Silent Image",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -7142,10 +9325,6 @@
         "languages": "all, telepathy 120 ft.",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following cleric spells prepared:\n- Cantrips (at will): light, mending, sacred flame, spare the dying, thaumaturgy\n- 1st level (4 slots): command, cure wounds, detect evil and good, protection from evil and good, sanctuary\n- 2nd level (3 slots): calm emotions, lesser restoration, silence\n- 3rd level (3 slots): dispel magic, remove curse, sending\n- 4th level (3 slots): banishment, freedom of movement, guardian of faith\n- 5th level (3 slots): greater restoration, mass cure wounds, scrying\n- 6th level (1 slot): heroes' feast, true seeing\n- 7th level (1 slot): etherealness, plane shift\n- 8th level (1 slot): control weather\n- 9th level (1 slot): true resurrection"
-            },
-            {
                 "name": "Legendary Resistance (3/Day)",
                 "desc": "If the ki-rin fails a saving throw, it can choose to succeed instead."
             },
@@ -7156,6 +9335,260 @@
             {
                 "name": "Magic Weapons",
                 "desc": "The ki-rin's weapon attacks are magical."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The ki-rin's innate spellcasting ability is Charisma (spell save DC 17). The ki-rin can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "gaseous-form",
+                                "name": "Gaseous Form",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "wind-walk",
+                                "name": "Wind Walk",
+                                "school": "TRANSMUTATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "create-food-and-water",
+                                "name": "Create Food and Water",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "spare-the-dying",
+                                "name": "Spare the Dying",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-evil-and-good",
+                                "name": "Detect Evil and Good",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "protection-from-evil-and-good",
+                                "name": "Protection from Evil and Good",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "calm-emotions",
+                                "name": "Calm Emotions",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "silence",
+                                "name": "Silence",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "remove-curse",
+                                "name": "Remove Curse",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "sending",
+                                "name": "Sending",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "banishment",
+                                "name": "Banishment",
+                                "school": "ABJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "freedom-of-movement",
+                                "name": "Freedom of Movement",
+                                "school": "ABJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "guardian-of-faith",
+                                "name": "Guardian of Faith",
+                                "school": "CONJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "greater-restoration",
+                                "name": "Greater Restoration",
+                                "school": "ABJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "mass-cure-wounds",
+                                "name": "Mass Cure Wounds",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "true-seeing",
+                                "name": "True Seeing",
+                                "school": "DIVINATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "7th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "etherealness",
+                                "name": "Etherealness",
+                                "school": "TRANSMUTATION",
+                                "level": 7
+                            },
+                            {
+                                "index": "plane-shift",
+                                "name": "Plane Shift",
+                                "school": "CONJURATION",
+                                "level": 7
+                            }
+                        ]
+                    },
+                    {
+                        "group": "8th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "control-weather",
+                                "name": "Control Weather",
+                                "school": "TRANSMUTATION",
+                                "level": 8
+                            }
+                        ]
+                    },
+                    {
+                        "group": "9th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "true-resurrection",
+                                "name": "True Resurrection",
+                                "school": "NECROMANCY",
+                                "level": 9
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -7573,10 +10006,6 @@
         "languages": "Common, Draconic",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:\n- Cantrips (at will): fire bolt, mage hand, mending, poison spray\n- 1st level (4 slots): charm person, chromatic orb, expeditious retreat\n- 2nd level (2 slots): scorching ray"
-            },
-            {
                 "name": "Sorcery Points",
                 "desc": "The kobold has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. It can spend its sorcery points on the following options:\nHeightened Spell: When it casts a spell that forces a creature to a saving throw to resist the spell's effects, the kobold can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell.\nSubtle Spell: When the kobold casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components."
             },
@@ -7587,6 +10016,71 @@
             {
                 "name": "Sunlight Sensitivity",
                 "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Poison Spray",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -7745,6 +10239,42 @@
             {
                 "name": "Stone's Strength",
                 "desc": "While on the ground, the korred deals 2 extra dice of damage with any weapon attack (included in its attacks)."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The korred's innate spellcasting ability is Wisdom (save DC 13). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "commune-with-nature",
+                                "name": "Commune With Nature",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "meld-into-stone",
+                                "name": "Meld Into Stone",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "stone-shape",
+                                "name": "Stone Shape",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -7921,6 +10451,71 @@
             {
                 "name": "Amphibious",
                 "desc": "The priest can breathe air and water."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Create or Destroy Water",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "control-water",
+                                "name": "Control Water",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "water-breathing",
+                                "name": "Water Breathing",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "water-walk",
+                                "name": "Water Walk",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "call-lightning",
+                                "name": "Call Lightning",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -8418,6 +11013,142 @@
         }
     },
     {
+        "index": "meenlock",
+        "type": "FEY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Meenlock",
+        "subtitle": "Small fey, neutral evil",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/meenlock.png",
+        "background_color": {
+            "light": "#fbeddb",
+            "dark": "#8a550f"
+        },
+        "is_horizontal_image": false,
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "hit_points": 31,
+        "hit_dice": "7d6+7",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 8,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Stealth"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 2,
+                "name": "Survival"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            }
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "telepathy 120 ft.",
+        "special_abilities": [
+            {
+                "name": "Fear Aura",
+                "desc": "Any beast or humanoid that starts its turn within 10 feet of the meenlock must succeed on a DC 11 Wisdom saving throw or be frightened until the start of the creature's next turn."
+            },
+            {
+                "name": "Light Sensitivity",
+                "desc": "While in bright light, the meenlock has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+            },
+            {
+                "name": "Shadow Teleport (Recharge 5-6)",
+                "desc": "As a bonus action, the meenlock can teleport to an unoccupied space within 30 feet of it, provided that both the space it's teleporting from and its destination are in dim light or darkness. The destination need not be within line of sight."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                "name": "Claws"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        }
+    },
+    {
         "index": "mind-flayer-psion",
         "type": "ABERRATION",
         "subtype": null,
@@ -8542,12 +11273,113 @@
         "languages": "Deep Speech, Undercommon, telepathy 120 ft.",
         "special_abilities": [
             {
-                "name": "Innate Spellcasting (Psionics)",
-                "desc": "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:\n- 1st level (4 slots): charm person, command, comprehend languages, sanctuary\n- 2nd level (3 slots): crown of madness, phantasmal force, see invisibility\n- 3rd level (3 slots): clairvoyance, fear, meld into stone\n- 4th level (3 slots): confusion, stone shape\n- 5th level (2 slots): scrying, telekinesis"
-            },
-            {
                 "name": "Magic Resistance",
                 "desc": "The mind flayer has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "comprehend-languages",
+                                "name": "Comprehend Languages",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "see-invisibility",
+                                "name": "See Invisibility",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "clairvoyance",
+                                "name": "Clairvoyance",
+                                "school": "DIVINATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fear",
+                                "name": "Fear",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "meld-into-stone",
+                                "name": "Meld Into Stone",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "stone-shape",
+                                "name": "Stone Shape",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "telekinesis",
+                                "name": "Telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -8885,12 +11717,159 @@
         "languages": "telepathy 120 ft.",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:\n- Cantrips (at will): acid splash, mage hand, mending, ray of frost, shocking grasp\n- 1st level (4 slots): detect magic, identify, shield, witch bolt\n- 2nd level (3 slots): darkness, detect thoughts, shatter\n- 3rd level (3 slots): dispel magic, lightning bolt, sending\n- 4th level (3 slots): dimension door, Evard's black tentacles\n- 5th level (3 slots): geas, scrying\n- 6th level (1 slot): chain lightning"
-            },
-            {
                 "name": "Amphibious",
                 "desc": "The morkoth can breathe air and water."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Acid Splash",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "identify",
+                                "name": "Identify",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Shatter",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "sending",
+                                "name": "Sending",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dimension-door",
+                                "name": "Dimension Door",
+                                "school": "CONJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "geas",
+                                "name": "Geas",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "chain-lightning",
+                                "name": "Chain Lightning",
+                                "school": "EVOCATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -9256,6 +12235,198 @@
         }
     },
     {
+        "index": "neothelid",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 13.0,
+        "name": "Neothelid",
+        "subtitle": "Gargantuan aberration, chaotic evil",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/neothelid.png",
+        "background_color": {
+            "light": "#f075ca",
+            "dark": "#8a0f64"
+        },
+        "is_horizontal_image": true,
+        "size": "Gargantuan",
+        "alignment": "chaotic evil",
+        "armor_class": 16,
+        "hit_points": 325,
+        "hit_dice": "21d20+105",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 27,
+                "modifier": 8
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 1
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "blindsight 120 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Creature Sense",
+                "desc": "The neothelid is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each creature, as well as each creature's Intelligence score, but can't sense anything else about it. A creature protected by a mind blank spell, a nondetection spell, or similar magic can't be perceived in this manner."
+            },
+            {
+                "name": "Magic Resistance",
+                "desc": "The neothelid has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The neothelid's innate spellcasting ability is Wisdom (spell save DC 16). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "feeblemind",
+                                "name": "Feeblemind",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            },
+                            {
+                                "index": "telekinesis",
+                                "name": "Telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+8",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "10d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": 13,
+                "description": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid's turns.\nIf the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
+                "name": "Tentacles"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "10d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The neothelid exhales acid in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.",
+                "name": "Acid Breath (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        }
+    },
+    {
         "index": "nilbog",
         "type": "HUMANOID",
         "subtype": "goblinoid",
@@ -9346,6 +12517,42 @@
             {
                 "name": "Nimble Escape",
                 "desc": "The nilbog can take the Disengage or Hide action as a bonus action on each of its turns."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The nilbog's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Vicious Mockery",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -9486,12 +12693,102 @@
         "languages": "Common, Orc",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:\n- Cantrips (at will): guidance, mending, resistance, thaumaturgy\n- 1st level (4 slots): bane, cure wounds, guiding bolt\n- 2nd level (3 slots): augury, warding bond\n- 3rd level (2 slots): bestow curse, create food and water"
-            },
-            {
                 "name": "Aggressive",
                 "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "resistance",
+                                "name": "Resistance",
+                                "school": "ABJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Guiding Bolt",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augury",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "warding-bond",
+                                "name": "Warding Bond",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "bestow-curse",
+                                "name": "Bestow Curse",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "create-food-and-water",
+                                "name": "Create Food and Water",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -11250,6 +14547,213 @@
         }
     },
     {
+        "index": "storm-giant-quintessent",
+        "type": "GIANT",
+        "subtype": "storm giant",
+        "group": null,
+        "challenge_rating": 16.0,
+        "name": "Storm Giant Quintessent",
+        "subtitle": "Huge giant(storm giant), chaotic good",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/storm-giant-quintessent.png",
+        "background_color": {
+            "light": "#9575f0",
+            "dark": "#2f0f8a"
+        },
+        "is_horizontal_image": false,
+        "size": "Huge",
+        "alignment": "chaotic good",
+        "armor_class": 12,
+        "hit_points": 230,
+        "hit_dice": "20d12+100",
+        "speed": {
+            "hover": true,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 29,
+                "modifier": 9
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "CHARISMA",
+                "value": 19,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 14
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 10
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 10
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 9
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 8,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 8,
+                "name": "History"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*from nonmagical attacks"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Lightning"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Thunder"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "truesight 60 ft."
+        ],
+        "languages": "Common, Giant",
+        "special_abilities": [
+            {
+                "name": "Amphibious",
+                "desc": "The giant can breathe air and water."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The giant makes two Lightning Sword attacks or uses Wind Javelin twice.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "9d6+9",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
+                        }
+                    }
+                ],
+                "attack_bonus": 14,
+                "description": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 40 (9d6 + 9) lightning damage.",
+                "name": "Lightning Sword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+9",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The giant coalesces wind into a javelin-like form and hurls it at a creature it can see within 600 feet of it. The javelin is considered a magic weapon and deals 19 (3d6 + 9) piercing damage to the target, striking unerringly. The javelin disappears after it hits.",
+                "name": "Windjavelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        }
+    },
+    {
         "index": "swarm-of-cranium-rats",
         "type": "BEAST",
         "subtype": null,
@@ -11394,6 +14898,54 @@
             {
                 "name": "Telepathic Shroud",
                 "desc": "The swarm is immune to any effect that would sense its emotions or read its thoughts. as well as to all divination spells."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The swarm's innate spellcasting ability is Intelligence (spell save DC 13). As long as it has more than half of its hit points, it can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "comprehend-languages",
+                                "name": "Comprehend Languages",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "dominate-monster",
+                                "name": "Dominate Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -12295,6 +15847,84 @@
             {
                 "name": "Psionic Hub",
                 "desc": "If an elder brain establishes a psychic link with the ulitharid, the elder brain can form a psychic link with any other creature the ulitharid can detect using its Creature Sense. Any such link ends if the creature falls outside the telepathy ranges of both the ulitharid and the elder brain. The ulitharid can maintain its psychic link with the elder brain regardless of the distance between them, so long as they are both on the same plane of existence. lithe ulitharid is more than 5 miles away from the elder brain, it can end the psychic link at any time (no action required)."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The ulitharid's innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "levitate",
+                                "name": "Levitate",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "confusion",
+                                "name": "Confusion",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "dominate-monster",
+                                "name": "Dominate Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            },
+                            {
+                                "index": "eyebite",
+                                "name": "Eyebite",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            },
+                            {
+                                "index": "feeblemind",
+                                "name": "Feeblemind",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            },
+                            {
+                                "index": "mass-suggestion",
+                                "name": "Mass Suggestion",
+                                "school": "ENCHANTMENT",
+                                "level": 6
+                            },
+                            {
+                                "index": "project-image",
+                                "name": "Project Image",
+                                "school": "ILLUSION",
+                                "level": 7
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "telekinesis",
+                                "name": "Telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

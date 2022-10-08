@@ -99,10 +99,6 @@
         "languages": "Auran, Common, Elvish",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:\n- Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp\n- 1st level (4 slots): charm person, feather fall, mage armor, thunderwave\n- 2nd level (3 slots): dust devil, gust of wind, invisibility\n- 3rd level (3 slots): fly, gaseous form, lightning bolt\n- 4th level (3 slots): ice storm, storm sphere\n- 5th level (2 slots): cloudkill, seeming (cast each day)\n- 6th level (1 slot): chain lightning"
-            },
-            {
                 "name": "Fey Ancestry",
                 "desc": "Aerisi has advantage on saving throws against being charmed, and magic can't put her to sleep."
             },
@@ -113,6 +109,151 @@
             {
                 "name": "Legendary Resistance (2/Day)",
                 "desc": "If Aerisi fails a saving throw, she can choose to succeed instead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "message",
+                                "name": "Message",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "feather-fall",
+                                "name": "Feather Fall",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gust-of-wind",
+                                "name": "Gust of Wind",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fly",
+                                "name": "Fly",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "gaseous-form",
+                                "name": "Gaseous Form",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "ice-storm",
+                                "name": "Ice Storm",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "chain-lightning",
+                                "name": "Chain Lightning",
+                                "school": "EVOCATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -800,12 +941,131 @@
         "languages": "Common, Druidic",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:\n- Cantrips (at will): druidcraft, guidance, poison spray, produce flame\n- 1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave\n- 2nd level (3 slots): flame blade, spike growth\n- 3rd level (3 slots): dispel magic, stinking cloud\n- 4th level (2 slots): blight, wall of fire"
-            },
-            {
                 "name": "Summon Mephits (Recharges after a Long Rest)",
                 "desc": "By puffing on his pipe, Elizar can use an action to cast conjure minor elementals. If he does so, he summons four smoke mephits."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "druidcraft",
+                                "name": "Druidcraft",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Poison Spray",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "produce-flame",
+                                "name": "Produce Flame",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "animal-friendship",
+                                "name": "Animal Friendship",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "faerie-fire",
+                                "name": "Faerie Fire",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "healing-word",
+                                "name": "Healing Word",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "jump",
+                                "name": "Jump",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "flame-blade",
+                                "name": "Flame Blade",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Spike Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "stinking-cloud",
+                                "name": "Stinking Cloud",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "wall-of-fire",
+                                "name": "Wall of Fire",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1074,9 +1334,87 @@
         ],
         "languages": "Common, Ignan",
         "special_abilities": [
+        ],
+        "spellcasting": [
             {
-                "name": "Spellcasting",
-                "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:\n- Cantrips (at will): control flames, create bonfire, fire bolt, light, minor illusion\n- 1st level (4 slots): burning hands, expeditious retreat, mage armor\n- 2nd level (3 slots): blur, scorching ray\n- 3rd level (2 slots): fireball"
+                "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blur",
+                                "name": "Blur",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1197,16 +1535,60 @@
         "languages": "Aquan, Common",
         "special_abilities": [
             {
-                "name": "Spellcasting (Human Form Only)",
-                "desc": "The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells:\n- Cantrips (at will): chill touch, eldritch blast, mage hand\n- 3rd level (2 slots): armor of Agathys, expeditious retreat, hex, invisibility, Vampiric touch"
-            },
-            {
                 "name": "Shapechanger (2/Day)",
                 "desc": "The fathomer can use its action to polymorph into a Medium serpent composed of water, or back into its true form. Anything the fathomer is wearing or carrying is subsumed into the serpent form during the change, inaccessible until the fathomer returns to its true form. The fathomer reverts to its true form after 4 hours, unless it can expend another use of this trait. If the fathomer is knocked unconscious or dies, it also reverts to its true form.\nWhile in serpent form, the fathomer gains a swimming speed of 40 feet, the ability to breathe underwater, immunity to poison damage, as well as resistance to fire damage and bludgeoning, piercing, and slashing damage from nonmagical attacks. It also has immunity to the following conditions: exhaustion, grappled, paralyzed, poisoned, restrained, prone, unconscious. The serpent form can enter a hostile creature's space and stop there. In addition, if water can pass through a space, the serpent can do so without squeezing."
             },
             {
                 "name": "Olhydra's Armor (Human Form Only)",
                 "desc": "The fathomer can cast mage armor at will, without expending material components."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "eldritch-blast",
+                                "name": "Eldritch Blast",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1334,12 +1716,101 @@
         "languages": "Common, Ignan",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells:\n- Cantrips (at will): control flames, fire bolt, friends, light, minor illusion\n- 1st level (4 slots): burning hands, color spray, mage armor\n- 2nd level (3 slots): scorching ray, suggestion\n- 3rd level (3 slots): fireball, hypnotic pattern\n- 4th level (1 slot): fire shield (see Wreathed in Flame)"
-            },
-            {
                 "name": "Wreathed in Flame",
                 "desc": "For the flamewrath, the warm version of the fire shield spell has a duration of \"until dispelled.\" The fire shield burns for 10 minutes after the flamewrath dies, consuming its body."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "color-spray",
+                                "name": "Color Spray",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Suggestion",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "hypnotic-pattern",
+                                "name": "Hypnotic Pattern",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (1 slot)",
+                        "spells": [
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1466,10 +1937,6 @@
         "languages": "Aquan, Common",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:\n- Cantrips (at will): mending, resistance, shape water\n- 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave\n- 2nd level (3 slots): darkvision, hold person, protection from poison\n- 3rd level (3 slots): call lightning, sleet storm, tidal wave\n- 4th level (3 slots): control water, ice storm\n- 5th level (1 slot): scrying"
-            },
-            {
                 "name": "Amphibious",
                 "desc": "Gar can breathe air and water."
             },
@@ -1484,6 +1951,128 @@
             {
                 "name": "Watery Fall",
                 "desc": "When Gar drops to 0 hit points, his body collapses into a pool of inky water that rapidly disperses. Anything he was wearing or carrying is left behind."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "resistance",
+                                "name": "Resistance",
+                                "school": "ABJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Create or Destroy Water",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "darkvision",
+                                "name": "Darkvision",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Hold Person",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "protection-from-poison",
+                                "name": "Protection from Poison",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "call-lightning",
+                                "name": "Call Lightning",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "sleet-storm",
+                                "name": "Sleet Storm",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "control-water",
+                                "name": "Control Water",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "ice-storm",
+                                "name": "Ice Storm",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2016,12 +2605,78 @@
         "languages": "Auran, Common",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells:\n- Cantrips (at will): blade ward, gust, light, prestidigitation, shocking grasp\n- 1st level (4 slots): feather fall, shield, witch bolt\n- 2nd level (3 slots): dust devil, gust of wind\n- 3rd level (2 slots): gaseous form"
-            },
-            {
                 "name": "Hold Breath",
                 "desc": "The priest can hold its breath for 30 minutes."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "feather-fall",
+                                "name": "Feather Fall",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gust-of-wind",
+                                "name": "Gust of Wind",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "gaseous-form",
+                                "name": "Gaseous Form",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2258,6 +2913,54 @@
             {
                 "name": "Magic Resistance",
                 "desc": "Imix has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "wall-of-fire",
+                                "name": "Wall of Fire",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "fire-storm",
+                                "name": "Fire Storm",
+                                "school": "EVOCATION",
+                                "level": 7
+                            },
+                            {
+                                "index": "haste",
+                                "name": "Haste",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "teleport",
+                                "name": "Teleport",
+                                "school": "CONJURATION",
+                                "level": 7
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2692,6 +3395,47 @@
                 "desc": "Olhydra can enter a hostile creature's space and stop there. She can move through a space as narrow as 1 inch wide without squeezing."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "wall-of-ice",
+                                "name": "Wall of Ice",
+                                "school": "EVOCATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "storm-of-vengeance",
+                                "name": "Storm of Vengeance",
+                                "school": "CONJURATION",
+                                "level": 9
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "ice-storm",
+                                "name": "Ice Storm",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -2844,12 +3588,84 @@
         "languages": "Common",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:\n- Cantrips (at will): chill touch, mage hand\n- 1st level (4 slots): fog cloud, mage armor, thunderwave\n- 2nd level (3 slots): mirror image, misty step\n- 3rd level (2 slots): fear"
-            },
-            {
                 "name": "Chilling Mist",
                 "desc": "While it is alive, the one-eyed shiver projects an aura of cold mist within 10 feet of itself. If the one-eyed shiver deals damage to a creature in this area, the creature also takes 5 (1d10) cold damage."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "fear",
+                                "name": "Fear",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2982,16 +3798,100 @@
         "languages": "Abyssal, Common",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:\n- Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp\n- 1st level (4 slots): false life, mage armor, magic missile, ray of sickness\n- 2nd level (3 slots): crown of madness, misty step\n- 3rd level (3 slots): animate dead, vampiric touch"
-            },
-            {
                 "name": "Grim Harvest",
                 "desc": "Once per turn when Oreioth kills one or more creatures with a spell of 1st level or higher, he regains hit points equal to twice the spell's level."
             },
             {
                 "name": "Swift Animation (Recharges after a Long Rest)",
                 "desc": "When a living Medium or Small humanoid within 30 feet of Oreioth dies, he can use an action on his next turn to cast animate dead on that humanoid's corpse, instead of using the spell's normal casting time."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "false-life",
+                                "name": "False Life",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Mage Armor",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "vampiric-touch",
+                                "name": "Vampiric Touch",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -3267,16 +4167,158 @@
         "languages": "Common, Ignan, Infernal",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells:\n- Cantrips (at will): chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy\n- 1st level (4 slots): burning hands, chromatic orb, hellish rebuke, shield\n- 2nd level (3 slots): darkness, detect thoughts, misty step, scorching ray\n- 3rd level (3 slots): counterspell, fireball, hypnotic pattern\n- 4th level (3 slots): wall of fire\n- 5th level (2 slots): dominate person"
-            },
-            {
                 "name": "Funeral Pyre",
                 "desc": "When Vanifer drops to 0 hit points, her body is consumed in a flash of fire and smoke. Anything she was wearing or carrying is left behind among ashes."
             },
             {
                 "name": "Legendary Resistance (2/Day)",
                 "desc": "If Vanifer fails a saving throw, she can choose to succeed instead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "message",
+                                "name": "Message",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "produce-flame",
+                                "name": "Produce Flame",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "hellish-rebuke",
+                                "name": "Hellish Rebuke",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "hypnotic-pattern",
+                                "name": "Hypnotic Pattern",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "wall-of-fire",
+                                "name": "Wall of Fire",
+                                "school": "EVOCATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dominate-person",
+                                "name": "Dominate Person",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

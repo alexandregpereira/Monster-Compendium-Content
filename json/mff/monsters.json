@@ -261,6 +261,83 @@
                 "desc": "The forlarren has advantage on saving throws against spells and other magical effects."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The forlarren's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "false-life",
+                                "name": "False Life",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "aid",
+                                "name": "Aid",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "heal",
+                                "name": "Heal",
+                                "school": "EVOCATION",
+                                "level": 6
+                            },
+                            {
+                                "index": "heat-metal",
+                                "name": "Heat Metal",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [

@@ -832,6 +832,25 @@
                 "desc": "Tiamat regains 30 hit points at the start of her turn."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "Tiamat can innately cast the following spell, her spellcasting ability is Charisma (spell save DC 26):",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "divine-word",
+                                "name": "Divine Word",
+                                "school": "EVOCATION",
+                                "level": 7
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [

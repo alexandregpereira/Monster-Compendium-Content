@@ -160,6 +160,37 @@
                 "desc": "The dragon can burrow through solid rock at half its burrow speed and can choose to leave a 10-foot-diameter tunnel in its wake."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The dragon's innate spellcasting ability is Intelligence (spell save DC 17). It can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "telekinesis",
+                                "name": "Telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "teleportation-circle",
+                                "name": "Teleportation Circle",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
