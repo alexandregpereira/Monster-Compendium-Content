@@ -305,6 +305,48 @@
                 "desc": "The nullifier has advantage on saving throws against spells and other magical effects."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The nullifier's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "see-invisibility",
+                                "name": "See Invisibility",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "antimagic-field",
+                                "name": "Antimagic Field",
+                                "school": "ABJURATION",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -800,6 +842,19 @@
             {
                 "name": "Magic Resistance",
                 "desc": "The blood hunter has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The blood hunter can innately cast hex. Its innate spellcasting ability is Intelligence.",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -2533,6 +2588,145 @@
         }
     },
     {
+        "index": "horizonback-tortoise",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Horizonback Tortoise",
+        "subtitle": "Gargantuan monstrosity, unaligned",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/horizonback-tortoise.png",
+        "background_color": {
+            "light": "#f08b75",
+            "dark": "#5e190a"
+        },
+        "is_horizontal_image": true,
+        "size": "Gargantuan",
+        "alignment": "unaligned",
+        "armor_class": 17,
+        "hit_points": 227,
+        "hit_dice": "13d20+91",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 28,
+                "modifier": 9
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 25,
+                "modifier": 7
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 12
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 10
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft"
+        ],
+        "languages": "understands Goblin but can't speak",
+        "special_abilities": [
+            {
+                "name": "Amphibious",
+                "desc": "The tortoise can breathe air and water."
+            },
+            {
+                "name": "Massive Frame",
+                "desc": "The tortoise can carry up to 20,000 pounds of weight atop its shell, but moves at half speed if the weight exceeds 10,000 pounds. Medium or smaller creatures can move underneath the tortoise while it's not prone.\nAny creature under the tortoise when it falls prone is grappled (escape DC 18). Until the grapple ends, the creature is prone and restrained."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d12+9",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 28 (3d12 + 9) bludgeoning damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The tortoise withdraws into its shell, falls prone, and gains a +5 bonus to AC. While the tortoise is in its shell, its speed is 0 and can't increase. The tortoise can emerge from its shell as an action, whereupon it is no longer prone.",
+                "name": "Shell Defense (Recharge 4-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Explorer's Guide to Wildemount",
+            "acronym": "EGW"
+        }
+    },
+    {
         "index": "husk-zombie",
         "type": "UNDEAD",
         "subtype": null,
@@ -2757,12 +2951,102 @@
         "languages": "Abyssal, Aquan",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "The merrow is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The merrow has the following druid spells prepared:\n- Cantrips (at will): druidcraft, minor illusion, shocking grasp\n- 1st level (4 slots): cure wounds, fog cloud, thunderwave\n- 2nd level (3 slots): hold person, mirror image, misty step\n- 3rd level (3 slots): dispel magic, lightning bolt (see \"Actions\" below), sleet storm"
-            },
-            {
                 "name": "Amphibious",
                 "desc": "The merrow can breathe air and water."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The merrow is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The merrow has the following druid spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "druidcraft",
+                                "name": "Druidcraft",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Hold Person",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "sleet-storm",
+                                "name": "Sleet Storm",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -3035,6 +3319,19 @@
             {
                 "name": "Massive Frame",
                 "desc": "Mossback Steward can carry up to 20,000 pounds of weight atop its shell, but moves at half speed if the weight exceeds 10,000 pounds. Medium or smaller creatures can move underneath Mossback Steward while it's not prone.\nAny creature under Mossback Steward when it falls prone is grappled (escape DC 18). Until the grapple ends, the creature is prone and restrained."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Mossback Steward's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components.",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -3426,6 +3723,42 @@
             {
                 "name": "Magic Resistance",
                 "desc": "The sea fury has advantage on saving throws against spells and other magical effects."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The sea fury's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "bestow-curse",
+                                "name": "Bestow Curse",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "fear",
+                                "name": "Fear",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

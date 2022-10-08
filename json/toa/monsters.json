@@ -199,10 +199,6 @@
         "languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:\n- Cantrips (at will): mage hand, ray of frost, shocking grasp\n- 1st level: ray of sickness, shield\n- 2nd level: arcane lock, knock\n- 3rd level: animate dead, counterspell\n- 4th level (3 slots): blight, ice storm, phantasmal killer\n- 5th level (3 slots): cloudkill, hold monster, wall of force\n- 6th level (3 slots): chain lightning, circle of death, disintegrate\n- 7th level (3 slots): finger of death, plane shift, teleport\n- 8th level (2 slots): maze, mind blank\n- 9th level (2 slots): power word kill, time stop"
-            },
-            {
                 "name": "Special Equipment",
                 "desc": "Acererak carries the Staff of the Forgotten One. He wears a Talisman of the Sphere and has a Sphere of Annihilation under his control."
             },
@@ -217,6 +213,208 @@
             {
                 "name": "Turn Resistance",
                 "desc": "Acererak has advantage on saving throws against any effect that turns undead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {
+                                "index": "arcane-lock",
+                                "name": "Arcane Lock",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "knock",
+                                "name": "Knock",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "ice-storm",
+                                "name": "Ice Storm",
+                                "school": "EVOCATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "phantasmal-killer",
+                                "name": "Phantasmal Killer",
+                                "school": "ILLUSION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "hold-monster",
+                                "name": "Hold Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "wall-of-force",
+                                "name": "Wall of Force",
+                                "school": "EVOCATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "chain-lightning",
+                                "name": "Chain Lightning",
+                                "school": "EVOCATION",
+                                "level": 6
+                            },
+                            {
+                                "index": "circle-of-death",
+                                "name": "Circle of Death",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            },
+                            {
+                                "index": "disintegrate",
+                                "name": "Disintegrate",
+                                "school": "TRANSMUTATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "7th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "finger-of-death",
+                                "name": "Finger of Death",
+                                "school": "NECROMANCY",
+                                "level": 7
+                            },
+                            {
+                                "index": "plane-shift",
+                                "name": "Plane Shift",
+                                "school": "CONJURATION",
+                                "level": 7
+                            },
+                            {
+                                "index": "teleport",
+                                "name": "Teleport",
+                                "school": "CONJURATION",
+                                "level": 7
+                            }
+                        ]
+                    },
+                    {
+                        "group": "8th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "maze",
+                                "name": "Maze",
+                                "school": "CONJURATION",
+                                "level": 8
+                            },
+                            {
+                                "index": "mind-blank",
+                                "name": "Mind Blank",
+                                "school": "ABJURATION",
+                                "level": 8
+                            }
+                        ]
+                    },
+                    {
+                        "group": "9th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "power-word-kill",
+                                "name": "Power Word Kill",
+                                "school": "ENCHANTMENT",
+                                "level": 9
+                            },
+                            {
+                                "index": "time-stop",
+                                "name": "Time Stop",
+                                "school": "TRANSMUTATION",
+                                "level": 9
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -391,6 +589,43 @@
             {
                 "name": "Dwarven Resilience",
                 "desc": "The dwarf has advantage on saving throws against poison."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The dwarf's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "jump",
+                                "name": "Jump",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Pass Without Trace",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "speak-with-animals",
+                                "name": "Speak with Animals",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "speak-with-plants",
+                                "name": "Speak with Plants",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1551,6 +1786,43 @@
                 "desc": "When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "druidcraft",
+                                "name": "Druidcraft",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Pass Without Trace",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "resistance",
+                                "name": "Resistance",
+                                "school": "ABJURATION",
+                                "level": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -1824,6 +2096,37 @@
         ],
         "languages": "Auran, Common",
         "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "The eblis's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "blur",
+                                "name": "Blur",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hypnotic-pattern",
+                                "name": "Hypnotic Pattern",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            }
+                        ]
+                    }
+                ]
+            }
         ],
         "actions": [
             {
@@ -3136,6 +3439,170 @@
         }
     },
     {
+        "index": "su-monster",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Su-monster",
+        "subtitle": "Medium monstrosity, chaotic evil",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/su-monster.png",
+        "background_color": {
+            "light": "#f0af75",
+            "dark": "#69380c"
+        },
+        "is_horizontal_image": false,
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 12,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 6,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The su-monster makes two attacks: one with its bite and one with its claws.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "4d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, or 12 (4d4 + 2) slashing damage if the su-monster is hanging by its tail and all four of its limbs are free.",
+                "name": "Claws"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5d6",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The su-monster targets one creature it can see within 30 feet of it. The target must succeed on a DC 11 Wisdom saving throw or take 17 (5d6) psychic damage and be stunned for 1 minute. The stunned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                "name": "Psychic Crush (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Tomb of Annihilation",
+            "acronym": "ToA"
+        }
+    },
+    {
         "index": "tabaxi-minstrel",
         "type": "HUMANOID",
         "subtype": "tabaxi",
@@ -3839,10 +4306,6 @@
         "languages": "Common, Abyssal, Draconic, Dwarvish, Elvish, Infernal",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Valindra is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). Valindra has the following wizard spells prepared:\n- Cantrips (at will): mage hand, prestidigitation, ray of frost\n- 1st level (4 slots): detect magic, magic missile, shield, thunderwave\n- 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image\n- 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball\n- 4th level (3 slots): blight, dimension door\n- 5th level (3 slots): cloudkill, scrying\n- 6th level (1 slot): disintegrate, globe of invulnerability\n- 7th level (1 slot): finger of death, plane shift\n- 8th level (1 slot): dominate monster, power word stun\n- 9th level (1 slot): power word kill"
-            },
-            {
                 "name": "Mask",
                 "desc": "As a bonus action, Valindra can mask her shriveled flesh and appear to be a living elf. This magical illusion lasts until she ends it as a bonus action or until she uses her Frightening Gaze legendary action. The effect also ends if Valindra drops to 30 hit points or fewer, or if dispel magic is cast on her."
             },
@@ -3861,6 +4324,214 @@
             {
                 "name": "Turn Resistance",
                 "desc": "Valindra has advantage on saving throws against any effect that turns undead."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Valindra is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). Valindra has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "counterspell",
+                                "name": "Counterspell",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "dimension-door",
+                                "name": "Dimension Door",
+                                "school": "CONJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "disintegrate",
+                                "name": "Disintegrate",
+                                "school": "TRANSMUTATION",
+                                "level": 6
+                            },
+                            {
+                                "index": "globe-of-invulnerability",
+                                "name": "Globe of Invulnerability",
+                                "school": "ABJURATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "7th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "finger-of-death",
+                                "name": "Finger of Death",
+                                "school": "NECROMANCY",
+                                "level": 7
+                            },
+                            {
+                                "index": "plane-shift",
+                                "name": "Plane Shift",
+                                "school": "CONJURATION",
+                                "level": 7
+                            }
+                        ]
+                    },
+                    {
+                        "group": "8th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "dominate-monster",
+                                "name": "Dominate Monster",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            },
+                            {
+                                "index": "power-word-stun",
+                                "name": "Power Word Stun",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            }
+                        ]
+                    },
+                    {
+                        "group": "9th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "power-word-kill",
+                                "name": "Power Word Kill",
+                                "school": "ENCHANTMENT",
+                                "level": 9
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [

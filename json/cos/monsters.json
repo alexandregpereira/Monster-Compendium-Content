@@ -93,16 +93,197 @@
         "languages": "Abyssal, Common, Draconic, Dwarvish, Giant",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga has the following wizard spells prepared:\n- Cantrips (at will): acid splash, fire bolt, light, mage hand, prestidigitation\n- 1st level (4 slots): detect magic, magic missile, sleep, witch bolt\n- 2nd level (3 slots): crown of madness, enlarge/reduce, misty step\n- 3rd level (3 slots): dispel magic, fireball, lightning bolt\n- 4th level (3 slots): blight, Evard's black tentacles, polymorph\n- 5th level (2 slots): cloudkill, geas, scrying\n- 6th level (1 slot): programmed illusion, true seeing\n- 7th level (1 slot): finger of death, mirage arcane\n- 8th level (1 slot): power word stun"
-            },
-            {
                 "name": "Shapechanger",
                 "desc": "Baba Lysaga can use an action to polymorph into a swarm of insects (flies), or back into her true form. While in swarm form, she has a walking speed of 5 feet and a flying speed of 30 feet. Anything she is wearing transforms with her, but nothing she is carrying does."
             },
             {
                 "name": "Blessing of Mother Night",
                 "desc": "Baba Lysaga is shielded against divination magic, as though protected by a nondetection spell."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Baba Lysaga is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). Baba Lysaga has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Acid Splash",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Lightning Bolt",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "polymorph",
+                                "name": "Polymorph",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "geas",
+                                "name": "Geas",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "programmed-illusion",
+                                "name": "Programmed Illusion",
+                                "school": "ILLUSION",
+                                "level": 6
+                            },
+                            {
+                                "index": "true-seeing",
+                                "name": "True Seeing",
+                                "school": "DIVINATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "7th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "finger-of-death",
+                                "name": "Finger of Death",
+                                "school": "NECROMANCY",
+                                "level": 7
+                            },
+                            {
+                                "index": "mirage-arcane",
+                                "name": "Mirage Arcane",
+                                "school": "ILLUSION",
+                                "level": 7
+                            }
+                        ]
+                    },
+                    {
+                        "group": "8th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "power-word-stun",
+                                "name": "Power Word Stun",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -240,9 +421,64 @@
         ],
         "languages": "Common",
         "special_abilities": [
+        ],
+        "spellcasting": [
             {
-                "name": "Spellcasting",
-                "desc": "The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The witch has the following wizard spells prepared:\n- Cantrips (at will): mage hand, prestidigitation, ray of frost\n- 1st level (4 slots): ray of sickness, sleep, Tasha's hideous laughter\n- 2nd level (2 slots): alter self, invisibility"
+                "desc": "The witch is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The witch has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "alter-self",
+                                "name": "Alter Self",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1201,6 +1437,48 @@
                 "desc": "Rahadin can attempt to hide even when he is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
             }
         ],
+        "spellcasting": [
+            {
+                "desc": "Rahadin's innate spellcasting ability is Intelligence. He can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "magic-weapon",
+                                "name": "Magic Weapon",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "nondetection",
+                                "name": "Nondetection",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/day each",
+                        "spells": [
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "phantom-steed",
+                                "name": "Phantom Steed",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "actions": [
             {
                 "damage_dices": [
@@ -1374,16 +1652,152 @@
         "languages": "Abyssal, Common, Elvish, Infernal",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Rictavio is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Rictavio has the following cleric spells prepared:\n- Cantrips (at will): guidance, light, mending, thaumaturgy\n- 1st level (4 slots): cure wounds, detect evil and good, protection from evil and good, sanctuary\n- 2nd level (3 slots): augury, lesser restoration, protection from poison\n- 3rd level (3 slots): magic circle, remove curse, speak with dead\n- 4th level (3 slots): death ward, freedom of movement\n- 5th level (1 slot): dispel evil and good"
-            },
-            {
                 "name": "Special Equipment",
                 "desc": "In addition to his sword cane, Rictavio wears a hat of disguise and a ring of mind shielding, and he carries a spell scroll of raise dead."
             },
             {
                 "name": "Undead Slayer",
                 "desc": "When Rictavio hits an undead with a weapon attack, the undead takes an extra 10 (3d6) damage of the weapon's type."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Rictavio is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Rictavio has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-evil-and-good",
+                                "name": "Detect Evil and Good",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "protection-from-evil-and-good",
+                                "name": "Protection from Evil and Good",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augury",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "protection-from-poison",
+                                "name": "Protection from Poison",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "magic-circle",
+                                "name": "Magic Circle",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "remove-curse",
+                                "name": "Remove Curse",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "speak-with-dead",
+                                "name": "Speak with Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "death-ward",
+                                "name": "Death Ward",
+                                "school": "ABJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "freedom-of-movement",
+                                "name": "Freedom of Movement",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "dispel-evil-and-good",
+                                "name": "Dispel Evil and Good",
+                                "school": "ABJURATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1570,10 +1984,6 @@
         "languages": "the languages it knew in life",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Sir Godfrey is a 16th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He has the following paladin spells prepared:\n- 1st level (4 slots): command, divine favor, thunderous smite\n- 2nd level (3 slots): branding smite, magic weapon\n- 3rd level (3 slots): blinding smite, dispel magic\n- 4th level (2 slots): staggering smite"
-            },
-            {
                 "name": "Regeneration",
                 "desc": "The knight regains 10 hit points at the start of its turn. If the knight takes fire or radiant damage, this trait doesn't function at the start of the knight's next turn. The knight's body is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
             },
@@ -1588,6 +1998,64 @@
             {
                 "name": "Vengeful Tracker",
                 "desc": "The knight knows the distance to and direction of any creature against which it seeks revenge, even if the creature and the knight are on different planes of existence. If the creature being tracked by the knight dies, the knight knows."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Sir Godfrey is a 16th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He has the following paladin spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "divine-favor",
+                                "name": "Divine Favor",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "branding-smite",
+                                "name": "Branding Smite",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "magic-weapon",
+                                "name": "Magic Weapon",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (2 slots)",
+                        "spells": [
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
@@ -1920,10 +2388,6 @@
         "languages": "Abyssal, Common, Draconic, Elvish, Giant, Infernal",
         "special_abilities": [
             {
-                "name": "Spellcasting",
-                "desc": "Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). He has the following wizard spells prepared:\n- Cantrips (at will): mage hand, prestidigitation, ray of frost\n- 1st level (4 slots): comprehend languages, fog cloud, sleep\n- 2nd level (3 slots): detect thoughts, gust of wind, mirror image\n- 3rd level (3 slots): animate dead, fireball, nondetection\n- 4th level (3 slots): blight, greater invisibility, polymorph\n- 5th level (1 slot): animate objects, scrying"
-            },
-            {
                 "name": "Shapechanger",
                 "desc": "If Strahd isn't in running water or sunlight, he can use his action to polymorph into a Tiny bat, a Medium wolf, or a Medium cloud of mist, or back into his true form.\nWhile in bat or wolf form, Strahd can't speak. In bat form, his walking speed is 5 feet, and he has a flying speed of 30 feet. In wolf form, his walking speed is 40 feet. His statistics, other than his size and speed, are unchanged. Anything he is wearing transforms with him, but nothing he is carrying does. He reverts to his true form if he dies.\nWhile in mist form, Strahd can't take any actions, speak, or manipulate objects. He is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and he can't pass through water. He has advantage on Strength, Dexterity, and Constitution saving throws, and he is immune to all nonmagical damage, except the damage he takes from sunlight."
             },
@@ -1946,6 +2410,146 @@
             {
                 "name": "Vampire Weaknesses",
                 "desc": "Strahd has the following flaws:\nForbiddance. He can't enter a residence without an invitation from one of the occupants.\nHarmed by Running Water. He takes 20 acid damage if he ends his turn in running water.\nStake to the Heart. If a piercing weapon made of wood is driven into his heart while he is incapacitated in his coffin, he is paralyzed until the stake is removed.\nSunlight Hypersensitivity. While in sunlight, Strahd takes 20 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). He has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "comprehend-languages",
+                                "name": "Comprehend Languages",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Fog Cloud",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "gust-of-wind",
+                                "name": "Gust of Wind",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "animate-dead",
+                                "name": "Animate Dead",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "nondetection",
+                                "name": "Nondetection",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4th level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "greater-invisibility",
+                                "name": "Greater Invisibility",
+                                "school": "ILLUSION",
+                                "level": 4
+                            },
+                            {
+                                "index": "polymorph",
+                                "name": "Polymorph",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5th level (1 slot)",
+                        "spells": [
+                            {
+                                "index": "animate-objects",
+                                "name": "Animate Objects",
+                                "school": "TRANSMUTATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "scrying",
+                                "name": "Scrying",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "actions": [
