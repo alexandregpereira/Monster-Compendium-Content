@@ -410,5 +410,343 @@
             "name": "Boka",
             "acronym": "boka"
         }
+    },
+    {
+        "index": "newt-scamander",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": "Players",
+        "challenge_rating": 6,
+        "name": "Newt Scamander",
+        "subtitle": "Medium humanoid(human), neutral",
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/newt-scamander.png",
+        "background_color": {
+            "light": "#fcfbf5",
+            "dark": "#00030a"
+        },
+        "is_horizontal_image": false,
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 13,
+        "hit_points": 32,
+        "hit_dice": "6d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 8,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 7,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 2,
+                "name": "Persuasion"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 7,
+                "name": "Investigation"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 7,
+                "name": "History"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Passive Perception 17"
+        ],
+        "languages": "Comum, Elfo, Draconico",
+        "special_abilities": [
+            {
+                "name": "Sábio de Evocação",
+                "desc": "O ouro e o tempo que você deve gastar para copiar uma magia de evocação em seu grimório é reduzido pela metade."
+            },
+            {
+                "name": "Esculpir Feitiços",
+                "desc": "Você pode criar bolsões de relativa segurança dentro dos efeitos de suas magias de evocação. Quando você conjura uma magia de evocação que afeta outras criaturas que você pode ver, você pode escolher um número delas igual a 1 + o nível da magia. As criaturas escolhidas são automaticamente bem-sucedidas em seus testes de resistência contra a magia, e elas não sofrem dano se sofrerem metade do dano em um teste bem sucedido."
+            },
+            {
+                "name": "Truque poderoso",
+                "desc": "Seus truques de dano afetam até mesmo criaturas que evitam o impacto do efeito. Quando uma criatura é bem sucedida em um teste de resistência contra seu truque, a criatura sofre metade do dano do truque (se houver), mas não sofre nenhum efeito adicional do truque."
+            },
+            {
+                "name": "Recuperação Arcana",
+                "desc": "Uma vez por dia, quando você terminar um descanso curto, você pode escolher espaços de magia gastos para se recuperar. Os espaços de magia podem ter um nível combinado igual ou inferior a 3."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Newt Scamander spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). He has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Bolha Ácida",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "fire-bolt",
+                                "name": "Raio de Fogo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Rajada de Veneno",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "thunderwave",
+                                "name": "Onda Trovejante",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "feather-fall",
+                                "name": "Queda Suave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Onda Trovejante",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sono",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "identify",
+                                "name": "Identificar",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura Arcana",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Misseis Magicos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "magic-weapon",
+                                "name": "Arma Mágica",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "web",
+                                "name": "Teia",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Despedaçar",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "flaming-sphere",
+                                "name": "Esfera Flamejante",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Bola de Fogo",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "fly",
+                                "name": "Voo",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "phantom-steed",
+                                "name": "Montaria Fantasma",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Magia de Combate à distância: +7 para acertar, alcance 120 ft., um alvo. Dano: 2d10 fogo.",
+                "name": "Raio de Fogo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma de Combate Corpo a Corpo: +6 para acertar, alcance 5ft., um alvo. Dano: 1d6 + 3 perfurante.",
+                "name": "Espada Curta"
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Boka",
+            "acronym": "boka"
+        }
     }
 ]
