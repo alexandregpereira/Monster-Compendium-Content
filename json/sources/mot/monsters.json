@@ -7,12 +7,6 @@
         "challenge_rating": 9.0,
         "name": "Abhorrent Overlord",
         "subtitle": "Large fiend, lawful evil",
-        "image_url": "abhorrent-overlord.png",
-        "background_color": {
-            "light": "#75f0f0",
-            "dark": "#0f8a8a"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 16,
@@ -210,6 +204,139 @@
         }
     },
     {
+        "index": "akroan-hoplite",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Akroan Hoplite",
+        "subtitle": "Medium humanoid, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 18,
+        "hit_points": 52,
+        "hit_dice": "8d8+16",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common",
+        "special_abilities": [
+            {
+                "name": "Hold the Line",
+                "desc": "While the hoplite is holding a spear, other creatures provoke an opportunity attack from the hoplite when they move within 5 feet of it. When the hoplite hits a creature with an opportunity attack using its spear, the creature takes an extra 4 (1d8) piercing damage, and the creature's speed becomes 0 for the rest of the turn."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The hoplite makes three melee attacks or two ranged attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack:,rw +5 to hit, reach 5 ft., or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.",
+                "name": "Spear"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a 13 Strength saving throw or be knocked prone.",
+                "name": "Shield Bash"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "alseid",
         "type": "FEY",
         "subtype": null,
@@ -217,12 +344,6 @@
         "challenge_rating": 1.0,
         "name": "Alseid",
         "subtitle": "Medium fey, chaotic good",
-        "image_url": "alseid.png",
-        "background_color": {
-            "light": "#f09b75",
-            "dark": "#8a350f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic good",
         "armor_class": 15,
@@ -419,12 +540,6 @@
         "challenge_rating": 0.5,
         "name": "Anvilwrought Raptor",
         "subtitle": "Tiny construct, unaligned",
-        "image_url": "anvilwrought-raptor.png",
-        "background_color": {
-            "light": "#d6fafa",
-            "dark": "#0f8a8a"
-        },
-        "is_horizontal_image": true,
         "size": "Tiny",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -584,12 +699,6 @@
         "challenge_rating": 5.0,
         "name": "Aphemia",
         "subtitle": "Medium monstrosity, chaotic evil",
-        "image_url": "aphemia.png",
-        "background_color": {
-            "light": "#f0c675",
-            "dark": "#8a600f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic evil",
         "armor_class": 15,
@@ -794,12 +903,6 @@
         "challenge_rating": 21.0,
         "name": "Arasta",
         "subtitle": "Huge monstrosity, neutral evil",
-        "image_url": "arasta.png",
-        "background_color": {
-            "light": "#f0ba75",
-            "dark": "#8a540f"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "neutral evil",
         "armor_class": 19,
@@ -1050,12 +1153,6 @@
         "challenge_rating": 12.0,
         "name": "Archon of Falling Stars",
         "subtitle": "Medium celestial, lawful good",
-        "image_url": "archon-of-falling-stars.png",
-        "background_color": {
-            "light": "#f08776",
-            "dark": "#8a200f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful good",
         "armor_class": 18,
@@ -1283,12 +1380,6 @@
         "challenge_rating": 16.0,
         "name": "Ashen Rider",
         "subtitle": "Medium celestial, lawful evil",
-        "image_url": "ashen-rider.png",
-        "background_color": {
-            "light": "#75bef0",
-            "dark": "#0f588a"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -1516,12 +1607,6 @@
         "challenge_rating": 0.125,
         "name": "Blood-Toll Harpy",
         "subtitle": "Medium monstrosity, chaotic evil",
-        "image_url": "blood-toll-harpy.png",
-        "background_color": {
-            "light": "#f0758a",
-            "dark": "#8a0f24"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic evil",
         "armor_class": 11,
@@ -1653,6 +1738,155 @@
         }
     },
     {
+        "index": "broken-king-antigonos",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Broken King Antigonos",
+        "subtitle": "Large monstrosity, chaotic evil",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 14,
+        "hit_points": 38,
+        "hit_dice": "9d10+27",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Abyssal",
+        "special_abilities": [
+            {
+                "name": "Charge",
+                "desc": "If Antigonos moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a 14 Strength saving throw or be pushed up to 10 feet away and knocked prone."
+            },
+            {
+                "name": "Labyrinthine Recall",
+                "desc": "Antigonos can perfectly recall any path he has traveled."
+            },
+            {
+                "name": "Reckless",
+                "desc": "At the start of his turn, Antigonos can gain advantage on all melee weapon attack rolls he makes during that turn, but attack rolls against him have advantage until the start of his next turn."
+            },
+            {
+                "name": "Decrepit State",
+                "desc": "Antigonos has disadvantage on his attack rolls."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d12+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.",
+                "name": "Greataxe"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
+                "name": "Gore"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "and",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one Medium or smaller creature. Hit: 8 (1d8 + 4) bludgeoning damage. If there is not already a creature inside the amphora, the target is restrained inside. As an action, the restrained creature can make a 14 Dexterity (Acrobatics) check, escaping from the amphora on a success. The effect also ends if the amphora is destroyed. The amphora has AC 8, 20 hit points, and immunity to poison and psychic damage.",
+                "name": "Amphora"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "bronze-sable",
         "type": "CONSTRUCT",
         "subtype": null,
@@ -1660,12 +1894,6 @@
         "challenge_rating": 1.0,
         "name": "Bronze Sable",
         "subtitle": "Medium construct, unaligned",
-        "image_url": "bronze-sable.png",
-        "background_color": {
-            "light": "#f09575",
-            "dark": "#3f1607"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -1822,6 +2050,181 @@
         }
     },
     {
+        "index": "burnished-hart",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Burnished Hart",
+        "subtitle": "Medium construct, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "understands one language of its creator but can't speak",
+        "special_abilities": [
+            {
+                "name": "Charge",
+                "desc": "If the hart moves at least 20 feet straight toward a target and then hits it with an antlers attack on the same turn, the target takes an extra 7 (2d6) fire damage. If the target is a creature, it must succeed on a 13 Strength saving throw or be knocked prone."
+            },
+            {
+                "name": "Heated Body",
+                "desc": "A creature that touches the hart or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage."
+            },
+            {
+                "name": "Sure-Footed",
+                "desc": "The hart has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The hart makes two attacks: one with its antlers and one with its hooves.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                "name": "Antlers"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) fire damage.",
+                "name": "Hooves"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "colossus-of-akros",
         "type": "CONSTRUCT",
         "subtype": null,
@@ -1829,12 +2232,6 @@
         "challenge_rating": 23.0,
         "name": "Colossus of Akros",
         "subtitle": "Gargantuan construct, unaligned",
-        "image_url": "colossus-of-akros.png",
-        "background_color": {
-            "light": "#f0758a",
-            "dark": "#620b1a"
-        },
-        "is_horizontal_image": false,
         "size": "Gargantuan",
         "alignment": "unaligned",
         "armor_class": 21,
@@ -2101,12 +2498,6 @@
         "challenge_rating": 11.0,
         "name": "Doomwake Giant",
         "subtitle": "Huge giant, lawful evil",
-        "image_url": "doomwake-giant.png",
-        "background_color": {
-            "light": "#9675f0",
-            "dark": "#300f8a"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "lawful evil",
         "armor_class": 15,
@@ -2283,12 +2674,6 @@
         "challenge_rating": 6.0,
         "name": "Eater of Hope",
         "subtitle": "Large fiend, lawful evil",
-        "image_url": "eater-of-hope.png",
-        "background_color": {
-            "light": "#f0a675",
-            "dark": "#4c2308"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 17,
@@ -2484,12 +2869,6 @@
         "challenge_rating": 3.0,
         "name": "Fleecemane Lion",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "fleecemane-lion.png",
-        "background_color": {
-            "light": "#75d5f0",
-            "dark": "#0e657d"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -2638,6 +3017,221 @@
         }
     },
     {
+        "index": "flitterstep-eidolon",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Flitterstep Eidolon",
+        "subtitle": "Medium undead, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 8,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*from nonmagical attacks"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            },
+            {
+                "index": "grappled",
+                "type": "GRAPPLED",
+                "name": "Grappled"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            },
+            {
+                "index": "restrained",
+                "type": "RESTRAINED",
+                "name": "Restrained"
+            }
+        ],
+        "senses": [
+        ],
+        "languages": "the languages it knew in life",
+        "special_abilities": [
+            {
+                "name": "Blurred Form",
+                "desc": "Attack rolls against the eidolon are made with disadvantage unless the eidolon is incapacitated."
+            },
+            {
+                "name": "Evasion",
+                "desc": "If the eidolon is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the eidolon instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated."
+            },
+            {
+                "name": "Incorporeal Movement",
+                "desc": "The eidolon can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+            },
+            {
+                "name": "Turn Resistance",
+                "desc": "The eidolon has advantage on saving throws against any effect that turns undead."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The eidolon makes two melee attacks. Immediately before or after one of its attacks, it can use Flitterstep if it is available.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 3 (1d6) psychic damage.",
+                "name": "Flickering Dagger"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The eidolon magically teleports to an unoccupied space it can see within 30 feet of it. If it makes an attack immediately after teleporting, it has advantage on the attack roll.",
+                "name": "Flitterstep (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "ghostblade-eidolon",
         "type": "UNDEAD",
         "subtype": null,
@@ -2645,12 +3239,6 @@
         "challenge_rating": 5.0,
         "name": "Ghostblade Eidolon",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "ghostblade-eidolon.png",
-        "background_color": {
-            "light": "#f0bc75",
-            "dark": "#8a560f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -2852,12 +3440,6 @@
         "challenge_rating": 5.0,
         "name": "Gold-Forged Sentinel",
         "subtitle": "Large construct, unaligned",
-        "image_url": "gold-forged-sentinel.png",
-        "background_color": {
-            "light": "#f0cd75",
-            "dark": "#88660f"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -3032,12 +3614,6 @@
         "challenge_rating": 0.5,
         "name": "Hippocamp",
         "subtitle": "Large monstrosity, chaotic good",
-        "image_url": "hippocamp.png",
-        "background_color": {
-            "light": "#f4d79c",
-            "dark": "#8a610f"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "chaotic good",
         "armor_class": 13,
@@ -3170,12 +3746,6 @@
         "challenge_rating": 15.0,
         "name": "Hundred-Handed One",
         "subtitle": "Huge giant, lawful neutral",
-        "image_url": "hundred-handed-one.png",
-        "background_color": {
-            "light": "#a1d3f5",
-            "dark": "#0f588a"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "lawful neutral",
         "armor_class": 15,
@@ -3325,12 +3895,6 @@
         "challenge_rating": 17.0,
         "name": "Hythonia",
         "subtitle": "Large monstrosity, lawful evil",
-        "image_url": "hythonia.png",
-        "background_color": {
-            "light": "#75f0df",
-            "dark": "#0f8a79"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 17,
@@ -3580,12 +4144,6 @@
         "challenge_rating": 12.0,
         "name": "Ironscale Hydra",
         "subtitle": "Gargantuan monstrosity, unaligned",
-        "image_url": "ironscale-hydra.png",
-        "background_color": {
-            "light": "#c5f075",
-            "dark": "#5f8a0f"
-        },
-        "is_horizontal_image": true,
         "size": "Gargantuan",
         "alignment": "unaligned",
         "armor_class": 17,
@@ -3727,12 +4285,6 @@
         "challenge_rating": 3.0,
         "name": "Lampad",
         "subtitle": "Medium fey, neutral evil",
-        "image_url": "lampad.png",
-        "background_color": {
-            "light": "#7a9ef0",
-            "dark": "#0f358a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 15,
@@ -3914,12 +4466,6 @@
         "challenge_rating": 5.0,
         "name": "Leonin Iconoclast",
         "subtitle": "Medium humanoid(leonin), unaligned",
-        "image_url": "leonin-iconoclast.png",
-        "background_color": {
-            "light": "#f0c075",
-            "dark": "#8a5a0f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 17,
@@ -4101,6 +4647,420 @@
         }
     },
     {
+        "index": "medusa-(theran-variant)",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Medusa (Theran variant)",
+        "subtitle": "Medium monstrosity, lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 15,
+        "hit_points": 127,
+        "hit_dice": "17d8+51",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 4,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common",
+        "special_abilities": [
+            {
+                "name": "Petrifying Gaze",
+                "desc": "When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.\nUnless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.\nIf the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The medusa makes either three melee attacks—one with its snake hair, one to constrict, and one with its shortsword—or two ranged attacks with its longbow.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.",
+                "name": "Snake Hair"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.",
+                "name": "Longbow"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target is grappled (escape 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the medusa can't constrict another target.",
+                "name": "Constrict"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "meletian-hoplite",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Meletian Hoplite",
+        "subtitle": "Medium humanoid, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 18,
+        "hit_points": 49,
+        "hit_dice": "9d8+9",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 5,
+                "name": "History"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "The hoplite is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Minor Illusion",
+                                "school": "ILLUSION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "color-spray",
+                                "name": "Color Spray",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Expeditious Retreat",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "blur",
+                                "name": "Blur",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The hoplite makes three weapon attacks. It can replace one weapon attack with ray of frost.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack:,rw +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.",
+                "name": "Spear"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a 13 Strength saving throw or be knocked prone.",
+                "name": "Shield Bash"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Cold"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ranged Spell Attack: +5 to hit, range 60 ft., one creature. Hit: 4 (1d8) cold damage, and the target's speed is reduced by 10 feet until the start of the hoplite's next turn.",
+                "name": "Ray of Frost (Cantrip)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "naiad",
         "type": "FEY",
         "subtype": null,
@@ -4108,12 +5068,6 @@
         "challenge_rating": 2.0,
         "name": "Naiad",
         "subtitle": "Medium fey, chaotic neutral",
-        "image_url": "naiad.png",
-        "background_color": {
-            "light": "#75f0e5",
-            "dark": "#0f8a7f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic neutral",
         "armor_class": 15,
@@ -4312,12 +5266,6 @@
         "challenge_rating": 11.0,
         "name": "Nightmare Shepherd",
         "subtitle": "Large fiend, lawful evil",
-        "image_url": "nightmare-shepherd.png",
-        "background_color": {
-            "light": "#759af0",
-            "dark": "#0f348a"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -4570,12 +5518,6 @@
         "challenge_rating": 1.0,
         "name": "Nyx-Fleece Ram",
         "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "nyx-fleece-ram.png",
-        "background_color": {
-            "light": "#75a6f0",
-            "dark": "#0f408a"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -4685,12 +5627,6 @@
         "challenge_rating": 4.0,
         "name": "Oracle",
         "subtitle": "Medium humanoid, unaligned",
-        "image_url": "oracle.png",
-        "background_color": {
-            "light": "#f07576",
-            "dark": "#8a0f10"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -4890,12 +5826,6 @@
         "challenge_rating": 4.0,
         "name": "Oread",
         "subtitle": "Medium fey, chaotic evil",
-        "image_url": "oread.png",
-        "background_color": {
-            "light": "#f08275",
-            "dark": "#8a1c0f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "chaotic evil",
         "armor_class": 16,
@@ -5102,12 +6032,6 @@
         "challenge_rating": 9.0,
         "name": "Phylaskia",
         "subtitle": "Large undead, lawful neutral",
-        "image_url": "phylaskia.png",
-        "background_color": {
-            "light": "#f0b475",
-            "dark": "#8a4e0f"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "lawful neutral",
         "armor_class": 18,
@@ -5309,6 +6233,799 @@
         }
     },
     {
+        "index": "polukranos",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 19.0,
+        "name": "Polukranos",
+        "subtitle": "Gargantuan monstrosity, unaligned",
+        "size": "Gargantuan",
+        "alignment": "unaligned",
+        "armor_class": 17,
+        "hit_points": 232,
+        "hit_dice": "15d20+75",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 25,
+                "modifier": 7
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 14,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Acidic Blood",
+                "desc": "When Polukranos takes piercing or slashing damage, each creature within 5 feet of Polukranos takes 10 (3d6) acid damage."
+            },
+            {
+                "name": "Hold Breath",
+                "desc": "Polukranos can hold its breath for 1 hour."
+            },
+            {
+                "name": "Legendary Resistance (3/Day)",
+                "desc": "If Polukranos fails a saving throw, it can choose to succeed instead."
+            },
+            {
+                "name": "Multiple Heads",
+                "desc": "Polukranos has five heads. While it has more than one head, Polukranos has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious. Whenever Polukranos takes 40 or more damage in a single turn, one of its heads dies. If all its heads die, Polukranos dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken 40 or more fire damage since its last turn. Polukranos regains 20 hit points for each head regrown in this way."
+            },
+            {
+                "name": "Reactive Heads",
+                "desc": "For each head Polukranos has beyond one, it gets an extra reaction that can be used only to make opportunity attacks."
+            },
+            {
+                "name": "Siege Monster",
+                "desc": "Polukranos deals double damage to objects and structures."
+            },
+            {
+                "name": "Wakeful",
+                "desc": "While Polukranos sleeps, at least one of its heads is awake."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Polukranos makes as many bite attacks as it has heads.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+7",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 13,
+                "description": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+7",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 13,
+                "description": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+                "name": "Stomp"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 13,
+                "description": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage. If the target is a creature, it must succeed on a 21 Strength saving throw or be pushed up to 20 feet away from Polukranos.",
+                "name": "Tail"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "returned-drifter",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Returned Drifter",
+        "subtitle": "Medium undead, lawful neutral",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 13,
+        "hit_points": 11,
+        "hit_dice": "2d8+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+        ],
+        "languages": "the languages it knew in life",
+        "special_abilities": [
+            {
+                "name": "Turn Resistance",
+                "desc": "The Returned has advantage on saving throws against any effect that turns undead."
+            },
+            {
+                "name": "Unreadable Face",
+                "desc": "The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom (Insight) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) poison damage.",
+                "name": "Scimitar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+                "name": "Sling"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "returned-kakomantis",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Returned Kakomantis",
+        "subtitle": "Medium undead, chaotic evil",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 65,
+        "hit_dice": "10d8+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-athletics",
+                "modifier": 2,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+        ],
+        "languages": "the languages it knew in life",
+        "special_abilities": [
+            {
+                "name": "Fleeting Anger",
+                "desc": "If another creature deals damage to the Returned, the Returned makes attack rolls with advantage until the end of its next turn."
+            },
+            {
+                "name": "Turn Resistance",
+                "desc": "The Returned has advantage on saving throws against any effect that turns undead."
+            },
+            {
+                "name": "Unreadable Face",
+                "desc": "The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom (Insight) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+2",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    },
+                    {
+                        "dice": "2d12+2",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Spell Attack: +4 to hit, range 120 ft., one creature. Hit: 13 (2d8 + 2) necrotic damage, and the target can't regain hit points until the start of the Returned's next turn. If the target is missing any of its hit points, it instead takes 17 (2d12 + 2) necrotic damage.",
+                "name": "Underworld Bolt"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "returned-palamnite",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Returned Palamnite",
+        "subtitle": "Medium undead, chaotic evil",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 65,
+        "hit_dice": "10d8+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-athletics",
+                "modifier": 2,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+        ],
+        "languages": "the languages it knew in life",
+        "special_abilities": [
+            {
+                "name": "Fleeting Anger",
+                "desc": "If another creature deals damage to the Returned, the Returned makes attack rolls with advantage until the end of its next turn."
+            },
+            {
+                "name": "Turn Resistance",
+                "desc": "The Returned has advantage on saving throws against any effect that turns undead."
+            },
+            {
+                "name": "Unreadable Face",
+                "desc": "The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom (Insight) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The Returned makes two shortsword attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+                "name": "Shortsword"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "returned-sentry",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Returned Sentry",
+        "subtitle": "Medium undead, lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 15,
+        "hit_points": 22,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+        ],
+        "languages": "the languages it knew in life",
+        "special_abilities": [
+            {
+                "name": "Pack Tactics",
+                "desc": "The Returned has advantage on an attack roll against a creature if at least one of the Returned's allies is within 5 feet of the creature and the ally isn't incapacitated."
+            },
+            {
+                "name": "Turn Resistance",
+                "desc": "The Returned has advantage on saving throws against any effect that turns undead."
+            },
+            {
+                "name": "Unreadable Face",
+                "desc": "The Returned is immune to any effect that would sense its emotions or read its thoughts. Wisdom (Insight) checks to ascertain the Returned's intentions or sincerity are made with disadvantage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack:,rw +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack, plus 7 (2d6) poison damage.",
+                "name": "Spear"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+                "name": "Sling"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "satyr-reveler",
         "type": "FEY",
         "subtype": null,
@@ -5316,12 +7033,6 @@
         "challenge_rating": 1.0,
         "name": "Satyr Reveler",
         "subtitle": "Medium fey, chaotic neutral",
-        "image_url": "satyr-reveler.png",
-        "background_color": {
-            "light": "#f0757f",
-            "dark": "#720d15"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "chaotic neutral",
         "armor_class": 13,
@@ -5468,12 +7179,6 @@
         "challenge_rating": 2.0,
         "name": "Satyr Thornbearer",
         "subtitle": "Medium fey, chaotic neutral",
-        "image_url": "satyr-thornbearer.png",
-        "background_color": {
-            "light": "#f0ae75",
-            "dark": "#8a480f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic neutral",
         "armor_class": 15,
@@ -5624,6 +7329,170 @@
         }
     },
     {
+        "index": "setessan-hoplite",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Setessan Hoplite",
+        "subtitle": "Medium humanoid, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 58,
+        "hit_dice": "9d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Survival"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common",
+        "special_abilities": [
+            {
+                "name": "Pack Tactics",
+                "desc": "The hoplite has advantage on an attack roll against a creature if at least one of the hoplite's allies is within 5 feet of the hoplite and the ally isn't incapacitated."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The hoplite makes two scimitar attacks or two longbow attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 10 (3d6) poison damage.",
+                "name": "Scimitar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 10 (3d6) poison damage.",
+                "name": "Longbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
         "index": "theran-chimera",
         "type": "MONSTROSITY",
         "subtype": null,
@@ -5631,12 +7500,6 @@
         "challenge_rating": 7.0,
         "name": "Theran Chimera",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "theran-chimera.png",
-        "background_color": {
-            "light": "#b7f075",
-            "dark": "#518a0f"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -5812,12 +7675,6 @@
         "challenge_rating": 8.0,
         "name": "Triton Master of Waves",
         "subtitle": "Medium humanoid(triton), neutral",
-        "image_url": "triton-master-of-waves.png",
-        "background_color": {
-            "light": "#a2d4f5",
-            "dark": "#0f5a8a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 15,
@@ -6043,12 +7900,6 @@
         "challenge_rating": 2.0,
         "name": "Triton Shorestalker",
         "subtitle": "Medium humanoid(triton), neutral evil",
-        "image_url": "triton-shorestalker.png",
-        "background_color": {
-            "light": "#75f0d3",
-            "dark": "#0f8a6d"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 13,
@@ -6236,12 +8087,6 @@
         "challenge_rating": 26.0,
         "name": "Tromokratis",
         "subtitle": "Gargantuan monstrosity(titan), unaligned",
-        "image_url": "tromokratis.png",
-        "background_color": {
-            "light": "#b975f0",
-            "dark": "#530f8a"
-        },
-        "is_horizontal_image": true,
         "size": "Gargantuan",
         "alignment": "unaligned",
         "armor_class": 22,
@@ -6500,12 +8345,6 @@
         "challenge_rating": 2.0,
         "name": "Two-Headed Cerberus",
         "subtitle": "Medium monstrosity, lawful evil",
-        "image_url": "two-headed-cerberus.png",
-        "background_color": {
-            "light": "#f0ab75",
-            "dark": "#8a450f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 12,
@@ -6704,12 +8543,6 @@
         "challenge_rating": 15.0,
         "name": "Typhon",
         "subtitle": "Huge monstrosity, chaotic evil",
-        "image_url": "typhon.png",
-        "background_color": {
-            "light": "#f09775",
-            "dark": "#8a310f"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "chaotic evil",
         "armor_class": 17,
@@ -6884,12 +8717,6 @@
         "challenge_rating": 6.0,
         "name": "Underworld Cerberus",
         "subtitle": "Large monstrosity, lawful evil",
-        "image_url": "underworld-cerberus.png",
-        "background_color": {
-            "light": "#9ff4ea",
-            "dark": "#0f8a7b"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 16,
@@ -7076,6 +8903,388 @@
                 "attack_bonus": null,
                 "description": "The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a 15 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also restrained by the hardening rock. A creature can make a 15 Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage.",
                 "name": "Breath Weapon (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "winged-bull",
+        "type": "CELESTIAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Winged Bull",
+        "subtitle": "Large celestial, unaligned",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 12,
+        "hit_points": 95,
+        "hit_dice": "10d10+40",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "understands Celestial but can't speak",
+        "special_abilities": [
+            {
+                "name": "Charge",
+                "desc": "If the bull moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, the target takes an extra 19 (3d12) piercing damage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d12+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) piercing damage.",
+                "name": "Gore"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "winged-lion",
+        "type": "CELESTIAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Winged Lion",
+        "subtitle": "Large celestial, unaligned",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 114,
+        "hit_dice": "12d10+48",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "understands Celestial but can't speak",
+        "special_abilities": [
+            {
+                "name": "Pounce",
+                "desc": "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a 15 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+                "name": "Claw"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        }
+    },
+    {
+        "index": "woe-strider",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Woe Strider",
+        "subtitle": "Large aberration, chaotic evil",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 110,
+        "hit_dice": "13d10+39",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-intimidation",
+                "modifier": 5,
+                "name": "Intimidation"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            }
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "telepathy 120 ft.",
+        "special_abilities": [
+            {
+                "name": "Antimagic Cone",
+                "desc": "The woe strider's open mouth creates an area of antimagic, as in the antimagic field spell, in a 60-foot cone. At the start of each of its turns, the woe strider decides which way the cone faces and whether its mouth is open or closed."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The woe strider makes two claw attacks and one bite attack. If both claws hit the same creature, the target is grappled (escape 14).",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) slashing damage plus 3 (1d6) psychic damage.",
+                "name": "Claw"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature that is grappled, incapacitated, or restrained. Hit: 13 (2d8 + 4) piercing damage plus 16 (3d10) psychic damage. In addition, each magic item the creature is carrying that isn't an artifact has its magical properties suppressed for 1 minute.",
+                "name": "Bite"
             }
         ],
         "reactions": [

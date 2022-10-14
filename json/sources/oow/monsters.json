@@ -7,12 +7,6 @@
         "challenge_rating": 11.0,
         "name": "Clockwork Behir",
         "subtitle": "Huge construct, neutral evil",
-        "image_url": "clockwork-behir.png",
-        "background_color": {
-            "light": "#7592f0",
-            "dark": "#0f2c8a"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "neutral evil",
         "armor_class": 17,
@@ -219,12 +213,6 @@
         "challenge_rating": 2.0,
         "name": "Dagdra Deepforge",
         "subtitle": "Medium humanoid(dwarf), unaligned",
-        "image_url": "dagdra-deepforge.png",
-        "background_color": {
-            "light": "#f09775",
-            "dark": "#8a310f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -429,6 +417,172 @@
         }
     },
     {
+        "index": "devil-dog",
+        "type": "HUMANOID",
+        "subtype": "tiefling",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Devil Dog",
+        "subtitle": "Medium humanoid(tiefling), chaotic evil",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 10,
+        "hit_points": 9,
+        "hit_dice": "2d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 4,
+                "name": "Medicine"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 2,
+                "name": "Religion"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "any one language (usually Common), Infernal",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Devil Dog is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). Devil Dog has following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+                "name": "Club"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
         "index": "enormous-tentacle",
         "type": "BEAST",
         "subtype": null,
@@ -436,12 +590,6 @@
         "challenge_rating": 2.0,
         "name": "Enormous Tentacle",
         "subtitle": "Huge beast, unaligned",
-        "image_url": "enormous-tentacle.png",
-        "background_color": {
-            "light": "#8df075",
-            "dark": "#278a0f"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -555,12 +703,6 @@
         "challenge_rating": 0.25,
         "name": "Gildha Duhn",
         "subtitle": "Medium humanoid(half-orc), unaligned",
-        "image_url": "gildha-duhn.png",
-        "background_color": {
-            "light": "#f0b375",
-            "dark": "#7a440e"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 10,
@@ -722,12 +864,6 @@
         "challenge_rating": 0.5,
         "name": "Grunka",
         "subtitle": "Medium humanoid(goblinoid), lawful evil",
-        "image_url": "grunka.png",
-        "background_color": {
-            "light": "#9c75f0",
-            "dark": "#360f8a"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -861,6 +997,310 @@
         }
     },
     {
+        "index": "jelayne",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Jelayne",
+        "subtitle": "Medium undead, lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 13,
+        "hit_points": 13,
+        "hit_dice": "2d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning"
+            }
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "mechachimera",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Mechachimera",
+        "subtitle": "Large construct, chaotic evil",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 14,
+        "hit_points": 114,
+        "hit_dice": "12d10+48",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 8,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "understands Draconic but can't speak",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d12+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage.",
+                "name": "Horns"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                "name": "Claws"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "7d8",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.",
+                "name": "Fire Breath (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
         "index": "onyx",
         "type": "BEAST",
         "subtype": null,
@@ -868,12 +1308,6 @@
         "challenge_rating": 0.0,
         "name": "Onyx",
         "subtitle": "Huge beast, unaligned",
-        "image_url": "onyx.png",
-        "background_color": {
-            "light": "#f08375",
-            "dark": "#8a1d0f"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -992,6 +1426,763 @@
         }
     },
     {
+        "index": "replica-duodrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Replica Duodrone",
+        "subtitle": "Medium construct, lawful neutral",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 11,
+        "hit_dice": "2d8+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Modron, can understand Common but speaks only preprogrammed responses",
+        "special_abilities": [
+            {
+                "name": "Axiomatic Mind",
+                "desc": "The duodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+            },
+            {
+                "name": "Dismantlable",
+                "desc": "If the replica duodrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The duodrone makes two fist attacks or two javelin attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+                "name": "Fist"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-monodrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.125,
+        "name": "Replica Monodrone",
+        "subtitle": "Medium construct, lawful neutral",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 5,
+        "hit_dice": "1d8+1",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Modron, can understand Common but speaks only preprogrammed responses",
+        "special_abilities": [
+            {
+                "name": "Axiomatic Mind",
+                "desc": "The monodrone can't be compelled to act in a manner contrary to its nature or its instructions."
+            },
+            {
+                "name": "Dismantlable",
+                "desc": "If the replica monodrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+                "name": "Dagger"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-pentadrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Replica Pentadrone",
+        "subtitle": "Large construct, lawful neutral",
+        "size": "Large",
+        "alignment": "lawful neutral",
+        "armor_class": 16,
+        "hit_points": 32,
+        "hit_dice": "5d10+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Modron, can understand Common but speaks only preprogrammed responses",
+        "special_abilities": [
+            {
+                "name": "Axiomatic Mind",
+                "desc": "The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+            },
+            {
+                "name": "Dismantlable",
+                "desc": "If the replica pentadrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The pentadrone makes five arm attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+                "name": "Arm"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                "name": "Paralysis Gas (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-quadrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Replica Quadrone",
+        "subtitle": "Medium construct, lawful neutral",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 16,
+        "hit_points": 22,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Modron, can understand Common but speaks only preprogrammed responses",
+        "special_abilities": [
+            {
+                "name": "Axiomatic Mind",
+                "desc": "The quadrone can't be compelled to act in a manner contrary to its nature or its instructions."
+            },
+            {
+                "name": "Dismantlable",
+                "desc": "If the replica quadrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The quadrone makes two fist attacks or four shortbow attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+                "name": "Fist"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                "name": "Shortbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-tridrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Replica Tridrone",
+        "subtitle": "Medium construct, lawful neutral",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Modron, can understand Common but speaks only preprogrammed responses",
+        "special_abilities": [
+            {
+                "name": "Axiomatic Mind",
+                "desc": "The tridrone can't be compelled to act in a manner contrary to its nature or its instructions."
+            },
+            {
+                "name": "Dismantlable",
+                "desc": "If the replica tridrone dies, its body falls into a pile of parts (gears, plates, screws, and wires), leaving behind its weapons and anything else it was carrying."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The tridrone makes three fist attacks or three javelin attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+                "name": "Fist"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "stomping-foot",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Stomping Foot",
+        "subtitle": "Tiny undead, neutral evil",
+        "size": "Tiny",
+        "alignment": "neutral evil",
+        "armor_class": 12,
+        "hit_points": 2,
+        "hit_dice": "1d4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 4,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "blindsight 30 ft. (blind beyond this radius)"
+        ],
+        "languages": "understands Common but can't speak",
+        "special_abilities": [
+            {
+                "name": "Turn Immunity",
+                "desc": "The foot is immune to effects that turn undead."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+                "name": "Stomp"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
         "index": "two-dry-cloaks",
         "type": "HUMANOID",
         "subtype": "tabaxi",
@@ -999,12 +2190,6 @@
         "challenge_rating": 1.0,
         "name": "Two Dry Cloaks",
         "subtitle": "Medium humanoid(tabaxi), unaligned",
-        "image_url": "two-dry-cloaks.png",
-        "background_color": {
-            "light": "#f0b475",
-            "dark": "#512e09"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -1150,6 +2335,120 @@
                 "attack_bonus": 4,
                 "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
                 "name": "Hand Crossbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery of the Wanderer",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "undead-cockatrice",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Undead Cockatrice",
+        "subtitle": "Small undead, unaligned",
+        "size": "Small",
+        "alignment": "unaligned",
+        "armor_class": 11,
+        "hit_points": 27,
+        "hit_dice": "6d6+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.",
+                "name": "Bite"
             }
         ],
         "reactions": [

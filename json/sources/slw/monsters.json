@@ -1,0 +1,476 @@
+[
+    {
+        "index": "skull-flier",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Skull Flier",
+        "subtitle": "Medium construct, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 24,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 3,
+                "modifier": -4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    },
+                    {
+                        "dice": "the",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                "name": "Sting"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Storm Lord's Wrath",
+            "acronym": "SLW"
+        }
+    },
+    {
+        "index": "statue-of-talos",
+        "type": "ELEMENTAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 10.0,
+        "name": "Statue of Talos",
+        "subtitle": "Large elemental, chaotic evil",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 147,
+        "hit_dice": "14d10+70",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing*"
+            },
+            {
+                "index": "from nonmagical attacks that aren't adamantine",
+                "type": "OTHER",
+                "name": "*from nonmagical attacks that aren't adamantine"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Terran",
+        "special_abilities": [
+            {
+                "name": "False Appearance",
+                "desc": "While the statue remains motionless, it is indistinguishable from an inanimate statue."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The statue makes five attacks: one with its headbutt and four with its lightning bolt blades.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+                "name": "Headbutt"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.",
+                "name": "Lightning Bolt Blades"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Storm Lord's Wrath",
+            "acronym": "SLW"
+        }
+    },
+    {
+        "index": "tooth-n-claw",
+        "type": "FIEND",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Tooth-N-Claw",
+        "subtitle": "Medium fiend, lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 15,
+        "hit_points": 45,
+        "hit_dice": "7d8+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "understands Infernal but can't speak it",
+        "special_abilities": [
+            {
+                "name": "Keen Hearing and Smell",
+                "desc": "Tooth-N-Claw has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "Tooth-N-Claw has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't incapacitated."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Cold"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) cold damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6d6",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Cold"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Tooth-N-Claw exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) cold damage on a failed save, or half as much damage on a successful one.",
+                "name": "Freezing Breath (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Storm Lord's Wrath",
+            "acronym": "SLW"
+        }
+    }
+]

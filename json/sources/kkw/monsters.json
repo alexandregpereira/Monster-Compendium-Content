@@ -1,5 +1,270 @@
 [
     {
+        "index": "goblin-gang-member",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Goblin Gang Member",
+        "subtitle": "Small humanoid(goblinoid), neutral evil",
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 14,
+        "hit_points": 10,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 8,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Goblin",
+        "special_abilities": [
+            {
+                "name": "Nimble Escape",
+                "desc": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                "name": "Dagger"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                "name": "Light Crossbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Krenko's Way",
+            "acronym": "KKW"
+        }
+    },
+    {
+        "index": "krenko",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Krenko",
+        "subtitle": "Small humanoid(goblinoid), neutral evil",
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 17,
+        "hit_points": 21,
+        "hit_dice": "6d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Stealth"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 4,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 4,
+                "name": "Persuasion"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Goblin",
+        "special_abilities": [
+            {
+                "name": "Nimble Escape",
+                "desc": "Krenko can take the Disengage or Hide action as a bonus action on each of his turns."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Krenko makes two attacks with his scimitar.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 2 (1d4) poison damage..",
+                "name": "Scimitar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                "name": "Light Crossbow"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Redirect Attack",
+                "desc": "When a creature Krenko can see targets him with an attack, Krenko chooses another goblin within 5 feet of him. The two goblins swap places, and the chosen goblin becomes the target instead."
+            }
+        ],
+        "source": {
+            "name": "Krenko's Way",
+            "acronym": "KKW"
+        }
+    },
+    {
         "index": "loading-rig",
         "type": "CONSTRUCT",
         "subtype": null,
@@ -7,12 +272,6 @@
         "challenge_rating": 1.0,
         "name": "Loading Rig",
         "subtitle": "Large construct, unaligned",
-        "image_url": "loading-rig.png",
-        "background_color": {
-            "light": "#78ddf0",
-            "dark": "#0f768a"
-        },
-        "is_horizontal_image": true,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 18,
