@@ -7,12 +7,6 @@
         "challenge_rating": 4.0,
         "name": "Decapus",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "decapus.png",
-        "background_color": {
-            "light": "#d5f075",
-            "dark": "#6f8a0f"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -162,12 +156,6 @@
         "challenge_rating": 0.25,
         "name": "Geonid",
         "subtitle": "Small elemental, neutral",
-        "image_url": "geonid.png",
-        "background_color": {
-            "light": "#f0c775",
-            "dark": "#8a610f"
-        },
-        "is_horizontal_image": true,
         "size": "Small",
         "alignment": "neutral",
         "armor_class": 17,
@@ -281,6 +269,180 @@
         }
     },
     {
+        "index": "giant-slug",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Giant Slug",
+        "subtitle": "Large monstrosity, unaligned",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 66,
+        "hit_dice": "6d10+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Abyssal, Aquan, Common",
+        "special_abilities": [
+            {
+                "name": "Keen Smell",
+                "desc": "The slug has advantage on Wisdom (Perception) checks that rely on smell."
+            },
+            {
+                "name": "Spider Climb",
+                "desc": "The slug can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "The slug's innate spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Guiding Bolt",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Spiritual Weapon",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The slug makes two attacks: one with its tentacles and one with its bite.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.",
+                "name": "Tentacles"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 7 (2d4 + 2) piercing damage.",
+                "name": "Bite"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Animate Tentacle",
+                "desc": "When the slug takes damage in this cave (Shrine of Umberlee), it can use its reaction to animate one of the tentacles of the kraken statue and cause it to make a melee weapon attack (+3 to hit) against one creature within 20 feet of the statue that the slug can see. The tentacle deals 8 (1d8 + 4) bludgeoning damage on a hit."
+            }
+        ],
+        "source": {
+            "name": "The Tortle Package",
+            "acronym": "TTP"
+        }
+    },
+    {
         "index": "topi",
         "type": "UNDEAD",
         "subtype": null,
@@ -288,12 +450,6 @@
         "challenge_rating": 0.5,
         "name": "Topi",
         "subtitle": "Small undead, chaotic evil",
-        "image_url": "topi.png",
-        "background_color": {
-            "light": "#a3f075",
-            "dark": "#3d8a0f"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "chaotic evil",
         "armor_class": 13,

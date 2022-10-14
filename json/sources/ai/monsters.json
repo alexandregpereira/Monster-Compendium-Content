@@ -7,12 +7,6 @@
         "challenge_rating": 15.0,
         "name": "Ancient Deep Crow",
         "subtitle": "Huge monstrosity, unaligned",
-        "image_url": "ancient-deep-crow.png",
-        "background_color": {
-            "light": "#f09f75",
-            "dark": "#7e350e"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 18,
@@ -196,6 +190,173 @@
         }
     },
     {
+        "index": "auspicia-dran",
+        "type": "HUMANOID",
+        "subtype": "half-elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Auspicia Dran",
+        "subtitle": "Medium humanoid(half-elf), neutral good",
+        "size": "Medium",
+        "alignment": "neutral good",
+        "armor_class": 15,
+        "hit_points": 52,
+        "hit_dice": "8d8+16",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Elvish",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Auspicia's innate spellcasting ability is Intelligence. She can innately cast the following spells, requiring no components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detect Thoughts",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augury",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Auspicia makes two attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "1d10+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+                "name": "Longsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                "name": "Light Crossbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "brahma-lutier",
         "type": "HUMANOID",
         "subtype": "elf",
@@ -203,12 +364,6 @@
         "challenge_rating": 2.0,
         "name": "Brahma Lutier",
         "subtitle": "Medium humanoid(elf), neutral",
-        "image_url": "brahma-lutier.png",
-        "background_color": {
-            "light": "#f0d675",
-            "dark": "#8a700f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 12,
@@ -413,12 +568,6 @@
         "challenge_rating": 4.0,
         "name": "Chaos Quadrapod",
         "subtitle": "Large aberration, chaotic evil",
-        "image_url": "chaos-quadrapod.png",
-        "background_color": {
-            "light": "#d1eefa",
-            "dark": "#0f678a"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "chaotic evil",
         "armor_class": 14,
@@ -536,6 +685,190 @@
         }
     },
     {
+        "index": "clockwork-dragon",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Clockwork Dragon",
+        "subtitle": "Medium construct, neutral",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 16,
+        "hit_points": 22,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 2,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Blinded"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Deafened"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "blindsight 60 ft.",
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Draconic",
+        "special_abilities": [
+            {
+                "name": "False Appearance",
+                "desc": "While the clockwork dragon remains motionless, it is indistinguishable from a metal statue."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The clockwork dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.",
+                "name": "Fire Breath (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "deep-crow",
         "type": "MONSTROSITY",
         "subtype": null,
@@ -543,12 +876,6 @@
         "challenge_rating": 9.0,
         "name": "Deep Crow",
         "subtitle": "Large monstrosity, unaligned",
-        "image_url": "deep-crow.png",
-        "background_color": {
-            "light": "#f0a575",
-            "dark": "#8a3f0f"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 17,
@@ -701,6 +1028,231 @@
         }
     },
     {
+        "index": "donaar-blit'zen",
+        "type": "HUMANOID",
+        "subtype": "dragonborn",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Donaar Blit'zen",
+        "subtitle": "Medium humanoid(dragonborn), chaotic good",
+        "size": "Medium",
+        "alignment": "chaotic good",
+        "armor_class": 18,
+        "hit_points": 45,
+        "hit_dice": "7d8+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-history",
+                "modifier": 2,
+                "name": "History"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 5,
+                "name": "Intimidation"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasion"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Draconic, Orc",
+        "special_abilities": [
+            {
+                "name": "Champion Challenge (Recharges after a Short or Long Rest)",
+                "desc": "As a bonus action, Donaar causes each creature of his choice that he can see within 30 feet of him to make a DC 13 Wisdom saving throw. On a failure, a creature can't willingly move more than 30 feet away from Donaar. This effect ends on the creature if Donaar is incapacitated or dies, or if the creature is moved more than 30 feet away from him."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following paladin spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Command",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "aid",
+                                "name": "Aid",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "branding-smite",
+                                "name": "Branding Smite",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "warding-bond",
+                                "name": "Warding Bond",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "zone-of-truth",
+                                "name": "Zone of Truth",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Donaar makes two attacks with his greatsword or his whip.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll.",
+                "name": "Greatsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+                "name": "Whip"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Donaar regurgitates acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 7 (2d6) acid damage on a failed save, or half as much damage on a successful one.",
+                "name": "Acid Vomit"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "flabbergast",
         "type": "HUMANOID",
         "subtype": "human",
@@ -708,12 +1260,6 @@
         "challenge_rating": 4.0,
         "name": "Flabbergast",
         "subtitle": "Medium humanoid(human), lawful neutral",
-        "image_url": "flabbergast.png",
-        "background_color": {
-            "light": "#f09775",
-            "dark": "#4d1b08"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful neutral",
         "armor_class": 12,
@@ -939,12 +1485,6 @@
         "challenge_rating": 5.0,
         "name": "Jim Darkmagic",
         "subtitle": "Medium humanoid(human), chaotic neutral",
-        "image_url": "jim-darkmagic.png",
-        "background_color": {
-            "light": "#75b1f0",
-            "dark": "#0f4b8a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic neutral",
         "armor_class": 12,
@@ -1185,6 +1725,283 @@
         }
     },
     {
+        "index": "k'thriss-drow'b",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "K'thriss Drow'b",
+        "subtitle": "Medium humanoid(elf), chaotic neutral",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 14,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 0
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 4,
+                "name": "Investigation"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 4,
+                "name": "Religion"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "Celestial, Common, Elvish, Undercommon; can read all writing",
+        "special_abilities": [
+            {
+                "name": "Special Equipment",
+                "desc": "K'thriss wears a robe of stars (accounted for in his statistics). The robe allows him to cast the following spells: 6/day: magic missile (7 missiles)"
+            },
+            {
+                "name": "Awakened Mind",
+                "desc": "K'thriss can telepathically speak to any creature he can see within 30 feet of him, provided the creature can understand at least one language."
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "K'thriss has advantage on saving throws against being charmed, and magic can't put him to sleep. Sunlight Sensitivity. While in sunlight, K'thriss has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "K'thriss's innate spellcasting ability is Charisma (spell save DC 14). He can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disguise Self",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/day each",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Darkness",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "faerie-fire",
+                                "name": "Faerie Fire",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "eldritch-blast",
+                                "name": "Eldritch Blast",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Mending",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Vicious Mockery",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "fly",
+                                "name": "Fly",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "sending",
+                                "name": "Sending",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Shatter",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "K'thriss makes two attacks with his sickle. Sickle. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+                "name": "Multiattack"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "keg-robot",
         "type": "CONSTRUCT",
         "subtype": null,
@@ -1192,12 +2009,6 @@
         "challenge_rating": 2.0,
         "name": "Keg Robot",
         "subtitle": "Medium construct, unaligned",
-        "image_url": "keg-robot.png",
-        "background_color": {
-            "light": "#75f0cf",
-            "dark": "#0f8a69"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -1395,6 +2206,240 @@
         }
     },
     {
+        "index": "môrgæn",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Môrgæn",
+        "subtitle": "Medium humanoid(elf), chaotic neutral",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 16,
+        "hit_points": 66,
+        "hit_dice": "12d8+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 3,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 4,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 3,
+                "name": "Nature"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Stealth"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 4,
+                "name": "Survival"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Draconic, Dwarvish, Giant, Goblin",
+        "special_abilities": [
+            {
+                "name": "Fey Ancestry",
+                "desc": "Môrgæn has advantage on saving throws against being charmed, and magic can't put her to sleep."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Môrgæn's spellcasting ability is Intelligence. She can innately cast the following spells, requiring no material components:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following ranger spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "alarm",
+                                "name": "Alarm",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "animal-friendship",
+                                "name": "Animal Friendship",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Pass Without Trace",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Spike Growth",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "conjure-animals",
+                                "name": "Conjure Animals",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Môrgæn makes three attacks with her scimitars or her longbow.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+                "name": "Scimitars"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                "name": "Longbow"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "oak-truestrike",
         "type": "HUMANOID",
         "subtype": "elf",
@@ -1402,12 +2447,6 @@
         "challenge_rating": 2.0,
         "name": "Oak Truestrike",
         "subtitle": "Medium humanoid(elf), neutral good",
-        "image_url": "oak-truestrike.png",
-        "background_color": {
-            "light": "#f08c75",
-            "dark": "#731f0d"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "neutral good",
         "armor_class": 15,
@@ -1564,12 +2603,6 @@
         "challenge_rating": 5.0,
         "name": "Omin Dran",
         "subtitle": "Medium humanoid(half-elf), lawful neutral",
-        "image_url": "omin-dran.png",
-        "background_color": {
-            "light": "#f0b875",
-            "dark": "#8a520f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful neutral",
         "armor_class": 18,
@@ -1921,12 +2954,6 @@
         "challenge_rating": 2.0,
         "name": "Pendragon Beestinger",
         "subtitle": "Medium humanoid(human), neutral evil",
-        "image_url": "pendragon-beestinger.png",
-        "background_color": {
-            "light": "#f18589",
-            "dark": "#8a0f14"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 12,
@@ -2126,12 +3153,6 @@
         "challenge_rating": 2.0,
         "name": "Phoenix Anvil",
         "subtitle": "Medium humanoid(human), lawful neutral",
-        "image_url": "phoenix-anvil.png",
-        "background_color": {
-            "light": "#f0b375",
-            "dark": "#7d460e"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "lawful neutral",
         "armor_class": 18,
@@ -2330,6 +3351,351 @@
         }
     },
     {
+        "index": "portentia-dran",
+        "type": "MONSTROSITY",
+        "subtype": "shapechanger",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Portentia Dran",
+        "subtitle": "Medium monstrosity(shapechanger), lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 17,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 3,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Elvish",
+        "special_abilities": [
+            {
+                "name": "Sneak Attack (1/Turn)",
+                "desc": "Portentia deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Portentia that isn't incapacitated and Portentia doesn't have disadvantage on the attack roll."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Portentia makes three melee attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Portentia magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than her own, or back into her true form. Any equipment she is wearing or carrying is absorbed or borne by the new form (her choice). In a new form, Portentia retains her game statistics and ability to speak, but her AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and she gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that she lacks.",
+                "name": "Change Shape"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "prophetess-dran",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Prophetess Dran",
+        "subtitle": "Medium humanoid(elf), lawful good",
+        "size": "Medium",
+        "alignment": "lawful good",
+        "armor_class": 14,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 5,
+                "name": "Medicine"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasion"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 5,
+                "name": "Religion"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Elvish",
+        "special_abilities": [
+            {
+                "name": "Divine Eminence",
+                "desc": "As a bonus action, Prophetess can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Prophetess expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "Prophetess has advantage on saving throws against being charmed, and magic can't put her to sleep."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Prophetess has the following cleric spells prepared:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (at will)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Guiding Bolt",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Sanctuary",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level (3 slots)",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Spiritual Weapon",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3rd level (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Spirit Guardians",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage.",
+                "name": "Maul"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acquisitions Incorporated",
+            "acronym": "AI"
+        }
+    },
+    {
         "index": "rosie-beestinger",
         "type": "HUMANOID",
         "subtype": "halfling",
@@ -2337,12 +3703,6 @@
         "challenge_rating": 3.0,
         "name": "Rosie Beestinger",
         "subtitle": "Small humanoid(halfling), chaotic good",
-        "image_url": "rosie-beestinger.png",
-        "background_color": {
-            "light": "#b775f0",
-            "dark": "#510f8a"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "chaotic good",
         "armor_class": 15,
@@ -2578,12 +3938,6 @@
         "challenge_rating": 2.0,
         "name": "Splugoth the Returned",
         "subtitle": "Small humanoid(goblinoid), neutral evil",
-        "image_url": "splugoth-the-returned.png",
-        "background_color": {
-            "light": "#f0ae75",
-            "dark": "#8a480f"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "neutral evil",
         "armor_class": 15,
@@ -2727,12 +4081,6 @@
         "challenge_rating": 5.0,
         "name": "Viari",
         "subtitle": "Medium humanoid(human), chaotic good",
-        "image_url": "viari.png",
-        "background_color": {
-            "light": "#f0a575",
-            "dark": "#8a3f0f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic good",
         "armor_class": 18,
@@ -2928,12 +4276,6 @@
         "challenge_rating": 3.0,
         "name": "Walnut Dankgrass",
         "subtitle": "Medium humanoid(elf), lawful neutral",
-        "image_url": "walnut-dankgrass.png",
-        "background_color": {
-            "light": "#b2f075",
-            "dark": "#2f5509"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful neutral",
         "armor_class": 14,

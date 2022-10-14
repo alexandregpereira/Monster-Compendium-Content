@@ -1,5 +1,138 @@
 [
     {
+        "index": "giant-shark-skeleton",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Giant Shark Skeleton",
+        "subtitle": "Huge undead, unaligned",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 126,
+        "hit_dice": "11d12+55",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning"
+            }
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "blindsight 60 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Blood Frenzy",
+                "desc": "The giant shark skeleton has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.",
+                "name": "Bite"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Sleeping Dragon's Wake",
+            "acronym": "SDW"
+        }
+    },
+    {
         "index": "lhammaruntosz",
         "type": "DRAGON",
         "subtype": null,
@@ -7,12 +140,6 @@
         "challenge_rating": 16.0,
         "name": "Lhammaruntosz",
         "subtitle": "Huge dragon, lawful good",
-        "image_url": "lhammaruntosz.png",
-        "background_color": {
-            "light": "#75a4f0",
-            "dark": "#0f3d87"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "lawful good",
         "armor_class": 19,

@@ -7,12 +7,6 @@
         "challenge_rating": 0.5,
         "name": "Ambush Drake",
         "subtitle": "Medium dragon, unaligned",
-        "image_url": "ambush-drake.png",
-        "background_color": {
-            "light": "#f0ac75",
-            "dark": "#8a460f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 13,
@@ -134,12 +128,6 @@
         "challenge_rating": 4.0,
         "name": "Azbara Jos",
         "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "azbara-jos.png",
-        "background_color": {
-            "light": "#f0a075",
-            "dark": "#8a3a0f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 13,
@@ -391,12 +379,6 @@
         "challenge_rating": 9.0,
         "name": "Blagothkus",
         "subtitle": "Huge giant(cloud giant), neutral evil",
-        "image_url": "blagothkus.png",
-        "background_color": {
-            "light": "#75a9f0",
-            "dark": "#0f438a"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "neutral evil",
         "armor_class": 17,
@@ -663,12 +645,6 @@
         "challenge_rating": 5.0,
         "name": "Captain Othelstan",
         "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "captain-othelstan.png",
-        "background_color": {
-            "light": "#f0a475",
-            "dark": "#7c380e"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 19,
@@ -826,12 +802,6 @@
         "challenge_rating": 1.0,
         "name": "Dragonclaw",
         "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "dragonclaw.png",
-        "background_color": {
-            "light": "#f6d4b2",
-            "dark": "#8a4d0f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 14,
@@ -956,6 +926,166 @@
         }
     },
     {
+        "index": "dragonwing",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Dragonwing",
+        "subtitle": "Medium humanoid(human), lawful evil",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 14,
+        "hit_points": 33,
+        "hit_dice": "6d8+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 2
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 3,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Lightning"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Draconic",
+        "special_abilities": [
+            {
+                "name": "Dragon Fanatic",
+                "desc": "The dragonwing has advantage on saving throws against being charmed or frightened. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being charmed or frightened."
+            },
+            {
+                "name": "Fanatic Advantage",
+                "desc": "Once per turn, if the dragonwing makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 7 (2d6) damage."
+            },
+            {
+                "name": "Limited Flight",
+                "desc": "The dragonwing can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't incapacitated."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragonwing attacks twice with its scimitar.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resistance.",
+                "name": "Scimitar"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Hoard of the Dragon Queen",
+            "acronym": "HotDQ"
+        }
+    },
+    {
         "index": "dralmorrer-borngray",
         "type": "HUMANOID",
         "subtype": "high elf",
@@ -963,12 +1093,6 @@
         "challenge_rating": 3.0,
         "name": "Dralmorrer Borngray",
         "subtitle": "Medium humanoid(high elf), neutral evil",
-        "image_url": "dralmorrer-borngray.png",
-        "background_color": {
-            "light": "#75cff0",
-            "dark": "#0f698a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 16,
@@ -1213,12 +1337,6 @@
         "challenge_rating": 2.0,
         "name": "Frulam Mondath",
         "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "frulam-mondath.png",
-        "background_color": {
-            "light": "#f0bd75",
-            "dark": "#8a570f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 16,
@@ -1448,12 +1566,6 @@
         "challenge_rating": 2.0,
         "name": "Guard Drake",
         "subtitle": "Medium dragon, unaligned",
-        "image_url": "guard-drake.png",
-        "background_color": {
-            "light": "#7587f0",
-            "dark": "#0f218a"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -1584,12 +1696,6 @@
         "challenge_rating": 1.0,
         "name": "Jamna Gleamsilver",
         "subtitle": "Small humanoid(gnome), neutral",
-        "image_url": "jamna-gleamsilver.png",
-        "background_color": {
-            "light": "#f0ae75",
-            "dark": "#4d2809"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "neutral",
         "armor_class": 15,
@@ -1817,12 +1923,6 @@
         "challenge_rating": 4.0,
         "name": "Langdedrosa Cyanwrath",
         "subtitle": "Medium humanoid(half-dragon), lawful evil",
-        "image_url": "langdedrosa-cyanwrath.png",
-        "background_color": {
-            "light": "#759ff0",
-            "dark": "#0f398a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 17,
@@ -1997,12 +2097,6 @@
         "challenge_rating": 3.0,
         "name": "Pharblex Spattergoo",
         "subtitle": "Medium humanoid(bullywug), chaotic evil",
-        "image_url": "pharblex-spattergoo.png",
-        "background_color": {
-            "light": "#f0a575",
-            "dark": "#8a3f0f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "chaotic evil",
         "armor_class": 15,
@@ -2263,12 +2357,6 @@
         "challenge_rating": 6.0,
         "name": "Rath Modar",
         "subtitle": "Medium humanoid(human), lawful evil",
-        "image_url": "rath-modar.png",
-        "background_color": {
-            "light": "#f0a675",
-            "dark": "#8a400f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 13,
@@ -2549,12 +2637,6 @@
         "challenge_rating": 7.0,
         "name": "Rezmir",
         "subtitle": "Medium humanoid(half-black dragon), neutral evil",
-        "image_url": "rezmir.png",
-        "background_color": {
-            "light": "#9775f0",
-            "dark": "#2f0f84"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 13,
@@ -2743,12 +2825,6 @@
         "challenge_rating": 5.0,
         "name": "Talis the White",
         "subtitle": "Medium humanoid(half-elf), lawful evil",
-        "image_url": "talis-the-white.png",
-        "background_color": {
-            "light": "#d4e7fa",
-            "dark": "#0f4d8a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -2994,6 +3070,147 @@
                 "attack_bonus": 5,
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or ranged 20/60 ft., one target. Hit: 6 (1d6 + 2) piercing damage.",
                 "name": "Spear"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Hoard of the Dragon Queen",
+            "acronym": "HotDQ"
+        }
+    },
+    {
+        "index": "trepsin",
+        "type": "GIANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Trepsin",
+        "subtitle": "Large giant, chaotic evil",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 84,
+        "hit_dice": "8d10+40",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 1,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Giant",
+        "special_abilities": [
+            {
+                "name": "Keen Smell",
+                "desc": "The troll has advantage on Wisdom (Perception) checks that rely on smell."
+            },
+            {
+                "name": "Regeneration",
+                "desc": "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The troll attacks five times, once with its bite and four times with its claws. If two or more claws hit the same target, the troll rends the target, dealing an extra 2d6 slashing damage.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: ++7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: ++7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                "name": "Claw"
             }
         ],
         "reactions": [

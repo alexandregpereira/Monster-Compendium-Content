@@ -1,5 +1,457 @@
 [
     {
+        "index": "dragonfang",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Dragonfang",
+        "subtitle": "Medium humanoid(human), neutral evil",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "hit_points": 78,
+        "hit_dice": "12d8+24",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 4,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Lightning"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Draconic, Infernal",
+        "special_abilities": [
+            {
+                "name": "Dragon Fanatic",
+                "desc": "The dragonfang has advantage on saving throws against being charmed or frightened. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being charmed or frightened."
+            },
+            {
+                "name": "Fanatic Advantage",
+                "desc": "Once per turn, if the dragonfang makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+            },
+            {
+                "name": "Limited Flight",
+                "desc": "The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "The dragonfang has advantage on an attack roll against a creature if at least one of the dragonfang's allies is within 5 feet of the creature and the ally isn't incapacitated."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The Dragonfang attacks twice with its shortsword.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance.",
+                "name": "Orb of Dragon's Breath (2/Day)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Rise of Tiamat",
+            "acronym": "RoT"
+        }
+    },
+    {
+        "index": "dragonsoul",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Dragonsoul",
+        "subtitle": "Medium humanoid(human), neutral evil",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 16,
+        "hit_points": 110,
+        "hit_dice": "17d8+34",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 7,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Lightning"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Draconic, Infernal",
+        "special_abilities": [
+            {
+                "name": "Dragon Fanatic",
+                "desc": "The dragonsoul has advantage on saving throws against being charmed or frightened. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being charmed or frightened."
+            },
+            {
+                "name": "Fanatic Advantage",
+                "desc": "Once per turn, if the dragonsoul makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+            },
+            {
+                "name": "Limited Flight",
+                "desc": "The dragonsoul can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonsoul's allies is within 5 feet of the creature and the ally isn't incapacitated."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The Dragonsoul attacks twice with its shortsword.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 7,
+                "description": "Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance.",
+                "name": "Orb of Dragon's Breath (3/Day)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Rise of Tiamat",
+            "acronym": "RoT"
+        }
+    },
+    {
+        "index": "ice-toad",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Ice Toad",
+        "subtitle": "Medium monstrosity, neutral",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 12,
+        "hit_points": 32,
+        "hit_dice": "5d8+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Ice Toad",
+        "special_abilities": [
+            {
+                "name": "Amphibious",
+                "desc": "The toad can breathe air or water."
+            },
+            {
+                "name": "Cold Aura",
+                "desc": "Any creature that starts its turn within 5 feet of the toad takes 3 (1d6) cold damage."
+            },
+            {
+                "name": "Standing Leap",
+                "desc": "The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) cold damage. If the target is a Medium or smaller creature it is grappled (escape DC 11). Until this grapple ends, the toad can't bite another target.",
+                "name": "Bite"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Rise of Tiamat",
+            "acronym": "RoT"
+        }
+    },
+    {
         "index": "naergoth-bladelord",
         "type": "UNDEAD",
         "subtype": null,
@@ -7,12 +459,6 @@
         "challenge_rating": 11.0,
         "name": "Naergoth Bladelord",
         "subtitle": "Medium undead, neutral evil",
-        "image_url": "naergoth-bladelord.png",
-        "background_color": {
-            "light": "#f0757d",
-            "dark": "#6a0c12"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 18,
@@ -220,12 +666,6 @@
         "challenge_rating": 9.0,
         "name": "Neronvain",
         "subtitle": "Medium humanoid(elf), neutral evil",
-        "image_url": "neronvain.png",
-        "background_color": {
-            "light": "#a075f0",
-            "dark": "#3a0f8a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 17,
@@ -409,12 +849,6 @@
         "challenge_rating": 11.0,
         "name": "Severin",
         "subtitle": "Medium humanoid(human), neutral evil",
-        "image_url": "severin.png",
-        "background_color": {
-            "light": "#a175f0",
-            "dark": "#3b0f8a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 16,
@@ -624,12 +1058,6 @@
         "challenge_rating": 30.0,
         "name": "Tiamat",
         "subtitle": "Gargantuan fiend, chaotic evil",
-        "image_url": "tiamat.png",
-        "background_color": {
-            "light": "#f3b772",
-            "dark": "#8d510c"
-        },
-        "is_horizontal_image": false,
         "size": "Gargantuan",
         "alignment": "chaotic evil",
         "armor_class": 25,
@@ -895,6 +1323,177 @@
                 "attack_bonus": null,
                 "description": "Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours.",
                 "name": "Frightful Presence"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Rise of Tiamat",
+            "acronym": "RoT"
+        }
+    },
+    {
+        "index": "varram",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Varram",
+        "subtitle": "Medium humanoid(dwarf), neutral evil",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 16,
+        "hit_points": 110,
+        "hit_dice": "17d8+34",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 7,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Cold"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fire"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Lightning"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "Common, Draconic, Dwarvish, Infernal",
+        "special_abilities": [
+            {
+                "name": "Dragon Fanatic",
+                "desc": "Varram has advantage on saving throws against being charmed or frightened. While Varram can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, Varram ignores the effects of being charmed or frightened."
+            },
+            {
+                "name": "Fanatic Advantage",
+                "desc": "Once per turn, if Varram makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+            },
+            {
+                "name": "Limited Flight",
+                "desc": "Varram can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+            },
+            {
+                "name": "Pack Tactics",
+                "desc": "Varram has advantage on an attack roll against a creature if at least one of the dragonsoul's allies is within 5 feet of the creature and the ally isn't incapacitated."
+            },
+            {
+                "name": "Dwarven Resilience",
+                "desc": "Varram has advantage on saving throws against poison, and has resistance against poison damage."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Varram attacks twice with its shortsword.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which Varram has resistance.",
+                "name": "Shortsword"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 7,
+                "description": "Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which Varram has damage resistance.",
+                "name": "Orb of Dragon's Breath (3/Day)"
             }
         ],
         "reactions": [

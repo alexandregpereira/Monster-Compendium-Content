@@ -1,0 +1,144 @@
+[
+    {
+        "index": "juvenile-mimic",
+        "type": "MONSTROSITY",
+        "subtype": "shapechanger",
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Juvenile Mimic",
+        "subtitle": "Tiny monstrosity(shapechanger), unaligned",
+        "size": "Tiny",
+        "alignment": "unaligned",
+        "armor_class": 11,
+        "hit_points": 7,
+        "hit_dice": "2d4+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 3,
+                "name": "Stealth"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Prone"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "Common, Undercommon, telepathy 120 ft.",
+        "special_abilities": [
+            {
+                "name": "False Appearance (Object Form Only)",
+                "desc": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+            },
+            {
+                "name": "Spider Climb",
+                "desc": "The mimic can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 1 piercing damage plus 2 (1d4) acid damage.",
+                "name": "Bite"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The mimic polymorphs into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.",
+                "name": "Shape-Shift"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Tasha's Cauldron of Everything",
+            "acronym": "TCE"
+        }
+    }
+]

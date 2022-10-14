@@ -7,12 +7,6 @@
         "challenge_rating": 7.0,
         "name": "Bodytaker Plant",
         "subtitle": "Huge plant, unaligned",
-        "image_url": "bodytaker-plant.png",
-        "background_color": {
-            "light": "#cbf075",
-            "dark": "#658a0f"
-        },
-        "is_horizontal_image": true,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -174,12 +168,6 @@
         "challenge_rating": 1.0,
         "name": "Boneless",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "boneless.png",
-        "background_color": {
-            "light": "#f0757d",
-            "dark": "#5f0b10"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -330,12 +318,6 @@
         "challenge_rating": 3.0,
         "name": "Carrion Stalker",
         "subtitle": "Tiny monstrosity, unaligned",
-        "image_url": "carrion-stalker.png",
-        "background_color": {
-            "light": "#f07597",
-            "dark": "#8a0f31"
-        },
-        "is_horizontal_image": false,
         "size": "Tiny",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -472,12 +454,6 @@
         "challenge_rating": 1.0,
         "name": "Carrionette",
         "subtitle": "Small construct, unaligned",
-        "image_url": "carrionette.png",
-        "background_color": {
-            "light": "#75daf0",
-            "dark": "#0f748a"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -616,6 +592,168 @@
         }
     },
     {
+        "index": "death's-head",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Death's Head",
+        "subtitle": "Tiny undead, unaligned",
+        "size": "Tiny",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 17,
+        "hit_dice": "5d4+5",
+        "speed": {
+            "hover": true,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 3,
+                "modifier": -4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Beheaded Form",
+                "desc": "When created, a death's head takes one of three forms: Aberrant Head, Gnashing Head, or Petrifying Head. This form determines the creature's attack."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The death's head doesn't require air, food, drink, or sleep."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage plus 7 (2d6) necrotic damage.",
+                "name": "Gnashing Bite (Gnashing Head Only)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage plus 5 (1d10) necrotic damage, and the target must succeed on a 10 Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.",
+                "name": "Mind-Bending Bite (Aberrant Head Only)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage, and the target must succeed on a 10 Constitution saving throw or be restrained as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is petrified for 10 minutes.",
+                "name": "Petrifying Bite (Petrifying Head Only)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
         "index": "dullahan",
         "type": "UNDEAD",
         "subtype": null,
@@ -623,12 +761,6 @@
         "challenge_rating": 10.0,
         "name": "Dullahan",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "dullahan.png",
-        "background_color": {
-            "light": "#ffc166",
-            "dark": "#995b00"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -817,12 +949,6 @@
         "challenge_rating": 5.0,
         "name": "Elise",
         "subtitle": "Medium construct, neutral",
-        "image_url": "elise.png",
-        "background_color": {
-            "light": "#75f0e2",
-            "dark": "#0f8a7c"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 9,
@@ -1009,12 +1135,6 @@
         "challenge_rating": 6.0,
         "name": "Gallows Speaker",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "gallows-speaker.png",
-        "background_color": {
-            "light": "#75cdf0",
-            "dark": "#0f678a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -1239,12 +1359,6 @@
         "challenge_rating": 21.0,
         "name": "Greater Star Spawn Emissary",
         "subtitle": "Huge aberration, unaligned",
-        "image_url": "greater-star-spawn-emissary.png",
-        "background_color": {
-            "light": "#f09c75",
-            "dark": "#79300d"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -1462,12 +1576,6 @@
         "challenge_rating": 0.125,
         "name": "Gremishka",
         "subtitle": "Tiny monstrosity, unaligned",
-        "image_url": "gremishka.png",
-        "background_color": {
-            "light": "#f0a875",
-            "dark": "#522809"
-        },
-        "is_horizontal_image": false,
         "size": "Tiny",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -1570,12 +1678,6 @@
         "challenge_rating": 8.0,
         "name": "Inquisitor of the Mind Fire",
         "subtitle": "Medium humanoid, unaligned",
-        "image_url": "inquisitor-of-the-mind-fire.png",
-        "background_color": {
-            "light": "#75c9f0",
-            "dark": "#0f638a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -1810,12 +1912,6 @@
         "challenge_rating": 8.0,
         "name": "Inquisitor of the Sword",
         "subtitle": "Medium humanoid, unaligned",
-        "image_url": "inquisitor-of-the-sword.png",
-        "background_color": {
-            "light": "#75e9f0",
-            "dark": "#0f838a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -2030,12 +2126,6 @@
         "challenge_rating": 8.0,
         "name": "Inquisitor of the Tome",
         "subtitle": "Medium humanoid, unaligned",
-        "image_url": "inquisitor-of-the-tome.png",
-        "background_color": {
-            "light": "#f07582",
-            "dark": "#8a0f1c"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 11,
@@ -2264,12 +2354,6 @@
         "challenge_rating": 5.0,
         "name": "Isolde",
         "subtitle": "Medium fey(elf), lawful or chaotic evil",
-        "image_url": "isolde.png",
-        "background_color": {
-            "light": "#f09975",
-            "dark": "#321306"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "lawful or chaotic evil",
         "armor_class": 19,
@@ -2543,12 +2627,6 @@
         "challenge_rating": 9.0,
         "name": "Jiangshi",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "jiangshi.png",
-        "background_color": {
-            "light": "#75caf0",
-            "dark": "#0d5677"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -2738,6 +2816,219 @@
         }
     },
     {
+        "index": "lesser-star-spawn-emissary",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 19.0,
+        "name": "Lesser Star Spawn Emissary",
+        "subtitle": "Medium aberration, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 19,
+        "hit_points": 241,
+        "hit_dice": "21d8+147",
+        "speed": {
+            "hover": true,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 24,
+                "modifier": 7
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 25,
+                "modifier": 7
+            },
+            {
+                "type": "WISDOM",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "CHARISMA",
+                "value": 23,
+                "modifier": 6
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 13
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 11
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 12
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 19,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 18,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 11,
+                "name": "Perception"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Acid"
+            },
+            {
+                "index": "force",
+                "type": "OTHER",
+                "name": "Force"
+            },
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psychic"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            }
+        ],
+        "senses": [
+            "truesight 120 ft."
+        ],
+        "languages": "all, telepathy 1,000 ft.",
+        "special_abilities": [
+            {
+                "name": "Aberrant Rejuvenation",
+                "desc": "When the emissary drops to 0 hit points, its body melts away. A greater star spawn emissary instantly appears in an unoccupied space within 60 feet of where the lesser emissary disappeared. The greater emissary uses the lesser emissary's initiative count."
+            },
+            {
+                "name": "Legendary Resistance (3/Day)",
+                "desc": "If the emissary fails a saving throw, it can choose to succeed instead."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The emissary doesn't require air, food, drink, or sleep."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The emissary makes three attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "3d8",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. 16 (2d10 + 5) piercing damage plus 13 (3d8) acid damage.",
+                "name": "Lashing Maw"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+7",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": 13,
+                "description": "Ranged Spell Attack: +13 to hit, range 120 ft., one creature. 18 (2d10 + 7) psychic damage.",
+                "name": "Psychic Orb"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The emissary polymorphs into a Small or Medium creature of its choice or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+                "name": "Change Shape"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
         "index": "loup-garou",
         "type": "MONSTROSITY",
         "subtype": "shapechanger",
@@ -2745,12 +3036,6 @@
         "challenge_rating": 13.0,
         "name": "Loup Garou",
         "subtitle": "Medium monstrosity(shapechanger), unaligned",
-        "image_url": "loup-garou.png",
-        "background_color": {
-            "light": "#f08675",
-            "dark": "#420f07"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -2933,12 +3218,6 @@
         "challenge_rating": 7.0,
         "name": "Necrichor",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "necrichor.png",
-        "background_color": {
-            "light": "#f0b375",
-            "dark": "#432507"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -3168,12 +3447,6 @@
         "challenge_rating": 8.0,
         "name": "Nosferatu",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "nosferatu.png",
-        "background_color": {
-            "light": "#f0a375",
-            "dark": "#6d300c"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 17,
@@ -3366,6 +3639,122 @@
         }
     },
     {
+        "index": "podling",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Podling",
+        "subtitle": "Medium plant, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 26,
+        "hit_dice": "4d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            }
+        ],
+        "senses": [
+            "blindsight 30 ft."
+        ],
+        "languages": "Deep Speech, the languages the creature knew in life",
+        "special_abilities": [
+            {
+                "name": "Semblance of Life",
+                "desc": "The podling is a physical copy of a creature digested by a bodytaker plant. The podling has the digested creature's memories and behaves like that creature, but with occasional lapses. An observer familiar with the digested creature can recognize the discrepancies with a successful 20 Wisdom (Insight) check, or automatically if the podling does something in direct contradiction to the digested creature's established beliefs or behavior. The podling melts into a slurry when it dies, when the bodytaker plant that created it dies, or when the bodytaker plant dismisses it (no action required)."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The podling doesn't require sleep."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage.",
+                "name": "Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
         "index": "priest-of-osybus",
         "type": "HUMANOID",
         "subtype": null,
@@ -3373,12 +3762,6 @@
         "challenge_rating": 6.0,
         "name": "Priest of Osybus",
         "subtitle": "Medium humanoid, unaligned",
-        "image_url": "priest-of-osybus.png",
-        "background_color": {
-            "light": "#f08a75",
-            "dark": "#8a240f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 14,
@@ -3523,12 +3906,6 @@
         "challenge_rating": 12.0,
         "name": "Relentless Juggernaut",
         "subtitle": "Large fiend, unaligned",
-        "image_url": "relentless-juggernaut.png",
-        "background_color": {
-            "light": "#f0758e",
-            "dark": "#5b0a1a"
-        },
-        "is_horizontal_image": false,
         "size": "Large",
         "alignment": "unaligned",
         "armor_class": 17,
@@ -3739,6 +4116,172 @@
         }
     },
     {
+        "index": "relentless-slasher",
+        "type": "FIEND",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 8.0,
+        "name": "Relentless Slasher",
+        "subtitle": "Medium fiend, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 84,
+        "hit_dice": "13d8+26",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 7,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Survival"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            }
+        ],
+        "senses": [
+            "darkvision 120 ft."
+        ],
+        "languages": "understands all languages but can't speak",
+        "special_abilities": [
+            {
+                "name": "Legendary Resistance (1/Day)",
+                "desc": "If the slasher fails a saving throw, it can choose to succeed instead."
+            },
+            {
+                "name": "Shrouded Presence",
+                "desc": "The slasher is immune to any effect that would sense its emotions or read its thoughts, and it can't be detected by abilities that sense Fiends."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The slasher makes two Slasher's Knife attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack:,rw +7 to hit, reach 5 ft. or range 30/60 ft., one target. 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 (2d6) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 (1d6). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful 15 Wisdom (Medicine) check.",
+                "name": "Slasher's Knife"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
         "index": "strigoi",
         "type": "MONSTROSITY",
         "subtype": null,
@@ -3746,12 +4289,6 @@
         "challenge_rating": 4.0,
         "name": "Strigoi",
         "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "strigoi.png",
-        "background_color": {
-            "light": "#f08d75",
-            "dark": "#8a270f"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 16,
@@ -3953,12 +4490,6 @@
         "challenge_rating": 2.0,
         "name": "Swarm of Gremishkas",
         "subtitle": "Medium monstrosity, unaligned",
-        "image_url": "swarm-of-gremishkas.png",
-        "background_color": {
-            "light": "#f0a875",
-            "dark": "#522809"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 12,
@@ -4137,12 +4668,6 @@
         "challenge_rating": 2.0,
         "name": "Swarm of Maggots",
         "subtitle": "Medium beast, unaligned",
-        "image_url": "swarm-of-maggots.png",
-        "background_color": {
-            "light": "#f08d75",
-            "dark": "#350f06"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 11,
@@ -4307,6 +4832,435 @@
         }
     },
     {
+        "index": "swarm-of-scarabs",
+        "type": "BEAST",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Swarm of Scarabs",
+        "subtitle": "Medium beast, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "BURROW",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            },
+            {
+                "index": "grappled",
+                "type": "GRAPPLED",
+                "name": "Grappled"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Prone"
+            },
+            {
+                "index": "restrained",
+                "type": "RESTRAINED",
+                "name": "Restrained"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Stunned"
+            }
+        ],
+        "senses": [
+            "tremorsense 60 ft."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Swarm",
+                "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny scarab. The swarm can't regain hit points or gain temporary hit points."
+            },
+            {
+                "name": "Skeletonize",
+                "desc": "If the swarm starts its turn in the same space as a dead creature that is Large or smaller, the corpse is destroyed, leaving behind only equipment and bones (or exoskeleton)."
+            },
+            {
+                "name": "Spider Climb",
+                "desc": "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "deals",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "swarm's",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies.",
+                "name": "Ravenous Bites"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
+        "index": "swarm-of-zombie-limbs",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Swarm of Zombie Limbs",
+        "subtitle": "Medium undead, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 22,
+        "hit_dice": "5d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Bludgeoning"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Piercing"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Slashing"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Frightened"
+            },
+            {
+                "index": "grappled",
+                "type": "GRAPPLED",
+                "name": "Grappled"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            },
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Prone"
+            },
+            {
+                "index": "restrained",
+                "type": "RESTRAINED",
+                "name": "Restrained"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Stunned"
+            }
+        ],
+        "senses": [
+            "blindsight 30 ft. (blind beyond this radius)"
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Swarm",
+                "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny limb. The swarm can't regain hit points or gain temporary hit points."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The swarm doesn't require air, food, drink, or sleep."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The swarm makes one Undead Mass attack and one Grasping Limbs attack.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning damage if the swarm has half of its hit points or fewer.",
+                "name": "Undead Mass"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. 7 (2d6) necrotic damage, and the creature must succeed on a 12 Strength saving throw or be restrained. The creature can repeat the saving throw at the end of each of its turns, taking 7 (2d6) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies.",
+                "name": "Grasping Limbs"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
         "index": "unspeakable-horror",
         "type": "MONSTROSITY",
         "subtype": null,
@@ -4314,12 +5268,6 @@
         "challenge_rating": 8.0,
         "name": "Unspeakable Horror",
         "subtitle": "Huge monstrosity, unaligned",
-        "image_url": "unspeakable-horror.png",
-        "background_color": {
-            "light": "#f0c675",
-            "dark": "#8a600f"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -4471,12 +5419,6 @@
         "challenge_rating": 5.0,
         "name": "Vampiric Mind Flayer",
         "subtitle": "Medium undead, unaligned",
-        "image_url": "vampiric-mind-flayer.png",
-        "background_color": {
-            "light": "#75bdf0",
-            "dark": "#0f578a"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "unaligned",
         "armor_class": 15,
@@ -4692,6 +5634,343 @@
                 "attack_bonus": null,
                 "description": "The mind flayer targets one creature it is grappling. The target must succeed on a 15 Wisdom saving throw or take 14 (4d6) psychic damage and gain 1 level of exhaustion. The mind flayer regains a number of hit points equal to the psychic damage dealt. A creature reduced to 0 hit points by the psychic damage dies.",
                 "name": "Drink Sapience"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
+        "index": "zombie-clot",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Zombie Clot",
+        "subtitle": "Huge undead, unaligned",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 12,
+        "hit_points": 104,
+        "hit_dice": "11d12+33",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralyzed"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "Petrified"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Stunned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "understands the languages it knew in life but can't speak",
+        "special_abilities": [
+            {
+                "name": "Deathly Stench",
+                "desc": "Any creature that starts its turn within 10 feet of the zombie must succeed on a 14 Constitution saving throw or take 9 (2d8) poison damage and be poisoned until the start of the creature's next turn."
+            },
+            {
+                "name": "Undead Fortitude",
+                "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The zombie doesn't require air, food, drink, or sleep."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The zombie makes two Slam attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. 18 (3d8 + 5) bludgeoning damage.",
+                "name": "Slam"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The zombie flings a detached clump of corpses at a creature it can see within 30 feet of it. The target must succeed on a 16 Strength saving throw or take 16 (3d10) bludgeoning damage, and if the target is a Large or smaller creature, it becomes entombed in dead flesh.\nA creature entombed in the dead flesh is restrained, has total cover against attacks and other effects outside the dead flesh, and takes 10 (3d6) necrotic damage at the start of each of its turns. The creature can be freed if the dead flesh is destroyed. The dead flesh is a Large object with AC 10, 25 hit points, and immunity to poison and psychic damage.",
+                "name": "Flesh Entomb (Recharge 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        }
+    },
+    {
+        "index": "zombie-plague-spreader",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Zombie Plague Spreader",
+        "subtitle": "Medium undead, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 78,
+        "hit_dice": "12d8+24",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrotic"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Poison"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Charmed"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exhaustion"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Poisoned"
+            }
+        ],
+        "senses": [
+            "darkvision 60 ft."
+        ],
+        "languages": "understands the languages it knew in life but can't speak",
+        "special_abilities": [
+            {
+                "name": "Undead Fortitude",
+                "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+            },
+            {
+                "name": "Unusual Nature",
+                "desc": "The zombie doesn't require air, food, drink, or sleep."
+            },
+            {
+                "name": "Viral Aura",
+                "desc": "Any creature that starts its turn within 10 feet of the plague spreader must make a 12 Constitution saving throw. On a failed save, the creature is poisoned and can't regain hit points until the end of its next turn. On a successful save, the creature is immune to this plague spreader's Viral Aura for 24 hours."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The plague spreader makes two Slam attacks.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "2d8",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) necrotic damage.",
+                "name": "Slam"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The plague spreader releases toxic gas in a 30-foot-radius sphere centered on itself. Each creature in that area must make a 12 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one. A Humanoid reduced to 0 hit points by this damage dies and rises as a zombie (see its stat block in the Monster Manual) 1 minute later. The zombie acts immediately after the plague spreader in the initiative count.",
+                "name": "Virulent Miasma (1/Day)"
             }
         ],
         "reactions": [

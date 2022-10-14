@@ -7,12 +7,6 @@
         "challenge_rating": 3.0,
         "name": "Anchorite of Talos",
         "subtitle": "Medium humanoid(half-orc shapechanger), neutral evil",
-        "image_url": "anchorite-of-talos.png",
-        "background_color": {
-            "light": "#f0ae75",
-            "dark": "#7c410e"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 13,
@@ -181,12 +175,6 @@
         "challenge_rating": 0.5,
         "name": "Don-Jon Raskin",
         "subtitle": "Medium humanoid(human), neutral",
-        "image_url": "don-jon-raskin.png",
-        "background_color": {
-            "light": "#f07582",
-            "dark": "#35060b"
-        },
-        "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 10,
@@ -334,12 +322,6 @@
         "challenge_rating": 4.0,
         "name": "Falcon the Hunter",
         "subtitle": "Medium humanoid(human), neutral good",
-        "image_url": "falcon-the-hunter.png",
-        "background_color": {
-            "light": "#f0a875",
-            "dark": "#8a420f"
-        },
-        "is_horizontal_image": true,
         "size": "Medium",
         "alignment": "neutral good",
         "armor_class": 14,
@@ -500,12 +482,6 @@
         "challenge_rating": 6.0,
         "name": "Gorthok the Thunder Boar",
         "subtitle": "Huge monstrosity, chaotic evil",
-        "image_url": "gorthok-the-thunder-boar.png",
-        "background_color": {
-            "light": "#75e4f0",
-            "dark": "#0f7e8a"
-        },
-        "is_horizontal_image": false,
         "size": "Huge",
         "alignment": "chaotic evil",
         "armor_class": 15,
@@ -691,12 +667,6 @@
         "challenge_rating": 0.25,
         "name": "Rock Gnome Recluse",
         "subtitle": "Small humanoid(gnome), chaotic neutral",
-        "image_url": "rock-gnome-recluse.png",
-        "background_color": {
-            "light": "#f0ae75",
-            "dark": "#8a480f"
-        },
-        "is_horizontal_image": false,
         "size": "Small",
         "alignment": "chaotic neutral",
         "armor_class": 10,
