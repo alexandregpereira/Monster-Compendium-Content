@@ -11,8 +11,8 @@
     {
         "monster_index": "acolyte",
         "background_color": {
-            "light": "#e2d2d0",
-            "dark": "#e2d2d0"
+            "light": "#e6d8cb",
+            "dark": "#e6d8cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/acolyte.png"
@@ -20,10 +20,10 @@
     {
         "monster_index": "adult-black-dragon",
         "background_color": {
-            "light": "#d1d8e0",
-            "dark": "#d1d8e0"
+            "light": "#ded3d6",
+            "dark": "#ded3d6"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-black-dragon.png"
     },
     {
@@ -83,10 +83,10 @@
     {
         "monster_index": "adult-red-dragon",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cecc",
+            "dark": "#e6cecc"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-red-dragon.png"
     },
     {
@@ -119,8 +119,8 @@
     {
         "monster_index": "ancient-black-dragon",
         "background_color": {
-            "light": "#ded3d5",
-            "dark": "#ded3d5"
+            "light": "#e6d8cb",
+            "dark": "#e6d8cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-black-dragon.png"
@@ -128,8 +128,8 @@
     {
         "monster_index": "ancient-blue-dragon",
         "background_color": {
-            "light": "#d1d8e0",
-            "dark": "#d1d8e0"
+            "light": "#cfd8e2",
+            "dark": "#cfd8e2"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-blue-dragon.png"
@@ -173,8 +173,8 @@
     {
         "monster_index": "ancient-green-dragon",
         "background_color": {
-            "light": "#dfe6cc",
-            "dark": "#dfe6cc"
+            "light": "#dce6cb",
+            "dark": "#dce6cb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-green-dragon.png"
@@ -182,8 +182,8 @@
     {
         "monster_index": "ancient-red-dragon",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cdcb",
+            "dark": "#e6cdcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-red-dragon.png"
@@ -200,8 +200,8 @@
     {
         "monster_index": "ancient-white-dragon",
         "background_color": {
-            "light": "#d3d8de",
-            "dark": "#d3d8de"
+            "light": "#d1d7e0",
+            "dark": "#d1d7e0"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-white-dragon.png"
@@ -1469,8 +1469,8 @@
     {
         "monster_index": "priest",
         "background_color": {
-            "light": "#e6d8cc",
-            "dark": "#e6d8cc"
+            "light": "#e1d6d1",
+            "dark": "#e1d6d1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/priest.png"
@@ -1703,8 +1703,8 @@
     {
         "monster_index": "spy",
         "background_color": {
-            "light": "#ded3d3",
-            "dark": "#ded3d3"
+            "light": "#dacde4",
+            "dark": "#dacde4"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/spy.png"
@@ -2108,10 +2108,10 @@
     {
         "monster_index": "young-blue-dragon",
         "background_color": {
-            "light": "#e5d7cd",
-            "dark": "#e5d7cd"
+            "light": "#e1dbd0",
+            "dark": "#e1dbd0"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-blue-dragon.png"
     },
     {
@@ -2153,10 +2153,10 @@
     {
         "monster_index": "young-green-dragon",
         "background_color": {
-            "light": "#dce6cb",
-            "dark": "#dce6cb"
+            "light": "#e1d9d0",
+            "dark": "#e1d9d0"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-green-dragon.png"
     },
     {
@@ -2180,10 +2180,10 @@
     {
         "monster_index": "young-white-dragon",
         "background_color": {
-            "light": "#e1dcd1",
-            "dark": "#e1dcd1"
+            "light": "#d1d7e0",
+            "dark": "#d1d7e0"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/young-white-dragon.png"
     },
     {
