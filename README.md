@@ -1,6 +1,6 @@
 # Monster Compendium Content
 
-This repository contains content to be used on the [Monster Compendium Android App](https://github.com/alexandregpereira/monster-compendium). The files [monsters.json](json/monsters.json) and [spells.json](json/spells.json) were formatted from the API https://dnd5eapi.co data.
+This repository contains content consumed by the [Monster Compendium Android App](https://github.com/alexandregpereira/monster-compendium). The files [monsters.json](json/monsters.json) and [spells.json](json/spells.json) were formatted from the API https://dnd5eapi.co data.
 
 ## Schema
 
@@ -202,3 +202,23 @@ This repository contains content to be used on the [Monster Compendium Android A
     }
 ]
 ```
+
+## Content License
+
+The content of this app are Open-Gaming License (OGL). The content and license can found at the [D&D 5th Systems Reference Document (SRD)](https://dnd.wizards.com/resources/systems-reference-document). Dungeons & Dragons (D&D) is a trademark of Wizards of the Coast company.
+
+## Licence
+
+    Copyright 2022 Alexandre Gomes Pereira
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+           http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
