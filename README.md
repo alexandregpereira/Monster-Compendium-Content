@@ -1,12 +1,12 @@
 # Monster Compendium Content
 
-This repository contains data and image content to be used on the [Monster Compendium Android App](https://github.com/alexandregpereira/monster-compendium). The files [monsters.json](json/monsters.json) and [spells.json](json/spells.json) were formatted from the API https://dnd5eapi.co.
+This repository contains content to be used on the [Monster Compendium Android App](https://github.com/alexandregpereira/monster-compendium). The files [monsters.json](json/monsters.json) and [spells.json](json/spells.json) were formatted from the API https://dnd5eapi.co data.
 
-## Scheme
+## Schema
 
-### monsters.json
+### [monsters.json](json/monsters.json)
 
-```json
+```kotlin
 [
     {
         "index": String,
@@ -23,7 +23,7 @@ This repository contains data and image content to be used on the [Monster Compe
         "hit_dice": String,
         "speed": {
             "hover": Boolean,
-            "value": [
+            "value": RequiredList [
                 {
                     "type": "BURROW" | "CLIMB" | "FLY" | "WALK" | "SWIM",
                     "measurement_unit": "FEET" | "METER",
@@ -164,9 +164,9 @@ This repository contains data and image content to be used on the [Monster Compe
 ]
 ```
 
-### spells.json
+### [spells.json](json/spells.json)
 
-```json
+```kotlin
 [
     {
         "index": String,
@@ -187,9 +187,9 @@ This repository contains data and image content to be used on the [Monster Compe
 ]
 ```
 
-### monster-images.json
+### [monster-images.json](json/monster-images.json)
 
-```json
+```kotlin
 [
     {
         "monster_index": String,
