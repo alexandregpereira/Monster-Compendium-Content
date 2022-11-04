@@ -171,6 +171,37 @@
                 "name": "Enslave"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The aboleth makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The aboleth makes one tail attack.",
+                "name": "Tail Swipe"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
+                "attack_bonus": 0,
+                "description": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
+                "name": "Psychic Drain (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -555,6 +586,37 @@
                 "name": "Acid Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -773,6 +835,37 @@
                 "name": "Lightning Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -983,6 +1076,37 @@
                 "attack_bonus": null,
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.\nSleep Breath. The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.",
                 "name": "Breath Weapons"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -1196,6 +1320,37 @@
                 "name": "Breath Weapons"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+7",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -1401,6 +1556,37 @@
                 "attack_bonus": null,
                 "description": "The dragon uses one of the following breath weapons.\nAcid Breath. The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.\nSlowing Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
                 "name": "Breath Weapons"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "13d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -1617,6 +1803,37 @@
                 "attack_bonus": null,
                 "description": "The dragon uses one of the following breath weapons.\nFire Breath. The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 66 (12d10) fire damage on a failed save, or half as much damage on a successful one.\nWeakening Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 21 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -1861,6 +2078,37 @@
                 "name": "Poison Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -2086,6 +2334,37 @@
                 "name": "Lair Actions"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -2290,6 +2569,37 @@
                 "attack_bonus": null,
                 "description": "The dragon uses one of the following breath weapons.\nCold Breath. The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.\nParalyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Breath Weapons"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -2518,6 +2828,37 @@
                 "attack_bonus": null,
                 "description": "The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.",
                 "name": "Cold Breath"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -2934,6 +3275,37 @@
                 "name": "Acid Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -3146,6 +3518,37 @@
                 "attack_bonus": null,
                 "description": "The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.",
                 "name": "Lightning Breath"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+9",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -3367,6 +3770,37 @@
                 "name": "Change Shape"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -3585,6 +4019,37 @@
                 "name": "Change Shape"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+9",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -3797,6 +4262,37 @@
                 "attack_bonus": null,
                 "description": "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).\nIn a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                 "name": "Change Shape"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -4020,6 +4516,37 @@
                 "attack_bonus": null,
                 "description": "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).\nIn a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                 "name": "Change Shape"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+10",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -4264,6 +4791,37 @@
                 "name": "Poison Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -4482,6 +5040,37 @@
                 "name": "Fire Breath"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+10",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -4693,6 +5282,37 @@
                 "attack_bonus": null,
                 "description": "The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).\nIn a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
                 "name": "Change Shape"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+10",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -4921,6 +5541,37 @@
                 "attack_bonus": null,
                 "description": "The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (l6d8) cold damage on a failed save, or half as much damage on a successful one.",
                 "name": "Cold Breath"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a Wisdom (Perception) check.",
+                "name": "Detect"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The dragon makes a tail attack.",
+                "name": "Tail Attack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+8",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
+                "name": "Wing Attack (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -5251,6 +5902,29 @@
                 "attack_bonus": null,
                 "description": "The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.\n\nFirst Roar. Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nSecond Roar. Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThird Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.",
                 "name": "Roar"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx makes one claw attack.",
+                "name": "Claw Attack"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.",
+                "name": "Teleport (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
+                "name": "Cast a Spell (Costs 3 Actions)"
             }
         ],
         "reactions": [
@@ -19787,6 +20461,29 @@
                 "name": "Claw"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx makes one claw attack.",
+                "name": "Claw Attack"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.",
+                "name": "Teleport (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
+                "name": "Cast a Spell (Costs 3 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -22874,6 +23571,37 @@
                 "name": "Lightning Storm"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 0,
+                "description": "The kraken makes one tentacle attack or uses its Fling.",
+                "name": "Tentacle Attack or Fling"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 0,
+                "description": "The kraken uses Lightning Storm.",
+                "name": "Lightning Storm (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": 0,
+                "description": "While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 23 Constitution saving throw, taking 16 (3d10) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.",
+                "name": "Ink Cloud (Costs 3 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -23636,6 +24364,44 @@
                 "attack_bonus": 12,
                 "description": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Paralyzing Touch"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The lich casts a cantrip.",
+                "name": "Cantrip"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The lich uses its Paralyzing Touch.",
+                "name": "Paralyzing Touch (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.",
+                "name": "Frightening Gaze (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6d6",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.",
+                "name": "Disrupt Life (Costs 3 Actions)"
             }
         ],
         "reactions": [
@@ -26248,6 +27014,43 @@
                 "attack_bonus": null,
                 "description": "The mummy lord targets one creature it can see within 60 feet of it. If the target can see the mummy lord, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours.",
                 "name": "Dreadful Glare"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The mummy lord makes one attack with its rotting fist or uses its Dreadful Glare.",
+                "name": "Attack"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Blinding dust and sand swirls magically around the mummy lord. Each creature within 5 feet of the mummy lord must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature's next turn.",
+                "name": "Blinding Dust"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The mummy lord utters a blasphemous word. Each non-undead creature within 10 feet of the mummy lord that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the mummy lord's next turn.",
+                "name": "Blasphemous Word (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The mummy lord magically unleashes negative energy. Creatures within 60 feet of the mummy lord, including ones behind barriers and around corners, can't regain hit points until the end of the mummy lord's next turn.",
+                "name": "Channel Negative Energy (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.",
+                "name": "Whirlwind of Sand (Costs 2 Actions)"
             }
         ],
         "reactions": [
@@ -32527,6 +33330,45 @@
                 "name": "Healing Touch"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The solar magically teleports, along with any equipment it is wearing or carrying, up to 120 ft. to an unoccupied space it can see.",
+                "name": "Teleport"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    },
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "radiant",
+                            "type": "RADIANT",
+                            "name": "Radiant"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "The solar emits magical, divine energy. Each creature of its choice in a 10 -foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.",
+                "name": "Searing Burst (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The solar targets one creature it can see within 30 ft. of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.",
+                "name": "Blinding Gaze (Costs 3 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -34514,6 +35356,29 @@
                 "name": "Swallow"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The tarrasque makes one claw attack or tail attack.",
+                "name": "Attack"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The tarrasque moves up to half its speed.",
+                "name": "Move"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The tarrasque makes one bite attack or uses its Swallow.",
+                "name": "Chomp (Costs 2 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -35488,6 +36353,29 @@
                 "name": "Teleport"
             }
         ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The unicorn makes one attack with its hooves.",
+                "name": "Hooves"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 ft. of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn.",
+                "name": "Shimmering Shield (Costs 2 Actions)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "The unicorn magically regains 11 (2d8 + 2) hit points.",
+                "name": "Heal Self (Costs 3 Actions)"
+            }
+        ],
         "reactions": [
         ],
         "source": {
@@ -35703,6 +36591,29 @@
                 "attack_bonus": null,
                 "description": "The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.",
                 "name": "Children of the Night"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 0,
+                "description": "The vampire moves up to its speed without provoking opportunity attacks.",
+                "name": "Move"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 0,
+                "description": "The vampire makes one unarmed strike.",
+                "name": "Unarmed Strike"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 0,
+                "description": "The vampire makes one bite attack.",
+                "name": "Bite (Costs 2 Actions)"
             }
         ],
         "reactions": [
