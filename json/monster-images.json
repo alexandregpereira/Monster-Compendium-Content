@@ -2,8 +2,8 @@
     {
         "monster_index": "aboleth",
         "background_color": {
-            "light": "#d3dedc",
-            "dark": "#d3dedc"
+            "light": "#d3dfde",
+            "dark": "#d3dfde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/aboleth.png"
@@ -20,17 +20,17 @@
     {
         "monster_index": "adult-black-dragon",
         "background_color": {
-            "light": "#ded3d6",
-            "dark": "#ded3d6"
+            "light": "#d3dcde",
+            "dark": "#d3dcde"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-black-dragon.png"
     },
     {
         "monster_index": "adult-blue-dragon",
         "background_color": {
-            "light": "#e3dfcf",
-            "dark": "#e3dfcf"
+            "light": "#d3dbde",
+            "dark": "#d3dbde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-blue-dragon.png"
@@ -110,8 +110,8 @@
     {
         "monster_index": "air-elemental",
         "background_color": {
-            "light": "#d1d6e1",
-            "dark": "#d1d6e1"
+            "light": "#cbe1e6",
+            "dark": "#cbe1e6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/air-elemental.png"
@@ -218,8 +218,8 @@
     {
         "monster_index": "animated-armor",
         "background_color": {
-            "light": "#e0d4d2",
-            "dark": "#e0d4d2"
+            "light": "#e6cfcb",
+            "dark": "#e6cfcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/animated-armor.png"
@@ -227,17 +227,17 @@
     {
         "monster_index": "ankheg",
         "background_color": {
-            "light": "#e6d6cb",
-            "dark": "#e6d6cb"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ankheg.png"
     },
     {
         "monster_index": "archmage",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cbcb",
+            "dark": "#e6cbcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/archmage.png"
@@ -245,17 +245,17 @@
     {
         "monster_index": "assassin",
         "background_color": {
-            "light": "#ced5e3",
-            "dark": "#ced5e3"
+            "light": "#e6cecb",
+            "dark": "#e6cecb"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/assassin.png"
     },
     {
         "monster_index": "awakened-shrub",
         "background_color": {
-            "light": "#e4d6cd",
-            "dark": "#e4d6cd"
+            "light": "#d3ded9",
+            "dark": "#d3ded9"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/awakened-shrub.png"
@@ -263,8 +263,8 @@
     {
         "monster_index": "awakened-tree",
         "background_color": {
-            "light": "#e6dfcb",
-            "dark": "#e6dfcb"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/awakened-tree.png"
@@ -578,10 +578,10 @@
     {
         "monster_index": "deva",
         "background_color": {
-            "light": "#ded7d3",
-            "dark": "#ded7d3"
+            "light": "#d3dede",
+            "dark": "#d3dede"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/deva.png"
     },
     {
@@ -731,8 +731,8 @@
     {
         "monster_index": "fire-elemental",
         "background_color": {
-            "light": "#e6cfcb",
-            "dark": "#e6cfcb"
+            "light": "#e6d9cb",
+            "dark": "#e6d9cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/fire-elemental.png"
@@ -1460,10 +1460,10 @@
     {
         "monster_index": "planetar",
         "background_color": {
-            "light": "#ded9d3",
-            "dark": "#ded9d3"
+            "light": "#ccdae5",
+            "dark": "#ccdae5"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/planetar.png"
     },
     {
@@ -1667,8 +1667,8 @@
     {
         "monster_index": "solar",
         "background_color": {
-            "light": "#ded7d3",
-            "dark": "#ded7d3"
+            "light": "#e6cbcb",
+            "dark": "#e6cbcb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/solar.png"
@@ -1883,8 +1883,8 @@
     {
         "monster_index": "water-elemental",
         "background_color": {
-            "light": "#cbe2e6",
-            "dark": "#cbe2e6"
+            "light": "#ccdde6",
+            "dark": "#ccdde6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/water-elemental.png"
