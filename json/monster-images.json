@@ -50,7 +50,7 @@
             "light": "#ded6d3",
             "dark": "#ded6d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-bronze-dragon.png"
     },
     {
@@ -59,7 +59,7 @@
             "light": "#e6d2cb",
             "dark": "#e6d2cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-copper-dragon.png"
     },
     {
@@ -68,7 +68,7 @@
             "light": "#e6d4cb",
             "dark": "#e6d4cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/adult-gold-dragon.png"
     },
     {
@@ -122,7 +122,7 @@
             "light": "#ded5d3",
             "dark": "#ded5d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-black-dragon.png"
     },
     {
@@ -131,7 +131,7 @@
             "light": "#cbd9e6",
             "dark": "#cbd9e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-blue-dragon.png"
     },
     {
@@ -149,7 +149,7 @@
             "light": "#e6d4cb",
             "dark": "#e6d4cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-bronze-dragon.png"
     },
     {
@@ -158,7 +158,7 @@
             "light": "#e6d7cb",
             "dark": "#e6d7cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-copper-dragon.png"
     },
     {
@@ -167,7 +167,7 @@
             "light": "#e6d3cb",
             "dark": "#e6d3cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-gold-dragon.png"
     },
     {
@@ -185,7 +185,7 @@
             "light": "#e6cecb",
             "dark": "#e6cecb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-red-dragon.png"
     },
     {
@@ -194,7 +194,7 @@
             "light": "#d3dade",
             "dark": "#d3dade"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-silver-dragon.png"
     },
     {
@@ -203,7 +203,7 @@
             "light": "#ded9d3",
             "dark": "#ded9d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ancient-white-dragon.png"
     },
     {
@@ -308,8 +308,8 @@
     {
         "monster_index": "barbed-devil",
         "background_color": {
-            "light": "#e6ddcb",
-            "dark": "#e6ddcb"
+            "light": "#e3cfd1",
+            "dark": "#e3cfd1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/barbed-devil.png"
@@ -614,8 +614,8 @@
     {
         "monster_index": "dretch",
         "background_color": {
-            "light": "#e2d4d0",
-            "dark": "#e2d4d0"
+            "light": "#d7dfd2",
+            "dark": "#d7dfd2"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/dretch.png"
@@ -704,8 +704,8 @@
     {
         "monster_index": "erinyes",
         "background_color": {
-            "light": "#e6d0cb",
-            "dark": "#e6d0cb"
+            "light": "#e6cfcb",
+            "dark": "#e6cfcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/erinyes.png"
@@ -758,8 +758,8 @@
     {
         "monster_index": "flying-sword",
         "background_color": {
-            "light": "#d0dfe2",
-            "dark": "#d0dfe2"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/flying-sword.png"
@@ -866,10 +866,10 @@
     {
         "monster_index": "glabrezu",
         "background_color": {
-            "light": "#e0d3d1",
-            "dark": "#e0d3d1"
+            "light": "#dfd3d4",
+            "dark": "#dfd3d4"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/glabrezu.png"
     },
     {
@@ -1028,8 +1028,8 @@
     {
         "monster_index": "hezrou",
         "background_color": {
-            "light": "#e6d9cb",
-            "dark": "#e6d9cb"
+            "light": "#e2d7d0",
+            "dark": "#e2d7d0"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/hezrou.png"
@@ -1073,10 +1073,10 @@
     {
         "monster_index": "horned-devil",
         "background_color": {
-            "light": "#e4d8ce",
-            "dark": "#e4d8ce"
+            "light": "#e6d1cb",
+            "dark": "#e6d1cb"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/horned-devil.png"
     },
     {
@@ -1091,10 +1091,10 @@
     {
         "monster_index": "ice-devil",
         "background_color": {
-            "light": "#dfd2d3",
-            "dark": "#dfd2d3"
+            "light": "#d3dbde",
+            "dark": "#d3dbde"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/ice-devil.png"
     },
     {
@@ -1109,8 +1109,8 @@
     {
         "monster_index": "imp",
         "background_color": {
-            "light": "#e0dad2",
-            "dark": "#e0dad2"
+            "light": "#e6cdcb",
+            "dark": "#e6cdcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/imp.png"
@@ -1166,7 +1166,7 @@
             "light": "#e1dad0",
             "dark": "#e1dad0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/kraken.png"
     },
     {
@@ -1193,7 +1193,7 @@
             "light": "#e6dacc",
             "dark": "#e6dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/lich.png"
     },
     {
@@ -1253,8 +1253,8 @@
     {
         "monster_index": "marilith",
         "background_color": {
-            "light": "#dfd7d3",
-            "dark": "#dfd7d3"
+            "light": "#dfd3d5",
+            "dark": "#dfd3d5"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/marilith.png"
@@ -1328,14 +1328,14 @@
             "light": "#e6cdcb",
             "dark": "#e6cdcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mummy-lord.png"
     },
     {
         "monster_index": "nalfeshnee",
         "background_color": {
-            "light": "#e1d9d1",
-            "dark": "#e1d9d1"
+            "light": "#e2dacf",
+            "dark": "#e2dacf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/nalfeshnee.png"
@@ -1496,8 +1496,8 @@
     {
         "monster_index": "quasit",
         "background_color": {
-            "light": "#e6e2cb",
-            "dark": "#e6e2cb"
+            "light": "#e2d9cf",
+            "dark": "#e2d9cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/quasit.png"
@@ -1667,8 +1667,8 @@
     {
         "monster_index": "solar",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6d5cb",
+            "dark": "#e6d5cb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/solar.png"
@@ -1760,7 +1760,7 @@
             "light": "#e6d6cb",
             "dark": "#e6d6cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/tarrasque.png"
     },
     {
@@ -1832,7 +1832,7 @@
             "light": "#d0d6e2",
             "dark": "#d0d6e2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vampire.png"
     },
     {
@@ -1865,8 +1865,8 @@
     {
         "monster_index": "vrock",
         "background_color": {
-            "light": "#d3ded9",
-            "dark": "#d3ded9"
+            "light": "#e4d6ce",
+            "dark": "#e4d6ce"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/vrock.png"
