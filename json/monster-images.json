@@ -1154,8 +1154,8 @@
     {
         "monster_index": "kobold",
         "background_color": {
-            "light": "#e1d1d0",
-            "dark": "#e1d1d0"
+            "light": "#dfd4d2",
+            "dark": "#dfd4d2"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/kobold.png"
@@ -1208,8 +1208,8 @@
     {
         "monster_index": "mage",
         "background_color": {
-            "light": "#dfd3d2",
-            "dark": "#dfd3d2"
+            "light": "#e5d7cd",
+            "dark": "#e5d7cd"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mage.png"
@@ -1235,8 +1235,8 @@
     {
         "monster_index": "mammoth",
         "background_color": {
-            "light": "#ded7d3",
-            "dark": "#ded7d3"
+            "light": "#e1d8d1",
+            "dark": "#e1d8d1"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mammoth.png"
@@ -1325,8 +1325,8 @@
     {
         "monster_index": "mummy-lord",
         "background_color": {
-            "light": "#e6cdcb",
-            "dark": "#e6cdcb"
+            "light": "#ded8d3",
+            "dark": "#ded8d3"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/mummy-lord.png"
@@ -1361,8 +1361,8 @@
     {
         "monster_index": "noble",
         "background_color": {
-            "light": "#e6d3cb",
-            "dark": "#e6d3cb"
+            "light": "#e6d8cb",
+            "dark": "#e6d8cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/noble.png"
@@ -1469,8 +1469,8 @@
     {
         "monster_index": "priest",
         "background_color": {
-            "light": "#e1d6d1",
-            "dark": "#e1d6d1"
+            "light": "#e6cfcb",
+            "dark": "#e6cfcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/priest.png"
@@ -1703,8 +1703,8 @@
     {
         "monster_index": "spy",
         "background_color": {
-            "light": "#dacde4",
-            "dark": "#dacde4"
+            "light": "#e5cfcd",
+            "dark": "#e5cfcd"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/spy.png"
@@ -1784,8 +1784,8 @@
     {
         "monster_index": "tribal-warrior",
         "background_color": {
-            "light": "#e4d7ce",
-            "dark": "#e4d7ce"
+            "light": "#e6d3cb",
+            "dark": "#e6d3cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/tribal-warrior.png"
@@ -1793,8 +1793,8 @@
     {
         "monster_index": "triceratops",
         "background_color": {
-            "light": "#e6d9cb",
-            "dark": "#e6d9cb"
+            "light": "#e6d4cb",
+            "dark": "#e6d4cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/triceratops.png"
@@ -1811,10 +1811,10 @@
     {
         "monster_index": "tyrannosaurus-rex",
         "background_color": {
-            "light": "#cfe3d7",
-            "dark": "#cfe3d7"
+            "light": "#e1d6d0",
+            "dark": "#e1d6d0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/tyrannosaurus-rex.png"
     },
     {
@@ -1847,8 +1847,8 @@
     {
         "monster_index": "veteran",
         "background_color": {
-            "light": "#e6d2cb",
-            "dark": "#e6d2cb"
+            "light": "#e2d9cf",
+            "dark": "#e2d9cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/veteran.png"
