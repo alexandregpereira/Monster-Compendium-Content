@@ -8,7 +8,8 @@
         "totalMonsters": 123,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
         "isEnabled": false,
-        "summary": "Um compêndio reverenciado no reino de D&D - apresenta uma diversificada e assustadora variedade de entidades míticas. De dragões flamejantes e gigantes imponentes a devoradores de mentes insidiosos e observadores oniscientes, é um banquete fantástico, permitindo aos Mestres revigorar suas aventuras e propor desafios emocionantes aos jogadores."
+        "isLoreEnabled": true,
+        "summary": "O Livro dos Monstros é um tesouro de criaturas icônicas do D&D, como dragões, gigantes e observadores. Repleto de estatísticas fáceis de usar e histórias envolventes, ele alimenta sua imaginação. Um recurso essencial para Mestres de Dungeons, enriquece qualquer aventura!"
     },
     {
         "source": {
@@ -18,6 +19,7 @@
         "totalMonsters": 6,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
         "isEnabled": false,
+        "isLoreEnabled": true,
         "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar no nível 3. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
     }
 ]

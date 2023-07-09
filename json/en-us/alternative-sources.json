@@ -7,7 +7,8 @@
         "totalMonsters": 123,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
         "isEnabled": false,
-        "summary": "A revered compendium in the D&D realm—showcases a diverse, terrifying array of mythical entities. From fiery dragons and towering giants to insidious mind flayers and omniscient beholders, it's a fantastical feast, enabling Dungeon Masters to invigorate their adventures and pose thrilling challenges to players."
+        "isLoreEnabled": true,
+        "summary": "The Monster Manual is a treasure trove of iconic D&D creatures like dragons, giants, mind flayers, and beholders. Packed with easy-to-use stats and captivating stories, it fuels your imagination. A must-have resource for Dungeon Masters, it enriches any adventure!"
     },
     {
         "source": {
@@ -17,6 +18,7 @@
         "totalMonsters": 6,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
         "isEnabled": false,
+        "isLoreEnabled": true,
         "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets at level 3. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
     }
 ]
