@@ -901,7 +901,7 @@
                 "name": "Martelo de Guerra",
                 "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 5 pés, um alvo. Acerto: 1d8+2 de dano contundente, ou 1d10+2 de dano contundente se usado com duas mãos.",
                 "attack_bonus": 4,
-                "damage-dices": [
+                "damage_dices": [
                     {
                         "dice": "1d8+2",
                         "damage": {
