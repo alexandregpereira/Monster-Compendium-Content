@@ -104,12 +104,32 @@
             {
                 "name": "Greatsword",
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
-                "attack-bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
             },
             {
                 "name": "Handaxe",
                 "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
-                "attack-bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -222,7 +242,17 @@
             {
                 "name": "Greataxe",
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (1d12 + 3) slashing damage.",
-                "attack-bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d12+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -350,12 +380,32 @@
             {
                 "name": "Rapier",
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 3) piercing damage.",
-                "attack-bonus": 6
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ]
             },
             {
                 "name": "Shortbow",
                 "description": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d6 + 3) piercing damage.",
-                "attack-bonus": 6
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -743,8 +793,8 @@
             {
                 "name": "Warhammer",
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 bludgeoning damage, or 1d10+2 bludgeoning damage if used with two hands.",
-                "attack-bonus": 4,
-                "damage-dices": [
+                "attack_bonus": 4,
+                "damage_dices": [
                     {
                         "dice": "1d8+2",
                         "damage": {
