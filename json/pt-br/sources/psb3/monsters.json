@@ -106,12 +106,32 @@
             {
                 "name": "Espadão",
                 "description": "Ataque de Arma Corpo-a-Corpo: +5 para acertar, alcance 5 ft., um alvo. Acerto: 11 (2d6 + 4) de dano cortante.",
-                "attack_bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    }
+                ]
             },
             {
                 "name": "Machadinha",
                 "description": "Ataque de Arma Corpo-a-Corpo ou à Distância: +5 para acertar, alcance 5 ft. ou distância 20/60 ft., um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
-                "attack_bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -226,7 +246,17 @@
             {
                 "name": "Machado grande",
                 "description": "Ataque de Arma Corpo a Corpo: +5 para acertar, alcance 5 ft., um alvo. Acerto: 12 (1d12 + 3) de dano cortante.",
-                "attack_bonus": 5
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d12+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -356,12 +386,32 @@
             {
                 "name": "Rapieira",
                 "description": "Ataque de Arma Corpo a Corpo: +6 para acertar, alcance 5 ft., um alvo. Acerto: 8 (1d8 + 3) de dano perfurante.",
-                "attack_bonus": 6
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ]
             },
             {
                 "name": "Arco curto",
                 "description": "Ataque de Arma à Distância: +6 para acertar, alcance 80/320 ft., um alvo. Acerto: 7 (1d6 + 3) de dano perfurante.",
-                "attack_bonus": 6
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ]
             }
         ],
         "source": {
@@ -850,7 +900,7 @@
             {
                 "name": "Martelo de Guerra",
                 "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 5 pés, um alvo. Acerto: 1d8+2 de dano contundente, ou 1d10+2 de dano contundente se usado com duas mãos.",
-                "attack-bonus": 4,
+                "attack_bonus": 4,
                 "damage-dices": [
                     {
                         "dice": "1d8+2",
