@@ -1,0 +1,954 @@
+[
+    {
+        "index": "fighter-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Guerreiro",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 18,
+        "hit_points": 31,
+        "hit_dice": "3d10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 2,
+                "name": "História"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Intuição"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 4,
+                "name": "Intimidação"
+            }
+        ],
+        "senses": [
+            "Percepção passiva 10"
+        ],
+        "languages": "Comum, Elvish",
+        "special_abilities": [
+            {
+                "name": "Segundo Fôlego",
+                "desc": "Uma vez por descanso curto, recupera 1d10+3 PV como ação bônus."
+            },
+            {
+                "name": "Surto de Ação",
+                "desc": "Uma vez por descanso curto, realiza uma ação extra na sua vez."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Espadão",
+                "description": "Ataque de Arma Corpo-a-Corpo: +5 para acertar, alcance 5 ft., um alvo. Acerto: 11 (2d6 + 4) de dano cortante.",
+                "attack_bonus": 5
+            },
+            {
+                "name": "Machadinha",
+                "description": "Ataque de Arma Corpo-a-Corpo ou à Distância: +5 para acertar, alcance 5 ft. ou distância 20/60 ft., um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
+                "attack_bonus": 5
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "barbarian-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Bárbaro",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 15,
+        "hit_points": 33,
+        "hit_dice": "3d12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 1,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 3,
+                "name": "Sobrevivência"
+            }
+        ],
+        "senses": [
+            "Percepção passiva 13"
+        ],
+        "languages": "Comum, Anão",
+        "special_abilities": [
+            {
+                "name": "Fúria",
+                "desc": "Você pode entrar em uma fúria na sua vez, ganhando vantagens em testes de Força e salvamentos, +2 de dano corpo a corpo com armas de Força e resistência a danos cortantes, perfurantes e contundentes. Você pode usar esse recurso duas vezes entre descansos longos."
+            },
+            {
+                "name": "Ataque imprudente",
+                "desc": "Você pode escolher atacar imprudentemente, o que lhe dá vantagem nas rolagens de ataque corpo a corpo neste turno, mas rolagens de ataque contra você têm vantagem até seu próximo turno."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Machado grande",
+                "description": "Ataque de Arma Corpo a Corpo: +5 para acertar, alcance 5 ft., um alvo. Acerto: 12 (1d12 + 3) de dano cortante.",
+                "attack_bonus": 5
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "rogue-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Ladino",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 14,
+        "hit_points": 21,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 6
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 6,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Enganação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 6,
+                "name": "Performance"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 6,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 6,
+                "name": "Roubar"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            }
+        ],
+        "senses": [
+            "Percepção passiva 14"
+        ],
+        "languages": "Comum, Cant dos Ladrões",
+        "special_abilities": [
+            {
+                "name": "Ataque Furtivo",
+                "desc": "Você pode causar um dano extra de 2d6 a uma criatura que você acerte com um ataque se tiver vantagem na rolagem de ataque, ou outro inimigo do alvo estiver a 5 ft. dela."
+            },
+            {
+                "name": "Ação Ardilosa",
+                "desc": "Você pode realizar uma ação bônus em cada um dos seus turnos para realizar a ação de Corrida, Desengajar ou Esconder."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Rapieira",
+                "description": "Ataque de Arma Corpo a Corpo: +6 para acertar, alcance 5 ft., um alvo. Acerto: 8 (1d8 + 3) de dano perfurante.",
+                "attack_bonus": 6
+            },
+            {
+                "name": "Arco curto",
+                "description": "Ataque de Arma à Distância: +6 para acertar, alcance 80/320 ft., um alvo. Acerto: 7 (1d6 + 3) de dano perfurante.",
+                "attack_bonus": 6
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "wizard-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Mago",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 12,
+        "hit_points": 16,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 5,
+                "name": "História"
+            },
+            {
+                "index": "investigation",
+                "modifier": 5,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 5,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 5,
+                "name": "Religião"
+            }
+        ],
+        "senses": [
+            "percepção passiva 11"
+        ],
+        "languages": "Comum, Élfico, Draconico",
+        "special_abilities": [
+            {
+                "name": "Recuperação Arcana",
+                "desc": "Uma vez por dia, quando você termina um descanso curto, você pode escolher slots de magia gastos para recuperar. Os slots de magia podem ter um nível combinado igual ou inferior à metade do seu nível de mago (arredondado para cima), e nenhum dos slots pode ser de 6º nível ou superior."
+            }
+        ],
+        "actions": [],
+        "spellcasting": [
+            {
+                "desc": "Você é um mago de 3º nível. Sua habilidade de conjuração é Inteligência (DC 13 para salvar a magia, +5 para acertar com ataques de magia).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão Mágica",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Míssil Mágico",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sono",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "sorcerer-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Feiticeiro",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 12,
+        "hit_points": 19,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 2,
+                "name": "Arcanismo"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Enganação"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 3,
+                "name": "Intuição"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            }
+        ],
+        "senses": [
+            "Percepção passiva 11"
+        ],
+        "languages": "Comum, Draconico",
+        "special_abilities": [
+            {
+                "name": "Fonte de Magia",
+                "desc": "No 2º nível, você aproveita uma fonte profunda de magia dentro de si mesmo. Esta fonte é representada por pontos de feitiçaria, que permitem criar uma variedade de efeitos mágicos."
+            },
+            {
+                "name": "Metamagia",
+                "desc": "No 3º nível, você ganha a capacidade de torcer seus feitiços para atender às suas necessidades. Você ganha duas das seguintes opções de Metamagia de sua escolha."
+            }
+        ],
+        "actions": [],
+        "spellcasting": [
+            {
+                "desc": "Você é um feiticeiro de 3º nível. Sua habilidade de conjuração é Carisma (DC de resistência de magia 13, +5 para acertar com ataques mágicos).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Choque Estático",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {
+                                "index": "burning-hands",
+                                "name": "Mãos Flamejantes",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Adormecer",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {
+                                "index": "mirror-image",
+                                "name": "Imagem Espelhada",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Raio Escaldante",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "cleric-3",
+        "type": "HUMANOID",
+        "challenge_rating": 1.5,
+        "name": "Clérigo",
+        "subtitle": "Nível 3",
+        "size": "MEDIUM",
+        "alignment": "SEM ALINHAMENTO",
+        "armor_class": 18,
+        "hit_points": 27,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 5,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 1,
+                "name": "Religião"
+            }
+        ],
+        "senses": [
+            "Percepção passiva 13"
+        ],
+        "languages": "Comum, Celestial",
+        "special_abilities": [
+            {
+                "name": "Domínio Divino",
+                "desc": "Escolha um domínio relacionado ao seu deus: Conhecimento, Vida, Luz, Natureza, Tempestade, Enganação ou Guerra. Cada domínio é detalhado no final da descrição da classe e cada um fornece exemplos de deuses associados a ele."
+            },
+            {
+                "name": "Canalizar Divindade",
+                "desc": "No 2º nível, você ganha a habilidade de canalizar energia divina diretamente de sua divindade, usando essa energia para alimentar efeitos mágicos. Você começa com dois desses efeitos: Repelir Mortos-Vivos e um efeito determinado pelo seu domínio."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Martelo de Guerra",
+                "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 5 pés, um alvo. Acerto: 1d8+2 de dano contundente, ou 1d10+2 de dano contundente se usado com duas mãos.",
+                "attack-bonus": 4,
+                "damage-dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ]
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Você é um clérigo de 3º nível. Sua habilidade de conjuração é Sabedoria (CD de resistência contra magia 13, +5 para acertar com ataques mágicos).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Benção",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Escudo da Fé",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Restauração Menor",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Ira da Tempestade",
+                "desc": "Quando o clérigo é atingido por um ataque corpo a corpo, ele pode usar sua reação para fazer o atacante realizar um teste de resistência de Destreza. O atacante sofre 2d8 de dano de relâmpago ou de trovão (escolha do clérigo) se falhar no teste de resistência e metade desse dano se passar."
+            }
+        ],
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "BEJ3"
+        }
+    }
+]
