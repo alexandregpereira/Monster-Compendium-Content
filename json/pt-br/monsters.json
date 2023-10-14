@@ -322,17 +322,17 @@
                         ]
                     },
                     {
-                        "group": "1º nível (3 slots)",
+                        "group": "1º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "bless",
-                                "name": "Bless",
+                                "name": "Bênção",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             },
                             {
                                 "index": "cure-wounds",
-                                "name": "Curar Feridas",
+                                "name": "Curar Ferimentos",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
@@ -487,7 +487,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 21"
         ],
@@ -740,7 +740,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 22"
         ],
@@ -999,7 +999,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 21"
         ],
@@ -1237,7 +1237,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 22"
         ],
@@ -1479,7 +1479,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 22"
         ],
@@ -1722,7 +1722,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 24"
         ],
@@ -1975,11 +1975,11 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 22"
         ],
@@ -2232,7 +2232,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 23"
         ],
@@ -2492,7 +2492,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 21"
         ],
@@ -2731,7 +2731,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 21"
         ],
@@ -2874,7 +2874,7 @@
         "subtype": null,
         "group": "Elementais",
         "challenge_rating": 5.0,
-        "name": "Elemental do ar",
+        "name": "Elemental do Ar",
         "subtitle": "Elemental grande, neutro",
         "size": "Large",
         "alignment": "neutral",
@@ -2973,7 +2973,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -3008,7 +3008,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -3176,7 +3176,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 26"
         ],
@@ -3429,7 +3429,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 27"
         ],
@@ -3684,7 +3684,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 24"
         ],
@@ -3929,7 +3929,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 27"
         ],
@@ -4178,7 +4178,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 27"
         ],
@@ -4428,7 +4428,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 27"
         ],
@@ -4688,11 +4688,11 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 27"
         ],
@@ -4945,7 +4945,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 26"
         ],
@@ -5198,7 +5198,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 26"
         ],
@@ -5444,7 +5444,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 23"
         ],
@@ -5756,7 +5756,7 @@
                             },
                             {
                                 "index": "spare-the-dying",
-                                "name": "Poupe a Morte",
+                                "name": "Acudir os Moribundos",
                                 "school": "NECROMANCY",
                                 "level": 0
                             },
@@ -5769,7 +5769,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "command",
@@ -5779,7 +5779,7 @@
                             },
                             {
                                 "index": "detect-evil-and-good",
-                                "name": "Detecte o Bem e o Mal",
+                                "name": "Detectar o Bem e o Mal",
                                 "school": "DIVINATION",
                                 "level": 1
                             },
@@ -5792,11 +5792,11 @@
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "lesser-restoration",
-                                "name": "Restauração Inferior",
+                                "name": "Restauração Menor",
                                 "school": "ABJURATION",
                                 "level": 2
                             },
@@ -5809,11 +5809,11 @@
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "dispel-magic",
-                                "name": "Dispel Magic",
+                                "name": "Dissipar Magia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
@@ -5826,7 +5826,7 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "banishment",
@@ -5836,18 +5836,18 @@
                             },
                             {
                                 "index": "freedom-of-movement",
-                                "name": "Liberdade de Movimento",
+                                "name": "Movimentação Livre",
                                 "school": "ABJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (2 espaços)",
+                        "group": "5º círculo (2 espaços)",
                         "spells": [
                             {
                                 "index": "flame-strike",
-                                "name": "Ataque Flamejante",
+                                "name": "Coluna de Chamas",
                                 "school": "EVOCATION",
                                 "level": 5
                             },
@@ -5860,11 +5860,11 @@
                         ]
                     },
                     {
-                        "group": "6º nível (1 vaga)",
+                        "group": "6º círculo (1 vaga)",
                         "spells": [
                             {
                                 "index": "heroes-feast",
-                                "name": "Festa Dos Heróis",
+                                "name": "Banquete de Heróis",
                                 "school": "CONJURATION",
                                 "level": 6
                             }
@@ -6029,7 +6029,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -6053,7 +6053,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 6"
         ],
         "languages": "",
@@ -6174,7 +6174,7 @@
         ],
         "senses": [
             "visão no escuro 60 pés",
-            "tremorsense 60 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 11"
         ],
         "languages": "",
@@ -6401,7 +6401,7 @@
                 "type": "SPELLCASTER",
                 "spells_by_group": [
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "disguise-self",
@@ -6423,20 +6423,20 @@
                             },
                             {
                                 "index": "mage-armor",
-                                "name": "Armadura de Mago",
+                                "name": "Armadura Arcana",
                                 "school": "ABJURATION",
                                 "level": 1
                             },
                             {
                                 "index": "magic-missile",
-                                "name": "Míssil Mágico",
+                                "name": "Mísseis Mágicos",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 espaços)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "invisibility",
@@ -6452,7 +6452,7 @@
                             },
                             {
                                 "index": "mirror-image",
-                                "name": "Imagem Espelhada",
+                                "name": "Reflexos",
                                 "school": "ILLUSION",
                                 "level": 2
                             },
@@ -6481,36 +6481,36 @@
                             },
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
                             {
                                 "index": "prestidigitation",
-                                "name": "Prestidigitação",
+                                "name": "Prestidigitação Arcana",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             },
                             {
                                 "index": "shocking-grasp",
-                                "name": "Aperto Chocante",
+                                "name": "Toque Chocante",
                                 "school": "EVOCATION",
                                 "level": 0
                             }
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
                             {
                                 "index": "fly",
-                                "name": "Voar",
+                                "name": "Voo",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             },
@@ -6523,7 +6523,7 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "banishment",
@@ -6533,20 +6533,20 @@
                             },
                             {
                                 "index": "fire-shield",
-                                "name": "Escudo de Fogo",
+                                "name": "Escudo Ardente",
                                 "school": "EVOCATION",
                                 "level": 4
                             },
                             {
                                 "index": "stoneskin",
-                                "name": "Pele de Pedra",
+                                "name": "Pele-Rocha",
                                 "school": "ABJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (3 espaços)",
+                        "group": "5º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "cone-of-cold",
@@ -6562,14 +6562,14 @@
                             },
                             {
                                 "index": "wall-of-force",
-                                "name": "Muralha de Força",
+                                "name": "Muralha de Energia",
                                 "school": "EVOCATION",
                                 "level": 5
                             }
                         ]
                     },
                     {
-                        "group": "6º nível (1 slot)",
+                        "group": "6º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "globe-of-invulnerability",
@@ -6580,7 +6580,7 @@
                         ]
                     },
                     {
-                        "group": "7º nível (1 slot)",
+                        "group": "7º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "teleport",
@@ -6591,22 +6591,22 @@
                         ]
                     },
                     {
-                        "group": "8º nível (1 espaço)",
+                        "group": "8º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "mind-blank",
-                                "name": "Mind Blank",
+                                "name": "Limpar a Mente",
                                 "school": "ABJURATION",
                                 "level": 8
                             }
                         ]
                     },
                     {
-                        "group": "9º nível (1 slot)",
+                        "group": "9º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "time-stop",
-                                "name": "Parada no Tempo",
+                                "name": "Parar o Tempo",
                                 "school": "TRANSMUTATION",
                                 "level": 9
                             }
@@ -7057,7 +7057,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Azerbaijão",
+        "name": "Azer",
         "subtitle": "Elemental médio, ordeiro e neutro",
         "size": "Medium",
         "alignment": "lawful neutral",
@@ -7136,7 +7136,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -7325,7 +7325,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -7546,7 +7546,7 @@
         "subtype": "any race",
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Capitão Bandido",
+        "name": "Bandido Capitão",
         "subtitle": "Humanoide médio (qualquer raça), qualquer alinhamento exceto ordeiro",
         "size": "Medium",
         "alignment": "any non-lawful alignment",
@@ -7829,7 +7829,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -8029,7 +8029,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 3.0,
-        "name": "Diabo Barbudo",
+        "name": "Diabo Barbado",
         "subtitle": "Ínfero médio (diabo), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -8143,7 +8143,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -8217,7 +8217,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 11.0,
-        "name": "Behir",
+        "name": "Beír",
         "subtitle": "Monstruosidade enorme, neutro e mau",
         "size": "Huge",
         "alignment": "neutral evil",
@@ -8312,7 +8312,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O behir faz dois ataques: um com sua mordida e outro para constringir.",
+                "description": "O Beír faz dois ataques: um com sua mordida e outro para constringir.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -8350,7 +8350,7 @@
                     }
                 ],
                 "attack_bonus": 10,
-                "description": "Ataque corpo a corpo com arma: +10 para acertar, alcance 1,5 m, uma criatura Grande ou menor. Dano: 17 (2d10 + 6) pontos de dano contundente mais 17 (2d10 + 6) de dano de corte. O alvo é agarrado (CD de escape 16) se o behir ainda não estiver constringindo uma criatura, e o alvo é impedido até que esse agarrão termine.",
+                "description": "Ataque corpo a corpo com arma: +10 para acertar, alcance 1,5 m, uma criatura Grande ou menor. Dano: 17 (2d10 + 6) pontos de dano contundente mais 17 (2d10 + 6) de dano de corte. O alvo é agarrado (CD de escape 16) se o Beír ainda não estiver constringindo uma criatura, e o alvo é impedido até que esse agarrão termine.",
                 "name": "Constringir"
             },
             {
@@ -8365,7 +8365,7 @@
                     }
                 ],
                 "attack_bonus": null,
-                "description": "O behir exala uma linha de relâmpagos com 6 metros de comprimento e 1,5 metro de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 16, recebendo 66 (12d10) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "description": "O Beír exala uma linha de relâmpagos com 6 metros de comprimento e 1,5 metro de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 16, recebendo 66 (12d10) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
                 "name": "Respiração Relâmpago"
             },
             {
@@ -8380,7 +8380,7 @@
                     }
                 ],
                 "attack_bonus": null,
-                "description": "O behir faz um ataque de mordida contra um alvo Médio ou menor que está agarrando. Se o ataque acertar, o alvo também é engolido e o agarrão termina. Enquanto engolido, o alvo fica cego e impedido, tem cobertura total contra ataques e outros efeitos fora do behir e recebe 21 (6d6) de dano de ácido no início de cada um dos turnos do behir. Um behir pode engolir apenas uma criatura por vez.\nSe o behir sofrer 30 de dano ou mais em um único turno da criatura engolida, o behir deve ter sucesso em um teste de resistência de Constituição CD 14 no final desse turno ou regurgitar a criatura, que cai em um espaço a até 3 metros de distância. o behir. Se o behir morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
+                "description": "O Beír faz um ataque de mordida contra um alvo Médio ou menor que está agarrando. Se o ataque acertar, o alvo também é engolido e o agarrão termina. Enquanto engolido, o alvo fica cego e impedido, tem cobertura total contra ataques e outros efeitos fora do Beír e recebe 21 (6d6) de dano de ácido no início de cada um dos turnos do Beír. Um Beír pode engolir apenas uma criatura por vez.\nSe o Beír sofrer 30 de dano ou mais em um único turno da criatura engolida, o Beír deve ter sucesso em um teste de resistência de Constituição CD 14 no final desse turno ou regurgitar a criatura, que cai em um espaço a até 3 metros de distância. o Beír. Se o Beír morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
                 "name": "Engolir"
             }
         ],
@@ -8609,7 +8609,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -8673,7 +8673,7 @@
         "subtype": null,
         "group": "Limos",
         "challenge_rating": 4.0,
-        "name": "Pudim Preto",
+        "name": "Pudim Negro",
         "subtitle": "Gosma grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -8778,7 +8778,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -8792,7 +8792,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 8"
         ],
         "languages": "",
@@ -8852,7 +8852,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 0.25,
-        "name": "Cachorro Que Pisca",
+        "name": "Cão Teleportador",
         "subtitle": "Feérico médio, ordeiro e bom",
         "size": "Medium",
         "alignment": "lawful good",
@@ -9081,7 +9081,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -9141,7 +9141,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 12.0,
-        "name": "Diabo de Ossos",
+        "name": "Diabo dos Ossos",
         "subtitle": "Ínfero grande (diabo), ordeiro e mau",
         "size": "Large",
         "alignment": "lawful evil",
@@ -9271,7 +9271,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -9459,7 +9459,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -9613,7 +9613,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -9661,7 +9661,7 @@
         "subtype": "goblinoid",
         "group": null,
         "challenge_rating": 1.0,
-        "name": "Bugbear",
+        "name": "Bugurso",
         "subtitle": "Humanoide médio (goblinoide), caótico e mau",
         "size": "Medium",
         "alignment": "chaotic evil",
@@ -9741,11 +9741,11 @@
         "special_abilities": [
             {
                 "name": "Brute",
-                "desc": "Uma arma branca causa um dado extra de seu dano quando o bugbear acerta com ela (incluído no ataque). "
+                "desc": "Uma arma branca causa um dado extra de seu dano quando o Bugurso acerta com ela (incluído no ataque). "
             },
             {
                 "name": "Ataque Surpresa",
-                "desc": "Se o bugbear surpreender uma criatura e acertá-la com um ataque durante a primeira rodada de combate, o alvo sofre 7 (2d6) de dano extra do ataque."
+                "desc": "Se o Bugurso surpreender uma criatura e acertá-la com um ataque durante a primeira rodada de combate, o alvo sofre 7 (2d6) de dano extra do ataque."
             }
         ],
         "actions": [
@@ -9793,7 +9793,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Bulette",
+        "name": "Bulete",
         "subtitle": "Monstruosidade grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -9868,14 +9868,14 @@
         ],
         "senses": [
             "visão no escuro 60 pés",
-            "tremorsense 60 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 16"
         ],
         "languages": "",
         "special_abilities": [
             {
                 "name": "Salto Parado",
-                "desc": "O salto em distância do bulette é de até 30 pés e seu salto em altura é de até 15 pés, com ou sem um início de corrida."
+                "desc": "O salto em distância do Bulete é de até 30 pés e seu salto em altura é de até 15 pés, com ou sem um início de corrida."
             }
         ],
         "actions": [
@@ -9898,7 +9898,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "Se o bulette pular pelo menos 4,5 metros como parte de seu movimento, ele pode então usar esta ação para cair de pé em um espaço que contenha uma ou mais outras criaturas. Cada uma dessas criaturas deve ser bem sucedida em um teste de resistência de Força ou Destreza CD 16 (a escolha do alvo) ou será derrubada e sofrerá 14 (3d6 + 4) pontos de dano contundente mais 14 (3d6 + 4) de dano de corte. Em um teste de resistência bem-sucedido, a criatura sofre apenas metade do dano, não é derrubada e é empurrada 1,5 m para fora do espaço do bulette em um espaço desocupado à escolha da criatura. Se nenhum espaço desocupado estiver dentro do alcance, a criatura cai no espaço do bulette.",
+                "description": "Se o Bulete pular pelo menos 4,5 metros como parte de seu movimento, ele pode então usar esta ação para cair de pé em um espaço que contenha uma ou mais outras criaturas. Cada uma dessas criaturas deve ser bem sucedida em um teste de resistência de Força ou Destreza CD 16 (a escolha do alvo) ou será derrubada e sofrerá 14 (3d6 + 4) pontos de dano contundente mais 14 (3d6 + 4) de dano de corte. Em um teste de resistência bem-sucedido, a criatura sofre apenas metade do dano, não é derrubada e é empurrada 1,5 m para fora do espaço do Bulete em um espaço desocupado à escolha da criatura. Se nenhum espaço desocupado estiver dentro do alcance, a criatura cai no espaço do Bulete.",
                 "name": "Salto Mortal"
             }
         ],
@@ -10069,7 +10069,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 8.0,
-        "name": "Demônio da Cadeia",
+        "name": "Demônio das Correntes",
         "subtitle": "Ínfero médio (diabo), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -10183,7 +10183,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -10411,7 +10411,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Chul",
+        "name": "Chuul",
         "subtitle": "Aberração grande, caótico e mau",
         "size": "Large",
         "alignment": "chaotic evil",
@@ -10491,7 +10491,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -10553,7 +10553,7 @@
         "subtype": null,
         "group": "Golens",
         "challenge_rating": 9.0,
-        "name": "Golem de Barro",
+        "name": "Golem de Argila",
         "subtitle": "Constructo grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -10657,7 +10657,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -10751,7 +10751,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 8.0,
-        "name": "Manto",
+        "name": "Mantor",
         "subtitle": "Aberração grande, caótico e neutro",
         "size": "Large",
         "alignment": "chaotic neutral",
@@ -10832,15 +10832,15 @@
         "special_abilities": [
             {
                 "name": "Transferência de Dano",
-                "desc": "Enquanto anexado a uma criatura, o manto sofre apenas metade do dano causado a ela (arredondado para baixo). e aquela criatura fica com a outra metade. "
+                "desc": "Enquanto anexado a uma criatura, o Mantor sofre apenas metade do dano causado a ela (arredondado para baixo). e aquela criatura fica com a outra metade. "
             },
             {
                 "name": "Falsa Aparência",
-                "desc": "Enquanto o manto permanece imóvel sem sua parte inferior exposta, ele é indistinguível de um manto de couro escuro. "
+                "desc": "Enquanto o Mantor permanece imóvel sem sua parte inferior exposta, ele é indistinguível de um Mantor de couro escuro. "
             },
             {
                 "name": "Sensibilidade à Luz",
-                "desc": "Enquanto estiver sob luz forte, o manto tem desvantagem nas jogadas de ataque e testes de Sabedoria (Percepção) que dependem da visão."
+                "desc": "Enquanto estiver sob luz forte, o Mantor tem desvantagem nas jogadas de ataque e testes de Sabedoria (Percepção) que dependem da visão."
             }
         ],
         "actions": [
@@ -10848,7 +10848,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O manto faz dois ataques: um com a mordida e outro com a cauda.",
+                "description": "O Mantor faz dois ataques: um com a mordida e outro com a cauda.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -10863,7 +10863,7 @@
                     }
                 ],
                 "attack_bonus": 6,
-                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 1,5 m, uma criatura. Dano: 10 (2d6 + 3) de dano perfurante e, se o alvo for Grande ou menor, o manto se liga a ele. Se o manto tiver vantagem contra o alvo, o manto se fixa na cabeça do alvo, e o alvo fica cego e incapaz de respirar enquanto o manto está preso. Enquanto estiver conectado, o manto pode fazer este ataque apenas contra o alvo e tem vantagem na jogada de ataque. O manto pode se desprender gastando 1,5 metro de seu movimento. Uma criatura, incluindo o alvo, pode realizar sua ação para separar o manto com sucesso em um teste de Força CD 16.",
+                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 1,5 m, uma criatura. Dano: 10 (2d6 + 3) de dano perfurante e, se o alvo for Grande ou menor, o Mantor se liga a ele. Se o Mantor tiver vantagem contra o alvo, o Mantor se fixa na cabeça do alvo, e o alvo fica cego e incapaz de respirar enquanto o Mantor está preso. Enquanto estiver conectado, o Mantor pode fazer este ataque apenas contra o alvo e tem vantagem na jogada de ataque. O Mantor pode se desprender gastando 1,5 metro de seu movimento. Uma criatura, incluindo o alvo, pode realizar sua ação para separar o Mantor com sucesso em um teste de Força CD 16.",
                 "name": "Mordida"
             },
             {
@@ -10885,14 +10885,14 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "Cada criatura a até 18 metros do manto que pode ouvir seu gemido e que não é uma aberração deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará amedrontada até o final do próximo turno do manto. Se o teste de resistência de uma criatura for bem-sucedido, a criatura fica imune ao gemido do manto pelas próximas 24 horas.",
+                "description": "Cada criatura a até 18 metros do Mantor que pode ouvir seu gemido e que não é uma aberração deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará amedrontada até o final do próximo turno do Mantor. Se o teste de resistência de uma criatura for bem-sucedido, a criatura fica imune ao gemido do Mantor pelas próximas 24 horas.",
                 "name": "Gemendo"
             },
             {
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O manto cria magicamente três duplicatas ilusórias de si mesmo se não estiver sob luz forte. As duplicatas se movem com ele e imitam suas ações, mudando de posição de forma a tornar impossível rastrear qual manto é o verdadeiro. Se o manto estiver em uma área de luz brilhante, as duplicatas desaparecem.\nSempre que qualquer criatura atingir o manto com um ataque ou feitiço prejudicial enquanto uma duplicata permanecer, essa criatura rola aleatoriamente para determinar se ela tem como alvo o manto ou uma das duplicatas. Uma criatura não é afetada por este efeito mágico se não puder ver ou se depender de outros sentidos além da visão.\nUma duplicata tem a CA do camuflagem e usa seus testes de resistência. Se um ataque acertar uma duplicata, ou se uma duplicata falhar em um teste de resistência contra um efeito que causa dano, a duplicata desaparece.",
+                "description": "O Mantor cria magicamente três duplicatas ilusórias de si mesmo se não estiver sob luz forte. As duplicatas se movem com ele e imitam suas ações, mudando de posição de forma a tornar impossível rastrear qual Mantor é o verdadeiro. Se o Mantor estiver em uma área de luz brilhante, as duplicatas desaparecem.\nSempre que qualquer criatura atingir o Mantor com um ataque ou feitiço prejudicial enquanto uma duplicata permanecer, essa criatura rola aleatoriamente para determinar se ela tem como alvo o Mantor ou uma das duplicatas. Uma criatura não é afetada por este efeito mágico se não puder ver ou se depender de outros sentidos além da visão.\nUma duplicata tem a CA do camuflagem e usa seus testes de resistência. Se um ataque acertar uma duplicata, ou se uma duplicata falhar em um teste de resistência contra um efeito que causa dano, a duplicata desaparece.",
                 "name": "Fantasmas"
             }
         ],
@@ -11022,7 +11022,7 @@
                             },
                             {
                                 "index": "fog-cloud",
-                                "name": "Nuvem de Névoa",
+                                "name": "Névoa Obscurecente",
                                 "school": "CONJURATION",
                                 "level": 1
                             },
@@ -11039,13 +11039,13 @@
                         "spells": [
                             {
                                 "index": "feather-fall",
-                                "name": "Queda de Penas",
+                                "name": "Queda Suave",
                                 "school": "TRANSMUTATION",
                                 "level": 1
                             },
                             {
                                 "index": "fly",
-                                "name": "Voar",
+                                "name": "Voo",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             },
@@ -11068,7 +11068,7 @@
                         "spells": [
                             {
                                 "index": "control-weather",
-                                "name": "Controle do Clima",
+                                "name": "Controlar o Clima",
                                 "school": "TRANSMUTATION",
                                 "level": 8
                             },
@@ -11135,7 +11135,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 0.5,
-        "name": "Basilisco",
+        "name": "Cocatriz",
         "subtitle": "Monstruosidade pequena, sem alinhamento",
         "size": "Small",
         "alignment": "unaligned",
@@ -11448,7 +11448,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -11659,13 +11659,13 @@
                             },
                             {
                                 "index": "create-food-and-water",
-                                "name": "Crie Comida e Água",
+                                "name": "Criar Comida e Água",
                                 "school": "CONJURATION",
                                 "level": 3
                             },
                             {
                                 "index": "cure-wounds",
-                                "name": "Curar Feridas",
+                                "name": "Curar Ferimentos",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
@@ -11689,7 +11689,7 @@
                             },
                             {
                                 "index": "shield",
-                                "name": "Escudo",
+                                "name": "Égide",
                                 "school": "ABJURATION",
                                 "level": 1
                             }
@@ -11889,7 +11889,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "command",
@@ -11912,11 +11912,11 @@
                         ]
                     },
                     {
-                        "group": "2º nível (3 vagas)",
+                        "group": "2º círculo (3 vagas)",
                         "spells": [
                             {
                                 "index": "hold-person",
-                                "name": "Segurar Pessoa",
+                                "name": "Imobilizar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 2
                             },
@@ -12154,18 +12154,18 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "Percepção passiva 10"
         ],
         "languages": "",
         "special_abilities": [
             {
                 "name": "Ecolocalização",
-                "desc": "O manto negro não pode usar sua visão cega enquanto estiver surdo. "
+                "desc": "O Mantreva não pode usar sua visão cega enquanto estiver surdo. "
             },
             {
                 "name": "Falsa Aparência",
-                "desc": "Enquanto o manto negro permanece imóvel, é indistinguível de uma formação de caverna como uma estalactite ou estalagmite."
+                "desc": "Enquanto o Mantreva permanece imóvel, é indistinguível de uma formação de caverna como uma estalactite ou estalagmite."
             }
         ],
         "actions": [
@@ -12181,14 +12181,14 @@
                     }
                 ],
                 "attack_bonus": 5,
-                "description": "Arma corpo a corpo Ataque: +5 para atingir, alcance 1,5 m, uma criatura. Dano: 6 (1d6 + 3) pontos de dano contundente e o manto negro se prende ao alvo. Se o alvo for Médio ou menor e o manto negro tiver vantagem na jogada de ataque, ele ataca engolfando a cabeça do alvo, e o alvo também fica cego e incapaz de respirar enquanto o manto negro estiver preso dessa maneira.\nEnquanto estiver preso ao alvo, o manto negro não pode atacar nenhuma outra criatura exceto o alvo, mas tem vantagem em suas jogadas de ataque. A velocidade do manto negro também se torna 0, ele não pode se beneficiar de nenhum bônus em sua velocidade e se move com o alvo.\nUma criatura pode se desprender do manto negro fazendo um teste bem-sucedido de Força CD 13 como uma ação. Por sua vez, o manto negro pode se desprender do alvo usando 1,5 metro de movimento.",
+                "description": "Arma corpo a corpo Ataque: +5 para atingir, alcance 1,5 m, uma criatura. Dano: 6 (1d6 + 3) pontos de dano contundente e o Mantreva se prende ao alvo. Se o alvo for Médio ou menor e o Mantreva tiver vantagem na jogada de ataque, ele ataca engolfando a cabeça do alvo, e o alvo também fica cego e incapaz de respirar enquanto o Mantreva estiver preso dessa maneira.\nEnquanto estiver preso ao alvo, o Mantreva não pode atacar nenhuma outra criatura exceto o alvo, mas tem vantagem em suas jogadas de ataque. A velocidade do Mantreva também se torna 0, ele não pode se beneficiar de nenhum bônus em sua velocidade e se move com o alvo.\nUma criatura pode se desprender do Mantreva fazendo um teste bem-sucedido de Força CD 13 como uma ação. Por sua vez, o Mantreva pode se desprender do alvo usando 1,5 metro de movimento.",
                 "name": "Esmagar"
             },
             {
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "Um raio de 4,5 metros de escuridão mágica se estende do manto negro, move-se com ele e se espalha pelos cantos. A escuridão dura enquanto o manto negro mantiver a concentração, até 10 minutos (como se estivesse se concentrando em um feitiço). A visão no escuro não pode penetrar nessa escuridão e nenhuma luz natural pode iluminá-la. Se alguma das trevas se sobrepõe a uma área de luz criada por uma magia de 2º nível ou inferior, a magia que criou a luz é dissipada.",
+                "description": "Um raio de 4,5 metros de escuridão mágica se estende do Mantreva, move-se com ele e se espalha pelos cantos. A escuridão dura enquanto o Mantreva mantiver a concentração, até 10 minutos (como se estivesse se concentrando em um feitiço). A visão no escuro não pode penetrar nessa escuridão e nenhuma luz natural pode iluminá-la. Se alguma das trevas se sobrepõe a uma área de luz criada por uma magia de 2º nível ou inferior, a magia que criou a luz é dissipada.",
                 "name": "Darkness Aura"
             }
         ],
@@ -12427,7 +12427,7 @@
                         "spells": [
                             {
                                 "index": "nondetection",
-                                "name": "Não Detecção",
+                                "name": "Indetectável",
                                 "school": "ABJURATION",
                                 "level": 3
                             }
@@ -12444,7 +12444,7 @@
                             },
                             {
                                 "index": "blur",
-                                "name": "Desfoque",
+                                "name": "Turvar",
                                 "school": "ILLUSION",
                                 "level": 2
                             },
@@ -12624,7 +12624,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -12668,13 +12668,13 @@
                         "spells": [
                             {
                                 "index": "commune",
-                                "name": "Comuna",
+                                "name": "Comunhão",
                                 "school": "DIVINATION",
                                 "level": 5
                             },
                             {
                                 "index": "raise-dead",
-                                "name": "Ressuscitar Mortos",
+                                "name": "Reviver os Mortos",
                                 "school": "NECROMANCY",
                                 "level": 5
                             }
@@ -12872,7 +12872,7 @@
                             },
                             {
                                 "index": "thunderwave",
-                                "name": "Thunderwave",
+                                "name": "Onda Trovejante",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
@@ -12883,7 +12883,7 @@
                         "spells": [
                             {
                                 "index": "create-food-and-water",
-                                "name": "Crie Comida e Água",
+                                "name": "Criar Comida e Água",
                                 "school": "CONJURATION",
                                 "level": 3
                             },
@@ -12895,7 +12895,7 @@
                             },
                             {
                                 "index": "wind-walk",
-                                "name": "Caminhada do Vento",
+                                "name": "Caminhar no Vento",
                                 "school": "TRANSMUTATION",
                                 "level": 6
                             }
@@ -12906,7 +12906,7 @@
                         "spells": [
                             {
                                 "index": "conjure-elemental",
-                                "name": "Conjurar Elemental",
+                                "name": "Invocar Elemental",
                                 "school": "CONJURATION",
                                 "level": 5
                             },
@@ -12936,7 +12936,7 @@
                             },
                             {
                                 "index": "plane-shift",
-                                "name": "Mudança de Plano",
+                                "name": "Transição Planar",
                                 "school": "CONJURATION",
                                 "level": 7
                             }
@@ -12989,7 +12989,7 @@
         "subtype": "shapechanger",
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Sósia",
+        "name": "Dúplice",
         "subtitle": "Monstruosidade média (metamorfo), sem alinhamento",
         "size": "Medium",
         "alignment": "unaligned",
@@ -13394,7 +13394,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -13574,7 +13574,7 @@
                         "spells": [
                             {
                                 "index": "dancing-lights",
-                                "name": "Dancing Lights",
+                                "name": "Luzes Dançantes",
                                 "school": "EVOCATION",
                                 "level": 0
                             }
@@ -13591,7 +13591,7 @@
                             },
                             {
                                 "index": "faerie-fire",
-                                "name": "Fogo Das Fadas",
+                                "name": "Fogo das Fadas",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
@@ -13772,7 +13772,7 @@
                         "spells": [
                             {
                                 "index": "dancing-lights",
-                                "name": "Dancing Lights",
+                                "name": "Luzes Dançantes",
                                 "school": "EVOCATION",
                                 "level": 0
                             }
@@ -13789,7 +13789,7 @@
                             },
                             {
                                 "index": "faerie-fire",
-                                "name": "Fogo Das Fadas",
+                                "name": "Fogo das Fadas",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
@@ -13936,65 +13936,65 @@
                         "spells": [
                             {
                                 "index": "druidcraft",
-                                "name": "Druidcraft",
+                                "name": "Arte Druídica",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             },
                             {
                                 "index": "produce-flame",
-                                "name": "Produzir Chama",
+                                "name": "Criar Chamas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
                             {
                                 "index": "shillelagh",
-                                "name": "Shillelagh",
+                                "name": "Bordão Místico",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             }
                         ]
                     },
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "entangle",
-                                "name": "Enredar",
+                                "name": "Emaranhar",
                                 "school": "CONJURATION",
                                 "level": 1
                             },
                             {
                                 "index": "longstrider",
-                                "name": "Longstrider",
+                                "name": "Passos Largos",
                                 "school": "TRANSMUTATION",
                                 "level": 1
                             },
                             {
                                 "index": "speak-with-animals",
-                                "name": "Fale Com os Animais",
+                                "name": "Falar com Animais",
                                 "school": "DIVINATION",
                                 "level": 1
                             },
                             {
                                 "index": "thunderwave",
-                                "name": "Thunderwave",
+                                "name": "Onda Trovejante",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 espaços)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "animal-messenger",
-                                "name": "Mensageiro de Animais",
+                                "name": "Mensageiro Animal",
                                 "school": "ENCHANTMENT",
                                 "level": 2
                             },
                             {
                                 "index": "barkskin",
-                                "name": "Barkskin",
+                                "name": "Pele-casca",
                                 "school": "TRANSMUTATION",
                                 "level": 2
                             }
@@ -14126,7 +14126,7 @@
                         "spells": [
                             {
                                 "index": "druidcraft",
-                                "name": "Druidcraft",
+                                "name": "Arte Druídica",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             }
@@ -14143,7 +14143,7 @@
                             },
                             {
                                 "index": "goodberry",
-                                "name": "Goodberry",
+                                "name": "Bom fruto",
                                 "school": "TRANSMUTATION",
                                 "level": 1
                             }
@@ -14154,19 +14154,19 @@
                         "spells": [
                             {
                                 "index": "barkskin",
-                                "name": "Barkskin",
+                                "name": "Pele-casca",
                                 "school": "TRANSMUTATION",
                                 "level": 2
                             },
                             {
                                 "index": "pass-without-trace",
-                                "name": "Passe Sem Deixar Vestígios",
+                                "name": "Passo sem Rastro",
                                 "school": "ABJURATION",
                                 "level": 2
                             },
                             {
                                 "index": "shillelagh",
-                                "name": "Shillelagh",
+                                "name": "Bordão Místico",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             }
@@ -14353,7 +14353,7 @@
         "subtype": null,
         "group": "Mephits",
         "challenge_rating": 0.5,
-        "name": "Dust Mephit",
+        "name": "Mefit de Poeira",
         "subtitle": "Elemental pequeno, neutro e mau",
         "size": "Small",
         "alignment": "neutral evil",
@@ -14443,7 +14443,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -14467,7 +14467,7 @@
                         "spells": [
                             {
                                 "index": "sleep",
-                                "name": "Dormir",
+                                "name": "Sono",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             }
@@ -14620,7 +14620,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "paralyzed",
@@ -14640,12 +14640,12 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
             "visão no escuro 60 pés",
-            "tremorsense 60 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 10"
         ],
         "languages": "terráqueo",
@@ -14696,7 +14696,7 @@
         "subtype": null,
         "group": "Gênios",
         "challenge_rating": 11.0,
-        "name": "Efreet",
+        "name": "Ifriti",
         "subtitle": "Elemental grande, ordeiro e mau",
         "size": "Large",
         "alignment": "lawful evil",
@@ -14792,7 +14792,7 @@
         "special_abilities": [
             {
                 "name": "Elemental Demise",
-                "desc": "Se o efreeti morrer, seu corpo se desintegra em uma explosão de fogo e fumaça, deixando para trás apenas o equipamento que o djinni estava usando ou carregando. "
+                "desc": "Se o Ifritii morrer, seu corpo se desintegra em uma explosão de fogo e fumaça, deixando para trás apenas o equipamento que o djinni estava usando ou carregando. "
             },
             {
                 "name": "Variante: Poderes de Gênio",
@@ -14801,7 +14801,7 @@
         ],
         "spellcasting": [
             {
-                "desc": "A habilidade inata de conjuração de feitiços do efreeti é Carisma (resistência de feitiço CD 15, +7 para acertar com ataques de feitiço). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes materiais:",
+                "desc": "A habilidade inata de conjuração de feitiços do Ifritii é Carisma (resistência de feitiço CD 15, +7 para acertar com ataques de feitiço). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes materiais:",
                 "type": "INNATE",
                 "spells_by_group": [
                     {
@@ -14820,7 +14820,7 @@
                         "spells": [
                             {
                                 "index": "enlarge-reduce",
-                                "name": "Ampliar/Reduzir",
+                                "name": "Aumentar/Reduzir",
                                 "school": "TRANSMUTATION",
                                 "level": 2
                             },
@@ -14837,7 +14837,7 @@
                         "spells": [
                             {
                                 "index": "conjure-elemental",
-                                "name": "Conjurar Elemental",
+                                "name": "Invocar Elemental",
                                 "school": "CONJURATION",
                                 "level": 5
                             },
@@ -14861,7 +14861,7 @@
                             },
                             {
                                 "index": "plane-shift",
-                                "name": "Mudança de Plano",
+                                "name": "Transição Planar",
                                 "school": "CONJURATION",
                                 "level": 7
                             },
@@ -14881,7 +14881,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O efreeti faz dois ataques de cimitarra ou usa seu Hurl Flame duas vezes.",
+                "description": "O Ifritii faz dois ataques de cimitarra ou usa seu Hurl Flame duas vezes.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -15053,7 +15053,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 12.0,
-        "name": "Erinyes",
+        "name": "Erínia",
         "subtitle": "Ínfero médio (diabo), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -15178,7 +15178,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -15193,7 +15193,7 @@
             },
             {
                 "name": "Resistência à Magia",
-                "desc": "A erinyes tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
+                "desc": "A Erínia tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
             }
         ],
         "actions": [
@@ -15201,7 +15201,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "A erinyes faz três ataques",
+                "description": "A Erínia faz três ataques",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -15246,14 +15246,14 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "Algumas erínias carregam uma corda de emaranhamento (detalhada no Guia do Mestre). Quando tal erinyes usa seu Ataques Múltiplos, o erinyes pode usar a corda no lugar de dois dos ataques.",
+                "description": "Algumas erínias carregam uma corda de emaranhamento (detalhada no Guia do Mestre). Quando tal Erínia usa seu Ataques Múltiplos, o Erínia pode usar a corda no lugar de dois dos ataques.",
                 "name": "Variante: Corda de Emaranhamento"
             }
         ],
         "reactions": [
             {
                 "name": "Parry",
-                "desc": "O erinyes adiciona 4 à sua CA contra um ataque corpo a corpo que o atingiria. Para fazer isso, as erinyes devem ver o atacante e estar empunhando uma arma corpo a corpo."
+                "desc": "A Erínia adiciona 4 à sua CA contra um ataque corpo a corpo que o atingiria. Para fazer isso, as Erínia devem ver o atacante e estar empunhando uma arma corpo a corpo."
             }
         ],
         "source": {
@@ -15267,7 +15267,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Ettercap",
+        "name": "Aracnoide",
         "subtitle": "Monstruosidade média, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -15358,15 +15358,15 @@
         "special_abilities": [
             {
                 "name": "Escalada de Aranha",
-                "desc": "O ettercap pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade. "
+                "desc": "O Aracnoide pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade. "
             },
             {
                 "name": "Sentido da Teia",
-                "desc": "Enquanto estiver em contato com uma teia, o ettercap sabe a localização exata de qualquer outra criatura em contato com a mesma teia. "
+                "desc": "Enquanto estiver em contato com uma teia, o Aracnoide sabe a localização exata de qualquer outra criatura em contato com a mesma teia. "
             },
             {
                 "name": "Web Walker",
-                "desc": "O ettercap ignora as restrições de movimento causadas por correias."
+                "desc": "O Aracnoide ignora as restrições de movimento causadas por correias."
             }
         ],
         "actions": [
@@ -15374,7 +15374,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O ettercap faz dois ataques: um com sua mordida e outro com suas garras.",
+                "description": "O Aracnoide faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -15434,7 +15434,7 @@
                     }
                 ],
                 "attack_bonus": 4,
-                "description": "Arma corpo a corpo Ataque: +4 para atingir, alcance 1,5 m, uma criatura Média ou Pequena contra a qual o ettercap tem vantagem na jogada de ataque. Dano: 4 (1d4 + 2) pontos de dano contundente e o alvo é agarrado (CD de fuga 12). Até que este agarrão termine, o alvo não pode respirar, e o ettercap tem vantagem nas jogadas de ataque contra ele.",
+                "description": "Arma corpo a corpo Ataque: +4 para atingir, alcance 1,5 m, uma criatura Média ou Pequena contra a qual o Aracnoide tem vantagem na jogada de ataque. Dano: 4 (1d4 + 2) pontos de dano contundente e o alvo é agarrado (CD de fuga 12). Até que este agarrão termine, o alvo não pode respirar, e o Aracnoide tem vantagem nas jogadas de ataque contra ele.",
                 "name": "Variante: Web Garrote"
             }
         ],
@@ -15451,7 +15451,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Você Fez",
+        "name": "Ettin",
         "subtitle": "Gigante grande, caótico e mau",
         "size": "Large",
         "alignment": "chaotic evil",
@@ -15679,7 +15679,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -15714,7 +15714,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -15773,7 +15773,7 @@
         "subtype": null,
         "group": "Gigantes",
         "challenge_rating": 9.0,
-        "name": "Gigante de Fogo",
+        "name": "Gigante do Fogo",
         "subtitle": "Gigante enorme, ordeiro e mau",
         "size": "Huge",
         "alignment": "lawful evil",
@@ -16022,7 +16022,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -16232,7 +16232,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 7"
         ],
         "languages": "",
@@ -16276,7 +16276,7 @@
         "subtype": null,
         "group": "Gigantes",
         "challenge_rating": 8.0,
-        "name": "Gigante de Gelo",
+        "name": "Gigante do Gelo",
         "subtitle": "gigante enorme, neutro e mau",
         "size": "Huge",
         "alignment": "neutral evil",
@@ -16521,7 +16521,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "petrified",
@@ -16597,7 +16597,7 @@
         "subtype": null,
         "group": "Limos",
         "challenge_rating": 2.0,
-        "name": "Cubo de Gelatina",
+        "name": "Cubo Gelatinoso",
         "subtitle": "Gosma grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -16676,7 +16676,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -16690,7 +16690,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 8"
         ],
         "languages": "",
@@ -16749,7 +16749,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Gast",
+        "name": "Carneçal",
         "subtitle": "Morto-vivo médio, caótico e mau",
         "size": "Medium",
         "alignment": "chaotic evil",
@@ -16833,7 +16833,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             }
         ],
         "senses": [
@@ -16844,11 +16844,11 @@
         "special_abilities": [
             {
                 "name": "Fedor",
-                "desc": "Qualquer criatura que comece seu turno a até 1,5 m do ghast deve ser bem sucedida em um teste de resistência de Constituição CD 10 ou será envenenada até o início de seu próximo turno. Em um teste de resistência bem-sucedido, a criatura fica imune ao Fedor do ghast por 24 horas. "
+                "desc": "Qualquer criatura que comece seu turno a até 1,5 m do Carneçal deve ser bem sucedida em um teste de resistência de Constituição CD 10 ou será envenenada até o início de seu próximo turno. Em um teste de resistência bem-sucedido, a criatura fica imune ao Fedor do Carneçal por 24 horas. "
             },
             {
                 "name": "Turn Defiance",
-                "desc": "O ghast e quaisquer carniçais a até 9 metros dele têm vantagem em testes de resistência contra efeitos que expulsam mortos-vivos."
+                "desc": "O Carneçal e quaisquer carniçais a até 9 metros dele têm vantagem em testes de resistência contra efeitos que expulsam mortos-vivos."
             }
         ],
         "actions": [
@@ -17026,7 +17026,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -17130,7 +17130,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 1.0,
-        "name": "Canibal",
+        "name": "Carniçal",
         "subtitle": "Morto-vivo médio, caótico e mau",
         "size": "Medium",
         "alignment": "chaotic evil",
@@ -17209,7 +17209,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             }
         ],
         "senses": [
@@ -17598,7 +17598,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "Percepção passiva 9"
         ],
         "languages": "",
@@ -17724,7 +17724,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "Percepção passiva 13"
         ],
         "languages": "",
@@ -18024,7 +18024,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -18077,13 +18077,13 @@
                             },
                             {
                                 "index": "fly",
-                                "name": "Voar",
+                                "name": "Voo",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             },
                             {
                                 "index": "power-word-stun",
-                                "name": "Palavra de Poder Atordoamento",
+                                "name": "Palavra de Poder: Atordoar",
                                 "school": "ENCHANTMENT",
                                 "level": 8
                             }
@@ -18658,7 +18658,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -18706,7 +18706,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Górgona",
+        "name": "Górgon",
         "subtitle": "Monstruosidade grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -18775,7 +18775,7 @@
             {
                 "index": "petrified",
                 "type": "PETRIFIED",
-                "name": "petrificado"
+                "name": "Petrificado"
             }
         ],
         "senses": [
@@ -18786,7 +18786,7 @@
         "special_abilities": [
             {
                 "name": "Investida Pisoteante",
-                "desc": "Se a górgona se mover pelo menos 6 metros em linha reta em direção a uma criatura e então a atingir com um ataque sangrento no mesmo turno, aquele alvo deve ser bem sucedido em um teste de resistência de Força CD 16 ou será derrubado. Se o alvo estiver caído, a górgona pode fazer um ataque com seus cascos contra ele como uma ação bônus."
+                "desc": "Se o Górgon se mover pelo menos 6 metros em linha reta em direção a uma criatura e então a atingir com um ataque sangrento no mesmo turno, aquele alvo deve ser bem sucedido em um teste de resistência de Força CD 16 ou será derrubado. Se o alvo estiver caído, o Górgon pode fazer um ataque com seus cascos contra ele como uma ação bônus."
             }
         ],
         "actions": [
@@ -18824,7 +18824,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "A górgona exala gás petrificante em um cone de 9 metros. Cada criatura naquela área deve ser bem sucedida em um teste de resistência de Constituição CD 13. Em uma falha no salvamento, o alvo começa a se transformar em pedra e é impedido. O alvo impedido deve repetir o teste de resistência no final de seu próximo turno. Em caso de sucesso, o efeito termina no alvo. Em caso de falha, o alvo fica petrificado até ser libertado pelo feitiço de restauração maior ou outra magia.",
+                "description": "O Górgon exala gás petrificante em um cone de 9 metros. Cada criatura naquela área deve ser bem sucedida em um teste de resistência de Constituição CD 13. Em uma falha no salvamento, o alvo começa a se transformar em pedra e é impedido. O alvo impedido deve repetir o teste de resistência no final de seu próximo turno. Em caso de sucesso, o efeito termina no alvo. Em caso de falha, o alvo fica petrificado até ser libertado pelo feitiço de restauração maior ou outra magia.",
                 "name": "Respiração Petrificante"
             }
         ],
@@ -18841,7 +18841,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 0.5,
-        "name": "Lodo Cinzento",
+        "name": "Limo Cinzento",
         "subtitle": "Gosma média, sem alinhamento",
         "size": "Medium",
         "alignment": "unaligned",
@@ -18946,7 +18946,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -18960,7 +18960,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 8"
         ],
         "languages": "",
@@ -19127,11 +19127,11 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -19195,7 +19195,7 @@
         "subtype": null,
         "group": "Bruxas",
         "challenge_rating": 3.0,
-        "name": "Bruxa Verde",
+        "name": "Megera Verde",
         "subtitle": "Feérico médio, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -19302,7 +19302,7 @@
                         "spells": [
                             {
                                 "index": "dancing-lights",
-                                "name": "Dancing Lights",
+                                "name": "Luzes Dançantes",
                                 "school": "EVOCATION",
                                 "level": 0
                             },
@@ -19314,7 +19314,7 @@
                             },
                             {
                                 "index": "vicious-mockery",
-                                "name": "Zombaria Cruel",
+                                "name": "Zombaria Perversa",
                                 "school": "ENCHANTMENT",
                                 "level": 0
                             }
@@ -19733,11 +19733,11 @@
             {
                 "index": "blinded",
                 "type": "BLINDED",
-                "name": "cego"
+                "name": "Cego"
             }
         ],
         "senses": [
-            "visão cega 30 pés ou 10 pés enquanto surdo (cego além deste raio)",
+            "percepção às cegas 30 pés ou 10 pés enquanto surdo (cego além deste raio)",
             "Percepção passiva 13"
         ],
         "languages": "Subcomum",
@@ -19888,7 +19888,7 @@
         "subtype": null,
         "group": "Nagas",
         "challenge_rating": 10.0,
-        "name": "Guardião Naga",
+        "name": "Naga Anciã",
         "subtitle": "Monstruosidade grande, ordeiro e bom",
         "size": "Large",
         "alignment": "lawful good",
@@ -20011,7 +20011,7 @@
                         "spells": [
                             {
                                 "index": "mending",
-                                "name": "Consertos",
+                                "name": "Reparar",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             },
@@ -20030,7 +20030,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "command",
@@ -20040,7 +20040,7 @@
                             },
                             {
                                 "index": "cure-wounds",
-                                "name": "Curar Feridas",
+                                "name": "Curar Ferimentos",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
@@ -20053,7 +20053,7 @@
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "calm-emotions",
@@ -20063,18 +20063,18 @@
                             },
                             {
                                 "index": "hold-person",
-                                "name": "Reter Pessoa",
+                                "name": "Imobilizar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 2
                             }
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "bestow-curse",
-                                "name": "Concede Maldição",
+                                "name": "Rogar Maldição",
                                 "school": "NECROMANCY",
                                 "level": 3
                             },
@@ -20087,7 +20087,7 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "banishment",
@@ -20097,35 +20097,35 @@
                             },
                             {
                                 "index": "freedom-of-movement",
-                                "name": "Liberdade de Movimento",
+                                "name": "Movimentação Livre",
                                 "school": "ABJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (2 espaços)",
+                        "group": "5º círculo (2 espaços)",
                         "spells": [
                             {
                                 "index": "flame-strike",
-                                "name": "Ataque Flamejante",
+                                "name": "Coluna de Chamas",
                                 "school": "EVOCATION",
                                 "level": 5
                             },
                             {
                                 "index": "geas",
-                                "name": "Geas",
+                                "name": "Missão",
                                 "school": "ENCHANTMENT",
                                 "level": 5
                             }
                         ]
                     },
                     {
-                        "group": "6º nível (1 espaço)",
+                        "group": "6º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "true-seeing",
-                                "name": "Visão Verdadeira",
+                                "name": "Visão da Verdade",
                                 "school": "DIVINATION",
                                 "level": 6
                             }
@@ -20319,7 +20319,7 @@
                         "spells": [
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
@@ -20331,14 +20331,14 @@
                             },
                             {
                                 "index": "prestidigitation",
-                                "name": "Prestidigitação",
+                                "name": "Prestidigitação Arcana",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             }
                         ]
                     },
                     {
-                        "group": "1º nível (4 slots)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "detect-magic",
@@ -20354,14 +20354,14 @@
                             },
                             {
                                 "index": "shield",
-                                "name": "Escudo",
+                                "name": "Égide",
                                 "school": "ABJURATION",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 espaços)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "darkness",
@@ -20384,11 +20384,11 @@
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "dispel-magic",
-                                "name": "Dispel Magic",
+                                "name": "Dissipar Magia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
@@ -20407,7 +20407,7 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "banishment",
@@ -20417,18 +20417,18 @@
                             },
                             {
                                 "index": "greater-invisibility",
-                                "name": "Maior Invisibilidade",
+                                "name": "Invisibilidade Maior",
                                 "school": "ILLUSION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (1 espaço)",
+                        "group": "5º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "legend-lore",
-                                "name": "Conhecimento Das Lendas",
+                                "name": "Lendas e Histórias",
                                 "school": "DIVINATION",
                                 "level": 5
                             }
@@ -20497,7 +20497,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Dragão Meio-Vermelho Veterano",
+        "name": "Meio-Dragão Vermelho Veterano",
         "subtitle": "Humanoide médio (humano), qualquer alinhamento",
         "size": "Medium",
         "alignment": "any alignment",
@@ -20565,7 +20565,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 12"
         ],
@@ -20779,7 +20779,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Cão de Caça do Inferno",
+        "name": "Sabujo Infernal",
         "subtitle": "Ínfero médio, ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -21038,7 +21038,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -21609,7 +21609,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 11.0,
-        "name": "Diabo Com Chifres",
+        "name": "Diabo Chifrudo",
         "subtitle": "Ínfero grande (diabo), ordeiro e mau",
         "size": "Large",
         "alignment": "lawful evil",
@@ -21734,7 +21734,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -21952,7 +21952,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 14.0,
-        "name": "Diabo de Gelo",
+        "name": "Diabo do Gelo",
         "subtitle": "Ínfero grande (diabo), ordeiro e mau",
         "size": "Large",
         "alignment": "lawful evil",
@@ -22066,11 +22066,11 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
-            "visão cega 60 pés",
+            "percepção às cegas 60 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 12"
         ],
@@ -22183,7 +22183,7 @@
         "subtype": null,
         "group": "Mephits",
         "challenge_rating": 0.5,
-        "name": "Gelo Mephit",
+        "name": "Mefit de Gelo",
         "subtitle": "Elemental pequeno, neutro e mau",
         "size": "Small",
         "alignment": "neutral evil",
@@ -22283,7 +22283,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -22311,7 +22311,7 @@
                         "spells": [
                             {
                                 "index": "fog-cloud",
-                                "name": "Nuvem de Névoa",
+                                "name": "Névoa Obscurecente",
                                 "school": "CONJURATION",
                                 "level": 1
                             }
@@ -22380,7 +22380,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 1.0,
-        "name": "Criança Levada",
+        "name": "Diabrete",
         "subtitle": "Ínfero minúsculo (diabo), ordeiro e mau",
         "size": "Tiny",
         "alignment": "lawful evil",
@@ -22505,7 +22505,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -22568,7 +22568,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 6.0,
-        "name": "Perseguidor Invisível",
+        "name": "Espreitador Invisível",
         "subtitle": "Elemental médio, neutro",
         "size": "Medium",
         "alignment": "neutral",
@@ -22673,7 +22673,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -22708,7 +22708,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -22867,7 +22867,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -22980,7 +22980,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Orca",
+        "name": "Baleia Assassina",
         "subtitle": "Fera enorme, sem alinhamento",
         "size": "Huge",
         "alignment": "unaligned",
@@ -23048,7 +23048,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 120 pés",
+            "percepção às cegas 120 pés",
             "Percepção passiva 13"
         ],
         "languages": "",
@@ -23615,7 +23615,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Lamia",
+        "name": "Lâmia",
         "subtitle": "Monstruosidade grande, caótico e mau",
         "size": "Large",
         "alignment": "chaotic evil",
@@ -23709,7 +23709,7 @@
                         "spells": [
                             {
                                 "index": "major-image",
-                                "name": "Imagem Principal",
+                                "name": "Imagem Maior",
                                 "school": "ILLUSION",
                                 "level": 3
                             }
@@ -23720,13 +23720,13 @@
                         "spells": [
                             {
                                 "index": "charm-person",
-                                "name": "Charm Person",
+                                "name": "Enfeitiçar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             },
                             {
                                 "index": "mirror-image",
-                                "name": "Imagem Espelhada",
+                                "name": "Reflexos",
                                 "school": "ILLUSION",
                                 "level": 2
                             },
@@ -23749,7 +23749,7 @@
                         "spells": [
                             {
                                 "index": "geas",
-                                "name": "Geas",
+                                "name": "Missão",
                                 "school": "ENCHANTMENT",
                                 "level": 5
                             }
@@ -24098,7 +24098,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -24145,13 +24145,13 @@
                         "spells": [
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
                             {
                                 "index": "prestidigitation",
-                                "name": "Prestidigitação",
+                                "name": "Prestidigitação Arcana",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             },
@@ -24164,7 +24164,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 slots)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "detect-magic",
@@ -24174,30 +24174,30 @@
                             },
                             {
                                 "index": "magic-missile",
-                                "name": "Míssil Mágico",
+                                "name": "Mísseis Mágicos",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
                             {
                                 "index": "shield",
-                                "name": "Escudo",
+                                "name": "Égide",
                                 "school": "ABJURATION",
                                 "level": 1
                             },
                             {
                                 "index": "thunderwave",
-                                "name": "Thunderwave",
+                                "name": "Onda Trovejante",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "acid-arrow",
-                                "name": "Acid Arrow",
+                                "name": "Flecha Ácida",
                                 "school": "EVOCATION",
                                 "level": 2
                             },
@@ -24215,24 +24215,24 @@
                             },
                             {
                                 "index": "mirror-image",
-                                "name": "Imagem Espelhada",
+                                "name": "Reflexos",
                                 "school": "ILLUSION",
                                 "level": 2
                             }
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "animate-dead",
-                                "name": "Animate Dead",
+                                "name": "Animar Mortos",
                                 "school": "NECROMANCY",
                                 "level": 3
                             },
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
@@ -24251,28 +24251,28 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "blight",
-                                "name": "Blight",
+                                "name": "Malogro",
                                 "school": "NECROMANCY",
                                 "level": 4
                             },
                             {
                                 "index": "dimension-door",
-                                "name": "Dimensão Porta",
+                                "name": "Porta Dimensional",
                                 "school": "CONJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (3 slots)",
+                        "group": "5º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "cloudkill",
-                                "name": "Cloudkill",
+                                "name": "Névoa Mortal",
                                 "school": "CONJURATION",
                                 "level": 5
                             },
@@ -24285,7 +24285,7 @@
                         ]
                     },
                     {
-                        "group": "6º nível (1 slot)",
+                        "group": "6º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "disintegrate",
@@ -24302,7 +24302,7 @@
                         ]
                     },
                     {
-                        "group": "7º nível (1 slot)",
+                        "group": "7º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "finger-of-death",
@@ -24312,35 +24312,35 @@
                             },
                             {
                                 "index": "plane-shift",
-                                "name": "Mudança de Plano",
+                                "name": "Transição Planar",
                                 "school": "CONJURATION",
                                 "level": 7
                             }
                         ]
                     },
                     {
-                        "group": "8º nível (1 espaço)",
+                        "group": "8º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "dominate-monster",
-                                "name": "Domina o Monstro",
+                                "name": "Dominar Monstro",
                                 "school": "ENCHANTMENT",
                                 "level": 8
                             },
                             {
                                 "index": "power-word-stun",
-                                "name": "Palavra de Poder Atordoamento",
+                                "name": "Palavra de Poder: Atordoar",
                                 "school": "ENCHANTMENT",
                                 "level": 8
                             }
                         ]
                     },
                     {
-                        "group": "9º nível (1 espaço)",
+                        "group": "9º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "power-word-kill",
-                                "name": "Palavra de Poder Matar",
+                                "name": "Palavra de Poder: Matar",
                                 "school": "ENCHANTMENT",
                                 "level": 9
                             }
@@ -24702,20 +24702,20 @@
                             },
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
                             {
                                 "index": "prestidigitation",
-                                "name": "Prestidigitação",
+                                "name": "Prestidigitação Arcana",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             }
                         ]
                     },
                     {
-                        "group": "1º nível (4 slots)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "detect-magic",
@@ -24725,30 +24725,30 @@
                             },
                             {
                                 "index": "mage-armor",
-                                "name": "Armadura de Mago",
+                                "name": "Armadura Arcana",
                                 "school": "ABJURATION",
                                 "level": 1
                             },
                             {
                                 "index": "magic-missile",
-                                "name": "Míssil Mágico",
+                                "name": "Mísseis Mágicos",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
                             {
                                 "index": "shield",
-                                "name": "Escudo",
+                                "name": "Égide",
                                 "school": "ABJURATION",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "misty-step",
-                                "name": "Misty Step",
+                                "name": "Passo Nebuloso",
                                 "school": "CONJURATION",
                                 "level": 2
                             },
@@ -24761,11 +24761,11 @@
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
@@ -24777,14 +24777,14 @@
                             },
                             {
                                 "index": "fly",
-                                "name": "Voar",
+                                "name": "Voo",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             }
                         ]
                     },
                     {
-                        "group": "4º nível (3 espaços)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "greater-invisibility",
@@ -24794,14 +24794,14 @@
                             },
                             {
                                 "index": "ice-storm",
-                                "name": "Tempestade de Gelo",
+                                "name": "Tempestade Glacial",
                                 "school": "EVOCATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (1 espaço)",
+                        "group": "5º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "cone-of-cold",
@@ -24844,7 +24844,7 @@
         "subtype": null,
         "group": "Mephits",
         "challenge_rating": 0.5,
-        "name": "Magma Mephit",
+        "name": "Mefit de Magma",
         "subtitle": "Elemental pequeno, neutro e mau",
         "size": "Small",
         "alignment": "neutral evil",
@@ -24934,7 +24934,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -24962,7 +24962,7 @@
                         "spells": [
                             {
                                 "index": "heat-metal",
-                                "name": "Aquecer Metal",
+                                "name": "Esquentar Metal",
                                 "school": "TRANSMUTATION",
                                 "level": 2
                             }
@@ -25031,7 +25031,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 0.5,
-        "name": "Mín.",
+        "name": "Magmin",
         "subtitle": "Elemental pequeno, caótico e neutro",
         "size": "Small",
         "alignment": "chaotic neutral",
@@ -25550,7 +25550,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -25818,7 +25818,7 @@
         "subtype": "merfolk",
         "group": null,
         "challenge_rating": 0.125,
-        "name": "Tritões",
+        "name": "Sereiano",
         "subtitle": "Humanoide médio (tritão), neutro",
         "size": "Medium",
         "alignment": "neutral",
@@ -25898,7 +25898,7 @@
         "special_abilities": [
             {
                 "name": "Anfíbio",
-                "desc": "Os tritões podem respirar ar e água."
+                "desc": "O Sereiano pode respirar ar e água."
             }
         ],
         "actions": [
@@ -26427,7 +26427,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "poisoned",
@@ -26600,7 +26600,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -26811,7 +26811,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -26867,7 +26867,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 espaços)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "command",
@@ -26877,7 +26877,7 @@
                             },
                             {
                                 "index": "guiding-bolt",
-                                "name": "Parafuso Guia",
+                                "name": "Raio Guia",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
@@ -26890,11 +26890,11 @@
                         ]
                     },
                     {
-                        "group": "2º nível (3 vagas)",
+                        "group": "2º círculo (3 vagas)",
                         "spells": [
                             {
                                 "index": "hold-person",
-                                "name": "Segurar Pessoa",
+                                "name": "Imobilizar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 2
                             },
@@ -26913,11 +26913,11 @@
                         ]
                     },
                     {
-                        "group": "3º nível (3 slots)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "animate-dead",
-                                "name": "Animate Dead",
+                                "name": "Animar Mortos",
                                 "school": "NECROMANCY",
                                 "level": 3
                             },
@@ -26930,24 +26930,24 @@
                         ]
                     },
                     {
-                        "group": "4º nível (3 espaços)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "divination",
-                                "name": "Adivinhação",
+                                "name": "Presságio",
                                 "school": "DIVINATION",
                                 "level": 4
                             },
                             {
                                 "index": "guardian-of-faith",
-                                "name": "Guardião da Fé",
+                                "name": "Defensor da Fé",
                                 "school": "CONJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (2 slots)",
+                        "group": "5º círculo (2 espaços)",
                         "spells": [
                             {
                                 "index": "contagion",
@@ -26964,11 +26964,11 @@
                         ]
                     },
                     {
-                        "group": "6º nível (1 espaço)",
+                        "group": "6º círculo (1 espaço)",
                         "spells": [
                             {
                                 "index": "harm",
-                                "name": "Dano",
+                                "name": "Moléstia",
                                 "school": "NECROMANCY",
                                 "level": 6
                             }
@@ -27196,7 +27196,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -27216,7 +27216,7 @@
                 ],
                 "attack_bonus": null,
                 "description": "O nalfeshnee usa Horror Nimbus se puder. Em seguida, faz três ataques: um com sua mordida e dois com suas garras.",
-                "name": "Ataque múltiplo"
+                "name": "Ataques múltiplos"
             },
             {
                 "damage_dices": [
@@ -27283,7 +27283,7 @@
         "subtype": null,
         "group": "Bruxas",
         "challenge_rating": 5.0,
-        "name": "Bruxa da Noite",
+        "name": "Megera da Noite",
         "subtitle": "Ínfero médio, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -27411,8 +27411,8 @@
                 "desc": "A bruxa tem vantagem em testes de resistência contra magias e outros efeitos mágicos. "
             },
             {
-                "name": "Itens da Bruxa da Noite",
-                "desc": "Uma bruxa da noite carrega dois itens mágicos muito raros que ela deve criar para si mesma. Se um dos objetos for perdido, a bruxa da noite fará de tudo para recuperá-lo, pois criar uma nova ferramenta leva tempo e esforço.\nHeartstone: Esta brilhante gema negra permite que uma bruxa da noite se torne etérea enquanto estiver em sua posse. O toque de uma pedra do coração também cura qualquer doença. Criar uma pedra do coração leva 30 dias.\nSaco da Alma: Quando um Humanoide maligno morre como resultado da Assombração do Pesadelo de uma bruxa da noite, a bruxa pega a alma neste saco preto feito de carne costurada. Uma bolsa de almas pode conter apenas uma alma maligna por vez, e apenas a bruxa da noite que criou a bolsa pode pegar uma alma com ela. Criar uma bolsa de alma leva 7 dias e um sacrifício Humanoide (cuja carne é usada para fazer a bolsa)."
+                "name": "Itens da Megera da Noite",
+                "desc": "Uma Megera da Noite carrega dois itens mágicos muito raros que ela deve criar para si mesma. Se um dos objetos for perdido, a Megera da Noite fará de tudo para recuperá-lo, pois criar uma nova ferramenta leva tempo e esforço.\nHeartstone: Esta brilhante gema negra permite que uma Megera da Noite se torne etérea enquanto estiver em sua posse. O toque de uma pedra do coração também cura qualquer doença. Criar uma pedra do coração leva 30 dias.\nSaco da Alma: Quando um Humanoide maligno morre como resultado da Assombração do Pesadelo de uma Megera da Noite, a bruxa pega a alma neste saco preto feito de carne costurada. Uma bolsa de almas pode conter apenas uma alma maligna por vez, e apenas a Megera da Noite que criou a bolsa pode pegar uma alma com ela. Criar uma bolsa de alma leva 7 dias e um sacrifício Humanoide (cuja carne é usada para fazer a bolsa)."
             }
         ],
         "spellcasting": [
@@ -27431,7 +27431,7 @@
                             },
                             {
                                 "index": "magic-missile",
-                                "name": "Míssil Mágico",
+                                "name": "Mísseis Mágicos",
                                 "school": "EVOCATION",
                                 "level": 1
                             }
@@ -27442,7 +27442,7 @@
                         "spells": [
                             {
                                 "index": "plane-shift",
-                                "name": "Mudança de Avião",
+                                "name": "Transição Planar",
                                 "school": "CONJURATION",
                                 "level": 7
                             },
@@ -27454,7 +27454,7 @@
                             },
                             {
                                 "index": "sleep",
-                                "name": "Dormir",
+                                "name": "Sono",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             }
@@ -27863,7 +27863,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -27877,7 +27877,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 8"
         ],
         "languages": "",
@@ -28047,7 +28047,7 @@
         "subtype": null,
         "group": "Zumbis",
         "challenge_rating": 2.0,
-        "name": "Ogro Zumbi",
+        "name": "Zumbi Ogro",
         "subtitle": "Morto-vivo grande, neutro e mau",
         "size": "Large",
         "alignment": "neutral evil",
@@ -28121,7 +28121,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -28293,7 +28293,7 @@
                         "spells": [
                             {
                                 "index": "darkness",
-                                "name": "Darkness",
+                                "name": "Escuridão",
                                 "school": "EVOCATION",
                                 "level": 2
                             },
@@ -28310,7 +28310,7 @@
                         "spells": [
                             {
                                 "index": "charm-person",
-                                "name": "Charm Person",
+                                "name": "Enfeitiçar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             },
@@ -28328,7 +28328,7 @@
                             },
                             {
                                 "index": "sleep",
-                                "name": "Dormir",
+                                "name": "Sono",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             }
@@ -28664,7 +28664,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Urso Coruja",
+        "name": "Urso-Coruja",
         "subtitle": "Monstruosidade grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -29040,7 +29040,7 @@
         "subtype": "devil",
         "group": "Diabos",
         "challenge_rating": 20.0,
-        "name": "Pit Fiend",
+        "name": "Diabo do Fosso",
         "subtitle": "Ínfero grande (diabo), ordeiro e mau",
         "size": "Large",
         "alignment": "lawful evil",
@@ -29160,7 +29160,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -29171,20 +29171,20 @@
         "special_abilities": [
             {
                 "name": "Aura de Medo",
-                "desc": "Qualquer criatura hostil ao pit fiend que comece seu turno a até 6 metros dele deve fazer um teste de resistência de Sabedoria CD 21, a menos que o pit fiend esteja incapacitado. Se falhar na resistência, a criatura fica amedrontada até o início de seu próximo turno. Se o teste de resistência de uma criatura for bem-sucedido, a criatura fica imune à Aura de Medo do pit fiend pelas próximas 24 horas. "
+                "desc": "Qualquer criatura hostil ao Diabo do Fosso que comece seu turno a até 6 metros dele deve fazer um teste de resistência de Sabedoria CD 21, a menos que o Diabo do Fosso esteja incapacitado. Se falhar na resistência, a criatura fica amedrontada até o início de seu próximo turno. Se o teste de resistência de uma criatura for bem-sucedido, a criatura fica imune à Aura de Medo do Diabo do Fosso pelas próximas 24 horas. "
             },
             {
                 "name": "Resistência à Magia",
-                "desc": "O pit fiend tem vantagem em testes de resistência contra magias e outros efeitos mágicos. "
+                "desc": "O Diabo do Fosso tem vantagem em testes de resistência contra magias e outros efeitos mágicos. "
             },
             {
                 "name": "Armas Mágicas",
-                "desc": "Os ataques com armas do pit fiend são mágicos."
+                "desc": "Os ataques com armas do Diabo do Fosso são mágicos."
             }
         ],
         "spellcasting": [
             {
-                "desc": "A habilidade de conjuração do pit fiend é Carisma (resistência à magia CD 21). O pit fiend pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "desc": "A habilidade de conjuração do Diabo do Fosso é Carisma (resistência à magia CD 21). O Diabo do Fosso pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
                 "type": "INNATE",
                 "spells_by_group": [
                     {
@@ -29209,7 +29209,7 @@
                         "spells": [
                             {
                                 "index": "hold-monster",
-                                "name": "Hold Monster",
+                                "name": "Imobilizar Monstro",
                                 "school": "ENCHANTMENT",
                                 "level": 5
                             },
@@ -29229,7 +29229,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O pit fiend faz quatro ataques: um com sua mordida, um com sua garra, um com sua maça e um com sua cauda.",
+                "description": "O Diabo do Fosso faz quatro ataques: um com sua mordida, um com sua garra, um com sua maça e um com sua cauda.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -29306,7 +29306,7 @@
         "subtype": null,
         "group": "Anjos",
         "challenge_rating": 16.0,
-        "name": "Planetário",
+        "name": "Planetar",
         "subtitle": "Celestial grande, ordeiro e bom",
         "size": "Large",
         "alignment": "lawful good",
@@ -29426,7 +29426,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -29442,20 +29442,20 @@
         "special_abilities": [
             {
                 "name": "Armas Angelicais",
-                "desc": "Os ataques das armas planetárias são mágicos. Quando o planetário acerta com qualquer arma, a arma causa 5d8 de dano radiante extra (incluído no ataque). "
+                "desc": "Os ataques das armas planetárias são mágicos. Quando o Planetar acerta com qualquer arma, a arma causa 5d8 de dano radiante extra (incluído no ataque). "
             },
             {
                 "name": "Consciência Divina",
-                "desc": "O planetário sabe se ouve uma mentira. "
+                "desc": "O Planetar sabe se ouve uma mentira. "
             },
             {
                 "name": "Resistência à Magia",
-                "desc": "O planetário tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
+                "desc": "O Planetar tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
             }
         ],
         "spellcasting": [
             {
-                "desc": "A habilidade de conjuração do planetário é Carisma (resistência de magia CD 20). O planetário pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "desc": "A habilidade de conjuração do Planetar é Carisma (resistência de magia CD 20). O Planetar pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
                 "type": "INNATE",
                 "spells_by_group": [
                     {
@@ -29480,7 +29480,7 @@
                         "spells": [
                             {
                                 "index": "blade-barrier",
-                                "name": "Barreira Lâmina",
+                                "name": "Barreira de Lâminas",
                                 "school": "EVOCATION",
                                 "level": 6
                             },
@@ -29492,13 +29492,13 @@
                             },
                             {
                                 "index": "flame-strike",
-                                "name": "Golpe de Chamas",
+                                "name": "Coluna de Chamas",
                                 "school": "EVOCATION",
                                 "level": 5
                             },
                             {
                                 "index": "raise-dead",
-                                "name": "Ressuscitar Mortos",
+                                "name": "Reviver os Mortos",
                                 "school": "NECROMANCY",
                                 "level": 5
                             }
@@ -29509,7 +29509,7 @@
                         "spells": [
                             {
                                 "index": "commune",
-                                "name": "Comuna",
+                                "name": "Comunhão",
                                 "school": "DIVINATION",
                                 "level": 5
                             },
@@ -29535,7 +29535,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O planetário faz dois ataques corpo a corpo.",
+                "description": "O Planetar faz dois ataques corpo a corpo.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -29565,7 +29565,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O planetário toca outra criatura. O alvo recupera magicamente 30 (6d8 + 3) pontos de vida e fica livre de qualquer maldição, doença, veneno, cegueira ou surdez.",
+                "description": "O Planetar toca outra criatura. O alvo recupera magicamente 30 (6d8 + 3) pontos de vida e fica livre de qualquer maldição, doença, veneno, cegueira ou surdez.",
                 "name": "Toque de Cura"
             }
         ],
@@ -29582,7 +29582,7 @@
         "subtype": "any race",
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Padre",
+        "name": "Sacerdote",
         "subtitle": "Humanoide médio (qualquer raça), qualquer alinhamento",
         "size": "Medium",
         "alignment": "any alignment",
@@ -29698,7 +29698,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 slots)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "cure-wounds",
@@ -29708,7 +29708,7 @@
                             },
                             {
                                 "index": "guiding-bolt",
-                                "name": "Parafuso Guia",
+                                "name": "Raio Guia",
                                 "school": "EVOCATION",
                                 "level": 1
                             },
@@ -29721,11 +29721,11 @@
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "lesser-restoration",
-                                "name": "Restauração Inferior",
+                                "name": "Restauração Menor",
                                 "school": "ABJURATION",
                                 "level": 2
                             },
@@ -29738,17 +29738,17 @@
                         ]
                     },
                     {
-                        "group": "3º nível (2 slots)",
+                        "group": "3º círculo (2 espaços)",
                         "spells": [
                             {
                                 "index": "dispel-magic",
-                                "name": "Dispel Magic",
+                                "name": "Dissipar Magia",
                                 "school": "ABJURATION",
                                 "level": 3
                             },
                             {
                                 "index": "spirit-guardians",
-                                "name": "Espíritos Guardiões",
+                                "name": "Guardiões Espirituais",
                                 "school": "CONJURATION",
                                 "level": 3
                             }
@@ -29866,7 +29866,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 13"
         ],
@@ -29934,7 +29934,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 15.0,
-        "name": "Verme Roxo",
+        "name": "Verme Púrpura",
         "subtitle": "Monstruosidade colossal, sem alinhamento",
         "size": "Gargantuan",
         "alignment": "unaligned",
@@ -30013,8 +30013,8 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
-            "tremorsense 60 pés",
+            "percepção às cegas 30 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 9"
         ],
         "languages": "",
@@ -30076,7 +30076,7 @@
         "subtype": "demon",
         "group": "Demônios",
         "challenge_rating": 1.0,
-        "name": "Parece",
+        "name": "Quasit",
         "subtitle": "Ínfero minúsculo (demônio), caótico e mau",
         "size": "Tiny",
         "alignment": "chaotic evil",
@@ -30185,7 +30185,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -30386,7 +30386,7 @@
                             },
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
@@ -30403,7 +30403,7 @@
                         "spells": [
                             {
                                 "index": "charm-person",
-                                "name": "Charm Person",
+                                "name": "Enfeitiçar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             },
@@ -30444,19 +30444,19 @@
                             },
                             {
                                 "index": "fly",
-                                "name": "Voar",
+                                "name": "Voo",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             },
                             {
                                 "index": "plane-shift",
-                                "name": "Mudança de Plano",
+                                "name": "Transição Planar",
                                 "school": "CONJURATION",
                                 "level": 7
                             },
                             {
                                 "index": "true-seeing",
-                                "name": "Visão Verdadeira",
+                                "name": "Visão da Verdade",
                                 "school": "DIVINATION",
                                 "level": 6
                             }
@@ -30471,7 +30471,7 @@
                 ],
                 "attack_bonus": null,
                 "description": "O rakshasa faz dois ataques de garras",
-                "name": "Ataque múltiplo"
+                "name": "Ataques múltiplos"
             },
             {
                 "damage_dices": [
@@ -30612,7 +30612,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -30672,7 +30672,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 11.0,
-        "name": "Remorhaz",
+        "name": "Remorraz",
         "subtitle": "Monstruosidade enorme, sem alinhamento",
         "size": "Huge",
         "alignment": "unaligned",
@@ -30752,14 +30752,14 @@
         ],
         "senses": [
             "visão no escuro 60 pés",
-            "tremorsense 60 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 10"
         ],
         "languages": "",
         "special_abilities": [
             {
                 "name": "Corpo Aquecido",
-                "desc": "Uma criatura que toca o remorhaz ou o atinge com um ataque corpo a corpo enquanto estiver a 1,5 metro dele sofre 10 (3d6) de dano de fogo."
+                "desc": "Uma criatura que toca o Remorraz ou o atinge com um ataque corpo a corpo enquanto estiver a 1,5 metro dele sofre 10 (3d6) de dano de fogo."
             }
         ],
         "actions": [
@@ -30783,14 +30783,14 @@
                     }
                 ],
                 "attack_bonus": 11,
-                "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 3 metros, um alvo. Dano: 40 (6d10 + 7) de dano perfurante mais 10 (3d6) de dano de fogo. Se o alvo for uma criatura, ela é agarrada (CD de fuga 17). Até que este agarrão termine, o alvo está contido e o remorhaz não pode morder outro alvo.",
+                "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 3 metros, um alvo. Dano: 40 (6d10 + 7) de dano perfurante mais 10 (3d6) de dano de fogo. Se o alvo for uma criatura, ela é agarrada (CD de fuga 17). Até que este agarrão termine, o alvo está contido e o Remorraz não pode morder outro alvo.",
                 "name": "Mordida"
             },
             {
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O remorhaz faz um ataque de mordida contra uma criatura Média ou menor que está agarrando. Se o ataque acertar, aquela criatura sofre o dano da mordida e é engolida, e o agarrão termina. Enquanto engolida, a criatura fica cega e contida, tem cobertura total contra ataques e outros efeitos fora do remorhaz e recebe 21 (6d6) de dano de ácido no início de cada turno do remorhaz.\nSe o remorhaz sofrer 30 de dano ou mais em um único turno de uma criatura dentro dele, o remorhaz deve ter sucesso em um teste de resistência de Constituição CD 15 no final desse turno ou regurgitar todas as criaturas engolidas, que caem caídas em um espaço dentro de 3 metros. muitas vezes ele remorhaz. Se o remorhaz morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
+                "description": "O Remorraz faz um ataque de mordida contra uma criatura Média ou menor que está agarrando. Se o ataque acertar, aquela criatura sofre o dano da mordida e é engolida, e o agarrão termina. Enquanto engolida, a criatura fica cega e contida, tem cobertura total contra ataques e outros efeitos fora do Remorraz e recebe 21 (6d6) de dano de ácido no início de cada turno do Remorraz.\nSe o Remorraz sofrer 30 de dano ou mais em um único turno de uma criatura dentro dele, o Remorraz deve ter sucesso em um teste de resistência de Constituição CD 15 no final desse turno ou regurgitar todas as criaturas engolidas, que caem caídas em um espaço dentro de 3 metros. muitas vezes ele Remorraz. Se o Remorraz morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
                 "name": "Engolir"
             }
         ],
@@ -30962,7 +30962,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Roper",
+        "name": "Estrangulador",
         "subtitle": "Monstruosidade grande, neutro e mau",
         "size": "Large",
         "alignment": "neutral evil",
@@ -31110,7 +31110,7 @@
         "subtype": null,
         "group": "Objetos Animados",
         "challenge_rating": 2.0,
-        "name": "Tapete Sufocante",
+        "name": "Tapete Sufocador",
         "subtitle": "Constructo grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -31218,7 +31218,7 @@
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 6"
         ],
         "languages": "",
@@ -31844,7 +31844,7 @@
         "subtype": "any race",
         "group": null,
         "challenge_rating": 0.5,
-        "name": "Batedor",
+        "name": "Rastreador",
         "subtitle": "Humanoide médio (qualquer raça), qualquer alinhamento",
         "size": "Medium",
         "alignment": "any alignment",
@@ -31933,7 +31933,7 @@
         "special_abilities": [
             {
                 "name": "Audição e Visão Aguçadas",
-                "desc": "O batedor tem vantagem em testes de Sabedoria (Percepção) que dependem de audição ou visão."
+                "desc": "O Rastreador tem vantagem em testes de Sabedoria (Percepção) que dependem de audição ou visão."
             }
         ],
         "actions": [
@@ -31941,7 +31941,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O batedor faz dois ataques corpo a corpo ou dois ataques à distância.",
+                "description": "O Rastreador faz dois ataques corpo a corpo ou dois ataques à distância.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -31988,7 +31988,7 @@
         "subtype": null,
         "group": "Bruxas",
         "challenge_rating": 2.0,
-        "name": "Bruxa do Mar",
+        "name": "Megera do Mar",
         "subtitle": "Feérico médio, caótico e mau",
         "size": "Medium",
         "alignment": "chaotic evil",
@@ -32244,7 +32244,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -32331,7 +32331,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Monte Cambaleante",
+        "name": "Monte Verderrante",
         "subtitle": "Planta grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -32431,18 +32431,18 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             }
         ],
         "senses": [
-            "visão cega 60 pés (cego além deste raio)",
+            "percepção às cegas 60 pés (cego além deste raio)",
             "Percepção passiva 10"
         ],
         "languages": "",
         "special_abilities": [
             {
                 "name": "Absorção de Raios",
-                "desc": "Sempre que o monte cambaleante é submetido a dano de raio, ele não sofre dano e recupera um número de pontos de vida igual ao dano de raio causado."
+                "desc": "Sempre que o Monte Verderrante é submetido a dano de raio, ele não sofre dano e recupera um número de pontos de vida igual ao dano de raio causado."
             }
         ],
         "actions": [
@@ -32450,7 +32450,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O monte cambaleante faz dois ataques de pancada. Se ambos os ataques atingirem um alvo Médio ou menor, o alvo é agarrado (CD de fuga 14) e o monte cambaleante usa seu Engolir nele.",
+                "description": "O Monte Verderrante faz dois ataques de pancada. Se ambos os ataques atingirem um alvo Médio ou menor, o alvo é agarrado (CD de fuga 14) e o Monte Verderrante usa seu Engolir nele.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -32472,7 +32472,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O monte cambaleante engole uma criatura Média ou menor agarrada por ele. O alvo engolfado fica cego, impedido e incapaz de respirar, e deve ser bem sucedido em um teste de resistência de Constituição CD 14 no início de cada um dos turnos do monte ou sofrerá 13 (2d8 + 4) pontos de dano contundente. Se o monte se mover, o alvo engolfado se move com ele. O monte pode ter apenas uma criatura engolida por vez.",
+                "description": "O Monte Verderrante engole uma criatura Média ou menor agarrada por ele. O alvo engolfado fica cego, impedido e incapaz de respirar, e deve ser bem sucedido em um teste de resistência de Constituição CD 14 no início de cada um dos turnos do monte ou sofrerá 13 (2d8 + 4) pontos de dano contundente. Se o monte se mover, o alvo engolfado se move com ele. O monte pode ter apenas uma criatura engolida por vez.",
                 "name": "Engolir"
             }
         ],
@@ -32489,7 +32489,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 7.0,
-        "name": "Escudo Guardião",
+        "name": "Égide Protetor",
         "subtitle": "Constructo grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -32563,7 +32563,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -32582,7 +32582,7 @@
             }
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 10"
         ],
@@ -32642,7 +32642,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 0.0,
-        "name": "Gritador",
+        "name": "Guinchador",
         "subtitle": "Planta média, sem alinhamento",
         "size": "Medium",
         "alignment": "unaligned",
@@ -32720,7 +32720,7 @@
             }
         ],
         "senses": [
-            "visão cega 30 pés (cega além deste raio)",
+            "percepção às cegas 30 pés (cega além deste raio)",
             "Percepção passiva 6"
         ],
         "languages": "",
@@ -32735,7 +32735,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "Quando uma luz brilhante ou uma criatura está a 9 metros do guincho, ele emite um guincho audível a até 90 metros dele. O gritador continua a gritar até que a perturbação saia do alcance e por 1d4 turnos do gritador depois disso",
+                "description": "Quando uma luz brilhante ou uma criatura está a 9 metros do guincho, ele emite um guincho audível a até 90 metros dele. O Guinchador continua a gritar até que a perturbação saia do alcance e por 1d4 turnos do Guinchador depois disso",
                 "name": "Grito"
             }
         ],
@@ -32856,7 +32856,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -32979,7 +32979,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             }
         ],
         "senses": [
@@ -33164,7 +33164,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -33223,7 +33223,7 @@
                         "spells": [
                             {
                                 "index": "blade-barrier",
-                                "name": "Barreira Lâmina",
+                                "name": "Barreira de Lâminas",
                                 "school": "EVOCATION",
                                 "level": 6
                             },
@@ -33246,7 +33246,7 @@
                         "spells": [
                             {
                                 "index": "commune",
-                                "name": "Comuna",
+                                "name": "Comunhão",
                                 "school": "DIVINATION",
                                 "level": 5
                             },
@@ -33512,7 +33512,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -33547,7 +33547,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -33595,7 +33595,7 @@
         "subtype": null,
         "group": "Nagas",
         "challenge_rating": 8.0,
-        "name": "Espírito Naga",
+        "name": "Naga Espiritual",
         "subtitle": "Monstruosidade grande, caótico e mau",
         "size": "Large",
         "alignment": "chaotic evil",
@@ -33713,7 +33713,7 @@
                         "spells": [
                             {
                                 "index": "mage-hand",
-                                "name": "Mão de Mago",
+                                "name": "Mãos Mágicas",
                                 "school": "CONJURATION",
                                 "level": 0
                             },
@@ -33732,7 +33732,7 @@
                         ]
                     },
                     {
-                        "group": "1º nível (4 slots)",
+                        "group": "1º círculo (4 espaços)",
                         "spells": [
                             {
                                 "index": "charm-person",
@@ -33748,14 +33748,14 @@
                             },
                             {
                                 "index": "sleep",
-                                "name": "Dormir",
+                                "name": "Sono",
                                 "school": "ENCHANTMENT",
                                 "level": 1
                             }
                         ]
                     },
                     {
-                        "group": "2º nível (3 slots)",
+                        "group": "2º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "detect-thoughts",
@@ -33765,14 +33765,14 @@
                             },
                             {
                                 "index": "hold-person",
-                                "name": "Reter Pessoa",
+                                "name": "Imobilizar Pessoa",
                                 "school": "ENCHANTMENT",
                                 "level": 2
                             }
                         ]
                     },
                     {
-                        "group": "3º nível (3 espaços)",
+                        "group": "3º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "lightning-bolt",
@@ -33782,31 +33782,31 @@
                             },
                             {
                                 "index": "water-breathing",
-                                "name": "Respiração Aquática",
+                                "name": "Respirar na Água",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             }
                         ]
                     },
                     {
-                        "group": "4º nível (3 slots)",
+                        "group": "4º círculo (3 espaços)",
                         "spells": [
                             {
                                 "index": "blight",
-                                "name": "Blight",
+                                "name": "Malogro",
                                 "school": "NECROMANCY",
                                 "level": 4
                             },
                             {
                                 "index": "dimension-door",
-                                "name": "Dimensão Porta",
+                                "name": "Porta Dimensional",
                                 "school": "CONJURATION",
                                 "level": 4
                             }
                         ]
                     },
                     {
-                        "group": "5º nível (2 espaços)",
+                        "group": "5º círculo (2 espaços)",
                         "spells": [
                             {
                                 "index": "dominate-person",
@@ -34150,7 +34150,7 @@
         "subtype": null,
         "group": "Mephits",
         "challenge_rating": 0.25,
-        "name": "Steam Mephit",
+        "name": "Mefit de Vapor",
         "subtitle": "Elemental pequeno, neutro e mau",
         "size": "Small",
         "alignment": "neutral evil",
@@ -34230,7 +34230,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -34254,7 +34254,7 @@
                         "spells": [
                             {
                                 "index": "blur",
-                                "name": "Desfoque",
+                                "name": "Turvar",
                                 "school": "ILLUSION",
                                 "level": 2
                             }
@@ -34323,7 +34323,7 @@
         "subtype": null,
         "group": "Gigantes",
         "challenge_rating": 7.0,
-        "name": "Gigante de Pedra",
+        "name": "Gigante da Pedra",
         "subtitle": "Gigante enorme, neutro",
         "size": "Huge",
         "alignment": "neutral",
@@ -34576,7 +34576,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "frightened",
@@ -34811,13 +34811,13 @@
                             },
                             {
                                 "index": "feather-fall",
-                                "name": "Queda de Penas",
+                                "name": "Queda Suave",
                                 "school": "TRANSMUTATION",
                                 "level": 1
                             },
                             {
                                 "index": "levitate",
-                                "name": "Levitar",
+                                "name": "Levitação",
                                 "school": "TRANSMUTATION",
                                 "level": 2
                             },
@@ -34834,13 +34834,13 @@
                         "spells": [
                             {
                                 "index": "control-weather",
-                                "name": "Controle do Clima",
+                                "name": "Controlar o Clima",
                                 "school": "TRANSMUTATION",
                                 "level": 8
                             },
                             {
                                 "index": "water-breathing",
-                                "name": "Respiração Aquática",
+                                "name": "Respirar na Água",
                                 "school": "TRANSMUTATION",
                                 "level": 3
                             }
@@ -34916,7 +34916,7 @@
         "subtype": "shapechanger",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Succubus/Incubus",
+        "name": "Súcubo/Íncubo",
         "subtitle": "Ínfero médio (metamorfo), neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -35251,7 +35251,7 @@
             }
         ],
         "senses": [
-            "visão cega 120 pés",
+            "percepção às cegas 120 pés",
             "Percepção passiva 10"
         ],
         "languages": "",
@@ -35392,7 +35392,7 @@
         "subtype": "any race",
         "group": null,
         "challenge_rating": 0.5,
-        "name": "Bandido",
+        "name": "Rufião",
         "subtitle": "Humanoide médio (qualquer raça), qualquer alinhamento exceto bom",
         "size": "Medium",
         "alignment": "any non-good alignment",
@@ -35466,7 +35466,7 @@
         "special_abilities": [
             {
                 "name": "Táticas de Pacote",
-                "desc": "O bandido tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do bandido estiver a até 1,5 m da criatura e o aliado não estiver incapacitado."
+                "desc": "O Rufião tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do bandido estiver a até 1,5 m da criatura e o aliado não estiver incapacitado."
             }
         ],
         "actions": [
@@ -35671,7 +35671,7 @@
         "subtype": "any race",
         "group": null,
         "challenge_rating": 0.125,
-        "name": "Guerreiro Tribal",
+        "name": "Combatente Tribal",
         "subtitle": "Humanoide médio (qualquer raça), qualquer alinhamento",
         "size": "Medium",
         "alignment": "any alignment",
@@ -35765,7 +35765,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Triceratops",
+        "name": "Tricerátopo",
         "subtitle": "Fera enorme, sem alinhamento",
         "size": "Huge",
         "alignment": "unaligned",
@@ -35834,7 +35834,7 @@
         "special_abilities": [
             {
                 "name": "Investida Pisoteante",
-                "desc": "Se o triceratops se move pelo menos 20 pés em linha reta em direção a uma criatura e então a atinge com um ataque sangrento no mesmo turno, aquele alvo deve ter sucesso em um teste de resistência de Força CD 13 ou será derrubado. Se o alvo estiver caído, o triceratops pode fazer um ataque de pisão contra ele como uma ação bônus."
+                "desc": "Se o Tricerátopo se move pelo menos 20 pés em linha reta em direção a uma criatura e então a atinge com um ataque sangrento no mesmo turno, aquele alvo deve ter sucesso em um teste de resistência de Força CD 13 ou será derrubado. Se o alvo estiver caído, o Tricerátopo pode fazer um ataque de pisão contra ele como uma ação bônus."
             }
         ],
         "actions": [
@@ -36262,13 +36262,13 @@
                             },
                             {
                                 "index": "druidcraft",
-                                "name": "Druidcraft",
+                                "name": "Arte Druídica",
                                 "school": "TRANSMUTATION",
                                 "level": 0
                             },
                             {
                                 "index": "pass-without-trace",
-                                "name": "Passe Sem Deixar Vestígios",
+                                "name": "Passo sem Rastro",
                                 "school": "ABJURATION",
                                 "level": 2
                             }
@@ -36291,7 +36291,7 @@
                             },
                             {
                                 "index": "entangle",
-                                "name": "Enredar",
+                                "name": "Emaranhar",
                                 "school": "CONJURATION",
                                 "level": 1
                             }
@@ -36629,7 +36629,7 @@
         "subtype": null,
         "group": "Vampiros",
         "challenge_rating": 5.0,
-        "name": "Cria de Vampiro",
+        "name": "Cria Vampírica",
         "subtitle": "Morto-vivo médio, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -37030,7 +37030,7 @@
             }
         ],
         "senses": [
-            "visão cega 30 pés (cega além deste raio)",
+            "percepção às cegas 30 pés (cega além deste raio)",
             "Percepção passiva 6"
         ],
         "languages": "",
@@ -37202,7 +37202,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
@@ -37363,7 +37363,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "poisoned",
@@ -37508,7 +37508,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -37543,7 +37543,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -37613,7 +37613,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Werebear, Forma de Urso",
+        "name": "Homem-Urso, Forma de Urso",
         "subtitle": "Humanoide médio (humano), neutro e bom",
         "size": "Medium",
         "alignment": "neutral good",
@@ -37772,8 +37772,8 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Werebear, Forma Humana",
-        "subtitle": "Humanoide médio (humano), neutro e bom",
+        "name": "Homem-Urso, Forma Humanoide",
+        "subtitle": "Humanoide médio (humano, metamorfo), neutro e bom",
         "size": "Medium",
         "alignment": "neutral good",
         "armor_class": 10,
@@ -37910,7 +37910,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Werebear, Forma Híbrida",
+        "name": "Homem-Urso, Forma Híbrida",
         "subtitle": "Humanoide médio (humano), neutro e bom",
         "size": "Medium",
         "alignment": "neutral good",
@@ -38084,7 +38084,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Wereboar, Forma de Javali",
+        "name": "Homem-Javali, Forma de Javali",
         "subtitle": "Humanoide médio (humano), neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -38219,8 +38219,8 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Wereboar, Forma Humana",
-        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "name": "Homem-Javali, Forma Humanoide",
+        "subtitle": "Humanoide médio (humano, metamorfo), neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
         "armor_class": 10,
@@ -38357,7 +38357,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Wereboar, Forma Híbrida",
+        "name": "Homem-Javali, Forma Híbrida",
         "subtitle": "Humanoide médio (humano), neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -38514,8 +38514,8 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Wererat, Forma Humana",
-        "subtitle": "Humanoide médio (humano), ordeiro e mau",
+        "name": "Homem-Rato, Forma Humanoide",
+        "subtitle": "Humanoide médio (humano, metamorfo), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 12,
@@ -38672,7 +38672,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Wererat, Forma Híbrida",
+        "name": "Homem-Rato, Forma Híbrida",
         "subtitle": "Humanoide médio (humano), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -38845,7 +38845,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Wererat, Forma de Rato",
+        "name": "Homem-Rato, Forma de Rato",
         "subtitle": "Humanoide médio (humano), ordeiro e mau",
         "size": "Medium",
         "alignment": "lawful evil",
@@ -38982,8 +38982,8 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Weretiger, Forma Humana",
-        "subtitle": "Humanoide médio (humano), neutro",
+        "name": "Homem-Tigre, Forma Humanoide",
+        "subtitle": "Humanoide médio (humano, metamorfo), neutro",
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 12,
@@ -39141,7 +39141,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Weretiger, Forma Híbrida",
+        "name": "Homem-Tigre, Forma Híbrida",
         "subtitle": "Humanoide médio (humano), neutro",
         "size": "Medium",
         "alignment": "neutral",
@@ -39334,7 +39334,7 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 4.0,
-        "name": "Weretiger, Forma de Tigre",
+        "name": "Homem-Tigre, Forma de Tigre",
         "subtitle": "Humanoide médio (humano), neutro",
         "size": "Medium",
         "alignment": "neutral",
@@ -39490,8 +39490,8 @@
         "subtype": "human",
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Lobisomem, Forma Humana",
-        "subtitle": "Humanoide médio (humano), caótico e mau",
+        "name": "Lobisomem, Forma Humanoide",
+        "subtitle": "Humanoide médio (humano, metamorfo), caótico e mau",
         "size": "Medium",
         "alignment": "chaotic evil",
         "armor_class": 11,
@@ -40020,7 +40020,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 10 pés",
+            "percepção às cegas 10 pés",
             "visão no escuro 60 pés",
             "Percepção passiva 14"
         ],
@@ -40080,7 +40080,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Wight",
+        "name": "Inumano",
         "subtitle": "Morto-vivo médio, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -40184,7 +40184,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "poisoned",
@@ -40200,7 +40200,7 @@
         "special_abilities": [
             {
                 "name": "Sensibilidade à luz do sol",
-                "desc": "Enquanto estiver sob a luz do sol, o wight tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+                "desc": "Enquanto estiver sob a luz do sol, o Inumano tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
             }
         ],
         "actions": [
@@ -40208,7 +40208,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O wight faz dois ataques de espada longa ou dois ataques de arco longo. Ele pode usar seu Life Drain no lugar de um ataque de espada longa.",
+                "description": "O Inumano faz dois ataques de espada longa ou dois ataques de arco longo. Ele pode usar seu Life Drain no lugar de um ataque de espada longa.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -40223,7 +40223,7 @@
                     }
                 ],
                 "attack_bonus": 4,
-                "description": "Arma corpo a corpo Ataque: +4 para acertar, alcance 1,5 m, uma criatura. Dano: 5 (1d6 + 2) de dano necrótico. O alvo deve ter sucesso em um teste de resistência de Constituição CD 13 ou seu máximo de pontos de vida será reduzido em uma quantidade igual ao dano sofrido. Essa redução dura até que o alvo termine um descanso longo. O alvo morre se este efeito reduzir seu máximo de pontos de vida a 0.\nUm Humanoide morto por este ataque se levanta 24 horas depois como um zumbi sob o controle do wight, a menos que o Humanoide seja restaurado à vida ou seu corpo seja destruído. O wight não pode ter mais do que doze zumbis sob seu controle ao mesmo tempo.",
+                "description": "Arma corpo a corpo Ataque: +4 para acertar, alcance 1,5 m, uma criatura. Dano: 5 (1d6 + 2) de dano necrótico. O alvo deve ter sucesso em um teste de resistência de Constituição CD 13 ou seu máximo de pontos de vida será reduzido em uma quantidade igual ao dano sofrido. Essa redução dura até que o alvo termine um descanso longo. O alvo morre se este efeito reduzir seu máximo de pontos de vida a 0.\nUm Humanoide morto por este ataque se levanta 24 horas depois como um zumbi sob o controle do Inumano, a menos que o Humanoide seja restaurado à vida ou seu corpo seja destruído. O Inumano não pode ter mais do que doze zumbis sob seu controle ao mesmo tempo.",
                 "name": "Life Drain"
             },
             {
@@ -40262,7 +40262,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 2.0,
-        "name": "Will-o'-Wisp",
+        "name": "Fogo-Fátuo",
         "subtitle": "Morto-vivo minúsculo, caótico e mau",
         "size": "Tiny",
         "alignment": "chaotic evil",
@@ -40387,7 +40387,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -40417,7 +40417,7 @@
             {
                 "index": "unconscious",
                 "type": "UNCONSCIOUS",
-                "name": "inconsciente"
+                "name": "Inconsciente"
             }
         ],
         "senses": [
@@ -40480,7 +40480,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 3.0,
-        "name": "Lobo do Inverno",
+        "name": "Lobo Invernal",
         "subtitle": "Monstruosidade grande, neutro e mau",
         "size": "Large",
         "alignment": "neutral evil",
@@ -40560,7 +40560,7 @@
         "senses": [
             "Percepção passiva 15"
         ],
-        "languages": "Comum, Gigante, Lobo do Inverno",
+        "languages": "Comum, Gigante, Lobo Invernal",
         "special_abilities": [
             {
                 "name": "Audição e olfato apurados",
@@ -40728,7 +40728,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 5.0,
-        "name": "Fantasma",
+        "name": "Aparição",
         "subtitle": "Morto-vivo médio, neutro e mau",
         "size": "Medium",
         "alignment": "neutral evil",
@@ -40858,7 +40858,7 @@
             {
                 "index": "exhaustion",
                 "type": "EXHAUSTION",
-                "name": "Exaustão"
+                "name": "Exausto"
             },
             {
                 "index": "grappled",
@@ -40943,7 +40943,7 @@
         "subtype": null,
         "group": null,
         "challenge_rating": 6.0,
-        "name": "Wyvern",
+        "name": "Serpe",
         "subtitle": "Dragão grande, sem alinhamento",
         "size": "Large",
         "alignment": "unaligned",
@@ -41028,7 +41028,7 @@
                 "damage_dices": [
                 ],
                 "attack_bonus": null,
-                "description": "O wyvern faz dois ataques: um com sua mordida e outro com seu ferrão. Enquanto voa, pode usar suas garras no lugar de outro ataque.",
+                "description": "O Serpe faz dois ataques: um com sua mordida e outro com seu ferrão. Enquanto voa, pode usar suas garras no lugar de outro ataque.",
                 "name": "Ataques Múltiplos"
             },
             {
@@ -41185,7 +41185,7 @@
         ],
         "senses": [
             "visão no escuro 60 pés",
-            "tremorsense 60 pés",
+            "sismiconsciência 60 pés",
             "Percepção passiva 16"
         ],
         "languages": "terráqueo",
@@ -41365,7 +41365,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 16"
         ],
@@ -41561,7 +41561,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 19"
         ],
@@ -41758,7 +41758,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 16"
         ],
@@ -41939,7 +41939,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 17"
         ],
@@ -42124,7 +42124,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 17"
         ],
@@ -42310,7 +42310,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 19"
         ],
@@ -42496,11 +42496,11 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 17"
         ],
@@ -42696,7 +42696,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 18"
         ],
@@ -42892,7 +42892,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 18"
         ],
@@ -43074,7 +43074,7 @@
         "condition_immunities": [
         ],
         "senses": [
-            "visão cega 30 pés",
+            "percepção às cegas 30 pés",
             "visão no escuro 120 pés",
             "Percepção passiva 16"
         ],
@@ -43234,7 +43234,7 @@
             {
                 "index": "poisoned",
                 "type": "POISONED",
-                "name": "envenenado"
+                "name": "Envenenado"
             }
         ],
         "senses": [
