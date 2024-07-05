@@ -5102,5 +5102,53 @@
         "school": "ENCHANTMENT",
         "description": "Você cria uma zona mágica, protegendo contra enganação uma área de esfera com 4,5 metros de raio [15-foot-radius sphere] centrada em um ponto à sua escolha, no alcance da magia. Enquanto a magia durar, quando uma criatura entra pela primeira vez ou inicia o turno na área da magia, ela deve fazer uma salvaguarda de Carisma. Se falhar, a criatura não pode falar uma mentira deliberada enquanto estiver no raio da magia. Você sabe se cada criatura é bem-sucedida ou se falhou na salvaguarda. Uma criatura afetada por esta magia está ciente dos efeitos dela e, portanto, pode evitar responder às perguntas que normalmente responderia com uma mentira. A criatura pode ser evasiva em suas respostas enquanto permanecer dentro dos limites da zona da verdade.",
         "higher_level": null
+    },
+    {
+        "index": "divine-smite",
+        "name": "Destruição Divina",
+        "level": 1,
+        "casting_time": "1 ação",
+        "components": "S",
+        "duration": "Instantaneous",
+        "range": "Pessoal",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "A partir do 2º nível, quando você atinge uma criatura com um ataque corpo a corpo com arma, você pode gastar um espaço de magia para causar dano radiante ao alvo, além do dano da arma. O dano extra é de 2d8 para um espaço de magia de 1º nível, mais 1d8 para cada nível de magia superior ao 1º, até um máximo de 5d8. O dano aumenta em 1d8 se o alvo for um morto-vivo ou um demônio.",
+        "higher_level": "Quando você lança esta magia usando um espaço de magia de 2º nível ou superior, o dano base aumenta em 1d8."
+    },
+    {
+        "index": "searing-smite",
+        "name": "Destruição Cauterizante",
+        "level": 1,
+        "casting_time": "1 ação bônus",
+        "components": "V",
+        "duration": "1 minuto",
+        "range": "Pessoal",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Fire",
+        "school": "EVOCATION",
+        "description": "Na próxima vez que você atingir uma criatura com um ataque de arma corpo a corpo durante a duração da magia, sua arma brilhará com intensidade incandescente e o ataque causará 1d6 de dano de fogo extra ao alvo e fará com que ele se incendeie em chamas. No início de cada um de seus turnos até o fim da magia, o alvo deve fazer um teste de resistência de Constituição. Se falhar na resistência, sofre 1d6 de dano de fogo. Com um teste bem-sucedido, os feitiços terminam. Se o alvo ou uma criatura a até 1,5 metro dele usar uma ação para apagar as chamas, ou se algum outro efeito apagar as chamas (como o alvo ser submerso na água), a magia termina.",
+        "higher_level": "Quando você conjura esta magia usando um espaço de magia de 2º nível ou superior, o dano extra inicial causado pelo ataque aumenta em 1d6 para cada espaço acima do 1º."
+    },
+    {
+        "index": "ensnaring-strike",
+        "name": "Golpe Constritor",
+        "level": 1,
+        "casting_time": "1 ação bônus",
+        "components": "V",
+        "duration": "1 minuto",
+        "range": "Pessoal",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "STRENGTH",
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Na próxima vez que você atingir uma criatura com um ataque de arma antes do fim da magia, uma massa contorcida de vinhas espinhosas aparecerá no ponto de impacto, e o alvo deverá ser bem sucedido em um teste de resistência de Força ou será contido pelas vinhas mágicas até que a magia termine. . Uma criatura Grande ou maior tem vantagem neste teste de resistência. Se o alvo tiver sucesso no teste, as vinhas murcham. Enquanto estiver contido por este feitiço, o alvo sofre 1d6 de dano perfurante no início de cada um de seus turnos. Uma criatura contida pelas vinhas ou que possa tocá-la pode usar sua ação para fazer um teste de Força contra sua CD de resistência de magia. Se obtiver sucesso, o alvo é libertado.",
+        "higher_level": "Se você conjurar esta magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 1º."
     }
 ]
