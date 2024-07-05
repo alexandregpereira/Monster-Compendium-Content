@@ -1408,6 +1408,22 @@
         "higher_level": null
     },
     {
+        "index": "divine-smite",
+        "name": "Divine Smite",
+        "level": 1,
+        "casting_time": "1 action",
+        "components": "S",
+        "duration": "Instantaneous",
+        "range": "Self",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.",
+        "higher_level": "When you cast this spell using a spell slot of 2th level or higher, the base damage increases by 1d8."
+    },
+    {
         "index": "divine-word",
         "name": "Divine Word",
         "level": 7,
@@ -4048,6 +4064,22 @@
         "higher_level": null
     },
     {
+        "index": "searing-smite",
+        "name": "Searing Smite",
+        "level": 1,
+        "casting_time": "1 bonus action",
+        "components": "V",
+        "duration": "Up to 1 minutes",
+        "range": "Self",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "EVOCATION",
+        "description": "The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spells ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends. ",
+        "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot above 1st."
+    },
+    {
         "index": "secret-chest",
         "name": "Secret Chest",
         "level": 4,
@@ -4318,6 +4350,22 @@
         "school": "TRANSMUTATION",
         "description": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throw or be affected by this spell for the duration. An affected target's speed is halved, it takes a -2 penalty to AC and dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn. If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted. A creature affected by this spell makes another wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.",
         "higher_level": null
+    },
+    {
+        "index": "ensnaring-strike",
+        "name": "Ensnaring Strike",
+        "level": 1,
+        "casting_time": "1 bonus action",
+        "components": "V",
+        "duration": "Up to 1 minute",
+        "range": "Self",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "STRENGTH",
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away. While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.",
+        "higher_level": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
     },
     {
         "index": "spare-the-dying",
@@ -4655,6 +4703,22 @@
         "description": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within range. - Your voice booms up to three times as loud as normal for 1 minute. - You cause flames to flicker, brighten, dim, or change color for 1 minute. - You cause harmless tremors in the ground for 1 minute. - You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers. - You instantaneously cause an unlocked door or window to fly open or slam shut. - You alter the appearance of your eyes for 1 minute. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
         "higher_level": null
     },
+    {
+        "index": "thunderous-smite",
+        "name": "Thunderous Smite",
+        "level": 1,
+        "casting_time": "1 bonus action",
+        "components": "V",
+        "duration": "Up to 1 minute",
+        "range": "Self",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Thunder",
+        "school": "EVOCATION",
+        "description": "The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.",
+        "higher_level": null
+    }.
     {
         "index": "thunderwave",
         "name": "Thunderwave",
