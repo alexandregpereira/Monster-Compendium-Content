@@ -4073,8 +4073,8 @@
         "range": "Self",
         "ritual": false,
         "concentration": true,
-        "saving_throw_type": null,
-        "damage_type": null,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Fire",
         "school": "EVOCATION",
         "description": "The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon flares with white-hot intensity, and the attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. At the start of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a successful save, the spells ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends. ",
         "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot above 1st."
@@ -4718,7 +4718,7 @@
         "school": "EVOCATION",
         "description": "The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.",
         "higher_level": null
-    }.
+    },
     {
         "index": "thunderwave",
         "name": "Thunderwave",
