@@ -5150,5 +5150,21 @@
         "school": "CONJURATION",
         "description": "Na próxima vez que você atingir uma criatura com um ataque de arma antes do fim da magia, uma massa contorcida de vinhas espinhosas aparecerá no ponto de impacto, e o alvo deverá ser bem sucedido em um teste de resistência de Força ou será contido pelas vinhas mágicas até que a magia termine. . Uma criatura Grande ou maior tem vantagem neste teste de resistência. Se o alvo tiver sucesso no teste, as vinhas murcham. Enquanto estiver contido por este feitiço, o alvo sofre 1d6 de dano perfurante no início de cada um de seus turnos. Uma criatura contida pelas vinhas ou que possa tocá-la pode usar sua ação para fazer um teste de Força contra sua CD de resistência de magia. Se obtiver sucesso, o alvo é libertado.",
         "higher_level": "Se você conjurar esta magia usando um espaço de magia de 2º nível ou superior, o dano aumenta em 1d6 para cada nível do espaço acima do 1º."
+    },
+    {
+        "index": "thunderous-smite",
+        "name": "Destruição Estrondosa",
+        "level": 1,
+        "casting_time": "1 ação bônus",
+        "components": "V",
+        "duration": "1 minuto",
+        "range": "Pessoal",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Thunder",
+        "school": "EVOCATION",
+        "description": "Na primeira vez que você acertar um ataque corpo-a-corpo com arma durante a duração desta magia, sua arma ressoará com um trovão que será audível a até 90 metros de você, e o ataque causará 2d6 de dano trovejante extra ao alvo. Além disso, se o alvo for uma criatura, ele deverá ser bem sucedido em um teste de resistência de Força ou será empurrado a 3 metros de distância de você e derrubado.",
+        "higher_level": null
     }
 ]
