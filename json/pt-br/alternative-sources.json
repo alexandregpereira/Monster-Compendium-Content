@@ -1,6 +1,18 @@
 [
     {
         "source": {
+            "name": "Volo's Guide to Monsters",
+            "originalName": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 122,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Volothamp Geddarm, o renomado mestre do saber, retorna com uma dissertação fascinante sobre alguns dos monstros mais icônicos dos Forgotten Realms. Esta obra fornece conhecimentos inestimáveis para Mestres e jogadores. Se você está em busca de tesouros, conhecimento ou troféus, este guia é essencial para sua próxima aventura, se você sobreviver a ela."
+    },
+    {
+        "source": {
             "name": "Livro dos Monstros",
             "originalName": "Monster Manual",
             "acronym": "MM"
