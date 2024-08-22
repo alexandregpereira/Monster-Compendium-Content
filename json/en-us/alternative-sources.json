@@ -1,6 +1,17 @@
 [
     {
         "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 122,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Volothamp Geddarm, the renowned loremaster, returns with a captivating dissertation on some of the most iconic monsters in the Forgotten Realms. This work provides invaluable knowledge for Dungeon Masters and players alike. Whether you're seeking treasure, lore, or trophies, this guide is essential for your next adventure — if you survive it."
+    },
+    {
+        "source": {
             "name": "Monster Manual",
             "acronym": "MM"
         },
