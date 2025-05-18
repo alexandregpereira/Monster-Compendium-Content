@@ -9,12 +9,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/aarakocra.png"
     },
     {
-        "monster_index": "aboleth",
+        "monster_index": "abjurer",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "aboleth",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/aboleth.png"
     },
     {
@@ -23,7 +32,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
     },
     {
@@ -41,7 +50,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-black-dragon.png"
     },
     {
@@ -50,7 +59,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-blue-dragon.png"
     },
     {
@@ -59,7 +68,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-brass-dragon.png"
     },
     {
@@ -68,7 +77,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-bronze-dragon.png"
     },
     {
@@ -77,7 +86,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-copper-dragon.png"
     },
     {
@@ -86,7 +95,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-gold-dragon.png"
     },
     {
@@ -95,7 +104,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-green-dragon.png"
     },
     {
@@ -104,7 +113,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-red-dragon.png"
     },
     {
@@ -113,7 +122,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-silver-dragon.png"
     },
     {
@@ -122,7 +131,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/adult-white-dragon.png"
     },
     {
@@ -135,12 +144,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/air-elemental.png"
     },
     {
-        "monster_index": "ancient-black-dragon",
+        "monster_index": "alhoon",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/alhoon.png"
+    },
+    {
+        "monster_index": "ancient-black-dragon",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-black-dragon.png"
     },
     {
@@ -149,7 +167,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-blue-dragon.png"
     },
     {
@@ -158,7 +176,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-brass-dragon.png"
     },
     {
@@ -167,7 +185,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-bronze-dragon.png"
     },
     {
@@ -176,7 +194,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-copper-dragon.png"
     },
     {
@@ -185,7 +203,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-gold-dragon.png"
     },
     {
@@ -194,7 +212,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-green-dragon.png"
     },
     {
@@ -203,7 +221,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-red-dragon.png"
     },
     {
@@ -212,7 +230,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-silver-dragon.png"
     },
     {
@@ -221,7 +239,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ancient-white-dragon.png"
     },
     {
@@ -230,7 +248,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/androsphinx.png"
     },
     {
@@ -248,7 +266,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ankheg.png"
     },
     {
@@ -257,8 +275,26 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png"
+    },
+    {
+        "monster_index": "annis-hag",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/annis-hag.png"
+    },
+    {
+        "monster_index": "apprentice-wizard",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/apprentice-wizard.png"
     },
     {
         "monster_index": "arcanaloth",
@@ -268,6 +304,24 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/arcanaloth.png"
+    },
+    {
+        "monster_index": "archdruid",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "archer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/archer.png"
     },
     {
         "monster_index": "archmage",
@@ -315,13 +369,31 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/azer.png"
     },
     {
-        "monster_index": "balor",
+        "monster_index": "babau",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/babau.png"
+    },
+    {
+        "monster_index": "balor",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/balor.png"
+    },
+    {
+        "monster_index": "banderhobb",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/banderhobb.png"
     },
     {
         "monster_index": "bandit",
@@ -369,12 +441,30 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/barbed-devil.png"
     },
     {
-        "monster_index": "barlgura",
+        "monster_index": "bard",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bard.png"
+    },
+    {
+        "monster_index": "barghest",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/barghest.png"
+    },
+    {
+        "monster_index": "barlgura",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/barlgura.png"
     },
     {
@@ -383,7 +473,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/basilisk.png"
     },
     {
@@ -401,7 +491,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/behir.png"
     },
     {
@@ -410,7 +500,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beholder.png"
     },
     {
@@ -432,13 +522,31 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/berserker.png"
     },
     {
-        "monster_index": "black-dragon-wyrmling",
+        "monster_index": "bheur-hag",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bheur-hag.png"
+    },
+    {
+        "monster_index": "black-dragon-wyrmling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/black-dragon-wyrmling.png"
+    },
+    {
+        "monster_index": "black-guard-drake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-dragon.png"
     },
     {
         "monster_index": "black-pudding",
@@ -450,12 +558,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/black-pudding.png"
     },
     {
-        "monster_index": "blink-dog",
+        "monster_index": "blackguard",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "blink-dog",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/blink-dog.png"
     },
     {
@@ -464,8 +581,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/blue-dragon-wyrmling.png"
+    },
+    {
+        "monster_index": "blue-guard-drake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/blue-guard-drake.png"
     },
     {
         "monster_index": "blue-slaad",
@@ -475,6 +601,24 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/blue-slaad.png"
+    },
+    {
+        "monster_index": "bodak",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bodak.png"
+    },
+    {
+        "monster_index": "boggle",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/boggle.png"
     },
     {
         "monster_index": "bone-devil",
@@ -509,8 +653,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/brass-dragon-wyrmling.png"
+    },
+    {
+        "monster_index": "brontosaurus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/brontosaurus.png"
     },
     {
         "monster_index": "bronze-dragon-wyrmling",
@@ -545,7 +698,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/bulette.png"
     },
     {
@@ -567,12 +720,30 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/cambion.png"
     },
     {
-        "monster_index": "centaur",
+        "monster_index": "catoblepas",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/catoblepas.png"
+    },
+    {
+        "monster_index": "cave-fisher",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/cave-fisher.png"
+    },
+    {
+        "monster_index": "centaur",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/centaur.png"
     },
     {
@@ -585,12 +756,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/chain-devil.png"
     },
     {
-        "monster_index": "chasme",
+        "monster_index": "champion",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/champion.png"
+    },
+    {
+        "monster_index": "chasme",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/chasme.png"
     },
     {
@@ -599,8 +779,26 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/chimera.png"
+    },
+    {
+        "monster_index": "chitine",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/chitine.png"
+    },
+    {
+        "monster_index": "choldrith",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/choldrith.png"
     },
     {
         "monster_index": "chuul",
@@ -648,12 +846,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/cloud-giant.png"
     },
     {
-        "monster_index": "cockatrice",
+        "monster_index": "cloud-giant-smiling-one",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/cloud-giant-smiling-one.png"
+    },
+    {
+        "monster_index": "cockatrice",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/cockatrice.png"
     },
     {
@@ -664,6 +871,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/commoner.png"
+    },
+    {
+        "monster_index": "conjurer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
     },
     {
         "monster_index": "copper-dragon-wyrmling",
@@ -689,7 +905,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/crawling-claw.png"
     },
     {
@@ -729,6 +945,24 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/dao.png"
     },
     {
+        "monster_index": "darkling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/darkling.png"
+    },
+    {
+        "monster_index": "darkling-elder",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/darkling-elder.png"
+    },
+    {
         "monster_index": "darkmantle",
         "background_color": {
             "light": "#FAF9F8",
@@ -743,8 +977,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/death-dog.png"
+    },
+    {
+        "monster_index": "death-kiss",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/death-kiss.png"
     },
     {
         "monster_index": "death-knight",
@@ -770,7 +1013,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/death-tyrant.png"
     },
     {
@@ -783,12 +1026,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/deep-gnome-svirfneblin.png"
     },
     {
-        "monster_index": "demilich",
+        "monster_index": "deep-scion",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/deep-scion.png"
+    },
+    {
+        "monster_index": "demilich",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/demilich.png"
     },
     {
@@ -801,13 +1053,31 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/deva.png"
     },
     {
-        "monster_index": "displacer-beast",
+        "monster_index": "devourer",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/devourer.png"
+    },
+    {
+        "monster_index": "displacer-beast",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/displacer-beast.png"
+    },
+    {
+        "monster_index": "diviner",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
     },
     {
         "monster_index": "djinni",
@@ -826,6 +1096,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/doppelganger.png"
+    },
+    {
+        "monster_index": "draegloth",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/draegloth.png"
     },
     {
         "monster_index": "dragon-turtle",
@@ -851,7 +1130,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/drider.png"
     },
     {
@@ -954,6 +1233,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/efreeti.png"
     },
     {
+        "monster_index": "elder-brain",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/elder-brain.png"
+    },
+    {
         "monster_index": "elephant",
         "background_color": {
             "light": "#FAF9F8",
@@ -968,8 +1256,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/empyrean.png"
+    },
+    {
+        "monster_index": "enchanter",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
     },
     {
         "monster_index": "erinyes",
@@ -999,12 +1296,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ettin.png"
     },
     {
-        "monster_index": "faerie-dragon-(blue)",
+        "monster_index": "evoker",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "faerie-dragon-(blue)",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1013,7 +1319,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1022,7 +1328,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1031,7 +1337,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1040,7 +1346,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1049,7 +1355,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1058,7 +1364,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
     },
     {
@@ -1089,6 +1395,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/fire-giant.png"
     },
     {
+        "monster_index": "fire-giant-dreadnought",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/fire-giant-dreadnought.png"
+    },
+    {
         "monster_index": "fire-snake",
         "background_color": {
             "light": "#FAF9F8",
@@ -1096,6 +1411,33 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/fire-snake.png"
+    },
+    {
+        "monster_index": "firenewt-warlock-of-imix",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "firenewt-warrior",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/firenewt-warrior.png"
+    },
+    {
+        "monster_index": "flail-snail",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/flail-snail.png"
     },
     {
         "monster_index": "flameskull",
@@ -1114,6 +1456,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/flesh-golem.png"
+    },
+    {
+        "monster_index": "flind",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/flind.png"
     },
     {
         "monster_index": "flumph",
@@ -1143,6 +1494,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/fomorian.png"
     },
     {
+        "monster_index": "froghemoth",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/froghemoth.png"
+    },
+    {
         "monster_index": "frost-giant",
         "background_color": {
             "light": "#FAF9F8",
@@ -1150,6 +1510,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/frost-giant.png"
+    },
+    {
+        "monster_index": "frost-giant-everlasting-one",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/frost-giant-everlasting-one.png"
     },
     {
         "monster_index": "galeb-duhr",
@@ -1177,6 +1546,24 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/gas-spore.png"
+    },
+    {
+        "monster_index": "gauth",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gauth.png"
+    },
+    {
+        "monster_index": "gazer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gazer.png"
     },
     {
         "monster_index": "gelatinous-cube",
@@ -1238,7 +1625,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/giant-scorpion.png"
     },
     {
@@ -1251,6 +1638,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/giant-shark.png"
     },
     {
+        "monster_index": "giant-strider",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/giant-strider.png"
+    },
+    {
         "monster_index": "gibbering-mouther",
         "background_color": {
             "light": "#FAF9F8",
@@ -1258,6 +1654,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/gibbering-mouther.png"
+    },
+    {
+        "monster_index": "girallon",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/girallon.png"
     },
     {
         "monster_index": "githyanki-knight",
@@ -1332,6 +1737,24 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/gnoll-fang-of-yeenoghu.png"
     },
     {
+        "monster_index": "gnoll-flesh-gnawer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gnoll-flesh-gnawer.png"
+    },
+    {
+        "monster_index": "gnoll-hunter",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
         "monster_index": "gnoll-pack-lord",
         "background_color": {
             "light": "#FAF9F8",
@@ -1339,6 +1762,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
+    },
+    {
+        "monster_index": "gnoll-witherling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gnoll-witherling.png"
     },
     {
         "monster_index": "goblin",
@@ -1382,7 +1814,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/goristro.png"
     },
     {
@@ -1411,6 +1843,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/green-dragon-wyrmling.png"
+    },
+    {
+        "monster_index": "green-guard-drake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/green-guard-drake.png"
     },
     {
         "monster_index": "green-hag",
@@ -1454,7 +1895,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
     },
     {
@@ -1463,7 +1904,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/griffon.png"
     },
     {
@@ -1474,6 +1915,33 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/grimlock.png"
+    },
+    {
+        "monster_index": "grung",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung.png"
+    },
+    {
+        "monster_index": "grung-elite-warrior",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung-elite-warrior.png"
+    },
+    {
+        "monster_index": "grung-wildling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung-wildling.png"
     },
     {
         "monster_index": "guard",
@@ -1499,7 +1967,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/gynosphinx.png"
     },
     {
@@ -1593,6 +2061,24 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
     },
     {
+        "monster_index": "hobgoblin-devastator",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/hobgoblin-devastator.png"
+    },
+    {
+        "monster_index": "hobgoblin-iron-shadow",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/hobgoblin-iron-shadow.png"
+    },
+    {
         "monster_index": "hobgoblin-warlord",
         "background_color": {
             "light": "#FAF9F8",
@@ -1616,7 +2102,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/hook-horror.png"
     },
     {
@@ -1656,6 +2142,24 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ice-mephit.png"
     },
     {
+        "monster_index": "illithilich",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-undead.png"
+    },
+    {
+        "monster_index": "illusionist",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/illusionist.png"
+    },
+    {
         "monster_index": "imp",
         "background_color": {
             "light": "#FAF9F8",
@@ -1670,7 +2174,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/intellect-devourer.png"
     },
     {
@@ -1710,6 +2214,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/kenku.png"
     },
     {
+        "monster_index": "ki-rin",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/ki-rin.png"
+    },
+    {
         "monster_index": "killer-whale",
         "background_color": {
             "light": "#FAF9F8",
@@ -1737,13 +2250,58 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/kobold.png"
     },
     {
-        "monster_index": "kraken",
+        "monster_index": "kobold-dragonshield",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-dragonshield.png"
+    },
+    {
+        "monster_index": "kobold-inventor",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-inventor.png"
+    },
+    {
+        "monster_index": "kobold-scale-sorcerer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-scale-sorcerer.png"
+    },
+    {
+        "monster_index": "korred",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/korred.png"
+    },
+    {
+        "monster_index": "kraken",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/kraken.png"
+    },
+    {
+        "monster_index": "kraken-priest",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kraken-priest.png"
     },
     {
         "monster_index": "kuo-toa",
@@ -1787,7 +2345,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/lamia.png"
     },
     {
@@ -1800,12 +2358,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/lemure.png"
     },
     {
+        "monster_index": "leucrotta",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/leucrotta.png"
+    },
+    {
         "monster_index": "lich",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/lich.png"
     },
     {
@@ -1877,7 +2444,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mammoth.png"
     },
     {
@@ -1895,7 +2462,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/manticore.png"
     },
     {
@@ -1917,6 +2484,33 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/marilith.png"
     },
     {
+        "monster_index": "martial-arts-adept",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "master-thief",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/master-thief.png"
+    },
+    {
+        "monster_index": "maw-demon",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/maw-demon.png"
+    },
+    {
         "monster_index": "medusa",
         "background_color": {
             "light": "#FAF9F8",
@@ -1924,6 +2518,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/medusa.png"
+    },
+    {
+        "monster_index": "meenlock",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/meenlock.png"
     },
     {
         "monster_index": "merfolk",
@@ -1949,7 +2552,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mezzoloth.png"
     },
     {
@@ -1958,7 +2561,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mimic.png"
     },
     {
@@ -1978,6 +2581,24 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mind-flayer-arcanist.png"
+    },
+    {
+        "monster_index": "mind-flayer-psion",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mind-flayer-psion.png"
+    },
+    {
+        "monster_index": "mindwitness",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mindwitness.png"
     },
     {
         "monster_index": "minotaur",
@@ -2007,12 +2628,30 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/monodrone.png"
     },
     {
-        "monster_index": "mud-mephit",
+        "monster_index": "morkoth",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/morkoth.png"
+    },
+    {
+        "monster_index": "mouth-of-grolantor",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mouth-of-grolantor.png"
+    },
+    {
+        "monster_index": "mud-mephit",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mud-mephit.png"
     },
     {
@@ -2030,7 +2669,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mummy-lord.png"
     },
     {
@@ -2070,6 +2709,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/nalfeshnee.png"
     },
     {
+        "monster_index": "necromancer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
         "monster_index": "needle-blight",
         "background_color": {
             "light": "#FAF9F8",
@@ -2077,6 +2725,42 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/needle-blight.png"
+    },
+    {
+        "monster_index": "neogi",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/neogi.png"
+    },
+    {
+        "monster_index": "neogi-hatchling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-aberration.png"
+    },
+    {
+        "monster_index": "neogi-master",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-aberration.png"
+    },
+    {
+        "monster_index": "neothelid",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/neothelid.png"
     },
     {
         "monster_index": "night-hag",
@@ -2095,6 +2779,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/nightmare.png"
+    },
+    {
+        "monster_index": "nilbog",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/nilbog.png"
     },
     {
         "monster_index": "noble",
@@ -2129,7 +2822,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ochre-jelly.png"
     },
     {
@@ -2169,6 +2862,24 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/orc.png"
     },
     {
+        "monster_index": "orc-blade-of-ilneval",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "orc-claw-of-luthic",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-claw-of-luthic.png"
+    },
+    {
         "monster_index": "orc-eye-of-gruumsh",
         "background_color": {
             "light": "#FAF9F8",
@@ -2176,6 +2887,33 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
+    },
+    {
+        "monster_index": "orc-hand-of-yurtrus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "orc-nurtured-one-of-yurtrus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-nurtured-one-of-yurtrus.png"
+    },
+    {
+        "monster_index": "orc-red-fang-of-shargaas",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-red-fang-of-shargaas.png"
     },
     {
         "monster_index": "orc-war-chief",
@@ -2201,7 +2939,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/otyugh.png"
     },
     {
@@ -2246,7 +2984,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/phase-spider.png"
     },
     {
@@ -2255,7 +2993,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/piercer.png"
     },
     {
@@ -2345,7 +3083,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-plant.png"
     },
     {
@@ -2367,6 +3105,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/quasit.png"
     },
     {
+        "monster_index": "quickling",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/quickling.png"
+    },
+    {
         "monster_index": "rakshasa",
         "background_color": {
             "light": "#FAF9F8",
@@ -2385,13 +3132,31 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/red-dragon-wyrmling.png"
     },
     {
+        "monster_index": "red-guard-drake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-dragon.png"
+    },
+    {
         "monster_index": "red-slaad",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/red-slaad.png"
+    },
+    {
+        "monster_index": "redcap",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/redcap.png"
     },
     {
         "monster_index": "remorhaz",
@@ -2417,7 +3182,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/roc.png"
     },
     {
@@ -2435,7 +3200,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/roper.png"
     },
     {
@@ -2453,7 +3218,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/rust-monster.png"
     },
     {
@@ -2462,7 +3227,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/sahuagin.png"
     },
     {
@@ -2529,6 +3294,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/sea-hag.png"
     },
     {
+        "monster_index": "sea-spawn",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/sea-spawn.png"
+    },
+    {
         "monster_index": "shadow",
         "background_color": {
             "light": "#FAF9F8",
@@ -2547,12 +3321,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/shadow-demon.png"
     },
     {
+        "monster_index": "shadow-mastiff",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/shadow-mastiff.png"
+    },
+    {
         "monster_index": "shambling-mound",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/shambling-mound.png"
     },
     {
@@ -2563,6 +3346,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/shield-guardian.png"
+    },
+    {
+        "monster_index": "shoosuva",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/shoosuva.png"
     },
     {
         "monster_index": "shrieker",
@@ -2597,8 +3389,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-aberration.png"
+    },
+    {
+        "monster_index": "slithering-tracker",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/slithering-tracker.png"
     },
     {
         "monster_index": "smoke-mephit",
@@ -2615,7 +3416,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/solar.png"
     },
     {
@@ -2626,6 +3427,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/sorcerer-3.png"
+    },
+    {
+        "monster_index": "spawn-of-kyuss",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/spawn-of-kyuss.png"
     },
     {
         "monster_index": "spectator",
@@ -2669,7 +3479,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/sprite.png"
     },
     {
@@ -2691,6 +3501,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/steam-mephit.png"
     },
     {
+        "monster_index": "stegosaurus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/stegosaurus.png"
+    },
+    {
         "monster_index": "stone-giant",
         "background_color": {
             "light": "#FAF9F8",
@@ -2698,6 +3517,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/stone-giant.png"
+    },
+    {
+        "monster_index": "stone-giant-dreamwalker",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/stone-giant-dreamwalker.png"
     },
     {
         "monster_index": "stone-golem",
@@ -2718,13 +3546,49 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/storm-giant.png"
     },
     {
+        "monster_index": "storm-giant-quintessent",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/storm-giant-quintessent.png"
+    },
+    {
         "monster_index": "succubus-incubus",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/succubus-incubus.png"
+    },
+    {
+        "monster_index": "swarm-of-cranium-rats",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/swarm-of-cranium-rats.png"
+    },
+    {
+        "monster_index": "swashbuckler",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/swashbuckler.png"
+    },
+    {
+        "monster_index": "tanarukk",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/tanarukk.png"
     },
     {
         "monster_index": "tarrasque",
@@ -2732,8 +3596,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/tarrasque.png"
+    },
+    {
+        "monster_index": "thorny",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/thorny.png"
     },
     {
         "monster_index": "thri-kreen",
@@ -2752,6 +3625,33 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/thug.png"
+    },
+    {
+        "monster_index": "tlincalli",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/tlincalli.png"
+    },
+    {
+        "monster_index": "transmuter",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "trapper",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/trapper.png"
     },
     {
         "monster_index": "treant",
@@ -2822,8 +3722,17 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/tyrannosaurus-rex.png"
+    },
+    {
+        "monster_index": "ulitharid",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/ulitharid.png"
     },
     {
         "monster_index": "ultroloth",
@@ -2849,7 +3758,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/unicorn.png"
     },
     {
@@ -2858,7 +3767,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vampire.png"
     },
     {
@@ -2876,7 +3785,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-undead.png"
     },
     {
@@ -2885,8 +3794,35 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-undead.png"
+    },
+    {
+        "monster_index": "vargouille",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vargouille.png"
+    },
+    {
+        "monster_index": "vegepygmy",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vegepygmy.png"
+    },
+    {
+        "monster_index": "vegepygmy-chief",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vegepygmy-chief.png"
     },
     {
         "monster_index": "veteran",
@@ -2925,13 +3861,58 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vrock.png"
     },
     {
-        "monster_index": "warhorse-skeleton",
+        "monster_index": "war-priest",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "warhorse-skeleton",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/warhorse-skeleton.png"
+    },
+    {
+        "monster_index": "warlock-of-the-archfey",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "warlock-of-the-fiend",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "warlock-of-the-great-old-one",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "warlord",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
     },
     {
         "monster_index": "water-elemental",
@@ -3096,6 +4077,15 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/white-dragon-wyrmling.png"
     },
     {
+        "monster_index": "white-guard-drake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-dragon.png"
+    },
+    {
         "monster_index": "wight",
         "background_color": {
             "light": "#FAF9F8",
@@ -3110,7 +4100,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/will-o-wisp.png"
     },
     {
@@ -3141,12 +4131,21 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/wizard-3.png"
     },
     {
+        "monster_index": "wood-woad",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-plant.png"
+    },
+    {
         "monster_index": "worg",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/worg.png"
     },
     {
@@ -3164,7 +4163,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/wyvern.png"
     },
     {
@@ -3175,6 +4174,42 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/xorn.png"
+    },
+    {
+        "monster_index": "xvart",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "xvart-speaker",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "xvart-warlock-of-raxivort",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "yeth-hound",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-fey.png"
     },
     {
         "monster_index": "yeti",
@@ -3312,12 +4347,30 @@
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/yuan-ti-abomination.png"
     },
     {
-        "monster_index": "yuan-ti-malison-(type-1)",
+        "monster_index": "yuan-ti-anathema",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-broodguard",
         "background_color": {
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
         "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-humanoid.png"
+    },
+    {
+        "monster_index": "yuan-ti-malison-(type-1)",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
     },
     {
@@ -3326,7 +4379,7 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
     },
     {
@@ -3335,8 +4388,53 @@
             "light": "#FAF9F8",
             "dark": "#A9A9A9"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-malison-(type-4)",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-malison-(type-5)",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-mind-whisperer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-nightmare-speaker",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
+    },
+    {
+        "monster_index": "yuan-ti-pit-master",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#A9A9A9"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/default-monstrosity.png"
     },
     {
         "monster_index": "yuan-ti-pureblood",
@@ -3355,1103 +4453,5 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/zombie.png"
-    },
-    {
-        "monster_index": "abjurer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "alhoon",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/alhoon.png"
-    },
-    {
-        "monster_index": "annis-hag",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/annis-hag.png"
-    },
-    {
-        "monster_index": "apprentice-wizard",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/apprentice-wizard.png"
-    },
-    {
-        "monster_index": "archdruid",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "archer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/archer.png"
-    },
-    {
-        "monster_index": "babau",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/babau.png"
-    },
-    {
-        "monster_index": "banderhobb",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/banderhobb.png"
-    },
-    {
-        "monster_index": "bard",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bard.png"
-    },
-    {
-        "monster_index": "barghest",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/barghest.png"
-    },
-    {
-        "monster_index": "bheur-hag",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bheur-hag.png"
-    },
-    {
-        "monster_index": "black-guard-drake",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
-    },
-    {
-        "monster_index": "blackguard",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "blue-guard-drake",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/blue-guard-drake.png"
-    },
-    {
-        "monster_index": "bodak",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/bodak.png"
-    },
-    {
-        "monster_index": "boggle",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/boggle.png"
-    },
-    {
-        "monster_index": "brontosaurus",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/brontosaurus.png"
-    },
-    {
-        "monster_index": "catoblepas",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/catoblepas.png"
-    },
-    {
-        "monster_index": "cave-fisher",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/cave-fisher.png"
-    },
-    {
-        "monster_index": "champion",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/champion.png"
-    },
-    {
-        "monster_index": "chitine",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/chitine.png"
-    },
-    {
-        "monster_index": "choldrith",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/choldrith.png"
-    },
-    {
-        "monster_index": "cloud-giant-smiling-one",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/cloud-giant-smiling-one.png"
-    },
-    {
-        "monster_index": "conjurer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "darkling",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/darkling.png"
-    },
-    {
-        "monster_index": "darkling-elder",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/darkling-elder.png"
-    },
-    {
-        "monster_index": "death-kiss",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/death-kiss.png"
-    },
-    {
-        "monster_index": "deep-scion",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/deep-scion.png"
-    },
-    {
-        "monster_index": "devourer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/devourer.png"
-    },
-    {
-        "monster_index": "diviner",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "draegloth",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/draegloth.png"
-    },
-    {
-        "monster_index": "elder-brain",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/elder-brain.png"
-    },
-    {
-        "monster_index": "enchanter",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "evoker",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "fire-giant-dreadnought",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/fire-giant-dreadnought.png"
-    },
-    {
-        "monster_index": "firenewt-warlock-of-imix",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "firenewt-warrior",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/firenewt-warrior.png"
-    },
-    {
-        "monster_index": "flail-snail",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/flail-snail.png"
-    },
-    {
-        "monster_index": "flind",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/flind.png"
-    },
-    {
-        "monster_index": "froghemoth",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/froghemoth.png"
-    },
-    {
-        "monster_index": "frost-giant-everlasting-one",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/frost-giant-everlasting-one.png"
-    },
-    {
-        "monster_index": "gauth",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gauth.png"
-    },
-    {
-        "monster_index": "gazer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gazer.png"
-    },
-    {
-        "monster_index": "giant-strider",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/giant-strider.png"
-    },
-    {
-        "monster_index": "girallon",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/girallon.png"
-    },
-    {
-        "monster_index": "gnoll-flesh-gnawer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gnoll-flesh-gnawer.png"
-    },
-    {
-        "monster_index": "gnoll-hunter",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "gnoll-witherling",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/gnoll-witherling.png"
-    },
-    {
-        "monster_index": "green-guard-drake",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/green-guard-drake.png"
-    },
-    {
-        "monster_index": "grung",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung.png"
-    },
-    {
-        "monster_index": "grung-elite-warrior",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung-elite-warrior.png"
-    },
-    {
-        "monster_index": "grung-wildling",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/grung-wildling.png"
-    },
-    {
-        "monster_index": "hobgoblin-devastator",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/hobgoblin-devastator.png"
-    },
-    {
-        "monster_index": "hobgoblin-iron-shadow",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/hobgoblin-iron-shadow.png"
-    },
-    {
-        "monster_index": "illithilich",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-undead.png"
-    },
-    {
-        "monster_index": "illusionist",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/illusionist.png"
-    },
-    {
-        "monster_index": "ki-rin",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/ki-rin.png"
-    },
-    {
-        "monster_index": "kobold-dragonshield",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-dragonshield.png"
-    },
-    {
-        "monster_index": "kobold-inventor",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-inventor.png"
-    },
-    {
-        "monster_index": "kobold-scale-sorcerer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kobold-scale-sorcerer.png"
-    },
-    {
-        "monster_index": "korred",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/korred.png"
-    },
-    {
-        "monster_index": "kraken-priest",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/kraken-priest.png"
-    },
-    {
-        "monster_index": "leucrotta",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/leucrotta.png"
-    },
-    {
-        "monster_index": "martial-arts-adept",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "master-thief",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/master-thief.png"
-    },
-    {
-        "monster_index": "maw-demon",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/maw-demon.png"
-    },
-    {
-        "monster_index": "meenlock",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/meenlock.png"
-    },
-    {
-        "monster_index": "mind-flayer-psion",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mind-flayer-psion.png"
-    },
-    {
-        "monster_index": "mindwitness",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mindwitness.png"
-    },
-    {
-        "monster_index": "morkoth",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/morkoth.png"
-    },
-    {
-        "monster_index": "mouth-of-grolantor",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/mouth-of-grolantor.png"
-    },
-    {
-        "monster_index": "necromancer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "neogi",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/neogi.png"
-    },
-    {
-        "monster_index": "neogi-hatchling",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-aberration.png"
-    },
-    {
-        "monster_index": "neogi-master",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-aberration.png"
-    },
-    {
-        "monster_index": "neothelid",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/neothelid.png"
-    },
-    {
-        "monster_index": "nilbog",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/nilbog.png"
-    },
-    {
-        "monster_index": "orc-blade-of-ilneval",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "orc-claw-of-luthic",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-claw-of-luthic.png"
-    },
-    {
-        "monster_index": "orc-hand-of-yurtrus",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "orc-nurtured-one-of-yurtrus",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-nurtured-one-of-yurtrus.png"
-    },
-    {
-        "monster_index": "orc-red-fang-of-shargaas",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/orc-red-fang-of-shargaas.png"
-    },
-    {
-        "monster_index": "quickling",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/quickling.png"
-    },
-    {
-        "monster_index": "red-guard-drake",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
-    },
-    {
-        "monster_index": "redcap",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/redcap.png"
-    },
-    {
-        "monster_index": "sea-spawn",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/sea-spawn.png"
-    },
-    {
-        "monster_index": "shadow-mastiff",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/shadow-mastiff.png"
-    },
-    {
-        "monster_index": "shoosuva",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/shoosuva.png"
-    },
-    {
-        "monster_index": "slithering-tracker",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/slithering-tracker.png"
-    },
-    {
-        "monster_index": "spawn-of-kyuss",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/spawn-of-kyuss.png"
-    },
-    {
-        "monster_index": "stegosaurus",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/stegosaurus.png"
-    },
-    {
-        "monster_index": "stone-giant-dreamwalker",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/stone-giant-dreamwalker.png"
-    },
-    {
-        "monster_index": "storm-giant-quintessent",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/storm-giant-quintessent.png"
-    },
-    {
-        "monster_index": "swarm-of-cranium-rats",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/swarm-of-cranium-rats.png"
-    },
-    {
-        "monster_index": "swashbuckler",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/swashbuckler.png"
-    },
-    {
-        "monster_index": "tanarukk",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/tanarukk.png"
-    },
-    {
-        "monster_index": "thorny",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/thorny.png"
-    },
-    {
-        "monster_index": "tlincalli",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/tlincalli.png"
-    },
-    {
-        "monster_index": "transmuter",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "trapper",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/trapper.png"
-    },
-    {
-        "monster_index": "ulitharid",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/ulitharid.png"
-    },
-    {
-        "monster_index": "vargouille",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vargouille.png"
-    },
-    {
-        "monster_index": "vegepygmy",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vegepygmy.png"
-    },
-    {
-        "monster_index": "vegepygmy-chief",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/vgm/vegepygmy-chief.png"
-    },
-    {
-        "monster_index": "war-priest",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "warlock-of-the-archfey",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "warlock-of-the-fiend",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "warlock-of-the-great-old-one",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "warlord",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "white-guard-drake",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-dragon.png"
-    },
-    {
-        "monster_index": "wood-woad",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-plant.png"
-    },
-    {
-        "monster_index": "xvart",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "xvart-speaker",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "xvart-warlock-of-raxivort",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "yeth-hound",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-fey.png"
-    },
-    {
-        "monster_index": "yuan-ti-anathema",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
-    },
-    {
-        "monster_index": "yuan-ti-broodguard",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
-    },
-    {
-        "monster_index": "yuan-ti-malison-(type-4)",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
-    },
-    {
-        "monster_index": "yuan-ti-malison-(type-5)",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
-    },
-    {
-        "monster_index": "yuan-ti-mind-whisperer",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
-    },
-    {
-        "monster_index": "yuan-ti-nightmare-speaker",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
-    },
-    {
-        "monster_index": "yuan-ti-pit-master",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#A9A9A9"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-monstrosity.png"
     }
 ]
