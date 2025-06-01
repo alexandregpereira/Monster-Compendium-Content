@@ -4472,7 +4472,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": true,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/erlw/belashyrra.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/belashyrra.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "bone-knight",
@@ -4491,15 +4492,6 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/erlw/changeling.png"
-    },
-    {
-        "monster_index": "corrin-delmaco",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#262626"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-humanoid.png"
     },
     {
         "monster_index": "dolgaunt",
@@ -4536,7 +4528,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": true,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/erlw/dyrrn.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/dyrrn.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "expeditious-messenger",
@@ -4546,15 +4539,6 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/expeditious-messenger.png"
-    },
-    {
-        "monster_index": "garra",
-        "background_color": {
-            "light": "#FAF9F8",
-            "dark": "#262626"
-        },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-giant.png"
     },
     {
         "monster_index": "hashalaq-quori",
