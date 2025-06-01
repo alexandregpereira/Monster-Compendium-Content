@@ -3,19 +3,19 @@
         "index": "belashyrra",
         "entries": [
             {
-                "description": "Belashyrra é o Senhor dos Olhos, também conhecido por seus cultistas como o Onividente ou o Olho Glorioso. Histórias contadas sobre Belashyrra nas Fronteiras das Sombras sussurram que o Senhor dos Olhos pode ver todas as más ações que uma pessoa comete, e que aqueles tocados por este daelkyr sofrem terríveis alucinações que inevitavelmente os levam à violência ou à morte."
+                "description": "Belashyrra é a Senhora dos olhos, também conhecido por seus cultistas como o Onividente ou o Olho Glorioso. Histórias contadas sobre Belashyrra nas Fronteiras das Sombras sussurram que a Senhora dos olhos pode ver todas as más ações que uma pessoa comete, e que aqueles tocados por este daelkyr sofrem terríveis alucinações que inevitavelmente os levam à violência ou à morte."
             },
             {
                 "title": "Visões Terríveis",
-                "description": "A loucura de Belashyrra está ligada à visão: imagens que não podem ser desvistas, alucinações horríveis, o medo da cegueira e de ser observado - ou perceber que algo mais está usando seus olhos. Belashyrra pode forçar suas vítimas a questionar se o que elas percebem é real, ou pode encher seu mundo com tais terrores que elas se cegam voluntariamente para escapar.\n\nBelashyrra vê os mortais como matéria-prima a ser explorada ou insetos a serem exterminados. No entanto, o Senhor dos Olhos é conhecido por se interessar por mortais específicos. Os feiticeiros de Belashyrra servem como seus enviados no mundo e são frequentemente direcionados para procurar criaturas e locais que o daelkyr deseja ver através de seus olhos."
+                "description": "A loucura de Belashyrra está ligada à visão: imagens que não podem ser desvistas, alucinações horríveis, o medo da cegueira e de ser observado - ou perceber que algo mais está usando seus olhos. Belashyrra pode forçar suas vítimas a questionar se o que elas percebem é real, ou pode encher seu mundo com tais terrores que elas se cegam voluntariamente para escapar.\n\nBelashyrra vê os mortais como matéria-prima a ser explorada ou insetos a serem exterminados. No entanto, a Senhora dos olhos é conhecido por se interessar por mortais específicos. Os feiticeiros de Belashyrra servem como seus enviados no mundo e são frequentemente direcionados para procurar criaturas e locais que o daelkyr deseja ver através de seus olhos."
             },
             {
                 "title": "Cultos de Belashyrra",
-                "description": "O Senhor dos Olhos tem seguidores em Khorvaire, e seus cultos são tipicamente conduzidos por visões loucas. Cultistas devotos podem desenvolver olhos em locais incomuns e podem ter visão no escuro ou outras habilidades sobrenaturais quando vêem o mundo através desses olhos. Beholderkin geralmente aconselha ou lidera os cultos de Belashyrra, e os cultistas geralmente tratam essas aberrações como seres divinos."
+                "description": "A Senhora dos olhos tem seguidores em Khorvaire, e seus cultos são tipicamente conduzidos por visões loucas. Cultistas devotos podem desenvolver olhos em locais incomuns e podem ter visão no escuro ou outras habilidades sobrenaturais quando vêem o mundo através desses olhos. Beholderkin geralmente aconselha ou lidera os cultos de Belashyrra, e os cultistas geralmente tratam essas aberrações como seres divinos."
             },
             {
                 "title": "Covil de Belashyrra",
-                "description": "Belashyrra faz seu covil na Cidadela dos Olhos Sem Pálpebras nas profundezas de Khyber, um local que parece ter sido moldado com pedra derretida, quitina e carne. Através de suas extensões distorcidas e líquidas, milhares de olhos de todos os tamanhos e formas perscrutam a escuridão sem fim. Beholders, dolgrims e estranhas aberrações habitam os salões da cidadela, que é um dos poucos lugares onde tais criaturas estão dispostas a viver lado a lado.\n\nAlguns observadores servem a Belashyrra como guardas e agentes, enquanto outros passam suas vidas em profunda meditação, perseguindo visões interiores conhecidas apenas pelo Senhor dos Olhos. Há rumores de que qualquer um que se sente no trono da cidadela pode ver através dos olhos de qualquer criatura senciente em Eberron ou em Khyber. Se encontrado em seu covil, Belashyrra tem uma classificação de desafio de 23 (50.000 XP)."
+                "description": "Belashyrra faz seu covil na Cidadela dos Olhos Sem Pálpebras nas profundezas de Khyber, um local que parece ter sido moldado com pedra derretida, quitina e carne. Através de suas extensões distorcidas e líquidas, milhares de olhos de todos os tamanhos e formas perscrutam a escuridão sem fim. Beholders, dolgrims e estranhas aberrações habitam os salões da cidadela, que é um dos poucos lugares onde tais criaturas estão dispostas a viver lado a lado.\n\nAlguns observadores servem a Belashyrra como guardas e agentes, enquanto outros passam suas vidas em profunda meditação, perseguindo visões interiores conhecidas apenas pela Senhora dos olhos. Há rumores de que qualquer um que se sente no trono da cidadela pode ver através dos olhos de qualquer criatura senciente em Eberron ou em Khyber. Se encontrado em seu covil, Belashyrra tem uma classificação de desafio de 23 (50.000 XP)."
             },
             {
                 "title": "Loucura de Belashyrra",
@@ -248,7 +248,39 @@
         ]
     },
     {
-        "index": "living-spells",
+        "index": "living-burning-hands",
+        "entries": [
+            {
+                "title": "Natureza Construída",
+                "description": "Uma magia viva não requer ar, comida, bebida ou sono."
+            },
+            {
+                "description": "De todas as anomalias que surgiram do cataclismo mágico que criou o Mournland, o aparecimento de feitiços vivos pode ser o mais misterioso. De alguma forma desconhecida, a energia mágica liberada durante a Última Guerra fez com que os efeitos dos feitiços adquirissem consciência. Uma magia viva se parece muito com um efeito de magia normal, exceto que sua energia mágica dura indefinidamente.\n\nFeitiços vivos assombram Mournland e outras áreas devastadas pela Última Guerra, de alguma forma subsistindo da energia mágica ambiente enquanto se contorcem e atravessam a paisagem. Embora não precisem de sustento, eles atacam qualquer criatura com a qual entram em contato, atacando indiscriminadamente com sua magia corrompida."
+            },
+            {
+                "title": "Personalizando um Feitiço Vivo",
+                "description": "Feitiços vivos vêm em muitas variedades; os blocos de estatísticas aqui são três exemplos. Os feitiços vivos geralmente se manifestam a partir de feitiços de evocação e conjuração. Para criar uma magia viva a partir de uma magia diferente, escolha uma evocação ou conjuração causadora de dano da lista de magias de mago até o 5º nível. Em seguida, consulte a tabela de personalização de feitiços vivos para ver qual bloco de estatísticas personalizar, com base no nível do feitiço escolhido.\n\nAgora faça as seguintes alterações nesse bloco de estatísticas:\n\nImunidade a Danos. Substitua a imunidade a dano do feitiço vivo por imunidade ao tipo (ou tipos) de dano causado pelo feitiço escolhido.\n\nGolpe Mágico. Substitua o dano causado pelo Golpe Mágico por um tipo de dano causado pelo feitiço escolhido.\n\nFeitiço Mimetismo. Substitua o efeito de Mimetismo de Feitiço pelo efeito do feitiço escolhido. Se esse feitiço exigir um teste de resistência, use a CD de resistência do feitiço do feitiço substituído e, se o feitiço envolver uma jogada de ataque, use o bônus de ataque do Golpe Mágico do feitiço vivo.\n\nPor exemplo, se você transformar bola de fogo (um feitiço de 3º nível) em um feitiço vivo, personalize o raio vivo. A bola de fogo viva tem imunidade a dano de fogo, em vez de dano de raio; causa dano de fogo com seu Golpe Mágico; e replica a bola de fogo com Spell Mimicry."
+            }
+        ]
+    },
+    {
+        "index": "living-cloudkill",
+        "entries": [
+            {
+                "title": "Natureza Construída",
+                "description": "Uma magia viva não requer ar, comida, bebida ou sono."
+            },
+            {
+                "description": "De todas as anomalias que surgiram do cataclismo mágico que criou o Mournland, o aparecimento de feitiços vivos pode ser o mais misterioso. De alguma forma desconhecida, a energia mágica liberada durante a Última Guerra fez com que os efeitos dos feitiços adquirissem consciência. Uma magia viva se parece muito com um efeito de magia normal, exceto que sua energia mágica dura indefinidamente.\n\nFeitiços vivos assombram Mournland e outras áreas devastadas pela Última Guerra, de alguma forma subsistindo da energia mágica ambiente enquanto se contorcem e atravessam a paisagem. Embora não precisem de sustento, eles atacam qualquer criatura com a qual entram em contato, atacando indiscriminadamente com sua magia corrompida."
+            },
+            {
+                "title": "Personalizando um Feitiço Vivo",
+                "description": "Feitiços vivos vêm em muitas variedades; os blocos de estatísticas aqui são três exemplos. Os feitiços vivos geralmente se manifestam a partir de feitiços de evocação e conjuração. Para criar uma magia viva a partir de uma magia diferente, escolha uma evocação ou conjuração causadora de dano da lista de magias de mago até o 5º nível. Em seguida, consulte a tabela de personalização de feitiços vivos para ver qual bloco de estatísticas personalizar, com base no nível do feitiço escolhido.\n\nAgora faça as seguintes alterações nesse bloco de estatísticas:\n\nImunidade a Danos. Substitua a imunidade a dano do feitiço vivo por imunidade ao tipo (ou tipos) de dano causado pelo feitiço escolhido.\n\nGolpe Mágico. Substitua o dano causado pelo Golpe Mágico por um tipo de dano causado pelo feitiço escolhido.\n\nFeitiço Mimetismo. Substitua o efeito de Mimetismo de Feitiço pelo efeito do feitiço escolhido. Se esse feitiço exigir um teste de resistência, use a CD de resistência do feitiço do feitiço substituído e, se o feitiço envolver uma jogada de ataque, use o bônus de ataque do Golpe Mágico do feitiço vivo.\n\nPor exemplo, se você transformar bola de fogo (um feitiço de 3º nível) em um feitiço vivo, personalize o raio vivo. A bola de fogo viva tem imunidade a dano de fogo, em vez de dano de raio; causa dano de fogo com seu Golpe Mágico; e replica a bola de fogo com Spell Mimicry."
+            }
+        ]
+    },
+    {
+        "index": "living-lightning-bolt",
         "entries": [
             {
                 "title": "Natureza Construída",
