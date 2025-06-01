@@ -4737,7 +4737,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": true,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/undying-councilor.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/undying-councilor.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "undying-soldier",
@@ -4755,7 +4756,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/valenar-hawk.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/valenar-hawk.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "valenar-hound",
@@ -4810,7 +4812,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/zakya-rakshasa.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/zakya-rakshasa.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "fastieth",
@@ -4819,7 +4822,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/fastieth.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/fastieth.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "clawfoot",
@@ -4828,6 +4832,7 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/clawfoot.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/clawfoot.png",
+        "content_scale": "Crop"
     }
 ]
