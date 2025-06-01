@@ -646,133 +646,93 @@
         }
     },
     {
-        "index": "corrin-delmaco",
-        "type": "HUMANOID",
-        "subtype": "halfling",
-        "group": null,
+        "index": "clawfoot",
+        "type": "BEAST",
         "challenge_rating": 1.0,
-        "name": "Corrin Delmaco",
-        "subtitle": "Small humanoid(halfling), lawful evil",
-        "size": "Small",
-        "alignment": "lawful evil",
-        "armor_class": 12,
-        "hit_points": 21,
-        "hit_dice": "6d6",
+        "name": "Clawfoot",
+        "subtitle": "Medium beast, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 19,
+        "hit_dice": "3d8+6",
         "speed": {
             "hover": false,
             "value": [
                 {
                     "type": "WALK",
                     "measurement_unit": "FEET",
-                    "value": 25,
-                    "value_formatted": "25 ft."
+                    "value": 40,
+                    "value_formatted": "40 ft."
                 }
             ]
         },
         "ability_scores": [
             {
                 "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "INTELLIGENCE",
                 "value": 12,
                 "modifier": 1
             },
             {
-                "type": "WISDOM",
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
                 "value": 14,
                 "modifier": 2
             },
             {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
                 "type": "CHARISMA",
-                "value": 16,
-                "modifier": 3
+                "value": 10,
+                "modifier": 0
             }
-        ],
-        "saving_throws": [
         ],
         "skills": [
             {
-                "index": "skill-deception",
-                "modifier": 5,
-                "name": "Deception"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 4,
-                "name": "Insight"
-            },
-            {
-                "index": "skill-investigation",
-                "modifier": 5,
-                "name": "Investigation"
-            },
-            {
                 "index": "skill-perception",
-                "modifier": 6,
+                "modifier": 3,
                 "name": "Perception"
             },
             {
-                "index": "skill-persuasion",
-                "modifier": 5,
-                "name": "Persuasion"
-            },
-            {
-                "index": "skill-sleight-of-hand",
-                "modifier": 4,
-                "name": "Sleight of hand"
-            },
-            {
                 "index": "skill-stealth",
-                "modifier": 4,
+                "modifier": 5,
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
-        "languages": "any two languages, Halfling",
+        "languages": "",
         "special_abilities": [
             {
-                "name": "Cunning Action",
-                "desc": "On each of its turns, Corrin can use a bonus action to take the Dash, Disengage, or Hide action."
+                "name": "Pack Tactics",
+                "desc": "The clawfoot has advantage on an attack roll against a creature if at least one of the clawfoot's allies is within 5 feet of the creature and the ally isn't incapacitated."
             },
             {
-                "name": "Sneak Attack (1/Turn)",
-                "desc": "Corrin deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Corrin that isn't incapacitated and Corrin doesn't have disadvantage on the attack roll."
+                "name": "Pounce",
+                "desc": "If the clawfoot moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 11 Strength saving throw or be knocked prone. If the target is prone, the clawfoot can make one bite attack against it as a bonus action."
             }
         ],
         "actions": [
             {
                 "damage_dices": [
                 ],
-                "attack_bonus": null,
-                "description": "Corrin makes two melee attacks.",
+                "description": "The clawfoot makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
             },
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "1d8+3",
                         "damage": {
                             "index": "PIERCING",
                             "type": "PIERCING",
@@ -780,27 +740,25 @@
                         }
                     }
                 ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-                "name": "Shortsword"
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                "name": "Bite"
             },
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "1d8+3",
                         "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Slashing"
                         }
                     }
                 ],
-                "attack_bonus": 4,
-                "description": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-                "name": "Hand Crossbow"
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+                "name": "Claws"
             }
-        ],
-        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",
@@ -1733,107 +1691,71 @@
         }
     },
     {
-        "index": "garra",
-        "type": "GIANT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Garra",
-        "subtitle": "Large giant, chaotic evil",
-        "size": "Large",
-        "alignment": "chaotic evil",
-        "armor_class": 12,
-        "hit_points": 30,
-        "hit_dice": "4d10+8",
+        "index": "fastieth",
+        "type": "BEAST",
+        "challenge_rating": 0.25,
+        "name": "Fastieth",
+        "subtitle": "Medium beast, unaligned",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 9,
+        "hit_dice": "2d8",
         "speed": {
             "hover": false,
             "value": [
                 {
                     "type": "WALK",
                     "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
+                    "value": 50,
+                    "value_formatted": "50 ft."
                 }
             ]
         },
         "ability_scores": [
             {
                 "type": "STRENGTH",
-                "value": 17,
-                "modifier": 3
+                "value": 12,
+                "modifier": 1
             },
             {
                 "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
+                "value": 18,
+                "modifier": 4
             },
             {
                 "type": "CONSTITUTION",
-                "value": 14,
-                "modifier": 2
+                "value": 10,
+                "modifier": 0
             },
             {
                 "type": "INTELLIGENCE",
-                "value": 14,
-                "modifier": 2
+                "value": 4,
+                "modifier": -3
             },
             {
                 "type": "WISDOM",
-                "value": 9,
-                "modifier": -1
+                "value": 11,
+                "modifier": 0
             },
             {
                 "type": "CHARISMA",
-                "value": 10,
-                "modifier": 0
+                "value": 4,
+                "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "darkvision 60 ft."
-        ],
-        "languages": "Common, Giant",
+        "languages": "",
         "special_abilities": [
+            {
+                "name": "Quickness (Recharge 5-6)",
+                "desc": "The fastieth can take the Dodge action as a bonus action."
+            }
         ],
         "actions": [
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+3",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "2d10+3",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Slashing"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands.",
-                "name": "Battleaxe"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+3",
+                        "dice": "1d8+4",
                         "damage": {
                             "index": "PIERCING",
                             "type": "PIERCING",
@@ -1841,12 +1763,10 @@
                         }
                     }
                 ],
-                "attack_bonus": 5,
-                "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
-                "name": "Javelin"
+                "attack_bonus": 6,
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                "name": "Bite"
             }
-        ],
-        "reactions": [
         ],
         "source": {
             "name": "Eberron: Rising from the Last War",

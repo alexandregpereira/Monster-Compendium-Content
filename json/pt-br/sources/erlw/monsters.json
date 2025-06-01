@@ -183,7 +183,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -475,7 +475,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -648,134 +648,94 @@
         }
     },
     {
-        "index": "corrin-delmaco",
-        "type": "HUMANOID",
-        "subtype": "halfling",
-        "group": null,
+        "index": "clawfoot",
+        "type": "BEAST",
+        "group": "Dinossauros",
         "challenge_rating": 1.0,
-        "name": "Corrin Delmaco",
-        "subtitle": "Pequeno humanóide (halfling), leal e mau",
-        "size": "Small",
-        "alignment": "lawful evil",
-        "armor_class": 12,
-        "hit_points": 21,
-        "hit_dice": "6d6",
+        "name": "Gadanheiro",
+        "subtitle": "Besta média, não alinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 19,
+        "hit_dice": "3d8+6",
         "speed": {
             "hover": false,
             "value": [
                 {
                     "type": "WALK",
                     "measurement_unit": "FEET",
-                    "value": 25,
-                    "value_formatted": "25 ft."
+                    "value": 40,
+                    "value_formatted": "40 ft."
                 }
             ]
         },
         "ability_scores": [
             {
                 "type": "STRENGTH",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "DEXTERITY",
-                "value": 15,
-                "modifier": 2
-            },
-            {
-                "type": "CONSTITUTION",
-                "value": 10,
-                "modifier": 0
-            },
-            {
-                "type": "INTELLIGENCE",
                 "value": 12,
                 "modifier": 1
             },
             {
-                "type": "WISDOM",
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
                 "value": 14,
                 "modifier": 2
             },
             {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
                 "type": "CHARISMA",
-                "value": 16,
-                "modifier": 3
+                "value": 10,
+                "modifier": 0
             }
-        ],
-        "saving_throws": [
         ],
         "skills": [
             {
-                "index": "skill-deception",
-                "modifier": 5,
-                "name": "Decepção"
-            },
-            {
-                "index": "skill-insight",
-                "modifier": 4,
-                "name": "Discernimento"
-            },
-            {
-                "index": "skill-investigation",
-                "modifier": 5,
-                "name": "Investigação"
-            },
-            {
                 "index": "skill-perception",
-                "modifier": 6,
-                "name": "Percepção"
-            },
-            {
-                "index": "skill-persuasion",
-                "modifier": 5,
-                "name": "Persuasão"
-            },
-            {
-                "index": "skill-sleight-of-hand",
-                "modifier": 4,
-                "name": "Prestidigitação"
+                "modifier": 3,
+                "name": "Perception"
             },
             {
                 "index": "skill-stealth",
-                "modifier": 4,
-                "name": "Furtividade"
+                "modifier": 5,
+                "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            ""
-        ],
-        "languages": "quaisquer duas línguas, Halfling",
+        "languages": "",
         "special_abilities": [
             {
-                "name": "Ação Astuta",
-                "desc": "Em cada um de seus turnos, Corrin pode usar uma ação bônus para executar a ação Correr, Desengajar ou Esconder. "
+                "name": "Táticas de Matilha",
+                "desc": "O gadanheiro tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado do gadanheiro estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado."
             },
             {
-                "name": "Ataque furtivo (1/turno)",
-                "desc": "Corrin causa 7 (2d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Corrin que não está incapacitado e Corrin não tem desvantagem na jogada de ataque."
+                "name": "Bote",
+                "desc": "Se o gadanheiro se mover pelo menos 9 metros em linha reta em direção a uma criatura e então atingir essa criatura com um ataque de mordida no mesmo turno, o alvo deve ser bem sucedido em um teste de resistência de Força CD 13 ou ficará derrubado. Se o alvo for derrubado, o gadanheiro pode fazer um ataque com as garras como uma ação bônus."
             }
         ],
         "actions": [
             {
                 "damage_dices": [
                 ],
-                "attack_bonus": null,
-                "description": "Corrin faz dois ataques corpo a corpo.",
+                "description": "O gadanheiro faz dois ataques: um com a mordida e outro com as garras.",
                 "name": "Multiataque"
             },
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "1d8+3",
                         "damage": {
                             "index": "PIERCING",
                             "type": "PIERCING",
@@ -783,30 +743,28 @@
                         }
                     }
                 ],
-                "attack_bonus": 4,
-                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
-                "name": "Espada curta"
+                "attack_bonus": 5,
+                "description": "Arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Mordida"
             },
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "1d8+3",
                         "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Perfuração"
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortante"
                         }
                     }
                 ],
-                "attack_bonus": 4,
-                "description": "Ataque com arma à distância: +4 para acertar, alcance 30/120 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
-                "name": "Besta de mão"
+                "attack_bonus": 5,
+                "description": "Arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano cortante.",
+                "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
         "source": {
-            "name": "Eberron: Renascendo da Última Guerra",
+            "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         }
     },
@@ -1312,7 +1270,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -1736,107 +1694,72 @@
         }
     },
     {
-        "index": "garra",
-        "type": "GIANT",
-        "subtype": null,
-        "group": null,
-        "challenge_rating": 1.0,
-        "name": "Garra",
-        "subtitle": "Gigante grande, mal caótico",
-        "size": "Large",
-        "alignment": "chaotic evil",
-        "armor_class": 12,
-        "hit_points": 30,
-        "hit_dice": "4d10+8",
+        "index": "fastieth",
+        "type": "BEAST",
+        "group": "Dinossauros",
+        "challenge_rating": 0.25,
+        "name": "Velocinto",
+        "subtitle": "Besta média, não alinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 9,
+        "hit_dice": "2d8",
         "speed": {
             "hover": false,
             "value": [
                 {
                     "type": "WALK",
                     "measurement_unit": "FEET",
-                    "value": 30,
-                    "value_formatted": "30 ft."
+                    "value": 50,
+                    "value_formatted": "50 ft."
                 }
             ]
         },
         "ability_scores": [
             {
                 "type": "STRENGTH",
-                "value": 17,
-                "modifier": 3
+                "value": 12,
+                "modifier": 1
             },
             {
                 "type": "DEXTERITY",
-                "value": 10,
-                "modifier": 0
+                "value": 18,
+                "modifier": 4
             },
             {
                 "type": "CONSTITUTION",
-                "value": 14,
-                "modifier": 2
+                "value": 10,
+                "modifier": 0
             },
             {
                 "type": "INTELLIGENCE",
-                "value": 14,
-                "modifier": 2
+                "value": 4,
+                "modifier": -3
             },
             {
                 "type": "WISDOM",
-                "value": 9,
-                "modifier": -1
+                "value": 11,
+                "modifier": 0
             },
             {
                 "type": "CHARISMA",
-                "value": 10,
-                "modifier": 0
+                "value": 4,
+                "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-            "visão no escuro 60 pés."
-        ],
-        "languages": "comum, gigante",
+        "languages": "",
         "special_abilities": [
+            {
+                "name": "Agilidade (Recarrega 5-6)",
+                "desc": "O velocinto pode usar sua ação de esquiva como uma ação bônus."
+            }
         ],
         "actions": [
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+3",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Cortando"
-                        }
-                    },
-                    {
-                        "dice": "2d10+3",
-                        "damage": {
-                            "index": "SLASHING",
-                            "type": "SLASHING",
-                            "name": "Cortando"
-                        }
-                    }
-                ],
-                "attack_bonus": 5,
-                "description": "Arma corpo a corpo Ataque: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d8 + 3) de dano cortante ou 14 (2d10 + 3) de dano cortante se usado com as duas mãos.",
-                "name": "Battleaxe"
-            },
-            {
-                "damage_dices": [
-                    {
-                        "dice": "2d6+3",
+                        "dice": "1d8+4",
                         "damage": {
                             "index": "PIERCING",
                             "type": "PIERCING",
@@ -1844,15 +1767,13 @@
                         }
                     }
                 ],
-                "attack_bonus": 5,
-                "description": "Arma corpo a corpo ou ataque à distância: +5 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 10 (2d6 + 3) de dano perfurante.",
-                "name": "Javelin"
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 5 ft., um alvo. Acerto: 8 (1d8 + 4) de dano perfurante.",
+                "name": "Mordida"
             }
         ],
-        "reactions": [
-        ],
         "source": {
-            "name": "Eberron: Renascendo da Última Guerra",
+            "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         }
     },
@@ -3003,7 +2924,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
@@ -3011,7 +2932,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -3537,7 +3458,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
@@ -4541,7 +4462,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -6189,7 +6110,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -6204,7 +6125,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -6426,7 +6347,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -7788,7 +7709,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -7960,7 +7881,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
@@ -7968,7 +7889,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -8183,7 +8104,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
@@ -8191,7 +8112,7 @@
                         "damage": {
                             "index": "SLASHING",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
