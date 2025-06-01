@@ -51,15 +51,11 @@
         "index": "clawfoot",
         "entries": [
             {
-                "description": "Clawfoot dinosaurs are two-legged saurians with sharp teeth and toe claws that resemble deadly sickles. They are imposing creatures, about the size of a tall human, and are fierce enough to take down even larger prey.\n\nIn the wild, an untrained clawfoot can easily hold its own in combat, but they are even fiercer when hunting in packs. Their instinct for pack structure has made these dinosaurs a traditional war mount for the halflings of the Talenta Plains, with clawfoots quickly and eagerly responding to training and control.\n\nDinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
-            }
-        ]
-    },
-    {
-        "index": "dinosaurs",
-        "entries": [
+                "description": "Clawfoot dinosaurs are two-legged saurians with sharp teeth and toe claws that resemble deadly sickles. They are imposing creatures, about the size of a tall human, and are fierce enough to take down even larger prey.\n\nIn the wild, an untrained clawfoot can easily hold its own in combat, but they are even fiercer when hunting in packs. Their instinct for pack structure has made these dinosaurs a traditional war mount for the halflings of the Talenta Plains, with clawfoots quickly and eagerly responding to training and control."
+            },
             {
-                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
+                "title": "Dinosaurs of Eberron",
+                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts.\n\nThe clawfoot is one of the most common dinosaurs used by the Talenta halflings as a mount. Other common mounts include the fastieth and the raptor."
             }
         ]
     },
@@ -131,7 +127,11 @@
         "index": "fastieth",
         "entries": [
             {
-                "description": "Fastieth are human-sized, two-legged saurians with large eyes, brightly colored and patterned scales, and strong legs. They are the most common mounts of the halflings of the Talenta Plains, bred for speed. Although too small to bear larger riders, a fastieth can carry a halfling with light gear easily and at a good pace. Fastieths are typically stubborn creatures, so specimens with an even temperament are prized among the Talenta tribes.\n\nBeing herbivores, fastieths prefer to flee rather than fight. However, even though not trained for battle, they can deliver a vicious bite if pressed.\n\nDinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
+                "description": "Fastieth are human-sized, two-legged saurians with large eyes, brightly colored and patterned scales, and strong legs. They are the most common mounts of the halflings of the Talenta Plains, bred for speed. Although too small to bear larger riders, a fastieth can carry a halfling with light gear easily and at a good pace. Fastieths are typically stubborn creatures, so specimens with an even temperament are prized among the Talenta tribes.\n\nBeing herbivores, fastieths prefer to flee rather than fight. However, even though not trained for battle, they can deliver a vicious bite if pressed."
+            },
+            {
+                "title": "Dinosaurs of Eberron",
+                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts.\n\nThe clawfoot is one of the most common dinosaurs used by the Talenta halflings as a mount. Other common mounts include the fastieth and the raptor."
             }
         ]
     },
@@ -187,7 +187,27 @@
         "index": "kalaraq-quori",
         "entries": [
             {
-                "description": "The most powerful quori are the kalaraqs, also known as eyebinders—entities formed of pure shadow that is outlined by a nimbus of energy. A host of disembodied eyes whirl around a kalaraq, each reflecting a consciousness the creature has consumed.\n\nKalaraq quori guide the quori race, and the Devourer of Dreams—the personal emissary of the Dreaming Dark—is of this order. Although the kalaraqs never fight one another overtly, each has its own agenda, and each hopes to someday seize the throne of the Devourer of Dreams. Because of this internal conflict, it is unusual for a kalaraq to leave Dal Quor to inhabit a mortal vessel and become one of the Inspired.\n\nDal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter."
+                "description": "The most powerful quori are the kalaraqs, also known as eyebinders—entities formed of pure shadow that is outlined by a nimbus of energy. A host of disembodied eyes whirl around a kalaraq, each reflecting a consciousness the creature has consumed.\n\nKalaraq quori guide the quori race, and the Devourer of Dreams — the personal emissary of the Dreaming Dark — is of this order. Although the kalaraqs never fight one another overtly, each has its own agenda, and each hopes to someday seize the throne of the Devourer of Dreams. Because of this internal conflict, it is unusual for a kalaraq to leave Dal Quor to inhabit a mortal vessel and become one of the Inspired.\n\nDal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter."
+            },
+            {
+                "title": "The Devourer of Dreams",
+                "description": "The Devourer of Dreams is the most powerful of the kalaraq quori, and it serves as the personal emissary of il-Lashtavar. The Devourer is a being of pure shadow, with a nimbus of energy that outlines its form. It has no physical body, but it can manifest in the world through a host body, typically an Inspired.\n\nThe Devourer of Dreams is a master manipulator, using its powers to influence the dreams and thoughts of others. It is said that the Devourer can see into the future and that it uses this knowledge to further its own goals."
+            },
+            {
+                "title": "Kalaraq Quori in Eberron",
+                "description": "Kalaraq quori are rarely encountered in Eberron, as they are more concerned with the politics of Dal Quor than with the affairs of the Material Plane. However, when they do manifest, they often do so through powerful Inspired or other beings of influence. Kalaraq quori are known for their cunning and intelligence, and they often use their powers to manipulate others to achieve their goals."
+            },
+            {
+                "title": "Kalaraq Quori and the Inspired",
+                "description": "The kalaraq quori are the most powerful of the quori, and they often manifest through the Inspired. The Inspired are mortals who have been possessed by a quori spirit, granting them incredible powers and abilities. The kalaraq quori use the Inspired as their agents in the Material Plane, manipulating them to achieve their goals and further the agenda of the Dreaming Dark."
+            },
+            {
+                "title": "Kalaraq Quori and the Plane of Dreams",
+                "description": "The kalaraq quori are native to Dal Quor, the plane of dreams. This plane is a place of pure thought and imagination, where the boundaries between reality and dreams blur. The kalaraq quori are able to manipulate the dreams of mortals, using their powers to influence their thoughts and actions."
+            },
+            {
+                "title": "Kalaraq Quori and the Prophecy",
+                "description": "The kalaraq quori are deeply connected to the Draconic Prophecy, a mysterious force that shapes the fate of Eberron. The Prophecy is a complex web of events and possibilities, and the kalaraq quori use their powers to manipulate it to their advantage. They are known to seek out individuals who are touched by the Prophecy, using them as pawns in their schemes and plans."
             }
         ]
     },
