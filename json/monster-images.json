@@ -4781,8 +4781,9 @@
             "light": "#FAF9F8",
             "dark": "#262626"
         },
-        "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/warforged-colossus.png"
+        "is_horizontal_image": true,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/warforged-colossus.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "warforged-soldier",
