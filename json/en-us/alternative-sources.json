@@ -1,6 +1,17 @@
 [
     {
         "source": {
+            "name": "Eberron: Rising from the Last War",
+            "acronym": "ERLW"
+        },
+        "totalMonsters": 38,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
+    },
+    {
+        "source": {
             "name": "Volo's Guide to Monsters",
             "acronym": "VGM"
         },
