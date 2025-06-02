@@ -20,6 +20,10 @@
             {
                 "title": "Loucura de Belashyrra",
                 "description": "Se uma criatura enlouquecer no covil de Belashyrra ou enquanto puder ver os daelkyr, ela ganha uma forma de loucura indefinida. Role na tabela Loucura de Belashyrra para determinar a natureza dessa loucura, que assume a forma de uma falha de caráter que dura até ser curada. O capítulo 8 do Dungeon Master's Guide tem mais informações sobre a loucura."
+            },
+            {
+                "title": "Daelkyr",
+                "description": "Belashyrra é um dos daelkyr, um grupo de poderosas aberrações que invadiram Eberron a partir do plano de Xoriat. Os daelkyr são a personificação da loucura e do caos, e eles buscam remodelar o mundo à sua própria imagem distorcida. Cada daelkyr tem seus próprios poderes e habilidades únicas, e eles frequentemente trabalham juntos para alcançar seus objetivos.\n\nBelashyrra é conhecido por seu domínio sobre a visão e a percepção, e usa seus poderes para manipular as mentes dos mortais."
             }
         ]
     },
@@ -112,6 +116,10 @@
             {
                 "title": "Loucura de Dyrrn",
                 "description": "Se uma criatura enlouquecer no covil de Dyrrn ou enquanto puder ver o daelkyr, ela ganha uma forma de loucura indefinida. Role na tabela Loucura de Dyrrn para determinar a natureza dessa loucura, que assume a forma de uma falha de caráter que dura até ser curada. O capítulo 8 do Dungeon Master's Guide tem mais informações sobre a loucura."
+            },
+            {
+                "title": "Daelkyr",
+                "description": "Dyrrn é um dos daelkyr, um grupo de poderosas aberrações que invadiram Eberron a partir do plano de Xoriat. Os daelkyr são a personificação da loucura e do caos, e eles buscam remodelar o mundo à sua própria imagem distorcida. Cada daelkyr tem seus próprios poderes e habilidades únicas, e eles frequentemente trabalham juntos para alcançar seus objetivos.\n\nDyrrn é conhecido por seu domínio sobre carne e pensamento, e usa seus poderes para manipular as mentes dos mortais."
             }
         ]
     },
@@ -336,26 +344,6 @@
         ]
     },
     {
-        "index": "overlords",
-        "entries": [
-            {
-                "title": "natureza imortal",
-                "description": "Um suserano não precisa de ar, comida, bebida ou sono. Também não pode morrer permanentemente. Após sua morte, ele se reforma em outro lugar do multiverso e torna-se ativo novamente em um horário definido pelo Mestre."
-            },
-            {
-                "description": "Nos primeiros dias do mundo, os filhos de Khyber surgiram das trevas para reinar sobre Eberron. Os maiores entre eles eram os senhores supremos, que dominavam um mundo de medo, guerra e morte até que os filhos de Eberron e Siberys se levantaram contra eles. Exércitos de dragões lutaram contra os demônios de Khyber. E embora os senhores supremos não pudessem ser destruídos, o couatl sacrificou suas vidas para construir uma prisão de luz celestial: uma chama prateada que prendeu os senhores supremos em Khyber mais uma vez. Esses laços duram incontáveis gerações, mas os senhores ainda anseiam por se libertar e recuperar o mundo acima.\n\nEnquanto os senhores estiverem ligados pela Chama Prateada, eles não podem se manifestar fisicamente no mundo. Mas cada overlord incorpora um aspecto particular do mal, que cresce em força à medida que seus servos - os demônios conhecidos como os Senhores do Pó - planejam libertar seus antigos mestres. Os senhores supremos ganham força quando os mortais abraçam os caminhos sombrios traçados para eles. E à medida que ficam mais fortes, eles ganham mais influência.\n\nCerca de trinta senhores supremos estão presos em Khyber. Dois são descritos aqui: Rak Tulkhesh e Sul Khatesh, ambos permanecem presos e não podem assumir forma física. Os blocos de estatísticas fornecidos aqui refletem os poderes que eles exerceriam se fossem lançados no mundo."
-            }
-        ]
-    },
-    {
-        "index": "quori",
-        "entries": [
-            {
-                "description": "Dal Quor é o plano dos sonhos e atualmente é dominado por um poder sombrio conhecido como il-Lashtavar, ou Escuro Sonhador. Il-Lashtavar é servido por uma série de aberrações que são a personificação de sonhos e pesadelos – os quori. Como é difícil para qualquer coisa viajar fisicamente de ou para Dal Quor, os quori em Eberron são normalmente encontrados enquanto possuem um corpo hospedeiro. Os Inspirados são o tipo mais comum de anfitrião voluntário para os quori e foram descritos anteriormente neste capítulo."
-            }
-        ]
-    },
-    {
         "index": "radiant-idol",
         "entries": [
             {
@@ -414,11 +402,11 @@
                 "description": "Uma entidade de sombra, Sul Khatesh pode assumir qualquer forma. Sua forma favorita é uma figura humanóide de 3,6 metros de altura envolta em um manto com capuz esvoaçante formado por névoa rodopiante e sombra aderente."
             },
             {
-                "title": "lacaios",
+                "title": "Lacaios",
                 "description": "A maioria dos seguidores de Sul Khatesh são magos e feiticeiros, e ela é uma das principais patronas dos feiticeiros em Khorvaire. Covens dedicados à Rainha das Sombras usam magia negra e medo para dominar comunidades inteiras, enquanto feiticeiros isolados fazem pactos com Sul Khatesh para buscar poder e vingança. Ao compartilhar seu poder dessa forma, a overlord perpetua a imagem do feiticeiro malvado, incitando o medo que fortalece ainda mais o Guardião dos Segredos.\n\nO principal agente de Sul Khatesh entre os Senhores do Pó é o rakshasa Hektula, que serve como bibliotecário na cidadela demoníaca de Ashtakala. Conhecido como o Primeiro Escriba, Hektula preside um imenso tesouro de conhecimento e artefatos arcanos."
             },
             {
-                "title": "natureza imortal",
+                "title": "Natureza imortal",
                 "description": "Um suserano não precisa de ar, comida, bebida ou sono. Também não pode morrer permanentemente. Após sua morte, ele se reforma em outro lugar do multiverso e torna-se ativo novamente em um horário definido pelo Mestre."
             }
         ]
@@ -458,7 +446,7 @@
                 "description": "Constantemente disputando uma posição, cada tsucora espera reencarnar como um servo mais poderoso do Escuro Sonhador. Como tal, seus planos são tão frequentemente focados na ruína dos concorrentes quanto na promoção dos planos de il-Lashtavar. Quando não estão servindo nas cidades de seu reino de pesadelo, eles caçam os espíritos sonhadores dos mortais."
             },
             {
-                "title": "medrosos",
+                "title": "Medrosos",
                 "description": "Sua capacidade de manipular os medos dos mortais faz com que os tsucoras sejam frequentemente enviados a Eberron como inspirados. Nada mantém os bens humanoides na linha como o medo, e os tsucoras são os mestres em manipular a incerteza de turbas e oficiais de alto escalão. A eficácia do tsucora Inspired mantém os membros desta ordem nas boas graças do kalaraq quori."
             }
         ]
@@ -590,7 +578,7 @@
                 "description": "Titãs forjados para a guerra são construções gigantescas construídas para abrir caminhos de destruição através dos exércitos inimigos. Alguns dos combatentes mais temidos da Última Guerra, os titãs forjados para a guerra mal são sencientes, com inteligência suficiente para seguir comandos."
             },
             {
-                "title": "legado de gigantes",
+                "title": "Legado de gigantes",
                 "description": "Na Era dos Gigantes, artífices gigantes construíram golems de guerra irracionais para ajudá-los em sua guerra contra os quori. Milênios depois, alguns desses golems foram desenterrados por aventureiros em busca dos segredos daquela era, depois entregues a artífices que trabalhavam para as casas marcadas pelo dragão durante a Última Guerra. A Casa Cannith estudou esses projetos e, ao descobrir os segredos dos golems e dos artífices gigantes que os criaram, a Casa Cannith criou os primeiros titãs forjados para a guerra."
             }
         ]
