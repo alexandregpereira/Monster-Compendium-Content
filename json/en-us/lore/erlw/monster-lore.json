@@ -20,6 +20,10 @@
             {
                 "title": "Madness of Belashyrra",
                 "description": "If a creature goes mad in Belashyrra's lair or while it can see the daelkyr, it gains a form of indefinite madness. Roll on the Madness of Belashyrra table to determine the nature of this madness, which takes the form of a character flaw that lasts until cured. Chapter 8 of the Dungeon Master's Guide has more information on madness."
+            },
+            {
+                "title": "Daelkyr",
+                "description": "Belashyrra is one of the daelkyr, a group of powerful aberrations that invaded Eberron from the plane of Xoriat. The daelkyr are the embodiment of madness and chaos, and they seek to reshape the world in their own twisted image. Each daelkyr has its own unique powers and abilities, and they often work together to achieve their goals.\n\nBelashyrra is known for its mastery of sight and perception, and it uses its powers to manipulate the minds of mortals."
             }
         ]
     },
@@ -51,15 +55,11 @@
         "index": "clawfoot",
         "entries": [
             {
-                "description": "Clawfoot dinosaurs are two-legged saurians with sharp teeth and toe claws that resemble deadly sickles. They are imposing creatures, about the size of a tall human, and are fierce enough to take down even larger prey.\n\nIn the wild, an untrained clawfoot can easily hold its own in combat, but they are even fiercer when hunting in packs. Their instinct for pack structure has made these dinosaurs a traditional war mount for the halflings of the Talenta Plains, with clawfoots quickly and eagerly responding to training and control.\n\nDinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
-            }
-        ]
-    },
-    {
-        "index": "dinosaurs",
-        "entries": [
+                "description": "Clawfoot dinosaurs are two-legged saurians with sharp teeth and toe claws that resemble deadly sickles. They are imposing creatures, about the size of a tall human, and are fierce enough to take down even larger prey.\n\nIn the wild, an untrained clawfoot can easily hold its own in combat, but they are even fiercer when hunting in packs. Their instinct for pack structure has made these dinosaurs a traditional war mount for the halflings of the Talenta Plains, with clawfoots quickly and eagerly responding to training and control."
+            },
             {
-                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
+                "title": "Dinosaurs of Eberron",
+                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts.\n\nThe clawfoot is one of the most common dinosaurs used by the Talenta halflings as a mount. Other common mounts include the fastieth and the raptor."
             }
         ]
     },
@@ -112,6 +112,10 @@
             {
                 "title": "Madness of Dyrrn",
                 "description": "If a creature goes mad in Dyrrn's lair or while it can see the daelkyr, it gains a form of indefinite madness. Roll on the Madness of Dyrrn table to determine the nature of this madness, which takes the form of a character flaw that lasts until cured. Chapter 8 of the Dungeon Master's Guide has more information on madness."
+            },
+            {
+                "title": "Daelkyr",
+                "description": "Dyrrn is one of the daelkyr, a group of powerful aberrations that invaded Eberron from the plane of Xoriat. The daelkyr are the embodiment of madness and chaos, and they seek to reshape the world in their own twisted image. Each daelkyr has its own unique powers and abilities, and they often work together to achieve their goals.\n\nDyrrn is known for its mastery of flesh and thought, and it uses its powers to manipulate the minds of mortals."
             }
         ]
     },
@@ -131,7 +135,11 @@
         "index": "fastieth",
         "entries": [
             {
-                "description": "Fastieth are human-sized, two-legged saurians with large eyes, brightly colored and patterned scales, and strong legs. They are the most common mounts of the halflings of the Talenta Plains, bred for speed. Although too small to bear larger riders, a fastieth can carry a halfling with light gear easily and at a good pace. Fastieths are typically stubborn creatures, so specimens with an even temperament are prized among the Talenta tribes.\n\nBeing herbivores, fastieths prefer to flee rather than fight. However, even though not trained for battle, they can deliver a vicious bite if pressed.\n\nDinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts."
+                "description": "Fastieth are human-sized, two-legged saurians with large eyes, brightly colored and patterned scales, and strong legs. They are the most common mounts of the halflings of the Talenta Plains, bred for speed. Although too small to bear larger riders, a fastieth can carry a halfling with light gear easily and at a good pace. Fastieths are typically stubborn creatures, so specimens with an even temperament are prized among the Talenta tribes.\n\nBeing herbivores, fastieths prefer to flee rather than fight. However, even though not trained for battle, they can deliver a vicious bite if pressed."
+            },
+            {
+                "title": "Dinosaurs of Eberron",
+                "description": "Dinosaurs are widespread on Eberron, particularly in Q'barra, the Talenta Plains, Xen'drik, and Argonnessen. Smaller dinosaurs are the rule in Q'barra and the Talenta Plains, including varieties commonly used by Talenta halflings as mounts.\n\nThe clawfoot is one of the most common dinosaurs used by the Talenta halflings as a mount. Other common mounts include the fastieth and the raptor."
             }
         ]
     },
@@ -187,7 +195,27 @@
         "index": "kalaraq-quori",
         "entries": [
             {
-                "description": "The most powerful quori are the kalaraqs, also known as eyebinders—entities formed of pure shadow that is outlined by a nimbus of energy. A host of disembodied eyes whirl around a kalaraq, each reflecting a consciousness the creature has consumed.\n\nKalaraq quori guide the quori race, and the Devourer of Dreams—the personal emissary of the Dreaming Dark—is of this order. Although the kalaraqs never fight one another overtly, each has its own agenda, and each hopes to someday seize the throne of the Devourer of Dreams. Because of this internal conflict, it is unusual for a kalaraq to leave Dal Quor to inhabit a mortal vessel and become one of the Inspired.\n\nDal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter."
+                "description": "The most powerful quori are the kalaraqs, also known as eyebinders—entities formed of pure shadow that is outlined by a nimbus of energy. A host of disembodied eyes whirl around a kalaraq, each reflecting a consciousness the creature has consumed.\n\nKalaraq quori guide the quori race, and the Devourer of Dreams — the personal emissary of the Dreaming Dark — is of this order. Although the kalaraqs never fight one another overtly, each has its own agenda, and each hopes to someday seize the throne of the Devourer of Dreams. Because of this internal conflict, it is unusual for a kalaraq to leave Dal Quor to inhabit a mortal vessel and become one of the Inspired.\n\nDal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter."
+            },
+            {
+                "title": "The Devourer of Dreams",
+                "description": "The Devourer of Dreams is the most powerful of the kalaraq quori, and it serves as the personal emissary of il-Lashtavar. The Devourer is a being of pure shadow, with a nimbus of energy that outlines its form. It has no physical body, but it can manifest in the world through a host body, typically an Inspired.\n\nThe Devourer of Dreams is a master manipulator, using its powers to influence the dreams and thoughts of others. It is said that the Devourer can see into the future and that it uses this knowledge to further its own goals."
+            },
+            {
+                "title": "Kalaraq Quori in Eberron",
+                "description": "Kalaraq quori are rarely encountered in Eberron, as they are more concerned with the politics of Dal Quor than with the affairs of the Material Plane. However, when they do manifest, they often do so through powerful Inspired or other beings of influence. Kalaraq quori are known for their cunning and intelligence, and they often use their powers to manipulate others to achieve their goals."
+            },
+            {
+                "title": "Kalaraq Quori and the Inspired",
+                "description": "The kalaraq quori are the most powerful of the quori, and they often manifest through the Inspired. The Inspired are mortals who have been possessed by a quori spirit, granting them incredible powers and abilities. The kalaraq quori use the Inspired as their agents in the Material Plane, manipulating them to achieve their goals and further the agenda of the Dreaming Dark."
+            },
+            {
+                "title": "Kalaraq Quori and the Plane of Dreams",
+                "description": "The kalaraq quori are native to Dal Quor, the plane of dreams. This plane is a place of pure thought and imagination, where the boundaries between reality and dreams blur. The kalaraq quori are able to manipulate the dreams of mortals, using their powers to influence their thoughts and actions."
+            },
+            {
+                "title": "Kalaraq Quori and the Prophecy",
+                "description": "The kalaraq quori are deeply connected to the Draconic Prophecy, a mysterious force that shapes the fate of Eberron. The Prophecy is a complex web of events and possibilities, and the kalaraq quori use their powers to manipulate it to their advantage. They are known to seek out individuals who are touched by the Prophecy, using them as pawns in their schemes and plans."
             }
         ]
     },
@@ -248,7 +276,39 @@
         ]
     },
     {
-        "index": "living-spells",
+        "index": "living-burning-hands",
+        "entries": [
+            {
+                "title": "Constructed Nature",
+                "description": "A living spell doesn't require air, food, drink, or sleep."
+            },
+            {
+                "description": "Of all the anomalies that emerged from the magical cataclysm that created the Mournland, the appearance of living spells might be the most mysterious. In some unknown fashion, the magical energy unleashed during the Last War caused spell effects to take on sentience. A living spell appears much like a normal spell effect, except that its magical energy endures indefinitely.\n\nLiving spells haunt the Mournland and other areas blasted by the Last War, somehow subsisting on ambient magical energy as they writhe and across the landscape. Though they have no need for sustenance, they attack any creatures they come into contact with, lashing out indiscriminately with their corrupted magic."
+            },
+            {
+                "title": "Customizing a Living Spell",
+                "description": "Living spells come in many varieties; the stat blocks here are three examples. Living spells most often manifest from evocation and conjuration spells. To make a living spell from a different spell, choose a damage-dealing evocation or conjuration spell from the wizard spell list of up to 5th level. Then consult the Living Spell Customization table to see which stat block to customize, based on the chosen spell's level.\n\nNow make the following changes to that stat block:\n\nDamage Immunity. Replace the living spell's damage immunity with immunity to the type (or types) of damage dealt by the chosen spell.\n\nMagical Strike. Replace the damage that Magical Strike deals with one type of damage dealt by the chosen spell.\n\nSpell Mimicry. Replace the effect of Spell Mimicry with the effect of the chosen spell. If that spell requires a saving throw, use spell save DC from the replaced spell, and if the spell involves an attack roll, use the attack bonus from the living spell's Magical Strike.\n\nFor example, if you turn fireball (a 3rd-level spell) into a living spell, customize the living lightning bolt. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates fireball with Spell Mimicry."
+            }
+        ]
+    },
+        {
+        "index": "living-cloudkill",
+        "entries": [
+            {
+                "title": "Constructed Nature",
+                "description": "A living spell doesn't require air, food, drink, or sleep."
+            },
+            {
+                "description": "Of all the anomalies that emerged from the magical cataclysm that created the Mournland, the appearance of living spells might be the most mysterious. In some unknown fashion, the magical energy unleashed during the Last War caused spell effects to take on sentience. A living spell appears much like a normal spell effect, except that its magical energy endures indefinitely.\n\nLiving spells haunt the Mournland and other areas blasted by the Last War, somehow subsisting on ambient magical energy as they writhe and across the landscape. Though they have no need for sustenance, they attack any creatures they come into contact with, lashing out indiscriminately with their corrupted magic."
+            },
+            {
+                "title": "Customizing a Living Spell",
+                "description": "Living spells come in many varieties; the stat blocks here are three examples. Living spells most often manifest from evocation and conjuration spells. To make a living spell from a different spell, choose a damage-dealing evocation or conjuration spell from the wizard spell list of up to 5th level. Then consult the Living Spell Customization table to see which stat block to customize, based on the chosen spell's level.\n\nNow make the following changes to that stat block:\n\nDamage Immunity. Replace the living spell's damage immunity with immunity to the type (or types) of damage dealt by the chosen spell.\n\nMagical Strike. Replace the damage that Magical Strike deals with one type of damage dealt by the chosen spell.\n\nSpell Mimicry. Replace the effect of Spell Mimicry with the effect of the chosen spell. If that spell requires a saving throw, use spell save DC from the replaced spell, and if the spell involves an attack roll, use the attack bonus from the living spell's Magical Strike.\n\nFor example, if you turn fireball (a 3rd-level spell) into a living spell, customize the living lightning bolt. The living fireball has immunity to fire damage, instead of lightning damage; deals fire damage with its Magical Strike; and replicates fireball with Spell Mimicry."
+            }
+        ]
+    },
+        {
+        "index": "living-lightning-bolt",
         "entries": [
             {
                 "title": "Constructed Nature",
@@ -280,26 +340,6 @@
         "entries": [
             {
                 "description": "In the age when fiends and dragons waged war across Eberron, rakshasas served the fiendish lords as strategists and generals. A rakshasa named Mordakhesh rose up through the ranks to become one of the greatest commanders of his age, and a dragon-slaying specialist. For this, he earned the nickname Shadowsword, along with a legendary reputation for leaving death in his wake.\n\nMordakhesh serves as the prakhutu or \"speaker\" of his imprisoned master, Rak Tulkhesh, and he seeks to free his lord by bathing the world in blood. Like a spider with multiple webs, he has agents and pawns (which he calls his \"claws\") established in armies across Khorvaire. The most significant of those is the barbarian horde he amasses in the Demon Wastes—warriors who threaten to sweep into Aundair on a tide of blood.\n\nMany of the horrors of the Last War were instigated—or at least encouraged—by Mordakhesh's operatives, and his claws are known to have perpetrated some of the most brutal massacres of that conflict. No one knows how far the Shadowsword's reach extends, or which commanders in the armies of Khorvaire serve him."
-            }
-        ]
-    },
-    {
-        "index": "overlords",
-        "entries": [
-            {
-                "title": "Immortal Nature",
-                "description": "An overlord doesn't require air, food, drink or sleep. It also can't die permanently. Upon its death, it reforms elsewhere in the multiverse and becomes active again at a time set by the DM."
-            },
-            {
-                "description": "In the first days of the world, the children of Khyber rose from the darkness to reign over Eberron. The greatest among them were the overlords, who held dominion over a world of fear, war, and death until the children of Eberron and Siberys rose up against them. Armies of dragons fought against the fiends of Khyber. And though the overlords couldn't be destroyed, the couatl sacrificed their lives to build a prison of celestial light: a silver flame that bound the overlords in Khyber once more. These bonds have held for countless generations, but the overlords still yearn to break free and reclaim the world above.\n\nAs long as the overlords are bound by the Silver Flame, they can't physically manifest in the world. But each overlord embodies a particular aspect of evil, which grows in strength as their servants—the fiends known as the Lords of Dust—scheme to unleash their ancient masters. The overlords gain strength when mortals embrace the dark paths laid down for them. And as they grow stronger, they gain more influence.\n\nSome thirty overlords are bound in Khyber. Two are described here: Rak Tulkhesh and Sul Khatesh, both of whom remain imprisoned and can't take physical form. The stat blocks provided here reflect the powers they would wield if they were ever unleashed upon the world."
-            }
-        ]
-    },
-    {
-        "index": "quori",
-        "entries": [
-            {
-                "description": "Dal Quor is the plane of dreams and is currently dominated by a dark power known as il-Lashtavar, or the Dreaming Dark. Il-Lashtavar is served by a host of aberrations that are the embodiments of dreams and nightmares—the quori. Because it is difficult for anything to physically travel to or from Dal Quor, quori in Eberron are typically encountered while possessing a host body. The Inspired are the most common type of willing host for the quori and are described earlier in this chapter."
             }
         ]
     },

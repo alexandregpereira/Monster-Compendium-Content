@@ -1,6 +1,18 @@
 [
     {
         "source": {
+            "name": "Eberron: das Cinzas da Última Guerra",
+            "originalName": "Eberron: Rising from the Last War",
+            "acronym": "ERLW"
+        },
+        "totalMonsters": 38,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Explore as terras de Eberron neste livro de campanha para o maior jogo de RPG do mundo. Este livro fornece tudo o que jogadores e Mestres de Dungeons precisam para jogar Dungeons & Dragons em Eberron — um mundo devastado pela guerra, repleto de tecnologia mágica, naves aéreas e trens relâmpago, onde mistério inspirado no noir encontra aventura de espadachins. Eberron entrará em uma nova era próspera ou a sombra da guerra descerá novamente?"
+    },
+    {
+        "source": {
             "name": "Volo's Guide to Monsters",
             "originalName": "Volo's Guide to Monsters",
             "acronym": "VGM"
