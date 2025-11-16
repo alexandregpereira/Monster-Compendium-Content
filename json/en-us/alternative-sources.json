@@ -1,6 +1,39 @@
 [
     {
         "source": {
+            "name": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
+        },
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Dive into the epic conflicts that shape the multiverse with Mordenkainen's Tome of Foes. This sourcebook explores the eternal struggles between iconic factions such as the Blood War between demons and devils, the ancient rivalry of elves and drow, and the cosmic battles involving githyanki and githzerai."
+    },
+    {
+        "source": {
+            "name": "Guildmaster's Guide to Ravnica",
+            "acronym": "GGR"
+        },
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Discover the sprawling cityscape of Ravnica, a world where ten powerful guilds vie for control. This sourcebook offers players and Dungeon Masters a wealth of lore, character options, and adventures set in this vibrant metropolis. Dive into the intrigue and alliances that define Ravnica, and shape your own destiny within its walls."
+    },
+    {
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        },
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Step into the eerie realms of Ravenloft with Van Richten's Guide to Ravenloft. This sourcebook delves into the dark and mysterious domains of dread, exploring the horrors that lurk within. Uncover the secrets of the Dark Powers, the infamous Darklords, and the twisted landscapes of Ravenloft. With new character options, monsters, and a wealth of lore, this guide is essential for any campaign set in this gothic horror setting."
+    },
+    {
+        "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         },
@@ -31,6 +64,17 @@
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "The Monster Manual is a treasure trove of iconic D&D creatures like dragons, giants, mind flayers, and beholders. Packed with easy-to-use stats and captivating stories, it fuels your imagination. A must-have resource for Dungeon Masters, it enriches any adventure!"
+    },
+    {
+        "source": {
+            "name": "Tomb of Annihilation",
+            "acronym": "ToA"
+        },
+        "totalMonsters": 83,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/toa.webp",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Venture into the deadly jungles of Chult with Tomb of Annihilation. This adventure module plunges players into a perilous quest to stop a mysterious death curse that is afflicting the world. Packed with new monsters, treacherous terrain, and ancient ruins, this sourcebook offers a thrilling experience filled with danger and discovery."
     },
     {
         "source": {
