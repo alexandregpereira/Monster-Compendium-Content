@@ -1,6 +1,39 @@
 [
     {
         "source": {
+            "name": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
+        },
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Mergulhe nos conflitos épicos que moldam o multiverso com o Mordenkainen's Tome of Foes. Este livro explora as lutas eternas entre facções icônicas, como a Guerra do Sangue entre demônios e diabos, a antiga rivalidade entre elfos e drow, e as batalhas cósmicas envolvendo githyanki e githzerai."
+    },
+    {
+        "source": {
+            "namePtBr": "Guildmaster's Guide to Ravnica",
+            "acronym": "GGR"
+        },
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Descubra a vasta paisagem urbana de Ravnica, um mundo onde dez poderosas guildas lutam pelo controle. Este livro oferece aos jogadores e Mestres de Dungeons uma riqueza de conhecimento, opções de personagens e aventuras ambientadas nesta metrópole vibrante. Mergulhe na intriga e nas alianças que definem Ravnica e molde seu próprio destino dentro de suas muralhas."
+    },
+    {
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        },
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Adentre os reinos sombrios de Ravenloft com o Van Richten's Guide to Ravenloft. Este livro explora os domínios escuros e misteriosos do medo, investigando os horrores que espreitam dentro deles. Descubra os segredos dos Poderes das Trevas, os infames Senhores das Trevas e as paisagens distorcidas de Ravenloft. Com novas opções de personagens, monstros e uma riqueza de conhecimento, este guia é essencial para qualquer campanha ambientada neste cenário de horror gótico."
+    },
+    {
+        "source": {
             "name": "Eberron: das Cinzas da Última Guerra",
             "originalName": "Eberron: Rising from the Last War",
             "acronym": "ERLW"

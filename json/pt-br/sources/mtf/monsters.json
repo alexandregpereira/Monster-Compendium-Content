@@ -1,0 +1,2992 @@
+[
+    {
+        "index": "assassin-bug",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Inseto Assassino",
+        "subtitle": "Monstruosidade média, neutra",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 14,
+        "hit_points": 55,
+        "hit_dice": "10d8+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende druídica, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Olfato Aguçado",
+                "desc": "O inseto assassino tem vantagem em testes de Sabedoria (Percepção) que dependem do olfato."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O inseto assassino faz dois ataques de mordida.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, uma criatura. Acerto: 7 (1d10 + 2) de dano perfurante e o alvo deve passar em um teste de resistência de Constituição CD 11 ou será envenenado por 1 minuto. Enquanto envenenado desta forma, o alvo fica paralisado. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: O alvo é infestado com 1d3 ovos de insetos assassinos, que eclodem imediatamente em larvas de insetos assassinos. No início de cada um dos turnos do alvo, o alvo sofre 1d6 de dano perfurante por verme que o infesta. Aplicar fogo ao ferimento da mordida antes do final do próximo turno do alvo causa 1 de dano de fogo ao alvo e mata esses vermes de insetos assassinos. Após esse período, os vermes estão muito sob a pele para serem queimados.\nSe um alvo infestado por larvas de insetos assassinos terminar seu turno com 0 pontos de vida, ele morre quando as larvas se enterram em seu coração e o matam. Qualquer efeito que cure doenças mata todos os vermes de insetos assassinos que infestam o alvo.",
+                "name": "Ovipositor"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "blindheim",
+        "type": "HUMANOID",
+        "subtype": "blindheim",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Blindheim",
+        "subtitle": "Humanoide médio (blindheim), neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 14,
+        "hit_points": 26,
+        "hit_dice": "4d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 3,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Incomum",
+        "special_abilities": [
+            {
+                "name": "Olhos Radiantes",
+                "desc": "Enquanto seus olhos estão abertos, um blindheim projeta luz plena em um cone de 18 metros e penumbra por mais 18 metros. Ele define a orientação desse cone no final de cada uma de suas voltas. Todas as criaturas que podem ver o blindheim têm desvantagem nas jogadas de ataque enquanto estiverem na área de luz forte e a até 4,5 metros do blindheim. Criaturas com o traço de sensibilidade à luz solar que podem ver o blindheim têm desvantagem nas jogadas de ataque em qualquer área de luz brilhante."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "RADIANT",
+                            "type": "RADIANT",
+                            "name": "Radiante"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "A energia radiante irrompe dos olhos do blindheim em um cone de 4,5 metros. Cada criatura nessa área deve ter sucesso em um teste de resistência de Constituição CD 12 ou sofrerá 7 (2d6) de dano radiante e ficará cega até o final do próximo turno do blindheim. Criaturas com o traço Sensibilidade à luz solar têm desvantagem neste teste de resistência.",
+                "name": "Radiant Blast"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "crab-folk",
+        "type": "GIANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Pessoas Caranguejo",
+        "subtitle": "Grande gigante, neutro",
+        "size": "Large",
+        "alignment": "neutral",
+        "armor_class": 16,
+        "hit_points": 68,
+        "hit_dice": "8d10+24",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "comum, gigante",
+        "special_abilities": [
+            {
+                "name": "Anfíbia Limitada",
+                "desc": "O povo caranguejo pode respirar ar e água, mas precisa ser submerso uma vez a cada 24 horas para evitar sufocamento."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O povo caranguejo realiza dois ataques com garras.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma corpo a corpo Ataque: +6 para acertar, alcance 3 metros, um alvo. Acerto: 7 (1d6 + 4) de dano de concussão e o alvo é agarrado (CD de fuga 14). Até que este agarrão termine, o povo caranguejo pode atingir automaticamente o alvo com sua garra, e o povo caranguejo não pode fazer ataques com aquela garra contra outros alvos. O povo caranguejo tem duas garras, cada uma das quais pode agarrar apenas um alvo.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "dire-corby",
+        "type": "HUMANOID",
+        "subtype": "dire corby",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Dire Corby",
+        "subtitle": "Humanoide médio (dire corby), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 13,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 4,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            }
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            }
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Incomum",
+        "special_abilities": [
+            {
+                "name": "Cacofonia Atroz",
+                "desc": "Qualquer criatura que não seja um corby atroz que comece seu turno a até 18 metros de um corby atroz e possa ouvi-lo deve fazer um teste de resistência de Sabedoria CD 11. Em uma falha no teste de resistência, a criatura é incapaz de usar a ação Dash, não pode escalar ou lançar feitiços que não sejam truques até o início de seu próximo turno. "
+            },
+            {
+                "name": "Audição Aguçada",
+                "desc": "O terrível corby tem vantagem em testes de Sabedoria (Percepção) que dependem da audição."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O dire corby faz dois ataques de garra.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano cortante.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "eye-of-fear-and-flame",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 9.0,
+        "name": "Olho do Medo e da Chama",
+        "subtitle": "Morto-vivo médio, caótico e mau",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 136,
+        "hit_dice": "16d8+64",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 8
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Atordoado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, todos os idiomas conhecidos por qualquer criatura a até 9 metros dela",
+        "special_abilities": [
+            {
+                "name": "Turn Immunity",
+                "desc": "O olho do medo e da chama é imune a efeitos que expulsam mortos-vivos."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do olho do medo e da chama é Inteligência (CD de resistência de magia 16). Ele pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "detect-evil-and-good",
+                                "name": "Detectar o Bem e o Mal",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "etherealness",
+                                "name": "Etéreo",
+                                "school": "TRANSMUTATION",
+                                "level": 7
+                            },
+                            {
+                                "index": "true-seeing",
+                                "name": "Visão Verdadeira",
+                                "school": "DIVINATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O olho do medo e da chama faz dois ataques de garra e usa seus Olhos de Pedra Preciosa.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d12+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d12 + 3) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O olho do medo e da chama dispara um dos seguintes raios oculares mágicos, escolhendo um alvo que possa ver a até 30 metros dele.\nOlho do Medo: O alvo e até quatro outras criaturas do olho do medo e da escolha da chama a até 3 metros do alvo devem passar em um teste de resistência de Sabedoria CD 16 ou ficarão amedrontados por 1 minuto. Uma criatura afetada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.\nOlho de Chama: O alvo deve fazer um teste de resistência de Destreza CD 16. Se falhar, o alvo sofre 44 (8d10) de dano de fogo e, se for uma criatura ou um objeto inflamável, ele pega fogo. Em um teste de resistência bem-sucedido, o alvo sofre metade do dano e não incendeia. Um alvo que incendeia recebe 5 (1d10) de dano de fogo no início de cada um de seus turnos até que uma criatura execute uma ação para apagar o fogo.",
+                "name": "Olhos de Pedra Preciosa"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "fog-giant",
+        "type": "GIANT",
+        "subtype": null,
+        "group": "Gigantes",
+        "challenge_rating": 11.0,
+        "name": "Gigante da Neblina",
+        "subtitle": "gigante enorme, mal neutro",
+        "size": "Huge",
+        "alignment": "neutral evil",
+        "armor_class": 16,
+        "hit_points": 200,
+        "hit_dice": "16d12+96",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 27,
+                "modifier": 8
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 22,
+                "modifier": 6
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 10
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-insight",
+                "modifier": 7,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 7,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "comum, gigante",
+        "special_abilities": [
+            {
+                "name": "Denizen of the Mist",
+                "desc": "Durante seu turno, o gigante do nevoeiro ignora os efeitos dos feitiços de nuvem do nevoeiro lançados por ele ou outros gigantes do nevoeiro aliados. "
+            },
+            {
+                "name": "Olfato Aguçado",
+                "desc": "O gigante tem vantagem em testes de Sabedoria (Percepção) que dependem do olfato."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração inata do gigante é Carisma. Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Nuvem de Névoa",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/dia cada",
+                        "spells": [
+                            {
+                                "index": "feather-fall",
+                                "name": "Queda de Penas",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O gigante faz dois ataques com a espada grande e lança uma nuvem de névoa.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6d6+8",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Ataque com arma corpo a corpo: +12 para acertar, alcance 3 metros, um alvo. Acerto: 29 (6d6 + 8) de dano cortante.",
+                "name": "Espada grande"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d10+8",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Arma de Ataque à Distância: +12 para acertar, alcance 60/240 pés, um alvo. Acerto: 30 (4d10 + 8) de dano de concussão.",
+                "name": "Rocha"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O gigante da névoa grita ameaças horripilantes para as criaturas que o servem. Cada aliado médio ou menor do gigante a até 36 metros dele que possa vê-lo ou ouvi-lo pode usar sua reação para fazer um ataque corpo a corpo.",
+                "name": "Petty Tyrant (Recarga 6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "forlarren",
+        "type": "FEY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Forlar",
+        "subtitle": "Feérico médio, neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 16,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 8,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Silvestre",
+        "special_abilities": [
+            {
+                "name": "Resistência Mágica",
+                "desc": "O forlarren tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do forlarren é o Carisma (CD de resistência de magia 14). Ele pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À vontade",
+                        "spells": [
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Retirada Rápida",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "false-life",
+                                "name": "Vida Falsa",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Ilusão Menor",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/dia cada",
+                        "spells": [
+                            {
+                                "index": "aid",
+                                "name": "Ajuda",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "heal",
+                                "name": "Cura",
+                                "school": "EVOCATION",
+                                "level": 6
+                            },
+                            {
+                                "index": "heat-metal",
+                                "name": "Aquecer Metal",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mirror-image",
+                                "name": "Imagem Espelhada",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O forlarren faz dois ataques de garra e um ataque de gore, ou faz três ataques de raios cromáticos.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Gore"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Frio"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque Mágico à Distância: +6 para atingir, alcance 18 m, um alvo. Acerto: 3 (1d6) de dano de raio mais 3 (1d6) de dano de fogo mais 3 (1d6) de dano de frio.",
+                "name": "Raio Cromático"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "jermlaine",
+        "type": "HUMANOID",
+        "subtype": "jermlaine",
+        "group": null,
+        "challenge_rating": 0.125,
+        "name": "Jermlaine",
+        "subtitle": "Minúsculo humanóide (jermlaine), neutro e mau",
+        "size": "Tiny",
+        "alignment": "neutral evil",
+        "armor_class": 11,
+        "hit_points": 3,
+        "hit_dice": "1d4+1",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 30 pés."
+        ],
+        "languages": "Incomum",
+        "special_abilities": [
+            {
+                "name": "Lurkers in Shadow",
+                "desc": "Jermlaine são invisíveis para visão no escuro. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "O jermlaine tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Vermin Friend",
+                "desc": "O jermlaine pode falar e entender ratos e ratos gigantes. "
+            },
+            {
+                "name": "Swarming Rush",
+                "desc": "Um jermlaine adiciona 1d4 às jogadas de dano de sua arma enquanto estiver a 1,5 metro de outro jermlaine consciente."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4-3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": -1,
+                "description": "Ataque com arma corpo a corpo: +-1 para acertar, alcance 1,5 m, um alvo. Acerto: 1 (1d4 - 3) de dano de concussão.",
+                "name": "Porrete"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma à distância: +3 para acertar, alcance 20/60 pés, um alvo. Acerto: 3 (1d4 + 1) de dano perfurante.",
+                "name": "Dardo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "khargra",
+        "type": "ELEMENTAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.125,
+        "name": "Khargra",
+        "subtitle": "Elemental pequeno, neutro",
+        "size": "Small",
+        "alignment": "neutral",
+        "armor_class": 20,
+        "hit_points": 11,
+        "hit_dice": "2d6+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 5,
+                    "value_formatted": "5 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 2,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "terráqueo",
+        "special_abilities": [
+            {
+                "name": "Cheiro de Ferro",
+                "desc": "O khargra pode farejar a localização de metal ferroso a até 9 metros dele."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 3 (1d4 + 1) de dano perfurante e, se o alvo estiver usando uma armadura de metal ou carregando um escudo de metal, o khargra se prende a essa armadura ou escudo. Enquanto estiver conectado, o khargra não ataca. Em vez disso, no início de cada turno do khargra, role um d20. Com 10 ou mais, a armadura ou escudo recebe uma penalidade permanente e cumulativa de -1 na CA que oferece. Armadura reduzida a uma CA de 10 ou um escudo que cai para um bônus de +0 é destruído.\nO khargra pode se separar gastando 1,5 metro de seu movimento. Uma criatura, incluindo o alvo, pode usar sua ação para separar o khargra.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Até o final de seu próximo turno, o khargra pode voar através de terra e pedra não mágicas. Ao fazê-lo, não perturba o material através do qual se move. Ele pode terminar seu movimento dentro da terra ou pedra, mas se permanecer dentro da terra ou pedra quando esta habilidade terminar, ele sofre 14 (4d6) de dano de força e se move imediatamente para o espaço desocupado mais próximo.",
+                "name": "Faseamento da Terra"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Fome Oportunista",
+                "desc": "Quando uma criatura que o khargra pode ver a até 1,5 metro dele o atinge com uma arma de metal, o khargra pode fazer um ataque de mordida contra essa criatura."
+            }
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "killmoulis",
+        "type": "FEY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Killmoulis",
+        "subtitle": "Fadas minúsculas, neutras",
+        "size": "Tiny",
+        "alignment": "neutral",
+        "armor_class": 14,
+        "hit_points": 7,
+        "hit_dice": "2d4+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-history",
+                "modifier": 3,
+                "name": "História"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 8,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Sylvan, telepatia 60 pés.",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": -1,
+                "description": "Ataque com arma corpo a corpo: +-1 para acertar, alcance 1,5 m, um alvo. Acerto: 1 dano de concussão.",
+                "name": "Slam"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O killmoulis tem como alvo até oito criaturas a até 30 metros dele que ele possa ver. Na próxima vez que um alvo terminar um descanso longo, ele recupera todos os Dados de Vida gastos e ganha 10 pontos de vida temporários.",
+                "name": "Bênção da Generosidade Abundância (1/dia)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O killmoulis tem como alvo até oito criaturas a até 30 metros dele que ele possa ver. Na próxima vez que um alvo completar um descanso longo, ele não recupera os Dados de Vida gastos.",
+                "name": "Maldição da má hospitalidade (1/dia)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "mite",
+        "type": "FEY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Ácaro",
+        "subtitle": "Pequenas fadas, leais e más",
+        "size": "Small",
+        "alignment": "lawful evil",
+        "armor_class": 12,
+        "hit_points": 7,
+        "hit_dice": "2d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "BURROW",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                },
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 3,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Sylvan, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Presença Incômoda",
+                "desc": "Enquanto estiver a até 9 metros de um ácaro que possa vê-lo, uma criatura não feérica tem desvantagem em testes de Destreza e testes de resistência de Destreza."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo ou à distância: +4 para atingir, alcance de 1,5 m ou alcance de 20/60 pés, um alvo. Acerto: 4 (1d4 + 2) de dano perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O ácaro coloca um feitiço em uma criatura que ele pode ver dentro de 60 pés dele por 1 minuto. Se o ácaro estiver escondido, usar esta habilidade não revela sua localização. Enquanto a criatura estiver afetada por este feitiço, sempre que fizer uma jogada de ataque, um teste de habilidade ou um teste de resistência, ela deve rolar um d6 e subtrair o número rolado da rolagem do d20. Em qualquer turno em que sofra o efeito do feitiço, o alvo pode atacar um aliado como reação, ignorando o efeito do feitiço quando o faz. Ele pode então ignorar o efeito do feitiço até o final de seu turno.",
+                "name": "Blood Boiling Hex (Recarga 6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "needle-lord",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Senhor da Agulha",
+        "subtitle": "Planta grande, caótica e maligna",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 45,
+        "hit_dice": "6d10+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 6,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 2,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés."
+        ],
+        "languages": "Silvestre",
+        "special_abilities": [
+            {
+                "name": "Needle Defense",
+                "desc": "Cada vez que uma criatura faz um ataque corpo a corpo contra um lorde da agulha, ela recebe 2 pontos de dano perfurante. Uma criatura pode escolher fazer um ataque com desvantagem para evitar esse dano."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O senhor da urtiga faz 2 ataques de videira raking.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O senhor das agulhas realiza até 1d6 ataques de agulhas, mas não pode atacar o mesmo alvo mais de duas vezes durante seu turno.",
+                "name": "Salva de Agulhas"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "11",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 3 metros, um alvo. Acerto: 11 (2d6 + 4) de dano perfurante e o alvo é agarrado (CD de fuga 14). Até que este agarrão termine, o alvo sofre 11 de dano perfurante no início de cada um de seus turnos. O senhor da agulha tem duas videiras ancinho, cada uma das quais pode agarrar apenas um alvo.",
+                "name": "Raking Vine"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com Arma à Distância: +2 para atingir, alcance 18 m, um alvo. Acerto: 2 (1d4) de dano perfurante.",
+                "name": "Agulha"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "needle-spawn",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Criação de Agulhas",
+        "subtitle": "Planta média, caótica e má",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés."
+        ],
+        "languages": "Silvestre",
+        "special_abilities": [
+            {
+                "name": "Tiro de curta distância",
+                "desc": "O spawn da agulha não sofre desvantagem em ataques à distância enquanto estiver a 1,5 metro de uma criatura hostil que possa vê-lo e não estiver incapacitado, se o alvo do ataque também estiver a 1,5 metro do spawn da agulha."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O spawn de agulha faz até 1d6 ataques de agulha, mas não pode atacar o mesmo alvo mais de duas vezes durante seu turno.",
+                "name": "Needle Volley"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com Arma à Distância: +5 para atingir, alcance 18 m, um alvo. Acerto: 5 (1d4 + 3) de dano perfurante.",
+                "name": "Agulha"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "norker",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Norker",
+        "subtitle": "Pequeno humanóide (goblinoide), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 3,
+                "name": "Atletismo"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Goblin",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O norker faz uma maça e um ataque de mordida.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma corpo a corpo: +3 para atingir, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma corpo a corpo: +3 para atingir, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano de concussão.",
+                "name": "Maça"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Repreensão defensiva",
+                "desc": "Se uma criatura a até 1,5 metro do norker fizer um ataque corpo a corpo contra ela, o norker pode usar sua reação para causar 4 de dano perfurante a ela."
+            }
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "norker-war-leader",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Líder de Guerra Norker",
+        "subtitle": "Pequeno humanóide (goblinoide), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 39,
+        "hit_dice": "6d8+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 3,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Goblin",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O líder de guerra norker faz um ataque de machado grande e uma mordida, e também usa Fight On, You Slugs.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d12+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d12 + 3) de dano cortante.",
+                "name": "Greataxe"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O líder de guerra norker pega até três goblinoides aliados em um raio de 18 metros que possam vê-lo. Cada uma das criaturas escolhidas pode usar suas reações para fazer um único ataque corpo a corpo.",
+                "name": "Continuem a lutar, seus lesmas"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Repreensão defensiva",
+                "desc": "Se uma criatura a até 1,5 metro do norker fizer um ataque corpo a corpo contra ela, o norker pode usar sua reação para causar 6 de dano perfurante a ela."
+            }
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "screaming-devilkin",
+        "type": "FEY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Devilkin Gritando",
+        "subtitle": "Pequenas fadas, leais e más",
+        "size": "Small",
+        "alignment": "lawful evil",
+        "armor_class": 17,
+        "hit_points": 18,
+        "hit_dice": "4d6+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Silvestre",
+        "special_abilities": [
+            {
+                "name": "Agile Flier",
+                "desc": "Ataques de oportunidade contra o devilkin gritando têm desvantagem enquanto ele está voando. "
+            },
+            {
+                "name": "Gritos Incessantes",
+                "desc": "Qualquer criatura que não seja um diabo gritando que comece seu turno a até 9 metros de um ou mais diabos gritando e possa ouvi-lo deve fazer um teste de CD 10\nTeste de resistência de sabedoria. Em caso de falha, a criatura fica incapacitada até o início de seu próximo turno. Em um sucesso, a criatura não sofre nenhum efeito. "
+            },
+            {
+                "name": "Pernas Atrofiadas",
+                "desc": "O diabo que grita tem desvantagem nas jogadas de ataque e todas as jogadas de ataque feitas contra ele ganham vantagem enquanto o diabo não está voando."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d4 + 3) de dano perfurante.",
+                "name": "Cauda farpada"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "xill",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Colina",
+        "subtitle": "Monstruosidade média, leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 16,
+        "hit_points": 33,
+        "hit_dice": "6d8+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 6,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-athletics",
+                "modifier": 4,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Passeio Etéreo",
+                "desc": "Como uma ação bônus, um xill pode mudar magicamente do Plano Material para o Plano Etéreo, ou vice-versa. "
+            },
+            {
+                "name": "Poison Stinger",
+                "desc": "O xill injeta veneno em uma criatura que atingiu com suas garras neste turno. A criatura escolhida deve fazer um teste de resistência de Constituição CD 11, com desvantagem se o xill acertá-la mais de uma vez neste turno, recebendo 14 (4d6) de dano venenoso em uma falha na resistência, ou metade em um sucesso. Se o dano do veneno reduzir o alvo a 0 pontos de vida, o alvo fica estável, mas envenenado por 1 hora, mesmo depois de recuperar os pontos de vida, e fica paralisado enquanto envenenado dessa forma."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O xill faz quatro ataques de garra.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d4 + 4) de dano perfurante.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    },
+    {
+        "index": "ygorl,-lord-of-entropy",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 23.0,
+        "name": "Ygorl, Senhor da Entropia",
+        "subtitle": "Grande aberração, neutro caótico",
+        "size": "Large",
+        "alignment": "chaotic neutral",
+        "armor_class": 20,
+        "hit_points": 325,
+        "hit_dice": "26d10+182",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 24,
+                "modifier": 7
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 24,
+                "modifier": 7
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 26,
+                "modifier": 8
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 14
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 14
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 15
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 12,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 15,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 15,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 15,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Frio"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão verdadeira 120 pés."
+        ],
+        "languages": "tudo, telepatia 120 pés.",
+        "special_abilities": [
+            {
+                "name": "Aura entrópica",
+                "desc": "Cada criatura que não seja um constructo ou morto-vivo que termine seu turno a até 4,5 metros de Ygorl sofre 14 (4d6) de dano necrótico. "
+            },
+            {
+                "name": "Resistência Lendária (3/dia)",
+                "desc": "Se Ygorl falhar em um teste de resistência, ele pode optar por ter sucesso. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "Ygorl tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração de Ygorl é Carisma (resistência de magia CD 23, +15 para acertar com ataques de magia). Ele pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "blink",
+                                "name": "Piscar",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "fly",
+                                "name": "Voar",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/dia cada",
+                        "spells": [
+                            {
+                                "index": "circle-of-death",
+                                "name": "Círculo da Morte",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2/dia cada",
+                        "spells": [
+                            {
+                                "index": "finger-of-death",
+                                "name": "Dedo da Morte",
+                                "school": "NECROMANCY",
+                                "level": 7
+                            },
+                            {
+                                "index": "harm",
+                                "name": "Danos",
+                                "school": "NECROMANCY",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "power-word-kill",
+                                "name": "Power Word Kill",
+                                "school": "ENCHANTMENT",
+                                "level": 9
+                            },
+                            {
+                                "index": "power-word-stun",
+                                "name": "Palavra de Poder Atordoamento",
+                                "school": "ENCHANTMENT",
+                                "level": 8
+                            },
+                            {
+                                "index": "weird",
+                                "name": "Estranho",
+                                "school": "ILLUSION",
+                                "level": 9
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ygorl faz três ataques: dois com sua foice e um com seu toque entrópico.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+7",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 14,
+                "description": "Arma corpo a corpo Ataque: +14 para acertar, alcance 3 metros, uma criatura. Acerto: 18 (2d10 + 7) de dano cortante mais 19 (3d12) de dano necrótico. Qualquer criatura reduzida a 0 pontos de vida por este ataque morre, com seu corpo e tudo o que está vestindo e carregando, exceto itens mágicos, explodindo em uma nuvem de cinzas. A criatura pode ser restaurada à vida apenas por meio de um feitiço de desejo.",
+                "name": "Foice"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+7",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrótico"
+                        }
+                    }
+                ],
+                "attack_bonus": 14,
+                "description": "Ataque com Arma Corpo a Corpo: +14 para acertar, alcance 1,5 m, um alvo. Acerto: 16 (2d8 + 7) de dano necrótico, e o alvo deve ter sucesso em um teste de resistência de Constituição CD 22 ou ganhará um nível de exaustão.",
+                "name": "Toque Entrópico"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ygorl invoca 1d4 + 1 slaadi da morte. Um slaad invocado aparece em um espaço desocupado a até 18 metros de Ygorl, age como um aliado de Ygorl e não pode invocar outros slaadi. Ele permanece por 1 minuto, até que ele ou Ygorl morram, ou até que Ygorl o dissipe com uma ação.",
+                "name": "Convocar Slaadi (1/dia)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ygorl se teletransporta, junto com qualquer equipamento que esteja usando ou carregando, até 36 metros para um espaço desocupado que possa ver.",
+                "name": "Teletransporte"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ygorl faz um ataque com sua foice. ",
+                "name": "Foice"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ygorl usa sua ação de Teletransporte. ",
+                "name": "Teleporte"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "12d6",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Cada criatura que não seja um constructo ou morto-vivo a até 9 metros de Ygorl deve fazer um teste de resistência de Constituição CD 22 contra a tentativa do senhor da entropia de desfazer a vida, levando 42 (12d6) necróticos dano em uma falha no teste de resistência, ou metade do dano em um sucesso. Ygorl então recupera um número de pontos de vida igual à metade do dano total sofrido por todas as criaturas afetadas.",
+                "name": "Chamar o Vazio (Custa 3 Ações)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fólio Diabólico de Mordenkainen",
+            "acronym": "MFF"
+        }
+    }
+]
