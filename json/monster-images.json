@@ -7069,5 +7069,785 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-undead.png"
+    },
+    {
+        "monster_index": "ape",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/ape.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "axe-beak",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "baboon",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/baboon.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "badger",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/badger.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "bat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/bat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "black-bear",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/black-bear.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "blood-hawk",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/blood-hawk.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "boar",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/boar.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "brown-bear",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/brown-bear.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "camel",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/camel.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "cat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/cat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "constrictor-snake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/constrictor-snake.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "crab",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/crab.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "crocodile",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/crocodile.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "deer",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/deer.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "dire-wolf",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/dire-wolf.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "draft-horse",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/draft-horse.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "eagle",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/eagle.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "elk",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/elk.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "flying-snake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "frog",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/frog.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-badger",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-badger.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-bat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-bat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-boar",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-boar.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-centipede",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-centipede.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-constrictor-snake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-constrictor-snake.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-crab",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-crab.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-eagle",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-elk",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-fire-beetle",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-fire-beetle.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-frog",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-frog.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-goat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-goat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-hyena",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-hyena.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-lizard",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-lizard.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-octopus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-octopus.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-owl",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-poisonous-snake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-rat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-rat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-rat-diseased",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-sea-horse",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-spider",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-spider.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-toad",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-toad.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-vulture",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-wasp",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-wasp.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-weasel",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-weasel.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "giant-wolf-spider",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/giant-wolf-spider.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "goat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/goat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "hawk",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/hawk.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "hunter-shark",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/hunter-shark.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "hyena",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/hyena.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "jackal",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/jackal.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "lion",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/lion.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "lizard",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/lizard.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "mastiff",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/mastiff.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "mule",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/mule.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "octopus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/octopus.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "owl",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/owl.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "panther",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/panther.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "plesiosaurus",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/plesiosaurus.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "poisonous-snake",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "polar-bear",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/polar-bear.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "pony",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/pony.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "quipper",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "rat",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/rat.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "raven",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/raven.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "reef-shark",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/reef-shark.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "rhinoceros",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/rhinoceros.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "riding-horse",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/riding-horse.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "saber-toothed-tiger",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/saber-toothed-tiger.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "scorpion",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/scorpion.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "sea-horse",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "spider",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/spider.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "stirge",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/default-beast.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "tiger",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/tiger.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "vulture",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/vulture.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "warhorse",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/warhorse.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "weasel",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/beasts/weasel.png",
+        "content_scale": "Crop"
+    },
+    {
+        "monster_index": "wolf",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/wolf.png",
+        "content_scale": "Crop"
     }
 ]
