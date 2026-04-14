@@ -1,0 +1,853 @@
+[
+    {
+        "index": "fighter-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Fighter",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 18,
+        "hit_points": 31,
+        "hit_dice": "3d10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 2,
+                "name": "History"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 4,
+                "name": "Intimidation"
+            }
+        ],
+        "senses": ["passive Perception 10"],
+        "languages": "Common, Elvish",
+        "special_abilities": [
+            {
+                "name": "Second Wind",
+                "desc": "Once per short rest, recover 1d10+3 HP as a bonus action."
+            },
+            {
+                "name": "Action Surge",
+                "desc": "Once per short rest, take an extra action on your turn."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Greatsword",
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Handaxe",
+                "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "barbarian-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Barbarian",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 15,
+        "hit_points": 33,
+        "hit_dice": "3d12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Athletics"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 1,
+                "name": "Nature"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 3,
+                "name": "Survival"
+            }
+        ],
+        "senses": ["passive Perception 13"],
+        "languages": "Common, Dwarvish",
+        "special_abilities": [
+            {
+                "name": "Rage",
+                "desc": "You can go into a fury on your turn, gaining advantages on Strength checks and saving throws, +2 melee damage with Strength weapons, and resistance to bludgeoning, piercing, and slashing damage. You can use this feature twice between long rests."
+            },
+            {
+                "name": "Reckless Attack",
+                "desc": "You can choose to attack recklessly, giving you advantage on melee weapon attack rolls during this turn, but attack rolls against you have advantage until your next turn."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Greataxe",
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (1d12 + 3) slashing damage.",
+                "attack_bonus": 5,
+                "damage_dices": [
+                    {
+                        "dice": "1d12+3",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "rogue-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Rogue",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 14,
+        "hit_points": 21,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 6
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 6,
+                "name": "Acrobatics"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Perception"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 6,
+                "name": "Performance"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 6,
+                "name": "Persuasion"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 6,
+                "name": "Sleight of Hand"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Stealth"
+            }
+        ],
+        "senses": ["passive Perception 14"],
+        "languages": "Common, Thieves' Cant",
+        "special_abilities": [
+            {
+                "name": "Sneak Attack",
+                "desc": "You can deal an extra 2d6 damage to a creature you hit with an attack if you have advantage on the attack roll, or another enemy of the target is within 5 ft. of it."
+            },
+            {
+                "name": "Cunning Action",
+                "desc": "You can take a bonus action on each of your turns to take the Dash, Disengage, or Hide action."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Rapier",
+                "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 3) piercing damage.",
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Shortbow",
+                "description": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d6 + 3) piercing damage.",
+                "attack_bonus": 6,
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "wizard-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Wizard",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 12,
+        "hit_points": 16,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 5,
+                "name": "History"
+            },
+            {
+                "index": "investigation",
+                "modifier": 5,
+                "name": "Investigation"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 5,
+                "name": "Nature"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 5,
+                "name": "Religion"
+            }
+        ],
+        "senses": ["passive Perception 11"],
+        "languages": "Common, Elvish, Draconic",
+        "special_abilities": [
+            {
+                "name": "Arcane Recovery",
+                "desc": "Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher."
+            }
+        ],
+        "actions": [],
+        "spellcasting": [
+            {
+                "desc": "You are a 3rd-level wizard. Your spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
+                            {"index": "mage-hand", "name": "Mage Hand", "school": "CONJURATION", "level": 0},
+                            {"index": "prestidigitation", "name": "Prestidigitation", "school": "TRANSMUTATION", "level": 0},
+                            {"index": "ray-of-frost", "name": "Ray of Frost", "school": "EVOCATION", "level": 0}
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {"index": "detect-magic", "name": "Detect Magic", "school": "DIVINATION", "level": 1},
+                            {"index": "magic-missile", "name": "Magic Missile", "school": "EVOCATION", "level": 1},
+                            {"index": "shield", "name": "Shield", "school": "ABJURATION", "level": 1},
+                            {"index": "sleep", "name": "Sleep", "school": "ENCHANTMENT", "level": 1}
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {"index": "invisibility", "name": "Invisibility", "school": "ILLUSION", "level": 2},
+                            {"index": "misty-step", "name": "Misty Step", "school": "CONJURATION", "level": 2}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "sorcerer-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Sorcerer",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 12,
+        "hit_points": 19,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 2,
+                "name": "Arcana"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Deception"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 3,
+                "name": "Insight"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasion"
+            }
+        ],
+        "senses": ["passive Perception 11"],
+        "languages": "Common, Draconic",
+        "special_abilities": [
+            {
+                "name": "Font of Magic",
+                "desc": "At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects."
+            },
+            {
+                "name": "Metamagic",
+                "desc": "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice."
+            }
+        ],
+        "actions": [],
+        "spellcasting": [
+            {
+                "desc": "You are a 3rd-level sorcerer. Your spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
+                            {"index": "prestidigitation", "name": "Prestidigitation", "school": "TRANSMUTATION", "level": 0},
+                            {"index": "ray-of-frost", "name": "Ray of Frost", "school": "EVOCATION", "level": 0},
+                            {"index": "shocking-grasp", "name": "Shocking Grasp", "school": "EVOCATION", "level": 0}
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {"index": "burning-hands", "name": "Burning Hands", "school": "EVOCATION", "level": 1},
+                            {"index": "shield", "name": "Shield", "school": "ABJURATION", "level": 1},
+                            {"index": "sleep", "name": "Sleep", "school": "ENCHANTMENT", "level": 1}
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {"index": "mirror-image", "name": "Mirror Image", "school": "ILLUSION", "level": 2},
+                            {"index": "scorching-ray", "name": "Scorching Ray", "school": "EVOCATION", "level": 2}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    },
+    {
+        "index": "cleric-3",
+        "type": "HUMANOID",
+        "group": "Player's Stat Blocks 3",
+        "challenge_rating": 1.5,
+        "name": "Cleric",
+        "subtitle": "Level 3",
+        "size": "Medium",
+        "alignment": "UNALIGNED",
+        "armor_class": 18,
+        "hit_points": 27,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 5,
+                "name": "Medicine"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasion"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 1,
+                "name": "Religion"
+            }
+        ],
+        "senses": ["passive Perception 13"],
+        "languages": "Common, Celestial",
+        "special_abilities": [
+            {
+                "name": "Divine Domain",
+                "desc": "Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed at the end of the class description, and each one provides examples of gods associated with it."
+            },
+            {
+                "name": "Channel Divinity",
+                "desc": "At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain."
+            }
+        ],
+        "actions": [
+            {
+                "name": "Warhammer",
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d8+2 bludgeoning damage, or 1d10+2 bludgeoning damage if used with two hands.",
+                "attack_bonus": 4,
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ]
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "You are a 3rd-level cleric. Your spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks).",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "cantrips",
+                        "spells": [
+                            {"index": "guidance", "name": "Guidance", "school": "DIVINATION", "level": 0},
+                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
+                            {"index": "sacred-flame", "name": "Sacred Flame", "school": "EVOCATION", "level": 0},
+                            {"index": "thaumaturgy", "name": "Thaumaturgy", "school": "TRANSMUTATION", "level": 0}
+                        ]
+                    },
+                    {
+                        "group": "1st level",
+                        "spells": [
+                            {"index": "bless", "name": "Bless", "school": "ENCHANTMENT", "level": 1},
+                        {"index": "cure-wounds", "name": "Cure Wounds", "school": "EVOCATION", "level": 1},
+                        {"index": "detect-magic", "name": "Detect Magic", "school": "DIVINATION", "level": 1},
+                        {"index": "shield-of-faith", "name": "Shield of Faith", "school": "ABJURATION", "level": 1}
+                    ]
+                },
+                {
+                    "group": "2nd level",
+                    "spells": [
+                        {"index": "lesser-restoration", "name": "Lesser Restoration", "school": "ABJURATION", "level": 2},
+                        {"index": "spiritual-weapon", "name": "Spiritual Weapon", "school": "EVOCATION", "level": 2}
+                    ]
+                }
+            ]
+        }
+        ],
+        "reactions": [
+            {
+                "name": "Wrath of the Storm",
+                "desc": "When the cleric is hit by a melee attack, it can use its reaction to cause the attacker to make a Dexterity saving throw. The attacker takes 2d8 lightning or thunder damage (cleric's choice) on a failed saving throw, and half as much damage on a successful one."
+            }
+        ],
+        "source": {
+            "name": "Player's Stat Blocks 3",
+            "acronym": "PSB3"
+        }
+    }
+]
