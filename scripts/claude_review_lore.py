@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""
+claude_review_lore.py — Review and fix a translated monster-lore JSON file using Claude Code.
+
+Can be run standalone or imported as a module by other scripts.
+
+Claude Code is invoked in non-interactive print mode (-p) with Read and Edit tools allowed,
+so it can open the file, apply corrections directly, and print a summary of changes.
+
+Usage (standalone):
+    python3 scripts/claude_review_lore.py <translated_json> --lang <target_lang_code> [options]
+
+Examples:
+    python3 scripts/claude_review_lore.py json/es/lore/mtf/monster-lore.json --lang es
+    python3 scripts/claude_review_lore.py json/fr/lore/vgm/monster-lore.json --lang fr --source-lang en
+
+Requirements:
+    - Claude Code must be installed and the `claude` command must be available on PATH.
+"""
+
+from __future__ import annotations
+
+import argparse
+import subprocess
+import sys
+
+
+# ---------------------------------------------------------------------------
+# Core review function (importable by other scripts)
+# ---------------------------------------------------------------------------
+
+def run_claude_review(translated_path: str, target_lang: str, source_lang: str = "en") -> None:
+    """
+    Invoke Claude Code to review and fix a translated monster-lore JSON file.
+
+    Claude is given Read and Edit tools so it can:
+      1. Read the translated file to assess quality
+      2. Edit the file in-place to fix any issues it finds
+      3. Print a short summary of what was changed and why
+
+    Review criteria:
+      - Correct D&D/RPG-specific terminology in the target language
+      - Consistency of tone and terminology across entries for the same monster
+      - Obvious mistranslations, literal errors, or unnatural phrasing
+      - Title fields must use title case; description fields must start with uppercase
+
+    Args:
+        translated_path: Path to the translated JSON file to review and fix.
+        target_lang:     Language code of the translation (e.g. 'es', 'fr', 'pt-br').
+        source_lang:     Language code of the original source (default: 'en').
+    """
+    print(f"\nRunning Claude Code review on: {translated_path}")
+    print(f"Lang: {source_lang} → {target_lang}\n")
+
+    prompt = (
+        f"You are reviewing a machine-translated monster lore JSON file: '{translated_path}'. "
+        f"The source language was '{source_lang}' and the target language is '{target_lang}'. "
+        "Read the file, then fix any issues you find directly in the file. "
+        "Focus on: "
+        "1) Correct D&D/RPG-specific terminology in the target language "
+        "(e.g. spell names, creature types, ability scores, class names), "
+        "2) Consistency of tone and terminology across all entries for the same monster, "
+        "3) Obvious translation errors, literal mistranslations, or unnatural phrasing. "
+        "Important rules to follow when editing: "
+        "- Keep all JSON keys in English (never translate 'index', 'entries', 'title', 'description'). "
+        "- Never change any 'index' field values. "
+        "- Every 'title' value must use title case (capitalize each major word, "
+        "  but leave articles, prepositions, and conjunctions lowercase unless they are the first word). "
+        "- Every 'description' value must start with an uppercase letter. "
+        "After editing, print a short summary of what was changed and why, "
+        "referencing the monster index and field for each fix."
+    )
+
+    # -p runs Claude Code in non-interactive print mode
+    # --allowedTools Read,Edit lets Claude open and modify the file to apply fixes
+    result = subprocess.run(
+        ["claude", "-p", prompt, "--allowedTools", "Read,Edit"],
+        check=False,
+    )
+
+    if result.returncode != 0:
+        print(
+            f"WARNING: Claude Code exited with status {result.returncode}.",
+            file=sys.stderr,
+        )
+
+
+# ---------------------------------------------------------------------------
+# CLI (standalone usage)
+# ---------------------------------------------------------------------------
+
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Review and fix a translated monster-lore JSON file using Claude Code. "
+            "Claude reads the file, applies corrections in-place, and prints a summary."
+        )
+    )
+    parser.add_argument(
+        "input",
+        help="Path to the translated monster-lore JSON file to review (e.g. json/es/lore/mtf/monster-lore.json)",
+    )
+    parser.add_argument(
+        "--lang", "-l",
+        required=True,
+        help="Target language code of the translation (e.g. es, pt-br, fr, de)",
+    )
+    parser.add_argument(
+        "--source-lang", "-s",
+        default="en",
+        help="Source language code (default: en)",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = _parse_args()
+    run_claude_review(
+        translated_path=args.input,
+        target_lang=args.lang,
+        source_lang=args.source_lang,
+    )
+
+
+if __name__ == "__main__":
+    main()
