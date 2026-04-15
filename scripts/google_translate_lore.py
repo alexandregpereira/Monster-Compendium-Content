@@ -256,11 +256,11 @@ def translate_lore_file(
 
     # Translate via Google API in batches
     print("\nSending to Google Translate API...")
-    # translated = translate_all(texts, lang, source_lang, api_key)
+    translated = translate_all(texts, lang, source_lang, api_key)
 
     # Write translations back with formatting applied
     print("Applying translations...")
-    apply_translations(data, refs, texts)
+    apply_translations(data, refs, translated)
 
     # Save the result
     print(f"Saving output to {resolved_output}...")
