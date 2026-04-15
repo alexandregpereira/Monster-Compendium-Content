@@ -64,7 +64,8 @@ _MINOR_WORDS = {
 # ---------------------------------------------------------------------------
 
 def ensure_upper(text: str) -> str:
-    """Return text with only the first character forced to uppercase (used for descriptions)."""
+    """Return text trimmed of leading/trailing whitespace with the first character uppercased (used for descriptions)."""
+    text = text.strip()
     if not text:
         return text
     return text[0].upper() + text[1:]
@@ -74,12 +75,14 @@ def title_case(text: str) -> str:
     """
     Apply title case: capitalize every word except minor words (articles, prepositions,
     conjunctions). The first word is always capitalized regardless.
+    Leading and trailing whitespace is trimmed before processing.
 
     Only the first character of each word is uppercased; the rest stay as-is so
     abbreviations like 'CR' or 'D&D' are not broken.
 
     Example: "enemigos del mal elemental" → "Enemigos del Mal Elemental"
     """
+    text = text.strip()
     if not text:
         return text
     words = text.split()
@@ -253,11 +256,11 @@ def translate_lore_file(
 
     # Translate via Google API in batches
     print("\nSending to Google Translate API...")
-    translated = translate_all(texts, lang, source_lang, api_key)
+    # translated = translate_all(texts, lang, source_lang, api_key)
 
     # Write translations back with formatting applied
     print("Applying translations...")
-    apply_translations(data, refs, translated)
+    apply_translations(data, refs, texts)
 
     # Save the result
     print(f"Saving output to {resolved_output}...")
