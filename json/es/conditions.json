@@ -2,91 +2,91 @@
     {
         "index": "blinded",
         "type": "BLINDED",
-        "name": "Blinded",
-        "description": "- A blinded creature can't see and automatically fails any ability check that requires sight.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+        "name": "Ciego",
+        "description": "- Una criatura ciega no puede ver y falla automáticamente cualquier prueba de característica que requiera visión.\n\n- Las tiradas de ataque contra la criatura tienen ventaja, y las tiradas de ataque de la criatura tienen desventaja."
     },
     {
         "index": "charmed",
         "type": "CHARMED",
-        "name": "Charmed",
-        "description": "- A charmed creature can't attack the charmer or target the charmer with harmful abilities or magical effects.\n- The charmer has advantage on any ability check to interact socially with the creature."
+        "name": "Encantado",
+        "description": "- Una criatura encantada no puede atacar al encantador ni usar habilidades o efectos mágicos dañinos contra él.\n\n- El encantador tiene ventaja en cualquier prueba de característica para interactuar socialmente con la criatura."
     },
     {
         "index": "deafened",
         "type": "DEAFENED",
-        "name": "Deafened",
-        "description": "A deafened creature can't hear and automatically fails any ability check that requires hearing."
+        "name": "Sordo",
+        "description": "Una criatura sorda no puede oír y, por lo tanto, falla automáticamente cualquier prueba de característica que requiera audición."
     },
     {
         "index": "exhaustion",
         "type": "EXHAUSTION",
-        "name": "Exhaustion",
-        "description": "Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.\n\n1. Disadvantage on ability checks\n2. Speed halved\n3. Disadvantage on attack rolls and saving throws\n4. Hit point maximum halved\n5. Speed reduced to 0\n6. Death\n\nIf an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\n\nA creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.\n\nAn effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.\n\nFinishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink."
+        "name": "Agotamiento",
+        "description": "Algunas habilidades especiales y peligros ambientales, como la inanición y los efectos a largo plazo de temperaturas bajo cero o abrasadoras, pueden provocar una condición especial llamada agotamiento. El agotamiento se mide en seis niveles. Un efecto puede causar uno o más niveles de agotamiento en una criatura, según se especifica en su descripción.\n\n1. Desventaja en las pruebas de característica\n2. Velocidad reducida a la mitad\n3. Desventaja en las tiradas de ataque y de salvación\n4. Puntos de golpe máximos reducidos a la mitad\n5. Velocidad reducida a 0\n6. Muerte\n\nSi una criatura ya agotada sufre otro efecto que le cause agotamiento, su nivel de agotamiento actual aumenta en la cantidad especificada en la descripción del efecto.\n\nUna criatura sufre el efecto de su nivel de agotamiento actual, así como el de todos los niveles inferiores. Por ejemplo, una criatura con agotamiento de nivel 2 ve su velocidad reducida a la mitad y sufre desventaja en las pruebas de característica.\n\nUn efecto que elimina el agotamiento reduce su nivel según lo especificado en su descripción. Todos los efectos de agotamiento finalizan si el nivel de agotamiento de una criatura cae por debajo de 1.\n\nFinalizar un descanso prolongado reduce el nivel de agotamiento de una criatura en 1, siempre que esta haya consumido alimentos y bebidas."
     },
     {
         "index": "frightened",
         "type": "FRIGHTENED",
-        "name": "Frightened",
-        "description": "- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n- The creature can't willingly move closer to the source of its fear."
+        "name": "Atemorizado",
+        "description": "- Una criatura atemorizada tiene desventaja en las pruebas de característica y en las tiradas de ataque mientras la fuente de su miedo esté dentro de su línea de visión.\n\n- La criatura no puede acercarse voluntariamente a la fuente de su miedo."
     },
     {
         "index": "grappled",
         "type": "GRAPPLED",
-        "name": "Grappled",
-        "description": "- A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- The condition ends if the grappler is incapacitated (An incapacitated creature can't take actions or reactions).\n- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the thunderwave spell."
+        "name": "Aferrado",
+        "description": "- La velocidad de una criatura apresada se reduce a 0 y no puede beneficiarse de ninguna bonificación de velocidad.\n\n- La condición termina si quien apresa queda incapacitado (una criatura incapacitada no puede realizar acciones ni reacciones).\n\n- La condición también termina si un efecto aleja a la criatura apresada del alcance de quien la apresa o del efecto de apresamiento, como cuando una criatura es lanzada por el conjuro Onda de Trueno."
     },
     {
         "index": "incapacitated",
         "type": "INCAPACITATED",
-        "name": "Incapacitated",
-        "description": "An incapacitated creature can't take actions or reactions."
+        "name": "Incapacitado",
+        "description": "Una criatura incapacitada no puede realizar acciones ni reacciones."
     },
     {
         "index": "invisible",
         "type": "INVISIBLE",
         "name": "Invisible",
-        "description": "- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\n- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+        "description": "Una criatura invisible es imposible de ver sin la ayuda de magia o un sentido especial. Para ocultarse, está muy bien camuflada. Su ubicación puede detectarse por cualquier ruido que haga o cualquier rastro que deje.\n\nLas tiradas de ataque contra la criatura tienen desventaja, y las tiradas de ataque de la criatura tienen ventaja."
     },
     {
         "index": "paralyzed",
         "type": "PARALYZED",
-        "name": "Paralyzed",
-        "description": "- A paralyzed creature is incapacitated (An incapacitated creature can't take actions or reactions) and can't move or speak.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+        "name": "Paralizado",
+        "description": "- Una criatura paralizada queda incapacitada (no puede realizar acciones ni reacciones) y no puede moverse ni hablar.\n\n- La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n- Las tiradas de ataque contra la criatura tienen ventaja.\n\n- Cualquier ataque que impacte a la criatura es un golpe crítico si el atacante se encuentra a menos de 1,5 metros [5 feet] de ella."
     },
     {
         "index": "petrified",
         "type": "PETRIFIED",
-        "name": "Petrified",
-        "description": "- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\n- The creature is incapacitated (An incapacitated creature can't take actions or reactions), can't move or speak, and is unaware of its surroundings.\n- Attack rolls against the creature have advantage.\n- The creature automatically fails Strength and Dexterity saving throws.\n- The creature has resistance to all damage.\n- The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+        "name": "Petrificado",
+        "description": "- Una criatura petrificada se transforma, junto con cualquier objeto no mágico que lleve puesto o consigo, en una sustancia sólida e inanimada (generalmente piedra). Su peso se multiplica por diez y deja de envejecer.\n\n- La criatura queda incapacitada (una criatura incapacitada no puede realizar acciones ni reacciones), no puede moverse ni hablar y no es consciente de su entorno.\n\n- Las tiradas de ataque contra la criatura tienen ventaja.\n\n- La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n- La criatura es resistente a todo tipo de daño.\n\n- La criatura es inmune a venenos y enfermedades, aunque un veneno o enfermedad ya presente en su organismo queda suspendido, no neutralizado."
     },
     {
         "index": "poisoned",
         "type": "POISONED",
-        "name": "Poisoned",
-        "description": "A poisoned creature has disadvantage on attack rolls and ability checks."
+        "name": "Envenenado",
+        "description": "Una criatura envenenada tiene desventaja en las tiradas de ataque y en las pruebas de característica."
     },
     {
         "index": "prone",
         "type": "PRONE",
-        "name": "Prone",
-        "description": "- A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.\n- The creature has disadvantage on attack rolls.\n- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+        "name": "Caído",
+        "description": "- La única opción de movimiento para una criatura tumbada es arrastrarse, a menos que se levante y, por lo tanto, termine la condición.\n\n- La criatura tiene desventaja en las tiradas de ataque.\n\n- Una tirada de ataque contra la criatura tiene ventaja si el atacante se encuentra a menos de 1,5 metros [5 feet] de ella. De lo contrario, la tirada de ataque tiene desventaja."
     },
     {
         "index": "restrained",
         "type": "RESTRAINED",
-        "name": "Restrained",
-        "description": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\n- The creature has disadvantage on Dexterity saving throws."
+        "name": "Inmovilizado",
+        "description": "- La velocidad de una criatura inmovilizada se reduce a 0 y no puede beneficiarse de ninguna bonificación a su velocidad.\n\n- Las tiradas de ataque contra la criatura tienen ventaja, y las tiradas de ataque de la criatura tienen desventaja.\n\n- La criatura tiene desventaja en las tiradas de salvación de Destreza."
     },
     {
         "index": "stunned",
         "type": "STUNNED",
-        "name": "Stunned",
-        "description": "- A stunned creature is incapacitated (An incapacitated creature can't take actions or reactions), can't move, and can speak only falteringly.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage."
+        "name": "Aturdido",
+        "description": "- Una criatura aturdida queda incapacitada (una criatura incapacitada no puede realizar acciones ni reacciones), no puede moverse y solo puede hablar con dificultad.\n\n- La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n- Las tiradas de ataque contra la criatura tienen ventaja."
     },
     {
         "index": "unconscious",
         "type": "UNCONSCIOUS",
-        "name": "Unconscious",
-        "description": "- An unconscious creature is incapacitated (An incapacitated creature can't take actions or reactions), can't move or speak, and is unaware of its surroundings.\n- The creature drops whatever it's holding and falls prone.\n- The creature automatically fails Strength and Dexterity saving throws.\n- Attack rolls against the creature have advantage.\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+        "name": "Inconsciente",
+        "description": "- Una criatura inconsciente queda incapacitada (una criatura incapacitada no puede realizar acciones ni reacciones), no puede moverse ni hablar, y no es consciente de su entorno.\n\n- La criatura suelta lo que sostiene y cae al suelo.\n\n- La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.\n\n- Las tiradas de ataque contra la criatura tienen ventaja.\n\n- Cualquier ataque que impacte a la criatura es un golpe crítico si el atacante se encuentra a menos de 1,5 metros [5 feet] de ella."
     }
 ]
