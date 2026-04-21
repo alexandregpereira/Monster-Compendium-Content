@@ -90,8 +90,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -104,8 +103,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -145,7 +143,14 @@
         "special_abilities": [
             {
                 "name": "Mente Alienígena",
-                "desc": "Se uma criatura tentar ler os pensamentos de Belashyrra ou causar dano psíquico a ela, essa criatura deve ser bem sucedida em um teste de resistência de Inteligência CD 22 ou ficará atordoada por 1 minuto. A criatura atordoada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. "
+                "desc": "Se uma criatura tentar ler os pensamentos de Belashyrra ou causar dano psíquico a ela, essa criatura deve ser bem sucedida em um teste de resistência de Inteligência CD 22 ou ficará atordoada por 1 minuto. A criatura atordoada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 22
+                    }
+                ]
             },
             {
                 "name": "Ladrão de Olhos",
@@ -170,8 +175,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra faz dois ataques com suas garras e usa seu Eye Ray uma vez.",
                 "name": "Multiattack"
@@ -192,8 +196,7 @@
                 "name": "Garra"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra dispara um dos seguintes raios oculares mágicos à sua escolha, visando uma criatura que possa ver a até 36 metros dele:",
                 "name": "Raio Ocular"
@@ -211,14 +214,34 @@
                 ],
                 "attack_bonus": null,
                 "description": "Raio de Reconstrução da Psique. O alvo deve fazer um teste de resistência de Sabedoria CD 22, sofrendo 49 (9d10) de dano psíquico em caso de falha, ou metade do dano em caso de sucesso. Se esse dano reduzir uma criatura a 0 pontos de vida, ela morre e se transforma em um espectador sob o controle de Belashyrra e age imediatamente após Belashyrra na ordem de iniciativa. O alvo não pode ser devolvido à sua forma original por nenhum meio, exceto por um feitiço de desejo.",
-                "name": "1"
+                "name": "1",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 22
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Raio de Dominação. O alvo deve ter sucesso em um teste de resistência de Sabedoria CD 22 ou será enfeitiçado por Belashyrra por 1 minuto ou até que o alvo sofra dano. Belashyrra pode emitir comandos telepáticos para a criatura enfeitiçada (nenhuma ação necessária), que ela faz o possível para obedecer.",
-                "name": "2"
+                "name": "2",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 22
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -233,7 +256,14 @@
                 ],
                 "attack_bonus": null,
                 "description": "Raio Enfraquecedor da Mente. O alvo deve ter sucesso em um teste de resistência de Inteligência CD 22 ou sofrerá 36 (8d8) de dano psíquico e será incapaz de lançar feitiços ou ativar itens mágicos por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "3"
+                "name": "3",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 22
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -248,13 +278,19 @@
                 ],
                 "attack_bonus": null,
                 "description": "Raio Cegante. O alvo e cada criatura a até 3 metros dele devem ser bem sucedidos em um teste de resistência de Constituição CD 22 ou sofrerão 19 (3d12) de dano radiante e ficarão cegos por 1 minuto. Até que esta cegueira termine, Belyshyrra pode ver através dos olhos da criatura cega. A criatura cega pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "4"
+                "name": "4",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 22
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra faz um ataque de garra. ",
                 "name": "Claw"
@@ -272,18 +308,37 @@
                 ],
                 "attack_bonus": null,
                 "description": "Belashyrra tem como alvo uma criatura que possa ver a até 18 metros dela. O alvo deve ter sucesso em um teste de resistência de Sabedoria CD 22 ou sofrerá 22 (4d10) de dano psíquico e imediatamente usará sua reação, se disponível, para se mover o mais longe que sua velocidade permitir para longe de Belashyrra. ",
-                "name": "Implantar medo (custa 2 ações)"
+                "name": "Implantar medo (custa 2 ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 22
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra rasga os laços da realidade em sua área imediata. Cada criatura a até 3 metros de Belashyrra deve ser bem sucedida em um teste de resistência de Constituição CD 22 ou sofrerá 19 (3d12) de dano de força e ganhará um nível de exaustão.",
-                "name": "Rend Reality (Custa 3 Ações)"
+                "name": "Rend Reality (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 22
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "exhaustion",
+                        "type": "EXHAUSTION",
+                        "name": "Exaustão"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -374,8 +429,7 @@
                 "name": "Intimidação"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -388,10 +442,8 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -399,7 +451,14 @@
         "special_abilities": [
             {
                 "name": "Comandante dos Ossos",
-                "desc": "Como uma ação bônus, o cavaleiro pode atingir um esqueleto ou zumbi que ele possa ver a até 9 metros dele. O alvo deve fazer um teste de resistência de Sabedoria CD 14. Em uma falha na resistência, o alvo deve obedecer aos comandos do cavaleiro até que o cavaleiro morra ou até que o cavaleiro o libere como uma ação bônus. O cavaleiro pode comandar até doze mortos-vivos por vez desta forma. "
+                "desc": "Como uma ação bônus, o cavaleiro pode atingir um esqueleto ou zumbi que ele possa ver a até 9 metros dele. O alvo deve fazer um teste de resistência de Sabedoria CD 14. Em uma falha na resistência, o alvo deve obedecer aos comandos do cavaleiro até que o cavaleiro morra ou até que o cavaleiro o libere como uma ação bônus. O cavaleiro pode comandar até doze mortos-vivos por vez desta forma. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 14
+                    }
+                ]
             },
             {
                 "name": "Mestre do Estandarte Pálido",
@@ -462,8 +521,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O cavaleiro ataca duas vezes com uma de suas armas.",
                 "name": "Multiataque"
@@ -499,8 +557,7 @@
                 "name": "Arco longo"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -562,8 +619,7 @@
                 "modifier": 3
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-acrobatics",
@@ -591,14 +647,10 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -611,8 +663,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O changeling faz dois ataques com sua adaga.",
                 "name": "Multiataque"
@@ -633,15 +684,27 @@
                 "name": "Adaga"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 9 metros do changeling deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará amedrontada por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Semblante Perturbador (Recarrega após um Descanso Curto ou Longo)"
+                "name": "Semblante Perturbador (Recarrega após um Descanso Curto ou Longo)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 13
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -718,17 +781,30 @@
         "special_abilities": [
             {
                 "name": "Táticas de Matilha",
-                "desc": "O gadanheiro tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado do gadanheiro estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado."
+                "desc": "O gadanheiro tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado do gadanheiro estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Bote",
-                "desc": "Se o gadanheiro se mover pelo menos 9 metros em linha reta em direção a uma criatura e então atingir essa criatura com um ataque de mordida no mesmo turno, o alvo deve ser bem sucedido em um teste de resistência de Força CD 13 ou ficará derrubado. Se o alvo for derrubado, o gadanheiro pode fazer um ataque com as garras como uma ação bônus."
+                "desc": "Se o gadanheiro se mover pelo menos 9 metros em linha reta em direção a uma criatura e então atingir essa criatura com um ataque de mordida no mesmo turno, o alvo deve ser bem sucedido em um teste de resistência de Força CD 13 ou ficará derrubado. Se o alvo for derrubado, o gadanheiro pode fazer um ataque com as garras como uma ação bônus.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O gadanheiro faz dois ataques: um com a mordida e outro com as garras.",
                 "name": "Multiataque"
@@ -825,8 +901,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-acrobatics",
@@ -844,12 +919,9 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -864,7 +936,14 @@
         "special_abilities": [
             {
                 "name": "Evasão",
-                "desc": "Se o dolgaunt for submetido a um efeito que permite que ele faça um teste de resistência de Destreza para receber apenas metade do dano, o dolgaunt não sofre dano se for bem-sucedido no teste de resistência e apenas metade do dano se falhar. Ele não pode usar esta característica se estiver incapacitado. "
+                "desc": "Se o dolgaunt for submetido a um efeito que permite que ele faça um teste de resistência de Destreza para receber apenas metade do dano, o dolgaunt não sofre dano se for bem-sucedido no teste de resistência e apenas metade do dano se falhar. Ele não pode usar esta característica se estiver incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Defesa Sem Armadura",
@@ -873,18 +952,23 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O dolgaunt faz dois ataques com tentáculos e dois ataques desarmados. Até dois ataques de tentáculos podem ser substituídos por Dreno de Vitalidade.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Ataque com arma corpo a corpo: +6 para atingir, alcance 4,5 metros, um alvo. Acerto: 7 (1d6 + 4) de dano de concussão. O alvo é agarrado (CD de escape 12) se for uma criatura Grande ou menor. Até que este agarrão termine, o dolgaunt não pode usar o mesmo tentáculo em outro alvo. O dolgaunt tem dois tentáculos.",
-                "name": "Tentáculo"
+                "name": "Tentáculo",
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -922,11 +1006,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Uma criatura agarrada por um tentáculo do dolgaunt deve fazer um teste de resistência de Constituição CD 11. Em uma falha na resistência, o alvo recebe 9 (2d8) de dano necrótico e o dolgaunt recupera um número de pontos de vida igual à metade do dano necrótico sofrido.",
-                "name": "Dreno de Vitalidade"
+                "name": "Dreno de Vitalidade",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 11
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -988,18 +1078,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -1007,13 +1091,39 @@
         "special_abilities": [
             {
                 "name": "Consciência Dupla",
-                "desc": "O dolgrim tem vantagem em testes de resistência contra ficar cego, enfeitiçado, surdo, assustado, atordoado e inconsciente."
+                "desc": "O dolgrim tem vantagem em testes de resistência contra ficar cego, enfeitiçado, surdo, assustado, atordoado e inconsciente.",
+                "conditions": [
+                    {
+                        "index": "unconscious",
+                        "type": "UNCONSCIOUS",
+                        "name": "Inconsciente"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    },
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    },
+                    {
+                        "index": "deafened",
+                        "type": "DEAFENED",
+                        "name": "Surdo"
+                    },
+                    {
+                        "index": "blinded",
+                        "type": "BLINDED",
+                        "name": "Cego"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O dolgrim faz três ataques.",
                 "name": "Multiataque"
@@ -1072,8 +1182,7 @@
                 "name": "Besta de mão"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -1164,12 +1273,9 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -1258,8 +1364,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A bruxa faz dois ataques Nightmare Touch.",
                 "name": "Multiataque"
@@ -1292,7 +1397,14 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ataque Mágico Corpo a Corpo: +7 para acertar, alcance 1,5 m, uma criatura. Acerto: 18 (4d6 + 4) de dano psíquico. Se o alvo estiver inconsciente, ele sofre 10 (3d6) de dano psíquico extra e é amaldiçoado até que a bruxa morra ou a maldição seja removida. O máximo de pontos de vida da criatura amaldiçoada diminui em 5 (1d10) sempre que ela termina um descanso longo.",
-                "name": "Toque do Pesadelo"
+                "name": "Toque do Pesadelo",
+                "conditions": [
+                    {
+                        "index": "unconscious",
+                        "type": "UNCONSCIOUS",
+                        "name": "Inconsciente"
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -1407,8 +1519,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -1421,8 +1532,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -1462,7 +1572,14 @@
         "special_abilities": [
             {
                 "name": "Mente Alienígena",
-                "desc": "Se uma criatura tentar ler os pensamentos de Dyrrn ou causar dano psíquico a ela, essa criatura deve ser bem sucedida em um teste de resistência de Inteligência CD 23 ou ficará atordoada por 1 minuto. A criatura atordoada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. "
+                "desc": "Se uma criatura tentar ler os pensamentos de Dyrrn ou causar dano psíquico a ela, essa criatura deve ser bem sucedida em um teste de resistência de Inteligência CD 23 ou ficará atordoada por 1 minuto. A criatura atordoada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 23
+                    }
+                ]
             },
             {
                 "name": "Resistência Lendária (3/dia)",
@@ -1483,18 +1600,35 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Dyrrn faz um ataque de Chicote de Tentáculo e usa sua Corrupção uma vez. Dyrrn pode substituir seu ataque Tentacle Whip por Extract Brain se tiver uma criatura agarrada.",
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 15,
                 "description": "Ataque com Arma Corpo a Corpo: +15 para acertar, alcance 3 metros, um alvo. Acerto: 24 (3d10 + 8) de dano cortante. Se o alvo for uma criatura Média ou menor, ele é agarrado (CD de escape 23), puxado para um espaço desocupado a até 1,5 metro de Dyrrn e deve ser bem sucedido em um teste de resistência de Inteligência CD 23 ou ficará atordoado até que o agarrão termine. Dyrrn não pode usar o mesmo chicote de tentáculos em outro alvo até que esta luta termine. Dyrrn tem dois chicotes de tentáculos.",
-                "name": "Chicote de Tentáculo"
+                "name": "Chicote de Tentáculo",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 23
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -1509,11 +1643,22 @@
                 ],
                 "attack_bonus": null,
                 "description": "Dyrrn tem como alvo uma criatura que possa ver a até 18 metros dela. O alvo deve ter sucesso em um teste de resistência de Constituição CD 23 ou sofrerá 22 (4d6 + 8) de dano necrótico e ficará corrompido por 1 minuto.\nA carne de uma criatura corrompida se contorce de maneiras estranhas. A criatura tem desvantagem nas jogadas de ataque, sua velocidade é reduzida pela metade e, se tentar lançar um feitiço, deve primeiro obter sucesso em um teste de Inteligência CD 15 ou o feitiço falha e é desperdiçado. A criatura corrompida pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Corruption"
+                "name": "Corruption",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 23
+                    },
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 15
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 15,
                 "description": "Ataque corpo a corpo com arma: +15 para atingir, alcance 1,5 m, uma criatura incapacitada agarrada por Dyrrn. Acerto: 55 (10d10) de dano perfurante. Se esse dano reduzir o alvo a 0 pontos de vida, Dyrrn mata o alvo extraindo e devorando seu cérebro.",
                 "name": "Extract Brain"
@@ -1521,15 +1666,13 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Dyrrn faz um ataque com seu Tentacle Whip. ",
                 "name": "Tentacle Whip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Dyrrn regurgita um devorador de intelecto em um espaço desocupado a até 1,5 metro dele. O devorador de intelecto está sob o controle de Dyrrn e age imediatamente após Dyrrn na ordem de iniciativa. ",
                 "name": "Aberração de Geração (Custa 2 Ações)"
@@ -1547,11 +1690,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Dyrrn magicamente emite energia psíquica em um cone de 60 pés. Cada criatura nessa área deve ser bem sucedida em um teste de resistência de Inteligência CD 23 ou sofrerá 30 (5d8 + 8) de dano psíquico e ficará atordoada por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Mind Blast (custa 3 ações)"
+                "name": "Mind Blast (custa 3 ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 23
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -1619,8 +1768,7 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-acrobatics",
@@ -1633,10 +1781,8 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -1687,8 +1833,7 @@
                 "name": "Mordida"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -1868,8 +2013,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -1877,8 +2021,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -1895,8 +2038,7 @@
             "visão no escuro 60 pés."
         ],
         "languages": "Comum, Quori",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "A habilidade de conjuração do quori é Inteligência (CD de resistência de magia 16). Ele pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes:",
@@ -1958,18 +2100,23 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O quori usa seu Mind Thrust duas vezes.",
                 "name": "Ataque múltiplo"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 8,
                 "description": "Ataque mágico corpo a corpo: +8 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d10 + 4) de dano de força. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Sabedoria CD 16 ou cairá no chão em um ataque de riso.",
-                "name": "Toque idílico"
+                "name": "Toque idílico",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -1984,14 +2131,44 @@
                 ],
                 "attack_bonus": null,
                 "description": "O quori tem como alvo uma criatura que possa ver a até 18 metros dele. O alvo deve fazer um teste de resistência de Sabedoria CD 16, sofrendo 18 (4d8) de dano psíquico em caso de falha, ou metade do dano em caso de sucesso.",
-                "name": "Mind Thrust"
+                "name": "Mind Thrust",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Um humanóide que o quori possa ver a até 1,5 metro dele deve ser bem sucedido em um teste de resistência de Carisma CD 16 ou será possuído pelo quori; o quori então desaparece e o alvo fica incapacitado e perde o controle de seu corpo. O quori agora controla o corpo, mas não priva o alvo da consciência. O quori não pode ser alvo de nenhum ataque, feitiço ou outro efeito e mantém seu alinhamento, Inteligência, Sabedoria, Carisma e imunidade a ser enfeitiçado e amedrontado. Caso contrário, ele usa as estatísticas do alvo possuído, mas não obtém acesso ao conhecimento, recursos de classe ou proficiências do alvo.\nA possessão dura até que o corpo caia para 0 pontos de vida, o quori termine com uma ação bônus, ou o quori seja forçado a sair por um efeito como o feitiço dissipar o mal e o bem. Quando a possessão termina, o quori reaparece em um espaço desocupado a até 1,5 metro do corpo. O alvo fica imune à Posse deste quori por 24 horas após ser bem-sucedido no teste de resistência ou após o término da posse.",
-                "name": "Posse (Recarga 6)"
+                "name": "Posse (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 16
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    },
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -2090,8 +2267,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -2099,8 +2275,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2167,8 +2342,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O inspirado faz dois ataques de adaga de aço cristalino. Pode substituir um ataque por zombaria cruel.",
                 "name": "Ataque múltiplo"
@@ -2201,11 +2375,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "The Inspired desencadeia uma série de insultos misturados com encantamentos sutis em uma criatura que ele pode ver dentro de 60 pés dele. Se o alvo puder ouvir o Inspirado, o alvo deve ter sucesso em um teste de resistência de Sabedoria CD 13 ou sofrerá 2 (1d4) de dano psíquico e terá desvantagem na próxima jogada de ataque que fizer antes do final de seu próximo turno.",
-                "name": "Vicious Mockery (Cantrip)"
+                "name": "Vicious Mockery (Cantrip)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -2267,8 +2447,7 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -2281,10 +2460,8 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -2332,11 +2509,24 @@
                 ],
                 "attack_bonus": 5,
                 "description": "Ataque corpo a corpo com arma: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante. Se o alvo for uma criatura, ele deve ser bem-sucedido em um teste de resistência de Força CD 13 ou sofrerá 3 (1d6) de dano perfurante extra e será agarrado (CD de fuga 13). O defensor pode ter apenas uma criatura agarrada desta forma por vez.",
-                "name": "Mordida"
+                "name": "Mordida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 13
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -2438,8 +2628,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -2482,8 +2671,7 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -2538,7 +2726,14 @@
         "special_abilities": [
             {
                 "name": "Visão geral",
-                "desc": "O quori não pode ser surpreendido enquanto não estiver incapacitado. "
+                "desc": "O quori não pode ser surpreendido enquanto não estiver incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Movimento Incorpóreo",
@@ -2599,32 +2794,42 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O quori faz dois ataques de Soul Binding. Alternativamente, pode fazer quatro ataques com Arcane Blast.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 13,
                 "description": "Ataque Mágico à Distância: +13 para acertar, alcance 36 metros, um alvo. Acerto: 12 (1d10 + 7) de dano de força.",
                 "name": "Explosão Arcana"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 13,
                 "description": "Ataque de feitiço corpo a corpo: +13 para acertar, alcance 1,5 m, um alvo. Acerto: 29 (4d10 + 7) de dano necrótico. Uma criatura reduzida a 0 pontos de vida por este ataque morre e tem sua alma aprisionada em um dos olhos do quori. O alvo não pode ser revivido por nenhum meio, exceto por um feitiço de desejo, até que o quori seja destruído.",
                 "name": "Soul Binding"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O quori toca um humanóide, que deve ser bem sucedido em um teste de resistência de Inteligência CD 21 ou será amaldiçoado. A maldição dura até ser removida por um feitiço remover maldição ou restauração maior.\nO alvo amaldiçoado sofre 1 nível de exaustão a cada 24 horas, e terminar um descanso longo não reduz sua exaustão. Se o alvo amaldiçoado atingir o nível de exaustão 6, ele não morre; em vez disso, torna-se um escravo sob o controle do quori e toda a sua exaustão é removida. Somente o feitiço de desejo pode libertar o escravo desse controle.",
-                "name": "Semente Mental (1/Dia)"
+                "name": "Semente Mental (1/Dia)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 21
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "exhaustion",
+                        "type": "EXHAUSTION",
+                        "name": "Exaustão"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -2639,18 +2844,47 @@
                 ],
                 "attack_bonus": null,
                 "description": "O quori cria um enxame de olhos espectrais que preenche uma esfera de 9 metros de raio centrada em um ponto que pode ver a até 18 metros dele. Cada criatura naquela área deve fazer um teste de resistência de Sabedoria CD 21. Em caso de falha, uma criatura sofre 45 (10d8) de dano psíquico e fica cega por 1 minuto. Em caso de sucesso, uma criatura sofre metade do dano e não fica cega. Uma criatura cega pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Enxame de Olhos (Recarga 6)"
+                "name": "Enxame de Olhos (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 21
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Um humanóide que o quori possa ver a até 1,5 metro dele deve ser bem sucedido em um teste de resistência de Carisma CD 21 ou será possuído pelo quori; o quori então desaparece e o alvo fica incapacitado e perde o controle de seu corpo. O quori agora controla o corpo, mas não priva o alvo da consciência. O quori não pode ser alvo de nenhum ataque, feitiço ou outro efeito e mantém seu alinhamento, Inteligência, Sabedoria, Carisma e imunidade a ser enfeitiçado e amedrontado. Caso contrário, ele usa as estatísticas do alvo possuído, mas não obtém acesso ao conhecimento, recursos de classe ou proficiências do alvo.\nA possessão dura até que o corpo caia para 0 pontos de vida, o quori termine com uma ação bônus, ou o quori seja forçado a sair por um efeito como o feitiço dissipar o mal e o bem. Quando a possessão termina, o quori reaparece em um espaço desocupado a até 1,5 metro do corpo. O alvo fica imune à Posse deste quori por 24 horas após ser bem-sucedido no teste de resistência ou após o término da posse.",
-                "name": "Posse (Recarga 6)"
+                "name": "Posse (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 21
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    },
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -2712,8 +2946,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-acrobatics",
@@ -2731,8 +2964,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -2740,10 +2972,8 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -2783,11 +3013,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O kalashtar tem como alvo uma criatura que possa ver a até 9 metros dele. O alvo deve ter sucesso em um teste de resistência de Sabedoria CD 12 ou sofrerá 11 (2d10) de dano psíquico.",
-                "name": "Mind Thrust"
+                "name": "Mind Thrust",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -2849,8 +3085,7 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -2863,8 +3098,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -2877,8 +3111,7 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2903,7 +3136,14 @@
         "special_abilities": [
             {
                 "name": "Pack Tactics",
-                "desc": "O soldado tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do soldado estiver a 1,5 metro da criatura e o aliado não estiver incapacitado. "
+                "desc": "O soldado tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do soldado estiver a 1,5 metro da criatura e o aliado não estiver incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Undead Fortitude",
@@ -2912,8 +3152,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O soldado ataca três vezes com uma de suas armas.",
                 "name": "Multiataque"
@@ -3069,8 +3308,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -3473,7 +3711,21 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Ataque com Arma Corpo a Corpo: +10 para atingir, alcance 1,5 m, uma criatura. Acerto: 13 (3d6 + 3) de dano cortante mais 10 (3d6) de dano de frio, e o alvo deve passar em um teste de resistência de Constituição CD 20 ou ficará paralisado por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Garra Paralisante"
+                "name": "Garra Paralisante",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -3488,41 +3740,57 @@
                 ],
                 "attack_bonus": null,
                 "description": "Illmarrow exala gás venenoso em um cone de 9 metros. Cada criatura naquela área deve fazer um teste de resistência de Constituição CD 20. Se falhar na resistência, uma criatura sofre 35 (10d6) de dano venenoso e fica envenenada por 1 minuto. Enquanto envenenada desta forma, a criatura não pode recuperar pontos de vida. Em um teste de resistência bem-sucedido, a criatura sofre metade do dano e não é envenenada.\nUm humanóide reduzido a 0 pontos de vida por este dano morre e se levanta no início do próximo turno de Illmarrow como um zumbi. O zumbi age imediatamente após Illmarrow na contagem de iniciativa e está permanentemente sob seu comando, seguindo suas ordens verbais.",
-                "name": "Poison Breath (Recarga 5-6)"
+                "name": "Poison Breath (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Illmarrow lança um truque. ",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Illmarrow usa sua Garra Paralisante. ",
                 "name": "Garra Paralisante"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Illmarrow tem como alvo até três criaturas que ela possa ver a até 9 metros dela. Cada alvo deve ser bem sucedido em um teste de resistência de Sabedoria CD 20 ou ficará amedrontado por 1 minuto. Um alvo amedrontado pode repetir o teste de resistência no final de cada um de seus turnos, terminando o efeito sobre si mesmo em caso de sucesso. Se o teste de resistência de um alvo for bem-sucedido ou o efeito terminar, o alvo fica imune à Presença Assustadora de Illmarrow pelas próximas 24 horas. ",
-                "name": "Presença Assustadora (Custa 2 Ações)"
+                "name": "Presença Assustadora (Custa 2 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 20
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Illmarrow recarrega seu Poison Breath e o usa.",
                 "name": "Poison Breath (custa 3 ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -3590,12 +3858,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -3710,11 +3975,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O feitiço vivo libera uma fina camada de chamas em um cone de 4,5 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 13, recebendo 10 (3d6) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
-                "name": "Mimetismo de Feitiço (Recarga 5-6)"
+                "name": "Mimetismo de Feitiço (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -3782,12 +4053,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -3875,8 +4143,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O feitiço vivo realiza dois ataques de Golpe Mágico.",
                 "name": "Multiataque"
@@ -3909,11 +4176,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O feitiço vivo cria uma esfera de névoa de 12 metros de diâmetro a até 18 metros dela (a névoa se espalha pelos cantos). Quando uma criatura entra na névoa pela primeira vez em um turno ou começa seu turno lá, ela deve fazer um teste de resistência de Constituição CD 16, recebendo 22 (5d8) de dano venenoso em uma falha na resistência, ou metade desse dano em um sucesso. .\nA névoa se move 3 metros para longe da magia viva no início de cada um de seus turnos, rolando pelo chão e através de aberturas. A névoa dura 10 minutos ou até que a concentração da magia viva termine (como se estivesse se concentrando em uma magia).",
-                "name": "Mimetismo de Feitiço (Recarga 5-6)"
+                "name": "Mimetismo de Feitiço (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 16
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -3981,12 +4254,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -4074,8 +4344,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O feitiço vivo realiza dois ataques de Golpe Mágico.",
                 "name": "Multiataque"
@@ -4108,11 +4377,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O feitiço vivo libera um raio em uma linha de 30 metros de comprimento e 1,5 metro de largura. Cada criatura na linha deve fazer um teste de resistência de Destreza CD 15, recebendo 28 (8d6) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
-                "name": "Mimetismo de Feitiço (Recarga 5-6)"
+                "name": "Mimetismo de Feitiço (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 15
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -4174,8 +4449,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-arcana",
@@ -4183,20 +4457,15 @@
                 "name": "Arcano"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "Comum mais quaisquer dois idiomas",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "A habilidade de conjuração do mago é Inteligência (CD de resistência de magia 12). Para lançar um de seus rituais, o criador de magos deve fornecer componentes materiais adicionais cujo valor em moedas de ouro é 20 vezes o nível da magia. Esses componentes são consumidos quando o ritual é finalizado. O construtor de magos conhece as seguintes magias:",
@@ -4239,8 +4508,7 @@
                 "name": "Adaga"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -4380,10 +4648,8 @@
                 "name": "*de ataques não mágicos que não são prateados"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -4450,8 +4716,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Mordakhesh faz três ataques com a espada larga.",
                 "name": "Multiataque"
@@ -4472,8 +4737,7 @@
                 "name": "Espada grande"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 10,
                 "description": "Ataque Mágico à Distância: +10 para acertar, alcance 36 metros, uma criatura. Acerto: 13 (3d8) de dano de um tipo escolhido por Mordakhesh: ácido, frio, fogo, raio, veneno ou trovão.",
                 "name": "Orbe Cromática"
@@ -4481,29 +4745,25 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Mordakhesh faz um ataque com arma ou lança orbe cromática. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Modakhesh ganha resistência a um tipo de dano de sua escolha—ácido, frio, fogo, relâmpago, veneno ou trovão—até o início de seu próximo turno. ",
                 "name": "Resistência cromática"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Mordakhesh tem como alvo até dois aliados que ele possa ver a até 9 metros dele. Se um alvo pode vê-lo e ouvi-lo, o alvo pode fazer um ataque com arma como reação e ganha vantagem na jogada de ataque.",
                 "name": "Comando do Senhor da Guerra (Custa 2 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -4599,8 +4859,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "radiant",
@@ -4628,8 +4887,7 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -4654,7 +4912,26 @@
         "special_abilities": [
             {
                 "name": "Aura de Falsa Divindade",
-                "desc": "Uma criatura que comece seu turno a até 9 metros do ídolo radiante deve fazer um teste de resistência de Sabedoria CD 17, desde que o ídolo radiante não esteja incapacitado. Em uma falha na resistência, a criatura é enfeitiçada pelo ídolo radiante. Uma criatura enfeitiçada desta forma pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Uma vez bem-sucedida no teste de resistência, a criatura fica imune à Aura de Falsa Divindade desse ídolo radiante por 24 horas. "
+                "desc": "Uma criatura que comece seu turno a até 9 metros do ídolo radiante deve fazer um teste de resistência de Sabedoria CD 17, desde que o ídolo radiante não esteja incapacitado. Em uma falha na resistência, a criatura é enfeitiçada pelo ídolo radiante. Uma criatura enfeitiçada desta forma pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Uma vez bem-sucedida no teste de resistência, a criatura fica imune à Aura de Falsa Divindade desse ídolo radiante por 24 horas. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "name": "Resistência Mágica",
@@ -4735,8 +5012,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O ídolo radiante faz dois ataques corpo a corpo.",
                 "name": "Multiataque"
@@ -4777,11 +5053,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O ídolo radiante escolhe um ponto no chão que possa ver a até 18 metros dele. Um cilindro de luz brilhante de 30 pés de raio e 40 pés de altura aparece lá até o início do próximo turno do ídolo radiante. Cada criatura no cilindro quando aparece ou termina seu turno deve fazer um teste de resistência de Constituição CD 17, recebendo 36 (8d8) de dano radiante em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
-                "name": "Ataque Radiante (1/Dia)"
+                "name": "Ataque Radiante (1/Dia)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -4894,8 +5176,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -5024,37 +5305,32 @@
                     },
                     {
                         "group": "1/dia cada",
-                        "spells": [
-                        ]
+                        "spells": []
                     }
                 ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rak Tulkhesh faz quatro ataques com armas.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 17,
                 "description": "Ataque com arma corpo a corpo: +17 para acertar, alcance 3 metros, um alvo. Acerto: 28 (3d12 + 9) de dano de força.",
                 "name": "Arma corpo a corpo gerada"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 12,
                 "description": "Arma à Distância Ataque: +12 para acertar, alcance 150/600 pés, um alvo. Acerto: 17 (3d8 + 4) de dano de força.",
                 "name": "Arma à Distância Gerada"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rak Tulkhesh se metamorfoseia magicamente em um humanóide, besta ou gigante que tem uma classificação de desafio não superior à sua, ou de volta à sua forma verdadeira. Ele volta à sua forma verdadeira se morrer. Qualquer equipamento que ele esteja usando ou carregando é absorvido ou carregado pela nova forma (a escolha dele).\nEm uma nova forma, Rak Tulkhesh mantém seu alinhamento, pontos de vida, Dados de Vida, habilidade de falar, proficiências, Resistência Lendária e pontuações de Inteligência, Sabedoria e Carisma, bem como esta ação. Suas estatísticas e capacidades são substituídas pelas da nova forma, exceto quaisquer características de classe ou ações lendárias dessa forma.",
                 "name": "Mudar de Forma"
@@ -5062,29 +5338,32 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rak Tulkhesh faz um ataque com arma. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rak Tulkhesh lança dissipar magia. ",
                 "name": "Fim da Magia (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 18 metros de Rak Tulkhesh deve ser bem sucedida em um teste de resistência de Sabedoria CD 24 ou usar sua reação para fazer um ataque corpo a corpo contra uma criatura aleatória dentro do alcance. Se nenhuma criatura estiver ao alcance, ele faz um ataque à distância contra uma criatura aleatória dentro do alcance, arremessando sua arma se necessário. Este ataque é feito com vantagem e ganha +4 de bônus na jogada de dano.",
-                "name": "Provocar Fúria (Custa 3 Ações)"
+                "name": "Provocar Fúria (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 24
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -5146,8 +5425,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-acrobatics",
@@ -5170,14 +5448,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -5220,8 +5494,7 @@
                 "name": "Mordida"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -5333,8 +5606,7 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -5562,36 +5834,38 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh faz quatro ataques com Arcane Blast.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 18,
                 "description": "Ataque Mágico à Distância: +18 para atingir, alcance 36 metros, um alvo. Acerto: 15 (1d10 + 10) de dano de força.",
                 "name": "Explosão Arcana"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 12,
                 "description": "Ataque com Arma Corpo a Corpo: +12 para acertar, alcance 1,5 m, um alvo. Acerto: 36 (5d12 + 4) de dano de força.",
                 "name": "Cajado Mágico"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh conjura orbes de energia mágica que caem no chão em três pontos diferentes que ela pode ver a até 1,6 km dela. Cada criatura em uma esfera de 12 metros de raio centrada em cada ponto deve fazer um teste de resistência de Destreza CD 26, recebendo 71 (11d12) de dano de força em uma falha na resistência ou metade do dano em uma bem-sucedida. Uma criatura na área de mais de uma explosão arcana é afetada apenas uma vez. A área de cada explosão arcana age como um campo antimagia por 1 hora. Sul Khatesh e os feitiços que ela lança não são afetados por esses campos.",
-                "name": "Cataclismo Arcano (Recarrega após um Descanso Longo)"
+                "name": "Cataclismo Arcano (Recarrega após um Descanso Longo)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 26
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh se metamorfoseia magicamente em um humanóide, besta ou gigante que tem uma classificação de desafio não superior à dela, ou de volta à sua forma verdadeira. Ela volta à sua forma verdadeira se morrer. Qualquer equipamento que ela esteja usando ou carregando é absorvido ou carregado pela nova forma (a escolha de Sul Khatesh).\nEm uma nova forma, Sul Khatesh mantém seu alinhamento, pontos de vida, Dados de Vida, habilidade de falar, proficiências, Resistência Lendária e pontuações de Inteligência, Sabedoria e Carisma, bem como esta ação. Suas estatísticas e capacidades são substituídas pelas da nova forma, exceto quaisquer características de classe ou ações lendárias dessa forma.",
                 "name": "Mudar de Forma"
@@ -5599,29 +5873,39 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh faz dois ataques com seu Arcane Blast ou um ataque com seu cajado mágico. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh tem como alvo uma criatura a até 36 metros dela que está se concentrando em um feitiço. O alvo deve ter sucesso em um teste de resistência de Constituição CD 26 ou sua concentração é quebrada no feitiço, e Sul Khatesh ganha 5 pontos de vida temporários por nível desse feitiço. ",
-                "name": "Consumir Magia (Custa 2 Ações)"
+                "name": "Consumir Magia (Custa 2 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 26
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh sussurra um segredo arcano na mente de uma criatura que ela pode ver a até 18 metros dela. O alvo deve ter sucesso em um teste de resistência de Sabedoria CD 26 ou gastar um de seus espaços de magia de 3º nível ou inferior e causar 26 (4d12) de dano de força a cada criatura a até 9 metros dele. Uma criatura que falha no teste de resistência, mas não pode gastar um espaço de magia, fica atordoada até o final de seu próximo turno.",
-                "name": "Segredos Enlouquecedores (Custa 3 Ações)"
+                "name": "Segredos Enlouquecedores (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 26
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -5683,8 +5967,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -5712,14 +5995,10 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -5727,7 +6006,14 @@
         "special_abilities": [
             {
                 "name": "Marca Instável",
-                "desc": "Quando o assassino lança um feitiço inato, cada criatura a até 3 metros do assassino deve fazer um teste de resistência de Constituição CD 12, recebendo 4 (1d8) de dano de força em uma falha na resistência, ou metade desse dano em um sucesso."
+                "desc": "Quando o assassino lança um feitiço inato, cada criatura a até 3 metros do assassino deve fazer um teste de resistência de Constituição CD 12, recebendo 4 (1d8) de dano de força em uma falha na resistência, ou metade desse dano em um sucesso.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -5748,16 +6034,14 @@
                     },
                     {
                         "group": "1/dia cada",
-                        "spells": [
-                        ]
+                        "spells": []
                     }
                 ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O assassino faz dois ataques de espada curta.",
                 "name": "Multiataque"
@@ -5786,22 +6070,19 @@
                 "name": "Espada curta"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 4,
                 "description": "Ataque Mágico à Distância: +4 para acertar, alcance 120 pés, um alvo. Acerto: 11 (2d10) de dano de fogo. Um objeto inflamável atingido por esta magia se incendeia se não estiver sendo usado ou carregado.",
                 "name": "Fire Bolt (Cantrip)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 4,
                 "description": "Ataque Mágico à Distância: +4 para acertar, alcance 30 m, uma criatura. Acerto: 18 (4d8) de dano de um tipo escolhido pelo assassino: ácido, frio, fogo, raio, veneno ou trovão.",
                 "name": "Orbe Cromática (1/Dia)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -5907,8 +6188,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -5921,8 +6201,7 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -5955,7 +6234,14 @@
             },
             {
                 "name": "Ataque",
-                "desc": "Se o Senhor das Lâminas se mover pelo menos 3 metros em linha reta em direção a um alvo e então acertá-lo com sua seis lâmina adamantina no mesmo turno, o alvo sofre 11 (2d10) de dano cortante extra. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 19 ou será empurrado até 3 metros de distância e cairá no chão. "
+                "desc": "Se o Senhor das Lâminas se mover pelo menos 3 metros em linha reta em direção a um alvo e então acertá-lo com sua seis lâmina adamantina no mesmo turno, o alvo sofre 11 (2d10) de dano cortante extra. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 19 ou será empurrado até 3 metros de distância e cairá no chão. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 19
+                    }
+                ]
             },
             {
                 "name": "Resiliência Warforged",
@@ -6098,8 +6384,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Senhor das Lâminas realiza três ataques: dois com sua adamantina sixblade e um com suas asas laminadas.",
                 "name": "Multiataque"
@@ -6152,36 +6437,31 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Senhor das Lâminas faz um ataque com arma. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Senhor das Lâminas lança um de seus truques. ",
                 "name": "Truque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Senhor das Lâminas lança um feitiço de 2º nível ou inferior de sua lista de feitiços que requer 1 ação para ser lançado. ",
                 "name": "Lançar um Feitiço (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Lorde das Lâminas se move até sua velocidade sem provocar ataques de oportunidade, então faz um ataque com sua adamantina sixblade. Ele pode fazer um ataque de asas de lâmina contra cada criatura que ele passar.",
                 "name": "Blade Dash (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -6267,8 +6547,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -6276,8 +6555,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -6294,8 +6572,7 @@
             "visão no escuro 60 pés."
         ],
         "languages": "Comum, Quori",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "A habilidade de conjuração do quori é Carisma (resistência à magia CD 14). Ele pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes:",
@@ -6328,18 +6605,23 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O quori faz três ataques: um ataque de pinça, um ataque com suas garras e um ataque de ferrão.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Ataque com arma corpo a corpo: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 8 (1d10 + 3) de dano de concussão. O alvo é agarrado (CD de escape 14) se for uma criatura Grande ou menor. O quori tem duas pinças, cada uma das quais pode agarrar um alvo.",
-                "name": "Pinça"
+                "name": "Pinça",
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -6377,18 +6659,54 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 3 metros, uma criatura. Acerto: 8 (1d10 + 3) de dano perfurante mais 10 (3d10) de dano psíquico, e o alvo deve obter sucesso em um teste de resistência de Sabedoria CD 14 ou ficará amedrontado pelo quori por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Stinger"
+                "name": "Stinger",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 14
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Um humanóide que o quori possa ver a até 1,5 metro dele deve ser bem sucedido em um teste de resistência de Carisma CD 14 ou será possuído pelo quori; o quori então desaparece e o alvo fica incapacitado e perde o controle de seu corpo. O quori agora controla o corpo, mas não priva o alvo da consciência. O quori não pode ser alvo de nenhum ataque, feitiço ou outro efeito e mantém seu alinhamento, Inteligência, Sabedoria, Carisma e imunidade a ser enfeitiçado e amedrontado. Caso contrário, ele usa as estatísticas do alvo possuído, mas não obtém acesso ao conhecimento, recursos de classe ou proficiências do alvo.\nA possessão dura até que o corpo caia para 0 pontos de vida, o quori termine com uma ação bônus, ou o quori seja forçado a sair por um efeito como o feitiço dissipar o mal e o bem. Quando a possessão termina, o quori reaparece em um espaço desocupado a até 1,5 metro do corpo. O alvo fica imune à Posse deste quori por 24 horas após ser bem-sucedido no teste de resistência ou após o término da posse.",
-                "name": "Posse (Recarga 6)"
+                "name": "Posse (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 14
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    },
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -6501,8 +6819,7 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_resistances": [
-        ],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -6738,8 +7055,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O conselheiro faz dois ataques de Toque Radiante.",
                 "name": "Multiataque"
@@ -6760,8 +7076,7 @@
                 "name": "Toque Radiante"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O conselheiro toca outra criatura. O alvo magicamente recupera 18 (3d8 + 5) pontos de vida e é libertado de uma maldição que o aflige (à escolha do conselheiro).",
                 "name": "Toque de Cura (3/Dia)"
@@ -6803,27 +7118,38 @@
                 ],
                 "attack_bonus": null,
                 "description": "O conselheiro escolhe um ponto que possa ver a até 18 metros dele. Cada criatura em um cilindro de 3 metros de raio e 12 metros de altura centrado naquele ponto deve fazer um teste de resistência de Destreza CD 17. Uma criatura sofre 14 (4d6) de dano de fogo e 14 (4d6) de dano radiante se falhar na resistência, ou metade desse dano se obtiver sucesso. Se o conselheiro lançar esta magia usando um espaço de magia de 6º nível ou superior, o dano de fogo ou o dano radiante (à sua escolha) aumenta em 1d6 para cada nível de espaço acima do 5º.",
-                "name": "Ataque Flamejante (Magia de 5º Nível; Requer um Espaço de Magia)"
+                "name": "Ataque Flamejante (Magia de 5º Nível; Requer um Espaço de Magia)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O conselheiro faz um ataque com seu Toque Radiante. ",
                 "name": "Toque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O conselheiro canaliza energia positiva em sua Aura de Resplendor. Até o final do próximo turno do conselheiro, ele emite luz plena em um raio de 9 metros e penumbra por mais 9 metros. Qualquer criatura que comece seu turno na luz brilhante deve passar em um teste de resistência de Constituição CD 17 ou ficará cega até o final do próximo turno do conselheiro.",
-                "name": "Aura Cintilante (Custa 2 Ações)"
+                "name": "Aura Cintilante (Custa 2 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -6885,8 +7211,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -6978,8 +7303,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O soldado faz dois ataques de lança.",
                 "name": "Multiataque"
@@ -7016,8 +7340,7 @@
                 "name": "Lança"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7085,8 +7408,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -7094,14 +7416,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7133,8 +7451,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7196,8 +7513,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -7205,14 +7521,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7229,15 +7541,20 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 5,
                 "description": "Ataque corpo a corpo com arma: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 13 ou será derrubado.",
-                "name": "Mordida"
+                "name": "Mordida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7299,8 +7616,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -7308,14 +7624,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7343,8 +7655,7 @@
                 "name": "Cascos"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7423,12 +7734,9 @@
                 "modifier": 7
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "necrotic",
@@ -7526,13 +7834,26 @@
             },
             {
                 "name": "Terror Elevado",
-                "desc": "Qualquer inimigo fora do colosso que comece seu turno a até 9 metros dele deve ser bem sucedido em um teste de resistência de Sabedoria CD 26 ou ficará amedrontado até o início do próximo turno do inimigo. Se o teste de resistência do inimigo for bem-sucedido, ele ficará imune ao Terror Elevado deste colosso pelas próximas 24 horas."
+                "desc": "Qualquer inimigo fora do colosso que comece seu turno a até 9 metros dele deve ser bem sucedido em um teste de resistência de Sabedoria CD 26 ou ficará amedrontado até o início do próximo turno do inimigo. Se o teste de resistência do inimigo for bem-sucedido, ele ficará imune ao Terror Elevado deste colosso pelas próximas 24 horas.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 26
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O colosso faz três ataques - um com sua pancada e dois com suas torres místicas - e então usa Stomp.",
                 "name": "Multiataque"
@@ -7553,8 +7874,7 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 18,
                 "description": "Ataque Mágico à Distância: +18 para acertar, alcance 300 pés, um alvo. Acerto: 18 (4d8) de dano de força e, se o alvo for uma criatura, ela é derrubada.",
                 "name": "Eldritch Turret"
@@ -7572,7 +7892,19 @@
                 ],
                 "attack_bonus": null,
                 "description": "O colosso pisa com um de seus pés em um ponto no chão a até 6 metros dele. Qualquer criatura em um cilindro de 6 metros de raio e 6 metros de altura centrado neste ponto deve ter sucesso em um teste de resistência de Destreza CD 26 ou sofrerá 33 (6d10) de dano de concussão e cairá no chão. Até que o colosso use seu Stomp novamente ou se mova, a criatura é contida. Enquanto estiver contida dessa forma, a criatura (ou outra criatura a até 1,5 metro dela) pode usar sua ação para fazer um teste de Força CD 26. Em caso de sucesso, a criatura se muda para um espaço desocupado de sua escolha a até 1,5 metro do colosso e não fica mais impedida.\nEstruturas, assim como objetos não mágicos que não estão sendo usados nem carregados, recebem a mesma quantidade de dano se estiverem no cilindro (sem resistência).",
-                "name": "Pisar"
+                "name": "Pisar",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 26
+                    },
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 26
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -7587,11 +7919,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O colosso dispara um feixe de luz em uma linha de 45 metros com 3 metros de largura. Cada criatura na linha deve fazer um teste de resistência de Destreza CD 26, recebendo 60 (11d10) de dano radiante em uma falha na resistência, ou metade do dano em uma bem-sucedida. Uma criatura reduzida a 0 pontos de vida por este feixe é desintegrada, deixando para trás tudo o que estava vestindo ou carregando.",
-                "name": "Feixe de Incineração (Recarga 5-6)"
+                "name": "Feixe de Incineração (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 26
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7653,8 +7991,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -7672,8 +8009,7 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -7681,10 +8017,8 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7697,8 +8031,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O warforged faz dois ataques de armblade.",
                 "name": "Multiataque"
@@ -7801,14 +8134,10 @@
                 "modifier": -5
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -7869,8 +8198,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O titã warforged faz um ataque com a mão do machado e um ataque com o punho do martelo.",
                 "name": "Ataque múltiplo"
@@ -7896,14 +8224,27 @@
                 ],
                 "attack_bonus": 9,
                 "description": "Ataque com arma corpo a corpo: +9 para acertar, alcance 3 metros, um alvo. Acerto: 19 (3d8 + 6) de dano cortante, mais 11 (2d10) de dano cortante se o alvo estiver caído.",
-                "name": "Mão de machado"
+                "name": "Mão de machado",
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Caído"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Ataque com Arma Corpo a Corpo: +9 para acertar, alcance 3 metros, um alvo. Acerto: 19 (3d8 + 6) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 17 ou será derrubado.",
-                "name": "Punho de Martelo"
+                "name": "Punho de Martelo",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 17
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -7918,11 +8259,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O titã warforged faz uma varredura com sua mão de machado, e cada criatura dentro de 3 metros dele deve fazer um teste de resistência de Destreza CD 17. Uma criatura sofre 19 (3d8 + 6) de dano cortante em caso de falha na resistência, ou metade desse dano em caso de sucesso.",
-                "name": "Varredura do Machado (Recarga 6)"
+                "name": "Varredura do Machado (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
@@ -7984,8 +8331,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -8032,10 +8378,8 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -8051,7 +8395,14 @@
             },
             {
                 "name": "Proeza Marcial (1/Turno)",
-                "desc": "Quando o rakshasa atinge uma criatura com um ataque de arma corpo a corpo, o ataque causa 11 (2d10) de dano extra do tipo da arma, e a criatura deve fazer um teste de resistência de Força CD 15. Em caso de falha, o rakshasa pode empurrar a criatura até 3 metros para longe dela, derrubar a criatura ou fazer com que a criatura solte um item que esteja segurando, à escolha do rakshasa."
+                "desc": "Quando o rakshasa atinge uma criatura com um ataque de arma corpo a corpo, o ataque causa 11 (2d10) de dano extra do tipo da arma, e a criatura deve fazer um teste de resistência de Força CD 15. Em caso de falha, o rakshasa pode empurrar a criatura até 3 metros para longe dela, derrubar a criatura ou fazer com que a criatura solte um item que esteja segurando, à escolha do rakshasa.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 15
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -8092,8 +8443,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O rakshasa faz três ataques com armas corpo a corpo. Alternativamente, ele pode fazer dois ataques à distância com seus dardos.",
                 "name": "Multiataque"
@@ -8137,8 +8487,7 @@
                 "name": "Javelin"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Eberron: Renascendo da Última Guerra",
             "acronym": "ERLW"
