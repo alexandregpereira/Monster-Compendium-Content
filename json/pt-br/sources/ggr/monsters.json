@@ -90,19 +90,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -299,11 +299,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+5",
+                        "dice": "12 (2d6+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
+                        }
+                    },
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
                         }
                     }
                 ],
@@ -556,19 +564,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
-                            "name": "Relâmpagos"
-                        }
-                    },
-                    {
-                        "dice": "6d8",
-                        "damage": {
-                            "index": "LIGHTNING",
-                            "type": "LIGHTNING",
-                            "name": "Relâmpagos"
+                            "name": "Elétrico"
                         }
                     }
                 ],
@@ -772,25 +772,25 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+8",
+                        "dice": "12 (1d8+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d10+8",
+                        "dice": "13 (1d10+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "RADIANT",
+                            "index": "radiant",
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
@@ -809,9 +809,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "12d8",
+                        "dice": "54 (12d8)",
                         "damage": {
-                            "index": "RADIANT",
+                            "index": "radiant",
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
@@ -1006,25 +1006,33 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d4",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "RADIANT",
+                            "index": "radiant",
+                            "type": "RADIANT",
+                            "name": "Radiante"
+                        }
+                    },
+                    {
+                        "dice": "2 (1d4)",
+                        "damage": {
+                            "index": "radiant",
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
@@ -1352,11 +1360,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -1550,35 +1558,35 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "fogo"
+                            "name": "Ígneo"
                         }
                     },
                     {
-                        "dice": "2d8+3",
+                        "dice": "11 (2d8+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -1734,17 +1742,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "the",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -1771,11 +1779,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -1784,7 +1792,16 @@
                 "name": "Rapier"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "7 (1d8+3)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Ataque com Arma Corpo a Corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano de concussão. O vampiro também pode agarrar o alvo (CD de fuga 14) se for uma criatura e o vampiro tiver uma mão livre.",
                 "name": "Ataque Desarmado"
@@ -1997,11 +2014,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -2012,11 +2029,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -2127,7 +2144,16 @@
         "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "16 (3d6+6)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 9,
                 "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 20 pés, um alvo. Acerto: 16 (3d6 + 6) de dano de concussão. Se o alvo for uma criatura, ela é agarrada (CD de fuga 17). Até o agarrão terminar, o alvo está contido e o gigante não pode usar esse ataque em mais ninguém.",
                 "name": "Corrente"
@@ -2135,11 +2161,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+6",
+                        "dice": "16 (3d6+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -2301,7 +2327,16 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "28 (6d6+7)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 13,
                 "description": "Ataque corpo a corpo com arma: +13 para acertar, alcance 3 metros, um alvo. Acerto: 28 (6d6 + 7) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 21 ou será derrubado.",
                 "name": "Maul",
@@ -2316,11 +2351,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+7",
+                        "dice": "18 (2d10+7)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -2331,11 +2366,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10+7",
+                        "dice": "29 (4d10+7)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -2585,11 +2620,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -2600,11 +2635,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -2701,11 +2736,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -2716,11 +2751,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -2817,11 +2852,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d12+4",
+                        "dice": "17 (2d12+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -2832,11 +2867,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d12+4",
+                        "dice": "17 (2d12+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -2933,11 +2968,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d6+6",
+                        "dice": "27 (6d6+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -2948,11 +2983,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+6",
+                        "dice": "22 (3d10+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -2961,7 +2996,16 @@
                 "name": "Garras"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "33 (6d8+6)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 11,
                 "description": "Arma corpo a corpo Ataque: +11 para acertar, alcance 4,5 metros, um alvo. Acerto: 33 (6d8 + 6) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 19 ou será derrubado.",
                 "name": "Cauda",
@@ -3161,7 +3205,16 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "12 (2d6+5)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 9,
                 "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Destreza CD 17 ou ficará impedido por torcer cipós por 1 minuto. Um alvo impedido dessa maneira pode usar uma ação para fazer um teste de Força (Atletismo) ou Destreza (Acrobacia) CD 17, encerrando o efeito sobre si mesmo em caso de sucesso.",
                 "name": "Vine Staff",
@@ -3176,11 +3229,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -3356,19 +3409,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -3530,11 +3583,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -3783,17 +3836,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+4",
+                        "dice": "9 (2d4+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -4175,11 +4228,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -4218,11 +4271,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d6",
+                        "dice": "21 (6d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
-                            "name": "Necrotic"
+                            "name": "Necrótico"
                         }
                     }
                 ],
@@ -4513,19 +4566,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -4671,11 +4724,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+4",
+                        "dice": "17 (3d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -4686,11 +4739,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+4",
+                        "dice": "14 (3d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -4926,11 +4979,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -5143,25 +5196,25 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+6",
+                        "dice": "10 (1d8+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d10+6",
+                        "dice": "11 (1d10+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "or",
+                        "dice": "22 (5d8)",
                         "damage": {
-                            "index": "RADIANT",
+                            "index": "radiant",
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
@@ -5337,19 +5390,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -5530,19 +5583,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -5553,11 +5606,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
-                            "name": "Relâmpago"
+                            "name": "Elétrico"
+                        }
+                    },
+                    {
+                        "dice": "13 (3d8)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Elétrico"
+                        }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
                         }
                     }
                 ],
@@ -5688,17 +5757,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -5882,19 +5951,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -6068,19 +6137,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -6256,11 +6325,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
+                        }
+                    },
+                    {
+                        "dice": "5 (2d4)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Elétrico"
                         }
                     }
                 ],
@@ -6453,11 +6530,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+5",
+                        "dice": "18 (3d8+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -6468,11 +6545,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+5",
+                        "dice": "15 (3d6+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -6707,19 +6784,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -6730,19 +6807,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -6873,19 +6950,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+7",
+                        "dice": "17 (3d6+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "3d8+7",
+                        "dice": "20 (3d8+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -7028,19 +7105,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+1",
+                        "dice": "4 (1d6+1)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Piercing"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Concussão"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -7143,11 +7220,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -7251,11 +7328,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -7266,11 +7343,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d4",
+                        "dice": "10 (4d4)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
-                            "name": "ácido"
+                            "name": "Ácido"
                         }
                     }
                 ],
@@ -7404,19 +7481,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -7537,11 +7614,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
-                            "name": "Relâmpago"
+                            "name": "Elétrico"
                         }
                     }
                 ],
@@ -7552,11 +7629,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
-                            "name": "Relâmpago"
+                            "name": "Elétrico"
                         }
                     }
                 ],
@@ -7681,11 +7758,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -7885,9 +7962,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -8311,9 +8388,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6",
+                        "dice": "21 (3d10+5)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    },
+                    {
+                        "dice": "14 (4d6)",
+                        "damage": {
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -8736,11 +8821,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d6",
+                        "dice": "28 (8d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -8765,25 +8850,25 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+5",
+                        "dice": "12 (2d6+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -8810,11 +8895,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "10d6",
+                        "dice": "35 (10d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
-                            "name": "Necrotic"
+                            "name": "Necrótico"
                         }
                     }
                 ],
@@ -9054,19 +9139,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -9190,19 +9275,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -9432,19 +9517,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+1",
+                        "dice": "4 (1d6+1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -9701,17 +9786,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+7",
+                        "dice": "10 (1d6+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Piercing"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -9965,25 +10050,25 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Piercing"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Piercing"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -10220,17 +10305,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "the",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -10241,7 +10326,16 @@
                 "name": "Mordida"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "8 (1d8+4)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Ataque com Arma Corpo a Corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 8 (1d8 + 4) de dano de concussão. O vampiro também pode agarrar o alvo (CD de fuga 13) se for uma criatura e o vampiro tiver uma mão livre.",
                 "name": "Ataque Desarmado"
@@ -10249,11 +10343,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d6",
+                        "dice": "28 (8d6)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
-                            "name": "psíquico"
+                            "name": "Psíquico"
                         }
                     }
                 ],
@@ -10453,11 +10547,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+2",
+                        "dice": "4 (1d4+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -10641,17 +10735,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -10664,9 +10758,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d8",
+                        "dice": "22 (5d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -11143,19 +11237,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+9",
+                        "dice": "18 (2d8+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -11166,11 +11260,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+9",
+                        "dice": "14 (2d4+9)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -11181,11 +11275,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+9",
+                        "dice": "16 (2d6+9)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -11196,11 +11290,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "26d6",
+                        "dice": "91 (26d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -11232,11 +11326,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+9",
+                        "dice": "14 (2d4+9)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -11399,11 +11493,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+7",
+                        "dice": "23 (3d10+7)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -11667,9 +11761,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -11816,7 +11910,16 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "25 (3d12+6)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    }
+                ],
                 "attack_bonus": 9,
                 "description": "Ataque com arma corpo a corpo: +9 para acertar, alcance 3 metros, um alvo. Acerto: 25 (3d12 + 6) de dano cortante. Se o gigante Orzhov obtiver um acerto crítico, ele rola os dados de dano três vezes, em vez de duas.",
                 "name": "Greataxe"
@@ -11824,11 +11927,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10+6",
+                        "dice": "28 (4d10+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -11973,19 +12076,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6-1",
+                        "dice": "2 (1d6-1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "1d8-1",
+                        "dice": "3 (1d8-1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "concussão"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -11996,11 +12099,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
-                            "name": "psíquico"
+                            "name": "Psíquico"
                         }
                     }
                 ],
@@ -12266,19 +12369,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+8",
+                        "dice": "24 (3d10+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -12289,11 +12392,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+8",
+                        "dice": "17 (2d8+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -12502,11 +12605,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4",
+                        "dice": "2 (1d4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -12631,11 +12734,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -12760,11 +12863,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -12775,11 +12878,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -12911,11 +13014,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -13104,19 +13207,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -13252,11 +13355,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -13354,11 +13457,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+2",
+                        "dice": "4 (1d4+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -13369,11 +13472,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
-                            "name": "Fogo"
+                            "name": "Ígneo"
                         }
                     }
                 ],
@@ -13483,11 +13586,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -13624,11 +13727,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+3",
+                        "dice": "21 (4d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -13639,11 +13742,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+3",
+                        "dice": "13 (3d6+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -13668,9 +13771,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
@@ -13782,19 +13885,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -14030,17 +14133,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d12+6",
+                        "dice": "25 (3d12+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Piercing"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -14053,17 +14156,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+6",
+                        "dice": "10 (1d8+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psíquico"
                         }
@@ -14195,11 +14298,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10+6",
+                        "dice": "28 (4d10+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -14210,11 +14313,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+6",
+                        "dice": "24 (4d8+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -14354,11 +14457,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+5",
+                        "dice": "9 (1d8+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -14369,11 +14472,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+5",
+                        "dice": "10 (2d4+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -14488,9 +14591,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d6",
+                        "dice": "22 (3d10+6)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "21 (6d6)",
+                        "damage": {
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Ácido"
                         }
@@ -14515,11 +14626,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d12+6",
+                        "dice": "19 (2d12+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -14644,19 +14755,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     },
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -14938,11 +15049,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -15094,11 +15205,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+6",
+                        "dice": "24 (4d8+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -15107,7 +15218,16 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "28 (4d10+6)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
                 "attack_bonus": 10,
                 "description": "Arma de Ataque à Distância: +10 para atingir, alcance 60/240 pés, um alvo. Acerto: 28 (4d10 + 6) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 18 ou será derrubado.",
                 "name": "Rocha",
@@ -15287,11 +15407,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+2",
+                        "dice": "4 (1d4+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -15302,11 +15422,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -15561,11 +15681,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+5",
+                        "dice": "15 (3d6+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -15583,9 +15703,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+10",
+                        "dice": "23 (3d8+10)",
                         "damage": {
-                            "index": "RADIANT",
+                            "index": "radiant",
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
@@ -15598,19 +15718,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d6",
+                        "dice": "21 (6d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Concussão"
+                            "name": "Contundente"
                         }
                     },
                     {
-                        "dice": "6d6",
+                        "dice": "21 (6d6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Corte"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -15802,11 +15922,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -15934,11 +16054,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+2",
+                        "dice": "7 (2d4+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -15949,11 +16069,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],
@@ -16082,11 +16202,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d6",
+                        "dice": "24 (5d6+7)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "17 (5d6)",
+                        "damage": {
+                            "index": "acid",
                             "type": "ACID",
-                            "name": "ácido"
+                            "name": "Ácido"
                         }
                     }
                 ],
@@ -16426,19 +16554,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+5",
+                        "dice": "12 (2d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
-                            "name": "Perfuração"
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
-                            "name": "Trovão"
+                            "name": "Trovejante"
                         }
                     }
                 ],
@@ -16456,11 +16584,11 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
-                            "name": "Espancamento"
+                            "name": "Contundente"
                         }
                     }
                 ],

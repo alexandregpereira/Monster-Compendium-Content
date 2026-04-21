@@ -108,9 +108,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -237,9 +237,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -252,9 +252,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -434,17 +434,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d4",
+                        "dice": "5 (2d4)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -457,9 +457,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -636,9 +636,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -651,9 +651,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -865,9 +865,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+4",
+                        "dice": "18 (4d6+4)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -1091,9 +1091,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+3",
+                        "dice": "17 (4d6+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -1106,9 +1106,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -1128,9 +1128,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+3",
+                        "dice": "12 (2d8+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -1387,11 +1387,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+5",
+                        "dice": "10 (2d4+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "33 (6d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
                         }
                     }
                 ],
@@ -1402,9 +1410,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d10",
+                        "dice": "44 (8d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -1417,9 +1425,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d12",
+                        "dice": "26 (4d12)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -1589,9 +1597,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+5",
+                        "dice": "12 (2d6+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -1604,9 +1612,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+5",
+                        "dice": "10 (2d4+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -1619,9 +1627,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+5",
+                        "dice": "16 (2d10+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -1634,9 +1642,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -1852,7 +1860,16 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "36 (5d10+9)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 16,
                 "description": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 36 (5d10 + 9) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is incapacitated, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon.",
                 "name": "Bite",
@@ -1867,9 +1884,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+9",
+                        "dice": "19 (3d6+9)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -1903,9 +1920,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -2118,35 +2135,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "1d10+1",
+                        "dice": "6 (1d10+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "4d8",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
                         }
                     }
                 ],
@@ -2157,17 +2166,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -2479,17 +2488,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+7",
+                        "dice": "16 (2d8+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -2662,9 +2671,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10+3",
+                        "dice": "25 (4d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -2677,9 +2686,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -3014,9 +3023,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+10",
+                        "dice": "21 (2d10+10)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -3029,9 +3038,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+10",
+                        "dice": "19 (2d8+10)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -3044,9 +3053,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+10",
+                        "dice": "17 (2d6+10)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -3252,9 +3261,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -3267,9 +3276,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+3",
+                        "dice": "8 (2d4+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -3456,9 +3465,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -3471,17 +3480,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -3845,17 +3854,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -3868,17 +3877,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+2",
+                        "dice": "13 (2d10+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -4063,7 +4072,16 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "20 (3d10+4)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 20 (3d10 + 4) piercing damage. If the target is a creature, the boneclaw can pull the target up to 10 feet toward itself, and the target is grappled (escape DC 14). The boneclaw has two claws. While a claw grapples a target, the claw can attack only that target.",
                 "name": "Piercing Claw",
@@ -4078,9 +4096,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d12+2",
+                        "dice": "34 (5d12+2)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -4263,17 +4281,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -4286,9 +4304,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -4446,7 +4464,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "8 (1d12+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned until the disease ends. While poisoned in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 (1d8). The target dies if its hit point maximum is reduced to 0.",
                 "name": "Barbed Tail",
@@ -4625,17 +4652,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+5",
+                        "dice": "18 (3d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -4838,9 +4865,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d6+4",
+                        "dice": "25 (6d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -4853,9 +4880,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -4866,7 +4893,16 @@
                 "name": "Claws"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "17 (2d12+4)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 7,
                 "description": "Ranged Weapon Attack: +7 to hit, range 30 ft., one target. Hit: 17 (2d12 + 4) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 15), pulled up to 30 feet toward the canoloth, and is restrained until the grapple ends. The canoloth can grapple one target at a time with its tongue.",
                 "name": "Tongue",
@@ -4986,11 +5022,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
                         }
                     }
                 ],
@@ -5143,17 +5187,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+2",
+                        "dice": "9 (2d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -5413,9 +5457,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+2",
+                        "dice": "9 (2d6+2)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -5695,13 +5739,31 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "13 (3d6+3)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) necrotic damage).",
                 "name": "Deathly Claw"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Ranged Spell Attack: +6 to hit, range 120 ft., one or two targets. Hit: 18 (4d8) necrotic damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or become restrained as shadowy tendrils wrap around it for 1 minute. A restrained target can use its action to repeat the saving throw, ending the effect on itself on a success.",
                 "name": "Grave Bolts",
@@ -5923,9 +5985,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -5936,7 +5998,16 @@
                 "name": "Grave Bolt"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "9 (2d6+2)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\nA humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.",
                 "name": "Life Drain",
@@ -6235,7 +6306,16 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "28 (3d12+9)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
                 "attack_bonus": 17,
                 "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 28 (3d12 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
                 "name": "Tentacle",
@@ -6282,17 +6362,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+9",
+                        "dice": "20 (2d10+9)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d10",
+                        "dice": "11 (2d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -6399,7 +6479,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 2,
                 "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage. If the target is Medium or smaller, the derro can choose to deal no damage and knock it prone.",
                 "name": "Hooked Spear",
@@ -6414,9 +6503,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -6607,9 +6696,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6-1",
+                        "dice": "2 (1d6-1)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -6808,9 +6897,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+3",
+                        "dice": "12 (2d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -6823,9 +6912,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d12+3",
+                        "dice": "22 (3d12+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -6990,17 +7079,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+6",
+                        "dice": "10 (1d8+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -7013,9 +7102,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+6",
+                        "dice": "16 (3d6+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -7028,9 +7117,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d10",
+                        "dice": "44 (8d10)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -7339,9 +7428,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d12",
+                        "dice": "26 (4d12)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -7354,9 +7443,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d6",
+                        "dice": "28 (8d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -7369,25 +7458,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+3",
+                        "dice": "12 (2d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "4d12",
+                        "dice": "26 (4d12)",
                         "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    },
-                    {
-                        "dice": "the",
-                        "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -7761,11 +7842,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Poison"
                         }
                     }
                 ],
@@ -7776,9 +7865,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -7974,17 +8063,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -7995,7 +8084,16 @@
                 "name": "Scimitar"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d4+4)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn.",
                 "name": "Whip"
@@ -8003,9 +8101,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -8423,17 +8521,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "the",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -8906,19 +9004,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "14 (4d6)",
+                        "damage": {
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
                         }
                     }
                 ],
@@ -8934,7 +9040,16 @@
                 ]
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
                 "attack_bonus": 9,
                 "description": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 3 (1d6) bludgeoning damage. If the target is hit three times by the rod on one turn, the target must succeed on a DC 15 Constitution saving throw or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success.",
                 "name": "Tentacle Rod",
@@ -9131,7 +9246,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "21 (6d6)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "The drow makes two attacks with its shadow sword. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow sword on a previous turn, the drow can dismiss that darkness and cause the target to take 21 (6d6) necrotic damage. The drow can dismiss darkness in this way no more than once per turn.",
                 "name": "Multiattack"
@@ -9139,19 +9263,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Poison"
                         }
                     }
                 ],
@@ -9162,9 +9294,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -9381,9 +9513,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6",
+                        "dice": "14 (2d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -9410,17 +9550,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+5",
+                        "dice": "9 (1d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "3d8+5",
+                        "dice": "18 (3d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -9440,9 +9580,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -9589,9 +9729,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -9604,9 +9744,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -9731,17 +9871,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d4",
+                        "dice": "5 (2d4)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -9754,9 +9894,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -9908,33 +10048,33 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "1",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d6",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "1",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "PIERCING",
-                            "type": "PIERCING",
-                            "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "4d6",
-                        "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -10109,9 +10249,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+4",
+                        "dice": "10 (1d12+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -10124,9 +10264,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
                             "name": "Thunder"
                         }
@@ -10294,7 +10434,32 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d6+3)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    },
+                    {
+                        "dice": "10 (2d6+3)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    },
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    }
+                ],
                 "attack_bonus": 5,
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.",
                 "name": "Soulblade"
@@ -10427,17 +10592,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -10450,17 +10615,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -10600,35 +10765,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
-                        }
-                    },
-                    {
-                        "dice": "1d10",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
                         }
                     }
                 ],
@@ -10639,17 +10796,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -10794,35 +10951,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+3",
+                        "dice": "9 (1d12+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
                     },
                     {
-                        "dice": "2d12+3",
+                        "dice": "16 (2d12+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "1d6",
-                        "damage": {
-                            "index": "FIRE",
-                            "type": "FIRE",
-                            "name": "Fire"
                         }
                     }
                 ],
@@ -10833,9 +10982,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -11124,7 +11273,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "13 (2d8+4)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. If the target is a creature, its hit point maximum is also reduced by 3 (1d6). This reduction lasts until the target finishes a short or long rest. The target dies if this effect reduces its hit point maximum to 0.",
                 "name": "Tendril"
@@ -11289,9 +11447,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -11304,9 +11462,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
                             "name": "Thunder"
                         }
@@ -11807,17 +11965,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+3",
+                        "dice": "17 (4d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -11830,9 +11988,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d10",
+                        "dice": "44 (8d10)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -12056,9 +12214,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+9",
+                        "dice": "23 (4d6+9)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
                             "name": "Thunder"
                         }
@@ -12071,9 +12229,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -12108,9 +12266,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -12130,17 +12288,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10",
+                        "dice": "22 (4d10)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
                             "name": "Thunder"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -12273,17 +12431,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -12456,9 +12614,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -12471,9 +12629,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -12773,9 +12931,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+9",
+                        "dice": "19 (3d6+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -12788,9 +12946,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+9",
+                        "dice": "22 (3d8+9)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -12803,7 +12961,16 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "20 (2d10+9)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
                 "attack_bonus": 16,
                 "description": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time.",
                 "name": "Tail",
@@ -12957,9 +13124,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+5",
+                        "dice": "8 (1d6+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -12972,17 +13139,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+5",
+                        "dice": "9 (1d8+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "COLD",
+                            "index": "cold",
                             "type": "COLD",
                             "name": "Cold"
                         }
@@ -12995,9 +13162,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d10",
+                        "dice": "44 (8d10)",
                         "damage": {
-                            "index": "COLD",
+                            "index": "cold",
                             "type": "COLD",
                             "name": "Cold"
                         }
@@ -13276,9 +13443,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "23 (4d6+9)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "27 (6d8)",
+                        "damage": {
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -13303,25 +13478,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+9",
+                        "dice": "14 (2d4+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d12",
+                        "dice": "13 (2d12)",
                         "damage": {
-                            "index": "POISON",
-                            "type": "POISON",
-                            "name": "Poison"
-                        }
-                    },
-                    {
-                        "dice": "the",
-                        "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -13490,17 +13657,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -13513,9 +13680,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+2",
+                        "dice": "8 (1d12+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -13528,9 +13695,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -13543,9 +13710,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d6",
+                        "dice": "17 (5d6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -13842,35 +14009,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "4d8",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
                         }
                     }
                 ],
@@ -14056,17 +14215,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "5d6",
+                        "dice": "17 (5d6)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -14247,11 +14406,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+7",
+                        "dice": "14 (2d6+7)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "17 (5d6)",
+                        "damage": {
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
                         }
                     }
                 ],
@@ -14274,7 +14441,16 @@
                 "name": "Command Ally"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "16 (3d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 (3d10) force damage and is moved to the nearest unoccupied space.",
                 "name": "Teleport"
@@ -14490,17 +14666,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+5",
+                        "dice": "14 (2d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -14730,17 +14906,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -14753,11 +14929,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "52 (8d12)",
+                        "damage": {
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
                         }
                     }
                 ],
@@ -15048,35 +15232,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "4d12",
+                        "dice": "26 (4d12)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
                     },
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
-                        }
-                    },
-                    {
-                        "dice": "4d12",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
                         }
                     }
                 ],
@@ -15188,7 +15364,16 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "17 (2d12+4)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) piercing damage. If the target is Medium or smaller, the target must succeed on a DC 16 Strength saving throw or be knocked prone.",
                 "name": "Bite",
@@ -15210,9 +15395,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "7 (2d6)",
+                        "damage": {
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -15524,17 +15717,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+6",
+                        "dice": "20 (4d6+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "3d6",
+                        "dice": "10 (3d6)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -15832,17 +16025,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10+1",
+                        "dice": "6 (1d10+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -15855,9 +16048,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10",
+                        "dice": "12 (2d8+3)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "11 (2d10)",
+                        "damage": {
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -16062,9 +16263,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d6",
+                        "dice": "28 (8d6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -16094,7 +16295,72 @@
                 ]
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "11 (2d10)",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    },
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    },
+                    {
+                        "dice": "9 (2d8)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    },
+                    {
+                        "dice": "18 (3d8+5)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "22 (5d8)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
+                        }
+                    },
+                    {
+                        "dice": "27 (5d10)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "13 (2d12)",
+                        "damage": {
+                            "index": "thunder",
+                            "type": "THUNDER",
+                            "name": "Thunder"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "The hellfire engine uses one of the following options:\nBonemelt Sprayer: The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.\nLightning Flail: Melee Weapon Attack: +11 to hit, reach 15 ft., one creature. Hit: 18 (3d8 + 5) bludgeoning damage plus 22 (5d8) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a DC 20 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one.\nThunder Cannon: The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a DC 20 Dexterity saving throw, taking 27 (5d10) bludgeoning damage plus 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.\nIf the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect.",
                 "name": "Hellfire Weapons",
@@ -16248,7 +16514,24 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "10 (2d6+3)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "22 (4d10)",
+                        "damage": {
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is frightened it takes an additional 22 (4d10) psychic damage. This attack ignores damage resistance.",
                 "name": "Rending Bite",
@@ -16557,9 +16840,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6",
+                        "dice": "15 (2d6+8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -16586,9 +16877,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+8",
+                        "dice": "17 (2d8+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -16601,9 +16892,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+8",
+                        "dice": "15 (2d6+8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -16616,9 +16907,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+8",
+                        "dice": "19 (2d10+8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -16645,9 +16936,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -16918,9 +17209,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+5",
+                        "dice": "14 (2d8+5)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -16933,9 +17224,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+5",
+                        "dice": "16 (2d10+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -16948,9 +17239,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6",
+                        "dice": "6",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -17117,7 +17408,24 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d6+3)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "13 (3d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
                 "attack_bonus": 5,
                 "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:\n1. Poison Damage: The target takes 13 (3d8) poison damage.\n2. Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.\n3. Paralysis: The target is paralyzed until the end of its next turn.",
                 "name": "Bite",
@@ -17429,13 +17737,31 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "21 (4d6+7)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
                 "attack_bonus": 14,
                 "description": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) acid damage. Any creature killed by this attack is drawn into Juiblex's body, and the corpse is obliterated after 1 minute.",
                 "name": "Acid Lash"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "55 (10d10)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent −1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent −1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to −5, the object is destroyed.",
                 "name": "Eject Slime (Recharge 5-6)",
@@ -17464,9 +17790,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+7",
+                        "dice": "21 (4d6+7)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -17600,9 +17926,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -17615,9 +17941,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -17630,9 +17956,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10",
+                        "dice": "22 (4d10)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -17840,17 +18166,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+10",
+                        "dice": "15 (1d10+10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -17863,17 +18189,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+10",
+                        "dice": "16 (1d12+10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d12",
+                        "dice": "6 (1d12)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -17886,9 +18212,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d10",
+                        "dice": "33 (6d10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "27 (5d10)",
+                        "damage": {
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -18023,17 +18357,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -18259,13 +18593,31 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "60",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit: 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller.",
                 "name": "Unerring Slam"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "45",
+                        "damage": {
+                            "index": "radiant",
+                            "type": "RADIANT",
+                            "name": "Radiant"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a DC 20 Wisdom saving throw or be stunned until the end of the marut's next turn.",
                 "name": "Blazing Edict (Recharge 5-6)",
@@ -18464,13 +18816,31 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "14 (2d10+3)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage. If the target is a humanoid, its Charisma score is reduced by 1d4. This reduction lasts until the target finishes a short or long rest. The target dies if this reduces its Charisma to 0. It rises 24 hours later as a ghoul, unless it has been revived or its corpse has been destroyed.",
                 "name": "Bite"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "12 (2d8+3)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 12 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "name": "Claws",
@@ -18589,17 +18959,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -18619,17 +18989,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -18786,9 +19156,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -18801,9 +19171,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -19072,9 +19442,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+3",
+                        "dice": "8 (2d4+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -19378,9 +19748,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+8",
+                        "dice": "26 (4d8+8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -19393,9 +19763,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+8",
+                        "dice": "17 (2d8+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -19408,11 +19778,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+8",
+                        "dice": "13 (2d4+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "11 (2d10)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
                         }
                     }
                 ],
@@ -19430,9 +19808,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d10",
+                        "dice": "27 (5d10)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -19738,9 +20116,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "8",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "20 (2d10+9)",
+                        "damage": {
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -19753,9 +20139,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+9",
+                        "dice": "16 (2d6+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -19768,9 +20154,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+9",
+                        "dice": "12 (1d6+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -19979,9 +20365,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+6",
+                        "dice": "17 (2d10+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -19994,9 +20380,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d12+6",
+                        "dice": "32 (4d12+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -20379,9 +20765,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+2",
+                        "dice": "9 (2d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -20568,11 +20954,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+5",
+                        "dice": "11 (1d12+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "16 (3d10)",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
                         }
                     }
                 ],
@@ -20834,9 +21228,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "the",
+                        "dice": "28 (5d8+6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -20856,9 +21250,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d12",
+                        "dice": "26 (4d12)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -21050,9 +21444,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -21208,9 +21602,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -21223,17 +21617,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -21253,9 +21647,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d6",
+                        "dice": "17 (5d6)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -21396,17 +21790,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d4",
+                        "dice": "2 (1d4)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -21499,9 +21893,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21514,9 +21908,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21611,9 +22005,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+4",
+                        "dice": "9 (2d4+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21626,9 +22020,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+1",
+                        "dice": "17 (3d10+1)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -21716,9 +22110,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+4",
+                        "dice": "9 (2d4+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21731,9 +22125,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21760,9 +22154,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -21869,9 +22263,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -22133,17 +22527,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d6+4",
+                        "dice": "14 (3d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d10",
+                        "dice": "22 (4d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -22470,17 +22864,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+8",
+                        "dice": "21 (3d8+8)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d12",
+                        "dice": "13 (2d12)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -22493,17 +22887,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8+8",
+                        "dice": "21 (3d8+8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -22728,17 +23122,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+6",
+                        "dice": "11 (2d4+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d10",
+                        "dice": "22 (4d10)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -22765,11 +23159,43 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+3",
+                        "dice": "14 (2d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "17 (5d6)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "radiant",
+                            "type": "RADIANT",
+                            "name": "Radiant"
+                        }
+                    },
+                    {
+                        "dice": "13 (2d12)",
+                        "damage": {
+                            "index": "thunder",
+                            "type": "THUNDER",
+                            "name": "Thunder"
+                        }
+                    },
+                    {
+                        "dice": "22 (4d10)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
                         }
                     }
                 ],
@@ -23017,9 +23443,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10",
+                        "dice": "15 (2d6+8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -23032,9 +23466,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+8",
+                        "dice": "17 (2d8+8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -23237,9 +23671,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+6",
+                        "dice": "10 (1d8+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -23252,9 +23686,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+6",
+                        "dice": "17 (2d10+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -23267,17 +23701,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+6",
+                        "dice": "22 (3d10+6)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "7d10",
+                        "dice": "38 (7d10)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -23544,9 +23978,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+6",
+                        "dice": "15 (2d8+6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -23557,7 +23991,16 @@
                 "name": "Foreleg"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "27 (5d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "The retriever targets one creature it can see within 60 feet of it. The target must make a DC 16 Dexterity saving throw, taking 27 (5d10) force damage on a failed save, or half as much damage on a successful one.",
                 "name": "Force Beam",
@@ -23690,17 +24133,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -23713,17 +24156,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -23871,7 +24314,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "12 (3d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    }
+                ],
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned. At the end of each long rest, the poisoned target can repeat the saving throw, ending the effect on itself on a success. If the target is reduced to 0 hit points while poisoned in this way, it dies and instantly transforms into a living abyssal wretch. The transformation of the body can be undone only by a wish spell. (See notes)",
                 "name": "Bite",
@@ -24076,9 +24528,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d12+4",
+                        "dice": "43 (6d12+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -24091,9 +24543,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d10+4",
+                        "dice": "37 (6d10+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -24237,11 +24689,19 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "22 (4d10)",
+                        "damage": {
+                            "index": "necrotic",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
                         }
                     }
                 ],
@@ -24506,9 +24966,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d12+7",
+                        "dice": "20 (2d12+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -24521,17 +24981,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -24544,9 +25004,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "10d6",
+                        "dice": "35 (10d6)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -24726,9 +25186,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "6 (1d4+4)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "7 (2d6)",
+                        "damage": {
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -25096,17 +25564,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "4d6",
+                        "dice": "14 (4d6)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -25365,17 +25833,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d4+3",
+                        "dice": "13 (4d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d12",
+                        "dice": "19 (3d12)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -25388,17 +25856,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "10d8",
+                        "dice": "45 (10d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "5d8",
+                        "dice": "22 (5d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -25604,9 +26072,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+3",
+                        "dice": "19 (3d10+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -25633,9 +26101,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+3",
+                        "dice": "14 (2d10+3)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -25841,35 +26309,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "1d10+2",
+                        "dice": "7 (1d10+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "1d8",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
                         }
                     }
                 ],
@@ -25880,17 +26340,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -25989,9 +26449,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d4+1",
+                        "dice": "6 (2d4+1)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -26140,9 +26600,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -26169,9 +26629,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+5",
+                        "dice": "14 (2d8+5)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -26410,9 +26870,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -26439,17 +26899,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d8",
+                        "dice": "22 (5d8)",
                         "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    },
-                    {
-                        "dice": "5d8",
-                        "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -26495,9 +26947,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -26663,9 +27115,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    },
+                    {
+                        "dice": "7 (2d6)",
+                        "damage": {
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -26840,35 +27300,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+6",
+                        "dice": "9 (1d6+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
                     },
                     {
-                        "dice": "1d8+6",
+                        "dice": "10 (1d8+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
-                        }
-                    },
-                    {
-                        "dice": "4d8",
-                        "damage": {
-                            "index": "PSYCHIC",
-                            "type": "PSYCHIC",
-                            "name": "Psychic"
                         }
                     }
                 ],
@@ -26893,9 +27345,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d10",
+                        "dice": "27 (5d10)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -26908,9 +27360,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d12",
+                        "dice": "39 (6d12)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
+                            "type": "PSYCHIC",
+                            "name": "Psychic"
+                        }
+                    },
+                    {
+                        "dice": "19 (3d12)",
+                        "damage": {
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -27142,9 +27602,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+7",
+                        "dice": "14 (2d6+7)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -27157,9 +27617,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+7",
+                        "dice": "16 (2d8+7)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -27172,9 +27632,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "5d10",
+                        "dice": "27 (5d10)",
                         "damage": {
-                            "index": "THUNDER",
+                            "index": "thunder",
                             "type": "THUNDER",
                             "name": "Thunder"
                         }
@@ -27321,17 +27781,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "2d10+3",
+                        "dice": "14 (2d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -27504,9 +27964,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -27671,35 +28131,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+4",
+                        "dice": "13 (2d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
                     },
                     {
-                        "dice": "2d10+4",
+                        "dice": "15 (2d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "1d8",
-                        "damage": {
-                            "index": "FIRE",
-                            "type": "FIRE",
-                            "name": "Fire"
                         }
                     }
                 ],
@@ -27710,17 +28162,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+5",
+                        "dice": "14 (2d8+5)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -27887,17 +28339,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -27910,9 +28362,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -28064,17 +28516,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -28087,9 +28539,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+1",
+                        "dice": "5 (1d8+1)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -28251,9 +28703,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d12+3",
+                        "dice": "16 (2d12+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -28373,17 +28825,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "3d8",
+                        "dice": "13 (3d8)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -28394,7 +28846,16 @@
                 "name": "Bite"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "18 (4d6+4)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Slashing"
+                        }
+                    }
+                ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16) and is restrained until the grapple ends. While grappling a creature, the Hungry can't attack with its claws.",
                 "name": "Claws",
@@ -28532,9 +28993,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+3",
+                        "dice": "21 (4d8+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -28554,9 +29015,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -28691,9 +29152,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d10+3",
+                        "dice": "14 (2d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -28706,17 +29167,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10+3",
+                        "dice": "25 (4d10+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "PSYCHIC",
+                            "index": "psychic",
                             "type": "PSYCHIC",
                             "name": "Psychic"
                         }
@@ -28854,17 +29315,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+1",
+                        "dice": "6 (1d10+1)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d10+1",
+                        "dice": "6 (1d10+1)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -29174,43 +29635,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "3d10",
+                        "dice": "16 (3d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
                     },
                     {
-                        "dice": "1d10+4",
+                        "dice": "9 (1d10+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "3d10",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    },
-                    {
-                        "dice": "the",
-                        "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
                         }
                     }
                 ],
@@ -29390,9 +29835,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+2",
+                        "dice": "4 (1d4+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -29405,17 +29850,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -29428,9 +29873,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -29627,9 +30072,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+2",
+                        "dice": "4 (1d4+2)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -29642,17 +30087,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+2",
+                        "dice": "5 (1d6+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "1d8+2",
+                        "dice": "6 (1d8+2)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -29875,17 +30320,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+3",
+                        "dice": "10 (2d6+3)",
                         "damage": {
-                            "index": "NECROTIC",
-                            "type": "NECROTIC",
-                            "name": "Necrotic"
-                        }
-                    },
-                    {
-                        "dice": "the",
-                        "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -30017,17 +30454,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -30047,17 +30484,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -30070,17 +30507,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6",
+                        "dice": "7 (2d6)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "4d8",
+                        "dice": "18 (4d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }
@@ -30284,9 +30721,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d12+4",
+                        "dice": "30 (4d12+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -30299,9 +30736,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d6+4",
+                        "dice": "18 (4d6+4)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -30314,9 +30751,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+4",
+                        "dice": "22 (4d8+4)",
                         "damage": {
-                            "index": "ACID",
+                            "index": "acid",
                             "type": "ACID",
                             "name": "Acid"
                         }
@@ -30481,17 +30918,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d6+4",
+                        "dice": "7 (1d6+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d8+4",
+                        "dice": "8 (1d8+4)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -30502,7 +30939,16 @@
                 "name": "Trident"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "cold",
+                            "type": "COLD",
+                            "name": "Cold"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn.",
                 "name": "Freezing Strikes (Recharge 6)"
@@ -30668,17 +31114,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "7 (1d8+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -30691,9 +31137,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+3",
+                        "dice": "8 (1d10+3)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -30706,17 +31152,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "1d6",
+                        "dice": "3 (1d6)",
                         "damage": {
-                            "index": "COLD",
+                            "index": "cold",
                             "type": "COLD",
                             "name": "Cold"
                         }
@@ -30904,17 +31350,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "1d10",
+                        "dice": "5 (1d10)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
@@ -30927,9 +31373,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d8",
+                        "dice": "4 (1d8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -31181,9 +31627,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8",
+                        "dice": "27 (6d8)",
                         "damage": {
-                            "index": "LIGHTNING",
+                            "index": "lightning",
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
@@ -31194,7 +31640,16 @@
                 "name": "Electrified Touch"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "23 (3d12+4)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 23 (3d12 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or is stunned until the end of the yagnoloth's next turn.",
                 "name": "Massive Arm",
@@ -31216,9 +31671,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "7d8+4",
+                        "dice": "36 (7d8+4)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -31490,7 +31945,16 @@
         ],
         "actions": [
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "13 (2d12)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "Yeenoghu makes three flail attacks. If an attack hits, he can cause it to create an additional effect of his choice or at random (each effect can be used only once per Multiattack):\n1. The attack deals an extra 13 (2d12) bludgeoning damage.\n2. The target must succeed on a DC 17 Constitution saving throw or be paralyzed until the start of Yeenoghu's next turn.\n3. The target must succeed on a DC 17 Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn.",
                 "name": "Multiattack",
@@ -31517,9 +31981,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d12+9",
+                        "dice": "15 (1d12+9)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -31532,9 +31996,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+9",
+                        "dice": "14 (1d10+9)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -31689,9 +32153,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d4+3",
+                        "dice": "5 (1d4+3)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -31918,9 +32382,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d8+10",
+                        "dice": "28 (4d8+10)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
@@ -31933,9 +32397,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "3d10+10",
+                        "dice": "26 (3d10+10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -31948,9 +32412,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d8+10",
+                        "dice": "31 (6d8+10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -31963,9 +32427,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "6d10",
+                        "dice": "33 (6d10)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
@@ -32294,35 +32758,27 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+8",
+                        "dice": "17 (2d8+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
                     },
                     {
-                        "dice": "8d8",
+                        "dice": "36 (8d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
                     },
                     {
-                        "dice": "2d10+8",
+                        "dice": "19 (2d10+8)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
-                        }
-                    },
-                    {
-                        "dice": "8d8",
-                        "damage": {
-                            "index": "FIRE",
-                            "type": "FIRE",
-                            "name": "Fire"
                         }
                     }
                 ],
@@ -32333,17 +32789,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d6+8",
+                        "dice": "15 (2d6+8)",
                         "damage": {
-                            "index": "PIERCING",
+                            "index": "piercing",
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
                     },
                     {
-                        "dice": "8d8",
+                        "dice": "36 (8d8)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -32356,9 +32812,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "8d10",
+                        "dice": "44 (8d10)",
                         "damage": {
-                            "index": "NECROTIC",
+                            "index": "necrotic",
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
@@ -32403,9 +32859,9 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "4d10",
+                        "dice": "22 (4d10)",
                         "damage": {
-                            "index": "FIRE",
+                            "index": "fire",
                             "type": "FIRE",
                             "name": "Fire"
                         }
@@ -32675,17 +33131,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "2d8+6",
+                        "dice": "15 (2d8+6)",
                         "damage": {
-                            "index": "BLUDGEONING",
+                            "index": "bludgeoning",
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
                     },
                     {
-                        "dice": "2d8",
+                        "dice": "9 (2d8)",
                         "damage": {
-                            "index": "POISON",
+                            "index": "poison",
                             "type": "POISON",
                             "name": "Poison"
                         }

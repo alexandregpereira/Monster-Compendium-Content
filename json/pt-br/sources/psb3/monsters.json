@@ -109,7 +109,7 @@
                 "attack_bonus": 5,
                 "damage_dices": [
                     {
-                        "dice": "2d6+4",
+                        "dice": "11 (2d6+4)",
                         "damage": {
                             "index": "slashing",
                             "type": "SLASHING",
@@ -124,7 +124,7 @@
                 "attack_bonus": 5,
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "6 (1d6+3)",
                         "damage": {
                             "index": "slashing",
                             "type": "SLASHING",
@@ -249,7 +249,7 @@
                 "attack_bonus": 5,
                 "damage_dices": [
                     {
-                        "dice": "1d12+3",
+                        "dice": "12 (1d12+3)",
                         "damage": {
                             "index": "slashing",
                             "type": "SLASHING",
@@ -389,7 +389,7 @@
                 "attack_bonus": 6,
                 "damage_dices": [
                     {
-                        "dice": "1d8+3",
+                        "dice": "8 (1d8+3)",
                         "damage": {
                             "index": "piercing",
                             "type": "PIERCING",
@@ -404,7 +404,7 @@
                 "attack_bonus": 6,
                 "damage_dices": [
                     {
-                        "dice": "1d6+3",
+                        "dice": "7 (1d6+3)",
                         "damage": {
                             "index": "piercing",
                             "type": "PIERCING",
@@ -903,7 +903,7 @@
                 "attack_bonus": 4,
                 "damage_dices": [
                     {
-                        "dice": "1d8+2",
+                        "dice": "2",
                         "damage": {
                             "index": "bludgeoning",
                             "type": "BLUDGEONING",
