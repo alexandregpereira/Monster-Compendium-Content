@@ -89,6 +89,7 @@ _PATTERN_TEMPLATES: dict[str, list[str]] = {
         _DICE_CORE + r"\s+(?:pontos\s+de\s+dano\s+)?(?P<type_word>{types})",           # main file format
         _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+|por\s+)?(?P<type_word>{types})",       # sources format
         _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+)?(?P<type_word1>{types})\s+ou\s+(?:de\s+)?(?P<type_word2>{types})",  # "22 (5d8) de dano radiante ou de fogo"
+        _DICE_CORE + r"\s+(?P<type_word1>{types})\s+ou\s+(?:de\s+)?(?P<type_word2>{types})",                         # "3 (1d6) elétrico ou trovejante"
     ],
     "es": [
         r"(?P<total>\d+)\s+de\s+daño\s+(?:de\s+|por\s+)?(?P<type_word>{types})",              # "1 de daño cortante"
