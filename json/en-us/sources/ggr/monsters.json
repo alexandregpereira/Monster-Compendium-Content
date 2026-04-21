@@ -5271,6 +5271,22 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
+                    },
+                    {
+                        "dice": "22 (5d8)",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Fire"
+                        }
+                    },
+                    {
+                        "dice": "22 (5d8)",
+                        "damage": {
+                            "index": "radiant",
+                            "type": "RADIANT",
+                            "name": "Radiant"
+                        }
                     }
                 ],
                 "attack_bonus": 10,

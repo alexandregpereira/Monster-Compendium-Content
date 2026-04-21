@@ -5218,6 +5218,14 @@
                             "type": "RADIANT",
                             "name": "Radiante"
                         }
+                    },
+                    {
+                        "dice": "22 (5d8)",
+                        "damage": {
+                            "index": "fire",
+                            "type": "FIRE",
+                            "name": "Ígneo"
+                        }
                     }
                 ],
                 "attack_bonus": 10,

@@ -14059,6 +14059,22 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
+                    },
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "lightning",
+                            "type": "LIGHTNING",
+                            "name": "Lightning"
+                        }
+                    },
+                    {
+                        "dice": "3 (1d6)",
+                        "damage": {
+                            "index": "thunder",
+                            "type": "THUNDER",
+                            "name": "Thunder"
+                        }
                     }
                 ],
                 "attack_bonus": 9,
