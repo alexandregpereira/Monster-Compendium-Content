@@ -82,15 +82,18 @@ _PATTERN_TEMPLATES: dict[str, list[str]] = {
     "en-us": [
         r"(?P<total>\d+)\s+(?P<type_word>{types})\s+damage",                           # "1 piercing damage"
         _DICE_CORE + r"\s+(?P<type_word>{types})\s+damage",
+        _DICE_CORE + r"\s+(?P<type_word1>{types})\s+or\s+(?P<type_word2>{types})\s+damage",  # "22 (5d8) fire or radiant damage"
     ],
     "pt-br": [
         r"(?P<total>\d+)\s+(?:de\s+dano\s+(?:de\s+|por\s+)?)?(?P<type_word>{types})", # "1 perfurante" / "1 de dano perfurante"
         _DICE_CORE + r"\s+(?:pontos\s+de\s+dano\s+)?(?P<type_word>{types})",           # main file format
         _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+|por\s+)?(?P<type_word>{types})",       # sources format
+        _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+)?(?P<type_word1>{types})\s+ou\s+(?:de\s+)?(?P<type_word2>{types})",  # "22 (5d8) de dano radiante ou de fogo"
     ],
     "es": [
         r"(?P<total>\d+)\s+de\s+daño\s+(?:de\s+|por\s+)?(?P<type_word>{types})",              # "1 de daño cortante"
         _DICE_CORE + r"\s+de\s+daño\s+(?:de\s+|por\s+)?(?P<type_word>{types})",
+        _DICE_CORE + r"\s+de\s+daño\s+(?:de\s+)?(?P<type_word1>{types})\s+o\s+(?:de\s+)?(?P<type_word2>{types})",  # "22 (5d8) de daño radiante o de fuego"
     ],
 }
 
@@ -121,27 +124,32 @@ def find_damage_dices(
         for m in pattern.finditer(description):
             total = m.group("total")
             formula = m.group("formula") if "formula" in pattern.groupindex else None
-            type_word = m.group("type_word").lower()
-
-            entry = damage_map.get(type_word)
-            if entry is None:
-                continue
-
-            index, damage_type, name = entry
             dice_str = f"{total} ({formula.replace(' ', '')})" if formula else total
-            key = (dice_str, index)
-            if key in seen:
-                continue
-            seen.add(key)
 
-            results.append({
-                "dice": dice_str,
-                "damage": {
-                    "index": index,
-                    "type": damage_type,
-                    "name": name,
-                },
-            })
+            if "type_word1" in pattern.groupindex:
+                type_words = [m.group("type_word1").lower(), m.group("type_word2").lower()]
+            else:
+                type_words = [m.group("type_word").lower()]
+
+            for type_word in type_words:
+                entry = damage_map.get(type_word)
+                if entry is None:
+                    continue
+
+                index, damage_type, name = entry
+                key = (dice_str, index)
+                if key in seen:
+                    continue
+                seen.add(key)
+
+                results.append({
+                    "dice": dice_str,
+                    "damage": {
+                        "index": index,
+                        "type": damage_type,
+                        "name": name,
+                    },
+                })
 
     return results
 
