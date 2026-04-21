@@ -3162,9 +3162,17 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "or",
+                        "dice": "3 (1d4+1)",
                         "damage": {
-                            "index": "SLASHING",
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    },
+                    {
+                        "dice": "3 (1d4+1)",
+                        "damage": {
+                            "index": "slashing",
                             "type": "SLASHING",
                             "name": "Slashing"
                         }

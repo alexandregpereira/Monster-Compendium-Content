@@ -3154,6 +3154,14 @@
                             "type": "BLUDGEONING",
                             "name": "Contundente"
                         }
+                    },
+                    {
+                        "dice": "3 (1d4+1)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
                     }
                 ],
                 "attack_bonus": 3,
