@@ -73,42 +73,25 @@ DAMAGE_MAPS: dict[str, dict[str, tuple[str, str, str]]] = {
     },
 }
 
-_DICE_CORE = r"(\d+)\s*\((\d+d\d+(?:\s*[+\-]\s*\d+)?)\)"
+_DICE_CORE = r"(?P<total>\d+)\s*\((?P<formula>\d+d\d+(?:\s*[+\-]\s*\d+)?)\)"
 
-# Patterns per language — each entry is a list of pattern templates.
-# The last capture group in every template must be the damage type word.
+# Patterns per language — each entry is a pattern template.
+# Named groups: total (required), formula (optional), type_word (required).
 # PT-BR sources use "de dano [de/por] TYPE"; the main file uses "[pontos de dano] TYPE".
-# ES sources are untranslated (English), so the EN "TYPE damage" pattern is a fallback.
 _PATTERN_TEMPLATES: dict[str, list[str]] = {
     "en-us": [
-        _DICE_CORE + r"\s+({types})\s+damage",
+        r"(?P<total>\d+)\s+(?P<type_word>{types})\s+damage",                           # "1 piercing damage"
+        _DICE_CORE + r"\s+(?P<type_word>{types})\s+damage",
     ],
     "pt-br": [
-        _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+|por\s+)?({types})",  # sources format
-        _DICE_CORE + r"\s+(?:pontos\s+de\s+dano\s+)?({types})",       # main file format
+        r"(?P<total>\d+)\s+(?:de\s+dano\s+(?:de\s+|por\s+)?)?(?P<type_word>{types})", # "1 perfurante" / "1 de dano perfurante"
+        _DICE_CORE + r"\s+(?:pontos\s+de\s+dano\s+)?(?P<type_word>{types})",           # main file format
+        _DICE_CORE + r"\s+de\s+dano\s+(?:de\s+|por\s+)?(?P<type_word>{types})",       # sources format
     ],
     "es": [
-        _DICE_CORE + r"\s+de\s+daño\s+(?:de\s+)?({types})",  # main ES file
-        _DICE_CORE + r"\s+({types_en})\s+damage",             # sources (untranslated EN)
+        r"(?P<total>\d+)\s+de\s+daño\s+(?:de\s+|por\s+)?(?P<type_word>{types})",              # "1 de daño cortante"
+        _DICE_CORE + r"\s+de\s+daño\s+(?:de\s+|por\s+)?(?P<type_word>{types})",
     ],
-}
-
-# Maps EN damage words → ES tuples, used as fallback for ES source files (untranslated EN text).
-# Canonical ES name per damage index is taken from the ES map.
-_ES_EN_FALLBACK: dict[str, tuple[str, str, str]] = {
-    "acid":        ("acid",        "ACID",        "Ácido"),
-    "bludgeoning": ("bludgeoning", "BLUDGEONING", "Contundente"),
-    "cold":        ("cold",        "COLD",        "Frío"),
-    "fire":        ("fire",        "FIRE",        "Fuego"),
-    "force":       ("force",       "FORCE",       "Fuerza"),
-    "lightning":   ("lightning",   "LIGHTNING",   "Rayo"),
-    "necrotic":    ("necrotic",    "NECROTIC",    "Necrótico"),
-    "piercing":    ("piercing",    "PIERCING",    "Perforante"),
-    "poison":      ("poison",      "POISON",      "Veneno"),
-    "psychic":     ("psychic",     "PSYCHIC",     "Psíquico"),
-    "radiant":     ("radiant",     "RADIANT",     "Radiante"),
-    "slashing":    ("slashing",    "SLASHING",    "Cortante"),
-    "thunder":     ("thunder",     "THUNDER",     "Trueno"),
 }
 
 
@@ -118,14 +101,7 @@ def _build_patterns(lang: str, damage_map: dict[str, tuple]) -> list[re.Pattern]
 
     patterns = []
     for template in _PATTERN_TEMPLATES[lang]:
-        if "{types_en}" in template:
-            en_words = sorted(DAMAGE_MAPS["en-us"].keys(), key=len, reverse=True)
-            types_en_alt = "|".join(re.escape(w) for w in en_words)
-            compiled = re.compile(
-                template.format(types_en=types_en_alt), re.IGNORECASE
-            )
-        else:
-            compiled = re.compile(template.format(types=types_alt), re.IGNORECASE)
+        compiled = re.compile(template.format(types=types_alt), re.IGNORECASE)
         patterns.append(compiled)
     return patterns
 
@@ -134,7 +110,6 @@ def find_damage_dices(
     description: str,
     damage_map: dict[str, tuple[str, str, str]],
     patterns: list[re.Pattern],
-    fallback_map: dict[str, tuple[str, str, str]] | None = None,
 ) -> list[dict]:
     if not description:
         return []
@@ -142,19 +117,18 @@ def find_damage_dices(
     results: list[dict] = []
     seen: set[tuple] = set()
 
-    for i, pattern in enumerate(patterns):
-        active_map = fallback_map if (fallback_map and i == len(patterns) - 1 and fallback_map is not damage_map) else damage_map
+    for pattern in patterns:
         for m in pattern.finditer(description):
-            total = m.group(1)
-            formula = m.group(2).replace(" ", "")
-            type_word = m.group(3).lower()
+            total = m.group("total")
+            formula = m.group("formula") if "formula" in pattern.groupindex else None
+            type_word = m.group("type_word").lower()
 
-            entry = active_map.get(type_word)
+            entry = damage_map.get(type_word)
             if entry is None:
                 continue
 
             index, damage_type, name = entry
-            dice_str = f"{total} ({formula})"
+            dice_str = f"{total} ({formula.replace(' ', '')})" if formula else total
             key = (dice_str, index)
             if key in seen:
                 continue
@@ -176,12 +150,11 @@ def process_actions(
     actions: list[dict],
     damage_map: dict[str, tuple[str, str, str]],
     patterns: list[re.Pattern],
-    fallback_map: dict[str, tuple[str, str, str]] | None = None,
 ) -> int:
     updated = 0
     for action in actions:
         desc = action.get("description") or ""
-        found = find_damage_dices(desc, damage_map, patterns, fallback_map)
+        found = find_damage_dices(desc, damage_map, patterns)
         if found:
             action["damage_dices"] = found
             updated += 1
@@ -217,8 +190,6 @@ def main() -> None:
     args = parse_args()
     damage_map = DAMAGE_MAPS[args.lang]
     patterns = _build_patterns(args.lang, damage_map)
-    # For ES sources that contain untranslated English text, map EN words → ES names.
-    fallback_map = _ES_EN_FALLBACK if args.lang == "es" else None
 
     with open(args.input, encoding="utf-8") as f:
         monsters: list[dict] = json.load(f)
@@ -226,10 +197,10 @@ def main() -> None:
     total_updated = 0
     for monster in monsters:
         total_updated += process_actions(
-            monster.get("actions", []), damage_map, patterns, fallback_map
+            monster.get("actions", []), damage_map, patterns
         )
         total_updated += process_actions(
-            monster.get("legendary_actions", []), damage_map, patterns, fallback_map
+            monster.get("legendary_actions", []), damage_map, patterns
         )
 
     output_path = args.output or args.input
