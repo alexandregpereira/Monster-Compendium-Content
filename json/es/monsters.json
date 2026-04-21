@@ -30600,6 +30600,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 4,
@@ -30840,6 +30848,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "21 (6d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -31644,6 +31660,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "21 (6d6)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
                     }
                 ],
                 "attack_bonus": 9,
@@ -31658,6 +31682,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "42 (12d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -31816,6 +31848,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "5 (2d4)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -35427,6 +35467,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "31 (7d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 7,
@@ -36972,7 +37020,16 @@
                 ]
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "56 (16d6)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "El tarrasque realiza un ataque de mordisco contra una criatura Grande o más pequeña que esté aferrando. Si el ataque impacta, la criatura es tragada, y el agarre termina. Mientras está tragada, la criatura está cegada y restringida, tiene cobertura total contra ataques y efectos que provengan del exterior del tarrasque, y recibe 56 (16d6) de daño por ácido al inicio de cada turno del tarrasque. Si el tarrasque recibe 60 o más de daño en un solo turno de una criatura en su interior, el tarrasque debe superar una tirada de salvación de Constitución de CD 20 al final de ese turno o regurgitar a todas las criaturas tragadas, que caen a prono en un espacio a menos de 3 metros [10 pies] del tarrasque. Si el tarrasque muere, una criatura tragada ya no está restringida por él y puede escapar del cadáver usando 9 metros [30 pies] de movimiento, saliendo a prono.",
                 "name": "Tragar"
@@ -38883,7 +38940,16 @@
                 "name": "Garras"
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "Una nube de esporas tóxicas de 4,5 metros [15 pies] de radio se expande desde el vrock. Las esporas rodean las esquinas. Cada criatura en esa área debe superar una tirada de salvación de Constitución de CD 14 o quedará envenenada. Mientras esté envenenada de esta manera, el objetivo no puede recuperar puntos de golpe y recibe 5 (1d10) de daño por veneno al inicio de cada uno de sus turnos. Una criatura puede repetir la tirada de salvación al final de cada uno de sus turnos, terminando el efecto sobre sí misma si tiene éxito. El veneno también acaba si se niega magia en el objetivo.",
                 "name": "Esporas (Recarga 6)"
@@ -42641,6 +42707,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "24 (7d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 7,
@@ -45203,9 +45277,9 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perforante"
                         }
                     }
                 ],
@@ -46851,13 +46925,13 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perforante"
                         }
                     },
                     {
-                        "dice": "3d4",
+                        "dice": "7 (3d4)",
                         "damage": {
                             "index": "poison",
                             "type": "POISON",
@@ -48685,6 +48759,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 6,
@@ -49087,6 +49169,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "9 (2d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 5,
@@ -49202,6 +49292,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -49450,6 +49548,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 4,
@@ -49664,6 +49770,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "7 (2d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -51161,6 +51275,14 @@
                             "type": "PIERCING",
                             "name": "Perforante"
                         }
+                    },
+                    {
+                        "dice": "5 (2d4)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
                     }
                 ],
                 "attack_bonus": 5,
@@ -52127,9 +52249,17 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "4 (1d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],
@@ -52309,6 +52439,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perforante"
+                        }
+                    },
+                    {
+                        "dice": "2 (1d4)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Veneno"
                         }
                     }
                 ],

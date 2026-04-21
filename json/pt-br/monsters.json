@@ -35666,7 +35666,7 @@
                         "damage": {
                             "index": "slashing",
                             "type": "SLASHING",
-                            "name": "Cortando"
+                            "name": "Cortante"
                         }
                     }
                 ],
@@ -45701,9 +45701,9 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
                         }
                     }
                 ],
@@ -47319,17 +47319,17 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
                         }
                     },
                     {
-                        "dice": "3d4",
+                        "dice": "7 (3d4)",
                         "damage": {
                             "index": "poison",
                             "type": "POISON",
-                            "name": "Veneno"
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -47817,6 +47817,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -48505,7 +48513,16 @@
                 ]
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "5 (2d4)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "A rã faz um ataque de mordida contra um alvo Pequeno ou menor que esteja agarrando. Se o ataque acertar, o alvo é engolido e o agarrão termina. O alvo engolido fica cegado e contido, tem cobertura total contra ataques e outros efeitos fora da rã, e sofre 5 (2d4) de dano ácido no início de cada turno da rã. A rã pode ter apenas um alvo engolido por vez. Se a rã morrer, uma criatura engolida não fica mais contida por ela e pode escapar do cadáver usando 1,5 m de movimento, saindo prostrada.",
                 "name": "Engolir"
@@ -49120,6 +49137,14 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
+                        }
                     }
                 ],
                 "attack_bonus": 6,
@@ -49525,6 +49550,14 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
+                    },
+                    {
+                        "dice": "9 (2d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
+                        }
                     }
                 ],
                 "attack_bonus": 5,
@@ -49654,6 +49687,14 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
+                    },
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
+                        }
                     }
                 ],
                 "attack_bonus": 4,
@@ -49668,7 +49709,16 @@
                 ]
             },
             {
-                "damage_dices": [],
+                "damage_dices": [
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "acid",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
                 "attack_bonus": null,
                 "description": "O sapo faz um ataque de mordida contra um alvo Médio ou menor que esteja agarrando. Se o ataque acertar, o alvo é engolido e o agarrão termina. O alvo engolido fica cegado e contido, tem cobertura total contra ataques e outros efeitos fora do sapo, e sofre 10 (3d6) de dano ácido no início de cada turno do sapo. O sapo pode ter apenas um alvo engolido por vez.\nSe o sapo morrer, uma criatura engolida não fica mais contida por ele e pode escapar do cadáver usando 1,5 m de movimento, saindo prostrada.",
                 "name": "Engolir"
@@ -49889,6 +49939,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "10 (3d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -50121,6 +50179,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "7 (2d6)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -51625,6 +51691,14 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
+                    },
+                    {
+                        "dice": "5 (2d4)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
+                        }
                     }
                 ],
                 "attack_bonus": 5,
@@ -52595,9 +52669,17 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Contundente"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "4 (1d8)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
                         }
                     }
                 ],
@@ -52782,6 +52864,14 @@
                             "index": "piercing",
                             "type": "PIERCING",
                             "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "2 (1d4)",
+                        "damage": {
+                            "index": "poison",
+                            "type": "POISON",
+                            "name": "Venenoso"
                         }
                     }
                 ],

@@ -46427,9 +46427,9 @@
                     {
                         "dice": "1",
                         "damage": {
-                            "index": "bludgeoning",
-                            "type": "BLUDGEONING",
-                            "name": "Bludgeoning"
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
                         }
                     }
                 ],
@@ -48087,6 +48087,14 @@
         "actions": [
             {
                 "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
                     {
                         "dice": "7 (3d4)",
                         "damage": {
@@ -52579,6 +52587,14 @@
             {
                 "damage_dices": [
                     {
+                        "dice": "1",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
                         "dice": "5 (2d4)",
                         "damage": {
                             "index": "poison",
@@ -53560,6 +53576,14 @@
             {
                 "damage_dices": [
                     {
+                        "dice": "1",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
                         "dice": "4 (1d8)",
                         "damage": {
                             "index": "poison",
@@ -53743,6 +53767,14 @@
         "actions": [
             {
                 "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
                     {
                         "dice": "2 (1d4)",
                         "damage": {
