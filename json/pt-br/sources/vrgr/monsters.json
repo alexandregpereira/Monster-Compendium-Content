@@ -67,10 +67,8 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
+        "saving_throws": [],
+        "skills": [],
         "damage_vulnerabilities": [
             {
                 "index": "poison",
@@ -78,10 +76,8 @@
                 "name": "Veneno"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -124,15 +120,13 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A planta faz três ataques Vine Lash.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 7,
                 "description": "Ataque com arma corpo a corpo: +7 para acertar, alcance 20 pés, um alvo. 11 (2d6 + 4) de dano cortante. Se o alvo for uma criatura, ela é agarrada (fuga 15). Até o agarrão terminar, o alvo está impedido. A planta tem quatro videiras, cada uma das quais pode agarrar um alvo.",
                 "name": "Vine Lash"
@@ -150,11 +144,27 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ataque com arma corpo a corpo: +7 para atingir, alcance 1,5 m, uma criatura Média ou menor agarrada pela planta. 22 (4d8 + 4) de dano de ácido, e o alvo é puxado para o espaço da planta e envolvido pelo casulo, e o agarrão termina. Enquanto envolvido, o alvo é contido e tem cobertura total contra ataques e efeitos originados fora do casulo. O alvo envolvido também deve ser bem sucedido imediatamente em um teste de resistência de Constituição 16 ou será atordoado pelas enzimas destruidoras da planta até que seja removido do casulo ou a planta morra. O alvo envelopado não precisa de ar e ganha 1 nível de exaustão para cada hora que passa no casulo. Se o alvo morrer enquanto estiver envolvido, ele emerge imediatamente do casulo como um podling vivo, vestindo ou carregando todo o equipamento da criatura original.\nComo uma ação, uma criatura a até 1,5 metro da planta do corpo que está fora do casulo pode abrir o casulo e puxar o alvo para longe com um teste bem-sucedido de 15 de Força. Se a planta morrer, o alvo não fica mais impedido e pode escapar do casulo gastando 3 metros de movimento, saindo caído. A planta tem uma vagem, que pode envolver uma criatura de cada vez.",
-                "name": "Cápsula Aprisionadora"
+                "name": "Cápsula Aprisionadora",
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    },
+                    {
+                        "index": "exhaustion",
+                        "type": "EXHAUSTION",
+                        "name": "Exaustão"
+                    },
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Caído"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -216,8 +226,7 @@
                 "modifier": -5
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-stealth",
@@ -225,8 +234,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -239,8 +247,7 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -274,8 +281,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O desossado faz dois ataques Slam. Se ambos os ataques atingirem uma criatura Grande ou menor, a criatura é agarrada (escape 13), e o desossado pode usar Abraço Esmagador.",
                 "name": "Multiataque"
@@ -296,15 +302,20 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O desossado envolve seu corpo ao redor de uma criatura Grande ou menor agarrada por ele. Enquanto o desossado estiver preso, o alvo ficará cego e incapaz de respirar. O alvo deve ter sucesso em um teste de resistência de Força 13 no início de cada um dos turnos do desossado ou sofrerá 5 (1d4 + 3) de dano de concussão. Se algo move o alvo, o desossado se move com ele. O desossado pode se desprender gastando 1,5 metro de seu movimento. Uma criatura, incluindo o alvo, pode usar sua ação para tentar separar o desossado e forçá-lo a se mover para o espaço desocupado mais próximo, fazendo isso com um teste bem-sucedido de 13 de Força. Quando o desossado morre, ele se desprende de qualquer criatura à qual esteja ligado.",
-                "name": "Abraço Esmagador"
+                "name": "Abraço Esmagador",
+                "conditions": [
+                    {
+                        "index": "blinded",
+                        "type": "BLINDED",
+                        "name": "Cego"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -372,8 +383,7 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-stealth",
@@ -381,12 +391,9 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -398,12 +405,10 @@
             "sentido de tremor 60 pés."
         ],
         "languages": "",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O caçador de carniça faz três ataques de Tentáculo. Se estiver anexado a uma criatura, pode substituir um ataque de tentáculo por explosão de larva, se disponível.",
                 "name": "Multiataque"
@@ -439,8 +444,7 @@
                 "name": "Explosão de Larvas (1/Dia)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -502,12 +506,9 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -520,8 +521,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -578,15 +578,20 @@
                 "name": "Agulha de Prata"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A carrionette tem como alvo uma criatura que ela pode ver a até 4,5 metros dela que é amaldiçoada por sua Agulha de Prata. A menos que o alvo esteja protegido por uma proteção contra o mal e o bem, ele deve ser bem sucedido em um teste de resistência de 12 Carisma ou terá sua consciência trocada pela carniça. A carniça ganha o controle do corpo do alvo, e o alvo fica inconsciente por 1 hora, após o que ganha o controle do corpo da carniça. Enquanto controla o corpo do alvo, a carniça retém seus valores de Inteligência, Sabedoria e Carisma. Caso contrário, ele usa as estatísticas do corpo controlado, mas não obtém acesso ao conhecimento, recursos de classe ou proficiências do alvo.\nSe o corpo da carniça for destruído, tanto a carniça quanto o alvo morrem. Um feitiço de proteção contra o mal e o bem lançado no corpo controlado expulsa a carniça e retorna a consciência de ambas as criaturas aos seus corpos originais. A troca também é desfeita se o corpo controlado sofrer dano da Agulha de Prata da carniça.",
-                "name": "Soul Swap"
+                "name": "Soul Swap",
+                "conditions": [
+                    {
+                        "index": "unconscious",
+                        "type": "UNCONSCIOUS",
+                        "name": "Inconsciente"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -654,12 +659,9 @@
                 "modifier": -4
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -667,10 +669,8 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -745,11 +745,17 @@
                 ],
                 "attack_bonus": 3,
                 "description": "Ataque com Arma Corpo a Corpo: +3 para acertar, alcance 1,5 m, um alvo. 3 (1d4 + 1) de dano perfurante, e o alvo deve passar em um teste de resistência de Constituição 10 ou será impedido quando começar a virar pedra. O alvo deve repetir o teste de resistência no final de seu próximo turno. Em um sucesso, o efeito termina. Em caso de falha, o alvo fica petrificado por 10 minutos.",
-                "name": "Mordida Petrificante (Somente Cabeça Petrificante)"
+                "name": "Mordida Petrificante (Somente Cabeça Petrificante)",
+                "conditions": [
+                    {
+                        "index": "petrified",
+                        "type": "PETRIFIED",
+                        "name": "Petrificado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -825,8 +831,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -844,8 +849,7 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -870,7 +874,14 @@
         "special_abilities": [
             {
                 "name": "Invocação Sem Cabeça (Recarrega após um Descanso Curto ou Longo)",
-                "desc": "Se o Dullahan for reduzido a 0 pontos de vida, ele não morre ou fica inconsciente. Em vez disso, recupera 97 pontos de vida. Além disso, invoca três caveiras, uma de cada tipo, em espaços desocupados a até 1,5 metro dele. As caveiras estão sob o controle do Dullahan e agem imediatamente após o Dullahan na ordem de iniciativa. Além disso, o Dullahan agora pode usar as opções na seção \"Ações Míticas\". Conceda a um grupo 5.900 XP adicionais (11.800 XP no total) por derrotar o Dullahan depois que ele usar a Invocação Sem Cabeça. "
+                "desc": "Se o Dullahan for reduzido a 0 pontos de vida, ele não morre ou fica inconsciente. Em vez disso, recupera 97 pontos de vida. Além disso, invoca três caveiras, uma de cada tipo, em espaços desocupados a até 1,5 metro dele. As caveiras estão sob o controle do Dullahan e agem imediatamente após o Dullahan na ordem de iniciativa. Além disso, o Dullahan agora pode usar as opções na seção \"Ações Míticas\". Conceda a um grupo 5.900 XP adicionais (11.800 XP no total) por derrotar o Dullahan depois que ele usar a Invocação Sem Cabeça. ",
+                "conditions": [
+                    {
+                        "index": "unconscious",
+                        "type": "UNCONSCIOUS",
+                        "name": "Inconsciente"
+                    }
+                ]
             },
             {
                 "name": "Resistência Lendária (2/dia)",
@@ -883,8 +894,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Dullahan faz dois ataques.",
                 "name": "Multiataque"
@@ -938,15 +948,13 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O Dullahan faz um ataque. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura à escolha do Dullahan a até 9 metros dele deve ser bem sucedida em um teste de resistência de Sabedoria 15 ou ficará com medo do Dullahan até o final de seu próximo turno. ",
                 "name": "Presença Aterradora (Custa 2 Ações)"
@@ -967,8 +975,7 @@
                 "name": "Head Hunt (custa 3 ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -1030,14 +1037,10 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "cold",
@@ -1131,8 +1134,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Elise faz dois ataques de pancada.",
                 "name": "Multiataque"
@@ -1153,8 +1155,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -1236,8 +1237,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -1377,8 +1377,7 @@
                 "name": "Ecos de Sofrimento"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -1480,8 +1479,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -1504,8 +1502,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -1534,8 +1531,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário faz três ataques.",
                 "name": "Multiataque"
@@ -1596,8 +1592,7 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário se teletransporta até 9 metros para um espaço desocupado que ele possa ver e faz um ataque. ",
                 "name": "Ataque"
@@ -1618,15 +1613,13 @@
                 "name": "Distorcer Espaço (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário libera uma onda psíquica. Cada criatura a até 9 metros do emissário deve ter sucesso em um teste de resistência de Sabedoria 23 ou sofrerá 32 (5d12) de dano psíquico. Além disso, todo feitiço termina em criaturas e objetos à escolha do emissário naquela área.",
                 "name": "Nuvem Mental (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -1688,24 +1681,17 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 30 pés."
         ],
         "languages": "entende comum, mas não pode falar",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
                 "damage_dices": [
@@ -1819,12 +1805,9 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -1841,8 +1824,7 @@
             "visão verdadeira 30 pés."
         ],
         "languages": "quaisquer três idiomas, telepatia 120 pés.",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O inquisidor lança uma das seguintes magias, sem necessidade de componentes e usando Carisma como habilidade de conjuração (resistência de magia 15):",
@@ -1917,8 +1899,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O inquisitor ataca duas vezes com sua Silver Longsword ou usa Mind Fire duas vezes.",
                 "name": "Multiataque"
@@ -1951,18 +1932,30 @@
                 ],
                 "attack_bonus": null,
                 "description": "O inquisidor tem como alvo uma criatura que possa ver a até 36 metros dela. O alvo deve ter sucesso em um teste de resistência de 15 de Inteligência ou sofrerá 17 (3d8 + 4) de dano psíquico e ficará atordoado até o início do próximo turno do inquisidor.",
-                "name": "Mind Fire"
+                "name": "Mind Fire",
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura à escolha do inquisidor que puder ver a até 18 metros dele deve ser bem-sucedida em um teste de resistência de Sabedoria 15 ou ficará enfeitiçada até o início do próximo turno do inquisidor. No turno do alvo enfeitiçado, o inquisidor pode controlar telepaticamente o movimento, a ação ou ambos do alvo. Quando controlado dessa forma, o alvo pode realizar apenas a ação de Ataque (o inquisidor escolhe o alvo) ou Correr.",
-                "name": "Comando do Inquisidor (Recarga 5-6)"
+                "name": "Comando do Inquisidor (Recarga 5-6)",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -2063,12 +2056,9 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2153,8 +2143,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O inquisitor ataca duas vezes com sua Silver Longsword. Depois de acertar ou errar um ataque, o inquisidor pode se teletransportar até 9 metros para um espaço desocupado que possa ver.",
                 "name": "Multiataque"
@@ -2175,8 +2164,7 @@
                 "name": "Espada longa prateada"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -2277,12 +2265,9 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2299,8 +2284,7 @@
             "visão verdadeira 30 pés."
         ],
         "languages": "quaisquer quatro idiomas, telepatia 120 pés.",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O inquisidor lança uma das seguintes magias, sem necessidade de componentes e usando Inteligência como habilidade de conjuração (resistência de magia 15):",
@@ -2363,15 +2347,13 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O inquisidor ataca duas vezes.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 7,
                 "description": "Ataque Mágico à Distância: +7 para acertar, alcance de 36 metros, um alvo. 22 (4d8 + 4) de dano de força, e se o alvo for uma criatura Grande ou menor, o inquisidor pode empurrá-lo até 3 metros de distância.",
                 "name": "Raio de Força"
@@ -2392,8 +2374,7 @@
                 "name": "Espada longa prateada"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura em uma esfera de 6 metros de raio centrada em um ponto que o inquisidor possa ver a até 36 metros dela deve ter sucesso em um teste de resistência de Constituição 15 ou receberá 31 (6d8 + 4) dano de força e ser derrubado e movido para o espaço desocupado mais próximo do centro da esfera. Objetos grandes e menores que não estão sendo usados ou carregados na esfera recebem automaticamente o dano e são movidos da mesma forma.",
                 "name": "Implodir (Recarga 4-6)"
@@ -2516,8 +2497,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -2560,10 +2540,8 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -2585,8 +2563,7 @@
                 "spells_by_group": [
                     {
                         "group": "1/dia cada",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "3/dia cada",
@@ -2616,8 +2593,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isolde faz dois ataques corpo a corpo ou usa seu Fire Ray duas vezes.",
                 "name": "Multiattack"
@@ -2669,15 +2645,20 @@
                 "name": "Raio de Fogo"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Um humanoide que Isolde possa ver a até 9 metros dele deve ter sucesso em um teste de resistência de 14 de Sabedoria ou ficará enfeitiçado magicamente por 1 dia. O alvo enfeitiçado obedece aos comandos falados de Isolde. Se o alvo sofrer algum dano de Isolde ou outra criatura ou receber um comando suicida de Isolde, o alvo pode repetir o teste de resistência, encerrando o efeito sobre si mesmo em caso de sucesso. Se o teste de resistência de um alvo for bem-sucedido, ou se o efeito terminar para ele, a criatura fica imune ao Feitiço Demoníaco de Isolde pelas próximas 24 horas.",
-                "name": "Charme Diabólico"
+                "name": "Charme Diabólico",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -2761,14 +2742,10 @@
                 "modifier": 5
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2820,8 +2797,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O jiangshi faz três ataques Slam e usa Consumir Energy.",
                 "name": "Multiataque"
@@ -2865,15 +2841,13 @@
                 "name": "Consumir Energia"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O jiangshi se transforma em uma Besta, um Humanoide ou um Morto-vivo que é Médio ou Pequeno ou volta à sua forma verdadeira. Suas estatísticas, exceto seu tamanho, são as mesmas em cada formulário. Qualquer equipamento que esteja usando ou carregando é absorvido ou suportado pela nova forma (a escolha do jiangshi). Ele volta à sua forma verdadeira se morrer.",
                 "name": "Alterar Forma"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -2975,8 +2949,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -2999,8 +2972,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3033,8 +3005,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário faz três ataques.",
                 "name": "Multiataque"
@@ -3078,8 +3049,7 @@
                 "name": "Orbe Psíquica"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário se transforma em uma criatura Pequena ou Média de sua escolha ou volta à sua forma verdadeira. Suas estatísticas, exceto seu tamanho, são as mesmas em cada formulário. Qualquer equipamento que esteja usando ou carregando não é transformado.",
                 "name": "Mudar de Forma"
@@ -3087,15 +3057,13 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário faz um ataque Psychic Orb. ",
                 "name": "Psychic Orb"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O emissário se teletransporta para um espaço desocupado que ele pode ver a até 9 metros dele e pode fazer um ataque de Boca Chicote. ",
                 "name": "Mandíbula de Teletransporte (Custa 2 Ações)"
@@ -3113,11 +3081,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O emissário tem como alvo uma criatura que possa ver a até 9 metros dela e chicoteia psiquicamente a mente dessa criatura. O alvo deve ter sucesso em um teste de resistência de Sabedoria 21 ou sofrerá 36 (8d8) de dano psíquico e ficará atordoado até o início de seu próximo turno.",
-                "name": "Açoite Psíquico (Custa 3 Ações)"
+                "name": "Açoite Psíquico (Custa 3 Ações)",
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -3208,12 +3182,9 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3246,8 +3217,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O loup garou faz dois ataques: dois com sua Espada Longa (forma humanóide) ou um com sua Mordida e um com suas Garras (lobo atroz ou forma híbrida).",
                 "name": "Multiataque"
@@ -3268,8 +3238,7 @@
                 "name": "Bite (Dire Wolf ou Hybrid Form Only)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Ataque com Arma Corpo a Corpo: +9 para acertar, alcance 1,5 m, um alvo. 11 (2d6 + 4) de dano cortante. Se o alvo for uma criatura, ele deve passar em um teste de resistência de Força 17 ou será derrubado.",
                 "name": "Garras (Apenas Lobo Dire ou Forma Híbrida)"
@@ -3300,29 +3269,25 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O loup garou faz um ataque de Garras (lobo atroz ou forma híbrida somente) ou um ataque de Espada Longa (somente forma humanóide). ",
                 "name": "Swipe"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O loup garou se move até sua velocidade sem provocar ataques de oportunidade, e pode fazer um ataque de Garras (lobo atroz ou forma híbrida apenas) ou um ataque de Espada Longa (somente forma humanóide) contra cada criatura pela qual ela passa. ",
                 "name": "Ataque Mauling (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O loup garou muda para a forma híbrida ou lobo atroz e então faz um ataque de Mordida.",
                 "name": "Mordida (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -3414,8 +3379,7 @@
                 "name": "Arcano"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -3428,8 +3392,7 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "blinded",
@@ -3506,8 +3469,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O necrichor faz dois ataques.",
                 "name": "Multiataque"
@@ -3525,7 +3487,14 @@
                 ],
                 "attack_bonus": 5,
                 "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 3 metros, um alvo. 5 (1d6 + 2) de dano necrótico, e o alvo deve ter sucesso em um teste de resistência de Constituição 14 ou ficará paralisado até o início do próximo turno do necrichor.",
-                "name": "Pseudópode"
+                "name": "Pseudópode",
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -3543,15 +3512,13 @@
                 "name": "Seta Necrótica"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O necrichor tem como alvo uma criatura que ele possa ver a até 1,5 metro dele e que não tenha nenhum de seus pontos de vida. Se o alvo não for um Construto ou um Morto-vivo, ele deve passar em um teste de resistência de Constituição 14 ou o necrichor entra no espaço do alvo e se prende ao alvo por 1 minuto. Enquanto estiver conectado, o necrichor recebe apenas metade do dano causado a ele (arredondado para baixo) e o alvo recebe o dano restante. O necrichor pode ser anexado a apenas uma criatura por vez.\nO necrichor anexado pode controlar telepaticamente o movimento, a ação ou ambos do alvo. Quando controlado dessa forma, o alvo pode realizar apenas a ação de Ataque (necrichor escolhe o alvo) ou a ação de Correr. O alvo anexado pode repetir o teste de resistência no final de cada um de seus turnos, desprendendo-se do necrichor e forçando-o a se mover para o espaço desocupado mais próximo em caso de sucesso.",
                 "name": "Manipulação de Marionetes de Sangue (Recarga 6)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -3642,8 +3609,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -3651,8 +3617,7 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3689,8 +3654,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O nosferatu faz dois ataques de Garra seguidos por um ataque de Mordida. Se ambos os ataques de garra atingirem a mesma criatura, o ataque de mordida é feito com vantagem.",
                 "name": "Multiataque"
@@ -3749,8 +3713,7 @@
                 "name": "Expulsão de Sangue (Recarga 5-6)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -3812,16 +3775,11 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3865,8 +3823,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -3945,14 +3902,10 @@
                 "modifier": 3
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -3972,8 +3925,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O sacerdote ataca duas vezes.",
                 "name": "Multiataque"
@@ -3991,7 +3943,14 @@
                 ],
                 "attack_bonus": 5,
                 "description": "Ataque com arma corpo a corpo: +5 para atingir, alcance 1,5 m, um alvo. 7 (2d4 + 2) de dano perfurante e, se o alvo for uma criatura, fica paralisado até o início do próximo turno do sacerdote. Se este dano reduzir uma criatura Média ou menor a 0 pontos de vida, a criatura morre e sua alma fica presa no corpo do sacerdote, manifestando-se como uma tatuagem de alma sombria no sacerdote. A alma é libertada se o sacerdote morrer.",
-                "name": "Soul Blade"
+                "name": "Soul Blade",
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -4009,8 +3968,7 @@
                 "name": "Seta Necrótica"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -4101,12 +4059,9 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -4144,8 +4099,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O rolo compressor faz dois ataques. Ele pode substituir um ataque por Modelagem Mortal se estiver pronto.",
                 "name": "Multiataque"
@@ -4181,8 +4135,7 @@
                 "name": "Punho"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O rolo compressor molda magicamente uma característica de seus arredores em um implemento mortal. Uma criatura que o rolo compressor possa ver a até 18 metros dele deve fazer um teste de resistência de Destreza 18. Se o teste de resistência falhar, a criatura alvo é atingida por um dos seguintes (à escolha do rolo compressor):",
                 "name": "Modelagem Mortal (Recarga 5-6)"
@@ -4200,7 +4153,14 @@
                 ],
                 "attack_bonus": null,
                 "description": "O alvo sofre 22 (5d8) de dano de concussão e fica incapacitado até o início do próximo turno do rolo compressor, e o implemento desaparece.",
-                "name": "Pedra Voadora"
+                "name": "Pedra Voadora",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -4243,15 +4203,13 @@
                 "name": "Avanço Implacável"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O rolo compressor recarrega a Moldagem Mortal e a usa.",
                 "name": "Moldagem Rápida (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -4352,12 +4310,9 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -4386,8 +4341,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O slasher faz dois ataques Slasher's Knife.",
                 "name": "Multiataque"
@@ -4433,15 +4387,13 @@
                 "name": "Slice"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O slasher faz um ataque com Slasher's Knife. Após o ataque acertar ou errar, o slasher pode se teletransportar até 9 metros para um espaço desocupado que possa ver.",
                 "name": "Vanishing Strike (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -4538,8 +4490,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -4547,8 +4498,7 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -4573,8 +4523,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O strigoi faz um ataque de Garra e um ataque de Probóscide.",
                 "name": "Multiataque"
@@ -4634,15 +4583,13 @@
                 "name": "Probóscide"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O strigoi convoca magicamente 1d4 + 2 stirges (veja a entrada deles no Livro dos Monstros) em espaços desocupados que ele possa ver a até 9 metros dele. Os stirges estão sob o controle do strigoi e agem imediatamente após o strigoi na ordem de iniciativa. Os stirges desaparecem após 1 hora, quando o strigoi morre ou quando o strigoi os dispensa (nenhuma ação é necessária).",
                 "name": "Crianças Vorazes (1/Dia)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -4704,8 +4651,7 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -4713,8 +4659,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -4732,8 +4677,7 @@
                 "name": "Corte"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -4894,12 +4838,9 @@
                 "modifier": -5
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -4917,8 +4858,7 @@
                 "name": "Corte"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -5028,8 +4968,7 @@
                 "name": "Mordidas Vorazes"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -5097,12 +5036,9 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -5195,8 +5131,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O enxame faz um ataque Undead Mass e um ataque Grasping Limbs.",
                 "name": "Multiataque"
@@ -5248,8 +5183,7 @@
                 "name": "Membros Agarrados"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -5330,14 +5264,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -5362,8 +5292,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O horror realiza dois ataques de Membros.",
                 "name": "Multiataque"
@@ -5399,8 +5328,7 @@
                 "name": "Hex Blast (Recarga 5-6)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -5502,8 +5430,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -5516,8 +5443,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -5555,8 +5481,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O devorador de mentes faz dois ataques de Garra ou um ataque de Garra e um ataque de Tentáculos.",
                 "name": "Multiataque"
@@ -5628,11 +5553,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O devorador de mentes tem como alvo uma criatura que está agarrando. O alvo deve ter sucesso em um teste de resistência de Sabedoria 15 ou sofrerá 14 (4d6) de dano psíquico e ganhará 1 nível de exaustão. O devorador de mentes recupera um número de pontos de vida igual ao dano psíquico causado. Uma criatura reduzida a 0 pontos de vida pelo dano psíquico morre.",
-                "name": "Beba Sapiência"
+                "name": "Beba Sapiência",
+                "conditions": [
+                    {
+                        "index": "exhaustion",
+                        "type": "EXHAUSTION",
+                        "name": "Exaustão"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -5701,12 +5632,9 @@
                 "modifier": 6
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -5766,8 +5694,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O zumbi realiza dois ataques de pancada.",
                 "name": "Ataque múltiplo"
@@ -5803,8 +5730,7 @@
                 "name": "Flesh Entomb (Recarga 5-6)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"
@@ -5866,12 +5792,9 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -5923,8 +5846,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O espalhador de praga faz dois ataques Slam.",
                 "name": "Multiataque"
@@ -5968,8 +5890,7 @@
                 "name": "Miasma Virulento (1/Dia)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia de Van Richten para Ravenloft",
             "acronym": "VRGR"

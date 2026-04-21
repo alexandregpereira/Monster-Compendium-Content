@@ -206,6 +206,11 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Output file path (default: overwrite input file)",
     )
+    parser.add_argument(
+        "--conditions", "-c",
+        default=None,
+        help="Explicit path to conditions.json (overrides auto-derived path)",
+    )
     return parser.parse_args()
 
 
@@ -214,7 +219,7 @@ def main() -> None:
     ability_map = ABILITY_MAPS[args.lang]
     synonyms = CONDITION_SYNONYMS.get(args.lang, {})
 
-    conditions_path = derive_conditions_path(args.input, args.lang)
+    conditions_path = args.conditions or derive_conditions_path(args.input, args.lang)
     if not os.path.exists(conditions_path):
         print(f"ERROR: conditions.json not found at {conditions_path}", file=sys.stderr)
         sys.exit(1)

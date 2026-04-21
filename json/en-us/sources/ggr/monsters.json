@@ -55,8 +55,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -69,16 +68,11 @@
                 "name": "Survival"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -115,8 +109,7 @@
                 "name": "Spiked Club"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -207,8 +200,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -231,8 +223,7 @@
                 "name": "*from nonmagical attacks"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -261,7 +252,14 @@
             },
             {
                 "name": "Mount",
-                "desc": "If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount along with any equipment it is wearing or carrying. While mounted and not incapacitated, the archon can't be surprised, and both it and its mount gain advantage on Dexterity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well."
+                "desc": "If the archon isn't mounted, it can use a bonus action to magically teleport onto the creature serving as its mount, provided the archon and its mount are on the same plane of existence. When it teleports, the archon appears astride the mount along with any equipment it is wearing or carrying. While mounted and not incapacitated, the archon can't be surprised, and both it and its mount gain advantage on Dexterity saving throws. If the archon is reduced to 0 hit points while riding its mount, the mount is reduced to 0 hit points as well.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -291,8 +289,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The archon makes two Hammer of Justice attacks.",
                 "name": "Multiattack"
@@ -310,41 +307,71 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 18 (4d8) force damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.",
-                "name": "Hammer of Justice"
+                "name": "Hammer of Justice",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Each creature of the archon's choice that the archon can see within 120 feet of it must succeed on a DC 18 Wisdom saving throw, or else the target drops any weapons it is holding, ends its concentration on any spells or other effects, and becomes charmed by the archon for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the archon's Pacifying Presence for the next 24 hours.",
-                "name": "Pacifying Presence"
+                "name": "Pacifying Presence",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "If the archon isn't mounted, it magically teleports to its steed and mounts it as long as the archon and its steed are on the same plane of existence.",
                 "name": "Rejoin Mount"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The archon makes a Hammer of Justice attack, and then its mount can use its reaction to make a melee weapon attack.",
                 "name": "Smite (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The archon targets a creature it can see within 60 feet of it. The target must succeed on a DC 18 Charisma saving throw or be magically teleported to a harmless demiplane until the end of the archon's next turn, whereupon the target reappears in the space it left or the nearest unoccupied space if that space is occupied.",
-                "name": "Detention (Costs 3 Actions)"
+                "name": "Detention (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -419,10 +446,8 @@
                 "modifier": 10
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "thunder",
@@ -522,7 +547,14 @@
             },
             {
                 "name": "Crackling Death",
-                "desc": "When the arclight phoenix dies, it explodes. Each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The explosion destroys the phoenix but leaves behind a Tiny, warm egg with a mizzium shell. The egg contains the embryo of a new arclight phoenix. It hatches when it is in the area of a spell that deals lightning damage, or if a creature touches the egg and expends spell slots whose combined levels equal 13 or more. When it hatches, the egg releases a new arclight phoenix that appears in the egg's space."
+                "desc": "When the arclight phoenix dies, it explodes. Each creature within 30 feet of it must make a DC 18 Dexterity saving throw, taking 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The explosion destroys the phoenix but leaves behind a Tiny, warm egg with a mizzium shell. The egg contains the embryo of a new arclight phoenix. It hatches when it is in the area of a spell that deals lightning damage, or if a creature touches the egg and expends spell slots whose combined levels equal 13 or more. When it hatches, the egg releases a new arclight phoenix that appears in the egg's space.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
         "actions": [
@@ -547,11 +579,17 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 27 (6d8) lightning damage, and lightning jumps from the target to one creature of the phoenix's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 18 Dexterity saving throw or take 27 (6d8) lightning damage.",
-                "name": "Arclight Touch"
+                "name": "Arclight Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -648,8 +686,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -732,8 +769,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia makes three longsword attacks and uses Leadership.",
                 "name": "Multiattack"
@@ -770,8 +806,7 @@
                 "name": "Longsword"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia utters a few inspiring words to one creature she can see within 30 feet of her. If the creature can hear her, it can add a d10 to one attack roll or saving throw it makes before the start of Aurelia's next turn.",
                 "name": "Leadership"
@@ -794,25 +829,36 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia chooses up to three creatures she can see within 30 feet of her. If a chosen creature can see or hear Aurelia, it can immediately use its reaction to make one weapon attack, with advantage on the attack roll.",
                 "name": "Command Allies"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia makes one longsword attack.",
                 "name": "Longsword Attack (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia targets up to five creatures she can see within 30 feet of her. Each target must succeed on a DC 25 Wisdom saving throw or be frightened of her until the end of her next turn. Any target within 5 feet of Aurelia has disadvantage on the saving throw.",
-                "name": "Frighten Foes (Costs 3 Actions)"
+                "name": "Frighten Foes (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -916,8 +962,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "fire",
@@ -930,8 +975,7 @@
                 "name": "Radiant"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -966,8 +1010,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The angel makes two melee attacks. It also uses Battlefield Inspiration.",
                 "name": "Multiattack"
@@ -1004,15 +1047,13 @@
                 "name": "Longsword"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The angel chooses up to three creatures it can see within 30 feet of it. Until the end of the angel's next turn, each target can add a d4 to its attack rolls and saving throws.",
                 "name": "Battlefield Inspiration"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1098,16 +1139,11 @@
                 "name": "Nature"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
@@ -1339,8 +1375,7 @@
                 "name": "Scimitar"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1408,12 +1443,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -1502,7 +1534,14 @@
         "special_abilities": [
             {
                 "name": "Feed on Fire",
-                "desc": "If the weird takes fire damage from a spell or other magical effect, its size increases by one category. If there isn't enough room for the weird to increase in size, it attains the maximum size possible in the space available. While the weird is Large or bigger, it makes Strength checks and saving throws with advantage. If the weird starts its turn at Gargantuan size, the weird releases energy in an explosion. Each creature within 30 feet of the weird must make a DC 12 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren't being worn or carried. The weird's size then becomes Medium."
+                "desc": "If the weird takes fire damage from a spell or other magical effect, its size increases by one category. If there isn't enough room for the weird to increase in size, it attains the maximum size possible in the space available. While the weird is Large or bigger, it makes Strength checks and saving throws with advantage. If the weird starts its turn at Gargantuan size, the weird releases energy in an explosion. Each creature within 30 feet of the weird must make a DC 12 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren't being worn or carried. The weird's size then becomes Medium.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             },
             {
                 "name": "Form of Fire and Water",
@@ -1558,8 +1597,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -1661,8 +1699,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -1690,20 +1727,16 @@
                 "name": "*from nonmagical attacks"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
         "languages": "the languages it knew in life",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The vampire makes three melee attacks, only one of which can be a bite attack.",
                 "name": "Multiattack"
@@ -1729,7 +1762,36 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is humanoid, it must succeed on a DC 15 Charisma saving throw or be charmed by the vampire for 1 minute. While charmed in this way, the target is infatuated with the vampire. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
-                "name": "Bite"
+                "name": "Bite",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    },
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -1747,8 +1809,7 @@
                 "name": "Rapier"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. The vampire can also grapple the target (escape DC 14) if it is a creature and the vampire has a hand free.",
                 "name": "Unarmed Strike"
@@ -1855,8 +1916,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -1864,10 +1924,8 @@
                 "name": "Psychic"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 120 ft."
         ],
@@ -1875,7 +1933,14 @@
         "special_abilities": [
             {
                 "name": "Blood Witch Dance",
-                "desc": "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a DC 15 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice."
+                "desc": "The witch can use a bonus action to control the movement of one creature cursed by its hex spell that it can see within 30 feet of it. The creature must succeed on a DC 15 Charisma saving throw or use its reaction to move up to 30 feet in a direction of the witch's choice.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 15
+                    }
+                ]
             },
             {
                 "name": "Devil's Sight",
@@ -1949,8 +2014,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The witch makes two attacks: one with its longsword and one with its shortsword.",
                 "name": "Multiattack"
@@ -1986,8 +2050,7 @@
                 "name": "Shortsword"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2078,26 +2141,31 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Giant",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Melee Weapon Attack: +9 to hit, reach 20 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage. If the target is a creature, it is grappled (escape DC 17). Until the grapple ends, the target is restrained, and the giant can't use this attack on anyone else.",
-                "name": "Chain"
+                "name": "Chain",
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -2216,8 +2284,7 @@
                 "name": "Survival"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -2230,8 +2297,7 @@
                 "name": "Psychic"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2264,18 +2330,30 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos can use his Frightful Presence. He also makes two attacks: one with his maul and one with his stomp.",
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 13,
                 "description": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.",
-                "name": "Maul"
+                "name": "Maul",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 21
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -2308,38 +2386,80 @@
                 "name": "Rock"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Each creature of Borborygmos's choice that is within 60 feet of him and can see or hear him must succeed on a DC 17 Wisdom saving throw or become frightened of him for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Borborygmos's Frightful Presence for the next 24 hours.",
-                "name": "Frightful Presence"
+                "name": "Frightful Presence",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos makes a weapon attack.",
                 "name": "Attack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos yells menacingly at one creature he can see within 60 feet of him. That creature must succeed on a DC 17 Wisdom saving throw or become frightened of him for 1 minute. If the creature is already frightened, it becomes stunned instead. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Borborygmos's Bellow for the next 24 hours.",
-                "name": "Bellow (Costs 2 Actions)"
+                "name": "Bellow (Costs 2 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    },
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Stunned"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos moves up to half his speed and can move through the space of any creature smaller than Huge. The first time Borborygmos enters a creature's space during this move, the creature must make a DC 21 Dexterity saving throw. If the saving throw succeeds, the creature is pushed 5 feet away from Borborygmos. If the saving throw fails, that creature is knocked prone, and Borborygmos can make a stomp attack against it.",
-                "name": "Wide Berth (Costs 3 Actions)"
+                "name": "Wide Berth (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 21
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2401,8 +2521,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -2420,8 +2539,7 @@
                 "name": "Performance"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -2480,7 +2598,14 @@
         "special_abilities": [
             {
                 "name": "Last Laugh",
-                "desc": "When the cackler dies, it releases a dying laugh that scars the minds of other nearby creatures. Each creature within 10 feet of the cackler must succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage."
+                "desc": "When the cackler dies, it releases a dying laugh that scars the minds of other nearby creatures. Each creature within 10 feet of the cackler must succeed on a DC 11 Wisdom saving throw or take 2 (1d4) psychic damage.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 11
+                    }
+                ]
             },
             {
                 "name": "Mimicry",
@@ -2505,8 +2630,7 @@
                     },
                     {
                         "group": "1/day each",
-                        "spells": [
-                        ]
+                        "spells": []
                     }
                 ]
             }
@@ -2543,8 +2667,7 @@
                 "name": "Spiked Chain"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2606,20 +2729,13 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "",
         "special_abilities": [
             {
@@ -2629,8 +2745,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The krasis makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
@@ -2666,8 +2781,7 @@
                 "name": "Claws"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2729,20 +2843,13 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "",
         "special_abilities": [
             {
@@ -2752,8 +2859,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The krasis makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
@@ -2789,8 +2895,7 @@
                 "name": "Claws"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -2852,20 +2957,13 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "",
         "special_abilities": [
             {
@@ -2875,8 +2973,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The krasis makes three attacks: one with its bite, one with its claws, and one with its tail.",
                 "name": "Multiattack"
@@ -2912,15 +3009,27 @@
                 "name": "Claws"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 11,
                 "description": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 33 (6d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.",
-                "name": "Tail"
+                "name": "Tail",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 19
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3016,14 +3125,10 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -3105,18 +3210,30 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The dryad makes three attacks, using its vine staff, its longbow, or both.",
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Dexterity saving throw or become restrained by twisting vines for 1 minute. A target restrained in this way can use an action to make a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check, ending the effect on itself on a success.",
-                "name": "Vine Staff"
+                "name": "Vine Staff",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -3134,22 +3251,26 @@
                 "name": "Longbow"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The dryad magically summons a mount, which appears in an unoccupied space within 60 feet of the dryad. The mount remains for 8 hours, until it or the dryad dies, or until the dryad dismisses it as an action. The mount uses the stat block of an elk (see the Monster Manual) with these changes: it is a plant instead of a beast, it has an Intelligence of 6, and it understands Sylvan but can't speak. While within 1 mile of the mount, the dryad can communicate with it telepathically.",
                 "name": "Summon Mount (1/Day)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The dryad targets one magic item it can see within 120 feet of it. If the magic item isn't an artifact, its magical properties are suppressed for 10 minutes, until the dryad is incapacitated or dies, or until the dryad uses a bonus action to end the effect.",
-                "name": "Suppress Magic (Recharge 5-6)"
+                "name": "Suppress Magic (Recharge 5-6)",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3240,16 +3361,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -3328,8 +3444,7 @@
                 "name": "Warhammer"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3415,21 +3530,23 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
                 "name": "Counterflux Overcast (Recharge 5-6)",
-                "desc": "The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect: 1-3. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have disadvantage on saving throws against spells and other magical effects. 4-6. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have advantage on saving throws against spells and other magical effects."
+                "desc": "The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect: 1-3. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have disadvantage on saving throws against spells and other magical effects. 4-6. The blastseeker creates a 15-foot-radius invisible sphere centered on itself that lasts until the end of its next turn. Creatures in the sphere have advantage on saving throws against spells and other magical effects.",
+                "conditions": [
+                    {
+                        "index": "invisible",
+                        "type": "INVISIBLE",
+                        "name": "Invisible"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -3491,8 +3608,7 @@
                 "name": "Rapier"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3599,8 +3715,7 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -3633,8 +3748,7 @@
                 "name": "*from nonmagical attacks"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3659,7 +3773,14 @@
         "special_abilities": [
             {
                 "name": "Exploitation of the Debtors",
-                "desc": "As a bonus action, the angel targets a creature charmed by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt."
+                "desc": "As a bonus action, the angel targets a creature charmed by it that it can see within 30 feet of it. The angel deals 11 (2d10) necrotic damage to the target, and the angel gains temporary hit points equal to the damage dealt.",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
                 "name": "Flyby",
@@ -3719,8 +3840,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The angel makes two attacks with its scythe. It can substitute Chains of Obligation for one of these attacks.",
                 "name": "Multiattack"
@@ -3749,15 +3869,32 @@
                 "name": "Scythe"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The angel targets one creature charmed by it that it can see within 90 feet of it. The target must succeed on a DC 19 Charisma saving throw or become paralyzed for 1 minute or until it takes any damage.",
-                "name": "Chains of Obligation"
+                "name": "Chains of Obligation",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 19
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralyzed"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -3853,8 +3990,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -4114,20 +4250,32 @@
                 ],
                 "attack_bonus": 9,
                 "description": "Melee Spell Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution saving throw or be poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Noxious Touch"
+                "name": "Noxious Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Poisoned"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The lich casts one of its cantrips.",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The lich uses Noxious Touch.",
                 "name": "Noxious Touch (Costs 2 Actions)"
@@ -4145,11 +4293,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Each creature within 30 feet of the lich must make a DC 17 Constitution saving throw, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.",
-                "name": "Disrupt Life (Costs 3 Actions)"
+                "name": "Disrupt Life (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -4245,16 +4399,11 @@
                 "name": "Survival"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common, Druidic",
         "special_abilities": [
             {
@@ -4448,8 +4597,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -4540,14 +4688,10 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "truesight 120 ft."
         ],
@@ -4563,13 +4707,26 @@
             },
             {
                 "name": "Pounce",
-                "desc": "If the felidar moves at least 20 feet straight toward a creature and hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the felidar can make one claw attack against it as a bonus action."
+                "desc": "If the felidar moves at least 20 feet straight toward a creature and hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the felidar can make one claw attack against it as a bonus action.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The felidar makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
@@ -4605,8 +4762,7 @@
                 "name": "Claws"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -4692,19 +4848,13 @@
                 "name": "Religion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "The firefist is a 9th-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following cleric spells prepared:",
@@ -4829,8 +4979,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The firefist makes two greatsword attacks.",
                 "name": "Multiattack"
@@ -4953,8 +5102,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "fire",
@@ -4987,8 +5135,7 @@
                 "name": "*from nonmagical attacks"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -5031,8 +5178,7 @@
                 "spells_by_group": [
                     {
                         "group": "3/day each",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/day each",
@@ -5050,8 +5196,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The angel makes two melee attacks.",
                 "name": "Multiattack"
@@ -5088,8 +5233,7 @@
                 "name": "Longsword"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5175,21 +5319,23 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
                 "name": "Fluxbending Overcast (Recharge 5-6)",
-                "desc": "The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect: 1-3. The blastseeker teleports, swapping places with a creature it can see within 30 feet of it. 4-6. The blastseeker and each creature within 10 feet of it must succeed on a DC 16 Constitution saving throw or take 11 (2d10) thunder damage."
+                "desc": "The blastseeker can create an additional effect immediately after casting a spell. Roll a d6 to determine the effect: 1-3. The blastseeker teleports, swapping places with a creature it can see within 30 feet of it. 4-6. The blastseeker and each creature within 10 feet of it must succeed on a DC 16 Constitution saving throw or take 11 (2d10) thunder damage.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 16
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -5271,8 +5417,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5340,12 +5485,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "thunder",
@@ -5439,8 +5581,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The fluxcharger makes two slam attacks or uses Arc Lightning twice.",
                 "name": "Multiattack"
@@ -5481,11 +5622,17 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit: 16 (3d10) lightning damage, and lightning jumps from the target to one creature of the fluxcharger's choice that it can see within 30 feet of the target. That second creature must succeed on a DC 15 Dexterity saving throw or take 13 (3d8) lightning damage. Hit or Miss: The fluxcharger takes 5 (1d10) force damage after resolving the attack.",
-                "name": "Arc Lightning"
+                "name": "Arc Lightning",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 15
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5553,8 +5700,7 @@
                 "modifier": 3
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -5574,10 +5720,8 @@
                 "name": "Radiant"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -5592,7 +5736,14 @@
         "special_abilities": [
             {
                 "name": "Fear Frenzy",
-                "desc": "The horror has advantage on attack rolls against frightened creatures."
+                "desc": "The horror has advantage on attack rolls against frightened creatures.",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    }
+                ]
             },
             {
                 "name": "Sunlight Sensitivity",
@@ -5624,15 +5775,27 @@
                 "name": "Claws"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horror screeches. Each creature within 30 feet of it that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of it for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the horror's Frightening Screech for the next 24 hours.",
-                "name": "Frightening Screech (Recharge 5-6)"
+                "name": "Frightening Screech (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 13
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5694,8 +5857,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-medicine",
@@ -5708,19 +5870,13 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "The medic is a 3rd-level Boros spellcaster. Its spellcasting ability is Wisdom (spell save DC 11). The medic has the following cleric spells prepared:",
@@ -5811,8 +5967,7 @@
                 "name": "Spear"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -5898,8 +6053,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "lightning",
@@ -5912,12 +6066,9 @@
                 "name": "Thunder"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common and Primordial, plus any one language",
         "special_abilities": [
             {
@@ -6000,8 +6151,7 @@
                 "name": "Spear"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6063,12 +6213,9 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -6157,7 +6304,14 @@
         "special_abilities": [
             {
                 "name": "Death Burst",
-                "desc": "When the galvanice weird dies, it explodes in a burst of ice and lightning. Each creature within 10 feet of the exploding weird must make a DC 13 Dexterity saving throw, taking 7 (2d6) lightning damage on a failed save, or half as much damage on a successful one."
+                "desc": "When the galvanice weird dies, it explodes in a burst of ice and lightning. Each creature within 10 feet of the exploding weird must make a DC 13 Dexterity saving throw, taking 7 (2d6) lightning damage on a failed save, or half as much damage on a successful one.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
         "actions": [
@@ -6174,11 +6328,17 @@
                 ],
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 5 (2d4) lightning damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or lose the ability to use reactions until the start of the weird's next turn.",
-                "name": "Slam"
+                "name": "Slam",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6270,8 +6430,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -6348,8 +6507,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The gloamwing makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
@@ -6385,8 +6543,7 @@
                 "name": "Claws"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -6482,14 +6639,10 @@
                 "name": "Religion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -6497,7 +6650,14 @@
         "special_abilities": [
             {
                 "name": "Fey Ancestry",
-                "desc": "The shaman has advantage on saving throws against being charmed, and magic can't put it to sleep."
+                "desc": "The shaman has advantage on saving throws against being charmed, and magic can't put it to sleep.",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -6650,7 +6810,14 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d8) necrotic damage, and the target must make a DC 14 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one.",
-                "name": "Fungal Rot"
+                "name": "Fungal Rot",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 14
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -6744,16 +6911,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common, Giant",
         "special_abilities": [
             {
@@ -6763,8 +6925,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The giant makes three spear attacks.",
                 "name": "Multiattack"
@@ -6860,8 +7021,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-animal-handling",
@@ -6879,16 +7039,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
@@ -6923,8 +7078,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horncaller makes two melee attacks with its staff and uses One with the Worldsoul.",
                 "name": "Multiattack"
@@ -6953,15 +7107,13 @@
                 "name": "Staff"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horncaller chooses one beast it can see within 30 feet of it. If the beast can hear the horncaller, the beast uses its reaction to make one melee attack against a target that the horncaller can see.",
                 "name": "One with the Worldsoul"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7023,20 +7175,13 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
@@ -7046,8 +7191,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The hybrid makes two claw attacks.",
                 "name": "Multiattack"
@@ -7068,8 +7212,7 @@
                 "name": "Claw"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7137,12 +7280,9 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -7150,19 +7290,14 @@
                 "name": "Acid"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The hybrid makes two javelin attacks. It can replace one javelin attack with Spit Acid.",
                 "name": "Multiattack"
@@ -7198,8 +7333,7 @@
                 "name": "Spit Acid"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7290,10 +7424,8 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -7344,11 +7476,24 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. At the end of each of the poisoned target's turns, it must repeat the save, taking 3 (1d6) poison damage on a failed save, or ending the effect on itself on a successful one.",
-                "name": "Toxic Touch"
+                "name": "Toxic Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 12
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Poisoned"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7410,14 +7555,10 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "lightning",
@@ -7425,10 +7566,8 @@
                 "name": "Lightning"
             }
         ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
@@ -7442,8 +7581,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The hybrid makes two attacks: one with its shocking touch and one with its tentacles.",
                 "name": "Multiattack"
@@ -7476,11 +7614,17 @@
                 ],
                 "attack_bonus": 4,
                 "description": "Melee Weapon Attack: +4 to hit, reach 15 ft., one creature. Hit: The target is grappled (escape DC 11), and the hybrid pulls the target up to 15 feet straight toward it. Until this grapple ends, the target takes 5 (1d10) lightning damage at the start of each of its turns, and the hybrid shocker can't use its tentacles on another creature.",
-                "name": "Tentacles"
+                "name": "Tentacles",
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7548,8 +7692,7 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -7562,14 +7705,10 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -7586,8 +7725,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The hybrid makes two shortsword attacks.",
                 "name": "Multiattack"
@@ -7608,8 +7746,7 @@
                 "name": "Shortsword"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7677,12 +7814,9 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -7789,8 +7923,7 @@
                 "name": "Restrained"
             }
         ],
-        "senses": [
-        ],
+        "senses": [],
         "languages": "the languages it knew in life",
         "special_abilities": [
             {
@@ -7815,8 +7948,7 @@
                 "name": "Withering Touch"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -7928,10 +8060,8 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "psychic",
@@ -8223,8 +8353,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia makes two claw attacks. She can cast a spell with a casting time of 1 action in place of one claw attack.",
                 "name": "Multiattack"
@@ -8242,41 +8371,50 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) slashing damage. If the target is a creature, it must succeed on a DC 23 Wisdom saving throw or take 14 (4d6) psychic damage after each attack it makes against Isperia before the start of her next turn.",
-                "name": "Claw"
+                "name": "Claw",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 23
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia chooses up to three creatures she can see within 90 feet of her. Each target must succeed on a DC 23 Intelligence saving throw or Isperia chooses an action for that target: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The affected target can't take that action for 1 minute. At the end of each of the target's turns, it can end the effect on itself with a successful DC 23 Intelligence saving throw. A target that succeeds on the saving throw becomes immune to Isperia's Supreme Legal Authority for 24 hours.",
-                "name": "Supreme Legal Authority"
+                "name": "Supreme Legal Authority",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 23
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia makes one claw attack.",
                 "name": "Claw Attack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia casts a spell of 3rd level or lower from her list of prepared spells, using a spell slot as normal.",
                 "name": "Cast a Spell (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia uses Supreme Legal Authority.",
                 "name": "Supreme Legal Authority (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -8372,8 +8510,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -8641,8 +8778,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad makes two attacks: one with his Noxious Touch and one with his Staff of Svogthir. He can cast a spell with a casting time of 1 action in place of one of these attacks.",
                 "name": "Multiattack"
@@ -8660,7 +8796,21 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 28 (8d6) poison damage, and the target must succeed on a DC 20 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Noxious Touch"
+                "name": "Noxious Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Poisoned"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -8696,15 +8846,13 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad casts one of his cantrips.",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad uses Noxious Touch.",
                 "name": "Noxious Touch (Costs 2 Actions)"
@@ -8722,11 +8870,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Each creature within 30 feet of Jarad must make a DC 20 Constitution saving throw, taking 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one.",
-                "name": "Disrupt Life (Costs 3 Actions)"
+                "name": "Disrupt Life (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -8829,14 +8983,10 @@
                 "name": "Religion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -8844,15 +8994,41 @@
         "special_abilities": [
             {
                 "name": "Feed on Death",
-                "desc": "When a creature within 30 feet of the kraul drops to 0 hit points, the kraul or another creature of its choice within 30 feet of it gains 5 (1d10) temporary hit points, provided the kraul isn't incapacitated."
+                "desc": "When a creature within 30 feet of the kraul drops to 0 hit points, the kraul or another creature of its choice within 30 feet of it gains 5 (1d10) temporary hit points, provided the kraul isn't incapacitated.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             },
             {
                 "name": "Hive Mind",
-                "desc": "The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul."
+                "desc": "The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
                 "name": "Pack Tactics",
-                "desc": "The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                "desc": "The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             },
             {
                 "name": "Spider Climb",
@@ -8920,8 +9096,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The kraul makes one attack with its quarterstaff and casts one of its spells with a casting time of 1 action.",
                 "name": "Multiattack"
@@ -8950,8 +9125,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9019,18 +9193,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -9038,11 +9206,30 @@
         "special_abilities": [
             {
                 "name": "Hive Mind",
-                "desc": "The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul."
+                "desc": "The kraul is immune to the charmed and frightened conditions while within 30 feet of at least one other kraul.",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
                 "name": "Pack Tactics",
-                "desc": "The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                "desc": "The kraul has advantage on an attack roll against a creature if at least one of the kraul's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             },
             {
                 "name": "Spider Climb",
@@ -9074,8 +9261,7 @@
                 "name": "Spear"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9166,19 +9352,13 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "The lawmage is an 8th-level Azorius spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The lawmage has the following wizard spells prepared:",
@@ -9321,8 +9501,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9428,8 +9607,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -9473,7 +9651,14 @@
         "special_abilities": [
             {
                 "name": "Elusive",
-                "desc": "No attack roll has advantage against Lazav unless he is incapacitated."
+                "desc": "No attack roll has advantage against Lazav unless he is incapacitated.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             },
             {
                 "name": "Legendary Resistance (3/Day)",
@@ -9485,7 +9670,14 @@
             },
             {
                 "name": "Psychic Defenses",
-                "desc": "Unless Lazav is incapacitated, he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Lazav only if he allows it."
+                "desc": "Unless Lazav is incapacitated, he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Lazav only if he allows it.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -9549,8 +9741,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav makes three shortsword attacks.",
                 "name": "Multiattack"
@@ -9581,29 +9772,32 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav makes a weapon attack.",
                 "name": "Attack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav casts one of his innate spells.",
                 "name": "Cast a Spell (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav rapidly takes the form of several nightmarish creatures, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a DC 21 Dexterity saving throw or take 18 (4d8) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic.",
-                "name": "Shifting Nightmare (Costs 3 Actions)"
+                "name": "Shifting Nightmare (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 21
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9709,8 +9903,7 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -9769,7 +9962,14 @@
         "special_abilities": [
             {
                 "name": "Aura of Blood Lust",
-                "desc": "When any other creature starts its turn within 30 feet of the master, that creature must succeed on a DC 17 Wisdom saving throw, or it must immediately take the Attack action, making one melee attack against a random creature within reach. If no creatures are within reach, it makes a ranged attack against a random creature within range, throwing its weapon if necessary."
+                "desc": "When any other creature starts its turn within 30 feet of the master, that creature must succeed on a DC 17 Wisdom saving throw, or it must immediately take the Attack action, making one melee attack against a random creature within reach. If no creatures are within reach, it makes a ranged attack against a random creature within range, throwing its weapon if necessary.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ]
             },
             {
                 "name": "Feed on the Crowd",
@@ -9787,8 +9987,7 @@
                 "spells_by_group": [
                     {
                         "group": "At Will",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/day each",
@@ -9806,8 +10005,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The master makes two melee attacks with its spear.",
                 "name": "Multiattack"
@@ -9844,15 +10042,27 @@
                 "name": "Spear"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Each creature within 120 feet of the master must succeed on a DC 17 Wisdom saving throw or be charmed by the master for 1 hour. While charmed in this way, a creature's speed is 0. If the charmed creature takes damage, it can repeat the saving throw, ending the effect on itself on a success. A target that succeeds on the saving throw is immune to the Captivating Presence of all masters of cruelties for the next 24 hours.",
-                "name": "Captivating Presence (Recharge 6)"
+                "name": "Captivating Presence (Recharge 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -9959,8 +10169,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -9968,10 +10177,8 @@
                 "name": "Necrotic"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -10053,8 +10260,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The vampire makes two attacks, only one of which can be a bite attack.",
                 "name": "Multiattack"
@@ -10080,11 +10286,27 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.",
-                "name": "Bite"
+                "name": "Bite",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    },
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage. The vampire can also grapple the target (escape DC 13) if it is a creature and the vampire has a hand free.",
                 "name": "Unarmed Strike"
@@ -10102,11 +10324,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "The vampire targets a creature it can see within 30 feet of it. The target must make a DC 14 Intelligence saving throw, with disadvantage if the vampire has previously consumed the target's blood. On a failed save, the target takes 28 (8d6) psychic damage, and the vampire discerns the target's surface emotions and thoughts. On a successful save, the target takes half as much damage, and the vampire discerns the target's general emotional state but not its thoughts.",
-                "name": "Mind Siphon (Recharge 5-6)"
+                "name": "Mind Siphon (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 14
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -10202,16 +10430,11 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any four languages",
         "special_abilities": [
             {
@@ -10226,8 +10449,7 @@
                 "spells_by_group": [
                     {
                         "group": "At Will",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "3/day each",
@@ -10307,8 +10529,7 @@
                 "name": "Dagger"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -10399,8 +10620,7 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -10464,13 +10684,19 @@
         "special_abilities": [
             {
                 "name": "Mount",
-                "desc": "If the specter isn't mounted, it can use a bonus action to magically teleport onto its gloamwing mount, provided the specter and the gloamwing are on the same plane of existence. When it teleports, the specter appears astride the gloamwing along with any equipment it is wearing or carrying. While mounted and not incapacitated, the specter can't be surprised, and both it and its mount gain advantage on Dexterity saving throws."
+                "desc": "If the specter isn't mounted, it can use a bonus action to magically teleport onto its gloamwing mount, provided the specter and the gloamwing are on the same plane of existence. When it teleports, the specter appears astride the gloamwing along with any equipment it is wearing or carrying. While mounted and not incapacitated, the specter can't be surprised, and both it and its mount gain advantage on Dexterity saving throws.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The specter makes two scythe attacks.",
                 "name": "Multiattack"
@@ -10511,18 +10737,44 @@
                 ],
                 "attack_bonus": null,
                 "description": "The specter magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Wisdom saving throw or take 22 (5d8) psychic damage and be stunned for 1 minute. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Mind Twist (Recharge 5-6)"
+                "name": "Mind Twist (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Stunned"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The specter touches one incapacitated creature and chooses 1 hour from among the past 24. Unless the creature succeeds on a DC 15 Intelligence saving throw, the creature loses all memory of that hour. The creature regains the memory only if the specter dies within the next 24 hours.",
-                "name": "Reap Memory (3/Day)"
+                "name": "Reap Memory (3/Day)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitated"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -10630,8 +10882,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -10961,8 +11212,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet makes three attacks: one with his bite and two with his claws.",
                 "name": "Multiattack"
@@ -11033,20 +11283,25 @@
                 ],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet exhales fire in a 90-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.",
-                "name": "Fire Breath (Recharge 5-6)"
+                "name": "Fire Breath (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 25
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet casts one of his cantrips.",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet makes a tail attack.",
                 "name": "Tail Attack"
@@ -11064,18 +11319,30 @@
                 ],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet beats his wings. Each creature within 15 feet of him must succeed on a DC 25 Dexterity saving throw or take 14 (2d4 + 9) bludgeoning damage and be knocked prone. Niv-Mizzet can then fly up to half his flying speed.",
-                "name": "Wing Attack (Costs 2 Actions)"
+                "name": "Wing Attack (Costs 2 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet regains a spell slot of 3rd level or lower.",
                 "name": "Dracogenius (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -11149,12 +11416,9 @@
                 "modifier": 3
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -11211,8 +11475,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The cyclops makes two slam attacks.",
                 "name": "Multiattack"
@@ -11330,8 +11593,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -11440,7 +11702,14 @@
         "special_abilities": [
             {
                 "name": "Council of Five",
-                "desc": "The ghost has a trait based on who it is, as shown below:\nEnezesku: Enfeebling Ray.: Enezesku's Innate Spellcasting trait includes ray of enfeeblement, which he can cast at will.\nFautomni: Undead Fortitude.: If damage reduces Fautomni to 0 hit points, he must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, Fautomni drops to 1 hit point instead.\nKarlov: Unnatural Vigor.: When Karlov regains hit points, he has advantage on attack rolls he makes on his next turn.\nVuliev: Teleportation.: Vuliev's Innate Spellcasting trait includes misty step, which he can cast at will.\nXil Xaxosz: Lingering Spite.: When Xil Xaxosz is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic energy. Each creature within 5 feet of him must make a DC 16 Constitution saving throw, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one."
+                "desc": "The ghost has a trait based on who it is, as shown below:\nEnezesku: Enfeebling Ray.: Enezesku's Innate Spellcasting trait includes ray of enfeeblement, which he can cast at will.\nFautomni: Undead Fortitude.: If damage reduces Fautomni to 0 hit points, he must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, Fautomni drops to 1 hit point instead.\nKarlov: Unnatural Vigor.: When Karlov regains hit points, he has advantage on attack rolls he makes on his next turn.\nVuliev: Teleportation.: Vuliev's Innate Spellcasting trait includes misty step, which he can cast at will.\nXil Xaxosz: Lingering Spite.: When Xil Xaxosz is reduced to 0 hit points, his incorporeal form explodes in a burst of necrotic energy. Each creature within 5 feet of him must make a DC 16 Constitution saving throw, taking 14 (4d6) necrotic damage on a failed save, or half as much damage on a successful one.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 16
+                    }
+                ]
             },
             {
                 "name": "Ethereal Sight",
@@ -11462,8 +11731,7 @@
                 "spells_by_group": [
                     {
                         "group": "At Will",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/day each",
@@ -11493,11 +11761,17 @@
                 ],
                 "attack_bonus": 8,
                 "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 18 (4d8) necrotic damage, and the ghost regains hit points equal to half the amount of damage the target takes. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. The target dies if its hit point maximum is reduced to 0. This reduction to the target's hit point maximum lasts until the target finishes a long rest.",
-                "name": "Life Drain"
+                "name": "Life Drain",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 13
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The ghost summons the other four members of the Obzedat. At the start of the ghost's next turn, the other members appear in unoccupied spaces within 30 feet of the summoner. The ghosts each roll initiative when they appear.",
                 "name": "Convene the Ghost Council"
@@ -11505,22 +11779,26 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A target that all of the Obzedat ghosts can see must succeed on a DC 16 Wisdom saving throw or bow until the end of its next turn. Until this bow ends, the target can't take actions or reactions, and its speed is 0 and can't be increased.",
-                "name": "Forced Obedience"
+                "name": "Forced Obedience",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The Obzedat ghosts conjure 1d6 indentured spirits (described in this chapter) within 60 feet of one of them.",
                 "name": "Indentured Spirits (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -11599,16 +11877,11 @@
                 "modifier": 4
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -11621,15 +11894,13 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The giant makes two greataxe attacks.",
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage. If the Orzhov giant scores a critical hit, it rolls the damage dice three times, instead of twice.",
                 "name": "Greataxe"
@@ -11650,8 +11921,7 @@
                 "name": "Rock"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -11732,20 +12002,15 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "truesight 120 ft."
         ],
         "languages": "Common plus any one language",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "The mage's innate spellcasting ability is Intelligence (spell save DC 14). It can cast the following spells, requiring no material components:",
@@ -11825,7 +12090,21 @@
                 ],
                 "attack_bonus": null,
                 "description": "The mage targets one creature within 120 feet of it that it can see. The target takes 18 (4d8) psychic damage, and it must succeed on a DC 14 Intelligence saving throw or be stunned until the end of its next turn.",
-                "name": "Glimpse the Temporal Flood (Recharge 5-6)"
+                "name": "Glimpse the Temporal Flood (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 14
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Stunned"
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -11940,8 +12219,7 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -12010,7 +12288,21 @@
         "special_abilities": [
             {
                 "name": "Captivating Presence",
-                "desc": "Any creature that starts its turn within 30 feet of Rakdos must make a DC 25 Wisdom saving throw. On a failed save, the creature becomes charmed by Rakdos for 1 minute or until the creature is farther than 30 feet away from him. On a successful save, the creature becomes immune to Rakdos's Captivating Presence for 24 hours."
+                "desc": "Any creature that starts its turn within 30 feet of Rakdos must make a DC 25 Wisdom saving throw. On a failed save, the creature becomes charmed by Rakdos for 1 minute or until the creature is farther than 30 feet away from him. On a successful save, the creature becomes immune to Rakdos's Captivating Presence for 24 hours.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
                 "name": "Cruel Entertainment",
@@ -12050,8 +12342,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos makes two attacks with his Curtain-Call Scythe or his claws.",
                 "name": "Multiattack"
@@ -12097,29 +12388,46 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Each creature within 60 feet of Rakdos that is his ally or is charmed by him must use its reaction to move up to half its speed toward the creature closest to it that it can see, provided it isn't already within 5 feet of that creature. It then must make one melee attack against that creature if it is able to do so.",
-                "name": "Sadistic Revelry"
+                "name": "Sadistic Revelry",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos uses Curtain-Call Scythe.",
                 "name": "Scythe (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos makes a claw attack against one creature within 10 feet of him. The target must succeed on a DC 25 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the creature can't maintain concentration on a spell or any other effect that requires concentration. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "name": "Touch of Pain (Costs 3 Actions)"
+                "name": "Touch of Pain (Costs 3 Actions)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Poisoned"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -12181,8 +12489,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -12195,19 +12502,13 @@
                 "name": "Performance"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "The lampooner is a 4th-level Rakdos spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following bard spells:",
@@ -12296,8 +12597,7 @@
                 "name": "Club"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -12389,16 +12689,11 @@
                 "name": "Performance"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -12408,8 +12703,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The juggler makes three dagger attacks.",
                 "name": "Multiattack"
@@ -12430,8 +12724,7 @@
                 "name": "Dagger"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -12523,16 +12816,11 @@
                 "name": "Performance"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -12542,8 +12830,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The fire eater makes two attacks with its bladed chain.",
                 "name": "Multiattack"
@@ -12576,11 +12863,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "The fire eater exhales flames. Each creature in a 15-foot cone must make a DC 13 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.",
-                "name": "Spew Flame (Recharge 4-6)"
+                "name": "Spew Flame (Recharge 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -12672,16 +12965,11 @@
                 "name": "Performance"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -12691,8 +12979,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The acrobat makes two attacks with its barbed pole.",
                 "name": "Multiattack"
@@ -12713,8 +13000,7 @@
                 "name": "Barbed Pole"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -12776,8 +13062,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-arcana",
@@ -12795,16 +13080,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common plus any one language",
         "special_abilities": [
             {
@@ -12992,8 +13272,7 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -13011,16 +13290,11 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
@@ -13042,8 +13316,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The stalker makes three attacks with its shortsword.",
                 "name": "Multiattack"
@@ -13064,8 +13337,7 @@
                 "name": "Shortsword"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -13127,25 +13399,25 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
                 "name": "Explosive Tank",
-                "desc": "When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer."
+                "desc": "When the guard dies, or if it rolls a 1 when checking whether its Scorchbringer action recharges, the tank on its back explodes in a 10-foot radius sphere. Each creature in that area must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects that aren't being worn or carried, and it destroys the scorchbringer.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
         "actions": [
@@ -13177,11 +13449,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "The guard's scorchbringer spouts a stream of flame in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a DC 12 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.",
-                "name": "Scorchbringer (Recharge 4-6)"
+                "name": "Scorchbringer (Recharge 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -13243,14 +13521,10 @@
                 "modifier": -4
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -13274,8 +13548,7 @@
             "darkvision 60 ft."
         ],
         "languages": "understands Common but can't speak",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
                 "damage_dices": [
@@ -13360,8 +13633,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13381,10 +13653,8 @@
                 "name": "Radiant"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -13416,8 +13686,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horror makes three attacks: one with its bite and two with its claws.",
                 "name": "Multiattack"
@@ -13450,7 +13719,21 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) slashing damage, and the target must succeed on a DC 16 Wisdom saving throw or be frightened of the horror until the end of the target's next turn.",
-                "name": "Claw"
+                "name": "Claw",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -13465,11 +13748,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Each creature within 60 feet of the horror, except other horrors, must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage.",
-                "name": "Lashing Shadows (Recharge 5-6)"
+                "name": "Lashing Shadows (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 16
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -13537,8 +13826,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13546,16 +13834,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "Common, Merfolk",
         "special_abilities": [
             {
@@ -13588,8 +13871,7 @@
                 "name": "Spear"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -13685,8 +13967,7 @@
                 "name": "Intimidation"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -13745,7 +14026,14 @@
         "special_abilities": [
             {
                 "name": "Aura of Mind Erosion",
-                "desc": "Any creature that starts its turn within 30 feet of the sire must make a DC 18 Wisdom saving throw. On a successful save, the creature is immune to this aura for the next 24 hours. On a failed save, the creature has disadvantage for 1 minute on Wisdom and Charisma checks and on Wisdom and Charisma saves. At the start of each of its turns, the sire can suppress this aura until the start of its next turn."
+                "desc": "Any creature that starts its turn within 30 feet of the sire must make a DC 18 Wisdom saving throw. On a successful save, the creature is immune to this aura for the next 24 hours. On a failed save, the creature has disadvantage for 1 minute on Wisdom and Charisma checks and on Wisdom and Charisma saves. At the start of each of its turns, the sire can suppress this aura until the start of its next turn.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 18
+                    }
+                ]
             },
             {
                 "name": "Magic Resistance",
@@ -13802,8 +14090,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The sire makes two attacks: one with its bite and one with its claws.",
                 "name": "Multiattack"
@@ -13855,8 +14142,7 @@
                 "name": "Claws"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -13924,8 +14210,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13945,10 +14230,8 @@
                 "name": "Radiant"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -13972,8 +14255,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horror can use its Maddening Presence and make three attacks: one with its bite and two with its claws.",
                 "name": "Multiattack"
@@ -14009,15 +14291,27 @@
                 "name": "Claws"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The horror targets one creature it can see within 30 feet of it. If the target can see or hear the horror, the target must make a DC 17 Wisdom saving throw. On a failed saving throw, the target becomes paralyzed until the end of its next turn. If a creature's saving throw is successful, the creature is immune to the horror's Maddening Presence for the next 24 hours.",
-                "name": "Maddening Presence"
+                "name": "Maddening Presence",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralyzed"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14104,16 +14398,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "",
         "special_abilities": [
             {
@@ -14123,8 +14412,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The roc makes two attacks: one with its beak and one with its talons.",
                 "name": "Multiattack"
@@ -14160,8 +14448,7 @@
                 "name": "Talons"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14243,16 +14530,11 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "",
         "special_abilities": [
             {
@@ -14262,8 +14544,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The skyswimmer makes three attacks: one with its bite and two with its slam.",
                 "name": "Multiattack"
@@ -14281,7 +14562,36 @@
                 ],
                 "attack_bonus": 11,
                 "description": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or be swallowed by the skyswimmer. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the skyswimmer, and it takes 21 (6d6) acid damage at the start of each of the skyswimmer's turns. If the skyswimmer takes 30 damage or more on a single turn from the swallowed creature, the skyswimmer must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the skyswimmer. If the skyswimmer dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.",
-                "name": "Bite"
+                "name": "Bite",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 19
+                    },
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "blinded",
+                        "type": "BLINDED",
+                        "name": "Blinded"
+                    },
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -14299,8 +14609,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14362,8 +14671,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -14376,27 +14684,43 @@
                 "name": "Athletics"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
-        "senses": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [],
         "languages": "any one language (usually Common)",
         "special_abilities": [
             {
                 "name": "Formation Tactics",
-                "desc": "The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+                "desc": "The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally.",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Frightened"
+                    },
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Charmed"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The soldier makes two melee attacks.",
                 "name": "Multiattack"
@@ -14425,8 +14749,7 @@
                 "name": "Longsword"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14494,8 +14817,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-arcana",
@@ -14518,8 +14840,7 @@
                 "name": "Religion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -14693,8 +15014,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The sphinx makes two claw attacks.",
                 "name": "Multiattack"
@@ -14717,29 +15037,25 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The sphinx makes one claw attack.",
                 "name": "Claw Attack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.",
                 "name": "Teleport (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
                 "name": "Cast a Spell (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14830,14 +15146,10 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -14858,8 +15170,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The giant makes two slam attacks. The first of those attacks that hits deals an extra 18 (4d8) damage if the giant has taken damage since its last turn.",
                 "name": "Multiattack"
@@ -14880,15 +15191,27 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 10,
                 "description": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.",
-                "name": "Rock"
+                "name": "Rock",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -14950,8 +15273,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -14984,14 +15306,10 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 30 ft."
         ],
@@ -15052,8 +15370,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The thought spy makes two melee attacks, or it makes three ranged attacks with its daggers.",
                 "name": "Multiattack"
@@ -15089,8 +15406,7 @@
                 "name": "Rapier"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -15196,12 +15512,9 @@
                 "name": "Persuasion"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -15331,8 +15644,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani takes three actions: she uses Constrict and Touch of Order, and she casts a spell with a casting time of 1 action.",
                 "name": "Multiattack"
@@ -15350,7 +15662,19 @@
                 ],
                 "attack_bonus": 11,
                 "description": "Melee Weapon Attack: +11 to hit, reach 5 ft., one creature. Hit: 15 (3d6 + 5) bludgeoning damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained. Trostani can grapple no more than three targets at a time.",
-                "name": "Constrict"
+                "name": "Constrict",
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Grappled"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -15388,48 +15712,49 @@
                 ],
                 "attack_bonus": null,
                 "description": "Trostani conjures a momentary whirl of branches and vines at a point she can see within 60 feet of her. Each creature in a 30-foot cube on that point must make a DC 24 Dexterity saving throw, taking 21 (6d6) bludgeoning damage and 21 (6d6) slashing damage on a failed save, or half as much damage on a successful one.",
-                "name": "Wrath of Mat'Selesnya (Recharge 5-6)"
+                "name": "Wrath of Mat'Selesnya (Recharge 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 24
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani makes one melee attack, with advantage on the attack roll.",
                 "name": "Voice of Harmony"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani bestows 20 temporary hit points on another creature she can see within 120 feet of her.",
                 "name": "Voice of Life"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani casts dispel magic.",
                 "name": "Voice of Order"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani casts suggestion. This counts as one of her daily uses of the spell.",
                 "name": "Chorus of the Conclave (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani animates one or two trees she can see within 120 feet of her, causing them to uproot themselves and become awakened trees (see the Monster Manual for their stat blocks) for 1 minute or until Trostani uses a bonus action to end the effect. These trees understand Druidic and obey Trostani's spoken commands, but can't speak. If she issues no commands to them, the trees do nothing but follow her and take the Dodge action.",
                 "name": "Awaken Grove Guardians (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -15491,8 +15816,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -15515,14 +15839,10 @@
                 "name": "Stealth"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -15570,8 +15890,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The medusa makes two claw attacks. It can also use Petrifying Gaze before or after making these attacks.",
                 "name": "Multiattack"
@@ -15592,15 +15911,32 @@
                 "name": "Claw"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The medusa fixes its gaze on one creature within 60 feet of it that it can see and that can see its eyes. The target must make a DC 14 Constitution saving throw. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by a greater restoration spell or similar magic.",
-                "name": "Petrifying Gaze"
+                "name": "Petrifying Gaze",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 14
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "petrified",
+                        "type": "PETRIFIED",
+                        "name": "Petrified"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -15675,12 +16011,9 @@
                 "modifier": 4
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -15704,8 +16037,7 @@
             "darkvision 60 ft."
         ],
         "languages": "understands Common but can't speak",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
                 "damage_dices": [
@@ -15823,16 +16155,11 @@
                 "modifier": 6
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "blindsight 60 ft.",
             "tremorsense 60 ft."
@@ -15845,7 +16172,21 @@
             },
             {
                 "name": "Earth Tremors",
-                "desc": "The wurm creates earth tremors as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn must succeed on a DC 20 Dexterity saving throw or take 10 (3d6) bludgeoning damage and fall prone. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 (3d6) force damage."
+                "desc": "The wurm creates earth tremors as it moves overland or underground. Any creature that comes within 30 feet of the moving wurm for the first time on a turn must succeed on a DC 20 Dexterity saving throw or take 10 (3d6) bludgeoning damage and fall prone. Any structure or object anchored to the ground that comes within 30 feet of the moving wurm for the first time on a turn takes 10 (3d6) force damage.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 20
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             },
             {
                 "name": "Tunneler",
@@ -15866,11 +16207,39 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 24 (5d6 + 7) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 20 Dexterity saving throw or be swallowed by the wurm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the wurm, and takes 17 (5d6) acid damage at the start of each of the wurm's turns. If the wurm takes 30 damage or more on a single turn from a creature inside it, the wurm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the wurm. If the wurm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
-                "name": "Bite"
+                "name": "Bite",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 20
+                    },
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 21
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "restrained",
+                        "type": "RESTRAINED",
+                        "name": "Restrained"
+                    },
+                    {
+                        "index": "blinded",
+                        "type": "BLINDED",
+                        "name": "Blinded"
+                    },
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
@@ -15967,8 +16336,7 @@
                 "name": "Perception"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -15981,10 +16349,8 @@
                 "name": "Poison"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "darkvision 60 ft."
         ],
@@ -16210,7 +16576,14 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the trident emits a thunderous boom. Each creature in a 15-foot cube originating from the prongs of the trident must make a DC 18 Constitution saving throw. On a failed save, the creature takes 9 (2d8) thunder damage and is pushed 10 feet away from Zegana. If the creature is underwater, the damage is increased to 13 (3d8). On a successful save, the creature takes half as much damage and isn't pushed.",
-                "name": "Prime Speaker's Trident"
+                "name": "Prime Speaker's Trident",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 18
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -16225,41 +16598,50 @@
                 ],
                 "attack_bonus": null,
                 "description": "Zegana conjures a wave of water that crashes down on an area within 120 feet of her. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone. The water spreads out across the ground, extinguishing unprotected flames it comes in contact with, and then vanishes.",
-                "name": "Deluge (Recharge 4-6)"
+                "name": "Deluge (Recharge 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Prone"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana gains resistance to one damage type of her choice-acid, fire, lightning, or thunder-until the start of her next turn.",
                 "name": "Adaptive Skin"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana makes one melee attack with the Prime Speaker's Trident.",
                 "name": "Trident"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana casts enlarge/reduce on herself, using the enlarge option, without expending a spell slot.",
                 "name": "Enlarge (Costs 2 Actions)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana uses Deluge, if available.",
                 "name": "Deluge (Costs 3 Actions)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"

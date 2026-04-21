@@ -88,7 +88,9 @@
                 "name": "Intimidation"
             }
         ],
-        "senses": ["passive Perception 10"],
+        "senses": [
+            "passive Perception 10"
+        ],
         "languages": "Common, Elvish",
         "special_abilities": [
             {
@@ -226,7 +228,9 @@
                 "name": "Survival"
             }
         ],
-        "senses": ["passive Perception 13"],
+        "senses": [
+            "passive Perception 13"
+        ],
         "languages": "Common, Dwarvish",
         "special_abilities": [
             {
@@ -364,7 +368,9 @@
                 "name": "Stealth"
             }
         ],
-        "senses": ["passive Perception 14"],
+        "senses": [
+            "passive Perception 14"
+        ],
         "languages": "Common, Thieves' Cant",
         "special_abilities": [
             {
@@ -507,7 +513,9 @@
                 "name": "Religion"
             }
         ],
-        "senses": ["passive Perception 11"],
+        "senses": [
+            "passive Perception 11"
+        ],
         "languages": "Common, Elvish, Draconic",
         "special_abilities": [
             {
@@ -524,26 +532,76 @@
                     {
                         "group": "cantrips",
                         "spells": [
-                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
-                            {"index": "mage-hand", "name": "Mage Hand", "school": "CONJURATION", "level": 0},
-                            {"index": "prestidigitation", "name": "Prestidigitation", "school": "TRANSMUTATION", "level": 0},
-                            {"index": "ray-of-frost", "name": "Ray of Frost", "school": "EVOCATION", "level": 0}
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mage Hand",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
                         ]
                     },
                     {
                         "group": "1st level",
                         "spells": [
-                            {"index": "detect-magic", "name": "Detect Magic", "school": "DIVINATION", "level": 1},
-                            {"index": "magic-missile", "name": "Magic Missile", "school": "EVOCATION", "level": 1},
-                            {"index": "shield", "name": "Shield", "school": "ABJURATION", "level": 1},
-                            {"index": "sleep", "name": "Sleep", "school": "ENCHANTMENT", "level": 1}
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Magic Missile",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
                         ]
                     },
                     {
                         "group": "2nd level",
                         "spells": [
-                            {"index": "invisibility", "name": "Invisibility", "school": "ILLUSION", "level": 2},
-                            {"index": "misty-step", "name": "Misty Step", "school": "CONJURATION", "level": 2}
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibility",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
                         ]
                     }
                 ]
@@ -643,7 +701,9 @@
                 "name": "Persuasion"
             }
         ],
-        "senses": ["passive Perception 11"],
+        "senses": [
+            "passive Perception 11"
+        ],
         "languages": "Common, Draconic",
         "special_abilities": [
             {
@@ -664,25 +724,70 @@
                     {
                         "group": "cantrips",
                         "spells": [
-                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
-                            {"index": "prestidigitation", "name": "Prestidigitation", "school": "TRANSMUTATION", "level": 0},
-                            {"index": "ray-of-frost", "name": "Ray of Frost", "school": "EVOCATION", "level": 0},
-                            {"index": "shocking-grasp", "name": "Shocking Grasp", "school": "EVOCATION", "level": 0}
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitation",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Ray of Frost",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Shocking Grasp",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
                         ]
                     },
                     {
                         "group": "1st level",
                         "spells": [
-                            {"index": "burning-hands", "name": "Burning Hands", "school": "EVOCATION", "level": 1},
-                            {"index": "shield", "name": "Shield", "school": "ABJURATION", "level": 1},
-                            {"index": "sleep", "name": "Sleep", "school": "ENCHANTMENT", "level": 1}
+                            {
+                                "index": "burning-hands",
+                                "name": "Burning Hands",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Shield",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Sleep",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
                         ]
                     },
                     {
                         "group": "2nd level",
                         "spells": [
-                            {"index": "mirror-image", "name": "Mirror Image", "school": "ILLUSION", "level": 2},
-                            {"index": "scorching-ray", "name": "Scorching Ray", "school": "EVOCATION", "level": 2}
+                            {
+                                "index": "mirror-image",
+                                "name": "Mirror Image",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "scorching-ray",
+                                "name": "Scorching Ray",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
                         ]
                     }
                 ]
@@ -777,7 +882,9 @@
                 "name": "Religion"
             }
         ],
-        "senses": ["passive Perception 13"],
+        "senses": [
+            "passive Perception 13"
+        ],
         "languages": "Common, Celestial",
         "special_abilities": [
             {
@@ -814,30 +921,80 @@
                     {
                         "group": "cantrips",
                         "spells": [
-                            {"index": "guidance", "name": "Guidance", "school": "DIVINATION", "level": 0},
-                            {"index": "light", "name": "Light", "school": "EVOCATION", "level": 0},
-                            {"index": "sacred-flame", "name": "Sacred Flame", "school": "EVOCATION", "level": 0},
-                            {"index": "thaumaturgy", "name": "Thaumaturgy", "school": "TRANSMUTATION", "level": 0}
+                            {
+                                "index": "guidance",
+                                "name": "Guidance",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Sacred Flame",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Thaumaturgy",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
                         ]
                     },
                     {
                         "group": "1st level",
                         "spells": [
-                            {"index": "bless", "name": "Bless", "school": "ENCHANTMENT", "level": 1},
-                        {"index": "cure-wounds", "name": "Cure Wounds", "school": "EVOCATION", "level": 1},
-                        {"index": "detect-magic", "name": "Detect Magic", "school": "DIVINATION", "level": 1},
-                        {"index": "shield-of-faith", "name": "Shield of Faith", "school": "ABJURATION", "level": 1}
-                    ]
-                },
-                {
-                    "group": "2nd level",
-                    "spells": [
-                        {"index": "lesser-restoration", "name": "Lesser Restoration", "school": "ABJURATION", "level": 2},
-                        {"index": "spiritual-weapon", "name": "Spiritual Weapon", "school": "EVOCATION", "level": 2}
-                    ]
-                }
-            ]
-        }
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Cure Wounds",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detect Magic",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Shield of Faith",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2nd level",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Lesser Restoration",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Spiritual Weapon",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
         ],
         "reactions": [
             {

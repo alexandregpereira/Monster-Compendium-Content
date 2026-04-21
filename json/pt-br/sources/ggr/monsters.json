@@ -55,8 +55,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -69,14 +68,10 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -116,8 +111,7 @@
                 "name": "Clava com Espinhos"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -208,8 +202,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -232,8 +225,7 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -262,7 +254,14 @@
             },
             {
                 "name": "Montaria",
-                "desc": "Se o arconte não estiver montado, ele pode usar uma ação bônus para se teletransportar magicamente para a criatura servindo como sua montaria, desde que o arconte e sua montaria estejam no mesmo plano de existência. Quando se teletransporta, o arconte aparece montado na montaria junto com qualquer equipamento que esteja usando ou carregando. Enquanto montado e não incapacitado, o arconte não pode ser surpreendido, e tanto ele quanto sua montaria ganham vantagem nos testes de resistência de Destreza. Se o arconte for reduzido a 0 pontos de vida enquanto monta sua montaria, a montaria também será reduzida a 0 pontos de vida."
+                "desc": "Se o arconte não estiver montado, ele pode usar uma ação bônus para se teletransportar magicamente para a criatura servindo como sua montaria, desde que o arconte e sua montaria estejam no mesmo plano de existência. Quando se teletransporta, o arconte aparece montado na montaria junto com qualquer equipamento que esteja usando ou carregando. Enquanto montado e não incapacitado, o arconte não pode ser surpreendido, e tanto ele quanto sua montaria ganham vantagem nos testes de resistência de Destreza. Se o arconte for reduzido a 0 pontos de vida enquanto monta sua montaria, a montaria também será reduzida a 0 pontos de vida.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -292,8 +291,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O arconte realiza dois ataques do Martelo da Justiça.",
                 "name": "Multiataque"
@@ -311,41 +309,64 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Ataque com arma corpo a corpo: +10 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano de concussão mais 18 (4d8) de dano de força. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 18 ou será derrubado.",
-                "name": "Martelo da Justiça"
+                "name": "Martelo da Justiça",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 18
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura à escolha do arconte que o arconte possa ver a até 36 metros dele deve ter sucesso em um teste de resistência de Sabedoria CD 18, ou então o alvo larga todas as armas que está segurando, termina sua concentração em quaisquer feitiços ou outros efeitos e fica enfeitiçado pelo arconte por 1 minuto. A criatura enfeitiçada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Se o teste de resistência de uma criatura for bem-sucedido ou o efeito terminar, a criatura fica imune à Presença Pacificadora do arconte pelas próximas 24 horas.",
-                "name": "Presença Pacificadora"
+                "name": "Presença Pacificadora",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 18
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Se o arconte não estiver montado, ele se teletransporta magicamente para seu corcel e o monta enquanto o arconte e seu corcel estiverem no mesmo plano de existência. ",
                 "name": "Reunir-se ao Monte"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O arconte faz um ataque do Martelo da Justiça, e então sua montaria pode usar sua reação para fazer um ataque de arma corpo a corpo. ",
                 "name": "Golpear (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O arconte tem como alvo uma criatura que possa ver a até 18 metros dele. O alvo deve ser bem sucedido em um teste de resistência de Carisma CD 18 ou será magicamente teletransportado para um semiplano inofensivo até o final do próximo turno do arconte, quando o alvo reaparece no espaço que deixou ou no espaço desocupado mais próximo se esse espaço estiver ocupado.",
-                "name": "Detenção (Custa 3 Ações)"
+                "name": "Detenção (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -420,10 +441,8 @@
                 "modifier": 10
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "thunder",
@@ -523,7 +542,14 @@
             },
             {
                 "name": "Crackling Death",
-                "desc": "Quando a arclight phoenix morre, ela explode. Cada criatura a até 9 metros dele deve fazer um teste de resistência de Destreza CD 18, recebendo 36 (8d8) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida. A explosão destrói a fênix, mas deixa para trás um pequeno ovo quente com uma casca mizzium. O ovo contém o embrião de uma nova fênix de arco voltaico. Ele choca quando está na área de um feitiço que causa dano de raio, ou se uma criatura toca o ovo e gasta espaços de feitiço cujos níveis combinados são iguais a 13 ou mais. Quando eclode, o ovo libera uma nova fênix de arco voltaico que aparece no espaço do ovo."
+                "desc": "Quando a arclight phoenix morre, ela explode. Cada criatura a até 9 metros dele deve fazer um teste de resistência de Destreza CD 18, recebendo 36 (8d8) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida. A explosão destrói a fênix, mas deixa para trás um pequeno ovo quente com uma casca mizzium. O ovo contém o embrião de uma nova fênix de arco voltaico. Ele choca quando está na área de um feitiço que causa dano de raio, ou se uma criatura toca o ovo e gasta espaços de feitiço cujos níveis combinados são iguais a 13 ou mais. Quando eclode, o ovo libera uma nova fênix de arco voltaico que aparece no espaço do ovo.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
         "actions": [
@@ -548,11 +574,17 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Ataque com arma corpo a corpo: +10 para atingir, alcance 1,5 m, um alvo. Acerto: 27 (6d8) de dano de raio, e o raio salta do alvo para uma criatura à escolha da fênix que ela possa ver a até 9 metros do alvo. Essa segunda criatura deve ter sucesso em um teste de resistência de Destreza CD 18 ou sofrerá 27 (6d8) de dano elétrico.",
-                "name": "Arclight Touch"
+                "name": "Arclight Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -649,8 +681,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -733,8 +764,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia faz três ataques de espada longa e usa Liderança.",
                 "name": "Multiataque"
@@ -771,8 +801,7 @@
                 "name": "Espada longa"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia profere algumas palavras inspiradoras para uma criatura que ela pode ver a até 9 metros dela. Se a criatura puder ouvi-la, ela pode adicionar um d10 a uma jogada de ataque ou teste de resistência antes do início do próximo turno de Aurélia.",
                 "name": "Liderança"
@@ -795,25 +824,29 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia escolhe até três criaturas que ela pode ver a até 9 metros dela. Se uma criatura escolhida puder ver ou ouvir Aurelia, ela pode imediatamente usar sua reação para fazer um ataque com arma, com vantagem na jogada de ataque. ",
                 "name": "Command Allies"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia faz um ataque com espada longa. ",
                 "name": "Ataque com Espada Longa (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Aurelia tem como alvo até cinco criaturas que ela pode ver a até 9 metros dela. Cada alvo deve ter sucesso em um teste de resistência de Sabedoria CD 25 ou ficará com medo dela até o final de seu próximo turno. Qualquer alvo a até 1,5 metro de Aurelia tem desvantagem no teste de resistência.",
-                "name": "Amedrontar Inimigos (Custa 3 Ações)"
+                "name": "Amedrontar Inimigos (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 25
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -917,8 +950,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "fire",
@@ -931,8 +963,7 @@
                 "name": "Radiante"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -967,8 +998,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O anjo faz dois ataques corpo a corpo. Ele também usa a inspiração do campo de batalha.",
                 "name": "Multiataque"
@@ -1005,15 +1035,13 @@
                 "name": "Espada longa"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O anjo escolhe até três criaturas que ele pode ver a até 9 metros dele. Até o final do próximo turno do anjo, cada alvo pode adicionar um d4 às suas jogadas de ataque e testes de resistência.",
                 "name": "Inspiração no Campo de Batalha"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -1099,14 +1127,10 @@
                 "name": "Natureza"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -1341,8 +1365,7 @@
                 "name": "Cimitarra"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -1410,12 +1433,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -1504,7 +1524,14 @@
         "special_abilities": [
             {
                 "name": "Feed on Fire",
-                "desc": "Se o estranho receber dano de fogo de uma magia ou outro efeito mágico, seu tamanho aumentará em uma categoria. Se não houver espaço suficiente para o estranho aumentar de tamanho, ele atinge o tamanho máximo possível no espaço disponível. Enquanto o esquisito for Grande ou maior, ele faz testes de Força e testes de resistência com vantagem. Se o esquisito começar seu turno no tamanho de um Gargântua, o esquisito libera energia em uma explosão. Cada criatura dentro de 30 pés do estranho deve fazer um teste de resistência de Destreza CD 12, recebendo 28 (8d6) de dano de fogo em uma falha na resistência, ou metade do dano em um sucesso. A explosão incendeia objetos inflamáveis na área que não estão sendo vestidos ou carregados. O tamanho do esquisito então se torna Médio. "
+                "desc": "Se o estranho receber dano de fogo de uma magia ou outro efeito mágico, seu tamanho aumentará em uma categoria. Se não houver espaço suficiente para o estranho aumentar de tamanho, ele atinge o tamanho máximo possível no espaço disponível. Enquanto o esquisito for Grande ou maior, ele faz testes de Força e testes de resistência com vantagem. Se o esquisito começar seu turno no tamanho de um Gargântua, o esquisito libera energia em uma explosão. Cada criatura dentro de 30 pés do estranho deve fazer um teste de resistência de Destreza CD 12, recebendo 28 (8d6) de dano de fogo em uma falha na resistência, ou metade do dano em um sucesso. A explosão incendeia objetos inflamáveis na área que não estão sendo vestidos ou carregados. O tamanho do esquisito então se torna Médio. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             },
             {
                 "name": "Forma de Fogo e Água",
@@ -1560,8 +1587,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -1663,8 +1689,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -1692,20 +1717,16 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
         "languages": "as línguas que conheceu em vida",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O vampiro faz três ataques corpo a corpo, apenas um deles pode ser um ataque de mordida.",
                 "name": "Multiataque"
@@ -1731,7 +1752,21 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, uma criatura voluntária ou uma criatura agarrada pelo vampiro, incapacitada ou contida. Acerto: 7 (1d6 + 4) de dano perfurante mais 7 (2d6) de dano necrótico. Se o alvo for humanoide, ele deve passar em um teste de resistência de Carisma CD 15 ou será enfeitiçado pelo vampiro por 1 minuto. Enquanto enfeitiçado desta forma, o alvo fica apaixonado pelo vampiro. O máximo de pontos de vida do alvo é reduzido em uma quantidade igual ao dano necrótico sofrido, e o vampiro recupera pontos de vida iguais a essa quantidade. A redução dura até que o alvo termine um descanso longo. O alvo morre se seu máximo de pontos de vida for reduzido a 0.",
-                "name": "Mordida"
+                "name": "Mordida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -1749,8 +1784,7 @@
                 "name": "Rapier"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Ataque com Arma Corpo a Corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano de concussão. O vampiro também pode agarrar o alvo (CD de fuga 14) se for uma criatura e o vampiro tiver uma mão livre.",
                 "name": "Ataque Desarmado"
@@ -1857,8 +1891,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "psychic",
@@ -1866,10 +1899,8 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 120 pés."
         ],
@@ -1877,7 +1908,14 @@
         "special_abilities": [
             {
                 "name": "Dança da Bruxa de Sangue",
-                "desc": "A bruxa pode usar uma ação bônus para controlar o movimento de uma criatura amaldiçoada por sua magia hexadecimal que ela pode ver a até 9 metros dela. A criatura deve ter sucesso em um teste de resistência de Carisma CD 15 ou usar sua reação para se mover até 9 metros na direção escolhida pela bruxa. "
+                "desc": "A bruxa pode usar uma ação bônus para controlar o movimento de uma criatura amaldiçoada por sua magia hexadecimal que ela pode ver a até 9 metros dela. A criatura deve ter sucesso em um teste de resistência de Carisma CD 15 ou usar sua reação para se mover até 9 metros na direção escolhida pela bruxa. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 15
+                    }
+                ]
             },
             {
                 "name": "Visão do Diabo",
@@ -1951,8 +1989,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A bruxa realiza dois ataques: um com sua espada longa e outro com sua espada curta.",
                 "name": "Multiataque"
@@ -1988,8 +2025,7 @@
                 "name": "Espada curta"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -2080,24 +2116,18 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "Gigante",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 20 pés, um alvo. Acerto: 16 (3d6 + 6) de dano de concussão. Se o alvo for uma criatura, ela é agarrada (CD de fuga 17). Até o agarrão terminar, o alvo está contido e o gigante não pode usar esse ataque em mais ninguém.",
                 "name": "Corrente"
@@ -2219,8 +2249,7 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "poison",
@@ -2233,8 +2262,7 @@
                 "name": "Psíquico"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -2267,18 +2295,23 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos pode usar sua Frightful Presence. Ele também faz dois ataques: um com seu maul e outro com seu stomp.",
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 13,
                 "description": "Ataque corpo a corpo com arma: +13 para acertar, alcance 3 metros, um alvo. Acerto: 28 (6d6 + 7) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 21 ou será derrubado.",
-                "name": "Maul"
+                "name": "Maul",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 21
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -2311,38 +2344,68 @@
                 "name": "Rock"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura à escolha de Borborygmos que esteja a até 18 metros dele e possa vê-lo ou ouvi-lo deve ser bem sucedida em um teste de resistência de Sabedoria CD 17 ou ficará com medo dele por 1 minuto. A criatura amedrontada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Se o teste de resistência de uma criatura for bem-sucedido ou o efeito terminar para ela, a criatura fica imune à Presença Aterradora de Borborygmos pelas próximas 24 horas.",
-                "name": "Presença Aterradora"
+                "name": "Presença Aterradora",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos faz um ataque com arma. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos grita ameaçadoramente para uma criatura que ele pode ver a até 18 metros dele. Essa criatura deve ter sucesso em um teste de resistência de Sabedoria CD 17 ou ficará com medo dele por 1 minuto. Se a criatura já estiver amedrontada, ela ficará atordoada. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Se o teste de resistência de uma criatura for bem-sucedido ou o efeito terminar, a criatura fica imune ao Bellow de Borborygmos pelas próximas 24 horas. ",
-                "name": "Bellow (Custa 2 Ações)"
+                "name": "Bellow (Custa 2 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Borborygmos se move até a metade de sua velocidade e pode se mover pelo espaço de qualquer criatura menor que Enorme. A primeira vez que Borborygmos entrar no espaço de uma criatura durante este movimento, a criatura deve fazer um teste de resistência de Destreza CD 21. Se o teste de resistência for bem-sucedido, a criatura é empurrada 1,5 metro para longe de Borborygmos. Se o teste de resistência falhar, essa criatura é derrubada e Borborygmos pode fazer um ataque contra ela.",
-                "name": "Wide Berth (Custa 3 Ações)"
+                "name": "Wide Berth (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 21
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -2404,8 +2467,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -2423,8 +2485,7 @@
                 "name": "Desempenho"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -2483,7 +2544,14 @@
         "special_abilities": [
             {
                 "name": "Last Laugh",
-                "desc": "Quando o cacarejador morre, ele solta uma gargalhada moribunda que marca as mentes de outras criaturas próximas. Cada criatura a até 3 metros do cacarejador deve ter sucesso em um teste de resistência de Sabedoria CD 11 ou sofrerá 2 (1d4) de dano psíquico. "
+                "desc": "Quando o cacarejador morre, ele solta uma gargalhada moribunda que marca as mentes de outras criaturas próximas. Cada criatura a até 3 metros do cacarejador deve ter sucesso em um teste de resistência de Sabedoria CD 11 ou sofrerá 2 (1d4) de dano psíquico. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 11
+                    }
+                ]
             },
             {
                 "name": "Mimetismo",
@@ -2508,8 +2576,7 @@
                     },
                     {
                         "group": "1/dia cada",
-                        "spells": [
-                        ]
+                        "spells": []
                     }
                 ]
             }
@@ -2546,8 +2613,7 @@
                 "name": "Corrente com Espinhos"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -2609,18 +2675,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -2633,8 +2693,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O krasis faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Multiataque"
@@ -2670,8 +2729,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -2733,18 +2791,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -2757,8 +2809,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O krasis faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Multiataque"
@@ -2794,8 +2845,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -2857,18 +2907,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -2881,8 +2925,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O krasis faz três ataques: um com sua mordida, um com suas garras e outro com sua cauda.",
                 "name": "Multiataque"
@@ -2918,15 +2961,20 @@
                 "name": "Garras"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 11,
                 "description": "Arma corpo a corpo Ataque: +11 para acertar, alcance 4,5 metros, um alvo. Acerto: 33 (6d8 + 6) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 19 ou será derrubado.",
-                "name": "Cauda"
+                "name": "Cauda",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 19
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -3022,14 +3070,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -3111,18 +3155,23 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A dríade faz três ataques, usando seu cajado de videira, seu arco longo ou ambos.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Destreza CD 17 ou ficará impedido por torcer cipós por 1 minuto. Um alvo impedido dessa maneira pode usar uma ação para fazer um teste de Força (Atletismo) ou Destreza (Acrobacia) CD 17, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Vine Staff"
+                "name": "Vine Staff",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 17
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -3140,22 +3189,19 @@
                 "name": "Arco longo"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A dríade invoca magicamente uma montaria, que aparece em um espaço desocupado a até 18 metros da dríade. A montaria permanece por 8 horas, até que ela ou a dríade morra, ou até que a dríade a dissipe com uma ação. A montaria usa o bloco de estatísticas de um alce (consulte o Manual dos Monstros) com as seguintes alterações: é uma planta em vez de uma fera, tem uma Inteligência de 6 e entende Sylvan, mas não pode falar. Enquanto estiver a 1,6 km da montaria, a dríade pode se comunicar com ela telepaticamente.",
                 "name": "Convocar Montaria (1/Dia)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A dríade tem como alvo um item mágico que possa ver a até 36 metros dela. Se o item mágico não for um artefato, suas propriedades mágicas são suprimidas por 10 minutos, até que a dríade seja incapacitada ou morra, ou até que a dríade use uma ação bônus para encerrar o efeito.",
                 "name": "Suprimir Magia (Recarga 5-6)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -3246,14 +3292,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -3335,8 +3377,7 @@
                 "name": "Warhammer"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -3422,14 +3463,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -3437,7 +3474,14 @@
         "special_abilities": [
             {
                 "name": "Contrafluxo Nublado (Recarga 5-6)",
-                "desc": "O blastseeker pode criar um efeito adicional imediatamente após lançar um feitiço. Role um d6 para determinar o efeito: 1-3. O blastseeker cria uma esfera invisível de 4,5 metros de raio centrada em si mesmo que dura até o final de seu próximo turno. As criaturas na esfera têm desvantagem em testes de resistência contra magias e outros efeitos mágicos. 4-6. O blastseeker cria uma esfera invisível de 4,5 metros de raio centrada em si mesmo que dura até o final de seu próximo turno. As criaturas na esfera têm vantagem em testes de resistência contra feitiços e outros efeitos mágicos."
+                "desc": "O blastseeker pode criar um efeito adicional imediatamente após lançar um feitiço. Role um d6 para determinar o efeito: 1-3. O blastseeker cria uma esfera invisível de 4,5 metros de raio centrada em si mesmo que dura até o final de seu próximo turno. As criaturas na esfera têm desvantagem em testes de resistência contra magias e outros efeitos mágicos. 4-6. O blastseeker cria uma esfera invisível de 4,5 metros de raio centrada em si mesmo que dura até o final de seu próximo turno. As criaturas na esfera têm vantagem em testes de resistência contra feitiços e outros efeitos mágicos.",
+                "conditions": [
+                    {
+                        "index": "invisible",
+                        "type": "INVISIBLE",
+                        "name": "Invisível"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -3499,8 +3543,7 @@
                 "name": "Rapier"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -3607,8 +3650,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -3641,8 +3683,7 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -3667,7 +3708,14 @@
         "special_abilities": [
             {
                 "name": "Exploração dos Devedores",
-                "desc": "Como uma ação bônus, o anjo tem como alvo uma criatura enfeitiçada por ele que possa ver a até 9 metros dele. O anjo causa 11 (2d10) de dano necrótico ao alvo, e o anjo ganha pontos de vida temporários iguais ao dano causado. "
+                "desc": "Como uma ação bônus, o anjo tem como alvo uma criatura enfeitiçada por ele que possa ver a até 9 metros dele. O anjo causa 11 (2d10) de dano necrótico ao alvo, e o anjo ganha pontos de vida temporários iguais ao dano causado. ",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "name": "Flyby",
@@ -3727,8 +3775,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O anjo faz dois ataques com sua foice. Ele pode substituir Chains of Obligation por um desses ataques.",
                 "name": "Multiataque"
@@ -3757,15 +3804,32 @@
                 "name": "Foice"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O anjo tem como alvo uma criatura enfeitiçada por ele que possa ver a até 30 metros dele. O alvo deve ser bem sucedido em um teste de resistência de Carisma CD 19 ou ficará paralisado por 1 minuto ou até sofrer qualquer dano.",
-                "name": "Cadeias de Obrigações"
+                "name": "Cadeias de Obrigações",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-cha",
+                        "type": "CHARISMA",
+                        "modifier": 19
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -3861,8 +3925,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -4122,20 +4185,32 @@
                 ],
                 "attack_bonus": 9,
                 "description": "Ataque de Feitiço Corpo a Corpo: +9 para acertar, alcance 1,5 m, uma criatura. Acerto: 14 (4d6) de dano de veneno, e o alvo deve ser bem sucedido em um teste de resistência de Constituição CD 17 ou será envenenado por 1 minuto. O alvo envenenado pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Toque Nocivo"
+                "name": "Toque Nocivo",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O lich lança um de seus truques. ",
                 "name": "Truque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O lich usa Toque Nocivo. ",
                 "name": "Toque Nocivo (Custa 2 Ações)"
@@ -4153,11 +4228,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 9 metros do lich deve fazer um teste de resistência de Constituição CD 17, recebendo 21 (6d6) de dano necrótico se falhar na resistência, ou metade desse dano se obtiver sucesso.",
-                "name": "Perturbar a Vida (Custa 3 Ações)"
+                "name": "Perturbar a Vida (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 17
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -4253,14 +4334,10 @@
                 "name": "Sobrevivência"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -4457,8 +4534,7 @@
                 "name": "Cajado"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -4549,14 +4625,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão verdadeira 120 pés."
         ],
@@ -4572,13 +4644,26 @@
             },
             {
                 "name": "Bote",
-                "desc": "Se o felidar se move pelo menos 6 metros em linha reta em direção a uma criatura e a atinge com um ataque de garra no mesmo turno, aquele alvo deve ser bem sucedido em um teste de resistência de Força CD 15 ou será derrubado. Se o alvo estiver caído, o felidar pode fazer um ataque de garra contra ele como uma ação bônus."
+                "desc": "Se o felidar se move pelo menos 6 metros em linha reta em direção a uma criatura e a atinge com um ataque de garra no mesmo turno, aquele alvo deve ser bem sucedido em um teste de resistência de Força CD 15 ou será derrubado. Se o alvo estiver caído, o felidar pode fazer um ataque de garra contra ele como uma ação bônus.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 15
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "prone",
+                        "type": "PRONE",
+                        "name": "Caído"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O felidar faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Multiataque"
@@ -4614,8 +4699,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -4701,20 +4785,15 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "qualquer idioma (geralmente Comum)",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O punho de fogo é um conjurador Boros de 9º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 14, +6 para acertar com ataques de magia). Tem os seguintes feitiços de clérigo preparados:",
@@ -4839,8 +4918,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O punho de fogo realiza dois ataques com a espada larga.",
                 "name": "Multiataque"
@@ -4963,8 +5041,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "fire",
@@ -4997,8 +5074,7 @@
                 "name": "*de ataques não mágicos"
             }
         ],
-        "damage_immunities": [
-        ],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -5041,8 +5117,7 @@
                 "spells_by_group": [
                     {
                         "group": "3/dia cada",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/dia cada",
@@ -5060,8 +5135,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O anjo faz dois ataques corpo a corpo.",
                 "name": "Multiataque"
@@ -5098,8 +5172,7 @@
                 "name": "Espada longa"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -5185,14 +5258,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -5200,7 +5269,14 @@
         "special_abilities": [
             {
                 "name": "Fluxbending Overcast (Recarga 5-6)",
-                "desc": "O blastseeker pode criar um efeito adicional imediatamente após lançar um feitiço. Role um d6 para determinar o efeito: 1-3. O blastseeker se teletransporta, trocando de lugar com uma criatura que possa ver a até 9 metros dele. 4-6. O blastseeker e cada criatura a até 3 metros dele devem ter sucesso em um teste de resistência de Constituição CD 16 ou sofrerão 11 (2d10) de dano trovejante."
+                "desc": "O blastseeker pode criar um efeito adicional imediatamente após lançar um feitiço. Role um d6 para determinar o efeito: 1-3. O blastseeker se teletransporta, trocando de lugar com uma criatura que possa ver a até 9 metros dele. 4-6. O blastseeker e cada criatura a até 3 metros dele devem ter sucesso em um teste de resistência de Constituição CD 16 ou sofrerão 11 (2d10) de dano trovejante.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 16
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -5282,8 +5358,7 @@
                 "name": "Cajado"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -5351,12 +5426,9 @@
                 "modifier": -2
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "thunder",
@@ -5450,8 +5522,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O fluxcharger faz dois ataques de slam ou usa Arc Lightning duas vezes.",
                 "name": "Multiataque"
@@ -5492,11 +5563,17 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ataque Mágico à Distância: +7 para acertar, alcance 9 m, um alvo. Acerto: 16 (3d10) de dano de raio, e o raio salta do alvo para uma criatura à escolha do fluxcharger que ele possa ver a até 9 metros do alvo. Essa segunda criatura deve ter sucesso em um teste de resistência de Destreza CD 15 ou sofrerá 13 (3d8) de dano elétrico. Acerto ou erro: O fluxcharger recebe 5 (1d10) de dano de força após resolver o ataque.",
-                "name": "Arco Relâmpago"
+                "name": "Arco Relâmpago",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 15
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -5564,8 +5641,7 @@
                 "modifier": 3
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -5585,10 +5661,8 @@
                 "name": "Radiante"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -5635,15 +5709,27 @@
                 "name": "Garras"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Os guinchos de terror. Cada criatura a até 9 metros dela que puder ouvi-la deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará amedrontada por 1 minuto. A criatura amedrontada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Se o teste de resistência de uma criatura for bem-sucedido ou o efeito terminar para ela, a criatura fica imune ao Grito Assustador do horror pelas próximas 24 horas.",
-                "name": "Grito Assustador (Recarga 5-6)"
+                "name": "Grito Assustador (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 13
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -5705,8 +5791,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-medicine",
@@ -5719,20 +5804,15 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "qualquer idioma (geralmente Comum)",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O médico é um conjurador Boros de 3º nível. Sua habilidade de conjuração é Sabedoria (CD de resistência de magia 11). O médico tem os seguintes feitiços de clérigo preparados:",
@@ -5823,8 +5903,7 @@
                 "name": "Lança"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -5910,8 +5989,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "lightning",
@@ -5924,10 +6002,8 @@
                 "name": "Trovão"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -6013,8 +6089,7 @@
                 "name": "Lança"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -6076,12 +6151,9 @@
                 "modifier": -3
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -6170,7 +6242,14 @@
         "special_abilities": [
             {
                 "name": "Explosão da Morte",
-                "desc": "Quando o esquisito galvânico morre, ele explode em uma explosão de gelo e raios. Cada criatura a até 3 metros do estranho explosivo deve fazer um teste de resistência de Destreza CD 13, recebendo 7 (2d6) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida."
+                "desc": "Quando o esquisito galvânico morre, ele explode em uma explosão de gelo e raios. Cada criatura a até 3 metros do estranho explosivo deve fazer um teste de resistência de Destreza CD 13, recebendo 7 (2d6) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
         "actions": [
@@ -6187,11 +6266,17 @@
                 ],
                 "attack_bonus": 4,
                 "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano de concussão mais 5 (2d4) de dano de raio. Se o alvo for uma criatura, ele deve passar em um teste de resistência de Constituição CD 13 ou perderá a habilidade de usar reações até o início do próximo turno do estranho.",
-                "name": "Slam"
+                "name": "Slam",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -6283,8 +6368,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -6361,8 +6445,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O asa crepuscular faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Multiataque"
@@ -6398,8 +6481,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -6495,14 +6577,10 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -6510,7 +6588,14 @@
         "special_abilities": [
             {
                 "name": "Fey Ancestry",
-                "desc": "O xamã tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir."
+                "desc": "O xamã tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir.",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -6663,7 +6748,14 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Ataque de magia corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (2d8) de dano necrótico, e o alvo deve fazer um teste de resistência de Constituição CD 14, recebendo 18 (4d8) de dano venenoso em uma falha na resistência, ou metade do dano em um sucesso.",
-                "name": "Podridão fúngica"
+                "name": "Podridão fúngica",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 14
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -6757,14 +6849,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -6777,8 +6865,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O gigante faz três ataques de lança.",
                 "name": "Multiataque"
@@ -6874,8 +6961,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-animal-handling",
@@ -6893,14 +6979,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -6938,8 +7020,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O horncaller faz dois ataques corpo a corpo com seu cajado e usa Um com a Alma do Mundo.",
                 "name": "Multiataque"
@@ -6968,15 +7049,13 @@
                 "name": "Cajado"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O invocador de chifres escolhe uma besta que possa ver a até 9 metros dele. Se a besta pode ouvir o horncaller, a besta usa sua reação para fazer um ataque corpo a corpo contra um alvo que o horncaller possa ver.",
                 "name": "Um com a Alma do Mundo"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7038,18 +7117,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7062,8 +7135,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O híbrido faz dois ataques de garra.",
                 "name": "Multiataque"
@@ -7084,8 +7156,7 @@
                 "name": "Garra"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7153,12 +7224,9 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -7166,20 +7234,16 @@
                 "name": "Ácido"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "Comum mais qualquer idioma",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O híbrido faz dois ataques de dardo. Pode substituir um ataque de dardo por Spit Acid.",
                 "name": "Multiataque"
@@ -7215,8 +7279,7 @@
                 "name": "Spit Acid"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7307,10 +7370,8 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -7361,11 +7422,24 @@
                 ],
                 "attack_bonus": 6,
                 "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (2d6) de dano de concussão e o alvo deve passar em um teste de resistência de Constituição CD 12 ou ficará envenenado por 1 minuto. No final de cada um dos turnos do alvo envenenado, ele deve repetir o teste, recebendo 3 (1d6) de dano de veneno em caso de falha, ou encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Toxic Touch"
+                "name": "Toxic Touch",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 12
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7427,14 +7501,10 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "lightning",
@@ -7442,8 +7512,7 @@
                 "name": "Relâmpago"
             }
         ],
-        "condition_immunities": [
-        ],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -7460,8 +7529,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O híbrido realiza dois ataques: um com seu toque chocante e outro com seus tentáculos.",
                 "name": "Multiataque"
@@ -7494,11 +7562,17 @@
                 ],
                 "attack_bonus": 4,
                 "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 4,5 metros, uma criatura. Acerto: O alvo é agarrado (CD de fuga 11) e o híbrido puxa o alvo até 4,5 metros em sua direção. Até que este agarrão termine, o alvo sofre 5 (1d10) de dano elétrico no início de cada um de seus turnos, e o choque híbrido não pode usar seus tentáculos em outra criatura.",
-                "name": "Tentáculos"
+                "name": "Tentáculos",
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7566,8 +7640,7 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -7580,14 +7653,10 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -7604,8 +7673,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O híbrido faz dois ataques de espada curta.",
                 "name": "Multiataque"
@@ -7626,8 +7694,7 @@
                 "name": "Espada curta"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7695,12 +7762,9 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -7834,8 +7898,7 @@
                 "name": "Toque fulminante"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -7947,10 +8010,8 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "psychic",
@@ -8242,8 +8303,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia faz dois ataques de garra. Ela pode lançar um feitiço com tempo de lançamento de 1 ação no lugar de um ataque de garra.",
                 "name": "Multiataque"
@@ -8261,41 +8321,50 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Ataque com arma corpo a corpo: +12 para atingir, alcance 1,5 m, um alvo. Acerto: 21 (3d10 + 5) de dano cortante. Se o alvo for uma criatura, ele deve ter sucesso em um teste de resistência de Sabedoria CD 23 ou sofrerá 14 (4d6) de dano psíquico após cada ataque que fizer contra Isperia antes do início de seu próximo turno.",
-                "name": "Garra"
+                "name": "Garra",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 23
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia escolhe até três criaturas que ela pode ver a até 30 metros dela. Cada alvo deve ter sucesso em um teste de resistência de Inteligência CD 23 ou Isperia escolhe uma ação para aquele alvo: Atacar, Lançar um Feitiço, Correr, Desengajar, Esquivar, Ajudar, Esconder, Preparar, Procurar ou Usar um Objeto. O alvo afetado não pode realizar essa ação por 1 minuto. No final de cada um dos turnos do alvo, ele pode encerrar o efeito sobre si mesmo com um teste de resistência de Inteligência CD 23 bem-sucedido. Um alvo bem-sucedido no teste de resistência torna-se imune à Suprema Autoridade Legal de Isperia por 24 horas.",
-                "name": "Autoridade Legal Suprema"
+                "name": "Autoridade Legal Suprema",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 23
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia faz um ataque de garra. ",
                 "name": "Ataque de garra"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia lança um feitiço de 3º nível ou inferior de sua lista de feitiços preparados, usando um espaço de feitiço normalmente. ",
                 "name": "Lançar um feitiço (custa 2 ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Isperia usa Autoridade Jurídica Suprema.",
                 "name": "Autoridade Jurídica Suprema (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -8391,8 +8460,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -8660,8 +8728,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad faz dois ataques: um com seu Toque Nocivo e outro com seu Cajado de Svogthir. Ele pode lançar um feitiço com tempo de lançamento de 1 ação no lugar de um desses ataques.",
                 "name": "Multiataque"
@@ -8679,7 +8746,21 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Ataque de Feitiço Corpo a Corpo: +12 para acertar, alcance 1,5 m, uma criatura. Acerto: 28 (8d6) de dano de veneno, e o alvo deve ser bem sucedido em um teste de resistência de Constituição CD 20 ou será envenenado por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
-                "name": "Toque Nocivo"
+                "name": "Toque Nocivo",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -8715,15 +8796,13 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad lança um de seus truques. ",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Jarad usa Toque Nocivo. ",
                 "name": "Toque Nocivo (Custa 2 Ações)"
@@ -8741,11 +8820,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 9 metros de Jarad deve fazer um teste de resistência de Constituição CD 20, recebendo 35 (10d6) de dano necrótico em uma falha na resistência, ou metade desse dano em uma bem-sucedida.",
-                "name": "Interromper a Vida (Custa 3 Ações)"
+                "name": "Interromper a Vida (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 20
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -8848,14 +8933,10 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -8863,15 +8944,41 @@
         "special_abilities": [
             {
                 "name": "Alimentar-se da Morte",
-                "desc": "Quando uma criatura a até 9 metros do kraul cai para 0 pontos de vida, o kraul ou outra criatura de sua escolha a até 9 metros dele ganha 5 (1d10) pontos de vida temporários, contanto que o kraul não esteja incapacitado. "
+                "desc": "Quando uma criatura a até 9 metros do kraul cai para 0 pontos de vida, o kraul ou outra criatura de sua escolha a até 9 metros dele ganha 5 (1d10) pontos de vida temporários, contanto que o kraul não esteja incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Hive Mind",
-                "desc": "O kraul é imune às condições enfeitiçado e amedrontado enquanto estiver a até 9 metros de pelo menos outro kraul. "
+                "desc": "O kraul é imune às condições enfeitiçado e amedrontado enquanto estiver a até 9 metros de pelo menos outro kraul. ",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "name": "Táticas de Pacote",
-                "desc": "O kraul tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do kraul estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado. "
+                "desc": "O kraul tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do kraul estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Escalada de Aranha",
@@ -8939,8 +9046,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O kraul faz um ataque com seu bastão e lança uma de suas magias com tempo de lançamento de 1 ação.",
                 "name": "Multiataque"
@@ -8969,8 +9075,7 @@
                 "name": "Quarterstaff"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -9038,18 +9143,12 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -9057,11 +9156,30 @@
         "special_abilities": [
             {
                 "name": "Hive Mind",
-                "desc": "O kraul é imune às condições enfeitiçado e amedrontado enquanto estiver a até 9 metros de pelo menos outro kraul. "
+                "desc": "O kraul é imune às condições enfeitiçado e amedrontado enquanto estiver a até 9 metros de pelo menos outro kraul. ",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "name": "Táticas de Pacote",
-                "desc": "O kraul tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do kraul estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado. "
+                "desc": "O kraul tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do kraul estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Escalada de Aranha",
@@ -9093,8 +9211,7 @@
                 "name": "Lança"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -9185,20 +9302,15 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "Comum mais qualquer idioma",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O mago da lei é um conjurador Azorius de 8º nível. Sua habilidade de conjuração é Inteligência (resistência de magia CD 14, +6 para acertar com ataques de magia). O mago da lei tem as seguintes magias de mago preparadas:",
@@ -9341,8 +9453,7 @@
                 "name": "Cajado"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -9448,8 +9559,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -9493,7 +9603,14 @@
         "special_abilities": [
             {
                 "name": "Elusivo",
-                "desc": "Nenhuma jogada de ataque tem vantagem contra Lazav, a menos que ele esteja incapacitado. "
+                "desc": "Nenhuma jogada de ataque tem vantagem contra Lazav, a menos que ele esteja incapacitado. ",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             },
             {
                 "name": "Resistência Lendária (3/dia)",
@@ -9505,7 +9622,14 @@
             },
             {
                 "name": "Defesas Psíquicas",
-                "desc": "A menos que Lazav esteja incapacitado, ele é imune à magia que permite que outras criaturas leiam seus pensamentos, determinem se ele está mentindo, conheçam seu alinhamento ou conheçam seu tipo de criatura. As criaturas podem se comunicar telepaticamente com Lazav apenas se ele permitir."
+                "desc": "A menos que Lazav esteja incapacitado, ele é imune à magia que permite que outras criaturas leiam seus pensamentos, determinem se ele está mentindo, conheçam seu alinhamento ou conheçam seu tipo de criatura. As criaturas podem se comunicar telepaticamente com Lazav apenas se ele permitir.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             }
         ],
         "spellcasting": [
@@ -9569,8 +9693,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav faz três ataques de espada curta.",
                 "name": "Ataque múltiplo"
@@ -9601,29 +9724,32 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav faz um ataque com arma. ",
                 "name": "Ataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav lança um de seus feitiços inatos. ",
                 "name": "Lançar um Feitiço (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Lazav rapidamente assume a forma de várias criaturas de pesadelo, atacando todos nas proximidades. Cada criatura a até 3 metros de Lazav deve ter sucesso em um teste de resistência de Destreza CD 21 ou sofrerá 18 (4d8) de dano de um tipo escolhido por Lazav: ácido, frio, fogo, elétrico ou necrótico.",
-                "name": "Pesadelo Mutante (Custa 3 Ações)"
+                "name": "Pesadelo Mutante (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 21
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -9729,8 +9855,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -9789,7 +9914,14 @@
         "special_abilities": [
             {
                 "name": "Aura de Desejo de Sangue",
-                "desc": "Quando qualquer outra criatura começa seu turno a até 9 metros do mestre, essa criatura deve ser bem sucedida em um teste de resistência de Sabedoria CD 17, ou deve realizar imediatamente a ação Atacar, fazendo um ataque corpo a corpo contra uma criatura aleatória dentro do alcance . Se nenhuma criatura estiver ao alcance, ele faz um ataque à distância contra uma criatura aleatória dentro do alcance, arremessando sua arma se necessário. "
+                "desc": "Quando qualquer outra criatura começa seu turno a até 9 metros do mestre, essa criatura deve ser bem sucedida em um teste de resistência de Sabedoria CD 17, ou deve realizar imediatamente a ação Atacar, fazendo um ataque corpo a corpo contra uma criatura aleatória dentro do alcance . Se nenhuma criatura estiver ao alcance, ele faz um ataque à distância contra uma criatura aleatória dentro do alcance, arremessando sua arma se necessário. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ]
             },
             {
                 "name": "Alimentar-se da Multidão",
@@ -9807,8 +9939,7 @@
                 "spells_by_group": [
                     {
                         "group": "À Vontade",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/dia cada",
@@ -9826,8 +9957,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O mestre faz dois ataques corpo a corpo com sua lança.",
                 "name": "Multiataque"
@@ -9864,15 +9994,27 @@
                 "name": "Lança"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 36 metros do mestre deve ser bem sucedida em um teste de resistência de Sabedoria CD 17 ou será enfeitiçada pelo mestre por 1 hora. Enquanto enfeitiçada desta forma, a velocidade de uma criatura é 0. Se a criatura enfeitiçada sofrer dano, ela pode repetir o teste de resistência, encerrando o efeito sobre si mesma em caso de sucesso. Um alvo bem-sucedido no teste de resistência fica imune à Presença Cativante de todos os mestres da crueldade pelas próximas 24 horas.",
-                "name": "Presença Cativante (Recarga 6)"
+                "name": "Presença Cativante (Recarga 6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -9979,8 +10121,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -9988,10 +10129,8 @@
                 "name": "Necrótico"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -10073,8 +10212,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O vampiro faz dois ataques, apenas um dos quais pode ser um ataque de mordida.",
                 "name": "Multiataque"
@@ -10103,8 +10241,7 @@
                 "name": "Mordida"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 6,
                 "description": "Ataque com Arma Corpo a Corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 8 (1d8 + 4) de dano de concussão. O vampiro também pode agarrar o alvo (CD de fuga 13) se for uma criatura e o vampiro tiver uma mão livre.",
                 "name": "Ataque Desarmado"
@@ -10122,11 +10259,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O vampiro tem como alvo uma criatura que possa ver a até 9 metros dele. O alvo deve fazer um teste de resistência de Inteligência CD 14, com desvantagem se o vampiro já tiver consumido o sangue do alvo. Em uma falha na resistência, o alvo sofre 28 (8d6) de dano psíquico e o vampiro discerne as emoções e pensamentos superficiais do alvo. Em um teste de resistência bem-sucedido, o alvo sofre metade do dano e o vampiro percebe o estado emocional geral do alvo, mas não seus pensamentos.",
-                "name": "Sifão da Mente (Recarga 5-6)"
+                "name": "Sifão da Mente (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 14
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -10222,14 +10365,10 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -10247,8 +10386,7 @@
                 "spells_by_group": [
                     {
                         "group": "À Vontade",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "3/dia cada",
@@ -10328,8 +10466,7 @@
                 "name": "Adaga"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -10420,8 +10557,7 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -10485,13 +10621,19 @@
         "special_abilities": [
             {
                 "name": "Montar",
-                "desc": "Se o espectro não estiver montado, ele pode usar uma ação bônus para se teletransportar magicamente para sua montaria asa crepuscular, desde que o espectro e o asa crepuscular estejam no mesmo plano de existência. Quando se teletransporta, o espectro aparece montado no crepúsculo junto com qualquer equipamento que esteja usando ou carregando. Enquanto montado e não incapacitado, o espectro não pode ser surpreendido, e tanto ele quanto sua montaria ganham vantagem nos testes de resistência de Destreza."
+                "desc": "Se o espectro não estiver montado, ele pode usar uma ação bônus para se teletransportar magicamente para sua montaria asa crepuscular, desde que o espectro e o asa crepuscular estejam no mesmo plano de existência. Quando se teletransporta, o espectro aparece montado no crepúsculo junto com qualquer equipamento que esteja usando ou carregando. Enquanto montado e não incapacitado, o espectro não pode ser surpreendido, e tanto ele quanto sua montaria ganham vantagem nos testes de resistência de Destreza.",
+                "conditions": [
+                    {
+                        "index": "incapacitated",
+                        "type": "INCAPACITATED",
+                        "name": "Incapacitado"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O espectro faz dois ataques de foice.",
                 "name": "Multiataque"
@@ -10532,18 +10674,30 @@
                 ],
                 "attack_bonus": null,
                 "description": "O espectro emite magicamente energia psíquica em um cone de 18 metros. Cada criatura nessa área deve ter sucesso em um teste de resistência de Sabedoria CD 15 ou sofrerá 22 (5d8) de dano psíquico e ficará atordoada por 1 minuto. A criatura atordoada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Mind Twist (Recarga 5-6)"
+                "name": "Mind Twist (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 15
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O espectro toca uma criatura incapacitada e escolhe 1 hora entre as últimas 24. A menos que a criatura tenha sucesso em um teste de resistência de Inteligência CD 15, a criatura perde toda a memória daquela hora. A criatura recupera a memória apenas se o espectro morrer nas próximas 24 horas.",
-                "name": "Colher Memória (3/Dia)"
+                "name": "Colher Memória (3/Dia)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 15
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -10651,8 +10805,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -10982,8 +11135,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet faz três ataques: um com sua mordida e dois com suas garras.",
                 "name": "Multiataque"
@@ -11054,20 +11206,25 @@
                 ],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet exala fogo em um cone de 90 pés. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 25, recebendo 91 (26d6) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
-                "name": "Sopro de Fogo (Recarga 5-6)"
+                "name": "Sopro de Fogo (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 25
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet lança um de seus truques. ",
                 "name": "Cantrip"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet faz um ataque de cauda. ",
                 "name": "Ataque de cauda"
@@ -11085,18 +11242,23 @@
                 ],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet bate suas asas. Cada criatura a até 4,5 metros dele deve ser bem sucedida em um teste de resistência de Destreza CD 25 ou sofrerá 14 (2d4 + 9) de dano de concussão e cairá no chão. Niv-Mizzet pode então voar até metade de sua velocidade de vôo. ",
-                "name": "Ataque de Asa (Custa 2 Ações)"
+                "name": "Ataque de Asa (Custa 2 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 25
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Niv-Mizzet recupera um espaço de magia de 3º nível ou inferior.",
                 "name": "Dracogenius (custa 3 ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -11170,12 +11332,9 @@
                 "modifier": 3
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -11232,8 +11391,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O ciclope faz dois ataques de pancada.",
                 "name": "Multiataque"
@@ -11351,8 +11509,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "acid",
@@ -11461,7 +11618,14 @@
         "special_abilities": [
             {
                 "name": "Conselho dos Cinco",
-                "desc": "O fantasma tem uma característica baseada em quem ele é, conforme mostrado abaixo:\nEnezesku: Raio Enfraquecedor.: O traço Inato de Conjuração de Enezesku inclui o raio de enfraquecimento, que ele pode lançar à vontade.\nFautomni: Undead Fortitude.: Se o dano reduzir Fautomni a 0 pontos de vida, ele deve fazer um teste de resistência de Constituição com CD 5 + o dano sofrido, a menos que o dano seja radiante ou de um acerto crítico. Em caso de sucesso, Fautomni cai para 1 ponto de vida.\nKarlov: Unnatural Vigor.: Quando Karlov recupera pontos de vida, ele tem vantagem nas jogadas de ataque que faz em seu próximo turno.\nVuliev: Teletransporte.: O traço de Conjuração Inata de Vuliev inclui passo enevoado, que ele pode lançar à vontade.\nXil Xaxosz: Lingering Spite.: Quando Xil Xaxosz é reduzido a 0 pontos de vida, sua forma incorpórea explode em uma explosão de energia necrótica. Cada criatura a até 1,5 metro dele deve fazer um teste de resistência de Constituição CD 16, recebendo 14 (4d6) de dano necrótico em uma falha na resistência, ou metade do dano em uma bem-sucedida. "
+                "desc": "O fantasma tem uma característica baseada em quem ele é, conforme mostrado abaixo:\nEnezesku: Raio Enfraquecedor.: O traço Inato de Conjuração de Enezesku inclui o raio de enfraquecimento, que ele pode lançar à vontade.\nFautomni: Undead Fortitude.: Se o dano reduzir Fautomni a 0 pontos de vida, ele deve fazer um teste de resistência de Constituição com CD 5 + o dano sofrido, a menos que o dano seja radiante ou de um acerto crítico. Em caso de sucesso, Fautomni cai para 1 ponto de vida.\nKarlov: Unnatural Vigor.: Quando Karlov recupera pontos de vida, ele tem vantagem nas jogadas de ataque que faz em seu próximo turno.\nVuliev: Teletransporte.: O traço de Conjuração Inata de Vuliev inclui passo enevoado, que ele pode lançar à vontade.\nXil Xaxosz: Lingering Spite.: Quando Xil Xaxosz é reduzido a 0 pontos de vida, sua forma incorpórea explode em uma explosão de energia necrótica. Cada criatura a até 1,5 metro dele deve fazer um teste de resistência de Constituição CD 16, recebendo 14 (4d6) de dano necrótico em uma falha na resistência, ou metade do dano em uma bem-sucedida. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 16
+                    }
+                ]
             },
             {
                 "name": "Visão Etérea",
@@ -11483,8 +11647,7 @@
                 "spells_by_group": [
                     {
                         "group": "À Vontade",
-                        "spells": [
-                        ]
+                        "spells": []
                     },
                     {
                         "group": "1/dia cada",
@@ -11514,11 +11677,17 @@
                 ],
                 "attack_bonus": 8,
                 "description": "Ataque com arma corpo a corpo: +8 para acertar, alcance 1,5 m, uma criatura. Acerto: 18 (4d8) de dano necrótico e o fantasma recupera pontos de vida iguais à metade da quantidade de dano que o alvo recebe. O alvo deve ter sucesso em um teste de resistência de Constituição CD 13 ou seu máximo de pontos de vida será reduzido em uma quantidade igual ao dano sofrido. O alvo morre se seu máximo de pontos de vida for reduzido a 0. Essa redução no máximo de pontos de vida do alvo dura até que o alvo termine um descanso longo.",
-                "name": "Dreno de vida"
+                "name": "Dreno de vida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 13
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O fantasma convoca os outros quatro membros do Obzedat. No início do próximo turno do fantasma, os outros membros aparecem em espaços desocupados a até 9 metros do invocador. Cada um dos fantasmas rola a iniciativa quando aparecem.",
                 "name": "Convoque o Conselho dos Fantasmas"
@@ -11526,22 +11695,26 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Um alvo que todos os fantasmas de Obzedat possam ver deve ser bem sucedido em um teste de resistência de Sabedoria CD 16 ou arco até o final de seu próximo turno. Até que este arco termine, o alvo não pode realizar ações ou reações, e sua velocidade é 0 e não pode ser aumentada. ",
-                "name": "Obediência Forçada"
+                "name": "Obediência Forçada",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Os fantasmas do Obzedat conjuram 1d6 espíritos contratados (descritos neste capítulo) a até 18 metros de um deles.",
                 "name": "Espíritos Contratados (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -11620,16 +11793,11 @@
                 "modifier": 4
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -11642,15 +11810,13 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O gigante faz dois ataques com machado grande.",
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 9,
                 "description": "Ataque com arma corpo a corpo: +9 para acertar, alcance 3 metros, um alvo. Acerto: 25 (3d12 + 6) de dano cortante. Se o gigante Orzhov obtiver um acerto crítico, ele rola os dados de dano três vezes, em vez de duas.",
                 "name": "Greataxe"
@@ -11671,8 +11837,7 @@
                 "name": "Rock"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -11753,20 +11918,15 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão verdadeira 120 pés."
         ],
         "languages": "Comum mais qualquer idioma",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "A habilidade inata de conjuração do mago é Inteligência (CD de resistência de magia 14). Ele pode lançar as seguintes magias, sem necessidade de componentes materiais:",
@@ -11846,7 +12006,21 @@
                 ],
                 "attack_bonus": null,
                 "description": "O mago tem como alvo uma criatura a até 36 metros dele que ele possa ver. O alvo sofre 18 (4d8) de dano psíquico e deve ser bem sucedido em um teste de resistência de Inteligência CD 14 ou ficará atordoado até o final de seu próximo turno.",
-                "name": "Vislumbrar a Inundação Temporal (Recarga 5-6)"
+                "name": "Vislumbrar a Inundação Temporal (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-int",
+                        "type": "INTELLIGENCE",
+                        "modifier": 14
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "stunned",
+                        "type": "STUNNED",
+                        "name": "Atordoado"
+                    }
+                ]
             }
         ],
         "reactions": [
@@ -11961,8 +12135,7 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "necrotic",
@@ -12031,7 +12204,21 @@
         "special_abilities": [
             {
                 "name": "Presença Cativante",
-                "desc": "Qualquer criatura que comece seu turno a até 9 metros de Rakdos deve realizar um teste de resistência de Sabedoria CD 25. Se falhar na resistência, a criatura fica enfeitiçada por Rakdos por 1 minuto ou até que a criatura esteja a mais de 9 metros dele. Em um teste bem-sucedido, a criatura se torna imune à Presença Cativante de Rakdos por 24 horas. "
+                "desc": "Qualquer criatura que comece seu turno a até 9 metros de Rakdos deve realizar um teste de resistência de Sabedoria CD 25. Se falhar na resistência, a criatura fica enfeitiçada por Rakdos por 1 minuto ou até que a criatura esteja a mais de 9 metros dele. Em um teste bem-sucedido, a criatura se torna imune à Presença Cativante de Rakdos por 24 horas. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
                 "name": "Cruel Entertainment",
@@ -12071,8 +12258,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos faz dois ataques com sua foice Curtain-Call ou suas garras.",
                 "name": "Multiataque"
@@ -12118,29 +12304,46 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Cada criatura a até 18 metros de Rakdos que seja sua aliada ou enfeitiçada por ele deve usar sua reação para se mover até a metade de sua velocidade em direção à criatura mais próxima que ela possa ver, desde que ainda não esteja a 1,5 metro daquela criatura. Ele então deve fazer um ataque corpo a corpo contra aquela criatura se for capaz de fazê-lo. ",
-                "name": "Comemoração Sádica"
+                "name": "Comemoração Sádica",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos usa Curtain-Call Scythe. ",
                 "name": "Foice (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Rakdos faz um ataque de garra contra uma criatura a até 3 metros dele. O alvo deve ser bem sucedido em um teste de resistência de Constituição CD 25 ou será envenenado por 1 minuto. Enquanto envenenada desta forma, a criatura não pode manter a concentração em uma magia ou qualquer outro efeito que requeira concentração. A criatura envenenada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
-                "name": "Toque da Dor (Custa 3 Ações)"
+                "name": "Toque da Dor (Custa 3 Ações)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 25
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -12202,8 +12405,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -12216,20 +12418,15 @@
                 "name": "Desempenho"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
         "languages": "Comum mais qualquer idioma",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "spellcasting": [
             {
                 "desc": "O satirista é um lançador de feitiços Rakdos de 4º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 14, +6 para acertar com ataques de magia). Ele conhece as seguintes magias de bardo:",
@@ -12318,8 +12515,7 @@
                 "name": "Porrete"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -12411,14 +12607,10 @@
                 "name": "Desempenho"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -12431,8 +12623,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O malabarista faz três ataques de adaga.",
                 "name": "Multiataque"
@@ -12453,8 +12644,7 @@
                 "name": "Adaga"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -12546,14 +12736,10 @@
                 "name": "Desempenho"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -12566,8 +12752,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O comedor de fogo faz dois ataques com sua corrente de lâminas.",
                 "name": "Multiataque"
@@ -12600,11 +12785,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O comedor de fogo exala chamas. Cada criatura em um cone de 4,5 metros deve fazer um teste de resistência de Destreza CD 13, recebendo 9 (2d8) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
-                "name": "Lança Chamas (Recarga 4-6)"
+                "name": "Lança Chamas (Recarga 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 13
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -12696,14 +12887,10 @@
                 "name": "Desempenho"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -12716,8 +12903,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O acrobata faz dois ataques com sua vara farpada.",
                 "name": "Multiataque"
@@ -12738,8 +12924,7 @@
                 "name": "Vara Farpada"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -12801,8 +12986,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-arcana",
@@ -12820,14 +13004,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -13018,8 +13198,7 @@
                 "modifier": -1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-athletics",
@@ -13037,14 +13216,10 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -13069,8 +13244,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O perseguidor faz três ataques com sua espada curta.",
                 "name": "Multiataque"
@@ -13091,8 +13265,7 @@
                 "name": "Espada curta"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -13154,18 +13327,12 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -13173,7 +13340,14 @@
         "special_abilities": [
             {
                 "name": "Tanque Explosivo",
-                "desc": "Quando o guarda morre, ou se rolar 1 ao verificar se sua ação Scorchbringer recarrega, o tanque em suas costas explode em uma esfera de 3 metros de raio. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 12, recebendo 7 (2d6) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida. A explosão incendeia objetos inflamáveis que não estão sendo vestidos ou carregados e destrói o portador da chama."
+                "desc": "Quando o guarda morre, ou se rolar 1 ao verificar se sua ação Scorchbringer recarrega, o tanque em suas costas explode em uma esfera de 3 metros de raio. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 12, recebendo 7 (2d6) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida. A explosão incendeia objetos inflamáveis que não estão sendo vestidos ou carregados e destrói o portador da chama.",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
         "actions": [
@@ -13205,11 +13379,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "O Scorchbringer do guarda jorra um fluxo de chamas em uma linha que tem 30 pés de comprimento e 5 pés de largura. Cada criatura na linha deve fazer um teste de resistência de Destreza CD 12, recebendo 7 (2d6) de dano de fogo se falhar na resistência, ou metade do dano se obtiver sucesso.",
-                "name": "Scorchbringer (Recarga 4-6)"
+                "name": "Scorchbringer (Recarga 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 12
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -13271,14 +13451,10 @@
                 "modifier": -4
             }
         ],
-        "saving_throws": [
-        ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -13302,8 +13478,7 @@
             "visão no escuro 60 pés."
         ],
         "languages": "entende comum, mas não pode falar",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
                 "damage_dices": [
@@ -13388,8 +13563,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13409,10 +13583,8 @@
                 "name": "Radiante"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -13444,8 +13616,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O horror faz três ataques: um com sua mordida e dois com suas garras.",
                 "name": "Multiataque"
@@ -13478,7 +13649,21 @@
                 ],
                 "attack_bonus": 7,
                 "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 13 (3d6 + 3) de dano cortante, e o alvo deve passar em um teste de resistência de Sabedoria CD 16 ou ficará amedrontado com o horror até o final do próximo turno do alvo.",
-                "name": "Garra"
+                "name": "Garra",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 16
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -13493,11 +13678,17 @@
                 ],
                 "attack_bonus": null,
                 "description": "Cada criatura dentro de 60 pés do horror, exceto outros horrores, deve ter sucesso em um teste de resistência de Destreza CD 16 ou sofrerá 27 (6d8) de dano necrótico.",
-                "name": "Lashing Shadows (Recarga 5-6)"
+                "name": "Lashing Shadows (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 16
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -13565,8 +13756,7 @@
                 "modifier": 1
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13574,14 +13764,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -13617,8 +13803,7 @@
                 "name": "Lança"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -13714,8 +13899,7 @@
                 "name": "Intimidação"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -13774,7 +13958,14 @@
         "special_abilities": [
             {
                 "name": "Erosão da Aura da Mente",
-                "desc": "Qualquer criatura que comece seu turno a até 9 metros do pai deve fazer um teste de resistência de Sabedoria CD 18. Em um teste de resistência bem-sucedido, a criatura fica imune a esta aura pelas próximas 24 horas. Se falhar, a criatura tem desvantagem por 1 minuto em testes de Sabedoria e Carisma e em testes de Sabedoria e Carisma. No início de cada um de seus turnos, o senhor pode suprimir esta aura até o início de seu próximo turno. "
+                "desc": "Qualquer criatura que comece seu turno a até 9 metros do pai deve fazer um teste de resistência de Sabedoria CD 18. Em um teste de resistência bem-sucedido, a criatura fica imune a esta aura pelas próximas 24 horas. Se falhar, a criatura tem desvantagem por 1 minuto em testes de Sabedoria e Carisma e em testes de Sabedoria e Carisma. No início de cada um de seus turnos, o senhor pode suprimir esta aura até o início de seu próximo turno. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 18
+                    }
+                ]
             },
             {
                 "name": "Resistência à Magia",
@@ -13831,8 +14022,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O senhor faz dois ataques: um com sua mordida e outro com suas garras.",
                 "name": "Multiataque"
@@ -13884,8 +14074,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -13953,8 +14142,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -13974,10 +14162,8 @@
                 "name": "Radiante"
             }
         ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "frightened",
@@ -14001,8 +14187,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O horror pode usar sua Presença Enlouquecedora e fazer três ataques: um com sua mordida e dois com suas garras.",
                 "name": "Multiataque"
@@ -14038,15 +14223,27 @@
                 "name": "Garras"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O horror tem como alvo uma criatura que ele possa ver a até 9 metros dele. Se o alvo puder ver ou ouvir o horror, o alvo deve fazer um teste de resistência de Sabedoria CD 17. Em uma falha no teste de resistência, o alvo fica paralisado até o final de seu próximo turno. Se o teste de resistência de uma criatura for bem-sucedido, a criatura fica imune à Presença Enlouquecedora do horror pelas próximas 24 horas.",
-                "name": "Presença Enlouquecedora"
+                "name": "Presença Enlouquecedora",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-wis",
+                        "type": "WISDOM",
+                        "modifier": 17
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14133,14 +14330,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -14153,8 +14346,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O roc faz dois ataques: um com o bico e outro com as garras.",
                 "name": "Multiataque"
@@ -14190,8 +14382,7 @@
                 "name": "Garras"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14273,14 +14464,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -14293,8 +14480,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O skyswimmer faz três ataques: um com sua mordida e dois com sua pancada.",
                 "name": "Multiataque"
@@ -14312,7 +14498,19 @@
                 ],
                 "attack_bonus": 11,
                 "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 3 metros, um alvo. Acerto: 22 (3d10 + 6) de dano perfurante. Se o alvo for uma criatura Grande ou menor, ele deve passar em um teste de resistência de Destreza CD 19 ou será engolido pelo nadador celeste. Uma criatura engolida fica cega e contida, tem cobertura total contra ataques e outros efeitos fora do nadador celeste e recebe 21 (6d6) de dano de ácido no início de cada turno do nadador celeste. Se o skyswimmer sofrer 30 de dano ou mais em um único turno da criatura engolida, o skyswimmer deve ter sucesso em um teste de resistência de Constituição CD 18 no final desse turno ou regurgitar a criatura, que cai em um espaço dentro de 3 metros do skyswimmer. Se o nadador voador morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
-                "name": "Mordida"
+                "name": "Mordida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 19
+                    },
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 18
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -14330,8 +14528,7 @@
                 "name": "Slam"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14393,8 +14590,7 @@
                 "modifier": 0
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-perception",
@@ -14407,14 +14603,10 @@
                 "name": "Atletismo"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             ""
         ],
@@ -14422,13 +14614,29 @@
         "special_abilities": [
             {
                 "name": "Táticas de Formação",
-                "desc": "O soldado tem vantagem em testes de resistência contra ser enfeitiçado, amedrontado, agarrado ou contido enquanto estiver a 1,5 metro de pelo menos um aliado."
+                "desc": "O soldado tem vantagem em testes de resistência contra ser enfeitiçado, amedrontado, agarrado ou contido enquanto estiver a 1,5 metro de pelo menos um aliado.",
+                "conditions": [
+                    {
+                        "index": "frightened",
+                        "type": "FRIGHTENED",
+                        "name": "Amedrontado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    },
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             }
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O soldado faz dois ataques corpo a corpo.",
                 "name": "Multiataque"
@@ -14457,8 +14665,7 @@
                 "name": "Espada longa"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14526,8 +14733,7 @@
                 "modifier": 4
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-arcana",
@@ -14550,8 +14756,7 @@
                 "name": "Religião"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "bludgeoning",
@@ -14725,8 +14930,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A esfinge faz dois ataques de garra.",
                 "name": "Multiataque"
@@ -14749,29 +14953,25 @@
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A esfinge faz um ataque de garra. ",
                 "name": "Ataque de garra"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A esfinge se teletransporta magicamente, junto com qualquer equipamento que esteja vestindo ou carregando, até 36 metros para um espaço desocupado que ela possa ver. ",
                 "name": "Teletransporte (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A esfinge lança um feitiço de sua lista de feitiços preparados, usando um espaço de feitiço normalmente.",
                 "name": "Lançar um Feitiço (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14862,14 +15062,10 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -14890,8 +15086,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O gigante faz dois ataques de pancada. O primeiro desses ataques que acertar causa 18 (4d8) de dano extra se o gigante tiver sofrido dano desde seu último turno.",
                 "name": "Multiataque"
@@ -14912,15 +15107,20 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": 10,
                 "description": "Arma de Ataque à Distância: +10 para atingir, alcance 60/240 pés, um alvo. Acerto: 28 (4d10 + 6) de dano de concussão. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Força CD 18 ou será derrubado.",
-                "name": "Rocha"
+                "name": "Rocha",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-str",
+                        "type": "STRENGTH",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -14982,8 +15182,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -15016,14 +15215,10 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 30 pés."
         ],
@@ -15084,8 +15279,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O espião de pensamento faz dois ataques corpo a corpo, ou faz três ataques à distância com suas adagas.",
                 "name": "Multiataque"
@@ -15121,8 +15315,7 @@
                 "name": "Rapier"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -15228,12 +15421,9 @@
                 "name": "Persuasão"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
         "condition_immunities": [
             {
                 "index": "charmed",
@@ -15363,8 +15553,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani realiza três ações: ela usa Constrict e Touch of Order, e ela lança um feitiço com tempo de lançamento de 1 ação.",
                 "name": "Multiattack"
@@ -15382,7 +15571,14 @@
                 ],
                 "attack_bonus": 11,
                 "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 1,5 m, uma criatura. Acerto: 15 (3d6 + 5) de dano de concussão e o alvo é agarrado (CD de fuga 19). Até que este agarrão termine, o alvo está contido. Trostani não pode agarrar mais do que três alvos por vez.",
-                "name": "Constringir"
+                "name": "Constringir",
+                "conditions": [
+                    {
+                        "index": "grappled",
+                        "type": "GRAPPLED",
+                        "name": "Agarrado"
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -15420,48 +15616,49 @@
                 ],
                 "attack_bonus": null,
                 "description": "Trostani conjura um turbilhão momentâneo de galhos e trepadeiras em um ponto que ela pode ver a até 18 metros dela. Cada criatura em um cubo de 30 pés naquele ponto deve fazer um teste de resistência de Destreza CD 24, recebendo 21 (6d6) de dano de concussão e 21 (6d6) de dano cortante em uma falha na resistência, ou metade do dano em um sucesso.",
-                "name": "Ira de Mat'Selesnya (Recarga 5-6)"
+                "name": "Ira de Mat'Selesnya (Recarga 5-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 24
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani faz um ataque corpo a corpo, com vantagem na jogada de ataque. ",
                 "name": "Voz da Harmonia"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani concede 20 pontos de vida temporários a outra criatura que ela possa ver a até 36 metros dela. ",
                 "name": "Voz da Vida"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani lança dissipar magia. ",
                 "name": "Voz da Ordem"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani lança sugestão. Isso conta como um de seus usos diários do feitiço. ",
                 "name": "Coro do Conclave (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Trostani anima uma ou duas árvores que ela pode ver a até 36 metros dela, fazendo com que elas se desenraizem e se tornem árvores despertadas (consulte o Manual dos Monstros para obter seus blocos de estatísticas) por 1 minuto ou até que Trostani use uma ação bônus para encerrar o efeito. Essas árvores entendem os druidas e obedecem aos comandos falados de Trostani, mas não podem falar. Se ela não der nenhum comando a eles, as árvores não farão nada além de segui-la e realizar a ação Esquivar.",
                 "name": "Despertar Guardiões do Bosque (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -15523,8 +15720,7 @@
                 "modifier": 2
             }
         ],
-        "saving_throws": [
-        ],
+        "saving_throws": [],
         "skills": [
             {
                 "index": "skill-deception",
@@ -15547,14 +15743,10 @@
                 "name": "Furtividade"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -15602,8 +15794,7 @@
         ],
         "actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A medusa faz dois ataques de garra. Ele também pode usar Petrifying Gaze antes ou depois de fazer esses ataques.",
                 "name": "Multiataque"
@@ -15624,15 +15815,20 @@
                 "name": "Garra"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "A medusa fixa seu olhar em uma criatura a até 18 metros dela que ela possa ver e que possa ver seus olhos. O alvo deve fazer um teste de resistência de Constituição CD 14. Se o teste de resistência falhar por 5 ou mais, a criatura fica instantaneamente petrificada. Caso contrário, uma criatura que falhar no teste de resistência começa a se transformar em pedra e é impedida. A criatura impedida deve repetir o teste de resistência no final de seu próximo turno, ficando petrificada em caso de falha ou encerrando o efeito em caso de sucesso. A petrificação dura até que a criatura seja libertada por um feitiço de restauração maior ou magia similar.",
-                "name": "Olhar Petrificante"
+                "name": "Olhar Petrificante",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 14
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -15707,12 +15903,9 @@
                 "modifier": 4
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
         "damage_immunities": [
             {
                 "index": "poison",
@@ -15736,8 +15929,7 @@
             "visão no escuro 60 pés."
         ],
         "languages": "entende comum, mas não pode falar",
-        "special_abilities": [
-        ],
+        "special_abilities": [],
         "actions": [
             {
                 "damage_dices": [
@@ -15855,16 +16047,11 @@
                 "modifier": 6
             }
         ],
-        "skills": [
-        ],
-        "damage_vulnerabilities": [
-        ],
-        "damage_resistances": [
-        ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão cega 60 pés",
             "tremorsense 60 pés."
@@ -15877,7 +16064,14 @@
             },
             {
                 "name": "Tremores de Terra",
-                "desc": "O vorme cria tremores de terra conforme se move por terra ou no subsolo. Qualquer criatura que chegar a 9 metros do vorme em movimento pela primeira vez em um turno deve ser bem-sucedida em um teste de resistência de Destreza CD 20 ou sofrerá 10 (3d6) de dano de concussão e cairá no chão. Qualquer estrutura ou objeto ancorado no solo que chegue a 9 metros do vorme em movimento pela primeira vez em um turno sofre 10 (3d6) de dano de força. "
+                "desc": "O vorme cria tremores de terra conforme se move por terra ou no subsolo. Qualquer criatura que chegar a 9 metros do vorme em movimento pela primeira vez em um turno deve ser bem-sucedida em um teste de resistência de Destreza CD 20 ou sofrerá 10 (3d6) de dano de concussão e cairá no chão. Qualquer estrutura ou objeto ancorado no solo que chegue a 9 metros do vorme em movimento pela primeira vez em um turno sofre 10 (3d6) de dano de força. ",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 20
+                    }
+                ]
             },
             {
                 "name": "Tunelador",
@@ -15898,11 +16092,22 @@
                 ],
                 "attack_bonus": 12,
                 "description": "Ataque corpo a corpo com arma: +12 para acertar, alcance 3 metros, um alvo. Acerto: 24 (5d6 + 7) de dano perfurante. Se o alvo for uma criatura Média ou menor, ele deve passar em um teste de resistência de Destreza CD 20 ou será engolido pelo vorme. Uma criatura engolida fica cega e impedida, tem cobertura total contra ataques e outros efeitos fora do vorme e recebe 17 (5d6) de dano de ácido no início de cada turno do vorme. Se o vorme sofrer 30 de dano ou mais em um único turno de uma criatura dentro dele, o vorme deve ter sucesso em um teste de resistência de Constituição CD 21 no final desse turno ou regurgitar todas as criaturas engolidas, que caem caídas em um espaço dentro de 3 metros. do vorme. Se o vorme morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 6 metros de movimento, saindo caída.",
-                "name": "Mordida"
+                "name": "Mordida",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 20
+                    },
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 21
+                    }
+                ]
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
@@ -15999,8 +16204,7 @@
                 "name": "Percepção"
             }
         ],
-        "damage_vulnerabilities": [
-        ],
+        "damage_vulnerabilities": [],
         "damage_resistances": [
             {
                 "index": "cold",
@@ -16013,10 +16217,8 @@
                 "name": "Veneno"
             }
         ],
-        "damage_immunities": [
-        ],
-        "condition_immunities": [
-        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
         "senses": [
             "visão no escuro 60 pés."
         ],
@@ -16242,7 +16444,14 @@
                 ],
                 "attack_bonus": 10,
                 "description": "Ataque com arma corpo a corpo ou à distância: +10 para atingir, alcance de 1,5 m ou alcance de 20/60 pés, um alvo. Acerto: 12 (2d6 + 5) de dano perfurante e o tridente emite um estrondo estrondoso. Cada criatura em um cubo de 4,5 metros originada das pontas do tridente deve fazer um teste de resistência de Constituição CD 18. Em uma falha na resistência, a criatura recebe 9 (2d8) de dano trovejante e é empurrada 3 metros para longe de Zegana. Se a criatura estiver debaixo d'água, o dano aumenta para 13 (3d8). Em um teste de resistência bem-sucedido, a criatura sofre metade do dano e não é empurrada.",
-                "name": "Prime Speaker's Trident"
+                "name": "Prime Speaker's Trident",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 18
+                    }
+                ]
             },
             {
                 "damage_dices": [
@@ -16257,41 +16466,43 @@
                 ],
                 "attack_bonus": null,
                 "description": "Zegana conjura uma onda de água que cai em uma área a até 36 metros dela. A área pode ter até 9 metros de comprimento, até 3 metros de largura e até 3 metros de altura. Cada criatura naquela área deve fazer um teste de resistência de Destreza CD 18. Se falhar na resistência, uma criatura sofre 18 (4d8) de dano de concussão e é derrubada. Em um teste de resistência bem-sucedido, uma criatura sofre metade do dano e não é derrubada. A água se espalha pelo chão, extinguindo as chamas desprotegidas com as quais entra em contato e depois desaparece.",
-                "name": "Dilúvio (Recarga 4-6)"
+                "name": "Dilúvio (Recarga 4-6)",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-dex",
+                        "type": "DEXTERITY",
+                        "modifier": 18
+                    }
+                ]
             }
         ],
         "legendary_actions": [
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana ganha resistência a um tipo de dano de sua escolha - ácido, fogo, raio ou trovão - até o início de seu próximo turno. ",
                 "name": "Adaptive Skin"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana faz um ataque corpo a corpo com o Trident do Orador Principal. ",
                 "name": "Trident"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana lança ampliar/reduzir em si mesma, usando a opção de ampliar, sem gastar um espaço de magia. ",
                 "name": "Ampliar (Custa 2 Ações)"
             },
             {
-                "damage_dices": [
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Zegana usa Dilúvio, se disponível.",
                 "name": "Dilúvio (Custa 3 Ações)"
             }
         ],
-        "reactions": [
-        ],
+        "reactions": [],
         "source": {
             "name": "Guia do Guildmaster para Ravnica",
             "acronym": "GGR"
