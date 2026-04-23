@@ -303,14 +303,6 @@
                             "type": "BLUDGEONING",
                             "name": "Bludgeoning"
                         }
-                    },
-                    {
-                        "dice": "18 (4d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
                     }
                 ],
                 "attack_bonus": 10,
@@ -328,6 +320,16 @@
                         "index": "prone",
                         "type": "PRONE",
                         "name": "Prone"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             },
@@ -5687,14 +5689,6 @@
                             "type": "LIGHTNING",
                             "name": "Lightning"
                         }
-                    },
-                    {
-                        "dice": "5 (1d10)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
                     }
                 ],
                 "attack_bonus": 7,
@@ -5705,6 +5699,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 15
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }

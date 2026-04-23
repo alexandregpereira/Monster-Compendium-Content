@@ -1393,7 +1393,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Ataque com Arma Corpo a Corpo: +11 para acertar, alcance 3 metros, um alvo. Acerto: 10 (2d4 + 5) de dano cortante mais 33 (6d10) de dano de força.",
+                "name": "Chicote do Treinador",
+                "damage_dices_v2": [
                     {
                         "dice": "33 (6d10)",
                         "damage": {
@@ -1402,10 +1407,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 11,
-                "description": "Ataque com Arma Corpo a Corpo: +11 para acertar, alcance 3 metros, um alvo. Acerto: 10 (2d4 + 5) de dano cortante mais 33 (6d10) de dano de força.",
-                "name": "Chicote do Treinador"
+                ]
             },
             {
                 "damage_dices": [
@@ -10334,7 +10336,11 @@
         ],
         "actions": [
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano de força ou 10 (2d6 + 3) de dano de força enquanto ampliado. Se a soulblade tiver vantagem na jogada de ataque, o ataque causa 3 (1d6) de dano de força extra.",
+                "name": "Soulblade",
+                "damage_dices_v2": [
                     {
                         "dice": "6 (1d6+3)",
                         "damage": {
@@ -10359,10 +10365,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 5,
-                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano de força ou 10 (2d6 + 3) de dano de força enquanto ampliado. Se a soulblade tiver vantagem na jogada de ataque, o ataque causa 3 (1d6) de dano de força extra.",
-                "name": "Soulblade"
+                ]
             },
             {
                 "damage_dices": [],
@@ -14299,7 +14302,11 @@
                 "name": "Comandar Aliado"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "O githyanki se teletransporta magicamente, junto com qualquer equipamento que esteja vestindo e carregando, para um espaço desocupado que ele possa ver a até 9 metros dele. Ele também se torna insubstancial até o início de seu próximo turno. Enquanto insubstancial, ele pode se mover através de outras criaturas e objetos como se fossem terreno difícil. Se terminar seu turno dentro de um objeto, ele sofre 16 (3d10) de dano de força e é movido para o espaço desocupado mais próximo.",
+                "name": "Teletransporte",
+                "damage_dices_v2": [
                     {
                         "dice": "16 (3d10)",
                         "damage": {
@@ -14308,10 +14315,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": null,
-                "description": "O githyanki se teletransporta magicamente, junto com qualquer equipamento que esteja vestindo e carregando, para um espaço desocupado que ele possa ver a até 9 metros dele. Ele também se torna insubstancial até o início de seu próximo turno. Enquanto insubstancial, ele pode se mover através de outras criaturas e objetos como se fossem terreno difícil. Se terminar seu turno dentro de um objeto, ele sofre 16 (3d10) de dano de força e é movido para o espaço desocupado mais próximo.",
-                "name": "Teletransporte"
+                ]
             }
         ],
         "reactions": [
@@ -18416,7 +18420,11 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "Ataque com Arma Corpo a Corpo: acerto automático, alcance 1,5 m, um alvo. Acerto: 60 de dano de força e o alvo é empurrado até 1,5 metro de distância do marut se ele for Enorme ou menor.",
+                "name": "Batida Infalível",
+                "damage_dices_v2": [
                     {
                         "dice": "60",
                         "damage": {
@@ -18425,10 +18433,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": null,
-                "description": "Ataque com Arma Corpo a Corpo: acerto automático, alcance 1,5 m, um alvo. Acerto: 60 de dano de força e o alvo é empurrado até 1,5 metro de distância do marut se ele for Enorme ou menor.",
-                "name": "Batida Infalível"
+                ]
             },
             {
                 "damage_dices": [
@@ -23771,16 +23776,7 @@
                 "name": "Perna dianteira"
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "27 (5d10)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "O retriever tem como alvo uma criatura que possa ver a até 18 metros dele. O alvo deve fazer um teste de resistência de Destreza CD 16, recebendo 27 (5d10) de dano de força em caso de falha, ou metade do dano em caso de sucesso.",
                 "name": "Feixe de Força",
@@ -23789,6 +23785,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 16
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "27 (5d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             },

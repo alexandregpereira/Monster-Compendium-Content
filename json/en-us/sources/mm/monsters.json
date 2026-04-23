@@ -1453,14 +1453,6 @@
                         }
                     },
                     {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    },
-                    {
                         "dice": "55 (10d10)",
                         "damage": {
                             "index": "necrotic",
@@ -1529,6 +1521,16 @@
                         "index": "charmed",
                         "type": "CHARMED",
                         "name": "Charmed"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -1673,14 +1675,6 @@
                             "type": "NECROTIC",
                             "name": "Necrotic"
                         }
-                    },
-                    {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
                     }
                 ],
                 "attack_bonus": null,
@@ -1713,6 +1707,16 @@
                         "index": "paralyzed",
                         "type": "PARALYZED",
                         "name": "Paralyzed"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -4301,14 +4305,6 @@
                         }
                     },
                     {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    },
-                    {
                         "dice": "55 (10d10)",
                         "damage": {
                             "index": "necrotic",
@@ -4377,6 +4373,16 @@
                         "index": "charmed",
                         "type": "CHARMED",
                         "name": "Charmed"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -17165,7 +17171,11 @@
         ],
         "actions": [
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) force damage.",
+                "name": "Forceful Slam",
+                "damage_dices_v2": [
                     {
                         "dice": "10 (3d6)",
                         "damage": {
@@ -17174,10 +17184,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) force damage.",
-                "name": "Forceful Slam"
+                ]
             },
             {
                 "damage_dices": [

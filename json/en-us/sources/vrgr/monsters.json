@@ -1786,7 +1786,12 @@
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 3 (1d4 + 2) piercing damage plus 3 (1d6) force damage.",
+                "name": "Bite",
+                "damage_dices_v2": [
                     {
                         "dice": "3 (1d6)",
                         "damage": {
@@ -1795,10 +1800,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. 3 (1d4 + 2) piercing damage plus 3 (1d6) force damage.",
-                "name": "Bite"
+                ]
             }
         ],
         "reactions": [
@@ -2005,7 +2007,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
+                "name": "Silver Longsword",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -2014,10 +2021,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
-                "name": "Silver Longsword"
+                ]
             },
             {
                 "damage_dices": [
@@ -2257,7 +2261,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
+                "name": "Silver Longsword",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -2266,10 +2275,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
-                "name": "Silver Longsword"
+                ]
             }
         ],
         "reactions": [],
@@ -2461,7 +2467,11 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 7,
+                "description": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. 22 (4d8 + 4) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away.",
+                "name": "Force Bolt",
+                "damage_dices_v2": [
                     {
                         "dice": "22 (4d8+4)",
                         "damage": {
@@ -2470,10 +2480,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. 22 (4d8 + 4) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away.",
-                "name": "Force Bolt"
+                ]
             },
             {
                 "damage_dices": [
@@ -2484,7 +2491,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
+                "name": "Silver Longsword",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -2493,22 +2505,10 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage.",
-                "name": "Silver Longsword"
+                ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "31 (6d8+4)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Each creature in a 20-foot-radius sphere centered on a point the inquisitor can see within 120 feet of it must succeed on a 15 Constitution saving throw or take 31 (6d8 + 4) force damage and be knocked prone and moved to the unoccupied space closest to the sphere's center. Large and smaller objects that aren't being worn or carried in the sphere automatically take the damage and are similarly moved.",
                 "name": "Implode (Recharge 4-6)",
@@ -2517,6 +2517,16 @@
                         "index": "prone",
                         "type": "PRONE",
                         "name": "Prone"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "31 (6d8+4)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -4924,7 +4934,12 @@
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage.",
+                "name": "Bites",
+                "damage_dices_v2": [
                     {
                         "dice": "7 (2d6)",
                         "damage": {
@@ -4933,10 +4948,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 0 ft., one target in the swarm's space. 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage.",
-                "name": "Bites"
+                ]
             }
         ],
         "reactions": [

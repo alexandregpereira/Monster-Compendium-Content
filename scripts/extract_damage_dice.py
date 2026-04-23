@@ -165,7 +165,11 @@ def process_actions(
         desc = action.get("description") or ""
         found = find_damage_dices(desc, damage_map, patterns)
         if found:
-            action["damage_dices"] = found
+            regular = [e for e in found if e["damage"]["type"] != "FORCE"]
+            force   = [e for e in found if e["damage"]["type"] == "FORCE"]
+            action["damage_dices"] = regular
+            if force:
+                action["damage_dices_v2"] = force
             updated += 1
     return updated
 

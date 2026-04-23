@@ -318,16 +318,7 @@
                 ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "19 (3d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra rasga os laços da realidade em sua área imediata. Cada criatura a até 3 metros de Belashyrra deve ser bem sucedida em um teste de resistência de Constituição CD 22 ou sofrerá 19 (3d12) de dano de força e ganhará um nível de exaustão.",
                 "name": "Rend Reality (Custa 3 Ações)",
@@ -343,6 +334,16 @@
                         "index": "exhaustion",
                         "type": "EXHAUSTION",
                         "name": "Exaustão"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "19 (3d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }
@@ -2142,16 +2143,7 @@
                 "name": "Ataque múltiplo"
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "9 (1d10+4)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": 8,
                 "description": "Ataque mágico corpo a corpo: +8 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d10 + 4) de dano de força. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Sabedoria CD 16 ou cairá no chão em um ataque de riso.",
                 "name": "Toque idílico",
@@ -2160,6 +2152,16 @@
                         "index": "saving-throw-wis",
                         "type": "WISDOM",
                         "modifier": 16
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "9 (1d10+4)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             },
@@ -2401,7 +2403,12 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d4 + 2) de dano perfurante mais 10 (3d6) de dano de força.",
+                "name": "Adaga de Aço Cristal",
+                "damage_dices_v2": [
                     {
                         "dice": "10 (3d6)",
                         "damage": {
@@ -2410,10 +2417,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d4 + 2) de dano perfurante mais 10 (3d6) de dano de força.",
-                "name": "Adaga de Aço Cristal"
+                ]
             },
             {
                 "damage_dices": [
@@ -2861,7 +2865,11 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 13,
+                "description": "Ataque Mágico à Distância: +13 para acertar, alcance 36 metros, um alvo. Acerto: 12 (1d10 + 7) de dano de força.",
+                "name": "Explosão Arcana",
+                "damage_dices_v2": [
                     {
                         "dice": "12 (1d10+7)",
                         "damage": {
@@ -2870,10 +2878,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 13,
-                "description": "Ataque Mágico à Distância: +13 para acertar, alcance 36 metros, um alvo. Acerto: 12 (1d10 + 7) de dano de força.",
-                "name": "Explosão Arcana"
+                ]
             },
             {
                 "damage_dices": [
@@ -4809,7 +4814,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 10,
+                "description": "Ataque com arma corpo a corpo: +10 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano cortante mais 5 (1d10) de dano de força.",
+                "name": "Espada grande",
+                "damage_dices_v2": [
                     {
                         "dice": "5 (1d10)",
                         "damage": {
@@ -4818,10 +4828,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 10,
-                "description": "Ataque com arma corpo a corpo: +10 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano cortante mais 5 (1d10) de dano de força.",
-                "name": "Espada grande"
+                ]
             },
             {
                 "damage_dices": [],
@@ -5405,7 +5412,11 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 17,
+                "description": "Ataque com arma corpo a corpo: +17 para acertar, alcance 3 metros, um alvo. Acerto: 28 (3d12 + 9) de dano de força.",
+                "name": "Arma corpo a corpo gerada",
+                "damage_dices_v2": [
                     {
                         "dice": "28 (3d12+9)",
                         "damage": {
@@ -5414,13 +5425,14 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 17,
-                "description": "Ataque com arma corpo a corpo: +17 para acertar, alcance 3 metros, um alvo. Acerto: 28 (3d12 + 9) de dano de força.",
-                "name": "Arma corpo a corpo gerada"
+                ]
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 12,
+                "description": "Arma à Distância Ataque: +12 para acertar, alcance 150/600 pés, um alvo. Acerto: 17 (3d8 + 4) de dano de força.",
+                "name": "Arma à Distância Gerada",
+                "damage_dices_v2": [
                     {
                         "dice": "17 (3d8+4)",
                         "damage": {
@@ -5429,10 +5441,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 12,
-                "description": "Arma à Distância Ataque: +12 para acertar, alcance 150/600 pés, um alvo. Acerto: 17 (3d8 + 4) de dano de força.",
-                "name": "Arma à Distância Gerada"
+                ]
             },
             {
                 "damage_dices": [],
@@ -5945,7 +5954,11 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 18,
+                "description": "Ataque Mágico à Distância: +18 para atingir, alcance 36 metros, um alvo. Acerto: 15 (1d10 + 10) de dano de força.",
+                "name": "Explosão Arcana",
+                "damage_dices_v2": [
                     {
                         "dice": "15 (1d10+10)",
                         "damage": {
@@ -5954,13 +5967,14 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 18,
-                "description": "Ataque Mágico à Distância: +18 para atingir, alcance 36 metros, um alvo. Acerto: 15 (1d10 + 10) de dano de força.",
-                "name": "Explosão Arcana"
+                ]
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 12,
+                "description": "Ataque com Arma Corpo a Corpo: +12 para acertar, alcance 1,5 m, um alvo. Acerto: 36 (5d12 + 4) de dano de força.",
+                "name": "Cajado Mágico",
+                "damage_dices_v2": [
                     {
                         "dice": "36 (5d12+4)",
                         "damage": {
@@ -5969,22 +5983,10 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 12,
-                "description": "Ataque com Arma Corpo a Corpo: +12 para acertar, alcance 1,5 m, um alvo. Acerto: 36 (5d12 + 4) de dano de força.",
-                "name": "Cajado Mágico"
+                ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "71 (11d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh conjura orbes de energia mágica que caem no chão em três pontos diferentes que ela pode ver a até 1,6 km dela. Cada criatura em uma esfera de 12 metros de raio centrada em cada ponto deve fazer um teste de resistência de Destreza CD 26, recebendo 71 (11d12) de dano de força em uma falha na resistência ou metade do dano em uma bem-sucedida. Uma criatura na área de mais de uma explosão arcana é afetada apenas uma vez. A área de cada explosão arcana age como um campo antimagia por 1 hora. Sul Khatesh e os feitiços que ela lança não são afetados por esses campos.",
                 "name": "Cataclismo Arcano (Recarrega após um Descanso Longo)",
@@ -5993,6 +5995,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 26
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "71 (11d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             },
@@ -6024,16 +6036,7 @@
                 ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "26 (4d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh sussurra um segredo arcano na mente de uma criatura que ela pode ver a até 18 metros dela. O alvo deve ter sucesso em um teste de resistência de Sabedoria CD 26 ou gastar um de seus espaços de magia de 3º nível ou inferior e causar 26 (4d12) de dano de força a cada criatura a até 9 metros dele. Uma criatura que falha no teste de resistência, mas não pode gastar um espaço de magia, fica atordoada até o final de seu próximo turno.",
                 "name": "Segredos Enlouquecedores (Custa 3 Ações)",
@@ -6042,6 +6045,16 @@
                         "index": "saving-throw-wis",
                         "type": "WISDOM",
                         "modifier": 26
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "26 (4d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }
@@ -6548,7 +6561,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Ataque com arma corpo a corpo: +11 para acertar, alcance 3 metros, um alvo. Acerto: 21 (3d10 + 5) de dano cortante mais 7 (2d6) de dano de força.",
+                "name": "Adamantine Sixblade",
+                "damage_dices_v2": [
                     {
                         "dice": "7 (2d6)",
                         "damage": {
@@ -6557,10 +6575,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 11,
-                "description": "Ataque com arma corpo a corpo: +11 para acertar, alcance 3 metros, um alvo. Acerto: 21 (3d10 + 5) de dano cortante mais 7 (2d6) de dano de força.",
-                "name": "Adamantine Sixblade"
+                ]
             },
             {
                 "damage_dices": [
@@ -8034,7 +8049,11 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 18,
+                "description": "Ataque Mágico à Distância: +18 para acertar, alcance 300 pés, um alvo. Acerto: 18 (4d8) de dano de força e, se o alvo for uma criatura, ela é derrubada.",
+                "name": "Eldritch Turret",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -8043,10 +8062,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 18,
-                "description": "Ataque Mágico à Distância: +18 para acertar, alcance 300 pés, um alvo. Acerto: 18 (4d8) de dano de força e, se o alvo for uma criatura, ela é derrubada.",
-                "name": "Eldritch Turret"
+                ]
             },
             {
                 "damage_dices": [

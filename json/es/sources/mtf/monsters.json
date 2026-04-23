@@ -1393,7 +1393,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 10 (2d4 + 5) slashing damage plus 33 (6d10) force damage.",
+                "name": "Taskmaster Whip",
+                "damage_dices_v2": [
                     {
                         "dice": "33 (6d10)",
                         "damage": {
@@ -1402,10 +1407,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 11,
-                "description": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 10 (2d4 + 5) slashing damage plus 33 (6d10) force damage.",
-                "name": "Taskmaster Whip"
+                ]
             },
             {
                 "damage_dices": [
@@ -10434,7 +10436,11 @@
         ],
         "actions": [
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 5,
+                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.",
+                "name": "Soulblade",
+                "damage_dices_v2": [
                     {
                         "dice": "6 (1d6+3)",
                         "damage": {
@@ -10459,10 +10465,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 5,
-                "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) force damage, or 10 (2d6 + 3) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 (1d6) force damage.",
-                "name": "Soulblade"
+                ]
             },
             {
                 "damage_dices": [],
@@ -14441,7 +14444,11 @@
                 "name": "Command Ally"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 (3d10) force damage and is moved to the nearest unoccupied space.",
+                "name": "Teleport",
+                "damage_dices_v2": [
                     {
                         "dice": "16 (3d10)",
                         "damage": {
@@ -14450,10 +14457,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": null,
-                "description": "The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 (3d10) force damage and is moved to the nearest unoccupied space.",
-                "name": "Teleport"
+                ]
             }
         ],
         "reactions": [
@@ -18593,7 +18597,11 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit: 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller.",
+                "name": "Unerring Slam",
+                "damage_dices_v2": [
                     {
                         "dice": "60",
                         "damage": {
@@ -18602,10 +18610,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": null,
-                "description": "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit: 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller.",
-                "name": "Unerring Slam"
+                ]
             },
             {
                 "damage_dices": [
@@ -23991,16 +23996,7 @@
                 "name": "Foreleg"
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "27 (5d10)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "The retriever targets one creature it can see within 60 feet of it. The target must make a DC 16 Dexterity saving throw, taking 27 (5d10) force damage on a failed save, or half as much damage on a successful one.",
                 "name": "Force Beam",
@@ -24009,6 +24005,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 16
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "27 (5d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             },

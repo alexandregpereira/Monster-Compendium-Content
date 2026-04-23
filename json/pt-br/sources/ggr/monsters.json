@@ -305,14 +305,6 @@
                             "type": "BLUDGEONING",
                             "name": "Contundente"
                         }
-                    },
-                    {
-                        "dice": "18 (4d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
                     }
                 ],
                 "attack_bonus": 10,
@@ -323,6 +315,16 @@
                         "index": "saving-throw-str",
                         "type": "STRENGTH",
                         "modifier": 18
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             },
@@ -5628,14 +5630,6 @@
                             "type": "LIGHTNING",
                             "name": "Elétrico"
                         }
-                    },
-                    {
-                        "dice": "5 (1d10)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
                     }
                 ],
                 "attack_bonus": 7,
@@ -5646,6 +5640,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 15
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "5 (1d10)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }

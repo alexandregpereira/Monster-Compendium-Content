@@ -1457,14 +1457,6 @@
                         }
                     },
                     {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    },
-                    {
                         "dice": "55 (10d10)",
                         "damage": {
                             "index": "necrotic",
@@ -1518,6 +1510,16 @@
                         "index": "charmed",
                         "type": "CHARMED",
                         "name": "Encantado"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }
@@ -1662,14 +1664,6 @@
                             "type": "NECROTIC",
                             "name": "Necrótico"
                         }
-                    },
-                    {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
                     }
                 ],
                 "attack_bonus": null,
@@ -1697,6 +1691,16 @@
                         "index": "frightened",
                         "type": "FRIGHTENED",
                         "name": "Amedrontado"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }
@@ -4289,14 +4293,6 @@
                         }
                     },
                     {
-                        "dice": "45 (10d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Força"
-                        }
-                    },
-                    {
                         "dice": "55 (10d10)",
                         "damage": {
                             "index": "necrotic",
@@ -4350,6 +4346,16 @@
                         "index": "charmed",
                         "type": "CHARMED",
                         "name": "Encantado"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "45 (10d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Força"
+                        }
                     }
                 ]
             }
@@ -17037,7 +17043,11 @@
         ],
         "actions": [
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 4,
+                "description": "Arma de Combate Corpo a Corpo: +4 para acertar, alcance 1,5 m, uma criatura. Dano: 10 (3d6) energético.",
+                "name": "Golpe Forte",
+                "damage_dices_v2": [
                     {
                         "dice": "10 (3d6)",
                         "damage": {
@@ -17046,10 +17056,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Arma de Combate Corpo a Corpo: +4 para acertar, alcance 1,5 m, uma criatura. Dano: 10 (3d6) energético.",
-                "name": "Golpe Forte"
+                ]
             },
             {
                 "damage_dices": [

@@ -332,16 +332,7 @@
                 ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "19 (3d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Belashyrra rips at the bonds of reality in its immediate area. Each creature within 10 feet of Belashyrra must succeed on a DC 22 Constitution saving throw or take 19 (3d12) force damage and gain one level of exhaustion.",
                 "name": "Rend Reality (Costs 3 Actions)",
@@ -357,6 +348,16 @@
                         "index": "exhaustion",
                         "type": "EXHAUSTION",
                         "name": "Exhaustion"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "19 (3d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -2197,16 +2198,7 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "9 (1d10+4)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": 8,
                 "description": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) force damage. If the target is a creature, it must succeed on a DC 16 Wisdom saving throw or fall prone in a fit of laughter.",
                 "name": "Idyllic Touch",
@@ -2222,6 +2214,16 @@
                         "index": "prone",
                         "type": "PRONE",
                         "name": "Prone"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "9 (1d10+4)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             },
@@ -2461,7 +2463,12 @@
                             "type": "PIERCING",
                             "name": "Piercing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 10 (3d6) force damage.",
+                "name": "Crysteel Dagger",
+                "damage_dices_v2": [
                     {
                         "dice": "10 (3d6)",
                         "damage": {
@@ -2470,10 +2477,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 10 (3d6) force damage.",
-                "name": "Crysteel Dagger"
+                ]
             },
             {
                 "damage_dices": [
@@ -2921,7 +2925,11 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 13,
+                "description": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit: 12 (1d10 + 7) force damage.",
+                "name": "Arcane Blast",
+                "damage_dices_v2": [
                     {
                         "dice": "12 (1d10+7)",
                         "damage": {
@@ -2930,10 +2938,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 13,
-                "description": "Ranged Spell Attack: +13 to hit, range 120 ft., one target. Hit: 12 (1d10 + 7) force damage.",
-                "name": "Arcane Blast"
+                ]
             },
             {
                 "damage_dices": [
@@ -4879,7 +4884,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 10,
+                "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 5 (1d10) force damage.",
+                "name": "Greatsword",
+                "damage_dices_v2": [
                     {
                         "dice": "5 (1d10)",
                         "damage": {
@@ -4888,10 +4898,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 10,
-                "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 5 (1d10) force damage.",
-                "name": "Greatsword"
+                ]
             },
             {
                 "damage_dices": [],
@@ -5475,7 +5482,11 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 17,
+                "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 28 (3d12 + 9) force damage.",
+                "name": "Spawned Melee Weapon",
+                "damage_dices_v2": [
                     {
                         "dice": "28 (3d12+9)",
                         "damage": {
@@ -5484,13 +5495,14 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 17,
-                "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 28 (3d12 + 9) force damage.",
-                "name": "Spawned Melee Weapon"
+                ]
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 12,
+                "description": "Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) force damage.",
+                "name": "Spawned Ranged Weapon",
+                "damage_dices_v2": [
                     {
                         "dice": "17 (3d8+4)",
                         "damage": {
@@ -5499,10 +5511,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 12,
-                "description": "Ranged Weapon Attack: +12 to hit, range 150/600 ft., one target. Hit: 17 (3d8 + 4) force damage.",
-                "name": "Spawned Ranged Weapon"
+                ]
             },
             {
                 "damage_dices": [],
@@ -6015,7 +6024,11 @@
                 "name": "Multiattack"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 18,
+                "description": "Ranged Spell Attack: +18 to hit, range 120 ft., one target. Hit: 15 (1d10 + 10) force damage.",
+                "name": "Arcane Blast",
+                "damage_dices_v2": [
                     {
                         "dice": "15 (1d10+10)",
                         "damage": {
@@ -6024,13 +6037,14 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 18,
-                "description": "Ranged Spell Attack: +18 to hit, range 120 ft., one target. Hit: 15 (1d10 + 10) force damage.",
-                "name": "Arcane Blast"
+                ]
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 12,
+                "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 36 (5d12 + 4) force damage.",
+                "name": "Magic Staff",
+                "damage_dices_v2": [
                     {
                         "dice": "36 (5d12+4)",
                         "damage": {
@@ -6039,22 +6053,10 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 12,
-                "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 36 (5d12 + 4) force damage.",
-                "name": "Magic Staff"
+                ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "71 (11d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh conjures orbs of magical energy that plummet to the ground at three different points she can see within 1 mile of her. Each creature in a 40-foot-radius sphere centered on each point must make a DC 26 Dexterity saving throw, taking 71 (11d12) force damage on a failed save or half as much damage on a successful one. A creature in the area of more than one arcane burst is affected only once. The area of each arcane burst then acts as an antimagic field for 1 hour. Sul Khatesh and spells she casts are unaffected by these fields.",
                 "name": "Arcane Cataclysm (Recharges after a Long Rest)",
@@ -6063,6 +6065,16 @@
                         "index": "saving-throw-dex",
                         "type": "DEXTERITY",
                         "modifier": 26
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "71 (11d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             },
@@ -6094,16 +6106,7 @@
                 ]
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "26 (4d12)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": null,
                 "description": "Sul Khatesh whispers an arcane secret into the mind of a creature she can see within 60 feet of her. The target must succeed on a DC 26 Wisdom saving throw or expend one of its spell slots of 3rd level or lower and deal 26 (4d12) force damage to each creature within 30 feet of it. A creature that fails the saving throw but can't expend a spell slot is instead stunned until the end of its next turn.",
                 "name": "Maddening Secrets (Costs 3 Actions)",
@@ -6119,6 +6122,16 @@
                         "index": "stunned",
                         "type": "STUNNED",
                         "name": "Stunned"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "26 (4d12)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             }
@@ -6644,7 +6657,12 @@
                             "type": "SLASHING",
                             "name": "Slashing"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) slashing damage plus 7 (2d6) force damage.",
+                "name": "Adamantine Sixblade",
+                "damage_dices_v2": [
                     {
                         "dice": "7 (2d6)",
                         "damage": {
@@ -6653,10 +6671,7 @@
                             "name": "Force"
                         }
                     }
-                ],
-                "attack_bonus": 11,
-                "description": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) slashing damage plus 7 (2d6) force damage.",
-                "name": "Adamantine Sixblade"
+                ]
             },
             {
                 "damage_dices": [
@@ -8138,16 +8153,7 @@
                 "name": "Slam"
             },
             {
-                "damage_dices": [
-                    {
-                        "dice": "18 (4d8)",
-                        "damage": {
-                            "index": "force",
-                            "type": "FORCE",
-                            "name": "Force"
-                        }
-                    }
-                ],
+                "damage_dices": [],
                 "attack_bonus": 18,
                 "description": "Ranged Spell Attack: +18 to hit, range 300 ft., one target. Hit: 18 (4d8) force damage, and if the target is a creature, it is knocked prone.",
                 "name": "Eldritch Turret",
@@ -8156,6 +8162,16 @@
                         "index": "prone",
                         "type": "PRONE",
                         "name": "Prone"
+                    }
+                ],
+                "damage_dices_v2": [
+                    {
+                        "dice": "18 (4d8)",
+                        "damage": {
+                            "index": "force",
+                            "type": "FORCE",
+                            "name": "Force"
+                        }
                     }
                 ]
             },

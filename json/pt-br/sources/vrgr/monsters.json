@@ -1721,7 +1721,12 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 3 (1d4 + 2) de dano perfurante mais 3 (1d6) de dano de força.",
+                "name": "Mordida",
+                "damage_dices_v2": [
                     {
                         "dice": "3 (1d6)",
                         "damage": {
@@ -1730,10 +1735,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 3 (1d4 + 2) de dano perfurante mais 3 (1d6) de dano de força.",
-                "name": "Mordida"
+                ]
             }
         ],
         "reactions": [
@@ -1940,7 +1942,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
+                "name": "Espada longa prateada",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -1949,10 +1956,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
-                "name": "Espada longa prateada"
+                ]
             },
             {
                 "damage_dices": [
@@ -2192,7 +2196,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
+                "name": "Espada longa prateada",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -2201,10 +2210,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
-                "name": "Espada longa prateada"
+                ]
             }
         ],
         "reactions": [],
@@ -2396,7 +2402,11 @@
                 "name": "Multiataque"
             },
             {
-                "damage_dices": [
+                "damage_dices": [],
+                "attack_bonus": 7,
+                "description": "Ataque Mágico à Distância: +7 para acertar, alcance de 36 metros, um alvo. 22 (4d8 + 4) de dano de força, e se o alvo for uma criatura Grande ou menor, o inquisidor pode empurrá-lo até 3 metros de distância.",
+                "name": "Raio de Força",
+                "damage_dices_v2": [
                     {
                         "dice": "22 (4d8+4)",
                         "damage": {
@@ -2405,10 +2415,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Ataque Mágico à Distância: +7 para acertar, alcance de 36 metros, um alvo. 22 (4d8 + 4) de dano de força, e se o alvo for uma criatura Grande ou menor, o inquisidor pode empurrá-lo até 3 metros de distância.",
-                "name": "Raio de Força"
+                ]
             },
             {
                 "damage_dices": [
@@ -2419,7 +2426,12 @@
                             "type": "SLASHING",
                             "name": "Cortante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
+                "name": "Espada longa prateada",
+                "damage_dices_v2": [
                     {
                         "dice": "18 (4d8)",
                         "damage": {
@@ -2428,10 +2440,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 7,
-                "description": "Arma corpo a corpo Ataque: +7 para acertar, alcance 1,5 m, um alvo. 8 (1d8 + 4) de dano cortante, ou 9 (1d10 + 4) se usado com as duas mãos, mais 18 (4d8) de dano de força.",
-                "name": "Espada longa prateada"
+                ]
             },
             {
                 "damage_dices": [],
@@ -4829,7 +4838,12 @@
                             "type": "PIERCING",
                             "name": "Perfurante"
                         }
-                    },
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 0 m, um alvo no espaço do enxame. 12 (3d6 + 2) de dano perfurante, ou 5 (1d6 + 2) de dano perfurante se o enxame tiver metade de seus pontos de vida ou menos, mais 7 (2d6) de dano de força.",
+                "name": "Mordidas",
+                "damage_dices_v2": [
                     {
                         "dice": "7 (2d6)",
                         "damage": {
@@ -4838,10 +4852,7 @@
                             "name": "Força"
                         }
                     }
-                ],
-                "attack_bonus": 4,
-                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 0 m, um alvo no espaço do enxame. 12 (3d6 + 2) de dano perfurante, ou 5 (1d6 + 2) de dano perfurante se o enxame tiver metade de seus pontos de vida ou menos, mais 7 (2d6) de dano de força.",
-                "name": "Mordidas"
+                ]
             }
         ],
         "reactions": [
