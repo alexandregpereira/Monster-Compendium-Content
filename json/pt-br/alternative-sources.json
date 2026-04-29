@@ -28,7 +28,7 @@
         },
         "totalMonsters": 31,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Adentre os reinos sombrios de Ravenloft com o Van Richten's Guide to Ravenloft. Este livro explora os domínios escuros e misteriosos do medo, investigando os horrores que espreitam dentro deles. Descubra os segredos dos Poderes das Trevas, os infames Senhores das Trevas e as paisagens distorcidas de Ravenloft. Com novas opções de personagens, monstros e uma riqueza de conhecimento, este guia é essencial para qualquer campanha ambientada neste cenário de horror gótico."
     },
@@ -40,7 +40,7 @@
         },
         "totalMonsters": 38,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Explore as terras de Eberron neste livro de campanha para o maior jogo de RPG do mundo. Este livro fornece tudo o que jogadores e Mestres de Dungeons precisam para jogar Dungeons & Dragons em Eberron — um mundo devastado pela guerra, repleto de tecnologia mágica, naves aéreas e trens relâmpago, onde mistério inspirado no noir encontra aventura de espadachins. Eberron entrará em uma nova era próspera ou a sombra da guerra descerá novamente?"
     },
@@ -52,7 +52,7 @@
         },
         "totalMonsters": 122,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Volothamp Geddarm, o renomado mestre do saber, retorna com uma dissertação fascinante sobre alguns dos monstros mais icônicos dos Forgotten Realms. Esta obra fornece conhecimentos inestimáveis para Mestres e jogadores. Se você está em busca de tesouros, conhecimento ou troféus, este guia é essencial para sua próxima aventura, se você sobreviver a ela."
     },
@@ -64,20 +64,20 @@
         },
         "totalMonsters": 123,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "contentVersion": 1,
         "summary": "O Livro dos Monstros é um tesouro de criaturas icônicas do D&D, como dragões, gigantes e observadores. Repleto de estatísticas fáceis de usar e histórias envolventes, ele alimenta sua imaginação. Um recurso essencial para Mestres de Dungeons, enriquece qualquer aventura!"
     },
     {
         "source": {
-            "name": "Fichas do Jogador 3",
+            "name": "Fichas do Jogador",
             "acronym": "PSB3"
         },
         "totalMonsters": 6,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
-        "isEnabled": false,
-        "isLoreEnabled": false,
-        "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar no nível 3. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
     }
 ]

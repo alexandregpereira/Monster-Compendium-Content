@@ -7,7 +7,7 @@
         },
         "totalMonsters": 123,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "contentVersion": 1,
         "summary": "El Manual de Monstruos es un tesoro lleno de criaturas icónicas de D&D, como dragones, gigantes, flagelos mentales y observadores. Repleto de estadísticas fáciles de usar e historias cautivadoras, estimula tu imaginación. Un recurso imprescindible para los Dungeon Masters que enriquece cualquier aventura."
@@ -32,21 +32,21 @@
         },
         "totalMonsters": 38,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Explora las tierras de Eberron en este suplemento de campaña para el juego de rol más grande del mundo. Este libro proporciona todo lo que jugadores y Dungeon Masters necesitan para jugar a Dungeons & Dragons en Eberron: un mundo devastado por la guerra, repleto de tecnología impulsada por magia, aeronaves y trenes de relámpagos, donde el misterio de inspiración noir se encuentra con la aventura de capa y espada. ¿Entrará Eberron en una nueva era de prosperidad o volverá a caer la sombra de la guerra?"
     },
     {
         "source": {
-            "name": "Bloques de Estadísticas de Jugador 3",
-            "originalName": "Player Stat Blocks 3",
+            "name": "Bloques de Estadísticas de Jugador",
+            "originalName": "Player Stat Blocks",
             "acronym": "PSB3"
         },
         "totalMonsters": 6,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
-        "isEnabled": false,
-        "isLoreEnabled": false,
-        "summary": "Experimenta el mundo de D&D 5.ª edición con hojas de personaje listas para jugar al nivel 3. Ya seas principiante o estés buscando aventuras rápidas, ¡estas hojas pregeneradas son la elección perfecta!"
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Experimenta el mundo de D&D 5.ª edición con hojas de personaje listas para jugar. Ya seas principiante o estés buscando aventuras rápidas, ¡estas hojas pregeneradas son la elección perfecta!"
     },
     {
         "source": {
@@ -68,7 +68,7 @@
         },
         "totalMonsters": 31,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Adéntrate en los espeluznantes reinos de Ravenloft con la Guía de Van Richten para Ravenloft. Este suplemento explora los oscuros y misteriosos dominios del terror, revelando los horrores que acechan en su interior. Descubre los secretos de los Poderes Oscuros, los infames Señores de la Oscuridad y los retorcidos paisajes de Ravenloft. Con nuevas opciones de personaje, monstruos y una gran cantidad de trasfondo, esta guía es imprescindible para cualquier campaña ambientada en este escenario de horror gótico."
     },
@@ -80,7 +80,7 @@
         },
         "totalMonsters": 122,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Volothamp Geddarm, el renombrado maestro del saber, regresa con una fascinante disertación sobre algunos de los monstruos más icónicos de los Reinos Olvidados. Esta obra proporciona un conocimiento invaluable tanto para Dungeon Masters como para jugadores. Ya sea que busques tesoros, trasfondo o trofeos, esta guía es imprescindible para tu próxima aventura, si es que logras sobrevivir."
     }

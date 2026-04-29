@@ -28,7 +28,7 @@
         },
         "totalMonsters": 31,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Step into the eerie realms of Ravenloft with Van Richten's Guide to Ravenloft. This sourcebook delves into the dark and mysterious domains of dread, exploring the horrors that lurk within. Uncover the secrets of the Dark Powers, the infamous Darklords, and the twisted landscapes of Ravenloft. With new character options, monsters, and a wealth of lore, this guide is essential for any campaign set in this gothic horror setting."
     },
@@ -39,7 +39,7 @@
         },
         "totalMonsters": 38,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
     },
@@ -50,7 +50,7 @@
         },
         "totalMonsters": 122,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "summary": "Volothamp Geddarm, the renowned loremaster, returns with a captivating dissertation on some of the most iconic monsters in the Forgotten Realms. This work provides invaluable knowledge for Dungeon Masters and players alike. Whether you're seeking treasure, lore, or trophies, this guide is essential for your next adventure — if you survive it."
     },
@@ -61,20 +61,20 @@
         },
         "totalMonsters": 123,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "contentVersion": 1,
         "summary": "The Monster Manual is a treasure trove of iconic D&D creatures like dragons, giants, mind flayers, and beholders. Packed with easy-to-use stats and captivating stories, it fuels your imagination. A must-have resource for Dungeon Masters, it enriches any adventure!"
     },
     {
         "source": {
-            "name": "Player Stat Blocks 3",
+            "name": "Player Stat Blocks",
             "acronym": "PSB3"
         },
         "totalMonsters": 6,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
-        "isEnabled": false,
-        "isLoreEnabled": false,
-        "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets at level 3. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
     }
 ]
