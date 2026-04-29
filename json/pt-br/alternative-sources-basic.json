@@ -1,0 +1,26 @@
+[
+    {
+        "source": {
+            "name": "Livro dos Monstros",
+            "originalName": "Monster Manual",
+            "acronym": "MM"
+        },
+        "totalMonsters": 123,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "contentVersion": 1,
+        "summary": "O Livro dos Monstros é um tesouro de criaturas icônicas do D&D, como dragões, gigantes e observadores. Repleto de estatísticas fáceis de usar e histórias envolventes, ele alimenta sua imaginação. Um recurso essencial para Mestres de Dungeons, enriquece qualquer aventura!"
+    },
+    {
+        "source": {
+            "name": "Fichas do Jogador",
+            "acronym": "PSB3"
+        },
+        "totalMonsters": 6,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
+    }
+]
