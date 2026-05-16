@@ -12,6 +12,7 @@
         "armor_class": 16,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -232,6 +233,7 @@
         "armor_class": 12,
         "hit_points": 11,
         "hit_dice": "2d8+2",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -380,6 +382,7 @@
         "armor_class": 14,
         "hit_points": 137,
         "hit_dice": "25d8+25",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -611,6 +614,7 @@
         "armor_class": 15,
         "hit_points": 137,
         "hit_dice": "11d12+66",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -836,6 +840,7 @@
         "armor_class": 19,
         "hit_points": 323,
         "hit_dice": "34d8+170",
+        "initiative": 19,
         "speed": {
             "hover": true,
             "value": [
@@ -1202,6 +1207,7 @@
         "armor_class": 15,
         "hit_points": 14,
         "hit_dice": "4d6",
+        "initiative": 5,
         "speed": {
             "hover": true,
             "value": [
@@ -1362,6 +1368,7 @@
         "armor_class": 18,
         "hit_points": 175,
         "hit_dice": "27d8+54",
+        "initiative": 5,
         "speed": {
             "hover": true,
             "value": [
@@ -1715,6 +1722,7 @@
         "armor_class": 20,
         "hit_points": 333,
         "hit_dice": "29d10+174",
+        "initiative": 16,
         "speed": {
             "hover": false,
             "value": [
@@ -2104,6 +2112,7 @@
         "armor_class": 16,
         "hit_points": 240,
         "hit_dice": "32d8+96",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -2377,6 +2386,7 @@
         "armor_class": 18,
         "hit_points": 97,
         "hit_dice": "13d8+39",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -2602,6 +2612,7 @@
         "armor_class": 17,
         "hit_points": 169,
         "hit_dice": "26d8+52",
+        "initiative": 9,
         "speed": {
             "hover": false,
             "value": [
@@ -2802,6 +2813,7 @@
         "armor_class": 16,
         "hit_points": 130,
         "hit_dice": "20d8+40",
+        "initiative": 6,
         "speed": {
             "hover": false,
             "value": [
@@ -3029,6 +3041,7 @@
         "armor_class": 12,
         "hit_points": 54,
         "hit_dice": "12d8",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -3305,6 +3318,7 @@
         "armor_class": 15,
         "hit_points": 85,
         "hit_dice": "10d10+30",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -3561,6 +3575,7 @@
         "armor_class": 18,
         "hit_points": 190,
         "hit_dice": "20d10+80",
+        "initiative": 12,
         "speed": {
             "hover": true,
             "value": [
@@ -3749,6 +3764,7 @@
         "armor_class": 15,
         "hit_points": 93,
         "hit_dice": "11d10+33",
+        "initiative": -1,
         "speed": {
             "hover": true,
             "value": [
@@ -3908,6 +3924,7 @@
         "armor_class": 16,
         "hit_points": 136,
         "hit_dice": "16d8+64",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -4092,6 +4109,7 @@
         "armor_class": 18,
         "hit_points": 448,
         "hit_dice": "23d20+207",
+        "initiative": 16,
         "speed": {
             "hover": false,
             "value": [
@@ -4412,6 +4430,7 @@
         "armor_class": 15,
         "hit_points": 133,
         "hit_dice": "14d10+56",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -4581,6 +4600,7 @@
         "armor_class": 15,
         "hit_points": 65,
         "hit_dice": "10d10+10",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -4803,6 +4823,7 @@
         "armor_class": 19,
         "hit_points": 161,
         "hit_dice": "17d10+68",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -5006,6 +5027,7 @@
         "armor_class": 16,
         "hit_points": 45,
         "hit_dice": "6d8+18",
+        "initiative": -1,
         "speed": {
             "hover": false,
             "value": [
@@ -5130,6 +5152,7 @@
         "armor_class": 16,
         "hit_points": 52,
         "hit_dice": "8d8+16",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -5351,6 +5374,7 @@
         "armor_class": 15,
         "hit_points": 11,
         "hit_dice": "2d8+2",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -5495,6 +5519,7 @@
         "armor_class": 19,
         "hit_points": 105,
         "hit_dice": "14d8+42",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -5748,6 +5773,7 @@
         "armor_class": 13,
         "hit_points": 51,
         "hit_dice": "6d10+18",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -5909,6 +5935,7 @@
         "armor_class": 16,
         "hit_points": 105,
         "hit_dice": "14d10+28",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -6134,6 +6161,7 @@
         "armor_class": 15,
         "hit_points": 78,
         "hit_dice": "12d10+12",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -6336,6 +6364,7 @@
         "armor_class": 15,
         "hit_points": 136,
         "hit_dice": "16d10+48",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -6516,6 +6545,7 @@
         "armor_class": 23,
         "hit_points": 553,
         "hit_dice": "27d20+270",
+        "initiative": 16,
         "speed": {
             "hover": false,
             "value": [
@@ -6788,6 +6818,7 @@
         "armor_class": 12,
         "hit_points": 2,
         "hit_dice": "1d4",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -6922,6 +6953,7 @@
         "armor_class": 16,
         "hit_points": 144,
         "hit_dice": "17d8+68",
+        "initiative": 8,
         "speed": {
             "hover": false,
             "value": [
@@ -7120,6 +7152,7 @@
         "armor_class": 16,
         "hit_points": 207,
         "hit_dice": "18d12+90",
+        "initiative": 8,
         "speed": {
             "hover": false,
             "value": [
@@ -7323,6 +7356,7 @@
         "armor_class": 14,
         "hit_points": 138,
         "hit_dice": "12d12+60",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -7467,6 +7501,7 @@
         "armor_class": 18,
         "hit_points": 200,
         "hit_dice": "16d10+112",
+        "initiative": 1,
         "speed": {
             "hover": true,
             "value": [
@@ -7747,6 +7782,7 @@
         "armor_class": 17,
         "hit_points": 127,
         "hit_dice": "15d8+60",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -7964,6 +8000,7 @@
         "armor_class": 20,
         "hit_points": 199,
         "hit_dice": "21d8+105",
+        "initiative": 12,
         "speed": {
             "hover": false,
             "value": [
@@ -8271,6 +8308,7 @@
         "armor_class": 20,
         "hit_points": 178,
         "hit_dice": "21d8+84",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -8520,6 +8558,7 @@
         "armor_class": 18,
         "hit_points": 178,
         "hit_dice": "21d8+84",
+        "initiative": 10,
         "speed": {
             "hover": false,
             "value": [
@@ -8797,6 +8836,7 @@
         "armor_class": 19,
         "hit_points": 195,
         "hit_dice": "26d10+52",
+        "initiative": 12,
         "speed": {
             "hover": true,
             "value": [
@@ -9016,6 +9056,7 @@
         "armor_class": 20,
         "hit_points": 180,
         "hit_dice": "72d4",
+        "initiative": 17,
         "speed": {
             "hover": true,
             "value": [
@@ -9319,6 +9360,7 @@
         "armor_class": 16,
         "hit_points": 147,
         "hit_dice": "14d12+56",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -9506,6 +9548,7 @@
         "armor_class": 13,
         "hit_points": 76,
         "hit_dice": "9d10+27",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -9662,6 +9705,7 @@
         "armor_class": 20,
         "hit_points": 225,
         "hit_dice": "18d12+108",
+        "initiative": 12,
         "speed": {
             "hover": false,
             "value": [
@@ -9996,6 +10040,7 @@
         "armor_class": 20,
         "hit_points": 370,
         "hit_dice": "20d20+160",
+        "initiative": 18,
         "speed": {
             "hover": true,
             "value": [
@@ -10315,6 +10360,7 @@
         "armor_class": 16,
         "hit_points": 135,
         "hit_dice": "18d8+54",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -10501,6 +10547,7 @@
         "armor_class": 22,
         "hit_points": 346,
         "hit_dice": "21d12+210",
+        "initiative": 19,
         "speed": {
             "hover": true,
             "value": [
@@ -10814,6 +10861,7 @@
         "armor_class": 13,
         "hit_points": 22,
         "hit_dice": "5d8",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -11018,6 +11066,7 @@
         "armor_class": 15,
         "hit_points": 35,
         "hit_dice": "10d4+10",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -11245,6 +11294,7 @@
         "armor_class": 13,
         "hit_points": 21,
         "hit_dice": "6d4+6",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -11455,6 +11505,7 @@
         "armor_class": 16,
         "hit_points": 127,
         "hit_dice": "17d8+51",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -11652,6 +11703,7 @@
         "armor_class": 13,
         "hit_points": 40,
         "hit_dice": "9d4+18",
+        "initiative": 3,
         "speed": {
             "hover": true,
             "value": [
@@ -11886,6 +11938,7 @@
         "armor_class": 15,
         "hit_points": 65,
         "hit_dice": "10d8+20",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -12068,6 +12121,7 @@
         "armor_class": 12,
         "hit_points": 7,
         "hit_dice": "2d6",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -12248,6 +12302,7 @@
         "armor_class": 14,
         "hit_points": 172,
         "hit_dice": "15d12+75",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -12398,6 +12453,7 @@
         "armor_class": 16,
         "hit_points": 123,
         "hit_dice": "13d8+65",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -12561,6 +12617,7 @@
         "armor_class": 8,
         "hit_points": 13,
         "hit_dice": "9d10-36",
+        "initiative": -5,
         "speed": {
             "hover": true,
             "value": [
@@ -12734,6 +12791,7 @@
         "armor_class": 16,
         "hit_points": 97,
         "hit_dice": "15d8+30",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -12957,6 +13015,7 @@
         "armor_class": 15,
         "hit_points": 84,
         "hit_dice": "8d12+32",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -13103,6 +13162,7 @@
         "armor_class": 12,
         "hit_points": 120,
         "hit_dice": "16d12+16",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -13271,6 +13331,7 @@
         "armor_class": 18,
         "hit_points": 255,
         "hit_dice": "30d8+120",
+        "initiative": 8,
         "speed": {
             "hover": true,
             "value": [
@@ -13526,6 +13587,7 @@
         "armor_class": 18,
         "hit_points": 117,
         "hit_dice": "18d8+36",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -13732,6 +13794,7 @@
         "armor_class": 17,
         "hit_points": 49,
         "hit_dice": "9d8+9",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -13915,6 +13978,7 @@
         "armor_class": 14,
         "hit_points": 38,
         "hit_dice": "7d8+7",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -14141,6 +14205,7 @@
         "armor_class": 18,
         "hit_points": 169,
         "hit_dice": "26d8+52",
+        "initiative": 8,
         "speed": {
             "hover": true,
             "value": [
@@ -14367,6 +14432,7 @@
         "armor_class": 17,
         "hit_points": 84,
         "hit_dice": "13d8+26",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -14610,6 +14676,7 @@
         "armor_class": 16,
         "hit_points": 135,
         "hit_dice": "18d8+54",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -14783,6 +14850,7 @@
         "armor_class": 14,
         "hit_points": 71,
         "hit_dice": "11d8+22",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -14953,6 +15021,7 @@
         "armor_class": 15,
         "hit_points": 49,
         "hit_dice": "9d8+9",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -15101,6 +15170,7 @@
         "armor_class": 13,
         "hit_points": 45,
         "hit_dice": "10d6+10",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -15283,6 +15353,7 @@
         "armor_class": 19,
         "hit_points": 310,
         "hit_dice": "23d12+161",
+        "initiative": 6,
         "speed": {
             "hover": false,
             "value": [
@@ -15504,6 +15575,7 @@
         "armor_class": 14,
         "hit_points": 161,
         "hit_dice": "14d12+70",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -15736,6 +15808,7 @@
         "armor_class": 18,
         "hit_points": 150,
         "hit_dice": "20d8+60",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -16007,6 +16080,7 @@
         "armor_class": 16,
         "hit_points": 144,
         "hit_dice": "17d10+51",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -16246,6 +16320,7 @@
         "armor_class": 12,
         "hit_points": 55,
         "hit_dice": "10d8+10",
+        "initiative": 6,
         "speed": {
             "hover": true,
             "value": [
@@ -16434,6 +16509,7 @@
         "armor_class": 18,
         "hit_points": 135,
         "hit_dice": "18d10+36",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -16603,6 +16679,7 @@
         "armor_class": 20,
         "hit_points": 264,
         "hit_dice": "16d20+96",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -16800,6 +16877,7 @@
         "armor_class": 20,
         "hit_points": 203,
         "hit_dice": "14d20+56",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -17024,6 +17102,7 @@
         "armor_class": 20,
         "hit_points": 67,
         "hit_dice": "9d8+27",
+        "initiative": 3,
         "speed": {
             "hover": true,
             "value": [
@@ -17224,6 +17303,7 @@
         "armor_class": 20,
         "hit_points": 112,
         "hit_dice": "15d8+45",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -17399,6 +17479,7 @@
         "armor_class": 15,
         "hit_points": 75,
         "hit_dice": "10d10+20",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -17526,6 +17607,7 @@
         "armor_class": 12,
         "hit_points": 28,
         "hit_dice": "8d4+8",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -17707,6 +17789,7 @@
         "armor_class": 12,
         "hit_points": 18,
         "hit_dice": "4d6+4",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -17893,6 +17976,7 @@
         "armor_class": 15,
         "hit_points": 45,
         "hit_dice": "6d8+18",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -18093,6 +18177,7 @@
         "armor_class": 13,
         "hit_points": 13,
         "hit_dice": "3d8",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -18241,6 +18326,7 @@
         "armor_class": 13,
         "hit_points": 18,
         "hit_dice": "4d8",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -18409,6 +18495,7 @@
         "armor_class": 13,
         "hit_points": 105,
         "hit_dice": "14d8+42",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -18631,6 +18718,7 @@
         "armor_class": 13,
         "hit_points": 65,
         "hit_dice": "10d8+20",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -18781,6 +18869,7 @@
         "armor_class": 11,
         "hit_points": 45,
         "hit_dice": "7d8+14",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -18958,6 +19047,7 @@
         "armor_class": 12,
         "hit_points": 22,
         "hit_dice": "5d8",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -19142,6 +19232,7 @@
         "armor_class": 9,
         "hit_points": 9,
         "hit_dice": "2d8",
+        "initiative": -1,
         "speed": {
             "hover": false,
             "value": [
@@ -19242,6 +19333,7 @@
         "armor_class": 13,
         "hit_points": 33,
         "hit_dice": "6d8+6",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -19451,6 +19543,7 @@
         "armor_class": 15,
         "hit_points": 78,
         "hit_dice": "12d8+24",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -19634,6 +19727,7 @@
         "armor_class": 15,
         "hit_points": 49,
         "hit_dice": "9d8+9",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -19812,6 +19906,7 @@
         "armor_class": 9,
         "hit_points": 9,
         "hit_dice": "2d6+2",
+        "initiative": -1,
         "speed": {
             "hover": false,
             "value": [
@@ -19950,6 +20045,7 @@
         "armor_class": 13,
         "hit_points": 19,
         "hit_dice": "3d8+6",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -20145,6 +20241,7 @@
         "armor_class": 17,
         "hit_points": 229,
         "hit_dice": "17d10+136",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -20445,6 +20542,7 @@
         "armor_class": 14,
         "hit_points": 97,
         "hit_dice": "15d8+30",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -20662,6 +20760,7 @@
         "armor_class": 18,
         "hit_points": 75,
         "hit_dice": "10d8+30",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -20901,6 +21000,7 @@
         "armor_class": 15,
         "hit_points": 99,
         "hit_dice": "18d8+18",
+        "initiative": 4,
         "speed": {
             "hover": true,
             "value": [
@@ -21169,6 +21269,7 @@
         "armor_class": 16,
         "hit_points": 143,
         "hit_dice": "26d8+26",
+        "initiative": 6,
         "speed": {
             "hover": true,
             "value": [
@@ -21478,6 +21579,7 @@
         "armor_class": 15,
         "hit_points": 11,
         "hit_dice": "2d8+2",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -21599,6 +21701,7 @@
         "armor_class": 15,
         "hit_points": 5,
         "hit_dice": "1d8+1",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -21735,6 +21838,7 @@
         "armor_class": 16,
         "hit_points": 32,
         "hit_dice": "5d10+5",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -21893,6 +21997,7 @@
         "armor_class": 16,
         "hit_points": 22,
         "hit_dice": "4d8+4",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -22043,6 +22148,7 @@
         "armor_class": 15,
         "hit_points": 16,
         "hit_dice": "3d8+3",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -22164,6 +22270,7 @@
         "armor_class": 11,
         "hit_points": 13,
         "hit_dice": "3d6+3",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -22338,6 +22445,7 @@
         "armor_class": 12,
         "hit_points": 16,
         "hit_dice": "3d8+3",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -22483,6 +22591,7 @@
         "armor_class": 13,
         "hit_points": 45,
         "hit_dice": "6d10+12",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -22644,6 +22753,7 @@
         "armor_class": 13,
         "hit_points": 37,
         "hit_dice": "5d8+15",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -22786,6 +22896,7 @@
         "armor_class": 10,
         "hit_points": 3,
         "hit_dice": "1d6",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -22911,6 +23022,7 @@
         "armor_class": 12,
         "hit_points": 16,
         "hit_dice": "3d8+3",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -23034,6 +23146,7 @@
         "armor_class": 16,
         "hit_points": 148,
         "hit_dice": "27d8+27",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -23267,6 +23380,7 @@
         "armor_class": 15,
         "hit_points": 45,
         "hit_dice": "6d8+18",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -23436,6 +23550,7 @@
         "armor_class": 18,
         "hit_points": 152,
         "hit_dice": "16d10+64",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -23632,6 +23747,7 @@
         "armor_class": 12,
         "hit_points": 52,
         "hit_dice": "7d10+14",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -23758,6 +23874,7 @@
         "armor_class": 13,
         "hit_points": 27,
         "hit_dice": "5d8+5",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -23894,6 +24011,7 @@
         "armor_class": 20,
         "hit_points": 162,
         "hit_dice": "25d8+50",
+        "initiative": 9,
         "speed": {
             "hover": false,
             "value": [
@@ -24160,6 +24278,7 @@
         "armor_class": 18,
         "hit_points": 110,
         "hit_dice": "17d8+34",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -24380,6 +24499,7 @@
         "armor_class": 13,
         "hit_points": 33,
         "hit_dice": "6d8+6",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -24539,6 +24659,7 @@
         "armor_class": 15,
         "hit_points": 22,
         "hit_dice": "3d8+9",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -24684,6 +24805,7 @@
         "armor_class": 20,
         "hit_points": 182,
         "hit_dice": "28d8+56",
+        "initiative": 10,
         "speed": {
             "hover": false,
             "value": [
@@ -24872,6 +24994,7 @@
         "armor_class": 15,
         "hit_points": 9,
         "hit_dice": "6d4-6",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -25054,6 +25177,7 @@
         "armor_class": 15,
         "hit_points": 60,
         "hit_dice": "24d4",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -25290,6 +25414,7 @@
         "armor_class": 12,
         "hit_points": 22,
         "hit_dice": "5d8",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -25550,6 +25675,7 @@
         "armor_class": 16,
         "hit_points": 126,
         "hit_dice": "12d12+48",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -25737,6 +25863,7 @@
         "armor_class": 13,
         "hit_points": 45,
         "hit_dice": "6d8+18",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -25884,6 +26011,7 @@
         "armor_class": 15,
         "hit_points": 67,
         "hit_dice": "9d8+27",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -26093,6 +26221,7 @@
         "armor_class": 18,
         "hit_points": 202,
         "hit_dice": "27d8+81",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -26339,6 +26468,7 @@
         "armor_class": 14,
         "hit_points": 93,
         "hit_dice": "11d10+33",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -26500,6 +26630,7 @@
         "armor_class": 13,
         "hit_points": 127,
         "hit_dice": "15d8+60",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -26728,6 +26859,7 @@
         "armor_class": 16,
         "hit_points": 76,
         "hit_dice": "9d10+27",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -26916,6 +27048,7 @@
         "armor_class": 12,
         "hit_points": 38,
         "hit_dice": "7d8+7",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -27136,6 +27269,7 @@
         "armor_class": 14,
         "hit_points": 27,
         "hit_dice": "6d8",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -27272,6 +27406,7 @@
         "armor_class": 18,
         "hit_points": 256,
         "hit_dice": "27d10+108",
+        "initiative": 8,
         "speed": {
             "hover": false,
             "value": [
@@ -27488,6 +27623,7 @@
         "armor_class": 17,
         "hit_points": 82,
         "hit_dice": "15d8+15",
+        "initiative": 7,
         "speed": {
             "hover": false,
             "value": [
@@ -27652,6 +27788,7 @@
         "armor_class": 11,
         "hit_points": 27,
         "hit_dice": "6d8",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -27831,6 +27968,7 @@
         "armor_class": 15,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -28023,6 +28161,7 @@
         "armor_class": 14,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 3,
         "speed": {
             "hover": true,
             "value": [
@@ -28268,6 +28407,7 @@
         "armor_class": 16,
         "hit_points": 189,
         "hit_dice": "18d12+72",
+        "initiative": 14,
         "speed": {
             "hover": false,
             "value": [
@@ -28513,6 +28653,7 @@
         "armor_class": 12,
         "hit_points": 7,
         "hit_dice": "3d4",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -28660,6 +28801,7 @@
         "armor_class": 12,
         "hit_points": 13,
         "hit_dice": "3d6+3",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -28838,6 +28980,7 @@
         "armor_class": 14,
         "hit_points": 45,
         "hit_dice": "7d8+14",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -28992,6 +29135,7 @@
         "armor_class": 16,
         "hit_points": 136,
         "hit_dice": "16d10+48",
+        "initiative": 5,
         "speed": {
             "hover": false,
             "value": [
@@ -29245,6 +29389,7 @@
         "armor_class": 13,
         "hit_points": 45,
         "hit_dice": "10d6+10",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -29428,6 +29573,7 @@
         "armor_class": 19,
         "hit_points": 137,
         "hit_dice": "25d8+25",
+        "initiative": 9,
         "speed": {
             "hover": false,
             "value": [
@@ -29667,6 +29813,7 @@
         "armor_class": 12,
         "hit_points": 45,
         "hit_dice": "6d10+12",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -29891,6 +30038,7 @@
         "armor_class": 13,
         "hit_points": 22,
         "hit_dice": "3d10+6",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -30063,6 +30211,7 @@
         "armor_class": 12,
         "hit_points": 45,
         "hit_dice": "6d10+12",
+        "initiative": -2,
         "speed": {
             "hover": false,
             "value": [
@@ -30270,6 +30419,7 @@
         "armor_class": 14,
         "hit_points": 36,
         "hit_dice": "8d8",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -30469,6 +30619,7 @@
         "armor_class": 15,
         "hit_points": 33,
         "hit_dice": "6d8+6",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -30630,6 +30781,7 @@
         "armor_class": 16,
         "hit_points": 149,
         "hit_dice": "23d8+46",
+        "initiative": 5,
         "speed": {
             "hover": true,
             "value": [
@@ -30827,6 +30979,7 @@
         "armor_class": 15,
         "hit_points": 115,
         "hit_dice": "10d12+50",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -31000,6 +31153,7 @@
         "armor_class": 11,
         "hit_points": 13,
         "hit_dice": "2d8+4",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -31139,6 +31293,7 @@
         "armor_class": 14,
         "hit_points": 7,
         "hit_dice": "2d6",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -31270,6 +31425,7 @@
         "armor_class": 19,
         "hit_points": 221,
         "hit_dice": "26d8+104",
+        "initiative": 8,
         "speed": {
             "hover": true,
             "value": [
@@ -31579,6 +31735,7 @@
         "armor_class": 18,
         "hit_points": 93,
         "hit_dice": "11d10+33",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -31716,6 +31873,7 @@
         "armor_class": 16,
         "hit_points": 142,
         "hit_dice": "19d8+57",
+        "initiative": 4,
         "speed": {
             "hover": true,
             "value": [
@@ -31931,6 +32089,7 @@
         "armor_class": 16,
         "hit_points": 187,
         "hit_dice": "22d8+88",
+        "initiative": 14,
         "speed": {
             "hover": true,
             "value": [
@@ -32248,6 +32407,7 @@
         "armor_class": 12,
         "hit_points": 19,
         "hit_dice": "3d8+6",
+        "initiative": -1,
         "speed": {
             "hover": false,
             "value": [
@@ -32393,6 +32553,7 @@
         "armor_class": 17,
         "hit_points": 123,
         "hit_dice": "13d10+52",
+        "initiative": 4,
         "speed": {
             "hover": false,
             "value": [
@@ -32596,6 +32757,7 @@
         "armor_class": 18,
         "hit_points": 161,
         "hit_dice": "19d8+76",
+        "initiative": 9,
         "speed": {
             "hover": false,
             "value": [
@@ -32775,6 +32937,7 @@
         "armor_class": 13,
         "hit_points": 65,
         "hit_dice": "10d10+10",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -32967,6 +33130,7 @@
         "armor_class": 15,
         "hit_points": 10,
         "hit_dice": "4d6-4",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -33119,6 +33283,7 @@
         "armor_class": 12,
         "hit_points": 51,
         "hit_dice": "6d10+18",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -33321,6 +33486,7 @@
         "armor_class": 15,
         "hit_points": 153,
         "hit_dice": "18d8+72",
+        "initiative": 8,
         "speed": {
             "hover": false,
             "value": [
@@ -33595,6 +33761,7 @@
         "armor_class": 14,
         "hit_points": 93,
         "hit_dice": "11d10+33",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -33728,6 +33895,7 @@
         "armor_class": 15,
         "hit_points": 127,
         "hit_dice": "15d10+45",
+        "initiative": 6,
         "speed": {
             "hover": false,
             "value": [
@@ -33992,6 +34160,7 @@
         "armor_class": 11,
         "hit_points": 40,
         "hit_dice": "9d8",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -34187,6 +34356,7 @@
         "armor_class": 12,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -34395,6 +34565,7 @@
         "armor_class": 12,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -34586,6 +34757,7 @@
         "armor_class": 12,
         "hit_points": 66,
         "hit_dice": "12d8+12",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -34803,6 +34975,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 0,
         "speed": {
             "hover": true,
             "value": [
@@ -34980,6 +35153,7 @@
         "armor_class": 15,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -35069,6 +35243,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -35186,6 +35361,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -35309,6 +35485,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -35426,6 +35603,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -35575,6 +35753,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -35729,6 +35908,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 0,
         "speed": {
             "hover": false,
             "value": [
@@ -35893,6 +36073,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 2,
         "speed": {
             "hover": false,
             "value": [
@@ -36075,6 +36256,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 2,
         "speed": {
             "hover": true,
             "value": [
@@ -36264,6 +36446,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -36391,6 +36574,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 3,
         "speed": {
             "hover": false,
             "value": [
@@ -36586,6 +36770,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 1,
         "speed": {
             "hover": false,
             "value": [
@@ -36733,6 +36918,7 @@
         "armor_class": 10,
         "hit_points": 0,
         "hit_dice": "",
+        "initiative": 3,
         "speed": {
             "hover": true,
             "value": [
