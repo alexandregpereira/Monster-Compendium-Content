@@ -1,0 +1,1488 @@
+[
+  {
+    "index": "bugbear-chief",
+    "type": "HUMANOID",
+    "subtype": "goblinoid",
+    "group": null,
+    "challenge_rating": 3.0,
+    "name": "Bugbear Chief",
+    "subtitle": "Medium humanoid(goblinoid), chaotic evil",
+    "size": "Medium",
+    "alignment": "chaotic evil",
+    "armor_class": 17,
+    "hit_points": 65,
+    "hit_dice": "10d8+20",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 17,
+        "modifier": 3
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 14,
+        "modifier": 2
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 14,
+        "modifier": 2
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 11,
+        "modifier": 0
+      },
+      {
+        "type": "WISDOM",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "CHARISMA",
+        "value": 11,
+        "modifier": 0
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "index": "skill-intimidation",
+        "modifier": 2,
+        "name": "Intimidation"
+      },
+      {
+        "index": "skill-stealth",
+        "modifier": 6,
+        "name": "Stealth"
+      },
+      {
+        "index": "skill-survival",
+        "modifier": 3,
+        "name": "Survival"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "languages": "Common, Goblin",
+    "special_abilities": [
+      {
+        "name": "Brute",
+        "desc": "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+      },
+      {
+        "name": "Surprise Attack",
+        "desc": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      },
+      {
+        "name": "Heart of Hruggek",
+        "desc": "The bugbear has advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep.",
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Frightened"
+          },
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralyzed"
+          },
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Poisoned"
+          },
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          },
+          {
+            "index": "stunned",
+            "type": "STUNNED",
+            "name": "Stunned"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The bugbear makes two melee attacks",
+        "name": "Multiattack"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "11 (2d8+3)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 5,
+        "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 3) piercing damage.",
+        "name": "Morningstar"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "9 (2d6+3)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          },
+          {
+            "dice": "5 (1d6+3)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 5,
+        "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 3) piercing damage in melee or 5 (1d6 + 3) piercing damage at range.",
+        "name": "Javelin"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "drow-elite-warrior",
+    "type": "HUMANOID",
+    "subtype": "elf",
+    "group": "Drows",
+    "challenge_rating": 5.0,
+    "name": "Drow Elite Warrior",
+    "subtitle": "Medium humanoid(elf), neutral evil",
+    "size": "Medium",
+    "alignment": "neutral evil",
+    "armor_class": 18,
+    "hit_points": 71,
+    "hit_dice": "11d8+22",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 13,
+        "modifier": 1
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 18,
+        "modifier": 4
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 14,
+        "modifier": 2
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 11,
+        "modifier": 0
+      },
+      {
+        "type": "WISDOM",
+        "value": 13,
+        "modifier": 1
+      },
+      {
+        "type": "CHARISMA",
+        "value": 12,
+        "modifier": 1
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "saving-throw-dex",
+        "type": "DEXTERITY",
+        "modifier": 7
+      },
+      {
+        "index": "saving-throw-con",
+        "type": "CONSTITUTION",
+        "modifier": 5
+      },
+      {
+        "index": "saving-throw-wis",
+        "type": "WISDOM",
+        "modifier": 4
+      }
+    ],
+    "skills": [
+      {
+        "index": "skill-perception",
+        "modifier": 4,
+        "name": "Perception"
+      },
+      {
+        "index": "skill-stealth",
+        "modifier": 10,
+        "name": "Stealth"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "languages": "Elvish, Undercommon",
+    "special_abilities": [
+      {
+        "name": "Fey Ancestry",
+        "desc": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.",
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          }
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "spellcasting": [
+      {
+        "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "type": "INNATE",
+        "spells_by_group": [
+          {
+            "group": "At Will",
+            "spells": [
+              {
+                "index": "dancing-lights",
+                "name": "Dancing Lights",
+                "school": "EVOCATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1/day each",
+            "spells": [
+              {
+                "index": "darkness",
+                "name": "Darkness",
+                "school": "EVOCATION",
+                "level": 2
+              },
+              {
+                "index": "faerie-fire",
+                "name": "Faerie Fire",
+                "school": "EVOCATION",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The drow makes two shortsword attacks.",
+        "name": "Multiattack"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "7 (1d6+4)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          },
+          {
+            "dice": "10 (3d6)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Poison"
+            }
+          }
+        ],
+        "attack_bonus": 7,
+        "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage.",
+        "name": "Shortsword"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "7 (1d6+4)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 7,
+        "description": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
+        "name": "Hand Crossbow",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 13
+          }
+        ],
+        "conditions": [
+          {
+            "index": "unconscious",
+            "type": "UNCONSCIOUS",
+            "name": "Unconscious"
+          },
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Poisoned"
+          }
+        ]
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Parry",
+        "desc": "The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon."
+      }
+    ],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "drow-mage",
+    "type": "HUMANOID",
+    "subtype": "elf",
+    "group": "Drows",
+    "challenge_rating": 7.0,
+    "name": "Drow Mage",
+    "subtitle": "Medium humanoid(elf), neutral evil",
+    "size": "Medium",
+    "alignment": "neutral evil",
+    "armor_class": 12,
+    "hit_points": 45,
+    "hit_dice": "10d8",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 9,
+        "modifier": -1
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 14,
+        "modifier": 2
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 10,
+        "modifier": 0
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 17,
+        "modifier": 3
+      },
+      {
+        "type": "WISDOM",
+        "value": 13,
+        "modifier": 1
+      },
+      {
+        "type": "CHARISMA",
+        "value": 12,
+        "modifier": 1
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "index": "skill-arcana",
+        "modifier": 6,
+        "name": "Arcana"
+      },
+      {
+        "index": "skill-deception",
+        "modifier": 5,
+        "name": "Deception"
+      },
+      {
+        "index": "skill-perception",
+        "modifier": 4,
+        "name": "Perception"
+      },
+      {
+        "index": "skill-stealth",
+        "modifier": 5,
+        "name": "Stealth"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "languages": "Elvish, Undercommon",
+    "special_abilities": [
+      {
+        "name": "Fey Ancestry",
+        "desc": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.",
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          }
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "spellcasting": [
+      {
+        "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+        "type": "INNATE",
+        "spells_by_group": [
+          {
+            "group": "At Will",
+            "spells": [
+              {
+                "index": "dancing-lights",
+                "name": "Dancing Lights",
+                "school": "EVOCATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1/day each",
+            "spells": [
+              {
+                "index": "darkness",
+                "name": "Darkness",
+                "school": "EVOCATION",
+                "level": 2
+              },
+              {
+                "index": "faerie-fire",
+                "name": "Faerie Fire",
+                "school": "EVOCATION",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "desc": "The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The drow has the following wizard spells prepared:",
+        "type": "SPELLCASTER",
+        "spells_by_group": [
+          {
+            "group": "Cantrips (at will)",
+            "spells": [
+              {
+                "index": "mage-hand",
+                "name": "Mage Hand",
+                "school": "CONJURATION",
+                "level": 0
+              },
+              {
+                "index": "minor-illusion",
+                "name": "Minor Illusion",
+                "school": "ILLUSION",
+                "level": 0
+              },
+              {
+                "index": "poison-spray",
+                "name": "Poison Spray",
+                "school": "CONJURATION",
+                "level": 0
+              },
+              {
+                "index": "ray-of-frost",
+                "name": "Ray of Frost",
+                "school": "EVOCATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1st level (4 slots)",
+            "spells": [
+              {
+                "index": "mage-armor",
+                "name": "Mage Armor",
+                "school": "ABJURATION",
+                "level": 1
+              },
+              {
+                "index": "magic-missile",
+                "name": "Magic Missile",
+                "school": "EVOCATION",
+                "level": 1
+              },
+              {
+                "index": "shield",
+                "name": "Shield",
+                "school": "ABJURATION",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "group": "2nd level (3 slots)",
+            "spells": [
+              {
+                "index": "alter-self",
+                "name": "Alter Self",
+                "school": "TRANSMUTATION",
+                "level": 2
+              },
+              {
+                "index": "misty-step",
+                "name": "Misty Step",
+                "school": "CONJURATION",
+                "level": 2
+              },
+              {
+                "index": "web",
+                "name": "Web",
+                "school": "CONJURATION",
+                "level": 2
+              }
+            ]
+          },
+          {
+            "group": "3rd level (3 slots)",
+            "spells": [
+              {
+                "index": "fly",
+                "name": "Fly",
+                "school": "TRANSMUTATION",
+                "level": 3
+              },
+              {
+                "index": "lightning-bolt",
+                "name": "Lightning Bolt",
+                "school": "EVOCATION",
+                "level": 3
+              }
+            ]
+          },
+          {
+            "group": "4th level (3 slots)",
+            "spells": [
+              {
+                "index": "greater-invisibility",
+                "name": "Greater Invisibility",
+                "school": "ILLUSION",
+                "level": 4
+              }
+            ]
+          },
+          {
+            "group": "5th level (2 slots)",
+            "spells": [
+              {
+                "index": "cloudkill",
+                "name": "Cloudkill",
+                "school": "CONJURATION",
+                "level": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [
+          {
+            "dice": "2 (1d6-1)",
+            "damage": {
+              "index": "bludgeoning",
+              "type": "BLUDGEONING",
+              "name": "Bludgeoning"
+            }
+          },
+          {
+            "dice": "3 (1d8-1)",
+            "damage": {
+              "index": "bludgeoning",
+              "type": "BLUDGEONING",
+              "name": "Bludgeoning"
+            }
+          },
+          {
+            "dice": "3 (1d6)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Poison"
+            }
+          }
+        ],
+        "attack_bonus": 2,
+        "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands, plus 3 (1d6) poison damage.",
+        "name": "Staff"
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The drow magically summons a quasit, or attempts to summon a shadow demon with a 50 percent chance of success. The summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.",
+        "name": "Summon Demon (1/Day)"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "drow-priestess-of-lolth",
+    "type": "HUMANOID",
+    "subtype": "elf",
+    "group": "Drows",
+    "challenge_rating": 8.0,
+    "name": "Drow Priestess of Lolth",
+    "subtitle": "Medium humanoid(elf), neutral evil",
+    "size": "Medium",
+    "alignment": "neutral evil",
+    "armor_class": 16,
+    "hit_points": 71,
+    "hit_dice": "13d8+13",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 10,
+        "modifier": 0
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 14,
+        "modifier": 2
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 13,
+        "modifier": 1
+      },
+      {
+        "type": "WISDOM",
+        "value": 17,
+        "modifier": 3
+      },
+      {
+        "type": "CHARISMA",
+        "value": 18,
+        "modifier": 4
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "saving-throw-con",
+        "type": "CONSTITUTION",
+        "modifier": 4
+      },
+      {
+        "index": "saving-throw-wis",
+        "type": "WISDOM",
+        "modifier": 6
+      },
+      {
+        "index": "saving-throw-cha",
+        "type": "CHARISMA",
+        "modifier": 7
+      }
+    ],
+    "skills": [
+      {
+        "index": "skill-insight",
+        "modifier": 6,
+        "name": "Insight"
+      },
+      {
+        "index": "skill-perception",
+        "modifier": 6,
+        "name": "Perception"
+      },
+      {
+        "index": "skill-religion",
+        "modifier": 4,
+        "name": "Religion"
+      },
+      {
+        "index": "skill-stealth",
+        "modifier": 5,
+        "name": "Stealth"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "languages": "Elvish, Undercommon",
+    "special_abilities": [
+      {
+        "name": "Fey Ancestry",
+        "desc": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep.",
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          }
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "spellcasting": [
+      {
+        "desc": "The drow's spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:",
+        "type": "INNATE",
+        "spells_by_group": [
+          {
+            "group": "At Will",
+            "spells": [
+              {
+                "index": "dancing-lights",
+                "name": "Dancing Lights",
+                "school": "EVOCATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1/day each",
+            "spells": [
+              {
+                "index": "darkness",
+                "name": "Darkness",
+                "school": "EVOCATION",
+                "level": 2
+              },
+              {
+                "index": "faerie-fire",
+                "name": "Faerie Fire",
+                "school": "EVOCATION",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "desc": "The drow is a 10th-level spellcaster. Her spellcasting ability is Wisdom (save DC 14, +6 to hit with spell attacks). The drow has the following cleric spells prepared:",
+        "type": "SPELLCASTER",
+        "spells_by_group": [
+          {
+            "group": "Cantrips (at will)",
+            "spells": [
+              {
+                "index": "guidance",
+                "name": "Guidance",
+                "school": "DIVINATION",
+                "level": 0
+              },
+              {
+                "index": "poison-spray",
+                "name": "Poison Spray",
+                "school": "CONJURATION",
+                "level": 0
+              },
+              {
+                "index": "resistance",
+                "name": "Resistance",
+                "school": "ABJURATION",
+                "level": 0
+              },
+              {
+                "index": "spare-the-dying",
+                "name": "Spare the Dying",
+                "school": "NECROMANCY",
+                "level": 0
+              },
+              {
+                "index": "thaumaturgy",
+                "name": "Thaumaturgy",
+                "school": "TRANSMUTATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1st level (4 slots)",
+            "spells": [
+              {
+                "index": "animal-friendship",
+                "name": "Animal Friendship",
+                "school": "ENCHANTMENT",
+                "level": 1
+              },
+              {
+                "index": "cure-wounds",
+                "name": "Cure Wounds",
+                "school": "EVOCATION",
+                "level": 1
+              },
+              {
+                "index": "detect-poison-and-disease",
+                "name": "Detect Poison and Disease",
+                "school": "DIVINATION",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "group": "2nd level (3 slots)",
+            "spells": [
+              {
+                "index": "lesser-restoration",
+                "name": "Lesser Restoration",
+                "school": "ABJURATION",
+                "level": 2
+              },
+              {
+                "index": "protection-from-poison",
+                "name": "Protection from Poison",
+                "school": "ABJURATION",
+                "level": 2
+              },
+              {
+                "index": "web",
+                "name": "Web",
+                "school": "CONJURATION",
+                "level": 2
+              }
+            ]
+          },
+          {
+            "group": "3rd level (3 slots)",
+            "spells": [
+              {
+                "index": "dispel-magic",
+                "name": "Dispel Magic",
+                "school": "ABJURATION",
+                "level": 3
+              }
+            ]
+          },
+          {
+            "group": "4th level (3 slots)",
+            "spells": [
+              {
+                "index": "divination",
+                "name": "Divination",
+                "school": "DIVINATION",
+                "level": 4
+              },
+              {
+                "index": "freedom-of-movement",
+                "name": "Freedom of Movement",
+                "school": "ABJURATION",
+                "level": 4
+              }
+            ]
+          },
+          {
+            "group": "5th level (2 slots)",
+            "spells": [
+              {
+                "index": "insect-plague",
+                "name": "Insect Plague",
+                "school": "CONJURATION",
+                "level": 5
+              },
+              {
+                "index": "mass-cure-wounds",
+                "name": "Mass Cure Wounds",
+                "school": "CONJURATION",
+                "level": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The drow makes two scourge attacks.",
+        "name": "Multiattack"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (1d6+2)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          },
+          {
+            "dice": "17 (5d6)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Poison"
+            }
+          }
+        ],
+        "attack_bonus": 5,
+        "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 17 (5d6) poison damage.",
+        "name": "Scourge"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (1d10)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "The drow attempts to magically summon a yochlol with a 30 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action.",
+        "name": "Summon Demon (1/Day)"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "orc-eye-of-gruumsh",
+    "type": "HUMANOID",
+    "subtype": "orc",
+    "group": null,
+    "challenge_rating": 2.0,
+    "name": "Orc Eye of Gruumsh",
+    "subtitle": "Medium humanoid(orc), chaotic evil",
+    "size": "Medium",
+    "alignment": "chaotic evil",
+    "armor_class": 16,
+    "hit_points": 45,
+    "hit_dice": "6d8+18",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 16,
+        "modifier": 3
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 17,
+        "modifier": 3
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 9,
+        "modifier": -1
+      },
+      {
+        "type": "WISDOM",
+        "value": 13,
+        "modifier": 1
+      },
+      {
+        "type": "CHARISMA",
+        "value": 12,
+        "modifier": 1
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "index": "skill-intimidation",
+        "modifier": 3,
+        "name": "Intimidation"
+      },
+      {
+        "index": "skill-religion",
+        "modifier": 1,
+        "name": "Religion"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "languages": "Common, Orc",
+    "special_abilities": [
+      {
+        "name": "Aggressive",
+        "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      },
+      {
+        "name": "Gruumsh's Fury",
+        "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks)."
+      }
+    ],
+    "spellcasting": [
+      {
+        "desc": "The orc is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The orc has the following cleric spells prepared:",
+        "type": "SPELLCASTER",
+        "spells_by_group": [
+          {
+            "group": "Cantrips (at will)",
+            "spells": [
+              {
+                "index": "guidance",
+                "name": "Guidance",
+                "school": "DIVINATION",
+                "level": 0
+              },
+              {
+                "index": "resistance",
+                "name": "Resistance",
+                "school": "ABJURATION",
+                "level": 0
+              },
+              {
+                "index": "thaumaturgy",
+                "name": "Thaumaturgy",
+                "school": "TRANSMUTATION",
+                "level": 0
+              }
+            ]
+          },
+          {
+            "group": "1st level (4 slots)",
+            "spells": [
+              {
+                "index": "bless",
+                "name": "Bless",
+                "school": "ENCHANTMENT",
+                "level": 1
+              },
+              {
+                "index": "command",
+                "name": "Command",
+                "school": "ENCHANTMENT",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "group": "2nd level (2 slots)",
+            "spells": [
+              {
+                "index": "augury",
+                "name": "Augury",
+                "school": "DIVINATION",
+                "level": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [
+          {
+            "dice": "12 (2d8+3)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 5,
+        "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8 + 3) piercing damage if used with two hands to make a melee attack.",
+        "name": "Spear"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "orc-war-chief",
+    "type": "HUMANOID",
+    "subtype": "orc",
+    "group": null,
+    "challenge_rating": 4.0,
+    "name": "Orc War Chief",
+    "subtitle": "Medium humanoid(orc), chaotic evil",
+    "size": "Medium",
+    "alignment": "chaotic evil",
+    "armor_class": 16,
+    "hit_points": 93,
+    "hit_dice": "11d8+44",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 18,
+        "modifier": 4
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 18,
+        "modifier": 4
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 11,
+        "modifier": 0
+      },
+      {
+        "type": "WISDOM",
+        "value": 11,
+        "modifier": 0
+      },
+      {
+        "type": "CHARISMA",
+        "value": 16,
+        "modifier": 3
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "saving-throw-str",
+        "type": "STRENGTH",
+        "modifier": 6
+      },
+      {
+        "index": "saving-throw-con",
+        "type": "CONSTITUTION",
+        "modifier": 6
+      },
+      {
+        "index": "saving-throw-wis",
+        "type": "WISDOM",
+        "modifier": 2
+      }
+    ],
+    "skills": [
+      {
+        "index": "skill-intimidation",
+        "modifier": 5,
+        "name": "Intimidation"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "languages": "Common, Orc",
+    "special_abilities": [
+      {
+        "name": "Aggressive",
+        "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      },
+      {
+        "name": "Gruumsh's Fury",
+        "desc": "The orc deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks)."
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The orc makes two attacks with its greataxe or its spear.",
+        "name": "Multiattack"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "1d12+4plus1d8",
+            "damage": {
+              "index": "SLASHING",
+              "type": "SLASHING",
+              "name": "Slashing"
+            }
+          }
+        ],
+        "attack_bonus": 6,
+        "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 15 (1d12 + 4 plus 1d8) slashing damage.",
+        "name": "Greataxe"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (2d8+4)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 6,
+        "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 12 (1d6 + 4 plus 1d8) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.",
+        "name": "Spear"
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "Each creature of the war chief's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of the war chief's next turn. The war chief can then make one attack as a bonus action.",
+        "name": "Battle Cry (1/Day)"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  },
+  {
+    "index": "orog",
+    "type": "HUMANOID",
+    "subtype": "orc",
+    "group": null,
+    "challenge_rating": 2.0,
+    "name": "Orog",
+    "subtitle": "Medium humanoid(orc), chaotic evil",
+    "size": "Medium",
+    "alignment": "chaotic evil",
+    "armor_class": 18,
+    "hit_points": 42,
+    "hit_dice": "5d8+20",
+    "speed": {
+      "hover": false,
+      "value": [
+        {
+          "type": "WALK",
+          "measurement_unit": "FEET",
+          "value": 30,
+          "value_formatted": "30 ft."
+        }
+      ]
+    },
+    "ability_scores": [
+      {
+        "type": "STRENGTH",
+        "value": 18,
+        "modifier": 4
+      },
+      {
+        "type": "DEXTERITY",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "CONSTITUTION",
+        "value": 18,
+        "modifier": 4
+      },
+      {
+        "type": "INTELLIGENCE",
+        "value": 12,
+        "modifier": 1
+      },
+      {
+        "type": "WISDOM",
+        "value": 11,
+        "modifier": 0
+      },
+      {
+        "type": "CHARISMA",
+        "value": 12,
+        "modifier": 1
+      }
+    ],
+    "saving_throws": [],
+    "skills": [
+      {
+        "index": "skill-intimidation",
+        "modifier": 5,
+        "name": "Intimidation"
+      },
+      {
+        "index": "skill-survival",
+        "modifier": 2,
+        "name": "Survival"
+      }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "languages": "Common, Orc",
+    "special_abilities": [
+      {
+        "name": "Aggressive",
+        "desc": "As a bonus action, the orog can move up to its speed toward a hostile creature that it can see."
+      }
+    ],
+    "actions": [
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "The orog makes two greataxe attacks.",
+        "name": "Multiattack"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "10 (1d12+4)",
+            "damage": {
+              "index": "slashing",
+              "type": "SLASHING",
+              "name": "Slashing"
+            }
+          }
+        ],
+        "attack_bonus": 6,
+        "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.",
+        "name": "Greataxe"
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "7 (1d6+4)",
+            "damage": {
+              "index": "piercing",
+              "type": "PIERCING",
+              "name": "Piercing"
+            }
+          }
+        ],
+        "attack_bonus": 6,
+        "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+        "name": "Javelin"
+      }
+    ],
+    "reactions": [],
+    "source": {
+      "name": "MM Legacy",
+      "acronym": "MM-LEGACY"
+    }
+  }
+]
