@@ -24,6 +24,9 @@ import argparse
 import subprocess
 import sys
 
+# Languages that use imperial units (feet, miles) — all others get metric conversion review
+_IMPERIAL_LANGUAGES = {"en", "en-us"}
+
 
 # ---------------------------------------------------------------------------
 # Core review function (importable by other scripts)
@@ -54,6 +57,25 @@ def run_claude_review(translated_path: str, target_lang: str, source_lang: str =
     print(f"\nRunning Claude Code review on: {translated_path}")
     print(f"Lang: {source_lang} → {target_lang}\n")
 
+    if target_lang.lower() not in _IMPERIAL_LANGUAGES:
+        if target_lang.lower() == "es":
+            _fmt_example = "9 metros [30 pies], 1,5 kilómetros [1 milla]"
+        elif target_lang.lower() == "pt-br":
+            _fmt_example = "9m [30 ft.], 1,6 km [1 mile]"
+        else:
+            _fmt_example = "9 meters [30 feet], 1.5 kilometers [1 mile]"
+        _measurement_criterion = (
+            "4) Verify feet-to-meters conversions: every distance originally in feet must be "
+            "converted to meters using n × 0.3 (use centimeters for values under 5 feet), and "
+            "every distance in miles must be converted to kilometers using n × 1.5. "
+            "The original imperial value must appear in brackets immediately after the metric value "
+            f"(e.g. {_fmt_example}). "
+            "Check that the arithmetic is correct and fix any wrong conversions. "
+            "Use a comma as the decimal separator where appropriate for this language. "
+        )
+    else:
+        _measurement_criterion = ""
+
     prompt = (
         f"You are reviewing a machine-translated spells JSON file: '{translated_path}'. "
         f"The source language was '{source_lang}' and the target language is '{target_lang}'. "
@@ -63,6 +85,7 @@ def run_claude_review(translated_path: str, target_lang: str, source_lang: str =
         "(e.g. spell school names, spell component descriptions, casting time phrasing, damage types), "
         "2) Consistency of tone and terminology across all spell entries, "
         "3) Obvious translation errors, literal mistranslations, or unnatural phrasing. "
+        + _measurement_criterion +
         "Important rules to follow when editing: "
         "- Keep all JSON keys in English (never translate keys like 'index', 'name', 'casting_time', "
         "  'components', 'duration', 'range', 'description', 'higher_level'). "
