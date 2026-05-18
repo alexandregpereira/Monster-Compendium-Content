@@ -6685,7 +6685,7 @@
             },
             {
                 "name": "Presença Aterradora",
-                "description": "O dragão casts Fear, requiring no Material components and using Charisma as the spellcasting ability (CD de resistência de magia 18). O dragão can't take this action again until the start of its next turn.",
+                "description": "O dragão conjura Medo, sem necessitar de componentes de Material e usando Carisma como habilidade de conjuração (CD de resistência de magia 18). O dragão não pode realizar esta ação novamente até o início de seu próximo turno.",
                 "spells_by_group": [
                     {
                         "group": "**Ação Lendária:** *Medo*",
@@ -9504,7 +9504,7 @@
         "group": "Diabos",
         "challenge_rating": 5.0,
         "name": "Diabo Farpado",
-        "subtitle": "Demônio médio (diabo), ordeiro e mal",
+        "subtitle": "Diabo médio, ordeiro e mal",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 15,
@@ -9979,7 +9979,7 @@
         "group": "Diabos",
         "challenge_rating": 3.0,
         "name": "Diabo Barbudo",
-        "subtitle": "Demônio médio (diabo), ordeiro e mal",
+        "subtitle": "Diabo médio, ordeiro e mal",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 13,
@@ -11598,7 +11598,7 @@
         "group": "Diabos",
         "challenge_rating": 9.0,
         "name": "Diabo de Osso",
-        "subtitle": "Grande demônio (diabo), ordeiro e mal",
+        "subtitle": "Grande diabo, ordeiro e mal",
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 16,
@@ -13261,7 +13261,7 @@
         "group": "Diabos",
         "challenge_rating": 8.0,
         "name": "Diabo da Corrente",
-        "subtitle": "Demônio médio (diabo), ordeiro e mal",
+        "subtitle": "Diabo médio, ordeiro e mal",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 15,
@@ -14252,7 +14252,7 @@
             },
             {
                 "name": "Fantasmas (Recarregam Após um Descanso Curto ou Longo)",
-                "description": "O manto conjura o magia Imagem Espelhada, sem necessitar de componentes de magia e usando Sabedoria como habilidade de conjuração. O magia termina mais cedo se o manto começar ou terminar seu turno em Luz Intensa.",
+                "description": "O manto conjura a magia Imagem Espelhada, sem necessitar de componentes de magia e usando Sabedoria como habilidade de conjuração. A magia termina mais cedo se o manto começar ou terminar seu turno em Luz Intensa.",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Imagem espelhada*",
@@ -14495,7 +14495,7 @@
         "bonus_actions": [
             {
                 "name": "Passo Nebuloso",
-                "description": "O gigante conjura o magia Passo Nebuloso, usando a mesma habilidade de conjuração que Conjuração.",
+                "description": "O gigante conjura a magia Passo Nebuloso, usando a mesma habilidade de conjuração que Conjuração.",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Passo Nebuloso*",
@@ -15935,7 +15935,7 @@
         "bonus_actions": [
             {
                 "name": "Arma Espiritual (2/Dia)",
-                "description": "O cultista conjura o magia Arma Espiritual, usando a mesma habilidade de conjuração que Conjuração.",
+                "description": "O cultista conjura a magia Arma Espiritual, usando a mesma habilidade de conjuração que Conjuração.",
                 "spells_by_group": [
                     {
                         "group": "**2/dia:** *Arma Espiritual*",
@@ -18195,7 +18195,7 @@
             {
                 "damage_dices": [],
                 "attack_bonus": null,
-                "description": "A dríade realiza um ataque de Chicote de Vinha ou Explosão de Espinhos, e pode usar Magia para lançar o magia Encantar Monstro.",
+                "description": "A dríade realiza um ataque de Chicote de Vinha ou Explosão de Espinhos, e pode usar Magia para lançar a magia Encantar Monstro.",
                 "name": "Ataque Múltiplo",
                 "saving_throws": [],
                 "conditions": []
@@ -18469,7 +18469,7 @@
             },
             {
                 "name": "Dormir (1/dia)",
-                "description": "O mephit conjura o magia Sono, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração (CD de resistência de magia 10).",
+                "description": "O mephit conjura a magia Sono, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração (CD de resistência de magia 10).",
                 "spells_by_group": [
                     {
                         "group": "**1 vez por dia:** *Dormir*",
@@ -19326,7 +19326,7 @@
         "group": "Diabos",
         "challenge_rating": 12.0,
         "name": "Erínias",
-        "subtitle": "Demônio médio (diabo), ordeiro e mal",
+        "subtitle": "Diabo médio, ordeiro e mal",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -21738,7 +21738,7 @@
             },
             {
                 "name": "Eterealidade",
-                "description": "O fantasma conjura o magia Eternalidade, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração. O fantasma é visível no Plano Material enquanto estiver no Éter Limítrofe e vice-versa, mas não pode afetar ou ser afetado por nada no outro plano.",
+                "description": "O fantasma conjura a magia Eternalidade, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração. O fantasma é visível no Plano Material enquanto estiver no Éter Limítrofe e vice-versa, mas não pode afetar ou ser afetado por nada no outro plano.",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Eterealidade*",
@@ -30786,7 +30786,7 @@
         "group": "Diabos",
         "challenge_rating": 11.0,
         "name": "Diabo Cornudo",
-        "subtitle": "Grande demônio (diabo), ordeiro e mal",
+        "subtitle": "Grande diabo, ordeiro e mal",
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -31419,7 +31419,7 @@
         "group": "Diabos",
         "challenge_rating": 14.0,
         "name": "Diabo de Gelo",
-        "subtitle": "Grande demônio (diabo), ordeiro e mal",
+        "subtitle": "Grande diabo, ordeiro e mal",
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 18,
@@ -31614,7 +31614,7 @@
             },
             {
                 "name": "Parede de Gelo (Recarga 6)",
-                "description": "O diabo casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (CD de resistência de magia 17).",
+                "description": "O diabo conjura Parede de Gelo (versão nível 8), sem necessitar de componentes de magia e usando Inteligência como habilidade de conjuração (CD de resistência de magia 17).",
                 "spells_by_group": [
                     {
                         "group": "**Recarga 6:** *Parede de Gelo* (versão nível 8)",
@@ -31863,7 +31863,7 @@
         "group": "Diabos",
         "challenge_rating": 1.0,
         "name": "Imp",
-        "subtitle": "Pequeno demônio (diabo), ordeiro e mal",
+        "subtitle": "Pequeno diabo, ordeiro e mal",
         "size": "Tiny",
         "alignment": "lawful evil",
         "armor_class": 13,
@@ -33884,7 +33884,7 @@
         "group": "Diabos",
         "challenge_rating": 0.0,
         "name": "Lêmure",
-        "subtitle": "Demônio médio (diabo), ordeiro e mal",
+        "subtitle": "Diabo médio, ordeiro e mal",
         "size": "Medium",
         "alignment": "lawful evil",
         "armor_class": 9,
@@ -38108,7 +38108,7 @@
             },
             {
                 "name": "Assombração de Pesadelo (1/Dia; Requer Bolsa de Almas)",
-                "description": "While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a Magic Circle spell. If the target takes damage from the Dream spell, the target's Hit Points maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag's soul bag, and the target can't be raised from the dead until its soul is released.",
+                "description": "Enquanto estiver no Plano Etéreo, a bruxa conjura Sonho, usando a mesma habilidade de conjuração que a de Conjuração. Apenas a bruxa pode servir como mensageira da magia, e o alvo deve ser uma criatura que a bruxa consiga ver no Plano Material. A magia falha e é desperdiçado se o alvo estiver sob o efeito da magia Proteção Contra o Mal e o Bem ou dentro de um magia de Círculo Mágico. Se o alvo sofrer dano da magia Sonho, o máximo de Pontos de Vida do alvo diminui em uma quantidade igual ao dano. Se a magia mata o alvo, sua alma é presa na bolsa de almas da bruxa, e o alvo não pode ser trazido de volta à vida até que sua alma seja libertada.",
                 "spells_by_group": [
                     {
                         "group": "**1/dia cada:** *Sonho*, *Proteção contra o Mal e o Bem*, *Círculo Mágico*",
@@ -40576,8 +40576,8 @@
         "subtype": "Diabo",
         "group": "Diabos",
         "challenge_rating": 20.0,
-        "name": "Demônio do Poço",
-        "subtitle": "Grande demônio (diabo), ordeiro e mal",
+        "name": "Diabo do Poço",
+        "subtitle": "Grande diabo, ordeiro e mal",
         "size": "Large",
         "alignment": "lawful evil",
         "armor_class": 21,
@@ -40692,13 +40692,13 @@
         "special_abilities": [
             {
                 "name": "Restauração Diabólica",
-                "description": "Se o demônio abissal morrer fora dos Nove Infernos, seu corpo desaparece em fumaça sulfurosa e ele ganha um novo corpo instantaneamente, revivendo com todos os seus Pontos de Vida em algum lugar nos Nove Infernos.",
+                "description": "Se o diabo morrer fora dos Nove Infernos, seu corpo desaparece em fumaça sulfurosa e ele ganha um novo corpo instantaneamente, revivendo com todos os seus Pontos de Vida em algum lugar nos Nove Infernos.",
                 "saving_throws": [],
                 "conditions": []
             },
             {
                 "name": "Aura do Medo",
-                "description": "O demônio abissal emana uma aura em uma área de efeito de 6 metros [20 feet] (6 metros [20 feet]) enquanto não estiver incapacitado. Teste de resistência de Sabedoria: CD 21, qualquer inimigo que inicie seu turno na aura. Falha: O alvo fica amedrontado até o início do seu próximo turno. O alvo fica imune à aura deste demônio abissal por 24 horas.",
+                "description": "O diabo emana uma aura em uma área de efeito de 6 metros [20 feet] (6 metros [20 feet]) enquanto não estiver incapacitado. Teste de resistência de Sabedoria: CD 21, qualquer inimigo que inicie seu turno na aura. Falha: O alvo fica amedrontado até o início do seu próximo turno. O alvo fica imune à aura deste diabo por 24 horas.",
                 "saving_throws": [
                     {
                         "index": "saving-throw-wis",
@@ -40721,13 +40721,13 @@
             },
             {
                 "name": "Resistência Lendária (4/Dia)",
-                "description": "Se o demônio abissal falhar em um teste de resistência, ele pode optar por ter sucesso em vez disso.",
+                "description": "Se o diabo falhar em um teste de resistência, ele pode optar por ter sucesso em vez disso.",
                 "saving_throws": [],
                 "conditions": []
             },
             {
                 "name": "Resistência Mágica",
-                "description": "O demônio abissal tem vantagem em testes de resistência contra magias e outros efeitos mágicos.",
+                "description": "O diabo tem vantagem em testes de resistência contra magias e outros efeitos mágicos.",
                 "saving_throws": [],
                 "conditions": []
             }
@@ -40736,7 +40736,7 @@
             {
                 "damage_dices": [],
                 "attack_bonus": null,
-                "description": "O demônio abissal realiza um ataque de Mordida, dois ataques de Garra Diabólica e um ataque de Maça Flamejante.",
+                "description": "O diabo realiza um ataque de Mordida, dois ataques de Garra Diabólica e um ataque de Maça Flamejante.",
                 "name": "Ataque Múltiplo",
                 "saving_throws": [],
                 "conditions": []
@@ -40822,7 +40822,7 @@
             },
             {
                 "name": "Conjuração de Fogo Infernal (Recarga 4-6)",
-                "description": "O pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (CD de resistência de magia 21). Pode substituir uma Bola de Fogo por Imobilizar Monstro (versão de nível 7) ou Muralha de Fogo.",
+                "description": "O diabo conjura Bola de Fogo (versão nível 5) duas vezes, sem necessitar de componentes de Material e usando Carisma como habilidade de conjuração (CD de resistência de magia 21). Pode substituir uma Bola de Fogo por Imobilizar Monstro (versão de nível 7) ou Muralha de Fogo.",
                 "spells_by_group": [
                     {
                         "group": "**Recarga 4-6:** *Bola de Fogo* (versão nível 5), *Imobilizar Monstro* (versão nível 7), *Muralha de Fogo*",
@@ -45690,7 +45690,7 @@
             },
             {
                 "name": "Aparência Ilusória",
-                "description": "A bruxa casts Disguise Self, using Constitution as the spellcasting ability (CD de resistência de magia 13). A duração do magia é de 24 horas.",
+                "description": "A bruxa conjura Disfarçar-se, usando Constituição como habilidade de conjuração (CD de resistência de magia 13). A duração da magia é de 24 horas.",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Disfarçar-se*",
@@ -49650,7 +49650,7 @@
         "bonus_actions": [
             {
                 "name": "Lento (Recarga 5-6)",
-                "description": "O golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (CD de resistência de magia 17).",
+                "description": "O golem conjura a magia Lento, sem necessitar de componentes de magia e usando Constituição como habilidade de conjuração (CD de resistência de magia 17).",
                 "spells_by_group": [
                     {
                         "group": "**Recarga 5-6:** *Lenta*",
@@ -53537,7 +53537,7 @@
             },
             {
                 "name": "Charme (Recarga 5-6)",
-                "description": "O vampiro casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (CD de resistência de magia 17), e a duração é de 24 horas. O alvo Enfeitiçado é um receptor disposto da Mordida do vampiro, cujo dano não encerra o magia. Quando o magia termina, o alvo não sabe que foi Enfeitiçado pelo vampiro.",
+                "description": "O vampiro conjura Encantar Pessoa, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração (CD de resistência de magia 17), e a duração é de 24 horas. O alvo Enfeitiçado é um receptor disposto da Mordida do vampiro, cujo dano não encerra a magia. Quando a magia termina, o alvo não sabe que foi Enfeitiçado pelo vampiro.",
                 "spells_by_group": [
                     {
                         "group": "**Recarga 5-6:** *Encantar Pessoa*",
@@ -53574,7 +53574,7 @@
             },
             {
                 "name": "Enganar",
-                "description": "O vampiro casts Command, requiring no spell components and using Charisma as the spellcasting ability (CD de resistência de magia 17). O vampiro can't take this action again until the start of its next turn.",
+                "description": "O vampiro conjura Comando, sem necessitar de componentes de magia e usando Carisma como habilidade de conjuração (CD de resistência de magia 17). O vampiro não pode realizar esta ação novamente até o início de seu próximo turno.",
                 "spells_by_group": [
                     {
                         "group": "**Ação Lendária:** *Comando*",
