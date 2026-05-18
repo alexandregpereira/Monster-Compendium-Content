@@ -3096,6 +3096,18 @@
         ]
     },
     {
+        "index": "merfolk",
+        "entries": [
+            {
+                "description": "Merfolk skirmishers defend their homes from aquatic monsters and invaders from the surface."
+            },
+            {
+                "title": "Merfolk",
+                "description": "**Habitat:** Coastal, Underwater\n\n**Treasure:** Individual\n\n*Protectors and Explorers of the Seas*. Beneath the waves dwell merfolk, mysterious creatures that merge the features of humans and sea creatures. Some are curious about land dwellers, while others view them with suspicion."
+            }
+        ]
+    },
+    {
         "index": "merfolk-skirmisher",
         "entries": [
             {
@@ -3171,7 +3183,7 @@
         ]
     },
     {
-        "index": "minotaur-of-baphomet",
+        "index": "minotaur",
         "entries": [
             {
                 "description": "Baphomet, Demon Lord of Beasts, claims to have created minotaurs and demands their worship. While most minotaurs live free of the demon lord's bonds, those that serve him become minotaurs of Baphomet. These brutes resemble the hulking, horned demon lord more than others of their kind, and they wreak havoc in that foul immortal's name. Rarely, non-minotaurs cursed by magic-users or spiteful deities might transform into these monsters.\n\nMinotaurs of Baphomet often dwell in mazes, leading their allies to hidden destinations and stalking trespassers. Roll on or choose a result from the Minotaur Mazes table to inspire the shape of a minotaur's dwelling.\n\n**Minotaur Mazes**\n\n| 1d4 | The Minotaur of Baphomet Lurks In... |\n| --- | --- |\n| 1 | A multilevel mine or sewer. |\n| 2 | Multiple mazes connected by magic portals. |\n| 3 | A poisonous swamp with labyrinthine paths. |\n| 4 | The ruins of a buried palace or temple. |\n\n**Habitat:** Underdark",
@@ -3192,7 +3204,7 @@
         ]
     },
     {
-        "index": "modron-duodrone",
+        "index": "duodrone",
         "entries": [
             {
                 "description": "Duodrones can perform two tasks at once and often oversee monodrone work groups. They are slightly more skeptical of strangers than monodrones are."
@@ -3204,7 +3216,7 @@
         ]
     },
     {
-        "index": "modron-monodrone",
+        "index": "monodrone",
         "entries": [
             {
                 "description": "The most numerous modrons, monodrones can perform one simple task at a time. They believe anything they're told that isn't logically or mathematically false. When faced with unexpected situations, they're quick to seek duodrones for help."
@@ -3216,7 +3228,7 @@
         ]
     },
     {
-        "index": "modron-pentadrone",
+        "index": "pentadrone",
         "entries": [
             {
                 "description": "Pentadrones oversee and protect contingents of lesser modrons. They're quick to call lengthy meetings with other modrons when making decisions."
@@ -3228,7 +3240,7 @@
         ]
     },
     {
-        "index": "modron-quadrone",
+        "index": "quadrone",
         "entries": [
             {
                 "description": "Quadrones are among the most relatable modrons—and those most likely to go rogue."
@@ -3240,7 +3252,7 @@
         ]
     },
     {
-        "index": "modron-tridrone",
+        "index": "tridrone",
         "entries": [
             {
                 "description": "Tridrones oversee lesser modrons and lead them in battle. They're suspicious of any data provided by non-modrons."
@@ -3466,6 +3478,18 @@
             {
                 "title": "Zombies",
                 "description": "**Habitat:** Planar (Shadowfell), Underdark, Urban\n\n**Treasure:** None\n\n*Relentless Reanimated Corpses*. Zombies are unthinking, reanimated corpses, often gruesomely marred by decay and lethal traumas. They serve whatever supernatural force animates them—typically evil necromancers or fiendish spirits. Zombies are relentless, merciless, and resilient, and their dead flesh can carry on even after suffering grievous wounds. While they can follow simple orders, they rely on primal drives rather than thought. They fulfill commands by working tirelessly or battering through foes, but they are easily stymied by barriers or unexpected circumstances.\n\nZombies are usually created from Humanoid corpses, but the remains of other creatures can also become zombies. Such monstrous zombies might possess the strength they had in life or a measure of their supernatural abilities, but they employ such abilities haphazardly at best.\n\n> Then, by a spectacular crack of lightning, the figures came into view, moving slowly toward the village. Over driving winds a voice cried out, \"The dead come for Marais d'Tarascon! An army of the walking dead!\"\n> — Account of the Night of the Walking Dead"
+            }
+        ]
+    },
+    {
+        "index": "half-ogre-(ogrillon)",
+        "entries": [
+            {
+                "description": "Ogrillons arise from Humanoids cursed by foul magic or the will of wrathful deities. They appear similar to whoever they once were, but they grow to over 8 feet tall and gain ogre-like features. Ogrillons constantly seethe with supernatural anger, which they might struggle to control or purposefully vent on other creatures."
+            },
+            {
+                "title": "Ogres",
+                "description": "**Habitat:** Arctic, Desert, Forest, Grassland, Hill, Mountain, Swamp, Underdark\n\n*Raging Hulks and Hoarders*. Ogres are selfish raiders and hulking gluttons spawned of hateful supernatural forces. From dismal ruins and bleak hinterlands, they raid vulnerable communities and ambush travelers. Ogres covet food and treasure, and they spitefully destroy art, books, clockwork devices, and other delicate or lovingly made things. Occasionally they kidnap victims to eat later or, more rarely, performers who catch their interest.\n\nOgres trace their origins to wrathful deities such as Erythnul, Takhisis, and Vaprak. They magically emerge from the earth of lands corrupted by evil gods, sinister magic, or ancient curses. Some bear evidence of the places that spawned them, sporting rocky calluses, mossy growths, or frozen scars."
             }
         ]
     },
@@ -3731,7 +3755,7 @@
         ]
     },
     {
-        "index": "priest-acolyte",
+        "index": "acolyte",
         "entries": [
             {
                 "description": "Priest acolytes have great faith but modest magical skill. Some might be trainees in religious organizations or soldiers in zealous armies, while others are faith leaders in small communities or wanderers on pilgrimages."
@@ -3994,7 +4018,7 @@
         ]
     },
     {
-        "index": "sahuagin-warrior",
+        "index": "sahuagin",
         "entries": [
             {
                 "description": "Sahuagin warriors are vicious combatants that savage their foes with webbed claws. Once sahuagin draw blood, they usually attack until either they or their foe is slain."
@@ -4116,7 +4140,7 @@
         ]
     },
     {
-        "index": "seahorse",
+        "index": "sea-horse",
         "entries": [
             {
                 "description": "Use these stat blocks to represent the creatures they're named for or other similar creatures. For example, the Panther stat block can also represent a mountain lion, while the Giant Goat stat block might represent a buffalo. Any of these stat blocks might also serve as fantastical animals with distinctive names and cosmetic details unique to your D&D adventures."
@@ -4138,6 +4162,19 @@
             {
                 "description": "Shadow demons form when exceptionally wicked demons are destroyed and prevented from reconstituting their physical forms in the Abyss. This might occur due to divine intervention, when a demon is destroyed in the Abyss, or under more unusual circumstances. Shadow demons are the incorporeal remnants of these destroyed demons' evil. They usually vaguely resemble their former shapes, but some take purposefully deceptive shapes. Many lurk in dark places or venture out only at night to hide their true forms from those they manipulate.\n\nShadow demons seek ways to regain their former might and take revenge on those who destroyed them. They often ingratiate themselves with more powerful demons or mortal spellcasters, bargaining with and coercing others into restoring them to power. Many try to claim or corrupt souls to restore their fiendish forms, while some shadow demons seek wicked relics or nexuses of profane magic. It typically takes shadow demons centuries to recover their demonic power, if they ever do.\n\nParticularly powerful demons might return as multiple shadow demons after being defeated. These fiendish entities each think they're the true manifestation of their past self and hunt one another to recover their power.\n\nIn rare cases, Fiends other than demons might adopt forms similar to shadow demons.\n\n> There are three rules to endings. First, good always wins. Second, evil always returns. Third, the first rule isn't always true.\n> — Tarsheva Longreach, Planar Traveler\n\n**Habitat:** Planar (Abyss)\n**Treasure:** None",
                 "title": "Vestige of Evil"
+            }
+        ]
+    },
+    {
+        "index": "young-red-shadow-dragon",
+        "entries": [
+            {
+                "description": "Shadow dragons haunt forgotten, lightless places. While they might have once been other types of dragons, the influence of planar forces, negative energy, or sinister magic has stripped them of their former color or luster. In place of any former breath weapon, shadow dragons exhale caliginous gouts that saps life from everything it touches. Those slain by a shadow dragon's breath rise as shades obedient to the shadow dragon's will.\n\nShadow dragons typically dwell in the Underdark, particularly in areas with connections to the Shadowfell or other tenebrous realms. In some cases, they might lurk in dark, corrupted reaches of the regions they preferred before transforming into shadow dragons. Overgrown swamps, sepulchral desert ruins, and ash-choked volcanoes make natural lairs for shadow dragons.\n\nLike many other dragons, shadow dragons collect hoards. Their tastes tend to be morbid—collecting coins from ruined empires and their victims' skulls.\n\n**Shadow Dragon Lairs.** Shadow dragons lair in places of darkness and despair, such as accursed ruins, the depths of the Underdark, or the Shadowfell.\n\n> If ye truly be adventurers of lore, seek the great shadowy wyrm who lairs beneath the Peaks of Thunder and return in triumph bearing aloft her fabled Eye of Shadow.\n> — Challenge Tempting Victims to the Lair of the Shadow Dragon Aurgloroasa\n\n**Habitat:** Planar (Shadowfell), Underdark\n**Treasure:** Any",
+                "title": "Dragon Corrupted by Darkness"
+            },
+            {
+                "title": "Regional Effects",
+                "description": "The region around a shadow dragon's lair is twisted by its presence, creating the following effects:\n\n**Negative Energy Suffusion.** Whenever a creature within 1 mile of the lair regains Hit Points from a spell, it subtracts 1d10 from the number of Hit Points regained.\n**Stifling Shadows.** Within 1 mile of the lair, effects that normally create Bright Light instead create Dim Light, and creatures there have Advantage on Dexterity (Stealth) checks.\n\nIf the dragon dies or moves its lair elsewhere, these effects end immediately."
             }
         ]
     },
@@ -4173,7 +4210,7 @@
         ]
     },
     {
-        "index": "shrieker-fungus",
+        "index": "shrieker",
         "entries": [
             {
                 "description": "If exposed to light or otherwise disturbed, mushroom-like shriekers emit a high-pitched noise that gives them their name. This wailing might alert other creatures or attract predators."
@@ -4552,7 +4589,7 @@
         ]
     },
     {
-        "index": "thri-kreen-marauder",
+        "index": "thri-kreen",
         "entries": [
             {
                 "description": "Thri-kreen marauders employ weapons made of stone and bone, such as the spear-like gythka and throwing blades called chatkcha."
@@ -4926,7 +4963,7 @@
         ]
     },
     {
-        "index": "werebear",
+        "index": "werebear-hybrid",
         "entries": [
             {
                 "description": "When threatened or compelled by magic, werebears shape-shift from their humanoid forms into mighty bears or hybrids of those two forms. They scare off or sabotage those who threaten the wilds, and they frequently aid Fey, druids, or spirits of the wilderness, as many owe their magical nature to such forces. Werebears take the shape of bears common to the regions in which they dwell, with brown and polar bear forms being common.\n\n**Habitat:** Arctic, Forest, Hill",
@@ -4935,7 +4972,7 @@
         ]
     },
     {
-        "index": "wereboar",
+        "index": "wereboar-hybrid",
         "entries": [
             {
                 "description": "Wereboars shape-shift from their humanoid forms into powerful boars or humanoid-boar hybrids. Many wereboars suffer their shape-shifting nature as a curse, with some involuntarily transforming any time they perform a greedy act or indulge their selfish nature.\n\n**Habitat:** Forest, Grassland, Hill\n**Treasure:** Individual",
@@ -4944,7 +4981,7 @@
         ]
     },
     {
-        "index": "wererat",
+        "index": "wererat-hybrid",
         "entries": [
             {
                 "description": "Wererats can shape-shift from their humanoid forms into giant rats or humanoid-rat hybrids. These creatures can transform voluntarily, but some are magically compelled to shape-shift when exposed to complete darkness or during nights of a new moon. Often, wererats' nature results from a divine curse—punishment for their deceitful natures or the crimes of their treacherous families. Wererats frequently work in groups, forming bandit gangs or thieves' guilds.\n\n**Habitat:** Forest, Urban\n**Treasure:** Individual",
@@ -4953,7 +4990,7 @@
         ]
     },
     {
-        "index": "weretiger",
+        "index": "weretiger-hybrid",
         "entries": [
             {
                 "description": "Weretigers shape-shift from humanoid forms into tigers or tiger-humanoid hybrids. Although they can transform at will or when their magical nature demands, many weretigers are nocturnal and transform into their bestial shapes at night. Some weretigers' transformations might also be tied to the crescent moon, seasons, or momentous events. Weretigers often view their abilities as a blessing or a family honor, and they use their shape-shifting abilities to defend something with historic importance. Roll on or choose a result from the Weretiger Wards table to inspire what a weretiger defends.\n\n**Weretiger Wards**\n\n| 1d4 | The Weretiger Protects A... |\n| --- | --- |\n| 1 | Legendary weapon or symbol of rulership. |\n| 2 | Proving ground for prophesied heroes. |\n| 3 | Rare species of magical plant or animal. |\n| 4 | Sacred fountain with magical waters. |\n\n> I hunt evil like the great cat hunts its prey, but evil will not long yield to blade alone. It takes strength, honor, and sometimes a little more.\n> — Delmair Rallyhorn, Weretiger\n\n**Habitat:** Desert, Forest, Grassland",
@@ -4962,7 +4999,7 @@
         ]
     },
     {
-        "index": "werewolf",
+        "index": "werewolf-hybrid",
         "entries": [
             {
                 "description": "Werewolves change from their humanoid forms into fierce wolves or wolf-humanoid hybrids. Werewolves can shape-shift voluntarily, but many can't resist transforming during the nights of a full moon.\n\n**Habitat:** Forest, Hill\n**Treasure:** Any",
@@ -5246,7 +5283,7 @@
         ]
     },
     {
-        "index": "yuan-ti-malison-type-1",
+        "index": "yuan-ti-malison-(type-1)",
         "entries": [
             {
                 "description": "Malisons exhibit snakelike features that make them deadly in combat.\n\n**Type 1.** These malisons have human bodies and the heads of giant, venomous snakes.\n\nMalisons possesses deadly venom, which some manipulate into magical strikes. They can also shape-shift into snakes, helping them to position themselves for surprise attacks or to slither away with nary a trace."
@@ -5258,7 +5295,7 @@
         ]
     },
     {
-        "index": "yuan-ti-malison-type-2",
+        "index": "yuan-ti-malison-(type-2)",
         "entries": [
             {
                 "description": "Malisons exhibit snakelike features that make them deadly in combat.\n\n**Type 2.** These malisons have human bodies, but they've replaced their arms with snakes.\n\nMalisons possesses deadly venom, which some manipulate into magical strikes. They can also shape-shift into snakes, helping them to position themselves for surprise attacks or to slither away with nary a trace."
@@ -5270,7 +5307,7 @@
         ]
     },
     {
-        "index": "yuan-ti-malison-type-3",
+        "index": "yuan-ti-malison-(type-3)",
         "entries": [
             {
                 "description": "Malisons exhibit snakelike features that make them deadly in combat.\n\n**Type 3.** These malisons are human from the waist up, but below that extend the coils of a giant snake.\n\nMalisons possesses deadly venom, which some manipulate into magical strikes. They can also shape-shift into snakes, helping them to position themselves for surprise attacks or to slither away with nary a trace."

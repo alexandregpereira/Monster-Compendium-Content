@@ -3096,6 +3096,18 @@
     ]
   },
   {
+    "index": "merfolk",
+    "entries": [
+      {
+        "description": "Tritões guerreiros defendem seus lares de monstros aquáticos e invasores da superfície."
+      },
+      {
+        "title": "Sereianos",
+        "description": "**Habitat:** Costeiro, Subaquático\n\n**Tesouro:** Individual\n\n*Protetores e Exploradores dos Mares*. Sob as ondas habitam os sereianos, criaturas misteriosas que combinam características humanas e marinhas. Alguns são curiosos em relação aos habitantes da terra, enquanto outros os encaram com desconfiança."
+      }
+    ]
+  },
+  {
     "index": "merfolk-skirmisher",
     "entries": [
       {
@@ -3171,7 +3183,7 @@
     ]
   },
   {
-    "index": "minotaur-of-baphomet",
+    "index": "minotaur",
     "entries": [
       {
         "description": "Baphomet, o Senhor Demônio das Feras, afirma ter criado os minotauros e exige sua adoração. Embora a maioria dos minotauros viva livre dos grilhões do senhor demônio, aqueles que o servem se tornam minotauros de Baphomet. Essas criaturas brutais se assemelham ao corpulento senhor demônio com chifres mais do que outros de sua espécie, e semeiam o caos em nome desse imortal maligno. Raramente, não-minotauros amaldiçoados por usuários de magia ou divindades rancorosas podem se transformar nesses monstros.\n\nOs minotauros de Baphomet costumam habitar labirintos, guiando seus aliados a destinos ocultos e perseguindo intrusos. Role ou escolha um resultado da tabela Labirintos de Minotauros para inspirar a forma da morada de um minotauro.\n\n**Labirintos de Minotauros**\n| 1d4 | O Minotauro de Baphomet Espreita em... |\n| --- | --- |\n| 1 | Uma mina ou esgoto com vários níveis. |\n| 2 | Vários labirintos conectados por portais mágicos. |\n| 3 | Um pântano venenoso com caminhos labirínticos. |\n| 4 | As ruínas de um palácio ou templo enterrado. |\n\n**Habitat:** Subterrâneo",
@@ -3192,7 +3204,7 @@
     ]
   },
   {
-    "index": "modron-duodrone",
+    "index": "duodrone",
     "entries": [
       {
         "description": "Os duodrones podem realizar duas tarefas simultaneamente e frequentemente supervisionam grupos de trabalho compostos apenas por monodrones. Eles são ligeiramente mais desconfiados de estranhos do que os monodrones."
@@ -3204,7 +3216,7 @@
     ]
   },
   {
-    "index": "modron-monodrone",
+    "index": "monodrone",
     "entries": [
       {
         "description": "Os monodrones, os modrons mais numerosos, conseguem realizar apenas uma tarefa simples por vez. Eles acreditam em tudo que lhes é dito que não seja logicamente ou matematicamente falso. Quando confrontados com situações inesperadas, recorrem rapidamente aos duodrones em busca de ajuda."
@@ -3216,7 +3228,7 @@
     ]
   },
   {
-    "index": "modron-pentadrone",
+    "index": "pentadrone",
     "entries": [
       {
         "description": "Os pentadrones supervisionam e protegem contingentes de modrons inferiores. Eles costumam convocar reuniões demoradas com outros modrons ao tomar decisões."
@@ -3228,7 +3240,7 @@
     ]
   },
   {
-    "index": "modron-quadrone",
+    "index": "quadrone",
     "entries": [
       {
         "description": "Os quadrones estão entre os modrons mais fáceis de se identificar — e também entre os mais propensos a se rebelar."
@@ -3240,7 +3252,7 @@
     ]
   },
   {
-    "index": "modron-tridrone",
+    "index": "tridrone",
     "entries": [
       {
         "description": "Os tridrones supervisionam os modrons inferiores e os lideram em batalha. Eles desconfiam de quaisquer dados fornecidos por não-modrons."
@@ -3466,6 +3478,18 @@
       {
         "title": "Zumbis",
         "description": "**Habitat:** Planar (Shadowfell), Subterrâneo, Urbano\n\n**Tesouro:** Nenhum\n\n*Cadáveres Reanimados Implacáveis*. Zumbis são cadáveres reanimados e irracionais, frequentemente horrivelmente marcados pela decomposição e traumas letais. Eles servem a qualquer força sobrenatural que os anime — tipicamente necromantes malignos ou espíritos demoníacos. Zumbis são implacáveis, impiedosos e resilientes, e sua carne morta pode continuar mesmo após sofrer ferimentos graves. Embora possam seguir ordens simples, eles se baseiam em instintos primitivos em vez de raciocínio. Cumprem ordens trabalhando incansavelmente ou massacrando inimigos, mas são facilmente impedidos por barreiras ou circunstâncias inesperadas.\n\nZumbis geralmente são criados a partir de cadáveres humanoides, mas os restos mortais de outras criaturas também podem se tornar zumbis. Tais zumbis monstruosos podem possuir a força que tinham em vida ou uma parcela de suas habilidades sobrenaturais, mas usam essas habilidades de forma aleatória, na melhor das hipóteses.\n\nEntão, com um estrondo espetacular de relâmpago, as figuras apareceram, movendo-se lentamente em direção à vila. Por cima dos ventos fortes, uma voz gritou: \"Os mortos vêm para Marais d'Tarascon! Um exército de mortos-vivos!\"\n— Relato de A Noite dos Mortos-Vivos"
+      }
+    ]
+  },
+  {
+    "index": "half-ogre-(ogrillon)",
+    "entries": [
+      {
+        "description": "Os ogrillons surgem de humanoides amaldiçoados por magia maligna ou pela vontade de divindades iradas. Eles têm aparência semelhante à de quem eram antes, mas crescem até mais de 2,4 metros de altura e adquirem características ogras. Os ogrillons fervilham constantemente de uma raiva sobrenatural, que podem ter dificuldade em controlar ou que podem descarregar propositalmente em outras criaturas."
+      },
+      {
+        "title": "Ogros",
+        "description": "**Habitat:** Ártico, Deserto, Floresta, Pradaria, Colina, Montanha, Pântano, Subterrâneo\n\n*Gigantes Furiosos e Acumuladores*. Ogros são saqueadores egoístas e glutões corpulentos, gerados por forças sobrenaturais odiosas. De ruínas sombrias e terras remotas desoladas, eles atacam comunidades vulneráveis e emboscam viajantes. Ogros cobiçam comida e tesouros, e destroem com maldade arte, livros, mecanismos e outras coisas delicadas ou feitas com esmero. Ocasionalmente, sequestram vítimas para comer mais tarde ou, mais raramente, artistas que despertam seu interesse.\n\nOs ogros têm sua origem em divindades iradas como Erythnul, Takhisis e Vaprak. Eles emergem magicamente da terra de terras corrompidas por deuses malignos, magia sinistra ou maldições ancestrais. Alguns carregam evidências dos lugares que os geraram, exibindo calos rochosos, crescimento de musgo ou cicatrizes congeladas."
       }
     ]
   },
@@ -3731,7 +3755,7 @@
     ]
   },
   {
-    "index": "priest-acolyte",
+    "index": "acolyte",
     "entries": [
       {
         "description": "Os acólitos sacerdotes possuem grande fé, mas modesta habilidade mágica. Alguns podem ser aprendizes em organizações religiosas ou soldados em exércitos zelosos, enquanto outros são líderes religiosos em pequenas comunidades ou peregrinos."
@@ -3994,7 +4018,7 @@
     ]
   },
   {
-    "index": "sahuagin-warrior",
+    "index": "sahuagin",
     "entries": [
       {
         "description": "Os guerreiros sahuagin são combatentes ferozes que atacam seus inimigos com garras palmadas. Uma vez que um sahuagin consegue ferir alguém, geralmente ataca até que ele ou seu inimigo seja morto."
@@ -4116,7 +4140,7 @@
     ]
   },
   {
-    "index": "seahorse",
+    "index": "sea-horse",
     "entries": [
       {
         "description": "Use essas fichas de estatísticas para representar as criaturas que lhes dão nome ou outras criaturas semelhantes. Por exemplo, a ficha de estatísticas da Pantera também pode representar um puma, enquanto a ficha de estatísticas da Cabra Gigante pode representar um búfalo. Qualquer uma dessas fichas de estatísticas também pode servir como animais fantásticos com nomes distintos e detalhes cosméticos exclusivos para suas aventuras de D&D."
@@ -4138,6 +4162,19 @@
       {
         "description": "Demônios das Sombras se formam quando demônios excepcionalmente malignos são destruídos e impedidos de reconstituir suas formas físicas no Abismo. Isso pode ocorrer devido à intervenção divina, quando um demônio é destruído no Abismo, ou em circunstâncias ainda mais incomuns. Demônios das Sombras são os remanescentes incorpóreos da maldade desses demônios destruídos. Geralmente, eles lembram vagamente suas formas anteriores, mas alguns assumem formas propositalmente enganosas. Muitos espreitam em lugares escuros ou se aventuram apenas à noite para esconder suas verdadeiras formas daqueles que manipulam.\n\nDemônios das Sombras buscam maneiras de recuperar seu antigo poder e se vingar daqueles que os destruíram. Frequentemente, eles se aproximam de demônios mais poderosos ou conjuradores mortais, negociando e coagindo outros a restaurar seus poderes. Muitos tentam reivindicar ou corromper almas para restaurar suas formas demoníacas, enquanto alguns demônios das sombras buscam relíquias malignas ou focos de magia profana. Normalmente, leva séculos para que os demônios das sombras recuperem seu poder demoníaco, se é que isso acontece.\n\nDemônios particularmente poderosos podem retornar como múltiplos demônios das sombras após serem derrotados. Essas entidades demoníacas acreditam ser a verdadeira manifestação de seu eu passado e caçam umas às outras para recuperar seus poderes.\n\nEm casos raros, demônios que não sejam demônios podem assumir formas semelhantes a demônios das sombras.\n\n> Existem três regras para os finais. Primeiro, o bem sempre vence. Segundo, o mal sempre retorna. Terceiro, a primeira regra nem sempre é verdadeira.\n\n> — Tarsheva Longreach, Viajante Planar\n\n**Habitat:** Planar (Abismo)\n**Tesouro:** Nenhum",
         "title": "Vestígio do Mal"
+      }
+    ]
+  },
+  {
+    "index": "young-red-shadow-dragon",
+    "entries": [
+      {
+        "description": "Dragões das sombras assombram lugares esquecidos e sem luz. Embora possam ter sido outros tipos de dragões, a influência de forças planares, energia negativa ou magia sinistra os despojou de sua antiga cor e brilho. Em vez de qualquer sopro que antes possuíam, os dragões das sombras exalam jatos caliginosos que sugam a vida de tudo o que tocam. Aqueles mortos pelo sopro de um dragão das sombras ressurgem como sombras obedientes à sua vontade.\n\nOs dragões das sombras geralmente habitam a Infraescuridão, particularmente em áreas com conexões com o Plano das Sombras ou outros reinos tenebrosos. Em alguns casos, podem espreitar em recantos escuros e corrompidos das regiões que preferiam antes de se transformarem em dragões das sombras. Pântanos cobertos de vegetação, ruínas sepulcrais no deserto e vulcões cobertos de cinzas são covis naturais para dragões das sombras.\n\nComo muitos outros dragões, os dragões das sombras colecionam tesouros. Seus gostos tendem a ser mórbidos — colecionando moedas de impérios arruinados e crânios de suas vítimas.\n\n**Covis dos Dragões das Sombras.** Os dragões das sombras habitam lugares de escuridão e desespero, como ruínas amaldiçoadas, as profundezas da Infraescuridão ou o Plano das Sombras.\n\n> Se sois verdadeiramente aventureiros da história, buscai a grande serpente das sombras que habita sob os Picos do Trovão e retornai triunfantes, erguendo seu lendário Olho das Sombras.\n> — Desafie Vítimas Tentadoras para o Covil do Dragão das Sombras Aurgloroasa\n\n**Habitat:** Plano (Plano das Sombras), Infraescuridão\n**Tesouro:** Qualquer",
+        "title": "Dragão Corrompido Pelas Trevas"
+      },
+      {
+        "title": "Efeitos Regionais",
+        "description": "A região ao redor da toca de um dragão das sombras é distorcida por sua presença, criando os seguintes efeitos:\n\n**Sufusão de Energia Negativa.** Sempre que uma criatura a até 1,6 km da toca recupera Pontos de Vida por meio de uma magia, ela subtrai 1d10 do número de Pontos de Vida recuperados.\n\n**Sombras Sufocantes.** A até 1,6 km da toca, efeitos que normalmente criam Luz Brilhante criam Luz Fraca, e as criaturas nessa área têm Vantagem em testes de Destreza (Furtividade).\n\nSe o dragão morrer ou mudar sua toca para outro lugar, esses efeitos terminam imediatamente."
       }
     ]
   },
@@ -4173,7 +4210,7 @@
     ]
   },
   {
-    "index": "shrieker-fungus",
+    "index": "shrieker",
     "entries": [
       {
         "description": "Quando expostos à luz ou perturbados de alguma forma, os cogumelos gritadores emitem um som agudo que lhes dá o nome. Esse grito pode alertar outras criaturas ou atrair predadores."
@@ -4552,7 +4589,7 @@
     ]
   },
   {
-    "index": "thri-kreen-marauder",
+    "index": "thri-kreen",
     "entries": [
       {
         "description": "Os saqueadores Thri-kreen utilizam armas feitas de pedra e osso, como a gythka, semelhante a uma lança, e lâminas de arremesso chamadas chatkcha."
@@ -4926,7 +4963,7 @@
     ]
   },
   {
-    "index": "werebear",
+    "index": "werebear-hybrid",
     "entries": [
       {
         "description": "Quando ameaçados ou compelidos por magia, os lobisomens-ursos transformam-se de suas formas humanoides em ursos poderosos ou híbridos dessas duas formas. Eles afugentam ou sabotam aqueles que ameaçam a natureza selvagem e frequentemente auxiliam fadas, druidas ou espíritos da floresta, já que muitos devem sua natureza mágica a tais forças. Os lobisomens-ursos assumem a forma de ursos comuns às regiões em que habitam, sendo as formas de urso-pardo e urso-polar as mais comuns.\n\n**Habitat:** Ártico, Floresta, Montanha",
@@ -4935,7 +4972,7 @@
     ]
   },
   {
-    "index": "wereboar",
+    "index": "wereboar-hybrid",
     "entries": [
       {
         "description": "Os lobisomens-javali se transformam de suas formas humanoides em javalis poderosos ou híbridos humanoide-javali. Muitos lobisomens-javali sofrem com sua capacidade de mudar de forma como uma maldição, alguns se transformando involuntariamente sempre que cometem um ato ganancioso ou cedem à sua natureza egoísta.\n\n**Habitat:** Floresta, Pradaria, Colina\n**Tesouro:** Individual",
@@ -4944,7 +4981,7 @@
     ]
   },
   {
-    "index": "wererat",
+    "index": "wererat-hybrid",
     "entries": [
       {
         "description": "Os lobisomens-rato podem se transformar de suas formas humanoides em ratos gigantes ou híbridos de humanoide e rato. Essas criaturas podem se transformar voluntariamente, mas algumas são magicamente compelidas a mudar de forma quando expostas à escuridão total ou durante as noites de lua nova. Frequentemente, a natureza dos lobisomens-rato resulta de uma maldição divina — punição por sua natureza traiçoeira ou pelos crimes de suas famílias perversas. Os lobisomens-rato costumam trabalhar em grupos, formando gangues de bandidos ou guildas de ladrões.\n\n**Habitat:** Floresta, Urbano\n**Tesouro:** Individual",
@@ -4953,7 +4990,7 @@
     ]
   },
   {
-    "index": "weretiger",
+    "index": "weretiger-hybrid",
     "entries": [
       {
         "description": "Os lobisomens-tigre se transformam de formas humanoides em tigres ou híbridos de tigre e humanoide. Embora possam se transformar à vontade ou quando sua natureza mágica exige, muitos lobisomens-tigre são noturnos e se transformam em suas formas bestiais à noite. Algumas transformações de lobisomens-tigre também podem estar ligadas à lua crescente, às estações do ano ou a eventos importantes. Os lobisomens-tigre frequentemente veem suas habilidades como uma bênção ou uma honra familiar e usam suas habilidades de metamorfose para defender algo de importância histórica. Role ou escolha um resultado da tabela de Proteções do Lobisomem-Tigre para inspirar o que um lobisomem-tigre defende.\n\n**Proteções do Lobisomem-Tigre**\n| 1d4 | O Lobisomem-Tigre Protege Um/Uma... |\n| --- | --- |\n| 1 | Arma lendária ou símbolo de poder. |\n| 2 | Campo de provas para heróis profetizados. |\n| 3 | Espécie rara de planta ou animal mágico. |\n| 4 | Fonte sagrada com águas mágicas. |\n\n> Eu caço o mal como o grande felino caça sua presa, mas o mal não se rende por muito tempo apenas à lâmina. É preciso força, honra e, às vezes, um pouco mais.\n> — Delmair Rallyhorn, Lobisomem-Tigre\n\n**Habitat:** Deserto, Floresta, Pradaria",
@@ -4962,7 +4999,7 @@
     ]
   },
   {
-    "index": "werewolf",
+    "index": "werewolf-hybrid",
     "entries": [
       {
         "description": "Lobisomens se transformam de suas formas humanoides em lobos ferozes ou híbridos de lobo e humanoide. Lobisomens podem mudar de forma voluntariamente, mas muitos não conseguem resistir à transformação durante as noites de lua cheia.\n\n**Habitat:** Floresta, Colina\n**Tesouro:** Qualquer",
@@ -5246,7 +5283,7 @@
     ]
   },
   {
-    "index": "yuan-ti-malison-type-1",
+    "index": "yuan-ti-malison-(type-1)",
     "entries": [
       {
         "description": "Os Malisons exibem características serpentinas que os tornam mortais em combate.\n\n**Tipo 1.** Esses Malisons têm corpos humanos e cabeças de cobras gigantes e venenosas.\n\nOs Malisons possuem veneno mortal, que alguns manipulam para realizar ataques mágicos. Eles também podem se transformar em cobras, o que os ajuda a se posicionar para ataques surpresa ou a escapar sem deixar rastros."
@@ -5258,7 +5295,7 @@
     ]
   },
   {
-    "index": "yuan-ti-malison-type-2",
+    "index": "yuan-ti-malison-(type-2)",
     "entries": [
       {
         "description": "Os Malisons exibem características serpentinas que os tornam mortais em combate.\n\n**Tipo 2.** Esses Malisons têm corpos humanos, mas substituíram seus braços por serpentes.\n\nOs Malisons possuem veneno mortal, que alguns manipulam para realizar ataques mágicos. Eles também podem se transformar em serpentes, o que os ajuda a se posicionar para ataques surpresa ou a escapar sem deixar rastros."
@@ -5270,7 +5307,7 @@
     ]
   },
   {
-    "index": "yuan-ti-malison-type-3",
+    "index": "yuan-ti-malison-(type-3)",
     "entries": [
       {
         "description": "Os Malisons exibem características serpentinas que os tornam mortais em combate.\n\n**Tipo 3.** Esses Malisons são humanos da cintura para cima, mas abaixo disso estendem-se as espirais de uma cobra gigante.\n\nOs Malisons possuem um veneno mortal, que alguns manipulam em ataques mágicos. Eles também podem se transformar em cobras, o que os ajuda a se posicionar para ataques surpresa ou a escapar sem deixar rastros."
