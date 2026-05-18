@@ -135,7 +135,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Elementalismo*, *Rajada de Vento*, *Mão do Mago*, *Mensagem*",
@@ -540,7 +540,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Pensamentos*, *Ilusão Menor*",
@@ -567,14 +567,14 @@
         ],
         "reactions": [
             {
-                "name": "Contrafeitiço (2/Dia)",
+                "name": "Contramagia (2/Dia)",
                 "spells_by_group": [
                     {
-                        "group": "**2/dia:** *Contrafeitiço*",
+                        "group": "**2/dia:** *Contramagia*",
                         "spells": [
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             }
@@ -583,7 +583,7 @@
                 ],
                 "saving_throws": [],
                 "conditions": [],
-                "description": "O cultista conjura Contrafeitiço em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração."
+                "description": "O cultista conjura Contramagia em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração."
             }
         ],
         "bonus_actions": [],
@@ -1088,7 +1088,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade Animal*, *Mensageiro Animal*, *Falar com Animais*",
@@ -1593,7 +1593,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Alterar Forma*, *Detectar Magia*, *Identificar*, *Mão Mágica*, *Prestidigitação*",
@@ -1667,14 +1667,14 @@
         ],
         "reactions": [
             {
-                "name": "Contrafeitiço",
+                "name": "Contramagia",
                 "spells_by_group": [
                     {
-                        "group": "**À vontade:** *Contrafeitiço*",
+                        "group": "**À vontade:** *Contramagia*",
                         "spells": [
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             }
@@ -1683,7 +1683,7 @@
                 ],
                 "saving_throws": [],
                 "conditions": [],
-                "description": "O arcanaloth conjura Contrafeitiço em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração."
+                "description": "O arcanaloth conjura Contramagia em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração."
             }
         ],
         "bonus_actions": [
@@ -1961,7 +1961,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Pensamentos*, *Portal Dimensional*, *Dissipar Magia*, *Padrão Hipnótico*",
@@ -2026,11 +2026,11 @@
                 "name": "Trava-línguas",
                 "spells_by_group": [
                     {
-                        "group": "**À vontade:** *Contrafeitiço*",
+                        "group": "**À vontade:** *Contramagia*",
                         "spells": [
                             {
                                 "index": "counterspell",
-                                "name": "Contrafeitiço",
+                                "name": "Contramagia",
                                 "school": "ABJURATION",
                                 "level": 3
                             }
@@ -2039,7 +2039,7 @@
                 ],
                 "saving_throws": [],
                 "conditions": [],
-                "description": "A bruxa conjura Contrafeitiço em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração. Se o alvo falhar no teste de resistência, ele fica amaldiçoado até o final do seu próximo turno. Enquanto a maldição durar, o alvo não pode conjurar magias com componente Verbal e, quando fala, diz o oposto do que quer dizer."
+                "description": "A bruxa conjura Contramagia em resposta ao gatilho daquela magia, usando a mesma habilidade de conjuração que Conjuração. Se o alvo falhar no teste de resistência, ele fica amaldiçoado até o final do seu próximo turno. Enquanto a maldição durar, o alvo não pode conjurar magias com componente Verbal e, quando fala, diz o oposto do que quer dizer."
             }
         ],
         "bonus_actions": [
@@ -2265,7 +2265,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luz*, *Taumaturgia*",
@@ -2526,7 +2526,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Elementalismo*, *Mão do Mago*",
@@ -2959,7 +2959,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Disfarce*, *Mão de Mago*, *Ilusão Menor*",
@@ -3496,7 +3496,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**2/dia cada:** *Disfarce*, *Invisibilidade* (apenas para si mesmo)",
@@ -4747,7 +4747,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão Mágica*, *Taumaturgia*",
@@ -5288,7 +5288,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luzes Dançantes*, *Druidismo*, *Raio da Doença*",
@@ -5697,7 +5697,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**2/dia cada:** *Alterar Forma*, *Comando* (versão de nível 3), *Detectar Magia*",
@@ -6075,7 +6075,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Druidismo*, *Falar com Animais*",
@@ -7087,7 +7087,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Taumaturgia*",
@@ -7274,7 +7274,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**1/dia:** *Conhecimento Lendário*",
@@ -7675,7 +7675,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar o Bem e o Mal*, *Detectar Magia*, *Moldar Pedras*",
@@ -7916,7 +7916,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Falar com os Mortos*, *Taumaturgia*",
@@ -8191,7 +8191,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Comando*, *Cavalo Fantasma*",
@@ -8487,7 +8487,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Cavalo Fantasma*",
@@ -8721,7 +8721,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Detectar Pensamentos*, *Invisibilidade* (somente para si mesmo), *Mão Mágica*, *Imagem Maior*",
@@ -9916,7 +9916,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Raio da Doença* (versão nível 2)",
@@ -10486,7 +10486,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Elementalismo*, *Mão do Mago*",
@@ -10727,7 +10727,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Acalmar Emoções*, *Restauração Profunda*, *Passar sem Deixar Rastros*, *Respiração na Água*",
@@ -10993,7 +10993,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**1/dia cada:** *Bênção*, *Restauração Menor* (como uma ação)",
@@ -11198,7 +11198,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luzes Dançantes*, *Mão do Mago*, *Ilusão Menor*",
@@ -11426,7 +11426,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luzes Dançantes*, *Mão do Mago*, *Ilusão Menor*",
@@ -11618,7 +11618,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Raio Incandescente* (versão nível 5), *Taumaturgia*",
@@ -11839,7 +11839,7 @@
                 "name": "Restauração dos Mortos-Vivos",
                 "saving_throws": [],
                 "conditions": [],
-                "description": "Se o crânio flamejante for destruído, ele recupera todos os seus Pontos de Vida em 1 hora, a menos que Água Benta seja aspergida sobre seus restos mortais ou que o feitiço Dissipar o Mal e o Bem seja lançado sobre eles."
+                "description": "Se o crânio flamejante for destruído, ele recupera todos os seus Pontos de Vida em 1 hora, a menos que Água Benta seja aspergida sobre seus restos mortais ou que o magia Dissipar o Mal e o Bem seja lançado sobre eles."
             }
         ],
         "actions": [
@@ -11869,7 +11869,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago*",
@@ -12960,7 +12960,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Falar com os Mortos*, *Taumaturgia*",
@@ -13497,7 +13497,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -13693,7 +13693,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -13900,7 +13900,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -14100,7 +14100,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -14341,7 +14341,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -14559,7 +14559,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -15264,7 +15264,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Ilusão Menor*",
@@ -15971,7 +15971,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Detectar Pensamentos*, *Invisibilidade* (somente para si mesmo), *Mão Mágica*, *Imagem Maior*",
@@ -16235,7 +16235,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Detectar Pensamentos*, *Mão Mágica*",
@@ -17237,7 +17237,7 @@
                 "name": "Imunidade a Magia",
                 "saving_throws": [],
                 "conditions": [],
-                "description": "O horror com elmo é imune a três feitiços escolhidos por seu criador. As opções típicas incluem Aquecer Metal, Raio e Míssil Mágico."
+                "description": "O horror com elmo é imune a três magias escolhidos por seu criador. As opções típicas incluem Aquecer Metal, Raio e Míssil Mágico."
             }
         ],
         "actions": [
@@ -18609,7 +18609,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Taumaturgia*",
@@ -19472,7 +19472,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Elementalismo*",
@@ -19823,7 +19823,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão Mágica*, *Prestidigitação*",
@@ -20420,7 +20420,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Criar ou destruir água*, *Detectar o bem e o mal*, *Detectar magia*, *Purificar alimentos e bebidas*",
@@ -20676,7 +20676,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Elementalismo*, *Luz*",
@@ -20932,7 +20932,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**1/dia cada:** *Nuvem Assassina*, *Escuridão*, *Dissipar Magia*",
@@ -21205,7 +21205,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Pensamentos*",
@@ -21453,7 +21453,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Detectar Pensamentos*, *Disfarçar-se*, *Mão Mágica* (a mão é invisível)",
@@ -23266,7 +23266,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Armadura Arcana* (incluída na CA), *Mão Arcana*, *Ilusão Menor*",
@@ -24182,7 +24182,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão Mágica*, *Ilusão Menor*, *Prestidigitação*",
@@ -24434,7 +24434,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Ilusão Menor*, *Prestidigitação*",
@@ -25094,7 +25094,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luzes Dançantes*, *Druidismo*, *Invisibilidade* (apenas para uso pessoal)",
@@ -25299,7 +25299,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Luzes Dançantes*, *Druidismo*, *Invisibilidade* (apenas para uso pessoal)",
@@ -26133,7 +26133,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão Mágica* (a mão é invisível), *Ilusão Menor*",
@@ -26402,7 +26402,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**1/dia cada:** *Luz do Dia*, *Dissipar o Mal e o Bem*, *Restauração Maior*, *Cavalo Fantasma*",
@@ -27178,7 +27178,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Taumaturgia*",
@@ -29096,7 +29096,7 @@
         ],
         "reactions": [
             {
-                "name": "Reflexão do Feitiço",
+                "name": "Reflexão do Magia",
                 "saving_throws": [
                     {
                         "index": "saving-throw-dex",
@@ -29312,7 +29312,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Magia*, *Identificar*, *Prestidigitação*",
@@ -30908,7 +30908,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Mão do Mago* (a mão é invisível)",
@@ -31615,7 +31615,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Alterar Forma*, *Clarividência*, *Detectar Magia*",
@@ -33660,7 +33660,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Detectar Pensamentos*, *Forma Gasosa* (somente para si mesmo), *Teia*",
@@ -34090,7 +34090,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços (somente na Forma Yuan-ti)",
+                "name": "Lançamento de Magias (somente na Forma Yuan-ti)",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade com animais* (apenas cobras)",
@@ -34295,7 +34295,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços",
+                "name": "Lançamento de Magias",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade com animais* (apenas cobras)",
@@ -34495,7 +34495,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços (somente na Forma Yuan-ti)",
+                "name": "Lançamento de Magias (somente na Forma Yuan-ti)",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade com animais* (apenas cobras)",
@@ -34687,7 +34687,7 @@
                 "conditions": []
             },
             {
-                "name": "Lançamento de Feitiços (somente na Forma Yuan-ti)",
+                "name": "Lançamento de Magias (somente na Forma Yuan-ti)",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade com animais* (apenas cobras)",
@@ -34905,7 +34905,7 @@
                 ]
             },
             {
-                "name": "Lançamento de Feitiços (somente na Forma Yuan-ti)",
+                "name": "Lançamento de Magias (somente na Forma Yuan-ti)",
                 "spells_by_group": [
                     {
                         "group": "**À vontade:** *Amizade com animais* (apenas cobras)",
