@@ -47,7 +47,7 @@
     },
     "is_horizontal_image": false,
     "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/priest-acolyte.png",
-    "content_scale": "Crop"
+    "content_scale": "Fit"
   },
   {
     "monster_index": "adult-black-dragon",
@@ -401,7 +401,8 @@
       "dark": "#262626"
     },
     "is_horizontal_image": false,
-    "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/azer.png"
+    "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/azer-sentinel.png",
+    "content_scale": "Crop"
   },
   {
     "monster_index": "babau",
@@ -3000,7 +3001,7 @@
     },
     "is_horizontal_image": false,
     "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/noble.png",
-    "content_scale": "Crop"
+    "content_scale": "Fit"
   },
   {
     "monster_index": "nothic",
@@ -8801,7 +8802,7 @@
     },
     "is_horizontal_image": false,
     "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mm-v2/bandit-crime-lord.png",
-    "content_scale": "Crop"
+    "content_scale": "Fit"
   },
   {
     "monster_index": "bandit-deceiver",
