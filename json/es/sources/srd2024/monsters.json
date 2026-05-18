@@ -17836,7 +17836,7 @@
     "reactions": [],
     "bonus_actions": [
       {
-        "name": "Magic of the Spider Queen {@recharge 5}",
+        "name": "Magic of the Spider Queen (Recharge 5-6)",
         "description": "The drider casts Darkness, Faerie Fire, or Web, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14).",
         "spells_by_group": [
           {
@@ -31613,7 +31613,7 @@
         "conditions": []
       },
       {
-        "name": "Ice Wall {@recharge}",
+        "name": "Ice Wall (Recharge 6)",
         "description": "The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17).",
         "spells_by_group": [
           {
@@ -40821,7 +40821,7 @@
         "conditions": []
       },
       {
-        "name": "Hellfire Spellcasting {@recharge 4}",
+        "name": "Hellfire Spellcasting (Recharge 4-6)",
         "description": "The pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire.",
         "spells_by_group": [
           {
@@ -49649,7 +49649,7 @@
     "reactions": [],
     "bonus_actions": [
       {
-        "name": "Slow {@recharge 5}",
+        "name": "Slow (Recharge 5-6)",
         "description": "The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
         "spells_by_group": [
           {
@@ -53536,7 +53536,7 @@
         "conditions": []
       },
       {
-        "name": "Charm {@recharge 5}",
+        "name": "Charm (Recharge 5-6)",
         "description": "The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.",
         "spells_by_group": [
           {
