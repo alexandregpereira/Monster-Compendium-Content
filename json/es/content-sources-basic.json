@@ -1,0 +1,50 @@
+[
+    {
+        "source": {
+            "name": "Monster Manual (2025)",
+            "acronym": "MM"
+        },
+        "totalMonsters": 186,
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "contentVersion": 1,
+        "summary": "The 2025 Monster Manual is a fully revised bestiary featuring hundreds of iconic D&D monsters with updated stat blocks designed for the 2024 rules. From classic creatures to new additions, this sourcebook is an essential reference for Dungeon Masters."
+    },
+    {
+        "source": {
+            "name": "Player Stat Blocks",
+            "acronym": "PSB3"
+        },
+        "totalMonsters": 6,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
+    },
+    {
+        "source": {
+            "name": "D&D 2024 SRD",
+            "acronym": "SRD2024"
+        },
+        "totalMonsters": 332,
+        "totalSpells": 339,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "isDefault": true,
+        "contentVersion": 1,
+        "summary": "The D&D 2024 SRD contains the publicly licensed content from the 2024 Monster Manual and Player's Handbook, available under Creative Commons. It includes revised monster stat blocks and a complete spell list reimagined for the 2024 rules."
+    },
+    {
+        "source": {
+            "name": "SRD Legacy",
+            "acronym": "SRD"
+        },
+        "totalMonsters": 5,
+        "totalSpells": 18,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "isDefault": true,
+        "contentVersion": 1,
+        "summary": "Monsters and spells from the original 5e System Reference Document that were not carried over to the 2024 SRD."
+    }
+]

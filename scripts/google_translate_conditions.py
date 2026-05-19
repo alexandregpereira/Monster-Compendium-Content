@@ -245,6 +245,15 @@ def translate_conditions_file(
         print("Nothing to translate. Skipping API call.")
         return resolved_output
 
+    total_chars = sum(len(t) for t in texts)
+    cost = total_chars / 1_000_000 * 20
+    print(f"  Total characters: {total_chars:,}")
+    print(f"  Estimated cost:   ${cost:.4f} (at $20 / 1M chars)")
+    answer = input("\nProceed with translation? [y/N] ").strip().lower()
+    if answer != "y":
+        print("Translation cancelled.")
+        return resolved_output
+
     print("\nSending to Google Translate API...")
     translated = translate_all(texts, lang, source_lang, api_key)
 

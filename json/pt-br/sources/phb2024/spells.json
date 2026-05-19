@@ -1,0 +1,1042 @@
+[
+    {
+        "index": "arcane-gate",
+        "name": "Portal Arcano",
+        "level": 6,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Até 10 minutos",
+        "range": "150m [500 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você cria portais de teletransporte interligados. Escolha dois espaços grandes e desocupados no chão que você possa ver, um dentro do alcance e o outro a até 3 metros [10 feet] de você. Um portal circular se abre em cada um desses espaços e permanece durante toda a duração.\n\nOs portais são anéis brilhantes bidimensionais preenchidos com névoa que bloqueia a visão. Eles flutuam a poucos centímetros do chão e são perpendiculares a ele.\n\nUm portal é aberto apenas de um lado (você escolhe qual). Qualquer coisa que entre pelo lado aberto de um portal sai pelo lado aberto do outro portal, como se os dois fossem adjacentes. Como uma Ação Bônus, você pode mudar a orientação dos lados abertos.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "arcane-vigor",
+        "name": "Vigor Arcano",
+        "level": 2,
+        "casting_time": "Ação bônus",
+        "components": "V, S",
+        "duration": "Instantâneo",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ABJURATION",
+        "description": "Você acessa sua força vital para se curar. Role um ou dois dos seus Dados de Pontos de Vida não utilizados e recupere uma quantidade de Pontos de Vida igual ao total da rolagem mais o seu modificador de habilidade de conjuração. Esses dados são então gastos.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O número de Dados de Vida não gastos que você pode rolar aumenta em um para cada nível de espaço de magia acima de 2.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "armor-of-agathys",
+        "name": "Armadura de Agathys",
+        "level": 1,
+        "casting_time": "Ação bônus",
+        "components": "V, S, M (um fragmento de vidro azul)",
+        "duration": "1 hora",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": "Cold",
+        "school": "ABJURATION",
+        "description": "Uma camada protetora de gelo mágico envolve você. Você ganha 5 Pontos de Vida Temporários. Se uma criatura acertar você com um ataque corpo a corpo antes do término da magia, ela sofre 5 pontos de dano de Frio. A magia termina mais cedo se você não tiver Pontos de Vida Temporários.",
+        "higher_level": "Ao usar um espaço de magia de nível superior: os pontos de vida temporários e o dano de frio aumentam em 5 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "arms-of-hadar",
+        "name": "Brasões de Hadar",
+        "level": 1,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Instantâneo",
+        "range": "Emanação própria (3m [10 ft.])",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "STRENGTH",
+        "damage_type": "Necrotic",
+        "school": "CONJURATION",
+        "description": "Ao invocar Hadar, você faz com que tentáculos irrompam de si mesmo. Cada criatura em uma Emanação [Área de Efeito] de 3 metros [10 feet] originada de você deve fazer um teste de resistência de Força. Em caso de falha, o alvo sofre 2d6 de dano Necrótico e não pode usar Reações até o início do seu próximo turno. Em caso de sucesso, o alvo sofre apenas metade do dano.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 2d6 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "aura-of-purity",
+        "name": "Aura de Pureza",
+        "level": 4,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Até 10 minutos",
+        "range": "Emanação própria (9 metros [30 feet])",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ABJURATION",
+        "description": "Uma aura irradia de você em uma Emanação de 9 metros [30 feet] [Área de Efeito] durante a duração. Enquanto estiver na aura, você e seus aliados têm Resistência a dano de Veneno e Vantagem em testes de resistência para evitar ou encerrar efeitos que incluam as condições Cego, Enfeitiçado, Surdo, Amedrontado, Paralisado, Envenenado ou Atordoado.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "aura-of-vitality",
+        "name": "Aura de Vitalidade",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Até 1 minuto",
+        "range": "Emanação própria (9 metros [30 feet])",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ABJURATION",
+        "description": "Uma aura irradia de você em uma Emanação de 9 metros [30 feet] [Área de Efeito] durante a duração. Ao criar a aura e no início de cada um dos seus turnos enquanto ela persistir, você pode restaurar 2d6 Pontos de Vida para uma criatura dentro dela.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "banishing-smite",
+        "name": "Golpe de Banimento",
+        "level": 5,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "Até 1 minuto",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Force",
+        "school": "CONJURATION",
+        "description": "O alvo atingido pelo ataque sofre 5d10 de dano de Força adicional. Se o ataque reduzir os Pontos de Vida do alvo a 50 ou menos, o alvo deve ser bem-sucedido em um teste de resistência de Carisma ou será transportado para um semiplano inofensivo durante a duração do efeito. Enquanto estiver lá, o alvo fica incapacitado. Quando a magia termina, o alvo reaparece no espaço que deixou ou no espaço desocupado mais próximo, caso esse espaço esteja ocupado.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "beast-sense",
+        "name": "Sentido Bestial",
+        "level": 2,
+        "casting_time": "1 ação",
+        "components": "S",
+        "duration": "Até 1 hora",
+        "range": "0 toque",
+        "ritual": true,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "DIVINATION",
+        "description": "Você toca uma Besta disposta. Durante esse período, você pode perceber através dos sentidos da Besta, bem como pelos seus próprios. Ao perceber através dos sentidos da Besta, você se beneficia de quaisquer sentidos especiais que ela possua.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "blade-ward",
+        "name": "Guarda de Lâminas",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Até 1 minuto",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ABJURATION",
+        "description": "Sempre que uma criatura fizer uma jogada de ataque contra você antes do término da magia, o atacante subtrai 1d4 do resultado da jogada de ataque.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "blinding-smite",
+        "name": "Golpe Cegante",
+        "level": 3,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "1 minuto",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "O alvo atingido pelo golpe sofre 3d8 de dano radiante adicional do ataque e fica cego até o término da magia. Ao final de cada um de seus turnos, o alvo cego realiza um teste de resistência de Constituição, encerrando a magia sobre si mesmo em caso de sucesso.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano extra aumenta em 3d8 para cada nível de espaço de magia acima de 3.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "circle-of-power",
+        "name": "Círculo de Poder",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Até 10 minutos",
+        "range": "Emanação própria (9 metros [30 feet])",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ABJURATION",
+        "description": "Uma aura irradia de você em uma Emanação de 9 metros [30 feet] [Área de Efeito] durante a duração. Enquanto estiver na aura, você e seus aliados têm Vantagem em testes de resistência contra magias e outros efeitos mágicos. Quando uma criatura afetada fizer um teste de resistência contra uma magia ou efeito mágico que permita que o teste reduza o dano à metade, ela não sofrerá dano algum se for bem-sucedida.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "cloud-of-daggers",
+        "name": "Nuvem de Adagas",
+        "level": 2,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um fragmento de vidro)",
+        "duration": "Até 1 minuto",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Slashing",
+        "school": "CONJURATION",
+        "description": "Você conjura adagas giratórias em um Cubo [Área de Efeito] de 1,5 metros [5 feet] de lado, centrado em um ponto dentro do alcance. Cada criatura nessa área sofre 4d4 de dano cortante. Uma criatura também sofre esse dano se entrar no Cubo [Área de Efeito], terminar seu turno lá ou se o Cubo [Área de Efeito] se mover para o espaço dela. Uma criatura sofre esse dano apenas uma vez por turno.\n\nEm seus turnos posteriores, você pode usar uma ação mágica para teletransportar o Cubo [Área de Efeito] em até 9 metros [30 feet].",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 4d4 para cada nível de espaço de magia acima de 2.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "compelled-duel",
+        "name": "Duelo Forçado",
+        "level": 1,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "Até 1 minuto",
+        "range": "9m [30 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "WISDOM",
+        "damage_type": null,
+        "school": "ENCHANTMENT",
+        "description": "Você tenta forçar uma criatura a um duelo. Uma criatura que você possa ver dentro do alcance faz um teste de resistência de Sabedoria. Se falhar, o alvo tem Desvantagem em jogadas de ataque contra criaturas que não sejam você e não pode se mover voluntariamente para um espaço a mais de 9 metros [30 feet] de você.\n\nA magia termina se você fizer uma jogada de ataque contra uma criatura que não seja o alvo, se você conjurar uma magia em um inimigo que não seja o alvo, se um aliado seu causar dano ao alvo ou se você terminar seu turno a mais de 9 metros [30 feet] do alvo.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "conjure-barrage",
+        "name": "Conjurar Barragem",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma arma de combate corpo a corpo ou à distância que valha pelo menos 1 PC)",
+        "duration": "Instantâneo",
+        "range": "Autoavaliação (Cone de 18m [60 ft.])",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Force",
+        "school": "CONJURATION",
+        "description": "Você empunha a arma usada para conjurar a magia e conjura armas espectrais semelhantes (ou munição apropriada para a arma) que são lançadas para a frente e desaparecem em seguida. Cada criatura à sua escolha que você puder ver em um cone de 18 metros [60 feet] [Área de Efeito] faz um teste de resistência de Destreza, sofrendo 5d8 de dano de Força em caso de falha ou metade desse dano em caso de sucesso.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 5d8 para cada nível de espaço de magia acima de 3.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "conjure-volley",
+        "name": "Conjurar Voleio",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma arma de combate corpo a corpo ou à distância que valha pelo menos 1 PC)",
+        "duration": "Instantâneo",
+        "range": "45m [150 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Force",
+        "school": "CONJURATION",
+        "description": "Você empunha a arma usada para conjurar a magia e escolhe um ponto dentro do alcance. Centenas de armas espectrais semelhantes (ou munição apropriada para a arma) caem em uma saraivada e desaparecem. Cada criatura à sua escolha que você puder ver em um Cilindro [Área de Efeito] de 12 metros [40 feet] de raio e 6 metros [20 feet] de altura, centrado nesse ponto, faz um teste de resistência de Destreza. Uma criatura sofre 8d8 de dano de Força em caso de falha no teste ou metade desse dano em caso de sucesso.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "cordon-of-arrows",
+        "name": "Cordão de Flechas",
+        "level": 2,
+        "casting_time": "1 ação",
+        "components": "V, S, M (quatro ou mais flechas ou virotes)",
+        "duration": "8 horas",
+        "range": "0 toque",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Piercing",
+        "school": "TRANSMUTATION",
+        "description": "Você toca em até quatro flechas ou virotes não mágicos e os finca no chão em seu espaço. Até o término da magia, a munição não pode ser arrancada fisicamente, e sempre que uma criatura que não seja você entrar em um espaço a até 9 metros [30 feet] da munição pela primeira vez em um turno ou terminar seu turno ali, uma peça de munição voa para atingi-la. A criatura deve ser bem-sucedida em um teste de resistência de Destreza ou sofrer 2d4 de dano perfurante. A peça de munição é então destruída. A magia termina quando nenhuma das munições permanecer fincada no chão.\n\nAo conjurar esta magia, você pode designar quaisquer criaturas que escolher, e a magia as ignora.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: A quantidade de munição que pode ser afetada aumenta em dois para cada nível de espaço de magia acima de 2.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "crown-of-madness",
+        "name": "Coroa da Loucura",
+        "level": 2,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Até 1 minuto",
+        "range": "36m [120 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "WISDOM",
+        "damage_type": null,
+        "school": "ENCHANTMENT",
+        "description": "Uma criatura que você possa ver dentro do alcance deve ser bem-sucedida em um teste de resistência de Sabedoria ou ficará sob a condição Enfeitiçado durante a duração. A criatura é bem-sucedida automaticamente se não for Humanoide.\n\nUma coroa espectral aparece na cabeça do alvo Enfeitiçado, e ele deve usar sua ação antes de se mover em cada um de seus turnos para fazer um ataque corpo a corpo contra uma criatura que você escolha mentalmente, diferente de si mesmo. O alvo pode agir normalmente em seu turno se você não escolher nenhuma criatura ou se não houver nenhuma criatura ao seu alcance. O alvo repete o teste de resistência no final de cada um de seus turnos, encerrando o efeito da magia sobre si mesmo em caso de sucesso.\n\nEm seus turnos subsequentes, você deve usar a ação Mágica para manter o controle do alvo, ou a magia termina.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "crusaders-mantle",
+        "name": "Manto do Cruzado",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Até 1 minuto",
+        "range": "Emanação própria (9 metros [30 feet])",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "Você irradia uma aura mágica em uma Emanação de 9 metros [30 feet] [Área de Efeito]. Enquanto estiver na aura, você e seus aliados causam 1d4 de dano Radiante adicional ao acertar um ataque com arma ou Desarmado.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "destructive-wave",
+        "name": "Onda Destrutiva",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "Autoestima (Esfera de 9 metros [30 feet])",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Necrotic",
+        "school": "EVOCATION",
+        "description": "Uma energia destrutiva se propaga a partir de você em uma Emanação [Área de Efeito] de 9 metros [30 feet]. Cada criatura que você escolher na Emanação [Área de Efeito] deve fazer um teste de resistência de Constituição. Em caso de falha, o alvo sofre 5d6 de dano Trovejante e 5d6 de dano Radiante ou Necrótico (à sua escolha) e fica Caído. Em caso de sucesso, o alvo sofre apenas metade do dano.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "elemental-weapon",
+        "name": "Arma Elemental",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Até 1 hora",
+        "range": "0 toque",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Acid",
+        "school": "TRANSMUTATION",
+        "description": "Uma arma não mágica que você tocar se torna uma arma mágica. Escolha um dos seguintes tipos de dano: Ácido, Frio, Fogo, Relâmpago ou Trovão. Durante a duração, a arma recebe um bônus de +1 nas jogadas de ataque e causa 1d4 de dano extra do tipo escolhido ao acertar.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Se você usar um espaço de magia de nível 5-6, o bônus nas jogadas de ataque aumenta para +2 e o dano extra aumenta para 2d4. Se você usar um espaço de magia de nível 7 ou superior, o bônus aumenta para +3 e o dano extra aumenta para 3d4.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "feign-death",
+        "name": "Fingir a Morte",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma pitada de terra de cemitério)",
+        "duration": "1 hora",
+        "range": "0 toque",
+        "ritual": true,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "NECROMANCY",
+        "description": "Você toca uma criatura voluntária e a coloca em um estado cataléptico indistinguível da morte.\n\nDurante a duração, o alvo aparenta estar morto à primeira vista e para magias usadas para determinar seu estado. O alvo fica Cego e Incapacitado, e sua Velocidade é 0.\n\nO alvo também possui Resistência a todos os tipos de dano, exceto dano Psíquico, e Imunidade à condição Envenenado.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "fount-of-moonlight",
+        "name": "Fonte de Luar",
+        "level": 4,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Até 10 minutos",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "Uma luz fria envolve seu corpo durante a duração da magia, emitindo Luz Brilhante em um raio de 6 metros [20 feet] e Luz Fraca por mais 6 metros [20 feet].\n\nEnquanto a magia durar, você terá Resistência a dano Radiante e seus ataques corpo a corpo causarão 2d6 de dano Radiante adicional ao acertar.\n\nAlém disso, imediatamente após sofrer dano de uma criatura que você possa ver a até 18 metros [60 feet] de distância, você pode usar uma Reação para forçar a criatura a fazer um teste de resistência de Constituição. Em caso de falha, a criatura ficará Cega até o final do seu próximo turno.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "friends",
+        "name": "Amigos",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "S, M (com alguma maquiagem)",
+        "duration": "Até 1 minuto",
+        "range": "3m [10 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "WISDOM",
+        "damage_type": null,
+        "school": "ENCHANTMENT",
+        "description": "Você emana magicamente um sentimento de amizade por uma criatura que você possa ver dentro do alcance. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria ou ficará sob a condição Enfeitiçado durante a duração. O alvo é bem-sucedido automaticamente se não for um Humanoide, se você estiver lutando contra ele ou se você tiver conjurado esta magia nele nas últimas 24 horas.\n\nA magia termina mais cedo se o alvo sofrer dano ou se você fizer uma jogada de ataque, causar dano ou forçar alguém a fazer um teste de resistência. Quando a magia termina, o alvo sabe que foi Enfeitiçado por você.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "grasping-vine",
+        "name": "Videira Agarrada",
+        "level": 4,
+        "casting_time": "Ação bônus",
+        "components": "V, S",
+        "duration": "Até 1 minuto",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Bludgeoning",
+        "school": "CONJURATION",
+        "description": "Você conjura uma trepadeira que brota de uma superfície em um espaço desocupado que você possa ver dentro do alcance. A trepadeira dura enquanto a duração estiver ativa.\n\nFaça um ataque mágico corpo a corpo contra uma criatura a até 9 metros [30 feet] da trepadeira. Se acertar, o alvo sofre 4d8 de dano de concussão e é puxado até 9 metros [30 feet] em direção à trepadeira; se o alvo for Enorme ou menor, ele fica Agarrado (CD de fuga igual à sua CD de resistência à magia). A trepadeira só pode agarrar uma criatura por vez, e você pode fazer com que a trepadeira solte uma criatura Agarrada (nenhuma ação é necessária).\n\nComo uma Ação Bônus em seus turnos posteriores, você pode repetir o ataque contra uma criatura a até 9 metros [30 feet] da trepadeira.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O número de criaturas que a videira pode agarrar aumenta em uma para cada nível de espaço de magia acima do 4.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "hail-of-thorns",
+        "name": "Chuva de Espinhos",
+        "level": 1,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Piercing",
+        "school": "CONJURATION",
+        "description": "Ao atingir a criatura, esta magia cria uma chuva de espinhos que brota de sua arma de ataque à distância ou munição. O alvo do ataque e cada criatura a até 1,5 metros [5 feet] dele devem fazer um teste de resistência de Destreza, sofrendo 1d10 de dano perfurante em caso de falha ou metade desse dano em caso de sucesso.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 1d10 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "hunger-of-hadar",
+        "name": "Fome de Hadar",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um tentáculo em conserva)",
+        "duration": "Até 1 minuto",
+        "range": "45m [150 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Acid",
+        "school": "CONJURATION",
+        "description": "Você abre um portal para o Reino Distante, uma região infestada por horrores indescritíveis. Uma Esfera [Área de Efeito] de Escuridão com 6 metros [20 feet] de raio aparece, centrada em um ponto com alcance definido e durando enquanto durar. A Esfera [Área de Efeito] é Terreno Difícil e está repleta de sussurros estranhos e ruídos de sucção, que podem ser ouvidos a até 9 metros [30 feet] de distância. Nenhuma luz, mágica ou não, pode iluminar a área, e criaturas totalmente dentro dela ficam Cegas.\n\nQualquer criatura que comece seu turno na área sofre 2d6 de dano de Frio. Qualquer criatura que termine seu turno lá deve ser bem-sucedida em um teste de resistência de Destreza ou sofrerá 2d6 de dano de Ácido de tentáculos de outro mundo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano de Frio ou Ácido (à sua escolha) aumenta em 2d6 para cada nível de espaço de magia acima de 3.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "jallarzis-storm-of-radiance",
+        "name": "Tempestade de Radiância de Jallarzi",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma pitada de fósforo)",
+        "duration": "Até 1 minuto",
+        "range": "36m [120 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "Você desencadeia uma tempestade de luzes cintilantes e trovões furiosos em um Cilindro [Área de Efeito] de 3 metros [10 feet] de raio e 12 metros [40 feet] de altura, centrado em um ponto que você possa ver dentro do alcance. Enquanto estiverem nessa área, as criaturas ficam Cegas e Surdas, e não podem conjurar magias com componente Verbal.\n\nQuando a tempestade aparece, cada criatura dentro dela faz um teste de resistência de Constituição, sofrendo 2d10 de dano Radiante e 2d10 de dano Trovejante em caso de falha, ou metade desse dano em caso de sucesso. Uma criatura também faz esse teste quando entra na área da magia pela primeira vez em um turno ou quando termina seu turno lá. Uma criatura só pode fazer esse teste uma vez por turno.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano Radiante e Trovejante aumenta em 2d10 para cada nível de espaço de magia acima de 5.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "lightning-arrow",
+        "name": "Flecha Relâmpago",
+        "level": 3,
+        "casting_time": "Ação bônus",
+        "components": "V, S",
+        "duration": "Instantâneo",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "DEXTERITY",
+        "damage_type": "Lightning",
+        "school": "TRANSMUTATION",
+        "description": "Conforme seu ataque acerta ou erra o alvo, a arma ou munição que você está usando se transforma em um raio. Em vez de sofrer qualquer dano ou outros efeitos do ataque, o alvo sofre 4d8 de dano elétrico em caso de acerto ou metade desse dano em caso de erro. Cada criatura a até 3 metros [10 feet] do alvo então faz um teste de resistência de Destreza, sofrendo 2d8 de dano elétrico em caso de falha ou metade desse dano em caso de sucesso.\n\nA arma ou munição então retorna à sua forma normal.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano de ambos os efeitos da magia aumenta em 4d8;2d8 para cada nível de espaço de magia acima de 3.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "mind-sliver",
+        "name": "Fragmento Mental",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "INTELLIGENCE",
+        "damage_type": "Psychic",
+        "school": "ENCHANTMENT",
+        "description": "Você tenta perturbar temporariamente a mente de uma criatura que você possa ver dentro do alcance. O alvo deve ser bem-sucedido em um teste de resistência de Inteligência ou sofrerá 1d6 de dano psíquico e subtrairá 1d4 do próximo teste de resistência que fizer antes do final do seu próximo turno.",
+        "higher_level": "Aprimoramento do truque: O dano aumenta em 1d6 quando você atinge os níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "power-word-fortify",
+        "name": "Palavra de Poder: Fortificar",
+        "level": 7,
+        "casting_time": "1 ação",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "ENCHANTMENT",
+        "description": "Você fortalece até seis criaturas que você possa ver dentro do alcance. A magia concede 120 Pontos de Vida Temporários, que você divide entre os alvos da magia.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "staggering-smite",
+        "name": "Golpe Estonteante",
+        "level": 4,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "WISDOM",
+        "damage_type": "Psychic",
+        "school": "ENCHANTMENT",
+        "description": "O alvo sofre 4d6 de dano psíquico adicional do ataque e deve ser bem-sucedido em um teste de resistência de Sabedoria ou ficará Atordoado até o final do seu próximo turno.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano extra aumenta em 4d6 para cada nível de espaço de magia acima do 4.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "steel-wind-strike",
+        "name": "Golpe de Vento de Aço",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "P, M (uma arma corpo a corpo que vale 1+ SP)",
+        "duration": "Instantâneo",
+        "range": "9m [30 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": "Force",
+        "school": "CONJURATION",
+        "description": "Você brande a arma usada na conjuração e então desaparece para atacar como o vento. Escolha até cinco criaturas que você possa ver dentro do alcance. Faça um ataque mágico corpo a corpo contra cada alvo. Se acertar, o alvo sofre 6d10 de dano de Força.\n\nVocê então se teletransporta para um espaço desocupado que você possa ver a até 1,5 metros [5 feet] de um dos alvos.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-aberration",
+        "name": "Invocar Aberração",
+        "level": 4,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um tentáculo em conserva e um globo ocular em um frasco com incrustações de platina, avaliado em mais de 400 PO)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito aberrante. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Aberrante. Ao conjurar a magia, escolha Beholderkin, Devorador de Mentes ou Slaad. A criatura se assemelha a uma Aberração desse tipo, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, ela compartilha sua Iniciativa, mas age imediatamente após a sua. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela usa a ação Esquivar e seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-beast",
+        "name": "Invocar Besta",
+        "level": 2,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma pena, um tufo de pelo e uma cauda de peixe dentro de uma bolota dourada no valor de 200+ PO)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito bestial. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Bestial. Ao conjurar a magia, escolha um ambiente: Ar, Terra ou Água. A criatura se assemelha a um animal de sua escolha que seja nativo do ambiente escolhido, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua Iniciativa, mas age imediatamente após você. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela usa a ação Esquivar e seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-celestial",
+        "name": "Invocar Celestial",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um relicário avaliado em mais de 500 GP)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito celestial. Ele se manifesta em uma forma angelical em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Celestial. Ao conjurar a magia, escolha Vingador ou Defensor. Sua escolha determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua contagem de Iniciativa, mas age imediatamente após a sua. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela realiza a ação Esquivar e usa seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-construct",
+        "name": "Construto de Invocação",
+        "level": 4,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um cofre no valor de mais de 400 GP)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca o espírito de um Constructo. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas Espírito de Constructo. Ao conjurar a magia, escolha um material: Argila, Metal ou Pedra. A criatura se assemelha a uma estátua animada (você determina a aparência) feita do material escolhido, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua Iniciativa, mas age imediatamente após a sua. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela realiza a ação Esquivar e usa seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-elemental",
+        "name": "Invocar Elemental",
+        "level": 4,
+        "casting_time": "1 ação",
+        "components": "V, S, M (ar, uma pedra, cinzas e água dentro de um frasco incrustado em ouro avaliado em mais de 400 PO)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito elemental. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Elemental. Ao conjurar a magia, escolha um elemento: Ar, Terra, Fogo ou Água. A criatura se assemelha a uma forma bípede envolta no elemento escolhido, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua Iniciativa, mas age imediatamente após você. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela usa a ação Esquivar e seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-fey",
+        "name": "Invocar Fada",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma flor dourada que vale mais de 300 PO)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito feérico. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Feérico. Ao conjurar a magia, escolha um humor: Furioso, Alegre ou Travesso. A criatura se assemelha a uma criatura feérica de sua escolha, marcada pelo humor escolhido, que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua contagem de Iniciativa, mas age imediatamente após a sua. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela realiza a ação Esquivar e usa seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-fiend",
+        "name": "Invocar Demônio",
+        "level": 6,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um frasco ensanguentado que vale mais de 600 GP)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você invoca um espírito demoníaco. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas Espírito Demoníaco. Ao conjurar a magia, escolha Demônio, Diabo ou Yugoloth. A criatura se assemelha a um Demônio do tipo escolhido, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua Iniciativa, mas age imediatamente após você. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela realiza a ação Esquivar e usa seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "summon-undead",
+        "name": "Invocar Mortos-Vivos",
+        "level": 3,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um crânio dourado que vale mais de 300 PO)",
+        "duration": "Até 1 hora",
+        "range": "27m [90 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "NECROMANCY",
+        "description": "Você invoca um espírito morto-vivo. Ele se manifesta em um espaço desocupado que você possa ver dentro do alcance e usa a ficha de estatísticas de Espírito Morto-Vivo. Ao conjurar a magia, escolha a forma da criatura: Fantasmagórica, Pútrida ou Esquelética. O espírito se assemelha a uma criatura morta-viva com a forma escolhida, o que determina certos detalhes em sua ficha de estatísticas. A criatura desaparece quando seus Pontos de Vida chegam a 0 ou quando a magia termina.\n\nA criatura é uma aliada sua e de seus aliados. Em combate, a criatura compartilha sua Iniciativa, mas age imediatamente após a sua. Ela obedece aos seus comandos verbais (nenhuma ação é necessária da sua parte). Se você não der nenhum comando, ela realiza a ação Esquivar e usa seu movimento para evitar o perigo.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: Use o nível do espaço de magia para o nível da magia no bloco de estatísticas.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "swift-quiver",
+        "name": "Aljava Veloz",
+        "level": 5,
+        "casting_time": "Ação bônus",
+        "components": "V, S, M (uma aljava no valor de 1+ GP)",
+        "duration": "Até 1 minuto",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "TRANSMUTATION",
+        "description": "Ao conjurar a magia e como uma Ação Bônus até o seu término, você pode realizar dois ataques com uma arma que dispare Flechas ou Virotes, como um Arco Longo ou uma Besta Leve. A magia cria magicamente a munição necessária para cada ataque. Cada Flecha ou Virote criado pela magia causa dano como uma munição comum do mesmo tipo e se desintegra imediatamente após atingir o alvo ou errar o alvo.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "synaptic-static",
+        "name": "Estática Sináptica",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Instantâneo",
+        "range": "36m [120 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "INTELLIGENCE",
+        "damage_type": "Psychic",
+        "school": "ENCHANTMENT",
+        "description": "Você provoca uma erupção de energia psíquica em um ponto dentro do alcance. Cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada nesse ponto faz um teste de resistência de Inteligência, sofrendo 8d6 de dano psíquico em caso de falha ou metade desse dano em caso de sucesso.\n\nEm caso de falha, o alvo também fica com os pensamentos confusos por 1 minuto. Durante esse tempo, ele subtrai 1d6 de todas as suas jogadas de ataque e testes de habilidade, bem como de quaisquer testes de resistência de Constituição para manter a Concentração. O alvo faz um teste de resistência de Inteligência ao final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "tashas-bubbling-cauldron",
+        "name": "Caldeirão Borbulhante de Tasha",
+        "level": 6,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma concha dourada no valor de 500 + GP)",
+        "duration": "10 minutos",
+        "range": "1,5m [5 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "CONJURATION",
+        "description": "Você conjura um caldeirão com pés em forma de garras, cheio de um líquido borbulhante. O caldeirão aparece em um espaço desocupado no chão, a até 1,5 metros [5 feet] de você, e permanece enquanto a magia estiver ativa. O caldeirão não pode ser movido e desaparece quando a magia termina, juntamente com o líquido borbulhante em seu interior.\n\nO líquido no caldeirão duplica as propriedades de uma poção Comum ou Incomum à sua escolha (como uma Poção de Cura). Como uma Ação Bônus, você ou um aliado pode alcançar o caldeirão e retirar uma poção desse tipo. A poção está contida em um frasco que desaparece quando a poção é consumida. O caldeirão pode produzir um número dessas poções igual ao seu modificador de habilidade de conjuração (mínimo 1). Quando a última dessas poções for retirada do caldeirão, o caldeirão desaparece e a magia termina.\n\nPoções obtidas do caldeirão que não forem consumidas desaparecem quando você conjura esta magia novamente.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "telepathy",
+        "name": "Telepatia",
+        "level": 8,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um par de anéis de prata entrelaçados)",
+        "duration": "24 horas",
+        "range": "0 ilimitado",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": null,
+        "school": "DIVINATION",
+        "description": "Você cria uma ligação telepática entre você e uma criatura disposta com a qual você tenha familiaridade. A criatura pode estar em qualquer lugar no mesmo plano de existência que você. A magia termina se você ou o alvo não estiverem mais no mesmo plano.\n\nAté a magia terminar, você e o alvo podem compartilhar instantaneamente palavras, imagens, sons e outras mensagens sensoriais através da ligação, e o alvo reconhece você como a criatura com quem está se comunicando. A magia permite que uma criatura entenda o significado de suas palavras e quaisquer mensagens sensoriais que você lhe envie.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "thorn-whip",
+        "name": "Chicote de Espinhos",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "V, S, M (o caule de uma planta com espinhos)",
+        "duration": "Instantâneo",
+        "range": "9m [30 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": null,
+        "damage_type": "Piercing",
+        "school": "TRANSMUTATION",
+        "description": "Você cria um chicote semelhante a uma trepadeira, coberto de espinhos, que se estende ao seu comando em direção a uma criatura dentro do alcance. Faça um ataque mágico corpo a corpo contra o alvo. Se acertar, o alvo sofre 1d6 de dano perfurante e, se for Grande ou menor, você pode puxá-lo até 3 metros [10 feet] para mais perto de você.",
+        "higher_level": "Aprimoramento do truque: O dano aumenta em 1d6 quando você atinge os níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "thunderclap",
+        "name": "Trovão",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "S",
+        "duration": "Instantâneo",
+        "range": "Emanação própria (1,5 metros [5 feet])",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Thunder",
+        "school": "EVOCATION",
+        "description": "Cada criatura em uma Emanação [Área de Efeito] de 1,5 metros [5 feet] originada de você deve ser bem-sucedida em um teste de resistência de Constituição ou sofrerá 1d6 de dano Trovejante. O som trovejante da magia pode ser ouvido a até 30 metros [100 feet] de distância.",
+        "higher_level": "Aprimoramento do truque: O dano aumenta em 1d6 quando você atinge os níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "thunderous-smite",
+        "name": "Golpe Trovejante",
+        "level": 1,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "Instantâneo",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "STRENGTH",
+        "damage_type": "Thunder",
+        "school": "EVOCATION",
+        "description": "Seu golpe ressoa com um trovão audível a até 90 metros [300 feet] de você, e o alvo sofre 2d6 de dano trovejante adicional do ataque. Além disso, se o alvo for uma criatura, ele deve ser bem-sucedido em um teste de resistência de Força ou será empurrado 3 metros [10 feet] para longe de você e ficará caído.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 2d6 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "toll-the-dead",
+        "name": "Toque o Sino dos Mortos",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "V, S",
+        "duration": "Instantâneo",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "WISDOM",
+        "damage_type": "Necrotic",
+        "school": "NECROMANCY",
+        "description": "Você aponta para uma criatura que consegue ver dentro do alcance, e o único toque de um sino doloroso é audível a até 3 metros [10 feet] do alvo. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria ou sofrerá 1d8 de dano Necrótico. Se o alvo estiver com algum Ponto de Vida faltando, ele sofrerá 1d12 de dano Necrótico.",
+        "higher_level": "Aprimoramento do truque: O dano aumenta em um dado quando você atinge os níveis 5 (2d8 ou 2d12), 11 (3d8 ou 3d12) e 17 (4d8 ou 4d12).",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "witch-bolt",
+        "name": "Raio de Bruxa",
+        "level": 1,
+        "casting_time": "1 ação",
+        "components": "V, S, M (um galho atingido por um raio)",
+        "duration": "Até 1 minuto",
+        "range": "18m [60 ft.]",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": null,
+        "damage_type": "Lightning",
+        "school": "EVOCATION",
+        "description": "Um feixe de energia crepitante se dirige a uma criatura dentro do alcance, formando um arco contínuo de relâmpagos entre você e o alvo. Faça um ataque mágico à distância contra ele. Se acertar, o alvo sofre 2d12 de dano de relâmpago.\n\nEm cada um dos seus turnos subsequentes, você pode usar uma Ação Bônus para causar 1d12 de dano de relâmpago ao alvo automaticamente, mesmo que o primeiro ataque tenha errado.\n\nA magia termina se o alvo sair do alcance da magia ou se estiver totalmente protegido por você.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano inicial aumenta em 2d12 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "word-of-radiance",
+        "name": "Palavra de Radiância",
+        "level": 0,
+        "casting_time": "1 ação",
+        "components": "V, M (um símbolo de raio de sol)",
+        "duration": "Instantâneo",
+        "range": "Emanação própria (1,5 metros [5 feet])",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "CONSTITUTION",
+        "damage_type": "Radiant",
+        "school": "EVOCATION",
+        "description": "Uma radiação intensa irrompe de você em uma Emanação de 1,5 metros [5 feet] [Área de Efeito]. Cada criatura à sua escolha que você puder ver dentro dela deve ser bem-sucedida em um teste de resistência de Constituição ou sofrer 1d6 de dano Radiante.",
+        "higher_level": "Aprimoramento do truque: O dano aumenta em 1d6 quando você atinge os níveis 5 (2d6), 11 (3d6) e 17 (4d6).",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "wrathful-smite",
+        "name": "Golpe Furioso",
+        "level": 1,
+        "casting_time": "Ação bônus",
+        "components": "V",
+        "duration": "1 minuto",
+        "range": "0 eu mesmo",
+        "ritual": false,
+        "concentration": false,
+        "saving_throw_type": "WISDOM",
+        "damage_type": "Necrotic",
+        "school": "NECROMANCY",
+        "description": "O alvo sofre 1d6 de dano Necrótico adicional do ataque e deve ser bem-sucedido em um teste de resistência de Sabedoria ou ficará amedrontado até o término da magia. Ao final de cada um de seus turnos, o alvo amedrontado repete o teste de resistência, encerrando a magia sobre si mesmo em caso de sucesso.",
+        "higher_level": "Usando um Espaço de Magia de Nível Superior: O dano aumenta em 1d6 para cada nível de espaço de magia acima de 1.",
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    },
+    {
+        "index": "yolandes-regal-presence",
+        "name": "Presença Majestosa de Yolande",
+        "level": 5,
+        "casting_time": "1 ação",
+        "components": "V, S, M (uma tiara em miniatura)",
+        "duration": "Até 1 minuto",
+        "range": "Emanação própria (3m [10 ft.])",
+        "ritual": false,
+        "concentration": true,
+        "saving_throw_type": "WISDOM",
+        "damage_type": "Psychic",
+        "school": "ENCHANTMENT",
+        "description": "Você se envolve em uma majestade sobrenatural em uma Emanação [Área de Efeito] de 3 metros [10 feet]. Sempre que a Emanação [Área de Efeito] entrar no espaço de uma criatura que você possa ver e sempre que uma criatura que você possa ver entrar na Emanação [Área de Efeito] ou terminar seu turno lá, você pode forçar essa criatura a fazer um teste de resistência de Sabedoria. Em caso de falha, o alvo sofre 4d6 de dano Psíquico e fica Caído, podendo ser empurrado até 3 metros [10 feet] para longe. Em caso de sucesso, o alvo sofre apenas metade do dano. Uma criatura só pode fazer esse teste uma vez por turno.",
+        "higher_level": null,
+        "source": {
+            "name": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        }
+    }
+]

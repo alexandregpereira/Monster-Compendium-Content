@@ -1,0 +1,362 @@
+[
+  {
+    "index": "arcane-hand",
+    "name": "Mão de Bigby",
+    "level": 5,
+    "casting_time": "1 ação",
+    "components": "V, S, M (uma casca de ovo e uma luva feita de pele de cobra)",
+    "duration": "Até 1 minuto",
+    "range": "36m [120 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Você cria uma mão de tamanho Grande, feita de uma energia translúcida e reluzente, em um espaço desocupado à sua vista e dentro do alcance da magia. A mão persiste enquanto a magia durar e move-se ao seu comando, imitando os movimentos de sua própria mão. A mão é um objeto que tem CA 20 e pontos de vida iguais ao valor máximo de seus pontos de vida. Se ela cair para 0 pontos de vida, a magia se encerra. Ela tem Força 26 (+8) e Destreza 10 (+0), não preenchendo o espaço que parece ocupar. No turno em que você conjurar a magia e depois, usando uma ação bônus nos seus turnos subsequentes, você poderá movê-la por até 18 metros [60 ft.] e causar os seguintes efeitos:\n\n***Punho Cerrado.*** A mão ataca uma criatura ou objeto a até 1,5 metro [5 ft.] dela. Faça um ataque mágico de combate corpo a corpo para a mão como se ela fizesse parte do seu corpo, ou seja, usando suas próprias estatísticas de jogo. Em caso de acerto, o alvo sofre 4d8 pontos de dano energético.\n\n***Mão Vigorosa.*** A mão tenta empurrar uma criatura a até 1,5 metro [5 ft.] de distância em uma direção que você escolher. Faça um teste de Força da mão, resistido pela Força (Atletismo) do alvo. Se o alvo for Médio ou menor, você tem vantagem no teste. Se for bem-sucedido, a mão empurra o alvo a até 1,5 metro [5 ft.] de distância, mais 1,5 metro [5 ft.] multiplicado por cinco vezes o valor de seu modificador do atributo de conjuração. A mão se move com o alvo para permanecer a 1,5 metro [5 ft.] dele.\n\n***Mão Esmagadora.*** A mão tenta agarrar uma criatura de tamanho Enorme ou menor dentro do alcance de 1,5 metro [5 ft.]. Você usa o valor da Força da mão para resolver o agarramento. Se o alvo for Médio ou menor, você tem vantagem no teste. Enquanto a mão estiver agarrando o alvo, você pode usar uma ação bônus para fazer com que a mão o esmague. Quando você faz isso, o alvo sofre dano contundente equivalente a 2d6 pontos de dano + o modificador de seu atributo de conjuração.\n\n***Mão Interposta.*** A mão se interpõe entre você e uma criatura à sua escolha, até que você lhe dê um comando diferente. A mão se desloca até ficar entre você e o alvo, proporcionando a você meia cobertura contra o alvo. Este último não pode se mover através do espaço da mão se o valor de Força dele for menor ou igual ao da mão. Se o valor de Força do alvo for maior do que o valor de Força da mão, ele pode se mover em direção a você atravessando o espaço ocupado pela mão, mas esse espaço é considerado terreno difícil para o alvo.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 6º círculo ou superior, o dano da opção Punho Cerrado aumenta em 2d8 e o da Mão Esmagadora aumenta em 2d6 para cada círculo do espaço acima do 5º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "arcane-sword",
+    "name": "Espada de Mordenkainen",
+    "level": 7,
+    "casting_time": "1 ação",
+    "components": "V, S, M (uma miniatura em platina de uma espada, com o pomo e o cabo de cobre e zinco, no valor de 250 PO)",
+    "duration": "Até 1 minuto",
+    "range": "18m [60 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": "Force",
+    "school": "EVOCATION",
+    "description": "Você cria energia moldada na forma de uma espada, que paira dentro do alcance da magia. Ela fica ativa enquanto a magia durar. Quando a espada aparece, você faz um ataque mágico corpo a corpo contra um alvo à sua escolha no alcance de 1,5 metro [5 ft.] da espada. Ao desferir um ataque bem-sucedido, o alvo sofre 3d10 pontos de dano energético. Enquanto a magia durar, você pode usar uma ação bônus em cada um de seus turnos para movê-la até 6 metros [20 ft.] para um local à sua vista, repetindo esse ataque contra o mesmo alvo ou outro.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "arcanists-magic-aura",
+    "name": "Aura Mágica de Nystul",
+    "level": 2,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um pequeno quadrado de seda)",
+    "duration": "24 horas",
+    "range": "Toque",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ILLUSION",
+    "description": "Você toca uma criatura ou objeto, criando uma ilusão sobre o alvo e fazendo com que magias de adivinhação revelem informações falsas sobre ele. O alvo pode ser uma criatura voluntária ou um objeto que não esteja sendo carregado ou usado por outra criatura. Ao conjurar a magia, escolha um ou ambos os efeitos a seguir. O efeito fica ativo enquanto a magia durar. Se você conjurar esta magia na mesma criatura ou objeto todos os dias durante 30 dias, colocando o mesmo efeito toda vez, a ilusão dura até ser dissipada.\n\n***Falsa Aura.*** Você altera a maneira como o alvo parece para magias e efeitos mágicos, como Detectar Magia, que detectam auras mágicas. Você pode fazer um objeto não mágico parecer mágico, um objeto mágico parecer não mágico ou alterar a aura mágica do objeto, de modo que ele pareça pertencer a uma escola específica de magia que você escolher. Quando usar este efeito em um objeto, você pode fazer com que a magia falsa fique aparente para qualquer criatura que manipule o item.\n\n***Máscara.*** Você altera a maneira como o alvo parece para magias e efeitos mágicos que detectam tipos de criatura, como o Sentido Divino de um paladino ou o gatilho de uma magia Símbolo. Você escolhe um tipo de criatura e outras magias e efeitos mágicos passam a tratar o alvo como se este pertencesse ao tipo ou alinhamento da criatura escolhida.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "black-tentacles",
+    "name": "Tentáculos Negros de Evard",
+    "level": 4,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um pedaço do tentáculo de um polvo ou lula gigante)",
+    "duration": "Até 1 minuto",
+    "range": "27m [90 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "DEXTERITY",
+    "damage_type": "Bludgeoning",
+    "school": "CONJURATION",
+    "description": "Tentáculos negros se contorcem, preenchendo uma área de 6 metros quadrados [20-foot square] de solo à sua vista, no alcance da magia. Enquanto a magia durar, os tentáculos transformam o solo da área em terreno difícil. Quando uma criatura entra pela primeira vez ou quando inicia o próprio turno na área afetada, ela deve fazer uma salvaguarda de Destreza. Se falhar, sofre 3d6 pontos de dano contundente, ficando contida pelos tentáculos até que a magia encerre. Uma criatura que inicie o próprio turno na área e esteja contida pelos tentáculos, sofre 3d6 pontos de dano contundente. Uma criatura contida pelos tentáculos pode usar a própria ação para fazer um teste de Força ou Destreza (à escolha dela) contra a CD para evitar sua magia. Em caso de sucesso, ela se liberta.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "branding-smite",
+    "name": "Marca da Punição",
+    "level": 2,
+    "casting_time": "1 ação bônus",
+    "components": "V",
+    "duration": "Até 1 minuto",
+    "range": "Pessoal",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": "Radiant",
+    "school": "EVOCATION",
+    "description": "Enquanto durar esta magia, na próxima vez que você atingir uma criatura com uma arma, ela brilhará com radiação astral conforme você acerta. O ataque causa 2d6 pontos de dano radiante adicionais ao alvo, que torna-se visível (caso esteja invisível), emitindo uma luz fraca, criando meia-luz num raio de 1,5 metro [5 ft.] e não podendo retornar à condição invisível enquanto a magia durar.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 3º círculo ou superior, o dano aumenta em 1d6 para cada círculo do espaço acima do 2º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "faithful-hound",
+    "name": "Cão Fiel de Mordenkainen",
+    "level": 4,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um pequeno apito de prata, um pedaço de osso e um fio)",
+    "duration": "8 horas",
+    "range": "9m [30 ft.]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": "Piercing",
+    "school": "CONJURATION",
+    "description": "Você conjura um cão de guarda fantasma em um espaço desocupado à sua vista, no alcance da magia, onde ele permanece enquanto a magia durar, até você dispensá-lo com uma ação, ou até você se mover a mais de 30 metros [100 ft.] dele. O cão é invisível para todas as criaturas, exceto para você e não pode ser ferido. Quando uma criatura Pequena ou maior se aproximar a até 9 metros [30 ft.] do cão, sem primeiro dizer a senha que você especifica ao conjurar a magia, ele começa a latir alto. O cão enxerga criaturas invisíveis e pode ver no Plano Etéreo. Ele ignora ilusões. No início de cada um de seus turnos, o cão tenta morder uma criatura hostil à você que esteja a até 1,5 metro [5 ft.] dele. O bônus de ataque do cão é igual ao seu modificador de atributo de conjuração + seu bônus de proficiência. Se acertar, ele causa 4d8 pontos de dano perfurante.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "feeblemind",
+    "name": "Enfraquecer Intelecto",
+    "level": 8,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um punhado de argila, cristal, vidro ou esferas minerais)",
+    "duration": "Instantânea",
+    "range": "45m [150 ft.]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": "INTELLIGENCE",
+    "damage_type": "Psychic",
+    "school": "ENCHANTMENT",
+    "description": "Você assola a mente de uma criatura à sua vista e no alcance da magia, tentando despedaçar o intelecto e a personalidade dela. O alvo sofre 4d6 pontos de dano psíquico e deve fazer uma salvaguarda de Inteligência. Se falhar, o valor da Inteligência e do Carisma da criatura passa a ser 1. A criatura não pode conjurar magias, ativar itens mágicos, compreender idiomas ou se comunicar de forma inteligível. Ela pode identificar seus próprios amigos, segui-los e até protegê-los. Ao final de um período de 30 dias, a criatura pode repetir a salvaguarda contra a magia. Em caso de sucesso, a magia se encerra. Ela também pode ser anulada por Restauração Maior, Cura Completa ou Desejo.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "floating-disk",
+    "name": "Disco Flutuante de Tenser",
+    "level": 1,
+    "casting_time": "1 ação",
+    "components": "V, S, M (uma gota de mercúrio)",
+    "duration": "Uma hora",
+    "range": "9m [30 ft.]",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Esta magia cria um disco circular horizontal feito de energia com 1 metro [3 ft.] de diâmetro e 2,5 centímetros [1 inch] de altura, que flutua a 1 metro [3 ft.] do chão em um espaço desocupado à sua escolha, à sua vista e no alcance da magia. O disco permanece enquanto a magia durar, e pode carregar até 225 quilos [500 pounds]. Se mais peso for colocado sobre ele, a magia se encerra e tudo o que está no disco cai. O disco é imóvel enquanto você estiver a até 6 metros [20 ft.] dele. Se você se mover para mais de 6 metros [20 ft.] de distância dele, o disco segue você, permanecendo a até 6 metros [20 ft.] de distância de você. Ele pode atravessar terrenos irregulares, subir ou descer escadas, declives e afins, mas não pode atravessar uma mudança de elevação de 3 metros [10 ft.] ou mais. Por exemplo, o disco não pode se mover através de um fosso de 3 metros [10 ft.] de profundidade, nem poderia deixar tal fosso se fosse criado no fundo dele. Se você se mover a mais de 30 metros [100 ft.] do disco (geralmente por ele não poder se mover através de um obstáculo para seguir você), a magia se encerra.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "freezing-sphere",
+    "name": "Esfera Congelante de Otiluke",
+    "level": 6,
+    "casting_time": "1 ação",
+    "components": "V, S, M (uma pequena esfera de cristal)",
+    "duration": "Instantânea",
+    "range": "90m [300 ft.]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": "CONSTITUTION",
+    "damage_type": "Cold",
+    "school": "EVOCATION",
+    "description": "Um globo frígido de energia gélida é disparado da ponta de seus dedos até um ponto à sua escolha, no alcance da magia, onde explode em uma esfera de 18 metros de raio [60-foot-radius sphere]. Cada criatura na área deve fazer uma salvaguarda de Constituição. Se falhar, sofre 10d6 pontos de dano gélido, ou metade do dano em caso de sucesso. Se o globo acertar um corpo de água ou um líquido formado principalmente de água (isso não inclui criaturas baseadas em água), ele congela o líquido até uma profundidade de 15 centímetros [6 inches] sobre uma área de 9 metros [30 ft.] quadrados. O gelo dura 1 minuto. Criaturas que estavam nadando na superfície de água congelada ficam presas no gelo. Uma criatura pode usar uma ação para fazer um teste de Força contra a CD para evitar sua magia para se libertar. Você pode abster-se de disparar o globo depois de completar a magia, se assim desejar. Um pequeno globo com o tamanho aproximado de uma pedra de funda, frio ao toque, aparece em sua mão. A qualquer momento, você ou a criatura a quem você der o globo pode jogá-lo (a um alcance de 12 metros [40 ft.]) ou arremessá-lo com uma funda (no alcance normal da funda). Ele se despedaça no impacto com o mesmo efeito que a conjuração normal da magia. Você também pode colocar o globo no chão sem quebrá-lo. Depois de 1 minuto, se o globo já não estiver despedaçado, ele explode.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 7º círculo ou superior, o dano aumenta em 1d6 para cada círculo do espaço acima do 6º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "hideous-laughter",
+    "name": "Gargalhada Nefasta de Tasha",
+    "level": 1,
+    "casting_time": "1 ação",
+    "components": "V, S, M (tortas minúsculas e uma pena, que é agitada no ar)",
+    "duration": "Até 1 minuto",
+    "range": "9m [30 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "WISDOM",
+    "damage_type": null,
+    "school": "ENCHANTMENT",
+    "description": "Você escolhe uma criatura à sua vista e no alcance da magia, que passa a perceber tudo como hilariantemente engraçado, sofrendo ataques de riso, caso seja afetada pela magia. O alvo deve ser bem-sucedido em uma salvaguarda de Sabedoria ou fica caído, incapacitado e incapaz de se levantar enquanto a magia durar. Uma criatura de Inteligência 4 ou menos não pode ser afetada. Ao final de cada turno, e em cada ocasião que sofrer dano, o alvo pode tentar outra salvaguarda de Sabedoria. O alvo tem vantagem se a salvaguarda for disparada por dano sofrido. Em caso de sucesso, a magia se encerra.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "instant-summons",
+    "name": "Convocação Instantânea de Drawmij",
+    "level": 6,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (uma safira no valor de 1.000 PO)",
+    "duration": "Até ser dissipada",
+    "range": "Toque",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Você toca um objeto pesando não mais do que 5 quilos [10 pounds], cuja maior dimensão seja de 1,8 metro [6 ft.] ou menor. Esta magia deixa uma marca invisível na superfície do objeto e, de maneira invisível, inscreve o nome do item na safira que você usou como componente material. Cada vez que conjurar esta magia, você deve usar uma safira diferente. Em qualquer momento posterior, você pode usar sua ação para dizer o nome do item e esmagar a safira. O item aparece imediatamente na sua mão, independentemente de qualquer distância física ou planar, o que encerra a magia. Se alguma outra criatura estiver segurando ou transportando o item, esmagar a safira não o transporta até você, em vez disso você descobre quem é a criatura de posse do objeto e, aproximadamente, onde ela se encontra naquele momento. Dissipar Magia ou um efeito similar aplicado com sucesso na safira encerra o efeito desta magia.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "irresistible-dance",
+    "name": "Dança Irresistível de Otto",
+    "level": 6,
+    "casting_time": "1 ação",
+    "components": "V",
+    "duration": "Até 1 minuto",
+    "range": "9m [30 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ENCHANTMENT",
+    "description": "Escolha uma criatura à sua vista, no alcance da magia. O alvo começa a dançar comicamente onde estiver: balançando-se, batendo os pés e se contorcendo enquanto a magia durar. Criaturas que não podem ser enfeitiçadas são imunes a esta magia. Uma criatura sob o efeito da magia deve usar todo o movimento para dançar sem sair do próprio espaço, além de ter desvantagem em salvaguardas de Destreza e jogadas de ataque. Enquanto o alvo estiver afetado por esta magia, outras criaturas têm vantagem nas jogadas de ataque contra ele. Usando uma ação, uma criatura afetada pode fazer uma salvaguarda de Sabedoria para recuperar o controle sobre si mesma. Em caso de sucesso, a magia termina.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "magnificent-mansion",
+    "name": "Mansão Magnífica de Mordenkainen",
+    "level": 7,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (um portal em miniatura esculpido em marfim, um pedaço pequeno de mármore polido e uma diminuta colher de prata, cada item com valor mínimo de 5 PO)",
+    "duration": "24 horas",
+    "range": "90m [300 ft.]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Você conjura uma habitação extradimensional, no alcance da magia e que permanece enquanto esta durar. Você escolhe onde a única entrada está localizada. A entrada brilha fracamente e possui 1,5 metro [5 ft.] de largura e 3 metros [10 ft.] de altura. Você e qualquer criatura que designar ao conjurar a magia podem entrar na habitação extradimensional enquanto o portal permanecer aberto. Você pode abrir ou fechar o portal se estiver a até 9 metros [30 ft.] dele. Quando está fechado, o portal é invisível. Além do portal, existe um magnífico saguão com numerosas câmaras além dele. O ambiente é limpo, fresco e aquecido. Você pode criar qualquer projeto que desejar, mas o espaço não pode exceder 50 cubos, cada cubo tendo 3 metros [10 ft.] de lado. O lugar é mobiliado e decorado como você escolher. Ele contém comida o suficiente para servir um banquete de nove pratos para até 100 pessoas. Uma equipe de 100 servos semi transparentes auxiliam a todos os que entram. Você decide a aparência visual desses servos e seus trajes. Eles são completamente obedientes às suas ordens. Cada servo pode realizar qualquer tarefa que um servo humano normal poderia executar, mas não podem atacar ou executar qualquer ação que possa diretamente ferir outra criatura. Assim sendo, os servos podem buscar coisas, limpar, consertar, dobrar roupas, acender o fogo, servir comida, oferecer vinho e assim por diante. Os servos podem ir a qualquer lugar da mansão, mas não podem deixá-la. Mobiliário e outros objetos criados por esta magia dissipam-se em fumaça se forem retirados da mansão. Quando a magia termina, quaisquer criaturas dentro do espaço extradimensional são expelidas em espaços abertos o mais próximo da entrada.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "private-sanctum",
+    "name": "Santuário Particular de Mordenkainen",
+    "level": 4,
+    "casting_time": "10 minutos",
+    "components": "V, S, M (uma folha fina de chumbo, um pedaço de vidro opaco, um chumaço de algodão ou pedaço de pano e crisólita em pó)",
+    "duration": "24 horas",
+    "range": "36m [120 ft.]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ABJURATION",
+    "description": "Você transforma uma área no alcance da magia em um local magicamente seguro. Pode ser um cubo de lado tão pequeno quanto 1,5 metro [5 ft.] ou tão grande quanto 30 metros [100 ft.]. A magia permanece pela duração ou até que você a encerre com uma ação. Ao conjurar a magia, você decide qual tipo de segurança ela fornece, escolhendo quantas desejar entre as seguintes propriedades:\n\n- Sons não podem atravessar a barreira na borda da área protegida.\n\n- A borda tem aparência escura e opaca, impedindo a visão (incluindo visão no escuro) através dela.\n\n- Sensores criados por adivinhação não podem surgir dentro da área protegida, ou passar pelo perímetro.\n\n- Criaturas na área não podem ser alvos de magias de adivinhação.\n\n- Nada pode se teleportar para dentro da área protegida.\n\n- Viagem planar é bloqueada no interior do local.\n\nConjurar esta magia no mesmo lugar todo dia por um ano torna o seu efeito permanente.",
+    "higher_level": "Ao conjurar esta magia usando um espaço de magia de 5º círculo ou superior, você pode aumentar o tamanho do cubo em 30 metros [100 ft.] para cada círculo do espaço acima do 4º. Então, você poderia proteger um cubo que não tenha mais que 60 metros [200 ft.] em um dos lados, usando um espaço de magia de 5º círculo.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "resilient-sphere",
+    "name": "Esfera Resiliente de Otiluke",
+    "level": 4,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um peça hemisférica de cristal transparente e claro e uma peça hemisférica correspondente de goma arábica)",
+    "duration": "Até 1 minuto",
+    "range": "9m [30 ft.]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "DEXTERITY",
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Uma esfera de energia cintilante envolve uma criatura ou objeto de tamanho Grande ou menor, no alcance da magia. Uma criatura que estiver na esfera contra a própria vontade deve fazer uma salvaguarda de Destreza. Se falhar, a criatura fica enclausurada enquanto a magia durar. Nada - nem objetos físicos, energia ou outros efeitos mágicos - pode passar através da barreira, para dentro ou fora, apesar de uma criatura na esfera poder respirar nela. A esfera é imune a todos os danos e qualquer criatura ou objeto dentro dela não pode sofrer dano por ataques ou efeitos provenientes do exterior, tampouco pode causar dano à qualquer coisa do lado de fora. A esfera não possui peso e é grande o suficiente para conter apenas a criatura ou objeto dentro dela. Uma criatura enclausurada pode usar sua ação, empurrando-se contra a parede da esfera e, assim, rolando-a por até metade do deslocamento da criatura. Da mesma forma, o globo pode ser apanhado e movido por outras criaturas. Uma magia Desintegrar tendo como alvo o globo, o destrói sem causar dano a qualquer coisa dentro dele.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "secret-chest",
+    "name": "Arca Secreta de Leomund",
+    "level": 4,
+    "casting_time": "1 ação",
+    "components": "V, S, M (um baú requintado de 1 metro [3 ft.] de comprimento por 60 centímetros [2 ft.] de altura e profundidade, feito a partir de materiais raros no valor mínimo de 5.000 PO e uma réplica pequena feita do mesmo material no valor mínimo de 50 PO)",
+    "duration": "Instantânea",
+    "range": "Toque",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Você esconde uma arca e todo o conteúdo dela no Plano Etéreo. É necessário que você toque a arca e a réplica em miniatura que serve como componente material para a magia. Ela pode armazenar até 340 litros [12 cubic feet] de matéria não viva (1 metro [3 ft.] por 60 centímetros [2 ft.] por 60 centímetros). Enquanto a arca permanecer no Plano Etéreo, você pode usar uma ação e tocar a réplica para evocá-la. Ela aparece no chão, em um espaço desocupado a até 1,5 metro [5 ft.] de você. Tocando ambas, a arca e a réplica, e usando uma ação, você pode enviar a primeira de volta ao Plano Etéreo. Após 60 dias, há uma chance cumulativa de 5% por dia de que o efeito da magia termine, o que também ocorre se a magia for conjurada novamente, se a réplica for destruída ou se você escolher encerrar a magia com uma ação. Se a arca estiver no Plano Etéreo ao término da magia, ela está perdida para sempre.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "telepathic-bond",
+    "name": "Ligação Telepática de Rary",
+    "level": 5,
+    "casting_time": "1 ação",
+    "components": "V, S, M (pedaços de cascas de ovos de dois tipos diferentes de criatura)",
+    "duration": "Uma hora",
+    "range": "9m [30 ft.]",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "DIVINATION",
+    "description": "Você forja uma ligação telepática com até oito criaturas voluntárias à sua escolha, no alcance da magia, ligando psiquicamente cada criatura com todos os demais, enquanto a magia durar. Criaturas com um valor de Inteligência de 2 ou menos não são afetadas por esta magia. Enquanto a magia durar, os alvos podem se comunicar telepaticamente através da ligação, independentemente de terem ou não um idioma em comum. A comunicação é possível a qualquer distância, mas não pode se estender para outros planos de existência.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "tiny-hut",
+    "name": "Pequeno Refúgio de Leomund",
+    "level": 3,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (uma pequena conta de cristal)",
+    "duration": "8 horas",
+    "range": "Pessoal (hemisfério com raio de 3m [10 ft.])",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Um domo imóvel com 3 metros de raio [10-foot-radius dome], feito de energia, surge ao redor e acima de você, permanecendo estacionário enquanto a magia durar. A magia termina se você deixar a área do domo. Além de você, até nove criaturas de tamanho Médio cabem dentro do domo. Se uma criatura maior ou mais do que nove criaturas encontrarem-se dentro da área da magia, ela falha. Criaturas e objetos dentro do domo no ato da conjuração podem se mover através dele livremente. Todas as outras criaturas e objetos são impedidos de atravessá-lo, o mesmo valendo para magias e outros efeitos mágicos. A atmosfera interna é confortável e seca, independentemente do clima externo. Até o fim da magia, você pode determinar se no interior reina a meia-luz ou a escuridão. Do lado de fora o domo é de uma cor opaca, à sua escolha, mas é transparente para quem estiver dentro.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  }
+]

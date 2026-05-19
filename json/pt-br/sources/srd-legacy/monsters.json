@@ -1,0 +1,830 @@
+[
+    {
+        "index": "deep-gnome-svirfneblin",
+        "type": "HUMANOID",
+        "subtype": "Gnomo",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Gnomo das Profundezas (Svirfneblin)",
+        "subtitle": "Humanoide pequeno (gnomo), neutro e bom.",
+        "size": "Small",
+        "alignment": "neutral good",
+        "armor_class": 15,
+        "hit_points": 16,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "6m [20 ft.]"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [],
+        "skills": [
+            {
+                "index": "skill-investigation",
+                "modifier": 3,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Visão no escuro 36 metros [120 feet].",
+            "Percepção passiva 12"
+        ],
+        "languages": "Gnômico, Terrano, Subcomum",
+        "special_abilities": [
+            {
+                "name": "Camuflagem de Pedra",
+                "desc": "O gnomo tem vantagem em testes de Destreza (Furtividade) feitos para se esconder em terreno rochoso."
+            },
+            {
+                "name": "Astúcia dos Gnomos",
+                "desc": "O gnomo tem vantagem em testes de resistência contra magia que exigem Inteligência, Sabedoria e Carisma."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do gnomo é Inteligência (CD de resistência à magia 11). Ele pode conjurar inatamente as seguintes magias, sem precisar de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À vontade",
+                        "spells": [
+                            {
+                                "index": "nondetection",
+                                "name": "Não Detecção",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "blindness-deafness",
+                                "name": "Cegueira/Surdez",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            },
+                            {
+                                "index": "blur",
+                                "name": "Borrão",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarce-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d8+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4 (1d4+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com Arma à Distância: +4 para acertar, alcance 9/36m [30/120 feet], uma criatura. Acerto: 4 (1d4 + 2) de dano perfurante, e o alvo deve ser bem-sucedido em um teste de resistência de Constituição CD 12 ou ficará envenenado por 1 minuto. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
+                "name": "Dardo Envenenado",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 12
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Legado SRD",
+            "acronym": "SRD-LEGACY"
+        }
+    },
+    {
+        "index": "drow",
+        "type": "HUMANOID",
+        "subtype": "Elfo",
+        "group": "Drows",
+        "challenge_rating": 0.25,
+        "name": "Drow",
+        "subtitle": "Humanoide médio (elfo), neutro e mal.",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "hit_points": 13,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "9m [30 ft.]"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Visão no escuro 36 metros [120 feet].",
+            "Percepção passiva 12"
+        ],
+        "languages": "Élfico, Subcomum",
+        "special_abilities": [
+            {
+                "name": "Ancestralidade Feérica",
+                "desc": "O drow tem vantagem em testes de resistência contra encantamento, e a magia não pode fazê-lo dormir.",
+                "conditions": [
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
+            },
+            {
+                "name": "Sensibilidade à Luz Solar",
+                "desc": "Enquanto estiver sob a luz do sol, o drow tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração do drow é Carisma (CD de resistência à magia 11). Ele pode conjurar inatamente as seguintes magias, sem precisar de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À vontade",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Luzes Dançantes",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "faerie-fire",
+                                "name": "Fogo das Fadas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada Curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com Arma à Distância: +4 para acertar, alcance 9/36m [30/120 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante, e o alvo deve ser bem-sucedido em um teste de resistência de Constituição CD 13 ou ficará envenenado por 1 hora. Se o teste de resistência falhar por 5 ou mais, o alvo também ficará inconsciente enquanto estiver envenenado desta forma. O alvo acorda se sofrer dano ou se outra criatura usar uma ação para sacudi-lo e acordá-lo.",
+                "name": "Besta de Mão",
+                "saving_throws": [
+                    {
+                        "index": "saving-throw-con",
+                        "type": "CONSTITUTION",
+                        "modifier": 13
+                    }
+                ],
+                "conditions": [
+                    {
+                        "index": "unconscious",
+                        "type": "UNCONSCIOUS",
+                        "name": "Inconsciente"
+                    },
+                    {
+                        "index": "poisoned",
+                        "type": "POISONED",
+                        "name": "Envenenado"
+                    }
+                ]
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Legado SRD",
+            "acronym": "SRD-LEGACY"
+        }
+    },
+    {
+        "index": "duergar",
+        "type": "HUMANOID",
+        "subtype": "Anão",
+        "group": "Duergars",
+        "challenge_rating": 1.0,
+        "name": "Duergar",
+        "subtitle": "Humanoide médio (anão), ordeiro e mal.",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 16,
+        "hit_points": 26,
+        "hit_dice": "4d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "7,5m [25 ft.]"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [],
+        "skills": [],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Visão no escuro 36 metros [120 feet].",
+            "Percepção passiva 10"
+        ],
+        "languages": "Anão, Subcomum",
+        "special_abilities": [
+            {
+                "name": "Resiliência Duergar",
+                "desc": "O duergar tem vantagem em testes de resistência contra veneno, magias e ilusões, bem como em resistir a ser enfeitiçado ou paralisado.",
+                "conditions": [
+                    {
+                        "index": "paralyzed",
+                        "type": "PARALYZED",
+                        "name": "Paralisado"
+                    },
+                    {
+                        "index": "charmed",
+                        "type": "CHARMED",
+                        "name": "Encantado"
+                    }
+                ]
+            },
+            {
+                "name": "Sensibilidade à Luz Solar",
+                "desc": "Enquanto estiver sob a luz do sol, o duergar tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "Durante 1 minuto, o duergar aumenta magicamente de tamanho, assim como tudo o que estiver vestindo ou carregando. Enquanto estiver grande, o duergar é Grande, dobra seus dados de dano em ataques com armas baseados em Força (incluídos nos ataques) e realiza testes de Força e testes de resistência de Força com vantagem. Se o duergar não tiver espaço suficiente para se tornar Grande, ele atinge o tamanho máximo possível no espaço disponível.",
+                "name": "Ampliar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d8+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "11 (2d8+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com Arma Corpo a Corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 6 (1d8 + 2) de dano perfurante, ou 11 (2d8 + 2) de dano perfurante enquanto estiver ampliado.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "9 (2d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo ou à distância: +4 para acertar, alcance de 1,5m [5 feet] ou alcance de 9/36m [30/120 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante, ou 9 (2d6 + 2) de dano perfurante enquanto estiver ampliado.",
+                "name": "Dardo"
+            },
+            {
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "O duergar torna-se magicamente invisível até atacar, conjurar uma magia ou usar sua habilidade de Ampliar, ou até que sua concentração seja quebrada, por até 1 hora (como se estivesse se concentrando em uma magia). Qualquer equipamento que o duergar vista ou carregue também fica invisível.",
+                "name": "Invisibilidade",
+                "conditions": [
+                    {
+                        "index": "invisible",
+                        "type": "INVISIBLE",
+                        "name": "Invisível"
+                    }
+                ]
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Legado SRD",
+            "acronym": "SRD-LEGACY"
+        }
+    },
+    {
+        "index": "lizardfolk",
+        "type": "HUMANOID",
+        "subtype": "Povo lagarto",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Homens-lagarto",
+        "subtitle": "Humanoide médio (homem-lagarto), neutro.",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 15,
+        "hit_points": 22,
+        "hit_dice": "4d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "9m [30 ft.]"
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "9m [30 ft.]"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Percepção passiva 13"
+        ],
+        "languages": "Dracônico",
+        "special_abilities": [
+            {
+                "name": "Prender a Respiração",
+                "desc": "O homem-lagarto consegue prender a respiração por 15 minutos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [],
+                "attack_bonus": null,
+                "description": "O homem-lagarto realiza dois ataques corpo a corpo, cada um com uma arma diferente.",
+                "name": "Ataque Múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Morder"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "bludgeoning",
+                            "type": "BLUDGEONING",
+                            "name": "Contundente"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 5 (1d6 + 2) de dano de impacto.",
+                "name": "Clava Pesada"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo ou à distância: +4 para acertar, alcance 1,5m [5 feet] ou alcance 9/36m [30/120 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Dardo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "5 (1d6+2)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Escudo Com Espinhos"
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Legado SRD",
+            "acronym": "SRD-LEGACY"
+        }
+    },
+    {
+        "index": "orc",
+        "type": "HUMANOID",
+        "subtype": "Orc",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Orc",
+        "subtitle": "Humanoide médio (orc), caótico e mal.",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 15,
+        "hit_dice": "2d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "9m [30 ft.]"
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [],
+        "skills": [
+            {
+                "index": "skill-intimidation",
+                "modifier": 2,
+                "name": "Intimidação"
+            }
+        ],
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": [],
+        "condition_immunities": [],
+        "senses": [
+            "Visão no escuro 18 metros [60 feet].",
+            "Percepção passiva 10"
+        ],
+        "languages": "Comum, Orc",
+        "special_abilities": [
+            {
+                "name": "Agressivo",
+                "desc": "Como uma ação bônus, o orc pode se mover até sua velocidade máxima em direção a uma criatura hostil que ele possa ver."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "9 (1d12+3)",
+                        "damage": {
+                            "index": "slashing",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5m [5 feet], um alvo. Acerto: 9 (1d12 + 3) de dano cortante.",
+                "name": "Grande Machado"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6 (1d6+3)",
+                        "damage": {
+                            "index": "piercing",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo ou à distância: +5 para acertar, alcance 1,5m [5 feet] ou alcance 9/36m [30/120 feet], um alvo. Acerto: 6 (1d6 + 3) de dano perfurante.",
+                "name": "Dardo"
+            }
+        ],
+        "reactions": [],
+        "source": {
+            "name": "Legado SRD",
+            "acronym": "SRD-LEGACY"
+        }
+    }
+]

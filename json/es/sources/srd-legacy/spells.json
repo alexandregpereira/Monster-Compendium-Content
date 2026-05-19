@@ -1,0 +1,362 @@
+[
+  {
+    "index": "arcane-hand",
+    "name": "Mano Arcana",
+    "level": 5,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Una cáscara de huevo y un guante de piel de serpiente.)",
+    "duration": "Hasta 1 minuto",
+    "range": "36 metros [120 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Creas una mano Grande de fuerza translúcida y centelleante en un espacio desocupado que puedes ver dentro del alcance. La mano dura durante la duración del conjuro y se mueve a tu orden, imitando los movimientos de tu propia mano. La mano es un objeto con CA 20 y puntos de golpe iguales a tu máximo de puntos de golpe. Si cae a 0 puntos de golpe, el conjuro termina. Tiene una Fuerza de 26 (+8) y una Destreza de 10 (+0). La mano no ocupa su espacio. Cuando lanzas el conjuro y como acción adicional en tus turnos posteriores, puedes mover la mano hasta 18 metros [60 pies] y luego causar uno de los siguientes efectos con ella.\n\n***Puño Apretado.*** La mano golpea a una criatura u objeto a 1,5 metros [5 pies] de ella. Realiza un ataque de conjuro cuerpo a cuerpo para la mano usando tus estadísticas de juego. Si impacta, el objetivo recibe 4d8 de daño de fuerza.\n\n***Mano Forzada.*** La mano intenta empujar a una criatura a 1,5 metros [5 pies] de ella en una dirección que elijas. Realiza una prueba con la Fuerza de la mano enfrentada a la prueba de Fuerza (Atletismo) del objetivo. Si el objetivo es Mediano o menor, tienes ventaja en la prueba. Si tienes éxito, la mano empuja al objetivo hasta 1,5 metros [5 pies] más un número de pies igual a cinco veces tu modificador de característica de lanzamiento de conjuros. La mano se mueve con el objetivo para permanecer a 1,5 metros [5 pies] de él.\n\n***Mano Aferradora.*** La mano intenta agarrar a una criatura de tamaño Enorme o menor a 1,5 metros [5 pies] de ella. Usas la puntuación de Fuerza de la mano para resolver el agarre. Si el objetivo es Mediano o menor, tienes ventaja en la prueba. Mientras la mano tiene agarrado al objetivo, puedes usar una acción adicional para hacer que la mano lo aplaste. Cuando lo haces, el objetivo recibe daño contundente igual a 2d6 + tu modificador de característica de lanzamiento de conjuros.\n\n***Mano Interpuesta.*** La mano se interpone entre tú y una criatura que elijas hasta que le des a la mano una orden diferente. La mano se mueve para mantenerse entre tú y el objetivo, proporcionándote cobertura de tres cuartos contra el objetivo. El objetivo no puede moverse a través del espacio de la mano si su puntuación de Fuerza es menor o igual a la puntuación de Fuerza de la mano. Si su puntuación de Fuerza es superior a la de la mano, el objetivo puede moverse hacia ti a través del espacio de la mano, pero ese espacio es terreno difícil para el objetivo.",
+    "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 6 o superior, el daño de la opción de puño apretado aumenta en 2d8 y el daño de la mano aferradora aumenta en 2d6 por cada nivel de espacio por encima del 5.º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "arcane-sword",
+    "name": "Espada Arcana",
+    "level": 7,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Una espada en miniatura de platino con empuñadura y pomo de cobre y zinc, con un valor de 250 po.)",
+    "duration": "Hasta 1 minuto",
+    "range": "18 metros [60 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": "Force",
+    "school": "EVOCATION",
+    "description": "Creas un plano de fuerza con forma de espada que flota dentro del alcance. Dura durante la duración. Cuando aparece la espada, realizas un ataque de conjuro cuerpo a cuerpo contra un objetivo de tu elección a 1,5 metros [5 pies] de la espada. Si impacta, el objetivo recibe 3d10 de daño de fuerza. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos para mover la espada hasta 6 metros [20 pies] a un lugar que puedas ver y repetir este ataque contra el mismo objetivo u otro diferente.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "arcanists-magic-aura",
+    "name": "Aura Mágica del Arcanista",
+    "level": 2,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Un pequeño cuadrado de seda.)",
+    "duration": "24 horas",
+    "range": "Toque",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ILLUSION",
+    "description": "Colocas una ilusión sobre una criatura u objeto que tocas para que los conjuros de adivinación revelen información falsa sobre él. El objetivo puede ser una criatura dispuesta o un objeto que no esté siendo llevado o usado por otra criatura. Cuando lanzas el conjuro, elige uno o ambos de los siguientes efectos. El efecto dura durante la duración. Si lanzas este conjuro sobre la misma criatura u objeto todos los días durante 30 días, colocando el mismo efecto sobre él cada vez, la ilusión dura hasta que sea disipada.\n\n***Aura Falsa.*** Cambias la forma en que el objetivo aparece a los conjuros y efectos mágicos, como detectar magia, que detectan auras mágicas. Puedes hacer que un objeto no mágico parezca mágico, que un objeto mágico parezca no mágico, o cambiar el aura mágica del objeto para que parezca pertenecer a una escuela de magia específica que elijas. Cuando usas este efecto sobre un objeto, puedes hacer que la magia falsa sea aparente para cualquier criatura que maneje el objeto.\n\n***Máscara.*** Cambias la forma en que el objetivo aparece a los conjuros y efectos mágicos que detectan tipos de criatura, como el Sentido Divino de un paladín o el desencadenante de un conjuro de símbolo. Eliges un tipo de criatura y otros conjuros y efectos mágicos tratan al objetivo como si fuera una criatura de ese tipo o de ese alineamiento.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "black-tentacles",
+    "name": "Tentáculos Negros",
+    "level": 4,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Un trozo de tentáculo de pulpo gigante o de calamar gigante)",
+    "duration": "Hasta 1 minuto",
+    "range": "27 metros [90 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "DEXTERITY",
+    "damage_type": "Bludgeoning",
+    "school": "CONJURATION",
+    "description": "Tentáculos de ébano retorciéndose llenan un cuadrado de 6 metros [20 pies] en el suelo que puedes ver dentro del alcance. Durante la duración, estos tentáculos convierten el suelo del área en terreno difícil. Cuando una criatura entra al área afectada por primera vez en un turno o comienza su turno allí, la criatura debe superar una tirada de salvación de Destreza o recibir 3d6 de daño contundente y quedar restringida por los tentáculos hasta que el conjuro termine. Una criatura que comience su turno en el área y ya esté restringida por los tentáculos recibe 3d6 de daño contundente. Una criatura restringida por los tentáculos puede usar su acción para realizar una prueba de Fuerza o Destreza (a su elección) contra la CD de lanzamiento de conjuros. Si tiene éxito, se libera.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "branding-smite",
+    "name": "Golpe de Marcación",
+    "level": 2,
+    "casting_time": "1 acción adicional",
+    "components": "V",
+    "duration": "Hasta 1 minuto",
+    "range": "Personal",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": "Radiant",
+    "school": "EVOCATION",
+    "description": "La próxima vez que golpees a una criatura con un ataque de arma antes de que termine este conjuro, el arma brilla con resplandor astral al golpear. El ataque inflige 2d6 de daño radiante adicional al objetivo, que se vuelve visible si es invisible, y el objetivo emite luz tenue en un radio de 1,5 metros [5 pies] y no puede volverse invisible hasta que el conjuro termine.",
+    "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño adicional aumenta en 1d6 por cada nivel de espacio por encima del 2.º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "faithful-hound",
+    "name": "Sabueso Fiel",
+    "level": 4,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Un pequeño silbato de plata, un trozo de hueso y un hilo)",
+    "duration": "8 horas",
+    "range": "9 metros [30 pies]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": "Piercing",
+    "school": "CONJURATION",
+    "description": "Conjuras un perro guardián fantasmal en un espacio desocupado que puedas ver dentro del alcance, donde permanece durante la duración, hasta que lo descartes como acción, o hasta que te alejes más de 30 metros [100 pies] de él. El sabueso es invisible para todas las criaturas excepto tú y no puede ser dañado. Cuando una criatura de tamaño Pequeño o mayor se acerca a 9 metros [30 pies] de él sin pronunciar primero la contraseña que especifiques al lanzar este conjuro, el sabueso comienza a ladrar en voz alta. El sabueso ve las criaturas invisibles y puede ver el Plano Etéreo. Ignora las ilusiones. Al comienzo de cada uno de tus turnos, el sabueso intenta morder a una criatura a 1,5 metros [5 pies] de él que sea hostil hacia ti. El bonificador de ataque del sabueso es igual a tu modificador de característica de lanzamiento de conjuros + tu bonificador de competencia. Si impacta, inflige 4d8 de daño perforante.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "feeblemind",
+    "name": "Debilitar Mente",
+    "level": 8,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Un puñado de esferas de arcilla, cristal, vidrio o mineral.)",
+    "duration": "Instantánea",
+    "range": "45 metros [150 pies]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": "INTELLIGENCE",
+    "damage_type": "Psychic",
+    "school": "ENCHANTMENT",
+    "description": "Lanzas un impacto a la mente de una criatura que puedas ver dentro del alcance, intentando destrozar su intelecto y personalidad. El objetivo recibe 4d6 de daño psíquico y debe realizar una tirada de salvación de Inteligencia. Si falla, sus puntuaciones de Inteligencia y Carisma se convierten en 1. La criatura no puede lanzar conjuros, activar objetos mágicos, comprender idiomas ni comunicarse de ninguna manera inteligible. Sin embargo, puede identificar a sus amigos, seguirlos e incluso protegerlos. Al final de cada 30 días, la criatura puede repetir su tirada de salvación. Si tiene éxito, el conjuro termina. El conjuro también puede ser terminado por restauración mayor, sanar o deseo.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "floating-disk",
+    "name": "Disco flotante",
+    "level": 1,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Una gota de mercurio.)",
+    "duration": "1 hora",
+    "range": "9 metros [30 pies]",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Este conjuro crea un plano circular y horizontal de fuerza, de 90 centímetros [3 pies] de diámetro y 2,5 centímetros de grosor, que flota 90 centímetros [3 pies] sobre el suelo en un espacio desocupado de tu elección que puedas ver dentro del alcance. El disco permanece durante la duración y puede soportar hasta 225 kilogramos. Si se coloca más peso sobre él, el conjuro termina y todo lo que hay sobre el disco cae al suelo. El disco es inmóvil mientras estés a 6 metros [20 pies] de él. Si te alejas más de 6 metros [20 pies], el disco te sigue para permanecer a 6 metros [20 pies] de ti. Puede moverse por terreno irregular, subir o bajar escaleras, pendientes y similares, pero no puede cruzar un cambio de elevación de 3 metros [10 pies] o más. Por ejemplo, el disco no puede moverse por un foso de 3 metros [10 pies] de profundidad, ni podría salir de dicho foso si se creó en el fondo. Si te alejas más de 30 metros [100 pies] del disco (normalmente porque no puede rodear un obstáculo para seguirte), el conjuro termina.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "freezing-sphere",
+    "name": "Esfera helada",
+    "level": 6,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Una pequeña esfera de cristal.)",
+    "duration": "Instantánea",
+    "range": "90 metros [300 pies]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": "CONSTITUTION",
+    "damage_type": "Cold",
+    "school": "EVOCATION",
+    "description": "Un globo frígido de energía de frío sale disparado de tus dedos hacia un punto de tu elección dentro del alcance, donde explota en una esfera de 18 metros [60 pies] de radio. Cada criatura dentro del área debe realizar una tirada de salvación de Constitución. Si falla, una criatura recibe 10d6 de daño por frío. Si supera la tirada de salvación, recibe la mitad del daño. Si el globo golpea una masa de agua o un líquido compuesto principalmente de agua (sin incluir criaturas de agua), congela el líquido hasta una profundidad de 15 centímetros sobre un área de 9 metros [30 pies] cuadrados. Este hielo dura 1 minuto. Las criaturas que nadaban en la superficie del agua helada quedan atrapadas en el hielo. Una criatura atrapada puede usar una acción para realizar una prueba de Fuerza contra la CD de tu conjuro para liberarse. Puedes abstenerte de disparar el globo tras completar el conjuro, si lo deseas. Aparece en tu mano un pequeño globo del tamaño de una piedra de honda, fresco al tacto. En cualquier momento, tú o una criatura a la que le des el globo podéis lanzarlo (a un alcance de 12 metros [40 pies]) o arrojarlo con una honda (al alcance normal de la honda). Se hace añicos al impactar, con el mismo efecto que el lanzamiento normal del conjuro. También puedes dejar el globo en el suelo sin hacerlo añicos. Al cabo de 1 minuto, si el globo no se ha hecho añicos todavía, explota.",
+    "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el daño aumenta en 1d6 por cada nivel de espacio por encima del 6.º.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "hideous-laughter",
+    "name": "Risa horrible",
+    "level": 1,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Pequeños pastelillos y una pluma que se agita en el aire.)",
+    "duration": "Hasta 1 minuto",
+    "range": "9 metros [30 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "WISDOM",
+    "damage_type": null,
+    "school": "ENCHANTMENT",
+    "description": "Una criatura de tu elección que puedas ver dentro del alcance percibe todo como hilarantemente gracioso y cae en ataques de risa si este conjuro le afecta. El objetivo debe superar una tirada de salvación de Sabiduría o caer tendido, quedando incapacitado e incapaz de ponerse de pie durante la duración. Una criatura con una puntuación de Inteligencia de 4 o menos no se ve afectada. Al final de cada uno de sus turnos y cada vez que recibe daño, el objetivo puede realizar otra tirada de salvación de Sabiduría. El objetivo tiene ventaja en la tirada de salvación si la desencadena el daño. Si tiene éxito, el conjuro termina.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "instant-summons",
+    "name": "Invocación instantánea",
+    "level": 6,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (Un zafiro con un valor de 1.000 po.)",
+    "duration": "Hasta que se disipe",
+    "range": "Toque",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Tocas un objeto que pese 5 kilogramos o menos cuya dimensión más larga sea de 1,8 metros [6 pies] o menos. El conjuro deja una marca invisible sobre su superficie e inscribe de forma invisible el nombre del objeto en el zafiro que usas como componente material. Cada vez que lanzas este conjuro, debes usar un zafiro diferente. En cualquier momento posterior, puedes usar tu acción para pronunciar el nombre del objeto y aplastar el zafiro. El objeto aparece instantáneamente en tu mano independientemente de las distancias físicas o planares, y el conjuro termina. Si otra criatura sostiene o porta el objeto, aplastar el zafiro no lo transporta hasta ti, sino que en cambio aprendes qué criatura posee el objeto y aproximadamente dónde se encuentra esa criatura en ese momento. Disipar magia o un efecto similar aplicado con éxito al zafiro pone fin al efecto de este conjuro.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "irresistible-dance",
+    "name": "Baile irresistible",
+    "level": 6,
+    "casting_time": "1 acción",
+    "components": "V",
+    "duration": "Hasta 1 minuto",
+    "range": "9 metros [30 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ENCHANTMENT",
+    "description": "Elige a una criatura que puedas ver dentro del alcance. El objetivo comienza a bailar cómicamente en su lugar: arrastrando los pies, dando pisotones y brincando durante la duración. Las criaturas que no pueden ser hechizadas son inmunes a este conjuro. Una criatura que baila debe usar todo su movimiento para bailar sin salir de su espacio y tiene desventaja en las tiradas de salvación de Destreza y las tiradas de ataque. Mientras el objetivo está afectado por este conjuro, otras criaturas tienen ventaja en las tiradas de ataque contra él. Como acción, una criatura que baila realiza una tirada de salvación de Sabiduría para recuperar el control de sí misma. Si tiene éxito, el conjuro termina.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "magnificent-mansion",
+    "name": "Mansión magnífica",
+    "level": 7,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (Un portal en miniatura tallado en marfil, un pequeño trozo de mármol pulido y una pequeña cuchara de plata, cada objeto con un valor de al menos 5 po.)",
+    "duration": "24 horas",
+    "range": "90 metros [300 pies]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Conjuras una morada extradimensional dentro del alcance que dura durante la duración. Eliges dónde se encuentra su única entrada. La entrada brilla tenuemente y tiene 1,5 metros [5 pies] de ancho y 3 metros [10 pies] de alto. Tú y cualquier criatura que designes cuando lanzas el conjuro podéis entrar en la morada extradimensional mientras el portal permanezca abierto. Puedes abrir o cerrar el portal si estás a 9 metros [30 pies] de él. Cuando está cerrado, el portal es invisible. Más allá del portal hay un magnífico vestíbulo con numerosas cámaras más allá. La atmósfera es limpia, fresca y cálida. Puedes crear cualquier plano de planta que desees, pero el espacio no puede exceder 50 cubos, siendo cada cubo de 3 metros [10 pies] de lado. El lugar está amueblado y decorado según elijas. Contiene suficiente comida para servir un banquete de nueve platos para hasta 100 personas. Un equipo de 100 sirvientes casi transparentes atiende a todos los que entran. Decides la apariencia visual de estos sirvientes y su vestimenta. Son completamente obedientes a tus órdenes. Cada sirviente puede realizar cualquier tarea que un sirviente humano normal pudiera realizar, pero no pueden atacar ni realizar ninguna acción que dañe directamente a otra criatura. Así los sirvientes pueden traer cosas, limpiar, remendar, doblar ropa, encender fuegos, servir comida, servir vino, etc. Los sirvientes pueden ir a cualquier lugar de la mansión pero no pueden salir de ella. Los muebles y otros objetos creados por este conjuro se disipan en humo si se sacan de la mansión. Cuando el conjuro termina, cualquier criatura dentro del espacio extradimensional es expulsada a los espacios abiertos más cercanos a la entrada.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "private-sanctum",
+    "name": "Santuario privado",
+    "level": 4,
+    "casting_time": "10 minutos",
+    "components": "V, S, M (Una lámina delgada de plomo, un trozo de vidrio opaco, un trozo de algodón o tela y crisolita en polvo.)",
+    "duration": "24 horas",
+    "range": "36 metros [120 pies]",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "ABJURATION",
+    "description": "Haces que un área dentro del alcance sea mágicamente segura. El área es un cubo que puede ser tan pequeño como 1,5 metros [5 pies] o tan grande como 30 metros [100 pies] de lado. El conjuro dura durante la duración o hasta que uses una acción para disiparla. Cuando lanzas el conjuro, decides qué tipo de seguridad proporciona el conjuro, eligiendo cualquiera o todas las siguientes propiedades:\n\n- El sonido no puede atravesar la barrera en el borde del área vigilada.\n\n- La barrera del área vigilada parece oscura y neblinosa, impidiendo la visión (incluida la visión en la oscuridad) a través de ella.\n\n- Los sensores creados por los conjuros de adivinación no pueden aparecer dentro del área protegida ni atravesar la barrera en su perímetro.\n\n- Las criaturas en el área no pueden ser objetivo de conjuros de adivinación.\n\n- Nada puede teletransportarse dentro o fuera del área vigilada.\n\n- El viaje planar está bloqueado dentro del área vigilada.\n\nLanzar este conjuro en el mismo lugar cada día durante un año hace que este efecto sea permanente.",
+    "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, puedes aumentar el tamaño del cubo en 30 metros [100 pies] por cada nivel de espacio por encima del 4.º. Así podrías proteger un cubo de hasta 60 metros [200 pies] de lado usando un espacio de conjuro de nivel 5.",
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "resilient-sphere",
+    "name": "Esfera resistente",
+    "level": 4,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Una pieza hemisférica de cristal transparente y una pieza hemisférica correspondiente de goma arábiga.)",
+    "duration": "Hasta 1 minuto",
+    "range": "9 metros [30 pies]",
+    "ritual": false,
+    "concentration": true,
+    "saving_throw_type": "DEXTERITY",
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Una esfera de fuerza brillante encierra a una criatura u objeto de tamaño Grande o menor dentro del alcance. Una criatura no voluntaria debe realizar una tirada de salvación de Destreza. Si falla la tirada de salvación, la criatura queda encerrada durante la duración. Nada —ni objetos físicos, ni energía, ni otros efectos de conjuros— puede atravesar la barrera, ni hacia dentro ni hacia fuera, aunque una criatura dentro de la esfera puede respirar allí. La esfera es inmune a todo daño, y una criatura u objeto dentro no puede ser dañado por ataques o efectos que provengan del exterior, ni una criatura dentro de la esfera puede dañar nada fuera de ella. La esfera no tiene peso y es exactamente lo suficientemente grande para contener a la criatura u objeto dentro. Una criatura encerrada puede usar su acción para empujar contra las paredes de la esfera y así hacer rodar la esfera a hasta la mitad de la velocidad de la criatura. Del mismo modo, el globo puede ser recogido y movido por otras criaturas. Un conjuro de desintegrar que apunte al globo lo destruye sin dañar nada en su interior.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "secret-chest",
+    "name": "Cofre secreto",
+    "level": 4,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Un exquisito cofre de 1 metro por 60 centímetros por 60 centímetros, construido con materiales raros con un valor de al menos 5.000 po, y una réplica Diminuta hecha de los mismos materiales con un valor de al menos 50 po.)",
+    "duration": "Instantánea",
+    "range": "Toque",
+    "ritual": false,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "CONJURATION",
+    "description": "Ocultas un cofre, y todo su contenido, en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material del conjuro. El cofre puede contener hasta 3,6 metros [12 pies] cúbicos de material no vivo (90 centímetros [3 pies] por 60 centímetros [2 pies] por 60 centímetros [2 pies]). Mientras el cofre permanezca en el Plano Etéreo, puedes usar una acción y tocar la réplica para recuperar el cofre. Aparece en un espacio desocupado en el suelo a 1,5 metros [5 pies] de ti. Puedes enviar el cofre de vuelta al Plano Etéreo usando una acción y tocando tanto el cofre como la réplica. Después de 60 días, hay un 5 por ciento acumulativo de posibilidades por día de que el efecto del conjuro termine. Este efecto termina si lanzas este conjuro de nuevo, si el cofre réplica más pequeño es destruido, o si eliges terminar el conjuro como acción. Si el conjuro termina y el cofre más grande está en el Plano Etéreo, se pierde irrecuperablemente.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "telepathic-bond",
+    "name": "Vínculo telepático",
+    "level": 5,
+    "casting_time": "1 acción",
+    "components": "V, S, M (Trozos de cáscara de huevo de dos tipos diferentes de criaturas.)",
+    "duration": "1 hora",
+    "range": "9 metros [30 pies]",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "DIVINATION",
+    "description": "Forjas un vínculo telepático entre hasta ocho criaturas voluntarias de tu elección dentro del alcance, conectando psíquicamente a cada criatura con todas las demás durante la duración. Las criaturas con puntuaciones de Inteligencia de 2 o menos no se ven afectadas por este conjuro. Hasta que el conjuro termine, los objetivos pueden comunicarse telepáticamente a través del vínculo independientemente de si comparten un idioma común. La comunicación es posible a cualquier distancia, aunque no puede extenderse a otros planos de existencia.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  },
+  {
+    "index": "tiny-hut",
+    "name": "Cabaña diminuta",
+    "level": 3,
+    "casting_time": "1 minuto",
+    "components": "V, S, M (Una pequeña cuenta de cristal.)",
+    "duration": "8 horas",
+    "range": "Personal",
+    "ritual": true,
+    "concentration": false,
+    "saving_throw_type": null,
+    "damage_type": null,
+    "school": "EVOCATION",
+    "description": "Una cúpula inmóvil de fuerza de 3 metros [10 pies] de radio surge a la existencia alrededor y por encima de ti y permanece estacionaria durante la duración. El conjuro termina si te marchas de su área. Nueve criaturas de tamaño Mediano o más pequeñas pueden caber dentro de la cúpula contigo. El conjuro falla si su área incluye a una criatura más grande o más de nueve criaturas. Las criaturas y objetos dentro de la cúpula cuando lanzas este conjuro pueden moverse a través de ella libremente. Todas las demás criaturas y objetos tienen prohibido pasar a través de ella. Los conjuros y otros efectos mágicos no pueden extenderse a través de la cúpula ni lanzarse a través de ella. La atmósfera dentro del espacio es cómoda y seca, independientemente del tiempo que haga fuera. Hasta que el conjuro termine, puedes ordenar que el interior quede tenuemente iluminado u oscuro. La cúpula es opaca desde el exterior, del color que elijas, pero es transparente desde el interior.",
+    "higher_level": null,
+    "source": {
+      "name": "SRD Legacy",
+      "acronym": "SRD-LEGACY"
+    }
+  }
+]
