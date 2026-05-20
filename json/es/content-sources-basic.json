@@ -1,50 +1,40 @@
 [
     {
         "source": {
-            "name": "Monster Manual (2025)",
+            "name": "Manual de Monstruos",
+            "originalName": "Monster Manual",
             "acronym": "MM"
         },
-        "totalMonsters": 186,
+        "totalMonsters": 123,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
         "isEnabled": false,
         "isLoreEnabled": true,
         "contentVersion": 1,
-        "summary": "The 2025 Monster Manual is a fully revised bestiary featuring hundreds of iconic D&D monsters with updated stat blocks designed for the 2024 rules. From classic creatures to new additions, this sourcebook is an essential reference for Dungeon Masters."
+        "summary": "El Manual de Monstruos es un tesoro lleno de criaturas icónicas de D&D, como dragones, gigantes, flagelos mentales y observadores. Repleto de estadísticas fáciles de usar e historias cautivadoras, estimula tu imaginación. Un recurso imprescindible para los Dungeon Masters que enriquece cualquier aventura."
     },
     {
         "source": {
-            "name": "Player Stat Blocks",
+            "name": "Bloques de Estadísticas de Jugador",
+            "originalName": "Player Stat Blocks",
             "acronym": "PSB3"
         },
         "totalMonsters": 6,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
+        "summary": "Experimenta el mundo de D&D 5.ª edición con hojas de personaje listas para jugar. Ya seas principiante o estés buscando aventuras rápidas, ¡estas hojas pregeneradas son la elección perfecta!"
     },
     {
         "source": {
-            "name": "D&D 2024 SRD",
-            "acronym": "SRD2024"
-        },
-        "totalMonsters": 332,
-        "totalSpells": 339,
-        "isEnabled": true,
-        "isLoreEnabled": false,
-        "isDefault": true,
-        "contentVersion": 1,
-        "summary": "The D&D 2024 SRD contains the publicly licensed content from the 2024 Monster Manual and Player's Handbook, available under Creative Commons. It includes revised monster stat blocks and a complete spell list reimagined for the 2024 rules."
-    },
-    {
-        "source": {
-            "name": "SRD Legacy",
+            "name": "Documento de Referencia del Sistema",
+            "originalName": "System Reference Document",
             "acronym": "SRD"
         },
-        "totalMonsters": 5,
-        "totalSpells": 18,
+        "totalMonsters": 322,
+        "totalSpells": 323,
         "isEnabled": true,
         "isLoreEnabled": false,
-        "isDefault": true,
         "contentVersion": 1,
-        "summary": "Monsters and spells from the original 5e System Reference Document that were not carried over to the 2024 SRD."
+        "summary": "El Documento de Referencia del Sistema (DRS) contiene contenido de reglas de D&D, como razas, clases y monstruos, disponible para su uso y consulta bajo la licencia Creative Commons. Sirve como base para que editores de terceros construyan sus propios productos y aventuras dentro del marco de Dungeons & Dragons. Si bien incluye una amplia gama de mecánicas básicas y criaturas icónicas, está diseñado como un recurso para creadores y no como una replicación completa de cada libro de expansión."
     }
 ]

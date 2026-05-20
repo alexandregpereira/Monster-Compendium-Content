@@ -1,131 +1,100 @@
 [
     {
         "source": {
-            "name": "Monster Manual (2025)",
-            "acronym": "MM2024",
-            "originalAcronym": "MM"
+            "name": "Manual de Monstruos",
+            "originalName": "Monster Manual",
+            "acronym": "MM"
         },
-        "totalMonsters": 186,
-        "isEnabled": true,
-        "isLoreEnabled": true,
-        "contentVersion": 1,
-        "summary": "The 2025 Monster Manual is a fully revised bestiary featuring hundreds of iconic D&D monsters with updated stat blocks designed for the 2024 rules. From classic creatures to new additions, this sourcebook is an essential reference for Dungeon Masters."
-    },
-    {
-        "source": {
-            "name": "Player's Handbook (2024)",
-            "acronym": "PHB2024"
-        },
-        "totalSpells": 52,
-        "totalMonsters": 0,
+        "totalMonsters": 123,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
         "isEnabled": true,
         "isLoreEnabled": false,
         "contentVersion": 1,
-        "summary": "The Player's Handbook (2024) is the fully revised core rulebook for the 2024 edition of Dungeons & Dragons. It features a complete spell list reimagined for the new rules."
+        "summary": "El Manual de Monstruos es un tesoro lleno de criaturas icónicas de D&D, como dragones, gigantes, flagelos mentales y observadores. Repleto de estadísticas fáciles de usar e historias cautivadoras, estimula tu imaginación. Un recurso imprescindible para los Dungeon Masters que enriquece cualquier aventura."
     },
     {
         "source": {
-            "name": "Mordenkainen's Tome of Foes",
-            "acronym": "MTF"
-        },
-        "totalMonsters": 140,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
-        "isEnabled": true,
-        "isLoreEnabled": false,
-        "summary": "Dive into the epic conflicts that shape the multiverse with Mordenkainen's Tome of Foes. This sourcebook explores the eternal struggles between iconic factions such as the Blood War between demons and devils, the ancient rivalry of elves and drow, and the cosmic battles involving githyanki and githzerai."
-    },
-    {
-        "source": {
-            "name": "Guildmaster's Guide to Ravnica",
+            "name": "Guía del Maestro de Gremios para Rávnica",
+            "originalName": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
         },
         "totalMonsters": 79,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Discover the sprawling cityscape of Ravnica, a world where ten powerful guilds vie for control. This sourcebook offers players and Dungeon Masters a wealth of lore, character options, and adventures set in this vibrant metropolis. Dive into the intrigue and alliances that define Ravnica, and shape your own destiny within its walls."
+        "summary": "Descubre el vasto paisaje urbano de Rávnica, un mundo donde diez poderosos gremios compiten por el control. Este suplemento ofrece a jugadores y Dungeon Masters una gran cantidad de trasfondo, opciones de personaje y aventuras ambientadas en esta vibrante metrópolis. Adéntrate en las intrigas y alianzas que definen Rávnica, y forja tu propio destino entre sus muros."
     },
     {
         "source": {
-            "name": "Van Richten's Guide to Ravenloft",
-            "acronym": "VRGR"
-        },
-        "totalMonsters": 31,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
-        "isEnabled": true,
-        "isLoreEnabled": false,
-        "summary": "Step into the eerie realms of Ravenloft with Van Richten's Guide to Ravenloft. This sourcebook delves into the dark and mysterious domains of dread, exploring the horrors that lurk within. Uncover the secrets of the Dark Powers, the infamous Darklords, and the twisted landscapes of Ravenloft. With new character options, monsters, and a wealth of lore, this guide is essential for any campaign set in this gothic horror setting."
-    },
-    {
-        "source": {
-            "name": "Eberron: Rising from the Last War",
+            "name": "Eberron: El Resurgir de la Última Guerra",
+            "originalName": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         },
         "totalMonsters": 38,
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
+        "summary": "Explora las tierras de Eberron en este suplemento de campaña para el juego de rol más grande del mundo. Este libro proporciona todo lo que jugadores y Dungeon Masters necesitan para jugar a Dungeons & Dragons en Eberron: un mundo devastado por la guerra, repleto de tecnología impulsada por magia, aeronaves y trenes de relámpagos, donde el misterio de inspiración noir se encuentra con la aventura de capa y espada. ¿Entrará Eberron en una nueva era de prosperidad o volverá a caer la sombra de la guerra?"
     },
     {
         "source": {
-            "name": "Volo's Guide to Monsters",
-            "acronym": "VGM"
-        },
-        "totalMonsters": 122,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
-        "isEnabled": true,
-        "isLoreEnabled": false,
-        "summary": "Volothamp Geddarm, the renowned loremaster, returns with a captivating dissertation on some of the most iconic monsters in the Forgotten Realms. This work provides invaluable knowledge for Dungeon Masters and players alike. Whether you're seeking treasure, lore, or trophies, this guide is essential for your next adventure — if you survive it."
-    },
-    {
-        "source": {
-            "name": "Player Stat Blocks",
+            "name": "Bloques de Estadísticas de Jugador",
+            "originalName": "Player Stat Blocks",
             "acronym": "PSB3"
         },
         "totalMonsters": 6,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Experience the world of D&D 5th edition with ready-to-play character sheets. Whether you're a beginner or looking for quick adventures, these pre-generated sheets are the perfect choice!"
+        "summary": "Experimenta el mundo de D&D 5.ª edición con hojas de personaje listas para jugar. Ya seas principiante o estés buscando aventuras rápidas, ¡estas hojas pregeneradas son la elección perfecta!"
     },
     {
         "source": {
-            "name": "Monster Manual Legacy",
-            "acronym": "MM-LEGACY",
-            "originalAcronym": "MM"
+            "name": "Tomo de los Enemigos de Mordenkainen",
+            "originalName": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
         },
-        "totalMonsters": 7,
-        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "contentVersion": 1,
-        "summary": "Monsters from the original Monster Manual that were not carried over to the 2025 edition."
+        "summary": "Sumérgete en los conflictos épicos que dan forma al multiverso con el Tomo de los Enemigos de Mordenkainen. Este suplemento explora las luchas eternas entre facciones icónicas, como la Guerra de Sangre entre demonios y diablos, la antigua rivalidad entre elfos y drow, y las batallas cósmicas entre githyanki y githzerai."
     },
     {
         "source": {
-            "name": "D&D 2024 SRD",
-            "acronym": "SRD2024"
+            "name": "Guía de Van Richten para Ravenloft",
+            "originalName": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
         },
-        "totalMonsters": 332,
-        "totalSpells": 339,
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Adéntrate en los espeluznantes reinos de Ravenloft con la Guía de Van Richten para Ravenloft. Este suplemento explora los oscuros y misteriosos dominios del terror, revelando los horrores que acechan en su interior. Descubre los secretos de los Poderes Oscuros, los infames Señores de la Oscuridad y los retorcidos paisajes de Ravenloft. Con nuevas opciones de personaje, monstruos y una gran cantidad de trasfondo, esta guía es imprescindible para cualquier campaña ambientada en este escenario de horror gótico."
+    },
+    {
+        "source": {
+            "name": "Guía de Volo para Monstruos",
+            "originalName": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 122,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Volothamp Geddarm, el renombrado maestro del saber, regresa con una fascinante disertación sobre algunos de los monstruos más icónicos de los Reinos Olvidados. Esta obra proporciona un conocimiento invaluable tanto para Dungeon Masters como para jugadores. Ya sea que busques tesoros, trasfondo o trofeos, esta guía es imprescindible para tu próxima aventura, si es que logras sobrevivir."
+    },
+    {
+        "source": {
+            "name": "Documento de Referência do Sistema",
+            "acronym": "SRD"
+        },
+        "totalMonsters": 322,
+        "totalSpells": 323,
         "isEnabled": true,
         "isLoreEnabled": false,
         "isDefault": true,
-        "contentVersion": 1,
-        "summary": "The D&D 2024 SRD contains the publicly licensed content from the 2024 Monster Manual and Player's Handbook, available under Creative Commons. It includes revised monster stat blocks and a complete spell list reimagined for the 2024 rules."
-    },
-    {
-        "source": {
-            "name": "SRD Legacy",
-            "acronym": "SRD-LEGACY"
-        },
-        "totalMonsters": 5,
-        "totalSpells": 18,
-        "isEnabled": true,
-        "isLoreEnabled": false,
-        "isDefault": true,
-        "contentVersion": 1,
-        "summary": "Monsters and spells from the original 5e System Reference Document that were not carried over to the 2024 SRD."
+        "contentVersion": 5,
+        "summary": "O Documento de Referência do Sistema (SRD) contém o conteúdo das regras de D&D, como raças, classes e monstros, que está disponível para uso e referência sob a licença Creative Commons. Ele serve como uma base para que editoras terceiras possam construir seus próprios produtos e aventuras dentro da estrutura do Dungeons & Dragons. Embora inclua uma ampla gama de mecânicas essenciais e criaturas icônicas, ele foi projetado como um recurso para criadores, em vez de ser uma réplica completa de cada livro de expansão."
     }
 ]
