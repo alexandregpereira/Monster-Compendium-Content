@@ -2414,7 +2414,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/kobold.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/kobold-warrior.png",
+        "content_scale": "Fit"
     },
     {
         "monster_index": "kobold-dragonshield",
@@ -2577,7 +2578,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": false,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/lizardfolk.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/mm-v2/lizardfolk-geomancer.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "lizardfolk-shaman",
@@ -3826,7 +3828,8 @@
             "dark": "#262626"
         },
         "is_horizontal_image": true,
-        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/succubus-incubus.png"
+        "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/succubus.png",
+        "content_scale": "Crop"
     },
     {
         "monster_index": "swarm-of-cranium-rats",
@@ -8363,7 +8366,7 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/kobold-warrior.png",
-        "content_scale": "Crop"
+        "content_scale": "Fit"
     },
     {
         "monster_index": "merfolk-skirmisher",
@@ -8403,7 +8406,7 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/images/srd-v2/pirate.png",
-        "content_scale": "Crop"
+        "content_scale": "Fit"
     },
     {
         "monster_index": "pirate-captain",
