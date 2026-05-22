@@ -1,6 +1,34 @@
 [
     {
         "source": {
+            "name": "Manual dos Monstros (2025)",
+            "originalName": "Monster Manual (2025)",
+            "acronym": "MM2024",
+            "originalAcronym": "MM"
+        },
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/refs/heads/main/covers/mm2024.webp",
+        "totalMonsters": 186,
+        "isEnabled": true,
+        "isLoreEnabled": true,
+        "contentVersion": 1,
+        "summary": "O Manual dos Monstros de 2025 é um bestiário totalmente revisado que apresenta centenas de monstros icônicos de D&D com fichas de estatísticas atualizadas para as regras de 2024. De criaturas clássicas a novas adições, este livro de referência é uma fonte essencial para Mestres."
+    },
+    {
+        "source": {
+            "name": "Livro do Jogador (2024)",
+            "originalName": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        },
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/refs/heads/main/covers/phb2024.webp",
+        "totalSpells": 52,
+        "totalMonsters": 0,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "contentVersion": 1,
+        "summary": "O Livro do Jogador (2024) é o principal livro de regras totalmente revisado para a edição 2024 de Dungeons & Dragons. Ele apresenta uma lista completa de magias reimaginada para as novas regras."
+    },
+    {
+        "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
         },
@@ -19,7 +47,7 @@
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Descubra a vasta paisagem urbana de Ravnica, um mundo onde dez poderosas guildas lutam pelo controle. Este livro oferece aos jogadores e Mestres de Dungeons uma riqueza de conhecimento, opções de personagens e aventuras ambientadas nesta metrópole vibrante. Mergulhe na intriga e nas alianças que definem Ravnica e molde seu próprio destino dentro de suas muralhas."
+        "summary": "Descubra a vasta paisagem urbana de Ravnica, um mundo onde dez poderosas guildas lutam pelo controle. Este livro oferece aos jogadores e Mestres uma riqueza de conhecimento, opções de personagens e aventuras ambientadas nesta metrópole vibrante. Mergulhe na intriga e nas alianças que definem Ravnica e molde seu próprio destino dentro de suas muralhas."
     },
     {
         "source": {
@@ -42,7 +70,7 @@
         "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
         "isEnabled": true,
         "isLoreEnabled": false,
-        "summary": "Explore as terras de Eberron neste livro de campanha para o maior jogo de RPG do mundo. Este livro fornece tudo o que jogadores e Mestres de Dungeons precisam para jogar Dungeons & Dragons em Eberron — um mundo devastado pela guerra, repleto de tecnologia mágica, naves aéreas e trens relâmpago, onde mistério inspirado no noir encontra aventura de espadachins. Eberron entrará em uma nova era próspera ou a sombra da guerra descerá novamente?"
+        "summary": "Explore as terras de Eberron neste livro de campanha para o maior jogo de RPG do mundo. Este livro fornece tudo o que jogadores e Mestres precisam para jogar Dungeons & Dragons em Eberron — um mundo devastado pela guerra, repleto de tecnologia mágica, naves aéreas e trens relâmpago, onde mistério inspirado no noir encontra aventura de espadachins. Eberron entrará em uma nova era próspera ou a sombra da guerra descerá novamente?"
     },
     {
         "source": {
@@ -58,19 +86,6 @@
     },
     {
         "source": {
-            "name": "Livro dos Monstros",
-            "originalName": "Monster Manual",
-            "acronym": "MM"
-        },
-        "totalMonsters": 123,
-        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
-        "isEnabled": true,
-        "isLoreEnabled": true,
-        "contentVersion": 1,
-        "summary": "O Livro dos Monstros é um tesouro de criaturas icônicas do D&D, como dragões, gigantes e observadores. Repleto de estatísticas fáceis de usar e histórias envolventes, ele alimenta sua imaginação. Um recurso essencial para Mestres de Dungeons, enriquece qualquer aventura!"
-    },
-    {
-        "source": {
             "name": "Fichas do Jogador",
             "acronym": "PSB3"
         },
@@ -82,15 +97,41 @@
     },
     {
         "source": {
-            "name": "Documento de Referência do Sistema",
-            "acronym": "SRD"
+            "name": "Manual dos Monstros Legado",
+            "acronym": "MM-LEGACY",
+            "originalAcronym": "MM"
         },
-        "totalMonsters": 322,
-        "totalSpells": 323,
+        "totalMonsters": 7,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
         "isEnabled": true,
-        "isLoreEnabled": true,
+        "isLoreEnabled": false,
+        "contentVersion": 1,
+        "summary": "Monstros do Manual dos Monstros original que não foram incluídos na edição de 2025."
+    },
+    {
+        "source": {
+            "name": "Regras básicas (SRD 2024)",
+            "acronym": "SRD2024"
+        },
+        "totalMonsters": 332,
+        "totalSpells": 339,
+        "isEnabled": true,
+        "isLoreEnabled": false,
         "isDefault": true,
-        "contentVersion": 5,
-        "summary": "O Documento de Referência do Sistema (SRD) contém o conteúdo das regras de D&D, como raças, classes e monstros, que está disponível para uso e referência sob a licença Creative Commons. Ele serve como uma base para que editoras terceiras possam construir seus próprios produtos e aventuras dentro da estrutura do Dungeons & Dragons. Embora inclua uma ampla gama de mecânicas essenciais e criaturas icônicas, ele foi projetado como um recurso para criadores, em vez de ser uma réplica completa de cada livro de expansão."
+        "contentVersion": 1,
+        "summary": "O SRD 2024 de D&D contém o conteúdo licenciado publicamente do Manual dos Monstros e do Livro do Jogador de 2024, disponível sob a Creative Commons. Ele inclui fichas de estatísticas de monstros revisadas e uma lista completa de magias reimaginada para as regras de 2024."
+    },
+    {
+        "source": {
+            "name": "Regras básicas Legado (SRD 2014)",
+            "acronym": "SRD-LEGACY"
+        },
+        "totalMonsters": 5,
+        "totalSpells": 18,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "isDefault": true,
+        "contentVersion": 1,
+        "summary": "Monstros e magias do Documento de Referência do Sistema original do 5e que não foram incluídos no SRD de 2024."
     }
 ]

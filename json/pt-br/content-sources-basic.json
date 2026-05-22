@@ -1,16 +1,17 @@
 [
     {
         "source": {
-            "name": "Livro dos Monstros",
-            "originalName": "Monster Manual",
-            "acronym": "MM"
+            "name": "Manual dos Monstros (2025)",
+            "originalName": "Monster Manual (2025)",
+            "acronym": "MM2024",
+            "originalAcronym": "MM"
         },
-        "totalMonsters": 123,
-        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/refs/heads/main/covers/mm2024.webp",
+        "totalMonsters": 186,
         "isEnabled": false,
         "isLoreEnabled": true,
         "contentVersion": 1,
-        "summary": "O Livro dos Monstros é um tesouro de criaturas icônicas do D&D, como dragões, gigantes e observadores. Repleto de estatísticas fáceis de usar e histórias envolventes, ele alimenta sua imaginação. Um recurso essencial para Mestres de Dungeons, enriquece qualquer aventura!"
+        "summary": "O Manual dos Monstros de 2025 é um bestiário totalmente revisado que apresenta centenas de monstros icônicos de D&D com fichas de estatísticas atualizadas para as regras de 2024. De criaturas clássicas a novas adições, este livro de referência é uma fonte essencial para Mestres."
     },
     {
         "source": {
@@ -25,15 +26,28 @@
     },
     {
         "source": {
-            "name": "Documento de Referência do Sistema",
-            "acronym": "SRD"
+            "name": "Regras básicas (SRD 2024)",
+            "acronym": "SRD2024"
         },
-        "totalMonsters": 322,
-        "totalSpells": 323,
+        "totalMonsters": 332,
+        "totalSpells": 339,
         "isEnabled": true,
         "isLoreEnabled": false,
         "isDefault": true,
-        "contentVersion": 5,
-        "summary": "O Documento de Referência do Sistema (SRD) contém o conteúdo das regras de D&D, como raças, classes e monstros, que está disponível para uso e referência sob a licença Creative Commons. Ele serve como uma base para que editoras terceiras possam construir seus próprios produtos e aventuras dentro da estrutura do Dungeons & Dragons. Embora inclua uma ampla gama de mecânicas essenciais e criaturas icônicas, ele foi projetado como um recurso para criadores, em vez de ser uma réplica completa de cada livro de expansão."
+        "contentVersion": 1,
+        "summary": "O SRD 2024 de D&D contém o conteúdo licenciado publicamente do Manual dos Monstros e do Livro do Jogador de 2024, disponível sob a Creative Commons. Ele inclui fichas de estatísticas de monstros revisadas e uma lista completa de magias reimaginada para as regras de 2024."
+    },
+    {
+        "source": {
+            "name": "Regras básicas Legado (SRD 2014)",
+            "acronym": "SRD-LEGACY"
+        },
+        "totalMonsters": 5,
+        "totalSpells": 18,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "isDefault": true,
+        "contentVersion": 1,
+        "summary": "Monstros e magias do Documento de Referência do Sistema original do 5e que não foram incluídos no SRD de 2024."
     }
 ]
