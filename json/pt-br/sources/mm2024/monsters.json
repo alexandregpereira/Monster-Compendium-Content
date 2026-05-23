@@ -522,7 +522,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 15, uma criatura que o cultista possa ver a até 27 metros [90 feet]. Falha: 27 (6d8) de dano psíquico, e o alvo fica com a condição Envenenado até o início do próximo turno do cultista. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 15, uma criatura que o cultista possa ver a até 27 metros [90 feet]. Falha: 27 (6d8) de dano psíquico, e o alvo fica com a condição Envenenado até o início do próximo turno do cultista. Sucesso: Apenas metade do dano.",
         "name": "Decomposição Mental",
         "saving_throws": [
           {
@@ -800,7 +800,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 45 (10d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 45 (10d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 6)",
         "saving_throws": [
           {
@@ -1076,7 +1076,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O senhor dos animais conjura um espírito animal que ataca uma criatura e então desaparece. Teste de resistência de Destreza: CD 20, uma criatura que o senhor dos animais possa ver a até 36 metros [120 feet]. Falha: 28 (4d10 + 6) de dano radiante. Metade do dano. Um dos seguintes efeitos ocorre: Fortificar (Somente para o Coletor): O senhor dos animais ganha 20 Pontos de Vida Temporários. Marcado como Presa (Somente para o Caçador): O senhor dos animais tem Vantagem nas jogadas de ataque contra o alvo até o início do seu próximo turno. Enxame Incômodo (Somente para o Sábio): O alvo tem Desvantagem nas jogadas de ataque e testes de habilidade até o final do seu próximo turno.",
+        "description": "O senhor dos animais conjura um espírito animal que ataca uma criatura e então desaparece. Teste de resistência de Destreza: CD 20, uma criatura que o senhor dos animais possa ver a até 36 metros [120 feet]. Falha: 28 (4d10 + 6) de dano radiante. Sucesso: Metade do dano. Um dos seguintes efeitos ocorre: Fortificar (Somente para o Coletor): O senhor dos animais ganha 20 Pontos de Vida Temporários. Marcado como Presa (Somente para o Caçador): O senhor dos animais tem Vantagem nas jogadas de ataque contra o alvo até o início do seu próximo turno. Enxame Incômodo (Somente para o Sábio): O alvo tem Desvantagem nas jogadas de ataque e testes de habilidade até o final do seu próximo turno.",
         "name": "Espírito Animal",
         "saving_throws": [
           {
@@ -1949,7 +1949,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 22, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 32 (5d12) de dano elétrico. Metade do dano. O alvo fica amaldiçoado até o final do próximo turno da bruxa. O alvo não pode usar Reações até que a maldição termine.",
+        "description": "Teste de resistência de Destreza: CD 22, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 32 (5d12) de dano elétrico. Sucesso: Metade do dano. O alvo fica amaldiçoado até o final do próximo turno da bruxa. O alvo não pode usar Reações até que a maldição termine.",
         "name": "Onda Crepitante",
         "saving_throws": [
           {
@@ -2247,7 +2247,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 17, cada inimigo em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do arqui-sacerdote. Falha: 21 (6d6) de dano radiante, e o alvo fica Atordoado até o final do próximo turno do arqui-sacerdote. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 17, cada inimigo em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do arqui-sacerdote. Falha: 21 (6d6) de dano radiante, e o alvo fica Atordoado até o final do próximo turno do arqui-sacerdote. Sucesso: Apenas metade do dano.",
         "name": "Palavra Sagrada (Recarga 4-6)",
         "saving_throws": [
           {
@@ -2941,7 +2941,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 14, cada criatura em uma Esfera [Área de Efeito] de 3 metros [10 feet] de raio centrada em um ponto que o bandido possa ver a até 36 metros [120 feet]. Falha: 13 (3d6 + 3) de dano radiante, e o alvo fica Cego até o início do próximo turno do bandido. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 14, cada criatura em uma Esfera [Área de Efeito] de 3 metros [10 feet] de raio centrada em um ponto que o bandido possa ver a até 36 metros [120 feet]. Falha: 13 (3d6 + 3) de dano radiante, e o alvo fica Cego até o início do próximo turno do bandido. Sucesso: Apenas metade do dano.",
         "name": "Flash Ofuscante (Recarga 4-6)",
         "saving_throws": [
           {
@@ -3713,7 +3713,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Sabedoria: CD 16. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano.",
+        "description": "teste de resistência de Sabedoria: CD 16. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 1: Raio Encantador",
         "saving_throws": [
           {
@@ -3762,7 +3762,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Sabedoria: CD 16. Falha: 14 (4d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "description": "teste de resistência de Sabedoria: CD 16. Falha: 14 (4d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 3: Raio do Medo",
         "saving_throws": [
           {
@@ -3791,7 +3791,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 16. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, sua Velocidade é reduzida à metade; o alvo não pode usar Reações; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano.",
+        "description": "teste de resistência de Constituição: CD 16. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, sua Velocidade é reduzida à metade; o alvo não pode usar Reações; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 4: Raio Lento",
         "saving_throws": [
           {
@@ -3814,7 +3814,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 16. Falha: 13 (3d8) de dano de veneno, e o alvo fica com a condição Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano.",
+        "description": "teste de resistência de Constituição: CD 16. Falha: 13 (3d8) de dano de veneno, e o alvo fica com a condição Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 5: Raio de Enervação",
         "saving_throws": [
           {
@@ -3908,7 +3908,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Destreza: CD 16. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "description": "teste de resistência de Destreza: CD 16. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Sucesso: Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
         "name": "Raios Oculares 9: Raio da Desintegração",
         "saving_throws": [
           {
@@ -3931,7 +3931,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Destreza: CD 16. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio reduzir seus Pontos de Vida a 0.",
+        "description": "teste de resistência de Destreza: CD 16. Falha: 55 (10d10) de dano necrótico. Sucesso: Metade do dano. O alvo morre se o raio reduzir seus Pontos de Vida a 0.",
         "name": "Raios Oculares 10: Raio da Morte",
         "saving_throws": [
           {
@@ -4197,7 +4197,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 14. Falha: 10 (3d6) de dano necrótico, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano é recuperada.",
+        "description": "teste de resistência de Constituição: CD 14. Falha: 10 (3d6) de dano necrótico, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Sucesso: Apenas metade do dano é recuperada.",
         "name": "Raios Oculares 3: Raio da Enervação",
         "saving_throws": [
           {
@@ -4226,7 +4226,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Destreza: CD 14. Falha: 27 (5d10) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "description": "teste de resistência de Destreza: CD 14. Falha: 27 (5d10) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Sucesso: Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
         "name": "Raios Oculares 4: Raio de Desintegração",
         "saving_throws": [
           {
@@ -4692,7 +4692,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "A gosma arremessa uma gosma viscosa em uma criatura Grande ou menor que possa ver a até 180 metros [600 feet] de distância. Teste de resistência de Destreza: CD 23, a criatura alvo. Falha: 18 (3d6 + 8) de dano ácido. A gosma rola o alvo 18 metros [60 feet] em linha reta em sua direção, e o alvo fica Imobilizado até o final do seu próximo turno, quando a gosma se dissolve inofensivamente. Apenas metade do dano é reduzida.",
+        "description": "A gosma arremessa uma gosma viscosa em uma criatura Grande ou menor que possa ver a até 180 metros [600 feet] de distância. Teste de resistência de Destreza: CD 23, a criatura alvo. Falha: 18 (3d6 + 8) de dano ácido. A gosma rola o alvo 18 metros [60 feet] em linha reta em sua direção, e o alvo fica Imobilizado até o final do seu próximo turno, quando a gosma se dissolve inofensivamente. Sucesso: Apenas metade do dano é reduzida.",
         "name": "Glob de Contenção",
         "saving_throws": [
           {
@@ -7103,7 +7103,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 26, cada criatura em uma Linha de 90 metros [300 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 65 (10d12) de dano radiante. Metade do dano. Uma criatura reduzida a 0 Pontos de Vida por este raio se desintegra em pó, deixando para trás quaisquer itens mágicos que estivesse vestindo ou carregando.",
+        "description": "Teste de resistência de Destreza: CD 26, cada criatura em uma Linha de 90 metros [300 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 65 (10d12) de dano radiante. Sucesso: Metade do dano. Uma criatura reduzida a 0 Pontos de Vida por este raio se desintegra em pó, deixando para trás quaisquer itens mágicos que estivesse vestindo ou carregando.",
         "name": "Raio Divino (Recarga 5-6)",
         "saving_throws": [
           {
@@ -8297,7 +8297,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 14, para cada criatura em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do cultista. Falha: 14 (4d6) de dano psíquico, e o alvo fica Amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 14, para cada criatura em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do cultista. Falha: 14 (4d6) de dano psíquico, e o alvo fica Amedrontado até o final do seu próximo turno. Sucesso: Apenas metade do dano.",
         "name": "Lamento Espiritual (Recarga 5-6)",
         "saving_throws": [
           {
@@ -8521,7 +8521,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto que o cavaleiro da morte possa ver a até 36 metros [120 feet]. Falha: 35 (10d6) de dano de fogo mais 35 (10d6) de dano necrótico. Dano reduzido à metade.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto que o cavaleiro da morte possa ver a até 36 metros [120 feet]. Falha: 35 (10d6) de dano de fogo mais 35 (10d6) de dano necrótico. Sucesso: Dano reduzido à metade.",
         "name": "Orbe do Fogo Infernal (Recarga 5-6)",
         "saving_throws": [
           {
@@ -8817,7 +8817,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 15, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto que o aspirante possa ver a até 36 metros [120 feet] de si mesmo. Falha: 21 (6d6) de dano de Fogo mais 21 (6d6) de dano Necrótico. Dano reduzido à metade.",
+        "description": "Teste de resistência de Destreza: CD 15, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto que o aspirante possa ver a até 36 metros [120 feet] de si mesmo. Falha: 21 (6d6) de dano de Fogo mais 21 (6d6) de dano Necrótico. Sucesso: Dano reduzido à metade.",
         "name": "Orbe do Fogo Infernal (Recarga 5-6)",
         "saving_throws": [
           {
@@ -9347,7 +9347,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Sabedoria: CD 17. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano.",
+        "description": "teste de resistência de Sabedoria: CD 17. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 1: Raio do Encantamento",
         "saving_throws": [
           {
@@ -9396,7 +9396,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Sabedoria: CD 17. Falha: 10 (3d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "description": "teste de resistência de Sabedoria: CD 17. Falha: 10 (3d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 3: Raio do Medo",
         "saving_throws": [
           {
@@ -9425,7 +9425,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 17. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, ele não pode usar Reações; sua Velocidade é reduzida à metade; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano.",
+        "description": "teste de resistência de Constituição: CD 17. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, ele não pode usar Reações; sua Velocidade é reduzida à metade; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 4: Raio Lento",
         "saving_throws": [
           {
@@ -9448,7 +9448,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 17. Falha: 16 (3d10) de dano de veneno, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano.",
+        "description": "teste de resistência de Constituição: CD 17. Falha: 16 (3d10) de dano de veneno, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Sucesso: Apenas metade do dano.",
         "name": "Raios Oculares 5: Raio Enervante",
         "saving_throws": [
           {
@@ -9542,7 +9542,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Destreza: CD 17. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "description": "teste de resistência de Destreza: CD 17. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Sucesso: Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
         "name": "Raios Oculares 9: Raio da Desintegração",
         "saving_throws": [
           {
@@ -9565,7 +9565,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Destreza: CD 17. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio o reduzir a 0 Pontos de Vida.",
+        "description": "teste de resistência de Destreza: CD 17. Falha: 55 (10d10) de dano necrótico. Sucesso: Metade do dano. O alvo morre se o raio o reduzir a 0 Pontos de Vida.",
         "name": "Raios Oculares 10: Raio da Morte",
         "saving_throws": [
           {
@@ -10075,7 +10075,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 16, para cada criatura a até 9 metros [30 feet] que não seja um worg. Falha: 36 (8d8) de dano psíquico, e o alvo fica amedrontado até o início do próximo turno do worg. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 16, para cada criatura a até 9 metros [30 feet] que não seja um worg. Falha: 36 (8d8) de dano psíquico, e o alvo fica amedrontado até o início do próximo turno do worg. Sucesso: Apenas metade do dano.",
         "name": "Uivo Aterrorizante (Recarga 5-6)",
         "saving_throws": [
           {
@@ -10487,7 +10487,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 20, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 52 (8d12) de dano necrótico. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 20, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 52 (8d12) de dano necrótico. Sucesso: Metade do dano.",
         "name": "Sopro Necrótico (Recarga 5-6)",
         "saving_throws": [
           {
@@ -10863,7 +10863,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "O cataclismo cria um dos seguintes efeitos aleatoriamente (role 1d4): 1: Chamas Aderentes: teste de resistência de Destreza: CD 23, cada criatura em uma Esfera [Área de Efeito] de 18 metros [60 feet] de raio centrada em um ponto que o cataclismo possa ver a até 45 metros [150 feet]. Falha: 45 (13d6) de dano de Fogo. Metade do dano. O alvo começa a queimar. 2: Ondas Congelantes: teste de resistência de Força: CD 23, cada criatura em um Cone [Área de Efeito] de 27 metros [90 feet]. Falha: 22 (5d8) de dano de Concussão mais 22 (5d8) de dano de Frio, e o alvo fica Caído. Apenas metade do dano. A Velocidade do alvo é reduzida a 0 até o final do seu próximo turno. 3: Tempestade Furiosa: Uma nuvem de tempestade preenche uma Esfera [Área de Efeito] de 18 metros [60 feet] de raio centrada em um ponto que o cataclismo possa ver a até 45 metros [150 feet]. A nuvem dura 1 minuto ou até que o cataclismo use Evento Cataclísmico novamente. Criaturas inteiramente dentro da nuvem ficam Cegas e Surdas e não podem conjurar magias com componente Verbal. Teste de resistência de Destreza: CD 23, para cada criatura que entra na nuvem pela primeira vez em um turno ou começa seu turno lá. Falha: 18 (4d8) de dano elétrico mais 18 (4d8) de dano trovejante. Dano reduzido à metade. 4: Devorando a Terra: Teste de resistência de Força: CD 23, para cada criatura em um Cubo de 27 metros [90 feet] [Área de Efeito] originado de um ponto no chão a até 45 metros [150 feet] de distância. Falha: 18 (4d8) de dano de concussão mais 18 (4d8) de dano ácido, e o alvo fica Prostrado e soterrado sob escombros. Um alvo soterrado fica Imobilizado, possui Cobertura e está sufocando. Como uma ação, uma criatura enterrada ou outra criatura a até 1,5 metro [5 feet] dela pode fazer um teste de Força (Atletismo) CD 18. Se o teste for bem-sucedido, a criatura deixa de estar enterrada. Sofre apenas metade do dano.",
+        "description": "O cataclismo cria um dos seguintes efeitos aleatoriamente (role 1d4): 1: Chamas Aderentes: teste de resistência de Destreza: CD 23, cada criatura em uma Esfera [Área de Efeito] de 18 metros [60 feet] de raio centrada em um ponto que o cataclismo possa ver a até 45 metros [150 feet]. Falha: 45 (13d6) de dano de Fogo. Sucesso: Metade do dano. O alvo começa a queimar. 2: Ondas Congelantes: teste de resistência de Força: CD 23, cada criatura em um Cone [Área de Efeito] de 27 metros [90 feet]. Falha: 22 (5d8) de dano de Concussão mais 22 (5d8) de dano de Frio, e o alvo fica Caído. Sucesso: Apenas metade do dano. A Velocidade do alvo é reduzida a 0 até o final do seu próximo turno. 3: Tempestade Furiosa: Uma nuvem de tempestade preenche uma Esfera [Área de Efeito] de 18 metros [60 feet] de raio centrada em um ponto que o cataclismo possa ver a até 45 metros [150 feet]. A nuvem dura 1 minuto ou até que o cataclismo use Evento Cataclísmico novamente. Criaturas inteiramente dentro da nuvem ficam Cegas e Surdas e não podem conjurar magias com componente Verbal. Teste de resistência de Destreza: CD 23, para cada criatura que entra na nuvem pela primeira vez em um turno ou começa seu turno lá. Falha: 18 (4d8) de dano elétrico mais 18 (4d8) de dano trovejante. Sucesso: Dano reduzido à metade. 4: Devorando a Terra: Teste de resistência de Força: CD 23, para cada criatura em um Cubo de 27 metros [90 feet] [Área de Efeito] originado de um ponto no chão a até 45 metros [150 feet] de distância. Falha: 18 (4d8) de dano de concussão mais 18 (4d8) de dano ácido, e o alvo fica Prostrado e soterrado sob escombros. Um alvo soterrado fica Imobilizado, possui Cobertura e está sufocando. Como uma ação, uma criatura enterrada ou outra criatura a até 1,5 metro [5 feet] dela pode fazer um teste de Força (Atletismo) CD 18. Se o teste for bem-sucedido, a criatura deixa de estar enterrada. Sofre apenas metade do dano.",
         "name": "Evento Cataclísmico (Recarga 4-6)",
         "saving_throws": [],
         "conditions": []
@@ -11393,7 +11393,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 23, para cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do empíreo. Falha: 27 (6d8) de dano de Força, e o alvo fica Caído. Apenas metade do dano é reduzida. O empíreo não pode realizar esta ação novamente até o início do seu próximo turno.",
+        "description": "Teste de resistência de Constituição: CD 23, para cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do empíreo. Falha: 27 (6d8) de dano de Força, e o alvo fica Caído. Sucesso: Apenas metade do dano é reduzida. O empíreo não pode realizar esta ação novamente até o início do seu próximo turno.",
         "name": "Onda de Choque da Glória",
         "saving_throws": [
           {
@@ -12615,7 +12615,7 @@
           }
         ],
         "conditions": [],
-        "description": "O esqueleto explode ao morrer. Teste de resistência de Destreza: CD 12, cada criatura em uma Emanação [Área de Efeito] de 3 metros originada do esqueleto. Falha: 14 (4d6) de dano de fogo. Metade do dano."
+        "description": "O esqueleto explode ao morrer. Teste de resistência de Destreza: CD 12, cada criatura em uma Emanação [Área de Efeito] de 3 metros originada do esqueleto. Falha: 14 (4d6) de dano de fogo. Sucesso: Metade do dano."
       },
       {
         "name": "Iluminação",
@@ -12990,7 +12990,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 16, uma criatura que o fomorian possa ver a até 36 metros [120 feet]. Falha: 21 (6d6) de dano psíquico, e o alvo ganha 1 nível de Exaustão. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 16, uma criatura que o fomorian possa ver a até 36 metros [120 feet]. Falha: 21 (6d6) de dano psíquico, e o alvo ganha 1 nível de Exaustão. Sucesso: Apenas metade do dano.",
         "name": "Hex de Distorção (Recarga 4-6)",
         "saving_throws": [
           {
@@ -14068,7 +14068,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 27 (6d8) de dano de fogo mais 27 (6d8) de dano de força. Dano reduzido à metade.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 27 (6d8) de dano de fogo mais 27 (6d8) de dano de força. Sucesso: Dano reduzido à metade.",
         "name": "Sopro do Dragão Conjurado (Recarga 5-6)",
         "saving_throws": [
           {
@@ -15380,7 +15380,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O gnoll conjura um Cubo [Área de Efeito] de Escuridão mágica de 9 metros [30 feet] de diâmetro, originado de um ponto que ele possa ver a até 18 metros [60 feet] de distância, que dura 1 minuto ou até que a Concentração do gnoll termine. Esta área é Terreno Difícil. Teste de resistência de Destreza: CD 14, qualquer criatura que comece seu turno nesta área ou entre nela pela primeira vez em um turno. Falha: 28 (8d6) de dano Necrótico, e o gnoll ou uma criatura à sua escolha que ele possa ver ganha 10 Pontos de Vida Temporários. Apenas metade do dano.",
+        "description": "O gnoll conjura um Cubo [Área de Efeito] de Escuridão mágica de 9 metros [30 feet] de diâmetro, originado de um ponto que ele possa ver a até 18 metros [60 feet] de distância, que dura 1 minuto ou até que a Concentração do gnoll termine. Esta área é Terreno Difícil. Teste de resistência de Destreza: CD 14, qualquer criatura que comece seu turno nesta área ou entre nela pela primeira vez em um turno. Falha: 28 (8d6) de dano Necrótico, e o gnoll ou uma criatura à sua escolha que ele possa ver ganha 10 Pontos de Vida Temporários. Sucesso: Apenas metade do dano.",
         "name": "Fome de Yeenoghu (Recarga 5-6)",
         "saving_throws": [
           {
@@ -18710,7 +18710,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 17 (5d6) de dano necrótico. Metade do dano. Um Humanoide reduzido a 0 Pontos de Vida por este dano morre, e uma Sombra surge de seu cadáver. A sombra está sob o controle do dragão e compartilha a contagem de Iniciativa do dragão, mas age imediatamente após o dragão.",
+        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 17 (5d6) de dano necrótico. Sucesso: Metade do dano. Um Humanoide reduzido a 0 Pontos de Vida por este dano morre, e uma Sombra surge de seu cadáver. A sombra está sob o controle do dragão e compartilha a contagem de Iniciativa do dragão, mas age imediatamente após o dragão.",
         "name": "Sopro Sombrio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -20037,7 +20037,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um Cilindro [Área de Efeito] de 6 metros [20 feet] de raio e 12 metros [40 feet] de altura, centrado em um ponto que o homem-lagarto possa ver a até 18 metros [60 feet] de distância. Falha: 15 (6d4) de dano de concussão, e o alvo fica caído. Apenas metade do dano é reduzida.",
+        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um Cilindro [Área de Efeito] de 6 metros [20 feet] de raio e 12 metros [40 feet] de altura, centrado em um ponto que o homem-lagarto possa ver a até 18 metros [60 feet] de distância. Falha: 15 (6d4) de dano de concussão, e o alvo fica caído. Sucesso: Apenas metade do dano é reduzida.",
         "name": "Chuva de Pedra (Recarga 5-6)",
         "saving_throws": [
           {
@@ -20985,7 +20985,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 31 (9d6) de dano de frio. Se o alvo for uma criatura Enorme ou menor, ele é empurrado até 6 metros [20 feet] em linha reta para longe do marid e fica caído. Apenas metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 31 (9d6) de dano de frio. Se o alvo for uma criatura Enorme ou menor, ele é empurrado até 6 metros [20 feet] em linha reta para longe do marid e fica caído. Sucesso: Apenas metade do dano.",
         "name": "Jato de Água",
         "saving_throws": [
           {
@@ -21741,7 +21741,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 15, uma criatura agarrada pelos tentáculos do devorador de mentes. Falha: 55 (10d10) de dano perfurante. Metade do dano. Se esse dano reduzir os pontos de vida do alvo a 0, o devorador de mentes o mata e devora seu cérebro.",
+        "description": "Teste de resistência de Constituição: CD 15, uma criatura agarrada pelos tentáculos do devorador de mentes. Falha: 55 (10d10) de dano perfurante. Sucesso: Metade do dano. Se esse dano reduzir os pontos de vida do alvo a 0, o devorador de mentes o mata e devora seu cérebro.",
         "name": "Extrair Cérebro",
         "saving_throws": [
           {
@@ -21770,7 +21770,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Inteligência: CD 15, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 31 (6d8 + 4) de dano psíquico, e o alvo fica Atordoado até o final do próximo turno do devorador de mentes. Apenas metade do dano.",
+        "description": "Teste de resistência de Inteligência: CD 15, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 31 (6d8 + 4) de dano psíquico, e o alvo fica Atordoado até o final do próximo turno do devorador de mentes. Sucesso: Apenas metade do dano.",
         "name": "Explosão Mental (Recarga 5-6)",
         "saving_throws": [
           {
@@ -22018,7 +22018,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Inteligência: CD 17, cada criatura em uma Emanação [Área de Efeito] de 12 metros [40 feet] originada do devorador de mentes. Falha: 41 (8d8 + 5) de dano psíquico, e o alvo fica Atordoado até o final do próximo turno do devorador de mentes. Apenas metade do dano.",
+        "description": "Teste de resistência de Inteligência: CD 17, cada criatura em uma Emanação [Área de Efeito] de 12 metros [40 feet] originada do devorador de mentes. Falha: 41 (8d8 + 5) de dano psíquico, e o alvo fica Atordoado até o final do próximo turno do devorador de mentes. Sucesso: Apenas metade do dano.",
         "name": "Explosão Mental (Recarga 5-6)",
         "saving_throws": [
           {
@@ -24078,7 +24078,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 13, uma criatura que o nothic possa ver a até 36 metros [120 feet]. Falha: 17 (5d6) de dano necrótico. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 13, uma criatura que o nothic possa ver a até 36 metros [120 feet]. Falha: 17 (5d6) de dano necrótico. Sucesso: Metade do dano.",
         "name": "Olhar Podre",
         "saving_throws": [
           {
@@ -24742,7 +24742,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 17, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto a até 36 metros [120 feet]. Falha: 22 (4d8 + 4) de dano psíquico, e o alvo fica Enfeitiçado ou Amedrontado (à escolha do artista) até o final do próximo turno do artista. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 17, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto a até 36 metros [120 feet]. Falha: 22 (4d8 + 4) de dano psíquico, e o alvo fica Enfeitiçado ou Amedrontado (à escolha do artista) até o final do próximo turno do artista. Sucesso: Apenas metade do dano.",
         "name": "Canção Majestosa",
         "saving_throws": [
           {
@@ -24999,7 +24999,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Sabedoria: CD 15, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto a até 36 metros [120 feet]. Falha: 20 (3d10 + 4) de dano psíquico, e o alvo fica enfeitiçado até o final do próximo turno do conjurador. Apenas metade do dano.",
+        "description": "Teste de resistência de Sabedoria: CD 15, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada em um ponto a até 36 metros [120 feet]. Falha: 20 (3d10 + 4) de dano psíquico, e o alvo fica enfeitiçado até o final do próximo turno do conjurador. Sucesso: Apenas metade do dano.",
         "name": "Canção Sedutora",
         "saving_throws": [
           {
@@ -26402,7 +26402,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 15, cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do urso-coruja. Falha: 27 (6d8) de dano trovejante, e o alvo fica Incapacitado até o final do seu próximo turno. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 15, cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do urso-coruja. Falha: 27 (6d8) de dano trovejante, e o alvo fica Incapacitado até o final do seu próximo turno. Sucesso: Apenas metade do dano.",
         "name": "Guinchado (Recarga 5-6)",
         "saving_throws": [
           {
@@ -28141,7 +28141,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Esfera [Área de Efeito] de 9 metros [30 feet] de raio centrada em um ponto que a salamandra possa ver a até 36 metros [120 feet] de distância. Falha: 35 (10d6) de dano de Fogo, e o alvo começa a queimar, sofrendo 5 (1d10) de dano de Fogo no início de cada um de seus turnos em vez do dano de queimadura normal. O alvo ganha 1 nível de Exaustão sempre que sofre esse dano de queimadura. Apenas metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Esfera [Área de Efeito] de 9 metros [30 feet] de raio centrada em um ponto que a salamandra possa ver a até 36 metros [120 feet] de distância. Falha: 35 (10d6) de dano de Fogo, e o alvo começa a queimar, sofrendo 5 (1d10) de dano de Fogo no início de cada um de seus turnos em vez do dano de queimadura normal. O alvo ganha 1 nível de Exaustão sempre que sofre esse dano de queimadura. Sucesso: Apenas metade do dano.",
         "name": "Explosão Infernal (Recarga 5-6)",
         "saving_throws": [
           {
@@ -29152,7 +29152,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 35 (10d6) de dano necrótico. Metade do dano. Um Humanoide reduzido a 0 Pontos de Vida por este dano morre, e uma Sombra surge do cadáver. A sombra está sob o controle do dragão e compartilha a contagem de Iniciativa do dragão, mas age imediatamente após o dragão.",
+        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 35 (10d6) de dano necrótico. Sucesso: Metade do dano. Um Humanoide reduzido a 0 Pontos de Vida por este dano morre, e uma Sombra surge do cadáver. A sombra está sob o controle do dragão e compartilha a contagem de Iniciativa do dragão, mas age imediatamente após o dragão.",
         "name": "Sopro Sombrio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -29760,7 +29760,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "teste de resistência de Constituição: CD 12. Falha: 16 (3d10) de dano necrótico. Dano reduzido à metade.",
+        "description": "teste de resistência de Constituição: CD 12. Falha: 16 (3d10) de dano necrótico. Sucesso: Dano reduzido à metade.",
         "name": "Raios Oculares 4: Raio Feridor",
         "saving_throws": [
           {
@@ -30435,7 +30435,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O espião lança uma bomba em um ponto que ele possa ver a até 9 metros [30 feet] de si mesmo. Teste de resistência de Constituição: CD 16, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada nesse ponto. Falha: 28 (8d6) de dano de veneno, e o alvo fica Cego até o final do próximo turno do espião. Apenas metade do dano.",
+        "description": "O espião lança uma bomba em um ponto que ele possa ver a até 9 metros [30 feet] de si mesmo. Teste de resistência de Constituição: CD 16, cada criatura em uma Esfera [Área de Efeito] de 6 metros [20 feet] de raio centrada nesse ponto. Falha: 28 (8d6) de dano de veneno, e o alvo fica Cego até o final do próximo turno do espião. Sucesso: Apenas metade do dano.",
         "name": "Bomba de Fumaça (1/dia)",
         "saving_throws": [
           {
@@ -31789,7 +31789,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 17, uma criatura agarrada pela praga. Falha: 19 (3d8 + 6) de dano perfurante. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 17, uma criatura agarrada pela praga. Falha: 19 (3d8 + 6) de dano perfurante. Sucesso: Metade do dano.",
         "name": "Ranger",
         "saving_throws": [
           {
@@ -33370,7 +33370,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 15, cada criatura em uma Esfera de 6 metros [20 feet] de raio [Área de Efeito] centrada em um ponto que o necromante possa ver a até 18 metros [60 feet]. Falha: 28 (8d6) de dano necrótico, e o alvo fica Envenenado até o início do próximo turno do necromante. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 15, cada criatura em uma Esfera de 6 metros [20 feet] de raio [Área de Efeito] centrada em um ponto que o necromante possa ver a até 18 metros [60 feet]. Falha: 28 (8d6) de dano necrótico, e o alvo fica Envenenado até o início do próximo turno do necromante. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Sucesso: Apenas metade do dano.",
         "name": "Bomba de Esporos (Recarga 5-6)",
         "saving_throws": [
           {
@@ -34711,7 +34711,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Força: CD 15, uma criatura Grande ou menor a até 1,5 metro [5 feet]. Falha: 28 (7d6 + 4) de dano de impacto. O alvo fica Agarrado (CD 14 para escapar) e Imobilizado até o fim da imobilização. Apenas metade do dano é aplicada.",
+        "description": "Teste de resistência de Força: CD 15, uma criatura Grande ou menor a até 1,5 metro [5 feet]. Falha: 28 (7d6 + 4) de dano de impacto. O alvo fica Agarrado (CD 14 para escapar) e Imobilizado até o fim da imobilização. Sucesso: Apenas metade do dano é aplicada.",
         "name": "Restringir",
         "saving_throws": [
           {
@@ -34745,7 +34745,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 14, para cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 21 (6d6) de dano de veneno, e o alvo fica Envenenado até o final do próximo turno do yuan-ti. Enquanto Envenenado, o alvo fica Cego. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 14, para cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 21 (6d6) de dano de veneno, e o alvo fica Envenenado até o final do próximo turno do yuan-ti. Enquanto Envenenado, o alvo fica Cego. Sucesso: Apenas metade do dano.",
         "name": "Spray de Veneno (Recarga 5-6)",
         "saving_throws": [
           {
@@ -36898,7 +36898,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD igual à sua CD de resistência à magia, para cada criatura em um cone de 9 metros [30 feet]. Falha: 2d6 de dano de um tipo ao qual este espírito tenha resistência (à sua escolha ao conjurar a magia). Dano reduzido à metade.",
+        "description": "Teste de resistência de Destreza: CD igual à sua CD de resistência à magia, para cada criatura em um cone de 9 metros [30 feet]. Falha: 2d6 de dano de um tipo ao qual este espírito tenha resistência (à sua escolha ao conjurar a magia). Sucesso: Dano reduzido à metade.",
         "name": "Arma de Sopro",
         "saving_throws": [
           {
@@ -37348,7 +37348,7 @@
           }
         ],
         "conditions": [],
-        "description": "Quando o espírito chega a 0 Pontos de Vida ou a magia termina, ele explode. Teste de resistência de Destreza: CD igual à sua CD de resistência à magia, para cada criatura em um raio de 3 metros. Emanação originada do espírito. Falha: 2d10 mais o nível desta magia de dano de Fogo. Dano reduzido à metade."
+        "description": "Quando o espírito chega a 0 Pontos de Vida ou a magia termina, ele explode. Teste de resistência de Destreza: CD igual à sua CD de resistência à magia, para cada criatura em um raio de 3 metros. Emanação originada do espírito. Falha: 2d10 mais o nível desta magia de dano de Fogo. Sucesso: Dano reduzido à metade."
       },
       {
         "name": "Visão do Diabo (Somente para o Diabo)",

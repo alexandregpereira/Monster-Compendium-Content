@@ -187,7 +187,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Inteligência: CD 16, uma criatura a até 9 metros [30 feet] que esteja Enfeitiçada ou Agarrada pelo aboleth. Falha: 10 (3d6) de dano psíquico. Metade do dano. O aboleth adquire as memórias do alvo se este for um Humanoide e é reduzido a 0 Pontos de Vida por esta ação.",
+        "description": "Teste de resistência de Inteligência: CD 16, uma criatura a até 9 metros [30 feet] que esteja Enfeitiçada ou Agarrada pelo aboleth. Falha: 10 (3d6) de dano psíquico. Sucesso: Metade do dano. O aboleth adquire as memórias do alvo se este for um Humanoide e é reduzido a 0 Pontos de Vida por esta ação.",
         "name": "Consumir Memórias",
         "saving_throws": [
           {
@@ -451,7 +451,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 54 (12d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 54 (12d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -737,7 +737,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 60 (11d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 60 (11d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -1025,7 +1025,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 45 (10d8) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 45 (10d8) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -1359,7 +1359,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 55 (10d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 55 (10d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -1688,7 +1688,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 54 (12d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 54 (12d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -2010,7 +2010,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 21, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 66 (12d10) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 21, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 66 (12d10) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -2339,7 +2339,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de veneno. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de veneno. Sucesso: Metade do dano.",
         "name": "Hálito Venenoso (Recarga 5-6)",
         "saving_throws": [
           {
@@ -2613,7 +2613,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 21, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 59 (17d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 21, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 59 (17d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -2878,7 +2878,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 20, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 54 (12d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 20, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 54 (12d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -3000,7 +3000,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de frio, e o alvo é empurrado até 9 metros [30 feet] em linha reta para longe do dragão. Apenas metade do dano. O dragão não pode realizar esta ação novamente até o início do seu próximo turno.",
+        "description": "Teste de resistência de Destreza: CD 19, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de frio, e o alvo é empurrado até 9 metros [30 feet] em linha reta para longe do dragão. Sucesso: Apenas metade do dano. O dragão não pode realizar esta ação novamente até o início do seu próximo turno.",
         "name": "Vendaval Frio",
         "saving_throws": [
           {
@@ -3208,7 +3208,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 19, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 54 (12d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 19, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 54 (12d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -3487,7 +3487,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Força: CD 13, uma criatura Média ou menor no espaço do elemental. Falha: 24 (4d10 + 2) de dano trovejante, e o alvo é empurrado até 6 metros [20 feet] em linha reta para longe do elemental e fica caído. Dano reduzido à metade.",
+        "description": "Teste de resistência de Força: CD 13, uma criatura Média ou menor no espaço do elemental. Falha: 24 (4d10 + 2) de dano trovejante, e o alvo é empurrado até 6 metros [20 feet] em linha reta para longe do elemental e fica caído. Sucesso: Dano reduzido à metade.",
         "name": "Turbilhão (Recarga 4-6)",
         "saving_throws": [
           {
@@ -3818,7 +3818,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 22, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 67 (15d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 22, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 67 (15d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -4110,7 +4110,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 36 metros [120 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 88 (16d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 36 metros [120 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 88 (16d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -4398,7 +4398,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 21, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 58 (13d8) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 21, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 58 (13d8) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -4732,7 +4732,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 36 metros [120 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 82 (15d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 36 metros [120 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 82 (15d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -5073,7 +5073,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 22, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 63 (14d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 22, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 63 (14d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -5401,7 +5401,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 71 (13d10) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 71 (13d10) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -5736,7 +5736,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 22, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 77 (22d6) de dano de veneno. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 22, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 77 (22d6) de dano de veneno. Sucesso: Metade do dano.",
         "name": "Hálito Venenoso (Recarga 5-6)",
         "saving_throws": [
           {
@@ -6016,7 +6016,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 91 (26d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 91 (26d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -6287,7 +6287,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 67 (15d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 24, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 67 (15d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -6421,7 +6421,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de frio, e o alvo é empurrado até 9 metros [30 feet] em linha reta para longe do dragão. Apenas metade do dano. O dragão não pode realizar esta ação novamente até o início do seu próximo turno.",
+        "description": "Teste de resistência de Destreza: CD 23, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 3 metros [10 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de frio, e o alvo é empurrado até 9 metros [30 feet] em linha reta para longe do dragão. Sucesso: Apenas metade do dano. O dragão não pode realizar esta ação novamente até o início do seu próximo turno.",
         "name": "Vendaval Frio",
         "saving_throws": [
           {
@@ -6629,7 +6629,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 22, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 63 (14d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 22, cada criatura em um cone de 27 metros [90 feet] [Área de Efeito]. Falha: 63 (14d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -7330,7 +7330,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano ácido. Sucesso: Metade do dano.",
         "name": "Spray Ácido (Recarga 6)",
         "saving_throws": [
           {
@@ -9098,7 +9098,7 @@
     "special_abilities": [
       {
         "name": "Agonia da Morte",
-        "description": "O balor explode ao morrer. Teste de resistência de Destreza: CD 20, cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do balor. Falha: 31 (9d6) de dano de Fogo mais 31 (9d6) de dano de Força. Dano reduzido à metade. Se o balor morrer fora do Abismo, ele ganha um novo corpo instantaneamente, revivendo com todos os seus Pontos de Vida em algum lugar do Abismo.",
+        "description": "O balor explode ao morrer. Teste de resistência de Destreza: CD 20, cada criatura em uma Emanação [Área de Efeito] de 9 metros [30 feet] originada do balor. Falha: 31 (9d6) de dano de Fogo mais 31 (9d6) de dano de Força. Sucesso: Dano reduzido à metade. Se o balor morrer fora do Abismo, ele ganha um novo corpo instantaneamente, revivendo com todos os seus Pontos de Vida em algum lugar do Abismo.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -10335,7 +10335,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 16, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 66 (12d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 16, cada criatura em uma Linha de 27 metros [90 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 66 (12d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -10807,7 +10807,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 4,5 metros [15 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 22 (5d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 4,5 metros [15 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 22 (5d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -11440,7 +11440,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 21 (6d6) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 21 (6d6) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -11947,7 +11947,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 6 metros [20 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 6 metros [20 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 14 (4d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -12154,7 +12154,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 16 (3d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 12, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 16 (3d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -12809,7 +12809,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O bulette gasta 1,5 metro [5 feet] de movimento para saltar para um espaço a até 4,5 metros [15 feet] de distância que contenha uma ou mais criaturas Grandes ou menores. Teste de resistência de Destreza: CD 15, para cada criatura no espaço de destino do bulette. Falha: 19 (3d12) de dano de impacto, e o alvo fica caído. Reduz o dano à metade, e o alvo é empurrado 1,5 metro [5 feet] em linha reta para longe do bulette.",
+        "description": "O bulette gasta 1,5 metro [5 feet] de movimento para saltar para um espaço a até 4,5 metros [15 feet] de distância que contenha uma ou mais criaturas Grandes ou menores. Teste de resistência de Destreza: CD 15, para cada criatura no espaço de destino do bulette. Falha: 19 (3d12) de dano de impacto, e o alvo fica caído. Sucesso: Reduz o dano à metade, e o alvo é empurrado 1,5 metro [5 feet] em linha reta para longe do bulette.",
         "name": "Salto Mortal",
         "saving_throws": [
           {
@@ -13653,7 +13653,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 15, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 31 (7d8) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 15, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 31 (7d8) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -15055,7 +15055,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 6 metros [20 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 18 (4d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 11, cada criatura em uma Linha de 6 metros [20 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 18 (4d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -17507,7 +17507,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 19, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de fogo. Metade do dano. Estar submerso não concede resistência a este dano de fogo.",
+        "description": "Teste de resistência de Constituição: CD 19, para cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de fogo. Sucesso: Metade do dano. Estar submerso não concede resistência a este dano de fogo.",
         "name": "Sopro de Vapor (Recarga 5-6)",
         "saving_throws": [
           {
@@ -18418,7 +18418,7 @@
     "special_abilities": [
       {
         "name": "Explosão da Morte",
-        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano contundente. Metade do dano.",
+        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano contundente. Sucesso: Metade do dano.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -19167,7 +19167,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 16, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 17 (2d10 + 6) de dano contundente. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 16, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 17 (2d10 + 6) de dano contundente. Sucesso: Metade do dano.",
         "name": "Pisotear",
         "saving_throws": [
           {
@@ -21247,7 +21247,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O cubo se move até sua Velocidade máxima sem provocar Ataques de Oportunidade. O cubo pode se mover através dos espaços de criaturas Grandes ou menores se houver espaço suficiente dentro dele para contê-las (veja a característica Cubo de Lodo [Área de Efeito]). Teste de resistência de Destreza: CD 12, para cada criatura cujo espaço o cubo entrar pela primeira vez durante este movimento. Falha: 10 (3d6) de dano Ácido, e o alvo é engolfado. Um alvo engolfado está sufocando, não pode conjurar magias com componente Verbal, está sob a condição Restrito e sofre 10 (3d6) de dano Ácido no início de cada turno do cubo. Quando o cubo se move, o alvo engolfado se move com ele. Um alvo engolfado pode tentar escapar usando uma ação para fazer um teste de Força (Atletismo) CD 12. Em caso de sucesso, o alvo escapa e entra no espaço desocupado mais próximo. O dano é reduzido à metade, e o alvo se move para um espaço desocupado a até 1,5 metro [5 feet] do cubo. Se não houver espaço desocupado, o alvo falha no teste de resistência.",
+        "description": "O cubo se move até sua Velocidade máxima sem provocar Ataques de Oportunidade. O cubo pode se mover através dos espaços de criaturas Grandes ou menores se houver espaço suficiente dentro dele para contê-las (veja a característica Cubo de Lodo [Área de Efeito]). Teste de resistência de Destreza: CD 12, para cada criatura cujo espaço o cubo entrar pela primeira vez durante este movimento. Falha: 10 (3d6) de dano Ácido, e o alvo é engolfado. Um alvo engolfado está sufocando, não pode conjurar magias com componente Verbal, está sob a condição Restrito e sofre 10 (3d6) de dano Ácido no início de cada turno do cubo. Quando o cubo se move, o alvo engolfado se move com ele. Um alvo engolfado pode tentar escapar usando uma ação para fazer um teste de Força (Atletismo) CD 12. Em caso de sucesso, o alvo escapa e entra no espaço desocupado mais próximo. Sucesso: O dano é reduzido à metade, e o alvo se move para um espaço desocupado a até 1,5 metro [5 feet] do cubo. Se não houver espaço desocupado, o alvo falha no teste de resistência.",
         "name": "Engolfar",
         "saving_throws": [
           {
@@ -22072,7 +22072,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O macaco arremessa uma pedra em um ponto que ele consegue ver a até 27 metros [90 feet] de distância. Teste de resistência de Destreza: CD 17, cada criatura em uma Esfera [Área de Efeito] de 1,5 metro [5 feet] de raio centrada nesse ponto. Falha: 24 (7d6) de dano contundente. Se o alvo for uma criatura Grande ou menor, ele fica Caído. Apenas metade do dano é reduzida.",
+        "description": "O macaco arremessa uma pedra em um ponto que ele consegue ver a até 27 metros [90 feet] de distância. Teste de resistência de Destreza: CD 17, cada criatura em uma Esfera [Área de Efeito] de 1,5 metro [5 feet] de raio centrada nesse ponto. Falha: 24 (7d6) de dano contundente. Se o alvo for uma criatura Grande ou menor, ele fica Caído. Sucesso: Apenas metade do dano é reduzida.",
         "name": "Arremesso de Pedra (Recarga 6)",
         "saving_throws": [
           {
@@ -26190,7 +26190,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 17, uma criatura agarrada pelo glabrezu. Falha: 15 (3d6 + 5) de dano de impacto. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 17, uma criatura agarrada pelo glabrezu. Falha: 15 (3d6 + 5) de dano de impacto. Sucesso: Metade do dano.",
         "name": "Espancar",
         "saving_throws": [
           {
@@ -27319,7 +27319,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 22 (4d10) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 22 (4d10) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -27511,7 +27511,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 16, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 16 (2d10 + 5) de dano contundente. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 16, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 16 (2d10 + 5) de dano contundente. Sucesso: Metade do dano.",
         "name": "Pisotear",
         "saving_throws": [
           {
@@ -27896,7 +27896,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 11, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 21 (6d6) de dano de veneno. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 11, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 21 (6d6) de dano de veneno. Sucesso: Metade do dano.",
         "name": "Hálito Venenoso (Recarga 5-6)",
         "saving_throws": [
           {
@@ -29036,7 +29036,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 16, uma criatura que a naga possa ver a até 18 metros [60 feet]. Falha: 31 (7d8) de dano de veneno, e o alvo fica Cego até o início do próximo turno da naga. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 16, uma criatura que a naga possa ver a até 18 metros [60 feet]. Falha: 31 (7d8) de dano de veneno, e o alvo fica Cego até o início do próximo turno da naga. Sucesso: Apenas metade do dano.",
         "name": "Cuspe Venenoso",
         "saving_throws": [
           {
@@ -29258,7 +29258,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 14, cada criatura em um Cone de 9 metros [30 feet] [Área de Efeito]. Falha: 28 (8d6) de dano do tipo escolhido para o traço Origem Dracônica. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 14, cada criatura em um Cone de 9 metros [30 feet] [Área de Efeito]. Falha: 28 (8d6) de dano do tipo escolhido para o traço Origem Dracônica. Sucesso: Metade do dano.",
         "name": "Sopro do Dragão (Recarga 5-6)",
         "saving_throws": [
           {
@@ -29678,7 +29678,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 17 (5d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 17 (5d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -31763,7 +31763,7 @@
     "special_abilities": [
       {
         "name": "Explosão da Morte",
-        "description": "O mephit explode ao morrer. Teste de resistência de Constituição: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano de Frio. Metade do dano.",
+        "description": "O mephit explode ao morrer. Teste de resistência de Constituição: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano de Frio. Sucesso: Metade do dano.",
         "saving_throws": [
           {
             "index": "saving-throw-con",
@@ -31812,7 +31812,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 10, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 7 (3d4) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 10, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 7 (3d4) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Congelante (Recarga 6)",
         "saving_throws": [
           {
@@ -32731,7 +32731,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 55 (10d10) de dano de veneno. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 18, cada criatura em um cone de 18 metros [60 feet] [Área de Efeito]. Falha: 55 (10d10) de dano de veneno. Sucesso: Metade do dano.",
         "name": "Hálito Venenoso (Recarga 6)",
         "saving_throws": [
           {
@@ -33501,7 +33501,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O kraken arremessa uma criatura Grande ou menor que esteja agarrada por ele para um espaço que ele possa ver a até 18 metros [60 feet] de si, que não esteja no ar. Teste de resistência de Destreza: CD 25, a criatura arremessada e cada criatura no espaço de destino. Falha: 18 (4d8) de dano de impacto, e o alvo fica caído. Apenas metade do dano é sofrido.",
+        "description": "O kraken arremessa uma criatura Grande ou menor que esteja agarrada por ele para um espaço que ele possa ver a até 18 metros [60 feet] de si, que não esteja no ar. Teste de resistência de Destreza: CD 25, a criatura arremessada e cada criatura no espaço de destino. Falha: 18 (4d8) de dano de impacto, e o alvo fica caído. Sucesso: Apenas metade do dano é sofrido.",
         "name": "Arremesso",
         "saving_throws": [
           {
@@ -33535,7 +33535,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 23, uma criatura que o kraken possa ver a até 36 metros [120 feet]. Falha: 33 (6d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 23, uma criatura que o kraken possa ver a até 36 metros [120 feet]. Falha: 33 (6d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Relâmpago",
         "saving_throws": [
           {
@@ -34419,7 +34419,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 20, para cada criatura que não seja um Morto-Vivo em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do lich. Falha: 31 (9d6) de dano necrótico. Metade do dano. O lich não pode realizar esta ação novamente até o início do seu próximo turno.",
+        "description": "Teste de resistência de Constituição: CD 20, para cada criatura que não seja um Morto-Vivo em uma Emanação [Área de Efeito] de 6 metros [20 feet] originada do lich. Falha: 31 (9d6) de dano necrótico. Sucesso: Metade do dano. O lich não pode realizar esta ação novamente até o início do seu próximo turno.",
         "name": "Transforme a Vida",
         "saving_throws": [
           {
@@ -35105,7 +35105,7 @@
     "special_abilities": [
       {
         "name": "Explosão da Morte",
-        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 11, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 7 (2d6) de dano de fogo. Metade do dano.",
+        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 11, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 7 (2d6) de dano de fogo. Sucesso: Metade do dano.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -35154,7 +35154,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 11, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 7 (2d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 11, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 7 (2d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 6)",
         "saving_throws": [
           {
@@ -35256,7 +35256,7 @@
     "special_abilities": [
       {
         "name": "Explosão da Morte",
-        "description": "O magmin explode ao morrer. Teste de resistência de Destreza: CD 11, cada criatura em uma Emanação [Área de Efeito] de 3 metros [10 feet] originada do magmin. Falha: 7 (2d6) de dano de fogo. Metade do dano.",
+        "description": "O magmin explode ao morrer. Teste de resistência de Destreza: CD 11, cada criatura em uma Emanação [Área de Efeito] de 3 metros [10 feet] originada do magmin. Falha: 7 (2d6) de dano de fogo. Sucesso: Metade do dano.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -35434,7 +35434,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 29 (4d10 + 7) de dano contundente. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, uma criatura a até 1,5 metro [5 feet] que esteja caída. Falha: 29 (4d10 + 7) de dano contundente. Sucesso: Metade do dano.",
         "name": "Pisotear",
         "saving_throws": [
           {
@@ -39409,7 +39409,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 14. Cada criatura é agarrada pelo otyugh. Falha: 16 (3d8 + 3) de dano contundente, e o alvo fica atordoado até o início do próximo turno do otyugh. Apenas metade do dano é reduzida.",
+        "description": "Teste de resistência de Constituição: CD 14. Cada criatura é agarrada pelo otyugh. Falha: 16 (3d8 + 3) de dano contundente, e o alvo fica atordoado até o início do próximo turno do otyugh. Sucesso: Apenas metade do dano é reduzida.",
         "name": "Golpe de Tentáculo",
         "saving_throws": [
           {
@@ -41056,7 +41056,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 20, cada inimigo em uma Esfera de 6 metros [20 feet] de raio [Área de Efeito] centrada em um ponto que o planetário possa ver a até 36 metros [120 feet]. Falha: 24 (7d6) de dano radiante. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 20, cada inimigo em uma Esfera de 6 metros [20 feet] de raio [Área de Efeito] centrada em um ponto que o planetário possa ver a até 36 metros [120 feet]. Falha: 24 (7d6) de dano radiante. Sucesso: Metade do dano.",
         "name": "Explosão Sagrada",
         "saving_throws": [
           {
@@ -43528,7 +43528,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 24 (7d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 24 (7d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -46697,7 +46697,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 18 (4d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 13, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 18 (4d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -47212,7 +47212,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "O solar se teletransporta até 18 metros [60 feet] para um espaço desocupado que possa ver. Teste de resistência de Destreza: CD 25, cada criatura em uma Emanação [Área de Efeito] de 3 metros [10 feet] originada do solar em seu espaço de destino. Falha: 11 (2d10) de dano radiante. Metade do dano.",
+        "description": "O solar se teletransporta até 18 metros [60 feet] para um espaço desocupado que possa ver. Teste de resistência de Destreza: CD 25, cada criatura em uma Emanação [Área de Efeito] de 3 metros [10 feet] originada do solar em seu espaço de destino. Falha: 11 (2d10) de dano radiante. Sucesso: Metade do dano.",
         "name": "Teletransporte Radiante",
         "saving_throws": [
           {
@@ -47967,7 +47967,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "A esfinge emite um rugido mágico. Cada vez que ruge, o rugido tem um efeito diferente, conforme detalhado abaixo (a sequência é reiniciada quando ela realiza um Descanso Longo): Primeiro Rugido: teste de resistência de Sabedoria: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: O alvo fica Amedrontado por 1 minuto. Segundo Rugido: teste de resistência de Sabedoria: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: O alvo fica Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o sucesso é automático. Terceiro Rugido: teste de resistência de Constituição: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: 44 (8d10) de dano de trovão, e o alvo fica caído. Apenas metade do dano é aplicada.",
+        "description": "A esfinge emite um rugido mágico. Cada vez que ruge, o rugido tem um efeito diferente, conforme detalhado abaixo (a sequência é reiniciada quando ela realiza um Descanso Longo): Primeiro Rugido: teste de resistência de Sabedoria: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: O alvo fica Amedrontado por 1 minuto. Segundo Rugido: teste de resistência de Sabedoria: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: O alvo fica Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o sucesso é automático. Terceiro Rugido: teste de resistência de Constituição: CD 20, cada inimigo em uma Emanação de 150 metros [500 feet] [Área de Efeito] originada da esfinge. Falha: 44 (8d10) de dano de trovão, e o alvo fica caído. Sucesso: Apenas metade do dano é aplicada.",
         "name": "Rugido (3/Dia)",
         "saving_throws": [],
         "conditions": []
@@ -49094,7 +49094,7 @@
       },
       {
         "name": "Explosão da Morte",
-        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano de fogo. Metade do dano.",
+        "description": "O mephit explode ao morrer. Teste de resistência de Destreza: CD 10, cada criatura em uma Emanação de 1,5 metro [5 feet] [Área de Efeito] originada do mephit. Falha: 5 (2d4) de dano de fogo. Sucesso: Metade do dano.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -49143,7 +49143,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 10, para cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 5 (2d4) de dano de fogo, e a velocidade do alvo diminui em 3 metros [10 feet] até o final do próximo turno do mephit. Apenas metade do dano. Estar submerso não concede resistência a este dano de fogo.",
+        "description": "Teste de resistência de Constituição: CD 10, para cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 5 (2d4) de dano de fogo, e a velocidade do alvo diminui em 3 metros [10 feet] até o final do próximo turno do mephit. Sucesso: Apenas metade do dano. Estar submerso não concede resistência a este dano de fogo.",
         "name": "Sopro de Vapor (Recarga 6)",
         "saving_throws": [
           {
@@ -49901,7 +49901,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 18, cada criatura em um Cilindro [Área de Efeito] de 3 metros [10 feet] de raio e 12 metros [40 feet] de altura, originado de um ponto que o gigante possa ver a até 150 metros [500 feet] de distância. Falha: 55 (10d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 18, cada criatura em um Cilindro [Área de Efeito] de 3 metros [10 feet] de raio e 12 metros [40 feet] de altura, originado de um ponto que o gigante possa ver a até 150 metros [500 feet] de distância. Falha: 55 (10d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Tempestade de Raios (Recarga 5-6)",
         "saving_throws": [
           {
@@ -50140,7 +50140,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 15, uma criatura enfeitiçada pela súcubo a até 1,5 metro [5 feet] de distância. Falha: 13 (3d8) de dano psíquico. Metade do dano. Os Pontos de Vida máximos do alvo diminuem em uma quantidade igual ao dano sofrido.",
+        "description": "Teste de resistência de Constituição: CD 15, uma criatura enfeitiçada pela súcubo a até 1,5 metro [5 feet] de distância. Falha: 13 (3d8) de dano psíquico. Sucesso: Metade do dano. Os Pontos de Vida máximos do alvo diminuem em uma quantidade igual ao dano sofrido.",
         "name": "Beijo Esgotante",
         "saving_throws": [
           {
@@ -51801,7 +51801,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 27, cada criatura e cada objeto que não esteja sendo usado ou carregado em um cone de 45 metros [150 feet] [Área de Efeito]. Falha: 78 (12d12) de dano trovejante, e o alvo fica ensurdecido e amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 27, cada criatura e cada objeto que não esteja sendo usado ou carregado em um cone de 45 metros [150 feet] [Área de Efeito]. Falha: 78 (12d12) de dano trovejante, e o alvo fica ensurdecido e amedrontado até o final do seu próximo turno. Sucesso: Apenas metade do dano.",
         "name": "Rugido Trovejante (Recarga 5-6)",
         "saving_throws": [
           {
@@ -55339,7 +55339,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Força: CD 15, para cada criatura no espaço do elemental. Falha: 22 (4d8 + 4) de dano contundente. Se o alvo for uma criatura Grande ou menor, ele fica com a condição Agarrado (CD 14 para escapar). Enquanto estiver agarrado, o alvo fica com a condição Imobilizado, sufocando (a menos que possa respirar debaixo d'água) e sofre 9 (2d8) de dano contundente no início de cada turno do elemental. O elemental pode agarrar uma criatura Grande ou até duas criaturas Médias ou menores por vez com Agarrar. Como uma ação, uma criatura a até 1,5 metro [5 feet] do elemental pode puxar uma criatura para fora dele, obtendo sucesso em um teste de Força (Atletismo) CD 14. Apenas metade do dano é reduzida.",
+        "description": "Teste de resistência de Força: CD 15, para cada criatura no espaço do elemental. Falha: 22 (4d8 + 4) de dano contundente. Se o alvo for uma criatura Grande ou menor, ele fica com a condição Agarrado (CD 14 para escapar). Enquanto estiver agarrado, o alvo fica com a condição Imobilizado, sufocando (a menos que possa respirar debaixo d'água) e sofre 9 (2d8) de dano contundente no início de cada turno do elemental. O elemental pode agarrar uma criatura Grande ou até duas criaturas Médias ou menores por vez com Agarrar. Como uma ação, uma criatura a até 1,5 metro [5 feet] do elemental pode puxar uma criatura para fora dele, obtendo sucesso em um teste de Força (Atletismo) CD 14. Sucesso: Apenas metade do dano é reduzida.",
         "name": "Sobrecarga (Recarga 4-6)",
         "saving_throws": [
           {
@@ -56562,7 +56562,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 22 (5d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 22 (5d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -57180,7 +57180,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 18 (4d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 12, cada criatura em um cone de 4,5 metros [15 feet] [Área de Efeito]. Falha: 18 (4d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -58174,7 +58174,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 49 (14d6) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 9 metros [30 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 49 (14d6) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -58357,7 +58357,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 16, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 55 (10d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 16, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 55 (10d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -58538,7 +58538,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 38 (11d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 38 (11d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -58750,7 +58750,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 15, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 49 (9d10) de dano elétrico. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 15, cada criatura em uma Linha de 18 metros [60 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 49 (9d10) de dano elétrico. Sucesso: Metade do dano.",
         "name": "Sopro Relâmpago (Recarga 5-6)",
         "saving_throws": [
           {
@@ -58950,7 +58950,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 40 (9d8) de dano ácido. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 14, cada criatura em uma Linha de 12 metros [40 feet] de comprimento por 1,5 metro [5 feet] de largura [Área de Efeito]. Falha: 40 (9d8) de dano ácido. Sucesso: Metade do dano.",
         "name": "Hálito Ácido (Recarga 5-6)",
         "saving_throws": [
           {
@@ -59156,7 +59156,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 55 (10d10) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 55 (10d10) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -59372,7 +59372,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 14, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 42 (12d6) de dano de veneno. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 14, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 42 (12d6) de dano de veneno. Sucesso: Metade do dano.",
         "name": "Hálito Venenoso (Recarga 5-6)",
         "saving_throws": [
           {
@@ -59555,7 +59555,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de fogo. Metade do dano.",
+        "description": "Teste de resistência de Destreza: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 56 (16d6) de dano de fogo. Sucesso: Metade do dano.",
         "name": "Sopro de Fogo (Recarga 5-6)",
         "saving_throws": [
           {
@@ -59730,7 +59730,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 49 (11d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 17, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 49 (11d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {
@@ -59952,7 +59952,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "Teste de resistência de Constituição: CD 15, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 40 (9d8) de dano de frio. Metade do dano.",
+        "description": "Teste de resistência de Constituição: CD 15, cada criatura em um cone de 9 metros [30 feet] [Área de Efeito]. Falha: 40 (9d8) de dano de frio. Sucesso: Metade do dano.",
         "name": "Sopro Frio (Recarga 5-6)",
         "saving_throws": [
           {

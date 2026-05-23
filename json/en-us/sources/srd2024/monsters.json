@@ -187,7 +187,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "int saving throw: DC 16, one creature within 30 feet that is Charmed or Grappled by the aboleth. Failure: 10 (3d6) Psychic damage. Half damage. The aboleth gains the target's memories if the target is a Humanoid and is reduced to 0 Hit Points by this action.",
+        "description": "int saving throw: DC 16, one creature within 30 feet that is Charmed or Grappled by the aboleth. Failure: 10 (3d6) Psychic damage. Success: Half damage. The aboleth gains the target's memories if the target is a Humanoid and is reduced to 0 Hit Points by this action.",
         "name": "Consume Memories",
         "saving_throws": [
           {
@@ -451,7 +451,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 54 (12d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 54 (12d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -737,7 +737,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 60 (11d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 60 (11d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -1025,7 +1025,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 45 (10d8) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 45 (10d8) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -1359,7 +1359,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 55 (10d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -1688,7 +1688,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in an 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 54 (12d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in an 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 54 (12d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -2010,7 +2010,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 21, each creature in a 60-foot Cone [Area of Effect]. Failure: 66 (12d10) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 21, each creature in a 60-foot Cone [Area of Effect]. Failure: 66 (12d10) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -2339,7 +2339,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 18, each creature in a 60-foot Cone [Area of Effect]. Failure: 56 (16d6) Poison damage. Half damage.",
+        "description": "con saving throw: DC 18, each creature in a 60-foot Cone [Area of Effect]. Failure: 56 (16d6) Poison damage. Success: Half damage.",
         "name": "Poison Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -2613,7 +2613,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 21, each creature in a 60-foot Cone [Area of Effect]. Failure: 59 (17d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 21, each creature in a 60-foot Cone [Area of Effect]. Failure: 59 (17d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -2878,7 +2878,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 20, each creature in a 60-foot Cone [Area of Effect]. Failure: 54 (12d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 20, each creature in a 60-foot Cone [Area of Effect]. Failure: 54 (12d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -3000,7 +3000,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 19, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Half damage only. The dragon can't take this action again until the start of its next turn.",
+        "description": "dex saving throw: DC 19, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Success: Half damage only. The dragon can't take this action again until the start of its next turn.",
         "name": "Cold Gale",
         "saving_throws": [
           {
@@ -3208,7 +3208,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 19, each creature in a 60-foot Cone [Area of Effect]. Failure: 54 (12d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 19, each creature in a 60-foot Cone [Area of Effect]. Failure: 54 (12d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -3487,7 +3487,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "str saving throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Half damage only.",
+        "description": "str saving throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.",
         "name": "Whirlwind (Recharge 4-6)",
         "saving_throws": [
           {
@@ -3818,7 +3818,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 22, each creature in a 90-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 67 (15d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 22, each creature in a 90-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 67 (15d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -4110,7 +4110,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 88 (16d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 88 (16d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -4398,7 +4398,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 21, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 58 (13d8) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 21, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 58 (13d8) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -4732,7 +4732,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 82 (15d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 82 (15d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -5073,7 +5073,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 22, each creature in an 90-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 63 (14d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 22, each creature in an 90-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 63 (14d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -5401,7 +5401,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 71 (13d10) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 71 (13d10) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -5736,7 +5736,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 22, each creature in a 90-foot Cone [Area of Effect]. Failure: 77 (22d6) Poison damage. Half damage.",
+        "description": "con saving throw: DC 22, each creature in a 90-foot Cone [Area of Effect]. Failure: 77 (22d6) Poison damage. Success: Half damage.",
         "name": "Poison Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -6016,7 +6016,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 91 (26d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 91 (26d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -6287,7 +6287,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 67 (15d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 24, each creature in a 90-foot Cone [Area of Effect]. Failure: 67 (15d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -6421,7 +6421,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 23, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Half damage only. The dragon can't take this action again until the start of its next turn.",
+        "description": "dex saving throw: DC 23, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Success: Half damage only. The dragon can't take this action again until the start of its next turn.",
         "name": "Cold Gale",
         "saving_throws": [
           {
@@ -6629,7 +6629,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 22, each creature in a 90-foot Cone [Area of Effect]. Failure: 63 (14d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 22, each creature in a 90-foot Cone [Area of Effect]. Failure: 63 (14d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -7330,7 +7330,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Acid damage. Success: Half damage.",
         "name": "Acid Spray (Recharge 6)",
         "saving_throws": [
           {
@@ -9098,7 +9098,7 @@
     "special_abilities": [
       {
         "name": "Death Throes",
-        "description": "The balor explodes when it dies. dex saving throw: DC 20, each creature in a 30-foot Emanation [Area of Effect] originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6) Force damage. Half damage. If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
+        "description": "The balor explodes when it dies. dex saving throw: DC 20, each creature in a 30-foot Emanation [Area of Effect] originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6) Force damage. Success: Half damage. If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -10335,7 +10335,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 66 (12d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 16, each creature in a 90-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 66 (12d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -10807,7 +10807,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 11, each creature in a 15-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 22 (5d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 11, each creature in a 15-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 22 (5d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -11440,7 +11440,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 21 (6d6) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 21 (6d6) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -11947,7 +11947,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 14 (4d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -12154,7 +12154,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 16 (3d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 16 (3d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -12809,7 +12809,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The bulette spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures. dex saving throw: DC 15, each creature in the bulette's destination space. Failure: 19 (3d12) Bludgeoning damage, and the target has the Prone condition. Half damage, and the target is pushed 5 feet straight away from the bulette.",
+        "description": "The bulette spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures. dex saving throw: DC 15, each creature in the bulette's destination space. Failure: 19 (3d12) Bludgeoning damage, and the target has the Prone condition. Success: Half damage, and the target is pushed 5 feet straight away from the bulette.",
         "name": "Deadly Leap",
         "saving_throws": [
           {
@@ -13653,7 +13653,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 15, each creature in a 15-foot Cone [Area of Effect]. Failure: 31 (7d8) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 15, each creature in a 15-foot Cone [Area of Effect]. Failure: 31 (7d8) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -15055,7 +15055,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 18 (4d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 18 (4d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -17507,7 +17507,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 19, each creature in a 60-foot Cone [Area of Effect]. Failure: 56 (16d6) Fire damage. Half damage. Being underwater doesn't grant Resistance to this Fire damage.",
+        "description": "con saving throw: DC 19, each creature in a 60-foot Cone [Area of Effect]. Failure: 56 (16d6) Fire damage. Success: Half damage. Being underwater doesn't grant Resistance to this Fire damage.",
         "name": "Steam Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -18418,7 +18418,7 @@
     "special_abilities": [
       {
         "name": "Death Burst",
-        "description": "The mephit explodes when it dies. dex saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Half damage.",
+        "description": "The mephit explodes when it dies. dex saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -19167,7 +19167,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Half damage.",
+        "description": "dex saving throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
         "name": "Trample",
         "saving_throws": [
           {
@@ -21247,7 +21247,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The cube moves up to its Speed without provoking Opportunity Attack. The cube can move through the spaces of Large or smaller creatures if it has room inside itself to contain them (see the Ooze Cube [Area of Effect] trait). dex saving throw: DC 12, each creature whose space the cube enters for the first time during this move. Failure: 10 (3d6) Acid damage, and the target is engulfed. An engulfed target is suffocating, can't cast spells with a Verbal component, has the Restrained condition, and takes 10 (3d6) Acid damage at the start of each of the cube's turns. When the cube moves, the engulfed target moves with it. An engulfed target can try to escape by taking an action to make a DC 12 Strength (Athletics) check. On a successful check, the target escapes and enters the nearest unoccupied space. Half damage, and the target moves to an unoccupied space within 5 feet of the cube. If there is no unoccupied space, the target fails the save instead.",
+        "description": "The cube moves up to its Speed without provoking Opportunity Attack. The cube can move through the spaces of Large or smaller creatures if it has room inside itself to contain them (see the Ooze Cube [Area of Effect] trait). dex saving throw: DC 12, each creature whose space the cube enters for the first time during this move. Failure: 10 (3d6) Acid damage, and the target is engulfed. An engulfed target is suffocating, can't cast spells with a Verbal component, has the Restrained condition, and takes 10 (3d6) Acid damage at the start of each of the cube's turns. When the cube moves, the engulfed target moves with it. An engulfed target can try to escape by taking an action to make a DC 12 Strength (Athletics) check. On a successful check, the target escapes and enters the nearest unoccupied space. Success: Half damage, and the target moves to an unoccupied space within 5 feet of the cube. If there is no unoccupied space, the target fails the save instead.",
         "name": "Engulf",
         "saving_throws": [
           {
@@ -22072,7 +22072,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The ape hurls a boulder at a point it can see within 90 feet. dex saving throw: DC 17, each creature in a 5-foot-radius Sphere [Area of Effect] centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Half damage only.",
+        "description": "The ape hurls a boulder at a point it can see within 90 feet. dex saving throw: DC 17, each creature in a 5-foot-radius Sphere [Area of Effect] centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only.",
         "name": "Boulder Toss (Recharge 6)",
         "saving_throws": [
           {
@@ -26190,7 +26190,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Half damage.",
+        "description": "dex saving throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage.",
         "name": "Pummel",
         "saving_throws": [
           {
@@ -27319,7 +27319,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 22 (4d10) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 22 (4d10) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -27511,7 +27511,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Half damage.",
+        "description": "dex saving throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Success: Half damage.",
         "name": "Trample",
         "saving_throws": [
           {
@@ -27896,7 +27896,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 11, each creature in a 15-foot Cone [Area of Effect]. Failure: 21 (6d6) Poison damage. Half damage.",
+        "description": "con saving throw: DC 11, each creature in a 15-foot Cone [Area of Effect]. Failure: 21 (6d6) Poison damage. Success: Half damage.",
         "name": "Poison Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -29036,7 +29036,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Half damage only.",
+        "description": "con saving throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.",
         "name": "Poisonous Spittle",
         "saving_throws": [
           {
@@ -29258,7 +29258,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 28 (8d6) damage of the type chosen for the Draconic Origin trait. Half damage.",
+        "description": "dex saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 28 (8d6) damage of the type chosen for the Draconic Origin trait. Success: Half damage.",
         "name": "Dragon's Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -29678,7 +29678,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 17 (5d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 17 (5d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -31763,7 +31763,7 @@
     "special_abilities": [
       {
         "name": "Death Burst",
-        "description": "The mephit explodes when it dies. con saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Cold damage. Half damage.",
+        "description": "The mephit explodes when it dies. con saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-con",
@@ -31812,7 +31812,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 10, each creature in a 15-foot Cone [Area of Effect]. Failure: 7 (3d4) Cold damage. Half damage.",
+        "description": "con saving throw: DC 10, each creature in a 15-foot Cone [Area of Effect]. Failure: 7 (3d4) Cold damage. Success: Half damage.",
         "name": "Frost Breath (Recharge 6)",
         "saving_throws": [
           {
@@ -32731,7 +32731,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 18, each creature in a 60-foot Cone [Area of Effect]. Failure: 55 (10d10) Poison damage. Half damage.",
+        "description": "con saving throw: DC 18, each creature in a 60-foot Cone [Area of Effect]. Failure: 55 (10d10) Poison damage. Success: Half damage.",
         "name": "Poison Breath (Recharge 6)",
         "saving_throws": [
           {
@@ -33501,7 +33501,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The kraken throws a Large or smaller creature Grappled by it to a space it can see within 60 feet of itself that isn't in the air. dex saving throw: DC 25, the creature thrown and each creature in the destination space. Failure: 18 (4d8) Bludgeoning damage, and the target has the Prone condition. Half damage only.",
+        "description": "The kraken throws a Large or smaller creature Grappled by it to a space it can see within 60 feet of itself that isn't in the air. dex saving throw: DC 25, the creature thrown and each creature in the destination space. Failure: 18 (4d8) Bludgeoning damage, and the target has the Prone condition. Success: Half damage only.",
         "name": "Fling",
         "saving_throws": [
           {
@@ -33535,7 +33535,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 23, one creature the kraken can see within 120 feet. Failure: 33 (6d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 23, one creature the kraken can see within 120 feet. Failure: 33 (6d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Strike",
         "saving_throws": [
           {
@@ -34419,7 +34419,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 20, each creature that isn't an Undead in a 20-foot Emanation [Area of Effect] originating from the lich. Failure: 31 (9d6) Necrotic damage. Half damage. The lich can't take this action again until the start of its next turn.",
+        "description": "con saving throw: DC 20, each creature that isn't an Undead in a 20-foot Emanation [Area of Effect] originating from the lich. Failure: 31 (9d6) Necrotic damage. Success: Half damage. The lich can't take this action again until the start of its next turn.",
         "name": "Disrupt Life",
         "saving_throws": [
           {
@@ -35105,7 +35105,7 @@
     "special_abilities": [
       {
         "name": "Death Burst",
-        "description": "The mephit explodes when it dies. dex saving throw: DC 11, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 7 (2d6) Fire damage. Half damage.",
+        "description": "The mephit explodes when it dies. dex saving throw: DC 11, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 7 (2d6) Fire damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -35154,7 +35154,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 11, each creature in a 15-foot Cone [Area of Effect]. Failure: 7 (2d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 11, each creature in a 15-foot Cone [Area of Effect]. Failure: 7 (2d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 6)",
         "saving_throws": [
           {
@@ -35256,7 +35256,7 @@
     "special_abilities": [
       {
         "name": "Death Burst",
-        "description": "The magmin explodes when it dies. dex saving throw: DC 11, each creature in a 10-foot Emanation [Area of Effect] originating from the magmin. Failure: 7 (2d6) Fire damage. Half damage.",
+        "description": "The magmin explodes when it dies. dex saving throw: DC 11, each creature in a 10-foot Emanation [Area of Effect] originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -35434,7 +35434,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Half damage.",
+        "description": "dex saving throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage.",
         "name": "Trample",
         "saving_throws": [
           {
@@ -39409,7 +39409,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Half damage only.",
+        "description": "con saving throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only.",
         "name": "Tentacle Slam",
         "saving_throws": [
           {
@@ -41056,7 +41056,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 20, each enemy in a 20-foot-radius Sphere [Area of Effect] centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Half damage.",
+        "description": "dex saving throw: DC 20, each enemy in a 20-foot-radius Sphere [Area of Effect] centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.",
         "name": "Holy Burst",
         "saving_throws": [
           {
@@ -43528,7 +43528,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 24 (7d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 24 (7d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -46697,7 +46697,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 18 (4d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 13, each creature in a 15-foot Cone [Area of Effect]. Failure: 18 (4d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -47212,7 +47212,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The solar teleports up to 60 feet to an unoccupied space it can see. dex saving throw: DC 25, each creature in a 10-foot Emanation [Area of Effect] originating from the solar at its destination space. Failure: 11 (2d10) Radiant damage. Half damage.",
+        "description": "The solar teleports up to 60 feet to an unoccupied space it can see. dex saving throw: DC 25, each creature in a 10-foot Emanation [Area of Effect] originating from the solar at its destination space. Failure: 11 (2d10) Radiant damage. Success: Half damage.",
         "name": "Radiant Teleport",
         "saving_throws": [
           {
@@ -47967,7 +47967,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest): First Roar: wis saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: The target has the Frightened condition for 1 minute. Second Roar: wis saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Third Roar: con saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: 44 (8d10) Thunder damage, and the target has the Prone condition. Half damage only.",
+        "description": "The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest): First Roar: wis saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: The target has the Frightened condition for 1 minute. Second Roar: wis saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Third Roar: con saving throw: DC 20, each enemy in a 500-foot Emanation [Area of Effect] originating from the sphinx. Failure: 44 (8d10) Thunder damage, and the target has the Prone condition. Success: Half damage only.",
         "name": "Roar (3/Day)",
         "saving_throws": [],
         "conditions": []
@@ -49094,7 +49094,7 @@
       },
       {
         "name": "Death Burst",
-        "description": "The mephit explodes when it dies. dex saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Fire damage. Half damage.",
+        "description": "The mephit explodes when it dies. dex saving throw: DC 10, each creature in a 5-foot Emanation [Area of Effect] originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -49143,7 +49143,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 10, each creature in a 15-foot Cone [Area of Effect]. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Half damage only. Being underwater doesn't grant Resistance to this Fire damage.",
+        "description": "con saving throw: DC 10, each creature in a 15-foot Cone [Area of Effect]. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Being underwater doesn't grant Resistance to this Fire damage.",
         "name": "Steam Breath (Recharge 6)",
         "saving_throws": [
           {
@@ -49901,7 +49901,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder [Area of Effect] originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder [Area of Effect] originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Storm (Recharge 5-6)",
         "saving_throws": [
           {
@@ -50140,7 +50140,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 15, one creature Charmed by the succubus within 5 feet. Failure: 13 (3d8) Psychic damage. Half damage. The target's Hit Points maximum decreases by an amount equal to the damage taken.",
+        "description": "con saving throw: DC 15, one creature Charmed by the succubus within 5 feet. Failure: 13 (3d8) Psychic damage. Success: Half damage. The target's Hit Points maximum decreases by an amount equal to the damage taken.",
         "name": "Draining Kiss",
         "saving_throws": [
           {
@@ -51801,7 +51801,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone [Area of Effect]. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Half damage only.",
+        "description": "con saving throw: DC 27, each creature and each object that isn't being worn or carried in a 150-foot Cone [Area of Effect]. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only.",
         "name": "Thunderous Bellow (Recharge 5-6)",
         "saving_throws": [
           {
@@ -55339,7 +55339,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "str saving throw: DC 15, each creature in the elemental's space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental's turns. The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Half damage only.",
+        "description": "str saving throw: DC 15, each creature in the elemental's space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental's turns. The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Success: Half damage only.",
         "name": "Whelm (Recharge 4-6)",
         "saving_throws": [
           {
@@ -56562,7 +56562,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 22 (5d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 22 (5d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -57180,7 +57180,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 18 (4d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 12, each creature in a 15-foot Cone [Area of Effect]. Failure: 18 (4d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -58174,7 +58174,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 49 (14d6) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 49 (14d6) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -58357,7 +58357,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 55 (10d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -58538,7 +58538,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 38 (11d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 38 (11d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -58750,7 +58750,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 49 (9d10) Lightning damage. Half damage.",
+        "description": "dex saving throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 49 (9d10) Lightning damage. Success: Half damage.",
         "name": "Lightning Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -58950,7 +58950,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 40 (9d8) Acid damage. Half damage.",
+        "description": "dex saving throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line [Area of Effect]. Failure: 40 (9d8) Acid damage. Success: Half damage.",
         "name": "Acid Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -59156,7 +59156,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 55 (10d10) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 55 (10d10) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -59372,7 +59372,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 42 (12d6) Poison damage. Half damage.",
+        "description": "con saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 42 (12d6) Poison damage. Success: Half damage.",
         "name": "Poison Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -59555,7 +59555,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 56 (16d6) Fire damage. Half damage.",
+        "description": "dex saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 56 (16d6) Fire damage. Success: Half damage.",
         "name": "Fire Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -59730,7 +59730,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 49 (11d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 17, each creature in a 30-foot Cone [Area of Effect]. Failure: 49 (11d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -59952,7 +59952,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 15, each creature in a 30-foot Cone [Area of Effect]. Failure: 40 (9d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 15, each creature in a 30-foot Cone [Area of Effect]. Failure: 40 (9d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 5-6)",
         "saving_throws": [
           {

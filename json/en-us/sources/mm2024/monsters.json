@@ -522,7 +522,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 15, one creature the cultist can see within 90 feet. Failure: 27 (6d8) Psychic damage, and the target has the Poisoned condition until the start of the cultist's next turn. Half damage only.",
+        "description": "wis saving throw: DC 15, one creature the cultist can see within 90 feet. Failure: 27 (6d8) Psychic damage, and the target has the Poisoned condition until the start of the cultist's next turn. Success: Half damage only.",
         "name": "Mind Rot",
         "saving_throws": [
           {
@@ -800,7 +800,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 18, each creature in a 30-foot Cone [Area of Effect]. Failure: 45 (10d8) Cold damage. Half damage.",
+        "description": "con saving throw: DC 18, each creature in a 30-foot Cone [Area of Effect]. Failure: 45 (10d8) Cold damage. Success: Half damage.",
         "name": "Cold Breath (Recharge 6)",
         "saving_throws": [
           {
@@ -1076,7 +1076,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The animal lord conjures an animal spirit that strikes at a creature and then disappears. dex saving throw: DC 20, one creature the animal lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Half damage. One of the following effects occurs: Fortify (Forager Only): The animal lord gains 20 Temporary Hit Points. Marked as Prey (Hunter Only): The animal lord has Advantage on attack rolls against the target until the start of the animal lord's next turn. Pesky Swarm (Sage Only): The target has Disadvantage on attack rolls and ability checks until the end of its next turn.",
+        "description": "The animal lord conjures an animal spirit that strikes at a creature and then disappears. dex saving throw: DC 20, one creature the animal lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success: Half damage. One of the following effects occurs: Fortify (Forager Only): The animal lord gains 20 Temporary Hit Points. Marked as Prey (Hunter Only): The animal lord has Advantage on attack rolls against the target until the start of the animal lord's next turn. Pesky Swarm (Sage Only): The target has Disadvantage on attack rolls and ability checks until the end of its next turn.",
         "name": "Animal Spirit",
         "saving_throws": [
           {
@@ -1949,7 +1949,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 22, each creature in a 60-foot Cone [Area of Effect]. Failure: 32 (5d12) Lightning damage. Half damage. The target is cursed until the end of the hag's next turn. The target can't take Reactions until the curse ends.",
+        "description": "dex saving throw: DC 22, each creature in a 60-foot Cone [Area of Effect]. Failure: 32 (5d12) Lightning damage. Success: Half damage. The target is cursed until the end of the hag's next turn. The target can't take Reactions until the curse ends.",
         "name": "Crackling Wave",
         "saving_throws": [
           {
@@ -2247,7 +2247,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 17, each enemy in a 20-foot Emanation [Area of Effect] originating from the archpriest. Failure: 21 (6d6) Radiant damage, and the target has the Stunned condition until the end of the archpriest's next turn. Half damage only.",
+        "description": "wis saving throw: DC 17, each enemy in a 20-foot Emanation [Area of Effect] originating from the archpriest. Failure: 21 (6d6) Radiant damage, and the target has the Stunned condition until the end of the archpriest's next turn. Success: Half damage only.",
         "name": "Holy Word (Recharge 4-6)",
         "saving_throws": [
           {
@@ -2941,7 +2941,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 14, each creature in a 10-foot-radius Sphere [Area of Effect] centered on a point the bandit can see within 120 feet. Failure: 13 (3d6 + 3) Radiant damage, and the target has the Blinded condition until the start of the bandit's next turn. Half damage only.",
+        "description": "con saving throw: DC 14, each creature in a 10-foot-radius Sphere [Area of Effect] centered on a point the bandit can see within 120 feet. Failure: 13 (3d6 + 3) Radiant damage, and the target has the Blinded condition until the start of the bandit's next turn. Success: Half damage only.",
         "name": "Blinding Flash (Recharge 4-6)",
         "saving_throws": [
           {
@@ -3713,7 +3713,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 16. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only.",
+        "description": "wis saving throw: DC 16. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Success: Half damage only.",
         "name": "Eye Rays 1: Charm Ray",
         "saving_throws": [
           {
@@ -3762,7 +3762,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 16. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only.",
+        "description": "wis saving throw: DC 16. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Success: Half damage only.",
         "name": "Eye Rays 3: Fear Ray",
         "saving_throws": [
           {
@@ -3791,7 +3791,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 16. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both. Half damage only.",
+        "description": "con saving throw: DC 16. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both. Success: Half damage only.",
         "name": "Eye Rays 4: Slowing Ray",
         "saving_throws": [
           {
@@ -3814,7 +3814,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 16. Failure: 13 (3d8) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only",
+        "description": "con saving throw: DC 16. Failure: 13 (3d8) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only",
         "name": "Eye Rays 5: Enervation Ray",
         "saving_throws": [
           {
@@ -3908,7 +3908,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "description": "dex saving throw: DC 16. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Success: Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
         "name": "Eye Rays 9: Disintegration Ray",
         "saving_throws": [
           {
@@ -3931,7 +3931,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 16. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "description": "dex saving throw: DC 16. Failure: 55 (10d10) Necrotic damage. Success: Half damage. The target dies if the ray reduces it to 0 Hit Points.",
         "name": "Eye Rays 10: Death Ray",
         "saving_throws": [
           {
@@ -4197,7 +4197,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "description": "con saving throw: DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only.",
         "name": "Eye Rays 3: Enervation Ray",
         "saving_throws": [
           {
@@ -4226,7 +4226,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "description": "dex saving throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Success: Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
         "name": "Eye Rays 4: Disintegration Ray",
         "saving_throws": [
           {
@@ -4692,7 +4692,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The blob lobs a slimy glob at one Large or smaller creature it can see within 600 feet of itself. dex saving throw: DC 23, the targeted creature. Failure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight toward the blob, and the target has the Restrained condition until the end of its next turn, when the glob harmlessly dissolves. Half damage only.",
+        "description": "The blob lobs a slimy glob at one Large or smaller creature it can see within 600 feet of itself. dex saving throw: DC 23, the targeted creature. Failure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight toward the blob, and the target has the Restrained condition until the end of its next turn, when the glob harmlessly dissolves. Success: Half damage only.",
         "name": "Restraining Glob",
         "saving_throws": [
           {
@@ -7103,7 +7103,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 26, each creature in a 300-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 65 (10d12) Radiant damage. Half damage. A creature reduced to 0 Hit Points by this beam disintegrates into dust, leaving behind any magic items it was wearing or carrying.",
+        "description": "dex saving throw: DC 26, each creature in a 300-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 65 (10d12) Radiant damage. Success: Half damage. A creature reduced to 0 Hit Points by this beam disintegrates into dust, leaving behind any magic items it was wearing or carrying.",
         "name": "Divine Beam (Recharge 5-6)",
         "saving_throws": [
           {
@@ -8297,7 +8297,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 14, each creature in a 20-foot Emanation [Area of Effect] originating from the cultist. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only.",
+        "description": "wis saving throw: DC 14, each creature in a 20-foot Emanation [Area of Effect] originating from the cultist. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Success: Half damage only.",
         "name": "Spirit Wail (Recharge 5-6)",
         "saving_throws": [
           {
@@ -8521,7 +8521,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the death knight can see within 120 feet. Failure: 35 (10d6) Fire damage plus 35 (10d6) Necrotic damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the death knight can see within 120 feet. Failure: 35 (10d6) Fire damage plus 35 (10d6) Necrotic damage. Success: Half damage.",
         "name": "Hellfire Orb (Recharge 5-6)",
         "saving_throws": [
           {
@@ -8817,7 +8817,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the aspirant can see within 120 feet of itself. Failure: 21 (6d6) Fire damage plus 21 (6d6) Necrotic damage. Half damage.",
+        "description": "dex saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the aspirant can see within 120 feet of itself. Failure: 21 (6d6) Fire damage plus 21 (6d6) Necrotic damage. Success: Half damage.",
         "name": "Hellfire Orb (Recharge 5-6)",
         "saving_throws": [
           {
@@ -9347,7 +9347,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 17. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only.",
+        "description": "wis saving throw: DC 17. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Success: Half damage only.",
         "name": "Eye Rays 1: Charm Ray",
         "saving_throws": [
           {
@@ -9396,7 +9396,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 17. Failure: 10 (3d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only.",
+        "description": "wis saving throw: DC 17. Failure: 10 (3d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Success: Half damage only.",
         "name": "Eye Rays 3: Fear Ray",
         "saving_throws": [
           {
@@ -9425,7 +9425,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 17. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. Half damage only.",
+        "description": "con saving throw: DC 17. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. Success: Half damage only.",
         "name": "Eye Rays 4: Slowing Ray",
         "saving_throws": [
           {
@@ -9448,7 +9448,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "description": "con saving throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only.",
         "name": "Eye Rays 5: Enervation Ray",
         "saving_throws": [
           {
@@ -9542,7 +9542,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "description": "dex saving throw: DC 17. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Success: Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
         "name": "Eye Rays 9: Disintegration Ray",
         "saving_throws": [
           {
@@ -9565,7 +9565,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "description": "dex saving throw: DC 17. Failure: 55 (10d10) Necrotic damage. Success: Half damage. The target dies if the ray reduces it to 0 Hit Points.",
         "name": "Eye Rays 10: Death Ray",
         "saving_throws": [
           {
@@ -10075,7 +10075,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 16, each creature within 30 feet that isn't a worg. Failure: 36 (8d8) Psychic damage, and the target has the Frightened condition until the start of the worg's next turn. Half damage only.",
+        "description": "wis saving throw: DC 16, each creature within 30 feet that isn't a worg. Failure: 36 (8d8) Psychic damage, and the target has the Frightened condition until the start of the worg's next turn. Success: Half damage only.",
         "name": "Dreadful Howl (Recharge 5-6)",
         "saving_throws": [
           {
@@ -10487,7 +10487,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 20, each creature in a 60-foot Cone [Area of Effect]. Failure: 52 (8d12) Necrotic damage. Half damage.",
+        "description": "con saving throw: DC 20, each creature in a 60-foot Cone [Area of Effect]. Failure: 52 (8d12) Necrotic damage. Success: Half damage.",
         "name": "Necrotic Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -10863,7 +10863,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The cataclysm creates one of the following effects at random (roll 1d4): 1: Clinging Flames: dex saving throw: DC 23, each creature in a 60-foot-radius Sphere [Area of Effect] centered on a point the cataclysm can see within 150 feet. Failure: 45 (13d6) Fire damage. Half damage. The target starts burning. 2: Freezing Waves: str saving throw: DC 23, each creature in a 90-foot Cone [Area of Effect]. Failure: 22 (5d8) Bludgeoning damage plus 22 (5d8) Cold damage, and the target has the Prone condition. Half damage only. The target's Speed is reduced to 0 until the end of its next turn. 3: Raging Storm: A storm cloud fills a 60-foot-radius Sphere [Area of Effect] centered on a point the cataclysm can see within 150 feet. The cloud lasts for 1 minute or until the cataclysm uses Cataclysmic Event again. Creatures entirely in the cloud have the Blinded and Deafened conditions and can't cast spells with a Verbal component. dex saving throw: DC 23, each creature that enters the cloud for the first time on a turn or starts its turn there. Failure: 18 (4d8) Lightning damage plus 18 (4d8) Thunder damage. Half damage. 4: Swallowing Earth: str saving throw: DC 23, each creature in a 90-foot Cube [Area of Effect] originating from a point on the ground within 150 feet. Failure: 18 (4d8) Bludgeoning damage plus 18 (4d8) Acid damage, and the target has the Prone condition and is buried under rubble. A buried target has the Restrained condition, has Cover, and is suffocating. As an action, a buried creature or another creature within 5 feet of it can make a DC 18 Strength (Athletics) check. On a successful check, the creature is no longer buried. Half damage only.",
+        "description": "The cataclysm creates one of the following effects at random (roll 1d4): 1: Clinging Flames: dex saving throw: DC 23, each creature in a 60-foot-radius Sphere [Area of Effect] centered on a point the cataclysm can see within 150 feet. Failure: 45 (13d6) Fire damage. Success: Half damage. The target starts burning. 2: Freezing Waves: str saving throw: DC 23, each creature in a 90-foot Cone [Area of Effect]. Failure: 22 (5d8) Bludgeoning damage plus 22 (5d8) Cold damage, and the target has the Prone condition. Success: Half damage only. The target's Speed is reduced to 0 until the end of its next turn. 3: Raging Storm: A storm cloud fills a 60-foot-radius Sphere [Area of Effect] centered on a point the cataclysm can see within 150 feet. The cloud lasts for 1 minute or until the cataclysm uses Cataclysmic Event again. Creatures entirely in the cloud have the Blinded and Deafened conditions and can't cast spells with a Verbal component. dex saving throw: DC 23, each creature that enters the cloud for the first time on a turn or starts its turn there. Failure: 18 (4d8) Lightning damage plus 18 (4d8) Thunder damage. Success: Half damage. 4: Swallowing Earth: str saving throw: DC 23, each creature in a 90-foot Cube [Area of Effect] originating from a point on the ground within 150 feet. Failure: 18 (4d8) Bludgeoning damage plus 18 (4d8) Acid damage, and the target has the Prone condition and is buried under rubble. A buried target has the Restrained condition, has Cover, and is suffocating. As an action, a buried creature or another creature within 5 feet of it can make a DC 18 Strength (Athletics) check. On a successful check, the creature is no longer buried. Success: Half damage only.",
         "name": "Cataclysmic Event (Recharge 4-6)",
         "saving_throws": [],
         "conditions": []
@@ -11393,7 +11393,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 23, each creature in a 30-foot Emanation [Area of Effect] originating from the empyrean. Failure: 27 (6d8) Force damage, and the target has the Prone condition. Half damage only. The empyrean can't take this action again until the start of its next turn.",
+        "description": "con saving throw: DC 23, each creature in a 30-foot Emanation [Area of Effect] originating from the empyrean. Failure: 27 (6d8) Force damage, and the target has the Prone condition. Success: Half damage only. The empyrean can't take this action again until the start of its next turn.",
         "name": "Shockwave of Glory",
         "saving_throws": [
           {
@@ -12607,7 +12607,7 @@
     "special_abilities": [
       {
         "name": "Death Burst",
-        "description": "The skeleton explodes when it dies. dex saving throw: DC 12, each creature in a 10-foot Emanation [Area of Effect] originating from the skeleton. Failure: 14 (4d6) Fire damage. Half damage.",
+        "description": "The skeleton explodes when it dies. dex saving throw: DC 12, each creature in a 10-foot Emanation [Area of Effect] originating from the skeleton. Failure: 14 (4d6) Fire damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
@@ -12990,7 +12990,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 16, one creature the fomorian can see within 120 feet. Failure: 21 (6d6) Psychic damage, and the target gains 1 Exhaustion level. Half damage only.",
+        "description": "wis saving throw: DC 16, one creature the fomorian can see within 120 feet. Failure: 21 (6d6) Psychic damage, and the target gains 1 Exhaustion level. Success: Half damage only.",
         "name": "Warping Hex (Recharge 4-6)",
         "saving_throws": [
           {
@@ -14068,7 +14068,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 90-foot Cone [Area of Effect]. Failure: 27 (6d8) Fire damage plus 27 (6d8) Force damage. Half damage.",
+        "description": "dex saving throw: DC 18, each creature in a 90-foot Cone [Area of Effect]. Failure: 27 (6d8) Fire damage plus 27 (6d8) Force damage. Success: Half damage.",
         "name": "Conjured Dragon's Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -15380,7 +15380,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The gnoll conjures a 30-foot Cube [Area of Effect] of magical Darkness originating from a point it can see within 60 feet, which lasts for 1 minute or until the gnoll's Concentration ends on it. This area is Difficult Terrain. dex saving throw: DC 14, any creature that starts its turn in this area or enters it for the first time on a turn. Failure: 28 (8d6) Necrotic damage, and the gnoll or a creature of its choice it can see gains 10 Temporary Hit Points. Half damage only.",
+        "description": "The gnoll conjures a 30-foot Cube [Area of Effect] of magical Darkness originating from a point it can see within 60 feet, which lasts for 1 minute or until the gnoll's Concentration ends on it. This area is Difficult Terrain. dex saving throw: DC 14, any creature that starts its turn in this area or enters it for the first time on a turn. Failure: 28 (8d6) Necrotic damage, and the gnoll or a creature of its choice it can see gains 10 Temporary Hit Points. Success: Half damage only.",
         "name": "Hunger of Yeenoghu (Recharge 5-6)",
         "saving_throws": [
           {
@@ -18710,7 +18710,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 13, each creature in a 30-foot Cone [Area of Effect]. Failure: 17 (5d6) Necrotic damage. Half damage. A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from its corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon.",
+        "description": "dex saving throw: DC 13, each creature in a 30-foot Cone [Area of Effect]. Failure: 17 (5d6) Necrotic damage. Success: Half damage. A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from its corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon.",
         "name": "Shadow Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -20037,7 +20037,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 12, each creature in a 20-foot-radius, 40-foot-high Cylinder [Area of Effect] centered on a point the lizardfolk can see within 60 feet. Failure: 15 (6d4) Bludgeoning damage, and the target has the Prone condition. Half damage only.",
+        "description": "con saving throw: DC 12, each creature in a 20-foot-radius, 40-foot-high Cylinder [Area of Effect] centered on a point the lizardfolk can see within 60 feet. Failure: 15 (6d4) Bludgeoning damage, and the target has the Prone condition. Success: Half damage only.",
         "name": "Hail of Stone (Recharge 5-6)",
         "saving_throws": [
           {
@@ -20985,7 +20985,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature, it is pushed up to 20 feet straight away from the marid and has the Prone condition. Half damage only.",
+        "description": "dex saving throw: DC 18, each creature in a 60-foot-long, 10-foot-wide Line [Area of Effect]. Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature, it is pushed up to 20 feet straight away from the marid and has the Prone condition. Success: Half damage only.",
         "name": "Water Jet",
         "saving_throws": [
           {
@@ -21741,7 +21741,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 15, one creature that is Grappled by the mind flayer's Tentacles. Failure: 55 (10d10) Piercing damage. Half damage. If this damage reduces the target to 0 Hit Points, the mind flayer kills it and devours its brain.",
+        "description": "con saving throw: DC 15, one creature that is Grappled by the mind flayer's Tentacles. Failure: 55 (10d10) Piercing damage. Success: Half damage. If this damage reduces the target to 0 Hit Points, the mind flayer kills it and devours its brain.",
         "name": "Extract Brain",
         "saving_throws": [
           {
@@ -21770,7 +21770,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "int saving throw: DC 15, each creature in a 60-foot Cone [Area of Effect]. Failure: 31 (6d8 + 4) Psychic damage, and the target has the Stunned condition until the end of the mind flayer's next turn. Half damage only.",
+        "description": "int saving throw: DC 15, each creature in a 60-foot Cone [Area of Effect]. Failure: 31 (6d8 + 4) Psychic damage, and the target has the Stunned condition until the end of the mind flayer's next turn. Success: Half damage only.",
         "name": "Mind Blast (Recharge 5-6)",
         "saving_throws": [
           {
@@ -22018,7 +22018,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "int saving throw: DC 17, each creature in a 40-foot Emanation [Area of Effect] originating from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target has the Stunned condition until the end of the mind flayer's next turn. Half damage only.",
+        "description": "int saving throw: DC 17, each creature in a 40-foot Emanation [Area of Effect] originating from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target has the Stunned condition until the end of the mind flayer's next turn. Success: Half damage only.",
         "name": "Mind Burst (Recharge 5-6)",
         "saving_throws": [
           {
@@ -24078,7 +24078,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 13, one creature the nothic can see within 120 feet. Failure: 17 (5d6) Necrotic damage. Half damage.",
+        "description": "con saving throw: DC 13, one creature the nothic can see within 120 feet. Failure: 17 (5d6) Necrotic damage. Success: Half damage.",
         "name": "Rotting Gaze",
         "saving_throws": [
           {
@@ -24742,7 +24742,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 17, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. Failure: 22 (4d8 + 4) Psychic damage, and the target has the Charmed or Frightened condition (performer's choice) until the end of the performer's next turn. Half damage only.",
+        "description": "wis saving throw: DC 17, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. Failure: 22 (4d8 + 4) Psychic damage, and the target has the Charmed or Frightened condition (performer's choice) until the end of the performer's next turn. Success: Half damage only.",
         "name": "Majestic Song",
         "saving_throws": [
           {
@@ -24999,7 +24999,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "wis saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. Failure: 20 (3d10 + 4) Psychic damage, and the target has the Charmed condition until the end of the performer's next turn. Half damage only.",
+        "description": "wis saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. Failure: 20 (3d10 + 4) Psychic damage, and the target has the Charmed condition until the end of the performer's next turn. Success: Half damage only.",
         "name": "Beguiling Song",
         "saving_throws": [
           {
@@ -26402,7 +26402,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 15, each creature in a 30-foot Emanation [Area of Effect] originating from the owlbear. Failure: 27 (6d8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn. Half damage only.",
+        "description": "con saving throw: DC 15, each creature in a 30-foot Emanation [Area of Effect] originating from the owlbear. Failure: 27 (6d8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn. Success: Half damage only.",
         "name": "Screech (Recharge 5-6)",
         "saving_throws": [
           {
@@ -28141,7 +28141,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 18, each creature in a 30-foot-radius Sphere [Area of Effect] centered on a point the salamander can see within 120 feet. Failure: 35 (10d6) Fire damage, and the target starts burning, taking 5 (1d10) Fire damage at the start of each of its turns instead of the normal burning damage. The target gains 1 Exhaustion level whenever it takes this burning damage. Half damage only.",
+        "description": "dex saving throw: DC 18, each creature in a 30-foot-radius Sphere [Area of Effect] centered on a point the salamander can see within 120 feet. Failure: 35 (10d6) Fire damage, and the target starts burning, taking 5 (1d10) Fire damage at the start of each of its turns instead of the normal burning damage. The target gains 1 Exhaustion level whenever it takes this burning damage. Success: Half damage only.",
         "name": "Inferno Blast (Recharge 5-6)",
         "saving_throws": [
           {
@@ -29152,7 +29152,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17, each creature in a 60-foot Cone [Area of Effect]. Failure: 35 (10d6) Necrotic damage. Half damage. A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from the corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon.",
+        "description": "dex saving throw: DC 17, each creature in a 60-foot Cone [Area of Effect]. Failure: 35 (10d6) Necrotic damage. Success: Half damage. A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from the corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon.",
         "name": "Shadow Breath (Recharge 5-6)",
         "saving_throws": [
           {
@@ -29760,7 +29760,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 12. Failure: 16 (3d10) Necrotic damage. Half damage.",
+        "description": "con saving throw: DC 12. Failure: 16 (3d10) Necrotic damage. Success: Half damage.",
         "name": "Eye Rays 4: Wounding Ray",
         "saving_throws": [
           {
@@ -30435,7 +30435,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "The spy throws a bomb to a point it can see within 30 feet of itself. con saving throw: DC 16, each creature in a 20-foot-radius Sphere [Area of Effect] centered on that point. Failure: 28 (8d6) Poison damage, and the target has the Blinded condition until the end of the spy's next turn. Half damage only.",
+        "description": "The spy throws a bomb to a point it can see within 30 feet of itself. con saving throw: DC 16, each creature in a 20-foot-radius Sphere [Area of Effect] centered on that point. Failure: 28 (8d6) Poison damage, and the target has the Blinded condition until the end of the spy's next turn. Success: Half damage only.",
         "name": "Smoke Bomb (1/Day)",
         "saving_throws": [
           {
@@ -31789,7 +31789,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "dex saving throw: DC 17, one creature Grappled by the blight. Failure: 19 (3d8 + 6) Piercing damage. Half damage.",
+        "description": "dex saving throw: DC 17, one creature Grappled by the blight. Failure: 19 (3d8 + 6) Piercing damage. Success: Half damage.",
         "name": "Gnash",
         "saving_throws": [
           {
@@ -33370,7 +33370,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the necrohulk can see within 60 feet. Failure: 28 (8d6) Necrotic damage, and the target has the Poisoned condition until the start of the necrohulk's next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "description": "con saving throw: DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the necrohulk can see within 60 feet. Failure: 28 (8d6) Necrotic damage, and the target has the Poisoned condition until the start of the necrohulk's next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only.",
         "name": "Spore Bomb (Recharge 5-6)",
         "saving_throws": [
           {
@@ -34711,7 +34711,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "str saving throw: DC 15, one Large or smaller creature within 5 feet. Failure: 28 (7d6 + 4) Bludgeoning damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends. Half damage only.",
+        "description": "str saving throw: DC 15, one Large or smaller creature within 5 feet. Failure: 28 (7d6 + 4) Bludgeoning damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends. Success: Half damage only.",
         "name": "Constrict",
         "saving_throws": [
           {
@@ -34745,7 +34745,7 @@
           }
         ],
         "attack_bonus": null,
-        "description": "con saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 21 (6d6) Poison damage, and the target has the Poisoned condition until the end of the yuan-ti's next turn. While Poisoned, the target has the Blinded condition. Half damage only.",
+        "description": "con saving throw: DC 14, each creature in a 30-foot Cone [Area of Effect]. Failure: 21 (6d6) Poison damage, and the target has the Poisoned condition until the end of the yuan-ti's next turn. While Poisoned, the target has the Blinded condition. Success: Half damage only.",
         "name": "Poison Spray (Recharge 5-6)",
         "saving_throws": [
           {
@@ -36898,7 +36898,7 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "dex saving throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Half damage.",
+        "description": "dex saving throw: DC equals your spell save DC, each creature in a 30-foot Cone. Failure: 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). Success: Half damage.",
         "name": "Breath Weapon",
         "saving_throws": [
           {
@@ -37340,7 +37340,7 @@
     "special_abilities": [
       {
         "name": "Death Throes (Demon Only)",
-        "description": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. dex saving throw: DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10 plus this spell's level Fire damage. Half damage.",
+        "description": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. dex saving throw: DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit. Failure: 2d10 plus this spell's level Fire damage. Success: Half damage.",
         "saving_throws": [
           {
             "index": "saving-throw-dex",
