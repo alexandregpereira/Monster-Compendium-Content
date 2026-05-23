@@ -3696,9 +3696,250 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The beholder randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d10; reroll if the beholder has already used that ray during this turn): 1: Charm Ray: wis saving throw: DC 16. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only. 2: Paralyzing Ray: con saving throw: DC 16. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 3: Fear Ray: wis saving throw: DC 16. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only. 4: Slowing Ray: con saving throw: DC 16. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both. Half damage only. 5: Enervation Ray: con saving throw: DC 16. Failure: 13 (3d8) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only. 6: Telekinetic Ray: str saving throw: DC 16 (the target succeeds automatically if it is Gargantuan). Failure: The beholder moves the target up to 30 feet in any direction. The target has the Restrained condition until the start of the beholder's next turn or until the beholder has the Incapacitated condition. The beholder can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container. 7: Sleep Ray: wis saving throw: DC 16 (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the Unconscious condition for 1 minute. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it. 8: Petrification Ray: con saving throw: DC 16. 1 The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. 2 The target has the Petrified condition instead of the Restrained condition. 9: Disintegration Ray: dex saving throw: DC 16. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust. 10: Death Ray: dex saving throw: DC 16. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "description": "The beholder randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d10; reroll if the beholder has already used that ray during this turn):",
         "name": "Eye Rays",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 16. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only.",
+        "name": "Eye Rays 1: Charm Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 16. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+        "name": "Eye Rays 2: Paralyzing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralyzed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "14 (4d6)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 16. Failure: 14 (4d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only.",
+        "name": "Eye Rays 3: Fear Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Frightened"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "18 (4d8)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 16. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target's Speed is halved; the target can't take Reactions; and it can take either an action or a Bonus Action on its turn, not both. Half damage only.",
+        "name": "Eye Rays 4: Slowing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Poison"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 16. Failure: 13 (3d8) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "name": "Eye Rays 5: Enervation Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Poisoned"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "str saving throw: DC 16 (the target succeeds automatically if it is Gargantuan). Failure: The beholder moves the target up to 30 feet in any direction. The target has the Restrained condition until the start of the beholder's next turn or until the beholder has the Incapacitated condition. The beholder can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container.",
+        "name": "Eye Rays 6: Telekinetic Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-str",
+            "type": "STRENGTH",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Restrained"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 16 (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the Unconscious condition for 1 minute. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it.",
+        "name": "Eye Rays 7: Sleep Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "unconscious",
+            "type": "UNCONSCIOUS",
+            "name": "Unconscious"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 16. 1 The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. 2 The target has the Petrified condition instead of the Restrained condition.",
+        "name": "Eye Rays 8: Petrification Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Restrained"
+          },
+          {
+            "index": "petrified",
+            "type": "PETRIFIED",
+            "name": "Petrified"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "36 (8d8)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Force"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "dex saving throw: DC 16. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "name": "Eye Rays 9: Disintegration Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 16
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "55 (10d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "dex saving throw: DC 16. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "name": "Eye Rays 10: Death Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 16
+          }
+        ],
         "conditions": []
       }
     ],
@@ -3890,9 +4131,110 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The zombie randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d4; reroll if the zombie has already used that ray during this turn): 1: Paralyzing Ray: con saving throw: DC 14. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 2: Fear Ray: wis saving throw: DC 14. Failure: 13 (3d8) Psychic damage, and the target has the Frightened condition until the end of its next turn. 3: Enervation Ray: con saving throw: DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only. 4: Disintegration Ray: dex saving throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "description": "The zombie randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d4; reroll if the zombie has already used that ray during this turn):",
         "name": "Eye Rays",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 14. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+        "name": "Eye Rays 1: Paralyzing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralyzed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 14. Failure: 13 (3d8) Psychic damage, and the target has the Frightened condition until the end of its next turn.",
+        "name": "Eye Rays 2: Fear Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Frightened"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "10 (3d6)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "name": "Eye Rays 3: Enervation Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Poisoned"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "27 (5d10)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Force"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "dex saving throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "name": "Eye Rays 4: Disintegration Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 14
+          }
+        ],
         "conditions": []
       }
     ],
@@ -8988,9 +9330,250 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The death tyrant randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d10; reroll if the death tyrant has already used that ray during this turn): 1: Charm Ray: wis saving throw: DC 17. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only. 2: Paralyzing Ray: con saving throw: DC 17. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 3: Fear Ray: wis saving throw: DC 17. Failure: 10 (3d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only. 4: Slowing Ray: con saving throw: DC 17. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. Half damage only. 5: Enervation Ray: con saving throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only. 6: Telekinetic Ray: str saving throw: DC 17 (the target succeeds automatically if it is Gargantuan). Failure: The death tyrant moves the target up to 30 feet in any direction. The target has the Restrained condition until the start of the death tyrant's next turn or until the death tyrant has the Incapacitated condition. The death tyrant can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container. 7: Sleep Ray: wis saving throw: DC 17 (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the Unconscious condition for 1 minute. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it. 8: Petrification Ray: con saving throw: DC 17. 1 The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. 2 The target has the Petrified condition instead of the Restrained condition. 9: Disintegration Ray: dex saving throw: DC 17. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust. 10: Death Ray: dex saving throw: DC 17. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "description": "The death tyrant randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d10; reroll if the death tyrant has already used that ray during this turn):",
         "name": "Eye Rays",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 17. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Half damage only.",
+        "name": "Eye Rays 1: Charm Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Charmed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 17. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+        "name": "Eye Rays 2: Paralyzing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralyzed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "10 (3d6)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 17. Failure: 10 (3d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Half damage only.",
+        "name": "Eye Rays 3: Fear Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Frightened"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "18 (4d8)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 17. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. Half damage only.",
+        "name": "Eye Rays 4: Slowing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "16 (3d10)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Poison"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Half damage only.",
+        "name": "Eye Rays 5: Enervation Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Poisoned"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "str saving throw: DC 17 (the target succeeds automatically if it is Gargantuan). Failure: The death tyrant moves the target up to 30 feet in any direction. The target has the Restrained condition until the start of the death tyrant's next turn or until the death tyrant has the Incapacitated condition. The death tyrant can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container.",
+        "name": "Eye Rays 6: Telekinetic Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-str",
+            "type": "STRENGTH",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Restrained"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 17 (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the Unconscious condition for 1 minute. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it.",
+        "name": "Eye Rays 7: Sleep Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "unconscious",
+            "type": "UNCONSCIOUS",
+            "name": "Unconscious"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 17. 1 The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. 2 The target has the Petrified condition instead of the Restrained condition.",
+        "name": "Eye Rays 8: Petrification Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Restrained"
+          },
+          {
+            "index": "petrified",
+            "type": "PETRIFIED",
+            "name": "Petrified"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "36 (8d8)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Force"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "dex saving throw: DC 17. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube [Area of Effect] of it disintegrates into dust. Half damage. If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.",
+        "name": "Eye Rays 9: Disintegration Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 17
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "55 (10d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "dex saving throw: DC 17. Failure: 55 (10d10) Necrotic damage. Half damage. The target dies if the ray reduces it to 0 Hit Points.",
+        "name": "Eye Rays 10: Death Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 17
+          }
+        ],
         "conditions": []
       }
     ],
@@ -29088,9 +29671,104 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "The spectator randomly shoots one of the following magical rays at a target it can see within 90 feet of itself (roll 1d4; reroll if the spectator has already used that ray during this turn): 1: Confusion Ray: wis saving throw: DC 12. Failure: 5 (2d4) Psychic damage, and the target can't take Reactions until the end of its next turn. On its next turn, the target can't move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on that turn. 2: Paralyzing Ray: con saving throw: DC 12. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 3: Fear Ray: wis saving throw: DC 12. Failure: 5 (2d4) Psychic damage, and the target has the Frightened condition until the end of its next turn. 4: Wounding Ray: con saving throw: DC 12. Failure: 16 (3d10) Necrotic damage. Half damage.",
+        "description": "The spectator randomly shoots one of the following magical rays at a target it can see within 90 feet of itself (roll 1d4; reroll if the spectator has already used that ray during this turn):",
         "name": "Eye Rays",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (2d4)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 12. Failure: 5 (2d4) Psychic damage, and the target can't take Reactions until the end of its next turn. On its next turn, the target can't move, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on that turn.",
+        "name": "Eye Rays 1: Confusion Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 12
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 12. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+        "name": "Eye Rays 2: Paralyzing Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 12
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralyzed"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (2d4)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psychic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "wis saving throw: DC 12. Failure: 5 (2d4) Psychic damage, and the target has the Frightened condition until the end of its next turn.",
+        "name": "Eye Rays 3: Fear Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 12
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Frightened"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "16 (3d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrotic"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "con saving throw: DC 12. Failure: 16 (3d10) Necrotic damage. Half damage.",
+        "name": "Eye Rays 4: Wounding Ray",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 12
+          }
+        ],
         "conditions": []
       }
     ],

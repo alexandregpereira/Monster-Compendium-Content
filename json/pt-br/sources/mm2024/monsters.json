@@ -3696,9 +3696,250 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "O observador dispara aleatoriamente um dos seguintes raios mágicos em um alvo que possa ver a até 36 metros [120 feet] de distância (role 1d10; role novamente se o observador já tiver usado esse raio neste turno): 1: Raio Encantador: teste de resistência de Sabedoria: CD 16. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano. 2: Raio Paralisante: teste de resistência de Constituição: CD 16. Falha: O alvo fica sob a condição Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente. 3: Raio do Medo: teste de resistência de Sabedoria: CD 16. Falha: 14 (4d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano. 4: Raio Lento: teste de resistência de Constituição: CD 16. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, sua Velocidade é reduzida à metade; o alvo não pode usar Reações; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano. 5: Raio de Enervação: teste de resistência de Constituição: CD 16. Falha: 13 (3d8) de dano de veneno, e o alvo fica com a condição Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano. 6: Raio Telecinético: teste de resistência de Força: CD 16 (o alvo é bem-sucedido automaticamente se for Gargantuesco). Falha: O observador move o alvo até 9 metros [30 feet] em qualquer direção. O alvo fica com a condição Imobilizado até o início do próximo turno do observador ou até que o observador fique com a condição Incapacitado. O observador também pode exercer controle preciso sobre objetos com este raio, como manipular uma ferramenta ou abrir uma porta ou recipiente. 7: Raio do Sono: teste de resistência de Sabedoria: CD 16 (o alvo é bem-sucedido automaticamente se for um Constructo ou um Morto-Vivo). Falha: O alvo fica Inconsciente por 1 minuto. A condição termina se o alvo sofrer dano ou se uma criatura a até 1,5 metro [5 feet] dele usar uma ação para acordá-lo. 8: Raio da Petrificação: teste de resistência de Constituição: CD 16. 1 O alvo fica Imobilizado e repete o teste no final do seu próximo turno se ainda estiver Imobilizado, encerrando o efeito sobre si mesmo em caso de sucesso. 2 O alvo fica Petrificado em vez de Imobilizado. 9: Raio da Desintegração: teste de resistência de Destreza: CD 16. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó. 10: Raio da Morte: teste de resistência de Destreza: CD 16. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio reduzir seus Pontos de Vida a 0.",
+        "description": "O observador dispara aleatoriamente um dos seguintes raios mágicos em um alvo que possa ver a até 36 metros [120 feet] de distância (role 1d10; role novamente se o observador já tiver usado esse raio neste turno):",
         "name": "Raios Oculares",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 16. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano.",
+        "name": "Raios Oculares 1: Raio Encantador",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Encantado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 16. Falha: O alvo fica sob a condição Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente.",
+        "name": "Raios Oculares 2: Raio Paralisante",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralisado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "14 (4d6)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 16. Falha: 14 (4d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "name": "Raios Oculares 3: Raio do Medo",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Amedrontado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "18 (4d8)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 16. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, sua Velocidade é reduzida à metade; o alvo não pode usar Reações; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano.",
+        "name": "Raios Oculares 4: Raio Lento",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Veneno"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 16. Falha: 13 (3d8) de dano de veneno, e o alvo fica com a condição Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano.",
+        "name": "Raios Oculares 5: Raio de Enervação",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Envenenado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Força: CD 16 (o alvo é bem-sucedido automaticamente se for Gargantuesco). Falha: O observador move o alvo até 9 metros [30 feet] em qualquer direção. O alvo fica com a condição Imobilizado até o início do próximo turno do observador ou até que o observador fique com a condição Incapacitado. O observador também pode exercer controle preciso sobre objetos com este raio, como manipular uma ferramenta ou abrir uma porta ou recipiente.",
+        "name": "Raios Oculares 6: Raio Telecinético",
+        "saving_throws": [
+          {
+            "index": "saving-throw-str",
+            "type": "STRENGTH",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Imobilizado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 16 (o alvo é bem-sucedido automaticamente se for um Constructo ou um Morto-Vivo). Falha: O alvo fica Inconsciente por 1 minuto. A condição termina se o alvo sofrer dano ou se uma criatura a até 1,5 metro [5 feet] dele usar uma ação para acordá-lo.",
+        "name": "Raios Oculares 7: Raio do Sono",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "unconscious",
+            "type": "UNCONSCIOUS",
+            "name": "Inconsciente"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 16. 1 O alvo fica Imobilizado e repete o teste no final do seu próximo turno se ainda estiver Imobilizado, encerrando o efeito sobre si mesmo em caso de sucesso. 2 O alvo fica Petrificado em vez de Imobilizado.",
+        "name": "Raios Oculares 8: Raio da Petrificação",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 16
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Imobilizado"
+          },
+          {
+            "index": "petrified",
+            "type": "PETRIFIED",
+            "name": "Petrificado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "36 (8d8)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Força"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Destreza: CD 16. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "name": "Raios Oculares 9: Raio da Desintegração",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 16
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "55 (10d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Destreza: CD 16. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio reduzir seus Pontos de Vida a 0.",
+        "name": "Raios Oculares 10: Raio da Morte",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 16
+          }
+        ],
         "conditions": []
       }
     ],
@@ -3890,9 +4131,110 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "O zumbi dispara aleatoriamente um dos seguintes raios mágicos em um alvo que ele possa ver a até 36 metros [120 feet] de distância (role 1d4; role novamente se o zumbi já tiver usado esse raio neste turno): 1: Raio Paralisante: teste de resistência de Constituição: CD 14. Falha: O alvo fica Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente. 2: Raio do Medo: teste de resistência de Sabedoria: CD 14. Falha: 13 (3d8) de dano psíquico, e o alvo fica Amedrontado até o final do seu próximo turno. 3: Raio da Enervação: teste de resistência de Constituição: CD 14. Falha: 10 (3d6) de dano necrótico, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano é recuperada. 4: Raio de Desintegração: teste de resistência de Destreza: CD 14. Falha: 27 (5d10) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "description": "O zumbi dispara aleatoriamente um dos seguintes raios mágicos em um alvo que ele possa ver a até 36 metros [120 feet] de distância (role 1d4; role novamente se o zumbi já tiver usado esse raio neste turno):",
         "name": "Raios Oculares",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 14. Falha: O alvo fica Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente.",
+        "name": "Raios Oculares 1: Raio Paralisante",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralisado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 14. Falha: 13 (3d8) de dano psíquico, e o alvo fica Amedrontado até o final do seu próximo turno.",
+        "name": "Raios Oculares 2: Raio do Medo",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Amedrontado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "10 (3d6)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 14. Falha: 10 (3d6) de dano necrótico, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano é recuperada.",
+        "name": "Raios Oculares 3: Raio da Enervação",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 14
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Envenenado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "27 (5d10)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Força"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Destreza: CD 14. Falha: 27 (5d10) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "name": "Raios Oculares 4: Raio de Desintegração",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 14
+          }
+        ],
         "conditions": []
       }
     ],
@@ -8988,9 +9330,250 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "O tirano da morte dispara aleatoriamente um dos seguintes raios mágicos em um alvo que ele possa ver a até 36 metros [120 feet] de distância (role 1d10; role novamente se o tirano da morte já tiver usado esse raio neste turno): 1: Raio do Encantamento: teste de resistência de Sabedoria: CD 17. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano. 2: Raio Paralisante: teste de resistência de Constituição: CD 17. Falha: O alvo fica sob a condição Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente. 3: Raio do Medo: teste de resistência de Sabedoria: CD 17. Falha: 10 (3d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano. 4: Raio Lento: teste de resistência de Constituição: CD 17. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, ele não pode usar Reações; sua Velocidade é reduzida à metade; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano. 5: Raio Enervante: teste de resistência de Constituição: CD 17. Falha: 16 (3d10) de dano de veneno, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano. 6: Raio Telecinético: teste de resistência de Força: CD 17 (o alvo é bem-sucedido automaticamente se for Gargantuesco). Falha: O tirano da morte move o alvo até 9 metros [30 feet] em qualquer direção. O alvo fica Imobilizado até o início do próximo turno do tirano da morte ou até que o tirano da morte fique Incapacitado. O tirano da morte também pode exercer controle preciso sobre objetos com este raio, como manipular uma ferramenta ou abrir uma porta ou recipiente. 7: Raio do Sono: teste de resistência de Sabedoria: CD 17 (o alvo é bem-sucedido automaticamente se for um Constructo ou um Morto-Vivo). Falha: O alvo fica Inconsciente por 1 minuto. A condição termina se o alvo sofrer dano ou se uma criatura a até 1,5 metro [5 feet] dele usar uma ação para acordá-lo. 8: Raio da Petrificação: teste de resistência de Constituição: CD 17. 1 O alvo fica Imobilizado e repete o teste no final do seu próximo turno se ainda estiver Imobilizado, encerrando o efeito sobre si mesmo em caso de sucesso. 2 O alvo fica Petrificado em vez de Imobilizado. 9: Raio da Desintegração: teste de resistência de Destreza: CD 17. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó. 10: Raio da Morte: teste de resistência de Destreza: CD 17. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio o reduzir a 0 Pontos de Vida.",
+        "description": "O tirano da morte dispara aleatoriamente um dos seguintes raios mágicos em um alvo que ele possa ver a até 36 metros [120 feet] de distância (role 1d10; role novamente se o tirano da morte já tiver usado esse raio neste turno):",
         "name": "Raios Oculares",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "13 (3d8)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 17. Falha: 13 (3d8) de dano psíquico, e o alvo fica sob a condição Encantado por 1 hora ou até sofrer dano. Apenas metade do dano.",
+        "name": "Raios Oculares 1: Raio do Encantamento",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "charmed",
+            "type": "CHARMED",
+            "name": "Encantado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 17. Falha: O alvo fica sob a condição Paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente.",
+        "name": "Raios Oculares 2: Raio Paralisante",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralisado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "10 (3d6)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 17. Falha: 10 (3d6) de dano psíquico, e o alvo fica sob a condição Amedrontado até o final do seu próximo turno. Apenas metade do dano.",
+        "name": "Raios Oculares 3: Raio do Medo",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Amedrontado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "18 (4d8)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 17. Falha: 18 (4d8) de dano necrótico. Até o final do próximo turno do alvo, ele não pode usar Reações; sua Velocidade é reduzida à metade; e ele pode usar uma ação ou uma Ação Bônus em seu turno, não ambas. Apenas metade do dano.",
+        "name": "Raios Oculares 4: Raio Lento",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "16 (3d10)",
+            "damage": {
+              "index": "poison",
+              "type": "POISON",
+              "name": "Veneno"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 17. Falha: 16 (3d10) de dano de veneno, e o alvo fica Envenenado até o final do seu próximo turno. Enquanto Envenenado, o alvo não pode recuperar Pontos de Vida. Apenas metade do dano.",
+        "name": "Raios Oculares 5: Raio Enervante",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "poisoned",
+            "type": "POISONED",
+            "name": "Envenenado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Força: CD 17 (o alvo é bem-sucedido automaticamente se for Gargantuesco). Falha: O tirano da morte move o alvo até 9 metros [30 feet] em qualquer direção. O alvo fica Imobilizado até o início do próximo turno do tirano da morte ou até que o tirano da morte fique Incapacitado. O tirano da morte também pode exercer controle preciso sobre objetos com este raio, como manipular uma ferramenta ou abrir uma porta ou recipiente.",
+        "name": "Raios Oculares 6: Raio Telecinético",
+        "saving_throws": [
+          {
+            "index": "saving-throw-str",
+            "type": "STRENGTH",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Imobilizado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 17 (o alvo é bem-sucedido automaticamente se for um Constructo ou um Morto-Vivo). Falha: O alvo fica Inconsciente por 1 minuto. A condição termina se o alvo sofrer dano ou se uma criatura a até 1,5 metro [5 feet] dele usar uma ação para acordá-lo.",
+        "name": "Raios Oculares 7: Raio do Sono",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "unconscious",
+            "type": "UNCONSCIOUS",
+            "name": "Inconsciente"
+          }
+        ]
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 17. 1 O alvo fica Imobilizado e repete o teste no final do seu próximo turno se ainda estiver Imobilizado, encerrando o efeito sobre si mesmo em caso de sucesso. 2 O alvo fica Petrificado em vez de Imobilizado.",
+        "name": "Raios Oculares 8: Raio da Petrificação",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 17
+          }
+        ],
+        "conditions": [
+          {
+            "index": "restrained",
+            "type": "RESTRAINED",
+            "name": "Imobilizado"
+          },
+          {
+            "index": "petrified",
+            "type": "PETRIFIED",
+            "name": "Petrificado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "36 (8d8)",
+            "damage": {
+              "index": "force",
+              "type": "FORCE",
+              "name": "Força"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Destreza: CD 17. Falha: 36 (8d8) de dano de força. Se o alvo for um objeto não mágico ou uma criação de força mágica, um Cubo [Área de Efeito] de 3 metros [10 feet] dele se desintegra em pó. Metade do dano. Se o alvo for uma criatura e este dano a reduzir a 0 Pontos de Vida, ela se desintegra em pó.",
+        "name": "Raios Oculares 9: Raio da Desintegração",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 17
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "55 (10d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Destreza: CD 17. Falha: 55 (10d10) de dano necrótico. Metade do dano. O alvo morre se o raio o reduzir a 0 Pontos de Vida.",
+        "name": "Raios Oculares 10: Raio da Morte",
+        "saving_throws": [
+          {
+            "index": "saving-throw-dex",
+            "type": "DEXTERITY",
+            "modifier": 17
+          }
+        ],
         "conditions": []
       }
     ],
@@ -29088,9 +29671,104 @@
       {
         "damage_dices": [],
         "attack_bonus": null,
-        "description": "O espectador dispara aleatoriamente um dos seguintes raios mágicos em um alvo que possa ver a até 27 metros [90 feet] de distância (role 1d4; role novamente se o espectador já tiver usado esse raio durante este turno): 1: Raio da Confusão: teste de resistência de Sabedoria: CD 12. Falha: 5 (2d4) de dano psíquico, e o alvo não pode usar Reações até o final do seu próximo turno. No seu próximo turno, o alvo não pode se mover e usa sua ação para fazer um ataque corpo a corpo ou à distância contra uma criatura determinada aleatoriamente dentro do alcance. Se o alvo não puder atacar, ele não faz nada nesse turno. 2: Raio Paralisante: teste de resistência de Constituição: CD 12. Falha: O alvo fica paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente. 3: Raio do Medo: teste de resistência de Sabedoria: CD 12. Falha: 5 (2d4) de dano psíquico, e o alvo fica amedrontado até o final do seu próximo turno. 4: Raio Feridor: teste de resistência de Constituição: CD 12. Falha: 16 (3d10) de dano necrótico. Dano reduzido à metade.",
+        "description": "O espectador dispara aleatoriamente um dos seguintes raios mágicos em um alvo que possa ver a até 27 metros [90 feet] de distância (role 1d4; role novamente se o espectador já tiver usado esse raio durante este turno):",
         "name": "Raios Oculares",
         "saving_throws": [],
+        "conditions": []
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (2d4)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 12. Falha: 5 (2d4) de dano psíquico, e o alvo não pode usar Reações até o final do seu próximo turno. No seu próximo turno, o alvo não pode se mover e usa sua ação para fazer um ataque corpo a corpo ou à distância contra uma criatura determinada aleatoriamente dentro do alcance. Se o alvo não puder atacar, ele não faz nada nesse turno.",
+        "name": "Raios Oculares 1: Raio da Confusão",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 12
+          }
+        ],
+        "conditions": []
+      },
+      {
+        "damage_dices": [],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 12. Falha: O alvo fica paralisado e repete o teste no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso. Após 1 minuto, o teste é bem-sucedido automaticamente.",
+        "name": "Raios Oculares 2: Raio Paralisante",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 12
+          }
+        ],
+        "conditions": [
+          {
+            "index": "paralyzed",
+            "type": "PARALYZED",
+            "name": "Paralisado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "5 (2d4)",
+            "damage": {
+              "index": "psychic",
+              "type": "PSYCHIC",
+              "name": "Psíquico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Sabedoria: CD 12. Falha: 5 (2d4) de dano psíquico, e o alvo fica amedrontado até o final do seu próximo turno.",
+        "name": "Raios Oculares 3: Raio do Medo",
+        "saving_throws": [
+          {
+            "index": "saving-throw-wis",
+            "type": "WISDOM",
+            "modifier": 12
+          }
+        ],
+        "conditions": [
+          {
+            "index": "frightened",
+            "type": "FRIGHTENED",
+            "name": "Amedrontado"
+          }
+        ]
+      },
+      {
+        "damage_dices": [
+          {
+            "dice": "16 (3d10)",
+            "damage": {
+              "index": "necrotic",
+              "type": "NECROTIC",
+              "name": "Necrótico"
+            }
+          }
+        ],
+        "attack_bonus": null,
+        "description": "teste de resistência de Constituição: CD 12. Falha: 16 (3d10) de dano necrótico. Dano reduzido à metade.",
+        "name": "Raios Oculares 4: Raio Feridor",
+        "saving_throws": [
+          {
+            "index": "saving-throw-con",
+            "type": "CONSTITUTION",
+            "modifier": 12
+          }
+        ],
         "conditions": []
       }
     ],
