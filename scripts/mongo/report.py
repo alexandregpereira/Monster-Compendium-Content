@@ -47,12 +47,14 @@ def duplicate_keys(collections_map):
 
 def missing_translations(collections_map):
     findings = []
-    for name in ("monsters", "spells", "conditions"):
+    scopes = {"monsters": "source_acronym", "spells": "source_acronym",
+              "conditions": None, "monster_lore": "lore_source"}
+    for name, scope_field in scopes.items():
         docs = collections_map[name]
-        if name == "conditions":
+        if scope_field is None:
             key = lambda d: (d["index"],)
         else:
-            key = lambda d: (d["source_acronym"], d["index"])
+            key = lambda d, f=scope_field: (d[f], d["index"])
         base = {key(d) for d in docs if d["locale"] == mf.BASE_LOCALE}
         for locale in mf.LOCALES:
             if locale == mf.BASE_LOCALE:
@@ -175,7 +177,7 @@ def stale_translations(collections_map):
     from the current en-us content. It becomes meaningful once editing starts.
     """
     findings = []
-    for name in ("monsters", "spells"):
+    for name in ("monsters", "spells", "monster_lore"):
         stale = [
             d for d in collections_map[name]
             if d["locale"] != mf.BASE_LOCALE and d.get("translated_from_rev") is None
@@ -196,10 +198,82 @@ def format_fidelity(file_meta):
     for meta in file_meta:
         if not meta.get("format_exact", True):
             findings.append(Finding(
-                "format-not-reproducible", "error",
-                "%s: formatting could not be reproduced; exporting it would "
-                "reformat the file" % meta["_id"],
+                "format-not-reproducible", "warning",
+                "%s: hand-edited formatting that no serializer emits; export "
+                "will reindent it" % meta["_id"],
             ))
+    return findings
+
+
+def lore_coverage(collections_map):
+    """Lore books present per locale, and lore that describes no stat block."""
+    findings = []
+    books = collections.defaultdict(set)
+    for doc in collections_map["monster_lore"]:
+        books[doc["locale"]].add(doc["lore_source"])
+    base_books = books[mf.BASE_LOCALE]
+    for locale in mf.LOCALES:
+        missing = base_books - books[locale]
+        if missing:
+            findings.append(Finding(
+                "lore-book-missing", "warning",
+                "%s: no lore directory for %s"
+                % (locale, ", ".join(sorted(missing))),
+            ))
+
+    monster_indexes = {d["index"] for d in collections_map["monsters"]}
+    orphan = {d["index"] for d in collections_map["monster_lore"]} - monster_indexes
+    if orphan:
+        findings.append(Finding(
+            "lore-without-monster", "info",
+            "%d lore indexes describe monsters with no stat block in any "
+            "source" % len(orphan),
+        ))
+    return findings
+
+
+def image_coverage(collections_map):
+    findings = []
+    images = collections_map["monster_images"]
+    monster_indexes = {d["index"] for d in collections_map["monsters"]}
+    image_indexes = {d["monster_index"] for d in images}
+
+    orphan = image_indexes - monster_indexes
+    if orphan:
+        findings.append(Finding(
+            "image-without-monster", "info",
+            "%d image entries reference an index with no stat block"
+            % len(orphan),
+        ))
+    base_monsters = {d["index"] for d in collections_map["monsters"]
+                     if d["locale"] == mf.BASE_LOCALE}
+    missing = base_monsters - image_indexes
+    if missing:
+        findings.append(Finding(
+            "monster-without-image", "warning",
+            "%d monsters have no image in either catalog (%s%s)"
+            % (len(missing), ", ".join(sorted(missing)[:5]),
+               ", ..." if len(missing) > 5 else ""),
+        ))
+
+    # The two catalogs are independent art sets, not a set and its subset.
+    by_catalog = collections.defaultdict(set)
+    for doc in images:
+        by_catalog[doc["catalog"]].add(doc["monster_index"])
+    catalogs = sorted(by_catalog)
+    if len(catalogs) == 2:
+        shared = by_catalog[catalogs[0]] & by_catalog[catalogs[1]]
+        urls = collections.defaultdict(dict)
+        for doc in images:
+            urls[doc["monster_index"]][doc["catalog"]] = doc["image_url"]
+        differing = sum(1 for i in shared
+                        if urls[i][catalogs[0]] != urls[i][catalogs[1]])
+        findings.append(Finding(
+            "image-catalogs-diverge", "info",
+            "%s and %s share %d indexes and disagree on %d of them; they are "
+            "separate art sets, not a subset"
+            % (catalogs[0], catalogs[1], len(shared), differing),
+        ))
     return findings
 
 
@@ -209,6 +283,8 @@ ALL_CHECKS = [
     missing_translations,
     declared_vs_actual,
     config_coverage,
+    lore_coverage,
+    image_coverage,
     stale_translations,
 ]
 

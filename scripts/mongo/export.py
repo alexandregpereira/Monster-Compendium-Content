@@ -21,7 +21,8 @@ from mongo import db as dbmod        # noqa: E402
 from mongo import manifest as mf     # noqa: E402
 from mongo import transform          # noqa: E402
 
-COLLECTIONS = ["monsters", "spells", "conditions", "sources"]
+COLLECTIONS = ["monsters", "spells", "conditions", "sources",
+               "monster_lore", "monster_images"]
 
 
 def load_from_db(database):
@@ -49,9 +50,15 @@ def write_tree(rebuilt, out_root):
             handle.write(text)
 
 
-def check(rebuilt, show_diff=False):
-    """Compare against the working tree. Returns the list of differing paths."""
-    differing = []
+def check(rebuilt, file_meta, show_diff=False):
+    """Compare against the working tree.
+
+    Returns (unexpected, expected). A file whose formatting was recorded as not
+    reproducible will always come back reindented, so it is separated out --
+    otherwise this check would be permanently red for a known, accepted reason.
+    """
+    inexact = {m["_id"] for m in file_meta if not m.get("format_exact", True)}
+    differing, expected = [], []
     for relpath, text in sorted(rebuilt.items()):
         original_path = os.path.join(mf.REPO_ROOT, relpath)
         if not os.path.exists(original_path):
@@ -60,7 +67,7 @@ def check(rebuilt, show_diff=False):
         with open(original_path, encoding="utf-8") as handle:
             original = handle.read()
         if text != original:
-            differing.append(relpath)
+            (expected if relpath in inexact else differing).append(relpath)
             if show_diff:
                 diff = difflib.unified_diff(
                     original.splitlines(True), text.splitlines(True),
@@ -68,7 +75,7 @@ def check(rebuilt, show_diff=False):
                     tofile=relpath + " (from database)", n=1,
                 )
                 sys.stdout.writelines(list(diff)[:40])
-    return differing
+    return differing, expected
 
 
 def main(argv=None):
@@ -93,13 +100,17 @@ def main(argv=None):
     print("Rebuilt %d files" % len(rebuilt))
 
     if args.check:
-        differing = check(rebuilt, args.diff)
+        differing, expected = check(rebuilt, file_meta, args.diff)
+        for relpath in expected:
+            print("  reindented (formatting was not reproducible): %s" % relpath)
         if differing:
-            print("\n%d file(s) differ from the working tree:" % len(differing))
+            print("\n%d file(s) differ unexpectedly from the working tree:"
+                  % len(differing))
             for relpath in differing:
                 print("  %s" % relpath)
             return 1
-        print("\nAll %d files are byte-identical to the working tree." % len(rebuilt))
+        print("\n%d of %d files byte-identical; %d reindented as recorded."
+              % (len(rebuilt) - len(expected), len(rebuilt), len(expected)))
         return 0
 
     out_root = mf.REPO_ROOT if args.in_place else args.out
