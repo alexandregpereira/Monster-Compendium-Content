@@ -1,0 +1,25 @@
+# Local development only. Production uses a managed MongoDB instance -- see
+# scripts/mongo/README.md. The Ktor `api` service joins this file later.
+services:
+  mongo:
+    image: mongo:8
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER:-root}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-devpassword}
+      MONGO_INITDB_DATABASE: compendium
+    ports:
+      # Bound to loopback so the database is reachable from Compass on this
+      # machine but not from the local network.
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')", "--quiet"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+
+volumes:
+  mongo-data:
