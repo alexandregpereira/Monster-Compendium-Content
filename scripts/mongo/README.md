@@ -6,8 +6,15 @@ the delivery mechanism** — the database is the editing source of truth, and
 `export.py` regenerates the tree.
 
 Everything here is built around one property: **the round trip is byte-exact.**
-`export.py` reproduces all 57 files exactly as they are on disk. Without that,
-publishing an edit would also reformat unrelated content.
+`export.py` reproduces 175 of the 176 managed files exactly as they are on
+disk. Without that, publishing an edit would also reformat unrelated content.
+
+The one exception is `json/en-us/lore/erlw/monster-lore.json`, which has
+hand-edited indentation (two array elements at 8 spaces instead of 4) that no
+serializer setting emits. It is recorded as `format_exact: false` and will be
+reindented on the first publish — a 2-line whitespace-only diff. Both
+`verify.py` and `export.py --check` report it as a known normalisation rather
+than a failure.
 
 ## Setup
 
@@ -32,22 +39,46 @@ python3 scripts/mongo/import.py
 
 ## Collections
 
-| Collection | Docs | `_id` |
-|---|---|---|
-| `monsters` | 4,207 | `<locale>:<source_acronym>:<index>` |
-| `spells` | 2,196 | `<locale>:<source_acronym>:<index>` |
-| `conditions` | 45 | `<locale>:<index>` |
-| `sources` | 41 | `<locale>:<catalog>:<acronym>` |
-| `_file_meta` | 57 | repo-relative path |
+| Collection | Docs | `_id` | Locale-scoped |
+|---|---|---|---|
+| `monsters` | 4,207 | `<locale>:<source_acronym>:<index>` | yes |
+| `spells` | 2,196 | `<locale>:<source_acronym>:<index>` | yes |
+| `conditions` | 45 | `<locale>:<index>` | yes |
+| `sources` | 41 | `<locale>:<catalog>:<acronym>` | yes |
+| `monster_lore` | 5,965 | `<locale>:<lore_source>:<index>` | yes |
+| `monster_images` | 1,345 | `<catalog>:<monster_index>` | **no** |
+| `_file_meta` | 176 | repo-relative path | — |
 
 `index` alone is **not** unique: 113 monster indexes appear in more than one
 source (`bugbear-chief` is in `MM`, `MM-LEGACY` and `SRD2024`). The composite
 key is the reason the import can be idempotent.
 
-`_file_meta` records per-file indent width and trailing newline. The tree is not
-formatted consistently — the 2024-era sources use `indent=2`, everything older
-uses `indent=4` — so this is measured on import rather than assumed. **Export
-cannot reproduce the files without it.**
+Lore keys need the book for the same reason monsters need the source: **333
+lore indexes appear in more than one book** (`azer` has lore in `mtf`,
+`mm2024` and `mm`).
+
+`_file_meta` records per-file serialization style, indent width and the exact
+trailing whitespace run. The tree is not formatted consistently — the 2024-era
+sources use `indent=2`, everything older `indent=4`, the legacy aggregated lore
+files are minified, one file ends with a newline plus sixteen spaces, and six
+empty lore books are written `[\n]` rather than `[]`. All of it is measured on
+import rather than assumed. **Export cannot reproduce the files without it.**
+
+## Lore and images
+
+**Lore books are a separate taxonomy from content sources.** 40 directories,
+mostly adventure titles, of which only 8 are also content sources. 698 lore
+indexes describe monsters that have no stat block anywhere in the tree, so
+lore cannot be modelled as a property of a monster.
+
+**The two image catalogs are not a set and its subset.** `monster-images.json`
+(`default`, 1,023) and `monster-images-srd.json` (`srd`, 322) share 322
+`monster_index` values and **disagree on the `image_url` for 298 of them** —
+`default` points at `srd-v2/`, `srd` at `images/`. They are separate art sets;
+merging them would silently drop one.
+
+Images carry **no `locale`** and are keyed by `monster_index` alone: one image
+serves a monster across every locale and every source that reprints it.
 
 ### Derived fields
 
@@ -107,10 +138,21 @@ content tree, not the run, so they do not fail it — otherwise every run would
 report failure until unrelated content is edited. Pass `--strict` in a pipeline
 that should block on them.
 
-## Not yet imported
+## Deliberately unmanaged
 
-Lore (~6,000 entries; lore sources are a separate taxonomy of 38 adventure
-books, and lore covers 703 monster indexes with no stat block), images
-(`json/monster-images.json`, 1,023 entries, locale-independent), and the legacy
-root files `json/monsters.json` / `json/spells.json` (last touched 2023 and
-2022, strict subsets of the locale files).
+Export never writes these, so app versions pinned to them keep reading exactly
+what is there today:
+
+- `json/monsters.json`, `json/spells.json` — superseded by the locale-scoped
+  files; last touched 2023 and 2022.
+- `json/<locale>/monster-lore.json` — a stale January-2023 aggregate. A list of
+  38 lists whose group order matches no config, holding 1,476 of the
+  directories' 1,988 entries, missing `erlw`/`mm2024`/`psb3` entirely,
+  byte-identical between `en-us` and `pt-br` (never translated), and absent for
+  `es`.
+- `json/monster-lore-sources.json` — legacy, no longer read by the app. It was
+  the only place mapping lore acronyms to book names, so **32 of the 40 lore
+  books currently have no display name anywhere** in the repo. Authoring those
+  is content work, not migration work.
+- `json/alternative-sources.json`, `default-sources.json`,
+  `alternative-sources-basic.json` — superseded by `content-sources.json`.

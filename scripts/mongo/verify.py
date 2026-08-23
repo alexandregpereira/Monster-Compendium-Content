@@ -90,9 +90,17 @@ def validate(value, schema, path=""):
 
 
 def check_roundtrip(collections_map, file_meta):
+    """Compare rebuilt files with the working tree.
+
+    A file whose formatting was detected as not reproducible is expected to
+    come back reformatted; that is reported separately rather than as a
+    failure, because the alternative is storing its raw bytes forever. Any
+    other difference is a real fidelity bug.
+    """
     rebuilt = transform.documents_to_files(collections_map, file_meta)
     read_paths = {m["_id"] for m in file_meta}
-    problems = []
+    inexact = {m["_id"] for m in file_meta if not m.get("format_exact", True)}
+    problems, expected = [], []
     for relpath in sorted(read_paths - set(rebuilt)):
         problems.append("%s: read but not rebuilt" % relpath)
     for relpath in sorted(set(rebuilt) - read_paths):
@@ -102,9 +110,11 @@ def check_roundtrip(collections_map, file_meta):
         with open(os.path.join(mf.REPO_ROOT, relpath), encoding="utf-8") as handle:
             if handle.read() == text:
                 identical += 1
+            elif relpath in inexact:
+                expected.append(relpath)
             else:
                 problems.append("%s: differs after round trip" % relpath)
-    return identical, len(rebuilt), problems
+    return identical, len(rebuilt), problems, expected
 
 
 def check_validators(collections_map):
@@ -125,8 +135,10 @@ def main():
     failed = False
 
     print("\n1. Round trip")
-    identical, total, problems = check_roundtrip(collections_map, file_meta)
+    identical, total, problems, expected = check_roundtrip(collections_map, file_meta)
     print("   %d / %d files byte-identical" % (identical, total))
+    for relpath in expected:
+        print("   normalised (formatting was not reproducible): %s" % relpath)
     for problem in problems[:20]:
         print("   FAIL %s" % problem)
     if problems:
@@ -134,7 +146,7 @@ def main():
 
     print("\n2. Validator fit")
     results = check_validators(collections_map)
-    for name in ("monsters", "spells", "conditions", "sources"):
+    for name in sorted(results):
         failures = results[name]
         total_docs = len(collections_map[name])
         if failures:

@@ -21,7 +21,8 @@ from mongo import report as reportmod  # noqa: E402
 from mongo import schemas              # noqa: E402
 from mongo import transform            # noqa: E402
 
-COLLECTIONS = ["monsters", "spells", "conditions", "sources"]
+COLLECTIONS = ["monsters", "spells", "conditions", "sources",
+               "monster_lore", "monster_images"]
 
 
 def parse_args(argv=None):
