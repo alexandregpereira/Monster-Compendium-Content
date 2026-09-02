@@ -7,10 +7,34 @@
         },
         "totalMonsters": 123,
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
         "contentVersion": 1,
         "summary": "El Manual de Monstruos es un tesoro lleno de criaturas icónicas de D&D, como dragones, gigantes, flagelos mentales y observadores. Repleto de estadísticas fáciles de usar e historias cautivadoras, estimula tu imaginación. Un recurso imprescindible para los Dungeon Masters que enriquece cualquier aventura."
+    },
+    {
+        "source": {
+            "name": "Guía del Maestro de Gremios para Rávnica",
+            "originalName": "Guildmaster's Guide to Ravnica",
+            "acronym": "GGR"
+        },
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Descubre el vasto paisaje urbano de Rávnica, un mundo donde diez poderosos gremios compiten por el control. Este suplemento ofrece a jugadores y Dungeon Masters una gran cantidad de trasfondo, opciones de personaje y aventuras ambientadas en esta vibrante metrópolis. Adéntrate en las intrigas y alianzas que definen Rávnica, y forja tu propio destino entre sus muros."
+    },
+    {
+        "source": {
+            "name": "Eberron: El Resurgir de la Última Guerra",
+            "originalName": "Eberron: Rising from the Last War",
+            "acronym": "ERLW"
+        },
+        "totalMonsters": 38,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Explora las tierras de Eberron en este suplemento de campaña para el juego de rol más grande del mundo. Este libro proporciona todo lo que jugadores y Dungeon Masters necesitan para jugar a Dungeons & Dragons en Eberron: un mundo devastado por la guerra, repleto de tecnología impulsada por magia, aeronaves y trenes de relámpagos, donde el misterio de inspiración noir se encuentra con la aventura de capa y espada. ¿Entrará Eberron en una nueva era de prosperidad o volverá a caer la sombra de la guerra?"
     },
     {
         "source": {
@@ -26,15 +50,51 @@
     },
     {
         "source": {
-            "name": "Documento de Referencia del Sistema",
-            "originalName": "System Reference Document",
+            "name": "Tomo de los Enemigos de Mordenkainen",
+            "originalName": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
+        },
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Sumérgete en los conflictos épicos que dan forma al multiverso con el Tomo de los Enemigos de Mordenkainen. Este suplemento explora las luchas eternas entre facciones icónicas, como la Guerra de Sangre entre demonios y diablos, la antigua rivalidad entre elfos y drow, y las batallas cósmicas entre githyanki y githzerai."
+    },
+    {
+        "source": {
+            "name": "Guía de Van Richten para Ravenloft",
+            "originalName": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        },
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Adéntrate en los espeluznantes reinos de Ravenloft con la Guía de Van Richten para Ravenloft. Este suplemento explora los oscuros y misteriosos dominios del terror, revelando los horrores que acechan en su interior. Descubre los secretos de los Poderes Oscuros, los infames Señores de la Oscuridad y los retorcidos paisajes de Ravenloft. Con nuevas opciones de personaje, monstruos y una gran cantidad de trasfondo, esta guía es imprescindible para cualquier campaña ambientada en este escenario de horror gótico."
+    },
+    {
+        "source": {
+            "name": "Guía de Volo para Monstruos",
+            "originalName": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 122,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Volothamp Geddarm, el renombrado maestro del saber, regresa con una fascinante disertación sobre algunos de los monstruos más icónicos de los Reinos Olvidados. Esta obra proporciona un conocimiento invaluable tanto para Dungeon Masters como para jugadores. Ya sea que busques tesoros, trasfondo o trofeos, esta guía es imprescindible para tu próxima aventura, si es que logras sobrevivir."
+    },
+    {
+        "source": {
+            "name": "Documento de Referência do Sistema",
             "acronym": "SRD"
         },
         "totalMonsters": 322,
         "totalSpells": 323,
         "isEnabled": true,
         "isLoreEnabled": false,
-        "contentVersion": 1,
-        "summary": "El Documento de Referencia del Sistema (DRS) contiene contenido de reglas de D&D, como razas, clases y monstruos, disponible para su uso y consulta bajo la licencia Creative Commons. Sirve como base para que editores de terceros construyan sus propios productos y aventuras dentro del marco de Dungeons & Dragons. Si bien incluye una amplia gama de mecánicas básicas y criaturas icónicas, está diseñado como un recurso para creadores y no como una replicación completa de cada libro de expansión."
+        "isDefault": true,
+        "contentVersion": 5,
+        "summary": "O Documento de Referência do Sistema (SRD) contém o conteúdo das regras de D&D, como raças, classes e monstros, que está disponível para uso e referência sob a licença Creative Commons. Ele serve como uma base para que editoras terceiras possam construir seus próprios produtos e aventuras dentro da estrutura do Dungeons & Dragons. Embora inclua uma ampla gama de mecânicas essenciais e criaturas icônicas, ele foi projetado como um recurso para criadores, em vez de ser uma réplica completa de cada livro de expansão."
     }
 ]

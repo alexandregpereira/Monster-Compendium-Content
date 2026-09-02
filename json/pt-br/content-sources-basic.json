@@ -8,10 +8,81 @@
         },
         "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/refs/heads/main/covers/mm2024.webp",
         "totalMonsters": 186,
-        "isEnabled": false,
+        "isEnabled": true,
         "isLoreEnabled": true,
-        "contentVersion": 1,
+        "contentVersion": 3,
         "summary": "O Manual dos Monstros de 2025 é um bestiário totalmente revisado que apresenta centenas de monstros icônicos de D&D com fichas de estatísticas atualizadas para as regras de 2024. De criaturas clássicas a novas adições, este livro de referência é uma fonte essencial para Mestres."
+    },
+    {
+        "source": {
+            "name": "Livro do Jogador (2024)",
+            "originalName": "Player's Handbook (2024)",
+            "acronym": "PHB2024"
+        },
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/refs/heads/main/covers/phb2024.webp",
+        "totalSpells": 52,
+        "totalMonsters": 0,
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "contentVersion": 1,
+        "summary": "O Livro do Jogador (2024) é o principal livro de regras totalmente revisado para a edição 2024 de Dungeons & Dragons. Ele apresenta uma lista completa de magias reimaginada para as novas regras."
+    },
+    {
+        "source": {
+            "name": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
+        },
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Mergulhe nos conflitos épicos que moldam o multiverso com o Mordenkainen's Tome of Foes. Este livro explora as lutas eternas entre facções icônicas, como a Guerra do Sangue entre demônios e diabos, a antiga rivalidade entre elfos e drow, e as batalhas cósmicas envolvendo githyanki e githzerai."
+    },
+    {
+        "source": {
+            "name": "Guildmaster's Guide to Ravnica",
+            "acronym": "GGR"
+        },
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Descubra a vasta paisagem urbana de Ravnica, um mundo onde dez poderosas guildas lutam pelo controle. Este livro oferece aos jogadores e Mestres uma riqueza de conhecimento, opções de personagens e aventuras ambientadas nesta metrópole vibrante. Mergulhe na intriga e nas alianças que definem Ravnica e molde seu próprio destino dentro de suas muralhas."
+    },
+    {
+        "source": {
+            "name": "Van Richten's Guide to Ravenloft",
+            "acronym": "VRGR"
+        },
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.jpg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Adentre os reinos sombrios de Ravenloft com o Van Richten's Guide to Ravenloft. Este livro explora os domínios escuros e misteriosos do medo, investigando os horrores que espreitam dentro deles. Descubra os segredos dos Poderes das Trevas, os infames Senhores das Trevas e as paisagens distorcidas de Ravenloft. Com novas opções de personagens, monstros e uma riqueza de conhecimento, este guia é essencial para qualquer campanha ambientada neste cenário de horror gótico."
+    },
+    {
+        "source": {
+            "name": "Eberron: das Cinzas da Última Guerra",
+            "originalName": "Eberron: Rising from the Last War",
+            "acronym": "ERLW"
+        },
+        "totalMonsters": 38,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Explore as terras de Eberron neste livro de campanha para o maior jogo de RPG do mundo. Este livro fornece tudo o que jogadores e Mestres precisam para jogar Dungeons & Dragons em Eberron — um mundo devastado pela guerra, repleto de tecnologia mágica, naves aéreas e trens relâmpago, onde mistério inspirado no noir encontra aventura de espadachins. Eberron entrará em uma nova era próspera ou a sombra da guerra descerá novamente?"
+    },
+    {
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "originalName": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 122,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "summary": "Volothamp Geddarm, o renomado mestre do saber, retorna com uma dissertação fascinante sobre alguns dos monstros mais icônicos dos Forgotten Realms. Esta obra fornece conhecimentos inestimáveis para Mestres e jogadores. Se você está em busca de tesouros, conhecimento ou troféus, este guia é essencial para sua próxima aventura, se você sobreviver a ela."
     },
     {
         "source": {
@@ -23,6 +94,19 @@
         "isEnabled": true,
         "isLoreEnabled": false,
         "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
+    },
+    {
+        "source": {
+            "name": "Manual dos Monstros Legado",
+            "acronym": "MM-LEGACY",
+            "originalAcronym": "MM"
+        },
+        "totalMonsters": 7,
+        "coverImageUrl": "https://media.githubusercontent.com/media/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "isEnabled": true,
+        "isLoreEnabled": false,
+        "contentVersion": 1,
+        "summary": "Monstros do Manual dos Monstros original que não foram incluídos na edição de 2025."
     },
     {
         "source": {
