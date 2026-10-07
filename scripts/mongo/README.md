@@ -33,6 +33,7 @@ python3 scripts/mongo/import.py
 | `python3 scripts/mongo/import.py` | Load everything. Idempotent. |
 | `python3 scripts/mongo/import.py --dry-run` | Read and check, write nothing. No database needed. |
 | `python3 scripts/mongo/import.py --drop` | Rebuild from scratch. |
+| `python3 scripts/mongo/import.py --prune` | Also delete documents no longer present in any file. |
 | `python3 scripts/mongo/import.py --strict` | Also exit non-zero on content integrity errors. |
 | `python3 scripts/mongo/export.py --check` | Confirm the database still reproduces `json/` exactly. |
 | `python3 scripts/mongo/export.py --in-place` | Write the database back over `json/` — the future `/publish`. |
@@ -85,6 +86,8 @@ serves a monster across every locale and every source that reprints it.
 Added by the import, stripped on export:
 
 - `locale`, `source_acronym` — flattened from the file's position in the tree.
+- `file_position` — index within the source file, so export order never
+  depends on how the database returns rows.
 - `lineage` / `edition` / `role` — `MM`, `MM2024` and `MM-LEGACY` are three
   sources in one family. The `*-LEGACY` sources are *deltas*: `MM-LEGACY` holds
   exactly the 7 entries dropped from the 2024 edition, not a 2014 catalog.
@@ -122,6 +125,15 @@ still documents the old pair.
 `declared_total_spells`, so nothing in the database looks authoritative when it
 is not. The real count is an aggregation over `monsters`; `import.py` reports
 where the two disagree.
+
+## Orphaned documents
+
+The import upserts; it does not delete by default. A document whose file entry
+was removed therefore stays in the database and would be written back out on
+export. Every run reports these, and `--prune` deletes them.
+
+Pruning is opt-in because a document created through the editor is also absent
+from the files, and the import cannot tell that apart from stale data.
 
 ## Integrity report
 

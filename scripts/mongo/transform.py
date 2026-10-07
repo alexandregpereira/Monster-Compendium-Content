@@ -87,16 +87,26 @@ def content_hash(payload):
 
 # ------------------------------------------------------------------- files -> db
 
+UNPOSITIONED = 1 << 30
+
+
+def _position_of(doc):
+    """Recorded index within the source file; appended last when absent."""
+    value = doc.get("file_position")
+    return value if isinstance(value, int) else UNPOSITIONED
+
+
 def _strip_injected(doc):
     """The original entry, with this pipeline's additions removed and the
     surviving keys left in their original order."""
     return {k: v for k, v in doc.items() if k not in mf.INJECTED_KEYS}
 
 
-def _content_doc(entry, locale, acronym, kind):
+def _content_doc(entry, locale, acronym, kind, position):
     doc = dict(entry)  # injected keys append, so original order is preserved
     doc["locale"] = locale
     doc["source_acronym"] = acronym
+    doc["file_position"] = position
     lineage, edition, role = mf.lineage_for(acronym)
     doc["lineage"] = lineage
     doc["edition"] = edition
@@ -105,28 +115,31 @@ def _content_doc(entry, locale, acronym, kind):
     return doc
 
 
-def _lore_doc(entry, locale, lore_source):
+def _lore_doc(entry, locale, lore_source, position):
     doc = dict(entry)
     doc["locale"] = locale
     doc["lore_source"] = lore_source
+    doc["file_position"] = position
     doc["_id"] = "%s:%s:%s" % (locale, lore_source, entry["index"])
     return doc
 
 
-def _image_doc(entry, catalog):
+def _image_doc(entry, catalog, position):
     doc = dict(entry)
     doc["catalog"] = catalog
+    doc["file_position"] = position
     doc["_id"] = "%s:%s" % (catalog, entry["monster_index"])
     return doc
 
 
-def _source_doc(entry, locale, catalog):
+def _source_doc(entry, locale, catalog, position):
     acronym = entry["source"]["acronym"]
     doc = {}
     for key, value in entry.items():
         doc[mf.SOURCE_FIELD_RENAMES.get(key, key)] = value
     doc["locale"] = locale
     doc["catalog"] = catalog
+    doc["file_position"] = position
     doc["acronym"] = acronym
     doc["_id"] = "%s:%s:%s" % (locale, catalog, acronym)
     return doc
@@ -156,40 +169,44 @@ def files_to_documents():
         for kind in ("monsters", "spells"):
             for acronym, path in mf.content_files(locale, kind):
                 seen = set()
-                for entry in load_entries(path):
+                for position, entry in enumerate(load_entries(path)):
                     if entry["index"] in seen:
                         duplicates.append((mf.rel(path), entry["index"]))
                     seen.add(entry["index"])
-                    collections[kind].append(_content_doc(entry, locale, acronym, kind))
+                    collections[kind].append(
+                        _content_doc(entry, locale, acronym, kind, position))
 
         conditions_path = mf.conditions_file(locale)
         if os.path.exists(conditions_path):
-            for entry in load_entries(conditions_path):
+            for position, entry in enumerate(load_entries(conditions_path)):
                 doc = dict(entry)
                 doc["locale"] = locale
+                doc["file_position"] = position
                 doc["_id"] = "%s:%s" % (locale, entry["index"])
                 collections["conditions"].append(doc)
 
         for catalog, path in mf.source_config_files(locale):
-            for entry in load_entries(path):
-                collections["sources"].append(_source_doc(entry, locale, catalog))
+            for position, entry in enumerate(load_entries(path)):
+                collections["sources"].append(
+                    _source_doc(entry, locale, catalog, position))
 
         for lore_source, path in mf.lore_files(locale):
             seen = set()
-            for entry in load_entries(path):
+            for position, entry in enumerate(load_entries(path)):
                 if entry["index"] in seen:
                     duplicates.append((mf.rel(path), entry["index"]))
                 seen.add(entry["index"])
                 collections["monster_lore"].append(
-                    _lore_doc(entry, locale, lore_source))
+                    _lore_doc(entry, locale, lore_source, position))
 
     for catalog, path in mf.image_files():
         seen = set()
-        for entry in load_entries(path):
+        for position, entry in enumerate(load_entries(path)):
             if entry["monster_index"] in seen:
                 duplicates.append((mf.rel(path), entry["monster_index"]))
             seen.add(entry["monster_index"])
-            collections["monster_images"].append(_image_doc(entry, catalog))
+            collections["monster_images"].append(
+                _image_doc(entry, catalog, position))
 
     _attach_translation_revisions(collections)
     return collections, file_meta, duplicates
@@ -232,8 +249,14 @@ def documents_to_files(collections, file_meta):
     fmt = {m["_id"]: m for m in file_meta}
     grouped = {}
 
-    def add(path, entry):
-        grouped.setdefault(mf.rel(path), []).append(entry)
+    # Documents are placed by their recorded position in the file, never by
+    # the order the database happens to return them. Relying on that order
+    # worked only because a fresh import inserted documents in file order; one
+    # later insert reshuffles a whole file, which would show up as a publish
+    # diff touching content nobody edited. Documents created through the API
+    # have no recorded position and are appended, keeping a stable order.
+    def add(path, entry, position):
+        grouped.setdefault(mf.rel(path), []).append((position, entry))
 
     for locale in mf.LOCALES:
         for kind in ("monsters", "spells"):
@@ -243,18 +266,18 @@ def documents_to_files(collections, file_meta):
                     by_key.setdefault(doc["source_acronym"], []).append(doc)
             for acronym, path in mf.content_files(locale, kind):
                 for doc in by_key.get(acronym, []):
-                    add(path, _strip_injected(doc))
+                    add(path, _strip_injected(doc), _position_of(doc))
 
         conditions_path = mf.conditions_file(locale)
         if os.path.exists(conditions_path):
             for doc in collections.get("conditions", []):
                 if doc["locale"] == locale:
-                    add(conditions_path, _strip_injected(doc))
+                    add(conditions_path, _strip_injected(doc), _position_of(doc))
 
         for catalog, path in mf.source_config_files(locale):
             for doc in collections.get("sources", []):
                 if doc["locale"] == locale and doc["catalog"] == catalog:
-                    add(path, _unsource_doc(doc))
+                    add(path, _unsource_doc(doc), _position_of(doc))
 
         by_book = {}
         for doc in collections.get("monster_lore", []):
@@ -262,15 +285,16 @@ def documents_to_files(collections, file_meta):
                 by_book.setdefault(doc["lore_source"], []).append(doc)
         for lore_source, path in mf.lore_files(locale):
             for doc in by_book.get(lore_source, []):
-                add(path, _strip_injected(doc))
+                add(path, _strip_injected(doc), _position_of(doc))
             grouped.setdefault(mf.rel(path), [])  # empty books still emit "[]"
 
     for catalog, path in mf.image_files():
         for doc in collections.get("monster_images", []):
             if doc["catalog"] == catalog:
-                add(path, _strip_injected(doc))
+                add(path, _strip_injected(doc), _position_of(doc))
 
-    return {
-        path: serialize(entries, fmt.get(path, {}))
-        for path, entries in grouped.items()
-    }
+    out = {}
+    for path, pairs in grouped.items():
+        ordered = [entry for _, entry in sorted(pairs, key=lambda pair: pair[0])]
+        out[path] = serialize(ordered, fmt.get(path, {}))
+    return out

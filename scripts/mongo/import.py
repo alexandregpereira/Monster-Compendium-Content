@@ -36,6 +36,10 @@ def parse_args(argv=None):
                         help="drop the target collections before loading")
     parser.add_argument("--uri", help="MongoDB URI (default: $MONGO_URI)")
     parser.add_argument("--quiet", action="store_true", help="suppress the integrity report")
+    parser.add_argument("--prune", action="store_true",
+                        help="delete documents that no longer appear in any file "
+                             "(reported but kept by default, because a document "
+                             "created through the API is also absent from the files)")
     parser.add_argument("--strict", action="store_true",
                         help="also fail when the content tree has integrity errors "
                              "(by default those are reported but do not fail the run)")
@@ -93,6 +97,31 @@ def main(argv=None):
         stats = dbmod.bulk_upsert(database, name, collections_map[name])
         print("  %-11s inserted %-5d replaced %-5d (matched %d)"
               % (name, stats["inserted"], stats["modified"], stats["matched"]))
+
+    orphans = {}
+    for name in targets:
+        expected = {d["_id"] for d in collections_map[name]}
+        present = {d["_id"] for d in database[name].find({}, {"_id": 1})}
+        extra = sorted(present - expected)
+        if extra:
+            orphans[name] = extra
+
+    if orphans:
+        total = sum(len(v) for v in orphans.values())
+        action = "deleting" if args.prune else "keeping"
+        print("\n%d document(s) in the database no longer appear in any file "
+              "(%s):" % (total, action))
+        for name, ids in orphans.items():
+            for document_id in ids[:10]:
+                print("  %-14s %s" % (name, document_id))
+            if len(ids) > 10:
+                print("  %-14s ... and %d more" % (name, len(ids) - 10))
+        if args.prune:
+            for name, ids in orphans.items():
+                database[name].delete_many({"_id": {"$in": ids}})
+        else:
+            print("  Left in place. They will be written back out on export, so "
+                  "pass --prune if they are stale.")
 
     meta_stats = dbmod.bulk_upsert(database, mf.FILE_META_COLLECTION, file_meta)
     print("  %-11s inserted %-5d replaced %-5d"
