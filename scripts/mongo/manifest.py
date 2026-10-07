@@ -78,6 +78,7 @@ INJECTED_KEYS = [
     "edition",
     "role",
     "translated_from_rev",
+    "file_position",
 ]
 
 # Reversible renames applied to source-config documents, so that a field named

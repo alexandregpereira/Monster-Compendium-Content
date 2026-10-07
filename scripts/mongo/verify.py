@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Offline checks that need no database.
 
-Two things are worth proving before any server is involved:
+Three things are worth proving before any server is involved:
 
   1. Round trip -- documents_to_files(files_to_documents(tree)) reproduces every
      file byte for byte. If this fails, publishing would silently reformat or
@@ -9,11 +9,18 @@ Two things are worth proving before any server is involved:
   2. Validator fit -- every document already in the tree satisfies the
      $jsonSchema that import.py is about to attach. A validator that rejects
      existing content would let the editor load a monster it cannot save.
+  3. Order independence -- the round trip must not depend on the order
+     documents arrive in. MongoDB makes no ordering promise without an explicit
+     sort, and this originally passed only because a fresh import inserted
+     documents in file order. One later insert reshuffled whole files, so a
+     single edit through the API would have produced a publish diff touching
+     content nobody edited.
 
     python3 scripts/mongo/verify.py
 """
 
 import os
+import random
 import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -117,6 +124,33 @@ def check_roundtrip(collections_map, file_meta):
     return identical, len(rebuilt), problems, expected
 
 
+def check_order_independence(collections_map, file_meta):
+    """Rebuild from shuffled documents and require the same bytes.
+
+    Each document records its position in the source file, so output order has
+    to come from that and not from the order the database happens to return.
+    Shuffling here is the cheapest way to prove it: if anything still relies on
+    arrival order, the rebuilt files change.
+    """
+    shuffled = {}
+    rng = random.Random(20260823)  # fixed seed: a failure must be reproducible
+    for name, documents in collections_map.items():
+        copy = list(documents)
+        rng.shuffle(copy)
+        shuffled[name] = copy
+
+    ordered = transform.documents_to_files(collections_map, file_meta)
+    reshuffled = transform.documents_to_files(shuffled, file_meta)
+
+    problems = []
+    for relpath in sorted(ordered):
+        if relpath not in reshuffled:
+            problems.append("%s: missing when documents are shuffled" % relpath)
+        elif ordered[relpath] != reshuffled[relpath]:
+            problems.append("%s: output depends on document order" % relpath)
+    return len(ordered), problems
+
+
 def check_validators(collections_map):
     results = {}
     for name, schema in schemas.VALIDATORS.items():
@@ -159,7 +193,17 @@ def main():
         else:
             print("   %-11s all %d documents accepted" % (name, total_docs))
 
-    print("\n3. Key uniqueness")
+    print("\n3. Order independence")
+    total_files, order_problems = check_order_independence(collections_map, file_meta)
+    if order_problems:
+        failed = True
+        print("   %d / %d files stable under shuffling" % (total_files - len(order_problems), total_files))
+        for problem in order_problems[:20]:
+            print("   FAIL %s" % problem)
+    else:
+        print("   all %d files identical when documents are shuffled" % total_files)
+
+    print("\n4. Key uniqueness")
     if duplicates:
         failed = True
         for path, index in duplicates[:10]:
